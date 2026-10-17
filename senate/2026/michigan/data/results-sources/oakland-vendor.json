@@ -1,0 +1,11 @@
+{
+  "url": "https://results.enr.clarityelections.com/MI/Oakland/127284/",
+  "final_url": "https://results.enr.clarityelections.com/MI/Oakland/127284/",
+  "http_status": "200",
+  "retrieved_utc": "2026-10-17T23:26:06.710828+00:00",
+  "sha256": "6d00545d20ba03c07bff7c00cdba2f382db71831f49bab36a51b3ac9b7c8c1b6",
+  "bytes": 1166,
+  "links": [],
+  "text": " Redirecting... var url= 'versions.txt'; var jsonFile = new XMLHttpRequest(); jsonFile.open('GET', url, true); jsonFile.send(); jsonFile.onreadystatechange = function() { if (jsonFile.readyState == 4) { var originalUrlArray = window.location.href.split('?'); var urlRed = ''; switch (jsonFile.status) { case 200: var data = originalUrlArray[1] ? '/?' + originalUrlArray[1] : ''; urlRed = originalUrlArray[0] + 'web.345435.' + jsonFile.responseText + data; break; default: var data = originalUrlArray[1] ? '/#/?' + originalUrlArray[1] : ''; urlRed = originalUrlArray[0] + 'web.345435'+ data; } urlRed = urlRed.replace('index.html', ''); window.location.href = urlRed + '/'; } } Redirecting... ",
+  "error": ""
+}

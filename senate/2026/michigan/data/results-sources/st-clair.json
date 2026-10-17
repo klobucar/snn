@@ -1,0 +1,56 @@
+{
+  "url": "https://stclaircountyclerk.org/Page/Elections",
+  "final_url": "https://stclaircountyclerk.org/Page/Elections",
+  "http_status": "200",
+  "retrieved_utc": "2026-10-17T23:25:57.366310+00:00",
+  "sha256": "11cbc341a11282644b269f30fe52fe1c56d2d20e7faf4eec9bb789d11f29d00d",
+  "bytes": 17814,
+  "links": [
+    {
+      "text": "31st Circuit Court Electronic Fax Filing",
+      "url": "https://stclaircountyclerk.org/Page/31st_Circuit_Court_Electronic_Fax_Filing"
+    },
+    {
+      "text": "Elections",
+      "url": "https://stclaircountyclerk.org/Page/Elections"
+    },
+    {
+      "text": "Electronic Payments - Restitution, Court Fines and Costs",
+      "url": "https://stclaircountyclerk.org/OtherSubmission/Electronic_Payments_Restitution_Court_Fines_And_Costs"
+    },
+    {
+      "text": "2026 Election Information",
+      "url": "https://stclaircountyclerk.org/Page/Elections_2026_Election_Information"
+    },
+    {
+      "text": "Candidate/Filing Information",
+      "url": "https://stclaircountyclerk.org/Page/Elections_Candidate_Filing_Information"
+    },
+    {
+      "text": "Campaign Finance",
+      "url": "https://stclaircountyclerk.org/Page/Elections_Campaign_Finance"
+    },
+    {
+      "text": "General Election Information",
+      "url": "https://stclaircountyclerk.org/Page/Elections_General_Election_Information"
+    },
+    {
+      "text": "Historical Election Results",
+      "url": "https://stclaircountyclerk.org/Page/Elections_Historical_Election_Results"
+    },
+    {
+      "text": "Meeting Notices and Information",
+      "url": "https://stclaircountyclerk.org/Page/Elections_Meeting_Notices_And_Information"
+    },
+    {
+      "text": "Voting Information",
+      "url": "https://stclaircountyclerk.org/Page/Elections_Voting_Information"
+    },
+    {
+      "text": "SCC Elections",
+      "url": "mailto:elections@stclaircounty.org"
+    }
+  ],
+  "text": " Elections - St. Clair County Clerk's Office div { display:none; } This Website Requires JavaScript to function properly. Toggle navigation St. Clair County Clerk's Office Angie Waters, County Clerk Kimberly Bennett, Chief Deputy County Clerk Home Contact 31st Circuit Court Electronic Fax Filing Birth Certificate Request Business Forms Concealed Pistol License Court Calendar Death Certificate Request Elections Genealogy Jury Marriage Applications More... Notary Applications Register of Deeds St. Clair County Website Electronic Payments - Restitution, Court Fines and Costs Court Document Request Form Divorce Judgment Request Form Marriage Certificate Request-St Clair County, Michigan Elections - St. Clair County, Michigan ou 2026 Election Information Candidate/Filing Information Campaign Finance General Election Information Historical Election Results Meeting Notices and Information Voting Information St. Clair County Clerk - Elections Division 201 McMorran Boulevard, Port Huron, Michigan MI 48060 Phone: 810-985-2159 \u2022 Fax: 810-985-2241 Email: SCC Elections Copyright \u00a9 Independent IT - 2026 Elements of this website are the property of St. Clair County, Michigan $(document).ready( function(){ $(\".hideBodyElement\").fadeIn(200),$(\"#body_loading\").fadeOut(1000); //all fadeIn try {document.querySelectorAll('[autofocus]:not([autofocus=false])')[0].focus();}catch(e){/* none found */} //Focus First autofocus after unhidden } ); $(document).ready(function(){$('[data-toggle=\"offcanvas\"]').click(function(){$(\".row-offcanvas\").toggleClass(\"active\")})}); function openInNewTab(e){var o=window.open(e,\"_blank\");o?o.focus():alert(\"Please allow popups for this website\")} function refreshFlashMessagesTop(){ $.ajax({ url: \"/Combined/flash_messages/Top\", type: \"GET\", success: function(html) { $('#flashMessagesTop').html(html); } }); } function removePersistentSessionMessage(type, key){ $.ajax({ url: '/api/persistent_session_messages/v1/messages/'+type+'/'+key, type: 'DELETE', data: {'url': 'https://stclaircountyclerk.org/Page/Elections'} }); } function removePersistentSessionMessagesOfType(type){ $.ajax({ url: '/api/persistent_session_messages/v1/messages/'+type, type: 'DELETE', data: {'url': 'https://stclaircountyclerk.org/Page/Elections'} }); } function removePersistentSessionMessages(){ $.ajax({ url: '/api/persistent_session_messages/v1/messages', type: 'DELETE', data: {'url': 'https://stclaircountyclerk.org/Page/Elections'} }); } function refreshPersistentSessionMessagesTop(){ $.ajax({ url: \"/Combined/persistent_session_messages/Top\", type: \"GET\", data: {'url': 'https://stclaircountyclerk.org/Page/Elections'}, success: function(html) { $('#persistentSessionMessagesTop').html(html); } }); } window.addEventListener(\"beforeunload\",function(e){$(\".navbar-toggle:not(.collapsed)\").click(),$(\".active\").toggleClass(\"active\"),$(\".hideBodyElement\").fadeOut(190)},!1); $(document).ready(function() { // you may need to change this code if you are not using Bootstrap Datepicker $('.js-datepicker').datepicker({ format: 'mm/dd/yyyy', clearBtn: true, todayHighlight: true, zIndexOffset: 1040 }); }); $(document).ready(function(){ $(\"#main\").scroll(function(){ if ($(this).scrollTop() > 100) { $('#scroll_top').fadeIn(); } else { $('#scroll_top').fadeOut(); } }); $('#scroll_top').click(function(){ $(\"#main\").animate({ scrollTop: 0 }, 400); return false; }); }); $(document).ready(function() { var links = $(\"#main a\"); for(var i = 0; i < links.length; i++) { var thisLink = links[i]; if((thisLink.hostname != window.location.hostname) || (thisLink.pathname.split(\"/\")[1] == \"Public\" && thisLink.pathname.split(\"/\")[2] == \"File\")) { thisLink.target = \"_blank\"; } } }); ",
+  "error": ""
+}

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><metadata xml:lang="en">
+    <Esri>
+        <ArcGISFormat>1.0</ArcGISFormat>
+        <ArcGISProfile>FGDC</ArcGISProfile>
+    </Esri>
+    <dataIdInfo>
+        <idAbs>The 2024 Precinct data set represents the geography used for the 2024 election cycle. Information was collected from local election officials along with county/local GIS authorities as well as a validation done by most, but not all jurisdictions. BOE maintains every effort to keep this data correct, however the data set is only as good as the information received from the local election official.</idAbs>
+        <idCitation>
+            <resTitle>2024 Voting Precincts</resTitle>
+        </idCitation>
+        <dataExt>
+            <geoEle>
+                <GeoBndBox>
+                    <westBL>-90.5567</westBL>
+                    <eastBL>-82.0649</eastBL>
+                    <northBL>48.2841</northBL>
+                    <southBL>41.6321</southBL>
+                </GeoBndBox>
+            </geoEle>
+        </dataExt>
+        <searchKeys>
+            
+            
+            
+            
+            
+            
+            
+        <keyword>michigan</keyword><keyword>boundaries</keyword><keyword>boe</keyword><keyword>vtd</keyword><keyword>mdos</keyword><keyword>vote</keyword><keyword>election</keyword></searchKeys>
+        <idCredit>Michigan Department of State; Bureau of Elections. 
+
+Center for Shared Solutions, Department of Technology, Management, and Budget, State of Michigan</idCredit>
+        <resConst>
+            <Consts>
+                <useLimit>&lt;span style='font-family:&amp;quot;Avenir Next W01&amp;quot;, &amp;quot;Avenir Next W00&amp;quot;, &amp;quot;Avenir Next&amp;quot;, Avenir, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size:16px;'&gt;This dataset is a public record and, as more fully described below, there are no restrictions on the use, reproduction, or distribution of this dataset. Notwithstanding the foregoing, the public release of this dataset should not be construed, expressed or implied, as to whether any use constitutes a legally permissible purpose. It is the sole responsibility of the user to determine if the data is usable for their purposes. This dataset is provided “AS IS” and on an “AS AVAILABLE” basis. The State of Michigan (“State”) makes no warranties, express or implied, regarding the accuracy, adequacy, reliability, timeliness, or completeness of this dataset. The State also does not make any warranties, express or implied, for the continued quality, accuracy, or currency of this dataset after it has been downloaded, nor the quality or accuracy of any analyses or re-uses of this dataset. THE STATE DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS DATASET AND ANY INFORMATION PROVIDED TO YOU, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT OF PROPRIETARY RIGHTS. THE STATE WILL NOT BE LIABLE, REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY OR BY STATUTE OR OTHERWISE, FOR ANY CLAIM FOR CONSEQUENTIAL, INCIDENTAL, INDIRECT, OR SPECIAL DAMAGES, INCLUDING WITHOUT LIMITATION LOST PROFITS AND LOST BUSINESS OPPORTUNITIES, RELATED TO THE ACCESS OR USE OF THIS DATASET. IN NO EVENT WILL THE STATE BE LIABLE FOR ANY AMOUNTS THAT MAY RESULT FROM THE ACCESS OR USE OF THIS DATASET, REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR BY STATUTE OR OTHERWISE. You forever release the State, its departments, subdivisions, officers, and employees from all claims, rights, actions, demands, damages, liabilities, expenses and fees, which arise out of or relate to your access or use of this dataset. You must defend, indemnify and hold the State, its departments, subdivisions, officers, and employees harmless, without limitation, from and against all actions, claims, losses, liabilities, damages, costs, attorney fees, and expenses (including those required to establish the right to indemnification) arising out of or relating to your access or use of this dataset. The State reserves the right to modify or remove this dataset for any reason, without notice, at any time. Nothing in these terms constitutes or is intended to be a limitation upon, or waiver of, any privileges and immunities that apply to the State. These terms are governed by and interpreted under the laws of the State of Michigan without regard to conflict of laws provisions. These terms do not apply to other materials or content, including maps or logos, that may be located on the site or portal containing this dataset and that may be protected by intellectual property rights such copyright, trademark, or patent. Nothing in these terms should be construed, expressed or implied, as impacting any existing rights or licenses in such materials or content, if any.&lt;/span&gt;</useLimit>
+            </Consts>
+        </resConst>
+        <dataChar>
+            <CharSetCd value="004"/>
+        </dataChar>
+    </dataIdInfo>
+    <mdHrLv>
+        <ScopeCd value="005"/>
+    </mdHrLv>
+    <Binary>
+        <Thumbnail>
+            <Data EsriPropertyType="PictureX">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</Data>
+        </Thumbnail>
+    </Binary>
+    <mdFileID>02d40893317d46569017beeb14f9c63e</mdFileID>
+    <mdChar>
+        <CharSetCd value="004"/>
+    </mdChar>
+    <mdContact>
+        <rpCntInfo>
+            <cntAddress addressType="both">
+                <eMailAdd>ElectionData@michigan.gov</eMailAdd>
+                <delPoint>430 W Allegan St. 1st Floor</delPoint>
+                <city>Lansing</city>
+                <adminArea>MI</adminArea>
+                <postCode>48918</postCode>
+            </cntAddress>
+        </rpCntInfo>
+        <role>
+            <RoleCd value="007"/>
+        </role>
+        <rpOrgName>Bureau of Elections</rpOrgName>
+        <rpIndName>Dave Tarrant</rpIndName>
+    </mdContact>
+    <distInfo>
+        <distTranOps>
+            <onLineSrc>
+                <linkage>https://gisagocss.state.mi.us/arcgis/rest/services/OpenData/boundaries/MapServer/9</linkage>
+            </onLineSrc>
+        </distTranOps>
+    </distInfo>
+    <eainfo>
+        <detailed>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrtype>OBJECTID</attrtype>
+                <attrdef>Unique Identifier for the record</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PRECINCTID</attrlabl>
+                <attrtype>String</attrtype>
+                <attrdef>Unique Identifier for the precinct composed of County/Jurisdiction/WardPrecinct value</attrdef>
+                <attwidth>19</attwidth>
+            </attr>
+            <attr>
+                <attrlabl>ELECTIONYE</attrlabl>
+                <attrtype>Small Integer</attrtype>
+                <attrdef>Election Year</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>COUNTYFIPS</attrlabl>
+                <attrtype>String</attrtype>
+                <attrdef>County Federal Information Processing Standards code</attrdef>
+                <attwidth>3</attwidth>
+            </attr>
+            <attr>
+                <attrlabl>MCDFIPS</attrlabl>
+                <attrtype>String</attrtype>
+                <attrdef>Minor Civil Division Federal Information Processing Standards code for jurisdiction</attrdef>
+                <attwidth>5</attwidth>
+            </attr>
+            <attr>
+                <attrlabl>WARD</attrlabl>
+                <attrtype>String</attrtype>
+                <attrdef>Ward value if used</attrdef>
+                <attwidth>2</attwidth>
+            </attr>
+            <attr>
+                <attrlabl>PRECINCT</attrlabl>
+                <attrtype>String</attrtype>
+                <attrdef>Precinct Value</attrdef>
+                <attwidth>3</attwidth>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+                <attrtype>String</attrtype>
+                <attrdef>Code linking data to Census Data</attrdef>
+                <attwidth>15</attwidth>
+            </attr>
+            <attr>
+                <attrlabl>VTDST</attrlabl>
+                <attrtype>String</attrtype>
+                <attrdef>Contains the value of the 2020 Census’ “Voter (Tabulation) District”, or VTD.  The Census/TIGER VTD contains one or more census blocks that approximates the geography of the precinct.  Because they’re based upon census blocks, the VTD does not necessarily match the actual geography of the precinct.  For more information refer to Chapter 14 of the Geographic Areas Reference Manual (Nov 1994) (Ch14GARM.pdf (census.gov))</attrdef>
+                <attwidth>6</attwidth>
+            </attr>
+            <attr>
+                <attrlabl>Precinct_Long_Name</attrlabl>
+                <attrtype>String</attrtype>
+                <attrdef>Long Text Name for Precinct</attrdef>
+                <attwidth>255</attwidth>
+            </attr>
+            <attr>
+                <attrlabl>Precinct_Short_Name</attrlabl>
+                <attrtype>String</attrtype>
+                <attrdef>Short Text Name for Precinct</attrdef>
+                <attwidth>255</attwidth>
+            </attr>
+            <attr>
+                <attrlabl>Tabulator_Voter_Assist</attrlabl>
+                <attrtype>String</attrtype>
+                <attrdef>Description of voting equipment used in the precinct including vendor</attrdef>
+                <attwidth>255</attwidth>
+            </attr>
+            <attr>
+                <attrlabl>Jurisdiction</attrlabl>
+                <attrtype>String</attrtype>
+                <attrdef>Text name of jurisdiction</attrdef>
+                <attwidth>255</attwidth>
+            </attr>
+            <attr>
+                <attrlabl>Registered_Voters</attrlabl>
+                <attrtype>Small Integer</attrtype>
+                <attrdef>Count of registered voters for 2024</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Active_Voters</attrlabl>
+                <attrtype>Small Integer</attrtype>
+                <attrdef>Count of active voters for 2024</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrtype>esriFieldTypeGeometry</attrtype>
+                <attrdef>Geometry type field</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STArea()</attrlabl>
+                <attrtype>Double</attrtype>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STLength()</attrlabl>
+                <attrtype>Double</attrtype>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>NOTE: FIELD NAMES ARE TRUNCATED TO 10 CHARACTERS WHEN DOWNLOADING A SHAPEFILE</eaover>
+        </overview>
+    </eainfo>
+</metadata>

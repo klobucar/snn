@@ -1,0 +1,64 @@
+{
+  "url": "https://www.saginawcounty.com/departments/county-clerk/elections/",
+  "final_url": "https://www.saginawcountymi.gov/departments/county-clerk/elections/",
+  "http_status": "200",
+  "retrieved_utc": "2026-10-17T23:25:56.660536+00:00",
+  "sha256": "fd9e64dbc770254667c43bed8209a3957f607e264f19c0f38be40991a9410b9c",
+  "bytes": 33789,
+  "links": [
+    {
+      "text": "Departments & Elected Officials",
+      "url": "https://www.saginawcountymi.gov/departments/"
+    },
+    {
+      "text": "Property Search",
+      "url": "https://secure.saginawcounty.com/EqualizationSearch/Select.aspx"
+    },
+    {
+      "text": "Election Results",
+      "url": "https://app.enhancedvoting.com/results/public/saginaw-county-mi"
+    },
+    {
+      "text": "2026 November General Election",
+      "url": "https://www.saginawcountymi.gov/departments/county-clerk/elections/2026-november-general-election/"
+    },
+    {
+      "text": "9 Days Early In-Person Voting",
+      "url": "https://www.saginawcountymi.gov/departments/county-clerk/elections/9-days-early-in-person-voting/"
+    },
+    {
+      "text": "Historical Election Results",
+      "url": "https://www.saginawcountymi.gov/departments/county-clerk/elections/historical-election-results/"
+    },
+    {
+      "text": "Voter Information",
+      "url": "https://www.saginawcountymi.gov/departments/county-clerk/elections/voter-information/"
+    },
+    {
+      "text": "Campaign Finance",
+      "url": "https://www.saginawcountymi.gov/departments/county-clerk/elections/campaign-finance/"
+    },
+    {
+      "text": "Election Sign Ordinances",
+      "url": "https://www.saginawcountymi.gov/departments/county-clerk/elections/election-sign-ordinances/"
+    },
+    {
+      "text": "Election Inspectors",
+      "url": "https://www.saginawcountymi.gov/departments/county-clerk/elections/election-inspectors/"
+    },
+    {
+      "text": "Running For Office",
+      "url": "https://www.saginawcountymi.gov/departments/county-clerk/elections/running-for-office/"
+    },
+    {
+      "text": "Political Party Chairpersons & Official 2026 Precinct Delegates",
+      "url": "https://www.saginawcountymi.gov/departments/county-clerk/elections/political-party-chairpersons-official-2026-precinct-delegates/"
+    },
+    {
+      "text": "District Maps",
+      "url": "https://www.saginawcountymi.gov/departments/county-clerk/elections/district-maps/"
+    }
+  ],
+  "text": " (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-PW4XGNL'); County of Saginaw, MI - Elections Skip Navigation Directory Directions & Maps Employment Opportunities Departments Departments & Elected Officials Animal Care & Control Board of Commissioners Commission on Aging County Administrator and Finance County Clerk Equalization Health Human Resources Information Technology Medical Examiner Mosquito Control Parks & Recreation Public Works Drain Office Register of Deeds Treasurer Courts 10th Circuit Court 10th Circuit Juvenile & Family Court 70th District Court Business Court Community Corrections District Court Probation Friend of the Court Personal Protection Orders Probate Court Recovery Court Saginaw County Court Case Search Saginaw County Legal Self-Help Center STAR Program Public Safety Prosecuting Attorney 9-1-1 Administration Sheriff Emergency Management Services & Information Services & Information Directory Directions & Maps GIS Authority Opioid Settlement Funds Pay Taxes & Fines Search Public Records Vital Records & Licenses Search Public Records Court Cases & Hearings Property Search Register of Deeds Search (Tapestry) Community Resources Dow Event Center & Jolt Credit Union Event Park H. W. Browne Airport Local Municipalities Saginaw County Community Mental Health Authority Stay Connected Stay Connected Accessibility Information Accountability & Transparency Brand Identity Committee Minutes & Agendas County Facts and Symbols County Holidays Events Framework for Growth Freedom of Information Requests Press Releases & Public Notices Projects Social Media Accounts Employment Opportunities County Job Openings 9-1-1 Employment Opportunites Health Department Nursing Opportunities Parks Employment & Volunteer Opportunities Sheriff Employment Information Submit Elections Home Departments County Clerk Elections The Elections Division of the Saginaw County Clerk's Office is responsible for accepting candidate filings, programming and printing ballots, overseeing and maintaining permanent records of election results of all countywide elections, regular elections, and special elections. Other duties include assisting local clerks and citizens in interpreting Michigan Election Law and Campaign Finance Law according to State statutes. Elections Division [email protected] (989) 770-0218 111 S. Michigan Avenue First Floor, Room 101 Saginaw, Michigan 48602 Hours: Monday \u2013 Friday 9:00 a.m. to 5:00 p.m. .countdown { display: flex; gap: 30px; text-align: center; } .countdown div { display: flex; flex-direction: column; } .countdown span.value { font-size: 3rem; font-weight: bold; } .countdown span.label { font-size: 0.9rem; text-transform: uppercase; opacity: 0.7; } #message { font-size: 2rem; } Countdown to the November 3, 2026 General Election 00 Days 00 Hours 00 Minutes 00 Seconds // Set your target date here (ISO format, or \"Month DD, YYYY HH:MM:SS\") const targetDate = new Date(\"2026-11-03T08:00:00\").getTime(); const daysEl = document.getElementById(\"days\"); const hoursEl = document.getElementById(\"hours\"); const minutesEl = document.getElementById(\"minutes\"); const secondsEl = document.getElementById(\"seconds\"); const countdownEl = document.getElementById(\"countdown\"); const pad = (num) => String(num).padStart(2, \"0\"); const interval = setInterval(() => { const now = Date.now(); const diff = targetDate - now; if (diff <= 0) { clearInterval(interval); countdownEl.outerHTML = '<div id=\"message\">\ud83c\udf89 Time\\'s up! \ud83c\udf89</div>'; return; } const days = Math.floor(diff / (1000 * 60 * 60 * 24)); const hours = Math.floor((diff / (1000 * 60 * 60)) % 24); const minutes = Math.floor((diff / (1000 * 60)) % 60); const seconds = Math.floor((diff / 1000) % 60); daysEl.textContent = pad(days); hoursEl.textContent = pad(hours); minutesEl.textContent = pad(minutes); secondsEl.textContent = pad(seconds); }, 1000); Election Results 2026 November General Election 9 Days Early In-Person Voting Historical Election Results Voter Information Register to Vote Campaign Finance Election Sign Ordinances Election Inspectors Running For Office Political Party Chairpersons & Official 2026 Precinct Delegates District Maps Site Reference Departments Courts & Public Safety Services & Information Community Resources Stay Connected Additional Information County Calendar County Holidays News & Press Releases County Connect (Employee Portal) Employee Access Contact Us Saginaw County Courthouse 111 S. Michigan Ave Saginaw, MI 48602 Additional County Office Locations Social Media Accessibility Information Hours Courthouse: 8am-5pm Clerk: 8am-5pm Traffic: 8am-4:30pm See individual department pages for specific hours \u00a92026 County of Saginaw, Michigan. All rights reserved. ",
+  "error": ""
+}

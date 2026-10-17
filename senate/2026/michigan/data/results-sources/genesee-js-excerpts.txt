@@ -1,0 +1,190 @@
+Derived from truncated raw JS (curl size cap); no cadence inferred.
+
+AnlyticsEventCategory;
+}(ENRAnlyticsEventCategory || {});
+const ALL = 'ALL';
+const IS_ALL = value => String(value).toUpperCase() === ALL;
+// @dynamic
+class BaseEnrService {
+  getBaseUri(state, county, electionId, fileName) {
+    const countyUrl = !county || county === '' ? '' : `/${county}`;
+    return `/${state}${countyUrl}/${electionId}/${fileName}`;
+  }
+  getUri(state, county, electionId, version, fileName, lang) {
+    const countyUrl = !county || county === '' ? '' : `/${county}`;
+    const langUrl = !lang ? '' : `/${lang}`;
+    return `/${state}${countyUrl}/${electionId}/${version}/json${langUrl}/${fileName}`;
+  }
+  getUriReports(host, state, county, electionId, version, fileName) {
+    const countyUrl = !county || county === '' ? '' : `/${county}`;
+    return `${host}/${state}${countyUrl}/${electionId}/${version}/reports/${fileName}`;
+  }
+}
+var ReportingStatus = /*#__PURE__*/function (ReportingStatus) {
+  ReportingStatus[ReportingStatus["Certified"] = 0] = "Certified";
+  ReportingStatus[ReportingStatus["NotReported"] = 1] = "NotReported";
+  ReportingStatus[ReportingStatus["PartiallyReported"] = 2] = "PartiallyReported";
+  ReportingStatus[ReportingStatus["Participating"] = 3] = "Participating";
+  ReportingStatus[ReportingStatus["CompletelyReported"] = 4] = "CompletelyReported";
+  ReportingStatus[ReportingStatus["NotParticipating"] = 8] = "NotParticipating";
+  ReportingStatus[ReportingStatus["Hidden"] = 16] = "Hidden";
+  ReportingStatus[ReportingStatus["Cumulative"] = 32] = "Cumulative";
+  ReportingStatus[ReportingStatus["ElectionCompleted"] = 64] = "ElectionCompleted";
+  ReportingStatus["Tie"] = "";
+  return Reporting
+
+ileName["Status"] = "status.json";
+  FileName["StraightParty"] = "sp.json";
+  FileName["Sum"] = "sum.json";
+  FileName["Summary"] = "summary.json";
+  FileName["Version"] = "current_ver.txt";
+  FileName["VoteCenter"] = "vc.json";
+  FileName["VoteCenterStatus"] = "vc_status.json";
+  FileName["VoterType"] = "vt.json";
+  FileName["SummaryDetail"] = "summary-details.json";
+  FileName["WebConfig"] = "web.json";
+  return FileName;
+}(FileName || {});
+let ENRConfigService = /*#__PURE__*/(() => {
+  class ENRConfigService extends BaseEnrService {
+    get config() {
+      return this._config.getValue();
+    }
+    get config$() {
+      return this._config;
+    }
+    set config(config) {
+      this._config.next(config);
+      this.languages = config.languages;
+    }
+    get languages() {
+      return this._languages.getValue();
+    }
+    get languages$() {
+      return this._languages.asObservable();
+    }
+    set languages(value) {
+      this._languages.next(value);
+      this.selectedLang = value.find(({
+        selected
+      }) => selected);
+    }
+    get selectedLang$() {
+      return this._selectedLang.asObservable();
+    }
+    get selectedLang() {
+      return this._selectedLang.getValue();
+    }
+    set selectedLang(value) {
+      this._selectedLang.next(value);
+    }
+    constructor(apiService) {
+      super();
+      this.apiService = apiService;
+      this._config = new rxjs__WEBPACK_IMPORTED_MODULE_2__.BehaviorSubject(null);
+      this._languages = new rxjs__WEBPACK_IMPORTED_MODULE_2__.BehaviorSubject([]);
+      this._selectedLang = new rxjs__WEBPACK_IMPORTED_MODULE_2__.BehaviorSubject(null);
+    }
+    get(state, county, elec
+
+ `${host}/${state}${countyUrl}/${electionId}/${version}/reports/${fileName}`;
+  }
+}
+var ReportingStatus = /*#__PURE__*/function (ReportingStatus) {
+  ReportingStatus[ReportingStatus["Certified"] = 0] = "Certified";
+  ReportingStatus[ReportingStatus["NotReported"] = 1] = "NotReported";
+  ReportingStatus[ReportingStatus["PartiallyReported"] = 2] = "PartiallyReported";
+  ReportingStatus[ReportingStatus["Participating"] = 3] = "Participating";
+  ReportingStatus[ReportingStatus["CompletelyReported"] = 4] = "CompletelyReported";
+  ReportingStatus[ReportingStatus["NotParticipating"] = 8] = "NotParticipating";
+  ReportingStatus[ReportingStatus["Hidden"] = 16] = "Hidden";
+  ReportingStatus[ReportingStatus["Cumulative"] = 32] = "Cumulative";
+  ReportingStatus[ReportingStatus["ElectionCompleted"] = 64] = "ElectionCompleted";
+  ReportingStatus["Tie"] = "";
+  return ReportingStatus;
+}(ReportingStatus || {});
+var ReportingStatusKey = /*#__PURE__*/function (ReportingStatusKey) {
+  ReportingStatusKey["Certified"] = "certified";
+  ReportingStatusKey["NotReported"] = "notreported";
+  ReportingStatusKey["PartiallyReported"] = "partiallyreported";
+  ReportingStatusKey["Participating"] = "participating";
+  ReportingStatusKey["CompletelyReported"] = "completelyreported";
+  ReportingStatusKey["NotParticipating"] = "notparticipating";
+  ReportingStatusKey["Hidden"] = "hidden";
+  ReportingStatusKey["Cumulative"] = "cumulative";
+  ReportingStatusKey["ElectionCompleted"] = "electioncompleted";
+  ReportingStatusKey["Tie"] = "tie";
+  return ReportingStatusKey;
+}(ReportingStatusKey || {});
+var ReportingStatusColor = /*#__PURE__*/function (ReportingStat
+
+e}${countyUrl}/${electionId}/${version}/reports/${fileName}`;
+  }
+}
+var ReportingStatus = /*#__PURE__*/function (ReportingStatus) {
+  ReportingStatus[ReportingStatus["Certified"] = 0] = "Certified";
+  ReportingStatus[ReportingStatus["NotReported"] = 1] = "NotReported";
+  ReportingStatus[ReportingStatus["PartiallyReported"] = 2] = "PartiallyReported";
+  ReportingStatus[ReportingStatus["Participating"] = 3] = "Participating";
+  ReportingStatus[ReportingStatus["CompletelyReported"] = 4] = "CompletelyReported";
+  ReportingStatus[ReportingStatus["NotParticipating"] = 8] = "NotParticipating";
+  ReportingStatus[ReportingStatus["Hidden"] = 16] = "Hidden";
+  ReportingStatus[ReportingStatus["Cumulative"] = 32] = "Cumulative";
+  ReportingStatus[ReportingStatus["ElectionCompleted"] = 64] = "ElectionCompleted";
+  ReportingStatus["Tie"] = "";
+  return ReportingStatus;
+}(ReportingStatus || {});
+var ReportingStatusKey = /*#__PURE__*/function (ReportingStatusKey) {
+  ReportingStatusKey["Certified"] = "certified";
+  ReportingStatusKey["NotReported"] = "notreported";
+  ReportingStatusKey["PartiallyReported"] = "partiallyreported";
+  ReportingStatusKey["Participating"] = "participating";
+  ReportingStatusKey["CompletelyReported"] = "completelyreported";
+  ReportingStatusKey["NotParticipating"] = "notparticipating";
+  ReportingStatusKey["Hidden"] = "hidden";
+  ReportingStatusKey["Cumulative"] = "cumulative";
+  ReportingStatusKey["ElectionCompleted"] = "electioncompleted";
+  ReportingStatusKey["Tie"] = "tie";
+  return ReportingStatusKey;
+}(ReportingStatusKey || {});
+var ReportingStatusColor = /*#__PURE__*/function (ReportingStatusColor) {
+  Rep
+
+/*! ../scheduler/async */ 43236);
+/* harmony import */ var _timer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./timer */ 1807);
+
+
+function interval(period = 0, scheduler = _scheduler_async__WEBPACK_IMPORTED_MODULE_0__.asyncScheduler) {
+  if (period < 0) {
+    period = 0;
+  }
+  return (0,_timer__WEBPACK_IMPORTED_MODULE_1__.timer)(period, period, scheduler);
+}
+//# sourceMappingURL=interval.js.map
+
+/***/ }),
+
+/***/ 57786:
+/*!*****************************************************************!*\
+  !*** ./node_modules/rxjs/dist/esm/internal/observable/merge.js ***!
+  \*****************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   merge: () => (/* binding */ merge)
+/* harmony export */ });
+/* harmony import */ var _operators_mergeAll__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../operators/mergeAll */ 26365);
+/* harmony import */ var _innerFrom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./innerFrom */ 58750);
+/* harmony import */ var _empty__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./empty */ 983);
+/* harmony import */ var _util_args__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../util/args */ 9326);
+/* harmony import */ var _from__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./from */ 19724);
+
+
+
+
+
+function merge(...args) {
+  const scheduler = (0,_util_args__WEBPACK_IMPORTED_MODULE_0__.popScheduler)(args);
+  const concurrent = (0,_util_ar

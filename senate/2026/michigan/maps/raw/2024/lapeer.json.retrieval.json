@@ -1,0 +1,78 @@
+{
+  "url": "https://gisagocss.state.mi.us/arcgis/rest/services/OpenData/boundaries/MapServer/9/query?where=COUNTYFIPS%3D%27087%27&returnIdsOnly=true&f=json",
+  "retrieved_utc": "2026-10-17T23:31:18.939982+00:00",
+  "status": 200,
+  "headers": {
+    "Cache-Control": "must-revalidate,max-age=0,public",
+    "Content-Length": "196",
+    "Content-Type": "application/json; charset=UTF-8",
+    "ETag": "\"93be93fa\"",
+    "Vary": "Origin",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Content-Type-Options": "nosniff",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sat, 17 Oct 2026 23:31:18 GMT",
+    "Connection": "close"
+  },
+  "response_sha256": "fd90e33faad81560b3260bd1af9ed5d36c8347f3e5a835736ed8fee4e43787b5",
+  "ids_response": {
+    "objectIdFieldName": "OBJECTID",
+    "objectIds": [
+      985,
+      986,
+      987,
+      988,
+      989,
+      990,
+      991,
+      992,
+      993,
+      994,
+      995,
+      996,
+      997,
+      998,
+      999,
+      1000,
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      3679,
+      3680,
+      3681,
+      3682,
+      3683,
+      3684,
+      3685,
+      3686,
+      3687,
+      3688
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://gisagocss.state.mi.us/arcgis/rest/services/OpenData/boundaries/MapServer/9/query?objectIds=985%2C986%2C987%2C988%2C989%2C990%2C991%2C992%2C993%2C994%2C995%2C996%2C997%2C998%2C999%2C1000%2C1001%2C1002%2C1003%2C1004%2C1005%2C1006%2C1007%2C3679%2C3680%2C3681%2C3682%2C3683%2C3684%2C3685%2C3686%2C3687%2C3688&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "retrieved_utc": "2026-10-17T23:31:19.138324+00:00",
+      "status": 200,
+      "headers": {
+        "Cache-Control": "must-revalidate,max-age=0,public",
+        "Transfer-Encoding": "chunked",
+        "Content-Type": "application/geo+json; charset=UTF-8",
+        "ETag": "\"7a0f09db\"",
+        "Vary": "Origin",
+        "Server": "Microsoft-IIS/10.0",
+        "X-Content-Type-Options": "nosniff",
+        "X-Powered-By": "ASP.NET",
+        "Date": "Sat, 17 Oct 2026 23:31:18 GMT",
+        "Connection": "close"
+      },
+      "response_sha256": "300657d3e1218e039fd36df38ff0de647a3de9f9acb9df422977581f3201da25",
+      "local_path": "raw/2024/lapeer-page-00.geojson.gz",
+      "saved_sha256": "d10a9d468ff15013f852c9b748f9b34405dcad144db683e9f2cd84e26861da46"
+    }
+  ]
+}

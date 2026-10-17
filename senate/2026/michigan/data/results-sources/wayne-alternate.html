@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            margin:0;
+        }
+        .teal_bar {
+            background-color: #006786;
+            height: 40px;
+            color:#fff;
+            font-size: 22px;
+            font-weight: bold;
+            padding: 15px 0 0 0;
+            margin: 0;
+        }
+        
+        .feature-background-blurb {
+            margin: 0 auto;
+        }
+        
+        @media (min-width: 300px) {
+            .profile-featured-text {
+                max-width: 551px;
+                letter-spacing: 3px;
+                font-size: 30px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                padding-top: 28px !important;
+            }
+        }
+        .profile-featured-text {
+            background-color: rgba(31, 42, 64, 0.85);
+            margin-left: auto !important;
+            margin-right: auto !important;
+            position: relative;
+            letter-spacing: 1.7px;
+        }        
+
+        .profile-featured-text, a.profile-featured-text:visited {
+            color: #fff;
+            font-weight: bold;
+            font-family: "Lato", sans-serif;
+            font-style: normal;
+            padding: 14px 10px 10px 10px;
+            text-align: center;
+            float: none;
+        }
+
+        .profile-featured-text, a.profile-featured-text:visited {
+            padding: 20px;
+            display: block;
+            text-decoration: none;
+        }
+
+        @media (min-width: 300px) {
+            .profile-featured-text span {
+                font-size: 65px;
+                /* letter-spacing: 0; */
+            }
+        }
+        
+        @media (min-width: 300px) {
+            .profile-featured-text:before {
+                left: 50px;
+                right: calc(50% + 150px);
+            }
+        }
+        @media (min-width: 300px) {
+            .profile-featured-text:before, .profile-featured-text:after {
+                top: 48px;
+            }
+        }
+        .profile-featured-text:before, .profile-featured-text:after {
+            position: absolute;
+            height: 3px;
+            content: '';
+            background-color: #E39B36;
+        }
+        @media (min-width: 300px) {
+            .profile-featured-text:after {
+                left: calc(50% + 150px);
+                right: 50px;
+            }
+        }
+
+        .button {
+            font-size: 1em;
+            font-weight: bold;
+            background-color: #E39B36;
+            color: #1F2A40;
+            padding: 2px 15px;
+            display: inline-block;
+        }
+
+        .notice_start, .notice_end {
+            font-size: 25px;
+            font-weight:bold;
+            margin-bottom: 10px;
+            color: #1F2A40;
+        }
+
+        .notice {
+            font-size:18px;
+            margin-bottom: 10px;
+            color: #1F2A40;
+        }
+
+        .notice_end {
+            margin-bottom:40px;    
+        }
+
+        .redirect {
+            max-width: 551px;
+            box-shadow: 0px 5px 15px #1F2A4040;
+            justify-content: flex-start;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 15px 0;
+            margin-bottom:50px;
+        }
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <img src="https://utility.waynecountymi.gov/media/County/icon_logo.png" height="100px;" style="padding:20px 0">
+    <div class="teal_bar">You are being redirected to our new website!</div>
+    
+    
+    
+    <div class="feature-background-blurb">
+        <span class="profile-featured-text">
+			WELCOME TO<br><span>Wayne County</span>
+        </span>
+    </div> 
+    <div class="redirect">
+        <div class="notice_start">WayneCounty.com</div><br>
+        <div class="notice">IS NOW</div><br>
+        <div class="notice_end">WayneCountyMI.gov!</div>
+        <div class="button"><h2>Please update your bookmarks</h2></div>    
+    </div> 
+
+    
+    
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const paramValue = urlParams.get('r');
+        console.log('params:'+paramValue);
+
+        var redirects = [ 
+            ['/elected/treasurer/home.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Treasurer'],
+            ['/elected/clerk/home.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Clerk'], 
+            ['/elected/deeds/home.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Register-of-Deeds'],
+            ['/elected/clerk/marriage-licenses.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Clerk/General-Office/Marriage-Licenses'], 
+            ['/elected/clerk/birth-certificates.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Clerk/General-Office/Birth-Certificates'],
+            ['/elected/clerk/records.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Clerk/Records'],
+            ['/elected/clerk/concealed-pistol-licenses.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Clerk/General-Office/Concealed-Pistol-Licenses'],
+            ['/departments/hhvs/clinical/hiv-sexually-transmitted-infections-stis.aspx', 'https://www.waynecountymi.gov/Government/Departments/Health-Human-Veterans-Services/Clinical-Care-Services/Communicable-Diseases/HIV-Sexually-Transmitted-Infections-STIs'],
+            ['/elected/treasurer/auction.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Treasurer/Auctions-Claims'],
+            ['/elected/treasurer/forfeiture-foreclosure.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Treasurer/Property-Tax-Information/ForfeitureForeclosure-Timeline'],
+            ['/elected/deeds/search-services-and-copy.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Register-of-Deeds/Search-Services-and-Copy-Requests'],
+            ['/elected/treasurer', 'https://www.waynecountymi.gov/Government/Elected-Officials/Treasurer'],
+            ['/cjc/home.aspx', 'https://www.waynecountymi.gov/Government/Projects-Initiatives/Criminal-Justice-Center'],
+            ['/elected/treasurer/taxpayer-assistance.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Treasurer/Payment-Plans'],
+            ['/elected/treasurer/forfeited-property-list.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Treasurer/Property-Tax-Information/Forfeited-Property-List-with-Interested-Parties'],
+            ['/departments/phr/employment-process.aspx', 'https://www.waynecountymi.gov/Government/Departments/PersonnelHuman-Resources/Resources/Employment-Process'],
+            ['/elected/clerk/death-certificates.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Clerk/General-Office/Death-Certificates'],
+            ['/departments/publicservices/home.aspx', 'https://www.waynecountymi.gov/Government/Departments/Public-Services'],
+            ['/departments/phr/home.aspx', 'https://www.waynecountymi.gov/Government/Departments/PersonnelHuman-Resources'],
+            ['/elected/treasurer/tax-payment-options.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Treasurer/Making-A-Tax-Payment'],
+            ['/elected/prosecutor/home.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Prosecutor'],
+            ['/departments/environmental/landresources/household-hazardous-waste.aspx', 'https://www.waynecountymi.gov/Government/Departments/Environmental-Services/Land-Resource-Management/Materials-Management-Planning/Household-Hazardous-Waste-Program'],
+            ['/elected/deeds/document-recording.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Register-of-Deeds/Document-Recording'],
+            ['/departments/hhvs/meo/unclaimedPersons.aspx', 'https://www.waynecountymi.gov/Government/Departments/Health-Human-Veterans-Services/Medical-Examiner/Unclaimed-Unidentified-Persons-Search'],
+            ['/bluntfacts', 'https://www.waynecountymi.gov/Government/Departments/Health-Human-Veterans-Services/Public-Health/Environmental-Health/Environmental-Safety/Blunt-Facts-Cannabis-and-Your-Health'],
+            ['/departments/publicservices/roads/maps-resources.aspx', 'https://www.waynecountymi.gov/Government/Departments/Public-Services/Roads/Maps-Resources'],
+            ['/elected/clerk/personal-protection.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Clerk/Civil-Court-Services/Personal-Protection-Orders'],
+            ['/elected/treasurer/tax-exempt-program.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Treasurer/Payment-Plans/Tax-Exemption-Programs'],
+            ['/Home/PropertySearch', 'https://www.waynecountymi.gov/Government/Elected-Officials/Treasurer/Pay-Taxes-Online'],
+            ['/county/empres.aspx', 'https://www.waynecountymi.gov/Government/Employee-Resources'],
+            ['/elected/clerk/civil-court-services.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Clerk/Civil-Court-Services'],
+            ['/elected/clerk/election-results.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Clerk/Elections/Election-Candidates-Results'],
+            ['/departments/publicservices/roads.aspx', 'https://www.waynecountymi.gov/Government/Departments/Public-Services/Roads'],
+            ['/departments/hhvs/meo/faqs.aspx', 'https://www.waynecountymi.gov/Government/Departments/Health-Human-Veterans-Services/Medical-Examiner/FAQs'],
+            ['/departments/ids/home.aspx', 'https://www.waynecountymi.gov/Government/Departments/Indigent-Defense-Services'],
+            ['/articles/make-an-appointment-to-visit-the-wayne-county-treasurer.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Treasurer'],
+            ['/elected/clerk/notary-public.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Clerk/General-Office/Notary-Public'],
+            ['/elected/clerk/contact-us.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Clerk'],
+            ['/departments/publicservices/roads/road-construction-updates.aspx', 'https://www.waynecountymi.gov/Government/Departments/Public-Services/Roads'],
+            ['/elected/prosecutor/charges-issue-in-the-homicide-of-na-ziyah-harris.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Prosecutor/News-Resources'],
+            ['/elected/prosecutor/mother-of-children-found-in-the-freezer-has-charges.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Prosecutor/News-Resources'],
+            ['/elected/prosecutor/bothuell-parents-charged-with-torture-and-child-abuse.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Prosecutor/News-Resources'],
+            ['/articles/press-release-detroit-man-charged-with-first-degree.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Prosecutor/News-Resources'],
+            ['/articles/press-release-melvindale-police-sergeant-charged-with.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Prosecutor/News-Resources'],
+            ['/elected/deeds/complaint-submission-form.aspx', 'https://www.waynecountymi.gov/Government/Elected-Officials/Register-of-Deeds/Mortgage-Deed-Fraud-Unit/Complaint-Submission-Form']
+        ]
+
+        var applications = [ 
+            ['/servicedesk', 'https://wcmi.atlassian.net/servicedesk/customer/portals', 'www.waynecountymi.gov/servicedesk'], 
+            ['/idsdservicedesk', 'https://wcmi.atlassian.net/servicedesk/customer/portal/5', 'www.waynecountymi.gov/idsdservicedesk'],
+            ['/sdagent', 'https://wcmi.atlassian.net/jira/servicedesk/projects/ISD', 'www.waynecountymi.gov/sdagent'],            
+            ['/brightly', 'https://assetessentials.dudesolutions.com/WayneCountyMI', 'www.waynecountymi.gov/brightly'],
+            ['/wcpodesk', 'https://wcmi.atlassian.net/helpcenter/wcpo/', 'www.waynecountymi.gov/wcpodesk'],
+            ['/coi', 'https://waynecounty.my.onetrust.com', 'www.waynecountymi.gov/coi'],
+            ['/fusion', 'https://emqz.fa.us2.oraclecloud.com/fscmUI/faces/FuseWelcome', 'www.waynecountymi.gov/fusion'],
+            ['/jobs', 'https://emqz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/requisitions', 'www.waynecountymi.gov/jobs'],
+            ['/compass', 'https://compass.waynecountymi.gov', 'www.waynecountymi.gov/compass'],
+            ['/sotc', 'https://engage.waynecountymi.gov/sotc2025', 'www.waynecountymi.gov/sotc'],
+            ['/vas', 'https://us.openforms.com/Form/db66bd9c-9564-4044-b9dd-c093813146f8', 'www.waynecountymi.gov/vas'],
+            ['/hrpoll', 'https://gdffa833c5bf651-apexprod.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexprod/poll/login', 'www.waynecountymi.gov/hrpoll'],
+            ['/devpolls', 'https://gdffa833c5bf651-apexdev.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexdev/poll/login', 'www.waynecountymi.gov/devpolls'],
+            ['/wcsesc', 'https://gdffa833c5bf651-apexdev.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexdev/soil-erosion', 'www.waynecountymi.gov/wcsesc'],
+            ['/soil-erosion', 'https://gdffa833c5bf651-apexprod.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexprod/soil-erosion', 'www.waynecountymi.gov/soil-erosion'],
+            ['/soil-erosion/home', 'https://gdffa833c5bf651-apexprod.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexprod/soil-erosion', 'www.waynecountymi.gov/soil-erosion'],
+            ['/grants/PreAwardRiskAssessment', 'https://gdffa833c5bf651-apexprod.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexprod/grants/grants-pre-award-risk-assessment ', 'www.waynecountymi.gov/grants/PreAwardRiskAssessment'],
+            ['/grants', 'https://gdffa833c5bf651-apexprod.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexprod/grants ', 'www.waynecountymi.gov/grants'], 
+            ['/grievance', 'https://gdffa833c5bf651-apexprod.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexprod/grievance', 'www.waynecountymi.gov/grievance'],
+            ['/wctelecom', 'https://gdffa833c5bf651-apexprod.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexprod/telecom106', 'www.waynecountymi.gov/wctelecom'],
+            ['/wcprocurement', 'https://gdffa833c5bf651-apexprod.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexprod/procurement', 'www.waynecountymi.gov/wcprocurement'],
+            ['/eval', 'https://gdffa833c5bf651-apexdev.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexdev/performance-evaluation', 'www.waynecountymi.gov/eval'],
+            ['/performance', 'https://gdffa833c5bf651-apexprod.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexprod/performance-evaluation', 'www.waynecountymi.gov/performance'],
+            ['/blankets', 'https://gdffa833c5bf651-apexprod.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexprod/blankets', 'www.waynecountymi.gov/blankets'],
+            ['/idsdattorneybilling', 'https://g43a0084a934b0d-apexprod.adb.us-phoenix-1.oraclecloudapps.com/ords/r/apexprod/attorney-billing', 'www.waynecountymi.gov/idsdattorneybilling'], 
+            ['/idsabdev', 'https://g43a0084a934b0d-apexdev.adb.us-phoenix-1.oraclecloudapps.com/ords/f?p=117', 'www.waynecountymi.gov/idsabdev'],
+            ['/coireports', 'https://gdffa833c5bf651-apexprod.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexprod/coi-phr/3', 'www.waynecountymi.gov/coireports'],
+            ['/abapp', 'https://gdffa833c5bf651-apexprod.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexprod/ceo-authorities-board103', 'www.waynecountymi.gov/abapp'],
+            ['/parcels', 'https://gdffa833c5bf651-apexprod.adb.us-chicago-1.oraclecloudapps.com/ords/r/apexprod/wc-parcelmaster/parcel-search', 'www.waynecountymi.gov/parcels']
+        ]
+
+        var domains = [
+             ['sheriff.waynecounty.com', 'https://www.sheriffconnect.com/', 'sheriff.waynecountymi.gov'],
+             ['parks.waynecounty.com', 'https://www.waynecountymi.gov/Parks-Recreation', 'parks.waynecountymi.gov'],
+             ['parkfinder.waynecounty.com', 'https://utility.waynecountymi.gov/tools/parkfinder/', 'parkfinder.waynecountymi.gov'],
+             ['commission.waynecounty.com', 'https://www.waynecountymi.gov/Government/Elected-Officials/Commission', 'commission.waynecountymi.gov'],
+             ['services.waynecounty.com', 'https://www.waynecountymi.gov/Services', 'services.waynecountymi.gov'],
+             ['buildingauthority.waynecounty.com', 'https://www.waynecountymi.gov/Government/Boards-Authorities/Building-Authority', 'buildingauthority.waynecountymi.gov'],
+             ['humanrelations.waynecounty.com', 'https://www.waynecountymi.gov/Government/Departments/Corporation-Counsel/Human-Relations-Business-Inclusion', 'humanrelations.waynecountymi.gov'],
+             ['treasurer.waynecounty.com', 'https://www.waynecountymi.gov/Government/Elected-Officials/Treasurer', 'treasurer.waynecountymi.gov'],
+             ['servicedesk.waynecounty.com', 'https://wcmi.atlassian.net/servicedesk/customer/portals', 'servicedesk.waynecountymi.gov'],
+             ['intranet.waynecounty.com', 'https://chartercountyofwayne.sharepoint.com/', 'intranet.waynecountymi.gov'],
+             ['pta.waynecounty.com', 'https://www.waynecountymi.gov/Government/Elected-Officials/Treasurer/Pay-Taxes-Online', 'pta.waynecountymi.gov'],
+             ['compass.waynecounty.com', 'https://compass.waynecountymi.gov', 'compass.waynecountymi.gov']
+
+        ]
+
+
+
+        var result;
+        var found = false;
+        var notice;
+
+        // check if incoming domain starts with www or waynecounty.com 
+        //if (paramValue == null){
+        //   result = "https://www.waynecountymi.gov"
+        //}
+        //else 
+        if ((paramValue.substring(0, 1) == '/') ||(paramValue.substring(0, 3) == 'www') || (paramValue.substring(0, 5) == 'wayne')){
+            // loop through applications
+            for( var i = 0, len = applications.length; i < len; i++ ) {
+                // if a redirect is found
+                if( applications[i][0] === paramValue ) {
+                    result = applications[i][1];
+                    notice_start = 'waynecounty.com'+applications[i][0];
+                    notice_end = applications[i][2];
+                    console.log('notice: '+ notice_end);
+                    $('.notice_start').text(notice_start);
+                    $('.notice_end').text(notice_end);
+                    found = true;
+                    break;
+                }
+                // otherwise
+                else {
+                    result = "https://www.waynecountymi.gov"
+                }
+            }
+            if (!found){
+                // loop through the redirect array
+                for( var i = 0, len = redirects.length; i < len; i++ ) {
+                    // if a redirect is found
+                    if( redirects[i][0] === paramValue ) {
+                        result = redirects[i][1];
+
+                        found = true;
+                        break;
+                    }
+                    // otherwise
+                    else {
+                        result = "https://www.waynecountymi.gov"
+                    }
+                }
+            }
+        } else {
+        // Otherwise its a sub-domain forward
+            for( var i = 0, len = domains.length; i < len; i++ ) {
+                // if a redirect is found
+                if( domains[i][0] === paramValue ) {
+                    result = domains[i][1];
+                    notice_start = domains[i][0];
+                    notice_end = domains[i][2];
+                    console.log('notice: '+ notice_end);
+                    $('.notice_start').text(notice_start);
+                    $('.notice_end').text(notice_end);
+                    found = true;
+                    break;
+                }
+                // otherwise
+                else {
+                    result = "https://www.waynecountymi.gov"
+                }
+            }
+        }
+
+        console.log('result: '+ result);
+
+        // JavaScript redirect with a delay
+        setTimeout(function() {
+            window.location.href = result; // Replace with your new domain
+        }, 5000); // Delay in milliseconds (5 seconds in this case)
+    </script>
+</body>
+</html>

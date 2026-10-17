@@ -1,0 +1,34 @@
+{
+  "research_date": "2026-10-17",
+  "recorded_utc": "2026-10-17T23:31:28Z",
+  "evidence_type": "Researcher-paraphrased web-tool observations; not original response bytes",
+  "observations": [
+    {
+      "url": "https://www.kentcountymi.gov/335/Election-Results",
+      "access": "web open rendered county page; separate raw curl HTTP403",
+      "claims": ["County page links historical database for results since 2002", "November 3 2026 heading appears, without a results link under that heading in this page's web extraction", "August 4 2026 section links official Enhanced Voting results and summary/SOVC PDFs"],
+      "outbound_links_followed": ["https://electionstats.kentcountymi.gov/eng/", "https://app.enhancedvoting.com/results/public/kent-county-mi/elections/08042026"]
+    },
+    {
+      "url": "https://www.kentcountymi.gov/197/Elections",
+      "access": "web open rendered county page; separate raw curl HTTP403",
+      "claims": ["November 3 2026 section includes a link labeled unofficial election results", "Following that link returned Enhanced Voting application shell, not readable contest data"],
+      "outbound_links_followed": ["https://app.enhancedvoting.com/results/public/kent-county-mi/elections/11032026_20261005115447"],
+      "limitations": ["Observed URL is an actual county link, not a guessed contest ID", "No votes, Senate contest ID, refresh cadence or method schema verified"]
+    },
+    {
+      "url": "https://electionstats.kentcountymi.gov/",
+      "access": "web open rendered historical database description; raw curl HTTP200",
+      "claims": ["Database describes searchable historical elections from official documents", "County results page supplies official authority link"],
+      "limitations": ["Individual 2024/2022 contest queries not inspected", "Do not assume this historical archive is an election-night feed"]
+    },
+    {
+      "url": "https://www.waynecountymi.gov/Government/Elected-Officials/Clerk/Elections/Election-Results-Candidates",
+      "access": "web search returned indexed county page text; web open HTTP403; raw curl HTTP403",
+      "search_query": "site.waynecountymi.gov/Government/Elected-Officials/Clerk/Elections/Election-Results-Candidates 2026",
+      "claims": ["Indexed current county landing lists May, August and November 2026 elections", "Indexed November child page describes candidate and proposal lists"],
+      "indexed_child_url": "https://www.waynecountymi.gov/Government/Elected-Officials/Clerk/Elections/Election-Results-Candidates/November-3rd-2026-General-Election",
+      "limitations": ["Child page web open also HTTP403", "Search index is not equivalent to fresh page rendering", "No outbound official vendor linkage confirmed; search-only TotalVote/Azure candidates excluded from authoritative inventory"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "research_date": "2026-10-17",
+  "failures": [
+    {
+      "url": "https://mvic.sos.state.mi.us/votehistory/Index?electionDate=11-5-2024&type=C",
+      "result": "HTTP 403 via web retrieval; 2024 also urllib HTTP 403",
+      "retrieval_time": "not retained to second; research session 2026-10-17"
+    },
+    {
+      "url": "https://mvic.sos.state.mi.us/votehistory/Index?electionDate=11-8-2022&type=C",
+      "result": "HTTP 403 via web retrieval; 2024 also urllib HTTP 403",
+      "retrieval_time": "not retained to second; research session 2026-10-17"
+    },
+    {
+      "url": "https://mvic.sos.state.mi.us/votehistory/Index?electionDate=11-3-2020&type=C",
+      "result": "HTTP 403 via web retrieval; 2024 also urllib HTTP 403",
+      "retrieval_time": "not retained to second; research session 2026-10-17"
+    },
+    {
+      "url": "https://mielections.us/election/results/",
+      "result": "web retrieval timeout"
+    },
+    {
+      "url": "https://www.legislature.mi.gov/documents/2023-2024/michiganmanual/2023-MM-Chapter9.pdf",
+      "result": "urllib HTTP 403; web search indexed official text available, used for 2022 state totals"
+    }
+  ]
+}

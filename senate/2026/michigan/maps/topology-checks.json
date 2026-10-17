@@ -1,0 +1,751 @@
+{
+  "shapely_version": "2.2.0",
+  "geos_version": "3.14.1",
+  "files": [
+    {
+      "county": "Wayne",
+      "year": "2024",
+      "features": 847,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Wayne",
+      "year": "2026",
+      "features": 720,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Oakland",
+      "year": "2024",
+      "features": 497,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Oakland",
+      "year": "2026",
+      "features": 404,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Macomb",
+      "year": "2024",
+      "features": 308,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Macomb",
+      "year": "2026",
+      "features": 249,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Kent",
+      "year": "2024",
+      "features": 240,
+      "invalid": [
+        {
+          "precinct_id": "WP-081-14200-00001",
+          "reason": "Ring Self-intersection[-85.566193708241 43.2235203175458]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Kent",
+      "year": "2026",
+      "features": 202,
+      "invalid": [
+        {
+          "precinct_id": "WP-081-75440-00002",
+          "reason": "Nested shells[-85.6956252154939 43.1687951130963]"
+        },
+        {
+          "precinct_id": "WP-081-75440-00001",
+          "reason": "Nested shells[-85.7126599906846 43.1462709567926]"
+        },
+        {
+          "precinct_id": "WP-081-14200-00001",
+          "reason": "Ring Self-intersection[-85.5661937080614 43.2235203174726]"
+        },
+        {
+          "precinct_id": "WP-081-74460-00001",
+          "reason": "Nested shells[-85.5661937080614 43.2235203174726]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Genesee",
+      "year": "2024",
+      "features": 156,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Genesee",
+      "year": "2026",
+      "features": 142,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Washtenaw",
+      "year": "2024",
+      "features": 120,
+      "invalid": [
+        {
+          "precinct_id": "WP-161-03000-02016",
+          "reason": "Ring Self-intersection[-83.7054944357312 42.2740194932076]"
+        },
+        {
+          "precinct_id": "WP-161-03000-01008",
+          "reason": "Ring Self-intersection[-83.7661601806957 42.3080144471652]"
+        },
+        {
+          "precinct_id": "WP-161-03020-00001",
+          "reason": "Ring Self-intersection[-83.7079347020497 42.2751416587215]"
+        },
+        {
+          "precinct_id": "WP-161-71940-00001",
+          "reason": "Ring Self-intersection[-83.794461864729 42.2758378330899]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Washtenaw",
+      "year": "2026",
+      "features": 112,
+      "invalid": [
+        {
+          "precinct_id": "WP-161-47460-00001",
+          "reason": "Ring Self-intersection[-84.0143040688892 42.2949992412176]"
+        },
+        {
+          "precinct_id": "WP-161-22160-00001",
+          "reason": "Nested shells[-83.874936626679 42.3269407698542]"
+        },
+        {
+          "precinct_id": "WP-161-03000-02016",
+          "reason": "Ring Self-intersection[-83.7054944358678 42.2740194929657]"
+        },
+        {
+          "precinct_id": "WP-161-71940-00001",
+          "reason": "Ring Self-intersection[-83.7944618649265 42.2758378330183]"
+        },
+        {
+          "precinct_id": "WP-161-03000-01008",
+          "reason": "Ring Self-intersection[-83.7661601804906 42.3080144474097]"
+        },
+        {
+          "precinct_id": "WP-161-03000-05051",
+          "reason": "Nested shells[-83.784456378088 42.298244511084]"
+        },
+        {
+          "precinct_id": "WP-161-71940-00002",
+          "reason": "Nested shells[-83.8908629445894 42.339073209086]"
+        },
+        {
+          "precinct_id": "WP-161-03000-02019",
+          "reason": "Nested shells[-83.7071451674575 42.2860553464626]"
+        },
+        {
+          "precinct_id": "WP-161-03020-00001",
+          "reason": "Ring Self-intersection[-83.7079347021506 42.2751416586421]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Ottawa",
+      "year": "2024",
+      "features": 101,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Ottawa",
+      "year": "2026",
+      "features": 98,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Ingham",
+      "year": "2024",
+      "features": 103,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Ingham",
+      "year": "2026",
+      "features": 81,
+      "invalid": [
+        {
+          "precinct_id": "WP-065-46000-02017",
+          "reason": "Nested shells[-84.4593704345988 42.6973389472283]"
+        },
+        {
+          "precinct_id": "WP-065-53140-00013",
+          "reason": "Nested shells[-84.4619598616429 42.7013651664954]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Kalamazoo",
+      "year": "2024",
+      "features": 105,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Kalamazoo",
+      "year": "2026",
+      "features": 85,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Livingston",
+      "year": "2024",
+      "features": 73,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Livingston",
+      "year": "2026",
+      "features": 65,
+      "invalid": [
+        {
+          "precinct_id": "WP-093-39540-00001",
+          "reason": "Nested shells[-83.9471824718827 42.6221569333367]"
+        },
+        {
+          "precinct_id": "WP-093-36100-00007",
+          "reason": "Nested shells[-83.7987396557842 42.4691361616583]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Saginaw",
+      "year": "2024",
+      "features": 76,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Saginaw",
+      "year": "2026",
+      "features": 71,
+      "invalid": [
+        {
+          "precinct_id": "WP-145-30220-00001",
+          "reason": "Nested shells[-83.7494850817566 43.3471533289518]"
+        },
+        {
+          "precinct_id": "WP-145-30200-00001",
+          "reason": "Ring Self-intersection[-83.7181700741585 43.3357652020187]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "St. Clair",
+      "year": "2024",
+      "features": 63,
+      "invalid": [
+        {
+          "precinct_id": "WP-147-40920-00002",
+          "reason": "Ring Self-intersection[-82.6748157555348 42.7077619549061]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "St. Clair",
+      "year": "2026",
+      "features": 61,
+      "invalid": [
+        {
+          "precinct_id": "WP-147-40920-00002",
+          "reason": "Ring Self-intersection[-82.6748157552308 42.7077619550774]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Muskegon",
+      "year": "2024",
+      "features": 53,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Muskegon",
+      "year": "2026",
+      "features": 52,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Monroe",
+      "year": "2024",
+      "features": 63,
+      "invalid": [
+        {
+          "precinct_id": "WP-115-55020-00005",
+          "reason": "Ring Self-intersection[-83.4014962026258 41.9384849581892]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Monroe",
+      "year": "2026",
+      "features": 63,
+      "invalid": [
+        {
+          "precinct_id": "WP-115-55020-00005",
+          "reason": "Ring Self-intersection[-83.4014962028644 41.9384849579822]"
+        },
+        {
+          "precinct_id": "WP-115-07720-00003",
+          "reason": "Nested shells[-83.2473414427436 41.9776891019933]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Berrien",
+      "year": "2024",
+      "features": 58,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Berrien",
+      "year": "2026",
+      "features": 55,
+      "invalid": [
+        {
+          "precinct_id": "WP-021-11420-00001",
+          "reason": "Nested shells[-86.3631357616749 41.8417212556633]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Jackson",
+      "year": "2024",
+      "features": 59,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Jackson",
+      "year": "2026",
+      "features": 56,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Allegan",
+      "year": "2024",
+      "features": 45,
+      "invalid": [
+        {
+          "precinct_id": "WP-005-46760-00002",
+          "reason": "Ring Self-intersection[-85.6000132329259 42.7450891132979]"
+        },
+        {
+          "precinct_id": "WP-005-45180-00002",
+          "reason": "Ring Self-intersection[-86.1695883972542 42.6995630768934]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Allegan",
+      "year": "2026",
+      "features": 44,
+      "invalid": [
+        {
+          "precinct_id": "WP-005-45180-00002",
+          "reason": "Ring Self-intersection[-86.1695883968202 42.6995630768964]"
+        },
+        {
+          "precinct_id": "WP-005-46760-00002",
+          "reason": "Ring Self-intersection[-85.6000132330446 42.7450891132855]"
+        },
+        {
+          "precinct_id": "WP-005-01280-00001",
+          "reason": "Nested shells[-85.8357615760615 42.5505111515748]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Calhoun",
+      "year": "2024",
+      "features": 56,
+      "invalid": [
+        {
+          "precinct_id": "WP-025-05920-02018",
+          "reason": "Ring Self-intersection[-85.1797365977951 42.3013786803199]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Calhoun",
+      "year": "2026",
+      "features": 47,
+      "invalid": [
+        {
+          "precinct_id": "WP-025-51940-00002",
+          "reason": "Nested shells[-85.0545319200482 42.2721535546856]"
+        },
+        {
+          "precinct_id": "WP-025-05920-02007",
+          "reason": "Ring Self-intersection[-85.1797365980491 42.3013786803681]"
+        },
+        {
+          "precinct_id": "WP-025-51960-00001",
+          "reason": "Nested shells[-84.9968724054901 42.2720046768116]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Eaton",
+      "year": "2024",
+      "features": 44,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Eaton",
+      "year": "2026",
+      "features": 39,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Grand Traverse",
+      "year": "2024",
+      "features": 39,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Grand Traverse",
+      "year": "2026",
+      "features": 36,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Bay",
+      "year": "2024",
+      "features": 40,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Bay",
+      "year": "2026",
+      "features": 35,
+      "invalid": [
+        {
+          "precinct_id": "WP-017-64180-00001",
+          "reason": "Nested shells[-83.9723463868453 43.8534992432445]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Lapeer",
+      "year": "2024",
+      "features": 33,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Lapeer",
+      "year": "2026",
+      "features": 32,
+      "invalid": [],
+      "empty": []
+    },
+    {
+      "county": "Lenawee",
+      "year": "2024",
+      "features": 41,
+      "invalid": [
+        {
+          "precinct_id": "WP-091-09020-00002",
+          "reason": "Ring Self-intersection[-83.8819926222101 41.8365050464247]"
+        }
+      ],
+      "empty": []
+    },
+    {
+      "county": "Lenawee",
+      "year": "2026",
+      "features": 40,
+      "invalid": [
+        {
+          "precinct_id": "WP-091-00440-00004",
+          "reason": "Nested shells[-84.0553182629667 41.910693088495]"
+        },
+        {
+          "precinct_id": "WP-091-09020-00002",
+          "reason": "Ring Self-intersection[-83.8819926219446 41.836505046738]"
+        }
+      ],
+      "empty": []
+    }
+  ],
+  "cross_vintage": [
+    {
+      "county": "Wayne",
+      "common_ids": 659,
+      "only_2024_ids": 188,
+      "only_2026_ids": 61,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 659,
+      "invalid_not_compared": 0,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Oakland",
+      "common_ids": 394,
+      "only_2024_ids": 103,
+      "only_2026_ids": 10,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 394,
+      "invalid_not_compared": 0,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Macomb",
+      "common_ids": 248,
+      "only_2024_ids": 60,
+      "only_2026_ids": 1,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 248,
+      "invalid_not_compared": 0,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Kent",
+      "common_ids": 177,
+      "only_2024_ids": 63,
+      "only_2026_ids": 25,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 173,
+      "invalid_not_compared": 4,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Genesee",
+      "common_ids": 141,
+      "only_2024_ids": 15,
+      "only_2026_ids": 1,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 141,
+      "invalid_not_compared": 0,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Washtenaw",
+      "common_ids": 112,
+      "only_2024_ids": 8,
+      "only_2026_ids": 0,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 103,
+      "invalid_not_compared": 9,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Ottawa",
+      "common_ids": 90,
+      "only_2024_ids": 11,
+      "only_2026_ids": 8,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 90,
+      "invalid_not_compared": 0,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Ingham",
+      "common_ids": 81,
+      "only_2024_ids": 22,
+      "only_2026_ids": 0,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 79,
+      "invalid_not_compared": 2,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Kalamazoo",
+      "common_ids": 85,
+      "only_2024_ids": 20,
+      "only_2026_ids": 0,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 85,
+      "invalid_not_compared": 0,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Livingston",
+      "common_ids": 65,
+      "only_2024_ids": 8,
+      "only_2026_ids": 0,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 63,
+      "invalid_not_compared": 2,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Saginaw",
+      "common_ids": 71,
+      "only_2024_ids": 5,
+      "only_2026_ids": 0,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 69,
+      "invalid_not_compared": 2,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "St. Clair",
+      "common_ids": 61,
+      "only_2024_ids": 2,
+      "only_2026_ids": 0,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 60,
+      "invalid_not_compared": 1,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Muskegon",
+      "common_ids": 52,
+      "only_2024_ids": 1,
+      "only_2026_ids": 0,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 52,
+      "invalid_not_compared": 0,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Monroe",
+      "common_ids": 63,
+      "only_2024_ids": 0,
+      "only_2026_ids": 0,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 61,
+      "invalid_not_compared": 2,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Berrien",
+      "common_ids": 55,
+      "only_2024_ids": 3,
+      "only_2026_ids": 0,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 54,
+      "invalid_not_compared": 1,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Jackson",
+      "common_ids": 56,
+      "only_2024_ids": 3,
+      "only_2026_ids": 0,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 56,
+      "invalid_not_compared": 0,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Allegan",
+      "common_ids": 41,
+      "only_2024_ids": 4,
+      "only_2026_ids": 3,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 38,
+      "invalid_not_compared": 3,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Calhoun",
+      "common_ids": 44,
+      "only_2024_ids": 12,
+      "only_2026_ids": 3,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 41,
+      "invalid_not_compared": 3,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Eaton",
+      "common_ids": 39,
+      "only_2024_ids": 5,
+      "only_2026_ids": 0,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 39,
+      "invalid_not_compared": 0,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Grand Traverse",
+      "common_ids": 35,
+      "only_2024_ids": 4,
+      "only_2026_ids": 1,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 35,
+      "invalid_not_compared": 0,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Bay",
+      "common_ids": 35,
+      "only_2024_ids": 5,
+      "only_2026_ids": 0,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 34,
+      "invalid_not_compared": 1,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Lapeer",
+      "common_ids": 32,
+      "only_2024_ids": 1,
+      "only_2026_ids": 0,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 32,
+      "invalid_not_compared": 0,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    },
+    {
+      "county": "Lenawee",
+      "common_ids": 40,
+      "only_2024_ids": 1,
+      "only_2026_ids": 0,
+      "exact_topological_equal_geometry": 0,
+      "different_geometry": 38,
+      "invalid_not_compared": 2,
+      "warning": "Different CRS transformations may cause tiny coordinate differences; this is not proof of boundary change."
+    }
+  ]
+}
