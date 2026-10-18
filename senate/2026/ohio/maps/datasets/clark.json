@@ -1,0 +1,60 @@
+{
+  "county": "clark",
+  "url": "https://ago.clarkcountyohio.gov/ccoarcgis/rest/services/WMAS/VotingPrecincts/MapServer/0",
+  "authority": "Clark County GIS",
+  "vintage": "current-published; effective date unestablished",
+  "approved_nov2026": false,
+  "layer_metadata_path": "evidence/gis/clark/layer.gz",
+  "count_path": "evidence/gis/clark/count.gz",
+  "ids_path": "evidence/gis/clark/ids.gz",
+  "batch_paths": [
+    "evidence/gis/clark/batch-000.gz",
+    "evidence/gis/clark/batch-001.gz"
+  ],
+  "feature_count": 78,
+  "object_id_field": "OBJECTID",
+  "native_sr": {
+    "wkid": 102100,
+    "latestWkid": 3857,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.002,
+    "mTolerance": 0.002,
+    "falseX": -20037700,
+    "falseY": -30241100,
+    "xyUnits": 10000,
+    "falseZ": -100000,
+    "zUnits": 8000,
+    "falseM": -100000,
+    "mUnits": 1000
+  },
+  "query_sr": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "fields": [
+    "OBJECTID",
+    "PRECINCTID",
+    "NAME",
+    "COUNTY",
+    "LASTUPDATE",
+    "LASTEDITOR",
+    "Name2",
+    "Location",
+    "Location2",
+    "MapNumber",
+    "SHAPE",
+    "MapName",
+    "GlobalID",
+    "SHAPE_Length",
+    "SHAPE_Area"
+  ],
+  "pagination": "count equals unique ID set equals every requested and returned batch ID; no transfer flag; no filter or simplification or reprojection",
+  "linearized_derivative_path": "evidence/gis-derivative/clark/linearized.gz",
+  "native_curve_object_ids": [
+    147,
+    166
+  ],
+  "linearized_derivative_paths": [
+    "evidence/gis-derivative/clark/linearized.gz"
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "feature_count": 212,
+  "source_vertices": 34077,
+  "derived_vertices": 34077,
+  "empty_ordinals": [],
+  "invalid_features": [],
+  "finite_bounds": true,
+  "overlap_pairs": [],
+  "intersection_errors": [],
+  "id_field_diagnostics": {
+    "ALAND20": {
+      "nonblank": 212,
+      "blank_or_null": 0,
+      "unique_nonblank": 212,
+      "reused_values": {},
+      "examples": [
+        "1822981",
+        "1124816",
+        "636919",
+        "928839",
+        "1256319",
+        "5880775",
+        "2332195",
+        "1021190"
+      ]
+    },
+    "AWATER20": {
+      "nonblank": 212,
+      "blank_or_null": 0,
+      "unique_nonblank": 140,
+      "reused_values": {
+        "0": 73
+      },
+      "examples": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "394047",
+        "17968",
+        "77808"
+      ]
+    },
+    "COUNTYFP20": {
+      "nonblank": 212,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "099": 212
+      },
+      "examples": [
+        "099",
+        "099",
+        "099",
+        "099",
+        "099",
+        "099",
+        "099",
+        "099"
+      ]
+    },
+    "FUNCSTAT20": {
+      "nonblank": 212,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "N": 212
+      },
+      "examples": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    "GEOID20": {
+      "nonblank": 212,
+      "blank_or_null": 0,
+      "unique_nonblank": 212,
+      "reused_values": {},
+      "examples": [
+        "39099050ACM",
+        "39099050AGK",
+        "39099050AQL",
+        "39099050ARM",
+        "39099050ADU",
+        "39099050ACN",
+        "39099050AQZ",
+        "39099050AEX"
+      ]
+    },
+    "INTPTLAT20": {
+      "nonblank": 212,
+      "blank_or_null": 0,
+      "unique_nonblank": 212,
+      "reused_values": {},
+      "examples": [
+        "+41.1029904",
+        "+41.0771141",
+        "+41.0590333",
+        "+41.1051504",
+        "+41.1104416",
+        "+41.0989608",
+        "+41.0816254",
+        "+41.0649107"
+      ]
+    },
+    "INTPTLON20": {
+      "nonblank": 212,
+      "blank_or_null": 0,
+      "unique_nonblank": 212,
+      "reused_values": {},
+      "examples": [
+        "-080.6230436",
+        "-080.6293094",
+        "-080.6210903",
+        "-080.6996707",
+        "-080.7004939",
+        "-080.5813278",
+        "-080.6918685",
+        "-080.6776948"
+      ]
+    },
+    "LSAD20": {
+      "nonblank": 212,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "00": 212
+      },
+      "examples": [
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00"
+      ]
+    },
+    "MTFCC20": {
+      "nonblank": 212,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "G5240": 212
+      },
+      "examples": [
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240"
+      ]
+    },
+    "NAME20": {
+      "nonblank": 212,
+      "blank_or_null": 0,
+      "unique_nonblank": 211,
+      "reused_values": {
+        "SEBRING 3": 2
+      },
+      "examples": [
+        "YOUNGSTOWN 2C",
+        "YOUNGSTOWN 7E",
+        "YOUNGSTOWN 7G",
+        "YOUNGSTOWN 4D",
+        "YOUNGSTOWN 4A",
+        "YOUNGSTOWN 2D",
+        "YOUNGSTOWN 5C",
+        "YOUNGSTOWN 5F"
+      ]
+    },
+    "NAMELSAD20": {
+      "nonblank": 212,
+      "blank_or_null": 0,
+      "unique_nonblank": 211,
+      "reused_values": {
+        "SEBRING 3": 2
+      },
+      "examples": [
+        "YOUNGSTOWN 2C",
+        "YOUNGSTOWN 7E",
+        "YOUNGSTOWN 7G",
+        "YOUNGSTOWN 4D",
+        "YOUNGSTOWN 4A",
+        "YOUNGSTOWN 2D",
+        "YOUNGSTOWN 5C",
+        "YOUNGSTOWN 5F"
+      ]
+    },
+    "STATEFP20": {
+      "nonblank": 212,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "39": 212
+      },
+      "examples": [
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39"
+      ]
+    },
+    "VTDI20": {
+      "nonblank": 212,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "A": 212
+      },
+      "examples": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "VTDST20": {
+      "nonblank": 212,
+      "blank_or_null": 0,
+      "unique_nonblank": 212,
+      "reused_values": {},
+      "examples": [
+        "050ACM",
+        "050AGK",
+        "050AQL",
+        "050ARM",
+        "050ADU",
+        "050ACN",
+        "050AQZ",
+        "050AEX"
+      ]
+    }
+  },
+  "checks_do_not_approve_boundaries": true,
+  "extent_native": [
+    -81.086726,
+    40.899772999999996,
+    -80.51881499999999,
+    41.134474999999995
+  ],
+  "crs_wkt": "GEOGCRS[\"NAD83\",DATUM[\"North American Datum 1983\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6269]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"longitude\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"latitude\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]]]"
+}

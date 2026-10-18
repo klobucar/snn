@@ -1,0 +1,47 @@
+{
+  "county": "muskingum",
+  "url": "https://services5.arcgis.com/N1ybEAKiuuUIL8Mz/arcgis/rest/services/VotingPrecincts/FeatureServer/0",
+  "authority": "Muskingum County GIS",
+  "vintage": "current-published; effective date unestablished",
+  "approved_nov2026": false,
+  "layer_metadata_path": "evidence/gis/muskingum/layer.gz",
+  "count_path": "evidence/gis/muskingum/count.gz",
+  "ids_path": "evidence/gis/muskingum/ids.gz",
+  "batch_paths": [
+    "evidence/gis/muskingum/batch-000.gz",
+    "evidence/gis/muskingum/batch-001.gz"
+  ],
+  "feature_count": 68,
+  "object_id_field": "FID",
+  "native_sr": {
+    "wkid": 102723,
+    "latestWkid": 3735
+  },
+  "query_sr": {
+    "wkid": 102723,
+    "latestWkid": 3735
+  },
+  "fields": [
+    "FID",
+    "Id",
+    "WARD",
+    "PRECINCT",
+    "SCHOOL_DIS",
+    "POP_TOTAL_",
+    "POP_CAUC",
+    "POP_AA",
+    "POP_HISP",
+    "POP_OTHER",
+    "RV_TOTAL",
+    "RV_REP",
+    "RV_DEM",
+    "RV_NON_AFF",
+    "STATE_ID",
+    "SQ_MILES",
+    "F2004REG_SQ",
+    "VOTES_P_SQ",
+    "Shape__Area",
+    "Shape__Length"
+  ],
+  "pagination": "count equals unique ID set equals every requested and returned batch ID; no transfer flag; no filter or simplification or reprojection"
+}

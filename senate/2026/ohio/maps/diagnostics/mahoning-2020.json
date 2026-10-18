@@ -1,0 +1,308 @@
+{
+  "feature_count": 214,
+  "source_vertices": 512759,
+  "derived_vertices": 512759,
+  "empty_ordinals": [
+    11,
+    43
+  ],
+  "invalid_features": [
+    {
+      "source_feature_ordinal": 1,
+      "attributes": {
+        "ID": "MLT 001",
+        "NAME": "Milton 1",
+        "VR": 0,
+        "MAP": 728,
+        "SOURCE": "",
+        "Shape_area": 326663685.899,
+        "Shape_len": 116160.463678
+      },
+      "reason": "Ring Self-intersection[2404726.34001772 538674.994872317]"
+    },
+    {
+      "source_feature_ordinal": 31,
+      "attributes": {
+        "ID": "BDM 003",
+        "NAME": "Boardman 3",
+        "VR": 0,
+        "MAP": 879,
+        "SOURCE": "",
+        "Shape_area": 12321853.8665,
+        "Shape_len": 19408.1567747
+      },
+      "reason": "Ring Self-intersection[2483149.25994322 501575.260016814]"
+    },
+    {
+      "source_feature_ordinal": 69,
+      "attributes": {
+        "ID": "BVT 004",
+        "NAME": "Beaver 4",
+        "VR": 0,
+        "MAP": 1038,
+        "SOURCE": "",
+        "Shape_area": 192964665.908,
+        "Shape_len": 84969.6439611
+      },
+      "reason": "Ring Self-intersection[2470018.89348747 454552.632605553]"
+    },
+    {
+      "source_feature_ordinal": 75,
+      "attributes": {
+        "ID": "BVT 005",
+        "NAME": "Beaver 5",
+        "VR": 0,
+        "MAP": 972,
+        "SOURCE": "",
+        "Shape_area": 73635391.6977,
+        "Shape_len": 59690.8720259
+      },
+      "reason": "Ring Self-intersection[2468685.9427413 483125.557414979]"
+    },
+    {
+      "source_feature_ordinal": 98,
+      "attributes": {
+        "ID": "CNT 003",
+        "NAME": "Canfield Township 3",
+        "VR": 0,
+        "MAP": 972,
+        "SOURCE": "",
+        "Shape_area": 97984551.1824,
+        "Shape_len": 43024.9119954
+      },
+      "reason": "Ring Self-intersection[2462035.56988722 497756.530121475]"
+    },
+    {
+      "source_feature_ordinal": 113,
+      "attributes": {
+        "ID": "JKT 002",
+        "NAME": "Jackson 2",
+        "VR": 0,
+        "MAP": 934,
+        "SOURCE": "",
+        "Shape_area": 361518734.498,
+        "Shape_len": 79915.4669551
+      },
+      "reason": "Ring Self-intersection[2414663.84671748 526175.307273313]"
+    },
+    {
+      "source_feature_ordinal": 130,
+      "attributes": {
+        "ID": "AUS 027",
+        "NAME": "Austintown 27",
+        "VR": 0,
+        "MAP": 722,
+        "SOURCE": "",
+        "Shape_area": 42087255.898,
+        "Shape_len": 27030.1069956
+      },
+      "reason": "Ring Self-intersection[2442818.54007989 521063.249912143]"
+    },
+    {
+      "source_feature_ordinal": 159,
+      "attributes": {
+        "ID": "YGN 01F",
+        "NAME": "Youngstown 1F",
+        "VR": 0,
+        "MAP": 1065,
+        "SOURCE": "",
+        "Shape_area": 38847977.2864,
+        "Shape_len": 29132.7460417
+      },
+      "reason": "Ring Self-intersection[2478874.2196088 521055.40117456]"
+    }
+  ],
+  "finite_bounds": true,
+  "overlap_pairs": [
+    {
+      "left_ordinal": 12,
+      "right_ordinal": 13,
+      "area_in_crs_squared_units": 0.002851126104840951
+    },
+    {
+      "left_ordinal": 29,
+      "right_ordinal": 174,
+      "area_in_crs_squared_units": 0.0015152590885394446
+    },
+    {
+      "left_ordinal": 80,
+      "right_ordinal": 95,
+      "area_in_crs_squared_units": 0.0008485952497955342
+    },
+    {
+      "left_ordinal": 103,
+      "right_ordinal": 133,
+      "area_in_crs_squared_units": 0.00045595506212155624
+    },
+    {
+      "left_ordinal": 103,
+      "right_ordinal": 145,
+      "area_in_crs_squared_units": 0.000602209305767154
+    },
+    {
+      "left_ordinal": 127,
+      "right_ordinal": 129,
+      "area_in_crs_squared_units": 0.00016575768798854362
+    },
+    {
+      "left_ordinal": 127,
+      "right_ordinal": 128,
+      "area_in_crs_squared_units": 0.00045565707419012707
+    },
+    {
+      "left_ordinal": 176,
+      "right_ordinal": 181,
+      "area_in_crs_squared_units": 0.001044767792832156
+    },
+    {
+      "left_ordinal": 176,
+      "right_ordinal": 177,
+      "area_in_crs_squared_units": 0.0005006813716512681
+    }
+  ],
+  "intersection_errors": [],
+  "id_field_diagnostics": {
+    "ID": {
+      "nonblank": 214,
+      "blank_or_null": 0,
+      "unique_nonblank": 214,
+      "reused_values": {},
+      "examples": [
+        "CBV 001",
+        "MLT 001",
+        "MLT 002",
+        "JKT 001",
+        "BDM 016",
+        "YGN 05F",
+        "BDM 004",
+        "BDM 011"
+      ]
+    },
+    "MAP": {
+      "nonblank": 214,
+      "blank_or_null": 0,
+      "unique_nonblank": 187,
+      "reused_values": {
+        "1119": 2,
+        "0": 2,
+        "632": 2,
+        "821": 4,
+        "879": 2,
+        "708": 2,
+        "884": 2,
+        "648": 2,
+        "952": 2,
+        "707": 2,
+        "1126": 2,
+        "619": 2,
+        "587": 2,
+        "972": 2,
+        "504": 2,
+        "867": 3,
+        "848": 2,
+        "830": 2,
+        "822": 2,
+        "696": 2,
+        "674": 2,
+        "697": 2,
+        "820": 2,
+        "1074": 2
+      },
+      "examples": [
+        "751",
+        "728",
+        "855",
+        "654",
+        "510",
+        "833",
+        "771",
+        "742"
+      ]
+    },
+    "NAME": {
+      "nonblank": 214,
+      "blank_or_null": 0,
+      "unique_nonblank": 214,
+      "reused_values": {},
+      "examples": [
+        "Craig Beach 1",
+        "Milton 1",
+        "Milton 2",
+        "Jackson 1",
+        "Boardman 16",
+        "Youngstown 5F",
+        "Boardman 4",
+        "Boardman 11"
+      ]
+    },
+    "SOURCE": {
+      "nonblank": 0,
+      "blank_or_null": 214,
+      "unique_nonblank": 0,
+      "reused_values": {},
+      "examples": []
+    },
+    "Shape_area": {
+      "nonblank": 214,
+      "blank_or_null": 0,
+      "unique_nonblank": 213,
+      "reused_values": {
+        "0.0": 2
+      },
+      "examples": [
+        "25829710.9074",
+        "326663685.899",
+        "346035124.278",
+        "330472449.875",
+        "19274353.7212",
+        "11700434.4079",
+        "11069757.2433",
+        "7633024.51905"
+      ]
+    },
+    "Shape_len": {
+      "nonblank": 214,
+      "blank_or_null": 0,
+      "unique_nonblank": 213,
+      "reused_values": {
+        "0.0": 2
+      },
+      "examples": [
+        "36064.7540951",
+        "116160.463678",
+        "80647.8922147",
+        "78862.0111821",
+        "27131.8708118",
+        "17969.7456645",
+        "14349.3735027",
+        "11016.7644428"
+      ]
+    },
+    "VR": {
+      "nonblank": 214,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "0": 214
+      },
+      "examples": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    }
+  },
+  "checks_do_not_approve_boundaries": true,
+  "extent_native": [
+    2358733.802409798,
+    453082.31008689106,
+    2516070.2203478813,
+    540574.7922538072
+  ],
+  "crs_wkt": "PROJCRS[\"NAD83 / Ohio North (ftUS)\",BASEGEOGCRS[\"NAD83\",DATUM[\"North American Datum 1983\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6269]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Lambert Conic Conformal (2SP)\",ID[\"EPSG\",9802]],PARAMETER[\"Latitude of false origin\",39.6666666666667,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8821]],PARAMETER[\"Longitude of false origin\",-82.5,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8822]],PARAMETER[\"Latitude of 1st standard parallel\",40.4333333333333,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8823]],PARAMETER[\"Latitude of 2nd standard parallel\",41.7,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8824]],PARAMETER[\"Easting at false origin\",1968500,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8826]],PARAMETER[\"Northing at false origin\",0,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8827]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"US survey foot\",0.304800609601219,ID[\"EPSG\",9003]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"US survey foot\",0.304800609601219,ID[\"EPSG\",9003]]]]"
+}

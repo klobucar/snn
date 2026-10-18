@@ -1,0 +1,89 @@
+LOAD clark
+LOAD columbiana
+LOAD cuyahoga
+LOAD delaware
+LOAD erie
+LOAD fairfield
+LOAD franklin-2022
+LOAD franklin-2023
+LOAD franklin-2025
+LOAD geauga
+LOAD greene
+LOAD hamilton
+LOAD licking
+LOAD lucas
+LOAD muskingum
+LOAD portage
+LOAD stark
+LOAD tuscarawas
+LOAD clermont-published
+LOAD montgomery-2022
+LOAD montgomery-2021
+LOAD montgomery-2017
+LOAD montgomery-2012
+LOAD mahoning-2025
+LOAD mahoning-2020
+LOAD butler-2019
+LOAD fairfield-published
+/Users/tqbf/codebase/snn/senate/2026/ohio/maps/build_maps.py:159: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  derived=[dict(type='Feature',properties=dict(a,research_county_fips=r['county_fips'],research_source_ordinal=i),geometry=mapping(transform(tr.transform,g))) for i,(a,g) in enumerate(fs)]
+clark 78 invalid 1 overlaps 33
+columbiana 135 invalid 0 overlaps 229
+cuyahoga 923 invalid 15 overlaps 1780
+delaware 180 invalid 0 overlaps 104
+erie 63 invalid 4 overlaps 91
+fairfield 133 invalid 0 overlaps 53
+franklin-2022 884 invalid 8 overlaps 7
+franklin-2023 888 invalid 8 overlaps 136
+franklin-2025 889 invalid 7 overlaps 25
+geauga 80 invalid 0 overlaps 45
+greene 151 invalid 0 overlaps 47
+hamilton 563 invalid 2 overlaps 20
+licking 96 invalid 2 overlaps 14
+lucas 283 invalid 0 overlaps 253
+muskingum 68 invalid 1 overlaps 103
+portage 138 invalid 0 overlaps 132
+stark 276 invalid 5 overlaps 95
+tuscarawas 81 invalid 0 overlaps 0
+clermont-published 344 invalid 1 overlaps 83
+montgomery-2022 497 invalid 2 overlaps 102
+montgomery-2021 463 invalid 1 overlaps 324
+montgomery-2017 459 invalid 1 overlaps 331
+montgomery-2012 395 invalid 0 overlaps 6
+mahoning-2025 213 invalid 0 overlaps 29
+mahoning-2020 214 invalid 8 overlaps 9
+butler-2019 329 invalid 0 overlaps 371
+fairfield-published 133 invalid 0 overlaps 69
+medina-wfs 203 invalid 0 overlaps 0
+census2020-franklin 884 invalid 0 overlaps 0
+census2020-cuyahoga 976 invalid 0 overlaps 0
+census2020-hamilton 563 invalid 0 overlaps 0
+census2020-summit 420 invalid 0 overlaps 0
+census2020-montgomery 360 invalid 0 overlaps 0
+census2020-lucas 313 invalid 0 overlaps 0
+census2020-stark 274 invalid 0 overlaps 0
+census2020-butler 282 invalid 0 overlaps 0
+census2020-lorain 194 invalid 0 overlaps 0
+census2020-warren 175 invalid 0 overlaps 0
+census2020-delaware 165 invalid 0 overlaps 0
+census2020-lake 164 invalid 0 overlaps 0
+census2020-clermont 166 invalid 0 overlaps 0
+census2020-mahoning 212 invalid 0 overlaps 0
+census2020-medina 121 invalid 0 overlaps 0
+census2020-trumbull 158 invalid 0 overlaps 0
+census2020-licking 96 invalid 0 overlaps 0
+census2020-greene 146 invalid 0 overlaps 0
+census2020-fairfield 107 invalid 0 overlaps 0
+census2020-portage 130 invalid 0 overlaps 0
+census2020-wood 95 invalid 0 overlaps 0
+census2020-clark 90 invalid 0 overlaps 0
+census2020-miami 85 invalid 0 overlaps 0
+census2020-richland 83 invalid 0 overlaps 0
+census2020-geauga 78 invalid 0 overlaps 0
+census2020-wayne 67 invalid 0 overlaps 0
+census2020-columbiana 87 invalid 0 overlaps 0
+census2020-allen 88 invalid 0 overlaps 0
+census2020-ashtabula 105 invalid 0 overlaps 0
+census2020-tuscarawas 81 invalid 0 overlaps 0
+census2020-erie 63 invalid 0 overlaps 0
+census2020-muskingum 68 invalid 0 overlaps 0

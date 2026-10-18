@@ -1,0 +1,96 @@
+{
+  "status": "pass with explicitly retained source/access/approval gaps",
+  "audited_utc": "2026-10-18T02:15:24.210428+00:00",
+  "network_used": false,
+  "checks": [
+    {
+      "check": "baseline hashes, 88 FIPS, exact ordered 32 priorities and every native reporting identity",
+      "status": "pass",
+      "detail": "8878 + 8933 = 17811 unchanged native records; exact dispatch constituents and original CSV fields"
+    },
+    {
+      "check": "HTTP snapshot integrity and all ZIP CRC/member hashes",
+      "status": "pass",
+      "detail": {
+        "responses": 801,
+        "status_counts": {
+          "200": 566,
+          "None": 76,
+          "404": 22,
+          "403": 128,
+          "400": 4,
+          "522": 4,
+          "503": 1
+        },
+        "original_zip_files": 32
+      }
+    },
+    {
+      "check": "ArcGIS count/all-ID/batch coverage and all source attributes",
+      "status": "pass",
+      "detail": {
+        "downloaded_records": 3248,
+        "native_curve_records": 99,
+        "transfer_limit_flags": false
+      }
+    },
+    {
+      "check": "native shapefile records, vertices, finite coordinates and ring closure; all-state VTD inventory",
+      "status": "pass",
+      "detail": "All original polygon rings closed; Census 8941 unique native GEOIDs across exact88 FIPS; no current approval implied"
+    },
+    {
+      "check": "full-vertex derivatives, exact feature counts, finite coordinates, retained defects",
+      "status": "pass",
+      "detail": {
+        "datasets": 60,
+        "empty_records": 84,
+        "invalid_source_geometries": 66,
+        "positive_area_overlap_pairs": 4491,
+        "intersection_errors": 0,
+        "repairs": "none",
+        "approval": "not established"
+      }
+    },
+    {
+      "check": "Medina WFS count/transfer controls",
+      "status": "pass",
+      "detail": "203 hits/full/high-limit; 10-feature control; no IDs manufactured"
+    },
+    {
+      "check": "PDF and image originals with usable previews",
+      "status": "pass",
+      "detail": {
+        "complete_pdfs": 205,
+        "pages": 466,
+        "separate_images": 2,
+        "excluded_truncated_captures": true
+      }
+    },
+    {
+      "check": "static index and report links",
+      "status": "pass",
+      "detail": {
+        "priority_sections": 32,
+        "local_links_checked": 1092
+      }
+    },
+    {
+      "check": "all retained file hashes, no installed dependencies/caches, individual size ceiling",
+      "status": "pass",
+      "detail": {
+        "files": 2496,
+        "bytes": 661064612,
+        "largest_bytes": 36883764,
+        "limit_bytes": 40000000
+      }
+    }
+  ],
+  "does_not_establish": [
+    "November2026 boundary approval",
+    "validated native-unit geographic crosswalk",
+    "vote allocation",
+    "live collector",
+    "calibration"
+  ]
+}

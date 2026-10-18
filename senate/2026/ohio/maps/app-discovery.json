@@ -1,0 +1,197 @@
+{
+  "montgomery-services": {
+    "status": 200,
+    "url": "https://gis.mcohio.org/server/rest/services?f=pjson",
+    "bytes": 184,
+    "layers": [],
+    "services": [
+      {
+        "name": "2005_FLASHBACK",
+        "type": "MapServer"
+      }
+    ],
+    "folders": [
+      "Imagery",
+      "TestData",
+      "Utilities",
+      "VantagePoints"
+    ],
+    "archives": null
+  },
+  "summit-juris": {
+    "status": 200,
+    "url": "https://scgis.summitoh.net/hosted/rest/services/fiscal/Jurisdictions/MapServer?f=pjson",
+    "bytes": 3419,
+    "layers": [
+      [
+        122,
+        "Jurisdictions"
+      ]
+    ],
+    "services": null,
+    "folders": null,
+    "archives": null
+  },
+  "medina-mapbook": {
+    "status": 200,
+    "url": "https://gm.medinaco.org/php/getmapbook.php",
+    "bytes": 170143,
+    "links": []
+  },
+  "butler-oldgis": {
+    "status": null,
+    "url": "https://maps.butlercountyohio.org/",
+    "bytes": 0,
+    "links": []
+  },
+  "butler-oldservices": {
+    "status": null,
+    "url": "https://maps.butlercountyohio.org/arcgis/rest/services?f=pjson",
+    "bytes": 0,
+    "links": []
+  },
+  "mahoning-services": {
+    "status": 404,
+    "url": "https://gis.mahoningcountyoh.gov/server/rest/services?f=pjson",
+    "bytes": 89239,
+    "links": [
+      [
+        "https://gis.mahoningcountyoh.gov/219/Making-A-Payment",
+        "Pay Online"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/161/GIS",
+        "County Maps"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/AgendaCenter/Board-of-County-Commissioners-2",
+        "BMCC Agendas"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/925/Record-Searches",
+        "Record Searches"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/list.aspx",
+        "Stay Informed"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/jobs",
+        "Employment"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/QuickLinks.aspx?CID=18",
+        "Quick Links"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/250/Residential",
+        "Recycling"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/762/Unclaimed-Funds",
+        "Unclaimed Funds"
+      ],
+      [
+        "http://www.voterfind.com/mahoningoh/vtrlookup.aspx",
+        "Registered to Vote?"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/Faq.aspx?TID=18",
+        "FAQs"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/Faq.aspx?QID=80",
+        "Where do I get a license for my dog?"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/Faq.aspx?QID=353",
+        "How do I obtain a service dog license?"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/Faq.aspx?QID=83",
+        "Why do I need to get a license for my dog?"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/QuickLinks.aspx?CID=45",
+        "Site Links"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/",
+        "Home"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/sitemap",
+        "Site Map"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/accessibility",
+        "Accessibility"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/DocumentCenter/View/49213/Mahoning-County-ADA-Transition-Plan-Signed-100224",
+        "ADA Transition Plan"
+      ],
+      [
+        "https://gis.mahoningcountyoh.gov/copyright",
+        "Copyright Notices"
+      ]
+    ]
+  },
+  "mahoning-auditor": {
+    "status": 403,
+    "url": "https://auditor.mahoningcountyoh.gov/",
+    "bytes": 5535,
+    "links": []
+  },
+  "columbiana-home": {
+    "status": 403,
+    "url": "https://columbiana.boe.ohio.gov/",
+    "bytes": 1285244,
+    "links": []
+  },
+  "ashtabula-gis": {
+    "status": 200,
+    "url": "https://www.ashtabulacounty.us/228/GIS",
+    "bytes": 9320,
+    "links": [
+      [
+        "https://ashtabulaco.authoritypay.com/site/register",
+        "Create Account"
+      ],
+      [
+        "https://ashtabulaco.authoritypay.com/site/register",
+        "Create a new account?"
+      ]
+    ]
+  },
+  "erie-gis2": {
+    "status": 200,
+    "url": "https://www.eriecounty.oh.gov/GISDepartment.aspx",
+    "bytes": 73642,
+    "links": []
+  },
+  "richland-archive": {
+    "status": 400,
+    "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.boe.ohio.gov%2Frichland%2Fc%2Fupload%2FInfo_MapRCPrecincts.pdf&timestamp=20261001",
+    "bytes": 4877,
+    "links": []
+  },
+  "summit-archive": {
+    "status": 400,
+    "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.boe.ohio.gov%2Fsummit%2Fprecinct-and-polling-location-info%2Fmaps%2F&timestamp=20261001",
+    "bytes": 4877,
+    "links": []
+  },
+  "geauga-archive": {
+    "status": 400,
+    "url": "https://archive.org/wayback/available?url=https%3A%2F%2Fwww.boe.ohio.gov%2Fgeauga%2Fc%2Fupload%2FPrecinctPollingLocationMaps.pdf&timestamp=20261001",
+    "bytes": 4877,
+    "links": []
+  },
+  "geauga-archiveold": {
+    "status": 400,
+    "url": "https://archive.org/wayback/available?url=https%3A%2F%2Frecorder.co.geauga.oh.us%2Fwp-content%2Fuploads%2Fsites%2F21%2F2021%2F06%2FVoting-Precincts.pdf&timestamp=20261001",
+    "bytes": 4877,
+    "links": []
+  }
+}

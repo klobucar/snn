@@ -1,0 +1,50 @@
+{
+  "county": "geauga",
+  "url": "https://gcgis.geauga.oh.gov/arcgis/rest/services/Voting_Precincts/MapServer/0",
+  "authority": "Geauga County GIS official .gov service; county organization app ec316... \u2192 webmap 56cdd...",
+  "vintage": "webmap layer titled Voting Precincts 2026; legal November approval not independently established",
+  "approved_nov2026": false,
+  "layer_metadata_path": "evidence/gis/geauga/layer.gz",
+  "count_path": "evidence/gis/geauga/count.gz",
+  "ids_path": "evidence/gis/geauga/ids.gz",
+  "batch_paths": [
+    "evidence/gis/geauga/batch-000.gz",
+    "evidence/gis/geauga/batch-001.gz"
+  ],
+  "feature_count": 80,
+  "object_id_field": "OBJECTID",
+  "native_sr": {
+    "wkid": 102722,
+    "latestWkid": 3734,
+    "xyTolerance": 0.003280833333333333,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -118963900,
+    "falseY": -96373800,
+    "xyUnits": 3048.006096012192,
+    "falseZ": 0,
+    "zUnits": 1,
+    "falseM": 0,
+    "mUnits": 1
+  },
+  "query_sr": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "fields": [
+    "OBJECTID",
+    "GeaugaCountySDE.GISOWNER.precincts2026.AREA",
+    "PERIMETER",
+    "TOWN_NAME",
+    "SYMBOL",
+    "LABEL",
+    "PRECINCT2",
+    "PRECINCT3",
+    "Shape",
+    "Shape.STArea()",
+    "Shape.STLength()",
+    "TwpPrcnct",
+    "TwpPctFull"
+  ],
+  "pagination": "count equals unique ID set equals every requested and returned batch ID; no transfer flag; no filter or simplification or reprojection"
+}

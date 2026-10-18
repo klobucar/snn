@@ -1,0 +1,262 @@
+{
+  "feature_count": 83,
+  "source_vertices": 20934,
+  "derived_vertices": 20934,
+  "empty_ordinals": [],
+  "invalid_features": [],
+  "finite_bounds": true,
+  "overlap_pairs": [],
+  "intersection_errors": [],
+  "id_field_diagnostics": {
+    "ALAND20": {
+      "nonblank": 83,
+      "blank_or_null": 0,
+      "unique_nonblank": 83,
+      "reused_values": {},
+      "examples": [
+        "65412390",
+        "65887651",
+        "66072000",
+        "54505914",
+        "35526101",
+        "1278971",
+        "3089891",
+        "23700986"
+      ]
+    },
+    "AWATER20": {
+      "nonblank": 83,
+      "blank_or_null": 0,
+      "unique_nonblank": 58,
+      "reused_values": {
+        "0": 26
+      },
+      "examples": [
+        "218414",
+        "139095",
+        "257109",
+        "196344",
+        "179844",
+        "0",
+        "13544",
+        "76490"
+      ]
+    },
+    "COUNTYFP20": {
+      "nonblank": 83,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "139": 83
+      },
+      "examples": [
+        "139",
+        "139",
+        "139",
+        "139",
+        "139",
+        "139",
+        "139",
+        "139"
+      ]
+    },
+    "FUNCSTAT20": {
+      "nonblank": 83,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "N": 83
+      },
+      "examples": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    "GEOID20": {
+      "nonblank": 83,
+      "blank_or_null": 0,
+      "unique_nonblank": 83,
+      "reused_values": {},
+      "examples": [
+        "39139070ABL",
+        "39139070ABM",
+        "39139070ABN",
+        "39139070ABO",
+        "39139070ABQ",
+        "39139070ABH",
+        "39139070ABK",
+        "39139070ABP"
+      ]
+    },
+    "INTPTLAT20": {
+      "nonblank": 83,
+      "blank_or_null": 0,
+      "unique_nonblank": 83,
+      "reused_values": {},
+      "examples": [
+        "+40.9497979",
+        "+40.9477661",
+        "+40.9437844",
+        "+40.8635268",
+        "+40.8654384",
+        "+40.8828579",
+        "+40.8716781",
+        "+40.8347828"
+      ]
+    },
+    "INTPTLON20": {
+      "nonblank": 83,
+      "blank_or_null": 0,
+      "unique_nonblank": 83,
+      "reused_values": {},
+      "examples": [
+        "-082.5292876",
+        "-082.4613720",
+        "-082.6126266",
+        "-082.5343630",
+        "-082.6044107",
+        "-082.6481373",
+        "-082.6401421",
+        "-082.6199133"
+      ]
+    },
+    "LSAD20": {
+      "nonblank": 83,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "00": 83
+      },
+      "examples": [
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00"
+      ]
+    },
+    "MTFCC20": {
+      "nonblank": 83,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "G5240": 83
+      },
+      "examples": [
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240"
+      ]
+    },
+    "NAME20": {
+      "nonblank": 83,
+      "blank_or_null": 0,
+      "unique_nonblank": 82,
+      "reused_values": {
+        "SHELBY WARD 3 PREC A": 2
+      },
+      "examples": [
+        "BLOOMINGGROVE TOWNSHIP",
+        "BUTLER TOWNSHIP",
+        "CASS A",
+        "FRANKLIN TOWNSHIP A",
+        "JACKSON TOWNSHIP B",
+        "SHELBY WARD 3 PREC A",
+        "SHELBY WARD 4 PREC B",
+        "JACKSON TOWNSHIP A"
+      ]
+    },
+    "NAMELSAD20": {
+      "nonblank": 83,
+      "blank_or_null": 0,
+      "unique_nonblank": 82,
+      "reused_values": {
+        "SHELBY WARD 3 PREC A": 2
+      },
+      "examples": [
+        "BLOOMINGGROVE TOWNSHIP",
+        "BUTLER TOWNSHIP",
+        "CASS A",
+        "FRANKLIN TOWNSHIP A",
+        "JACKSON TOWNSHIP B",
+        "SHELBY WARD 3 PREC A",
+        "SHELBY WARD 4 PREC B",
+        "JACKSON TOWNSHIP A"
+      ]
+    },
+    "STATEFP20": {
+      "nonblank": 83,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "39": 83
+      },
+      "examples": [
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39"
+      ]
+    },
+    "VTDI20": {
+      "nonblank": 83,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "A": 83
+      },
+      "examples": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "VTDST20": {
+      "nonblank": 83,
+      "blank_or_null": 0,
+      "unique_nonblank": 83,
+      "reused_values": {},
+      "examples": [
+        "070ABL",
+        "070ABM",
+        "070ABN",
+        "070ABO",
+        "070ABQ",
+        "070ABH",
+        "070ABK",
+        "070ABP"
+      ]
+    }
+  },
+  "checks_do_not_approve_boundaries": true,
+  "extent_native": [
+    -82.727164,
+    40.549879,
+    -82.336895,
+    40.995638
+  ],
+  "crs_wkt": "GEOGCRS[\"NAD83\",DATUM[\"North American Datum 1983\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6269]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"longitude\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"latitude\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]]]"
+}

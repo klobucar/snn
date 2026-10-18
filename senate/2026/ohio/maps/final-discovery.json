@@ -1,0 +1,278 @@
+{
+  "census-state-vtd": {
+    "status": 200,
+    "url": "https://www2.census.gov/geo/tiger/TIGER2020PL/LAYER/VTD/2020/tl_2020_39_vtd20.zip",
+    "bytes": 16218634,
+    "path": "evidence/finaldiscovery/census-state-vtd.bin",
+    "links": []
+  },
+  "mahoning-2025": {
+    "status": 200,
+    "url": "https://gisapp.mahoningcountyoh.gov/Public_FTP_Folder/Shape_Files/Precincts_2025.zip",
+    "bytes": 440873,
+    "path": "evidence/finaldiscovery/mahoning-2025.bin",
+    "links": []
+  },
+  "mahoning-2020": {
+    "status": 200,
+    "url": "https://gisapp.mahoningcountyoh.gov/Public_FTP_Folder/Shape_Files/Precincts_2020.zip",
+    "bytes": 5091516,
+    "path": "evidence/finaldiscovery/mahoning-2020.bin",
+    "links": []
+  },
+  "mahoning-current": {
+    "status": 200,
+    "url": "https://gisapp.mahoningcountyoh.gov/Public_FTP_Folder/Shape_Files/Voting_Precincts.zip",
+    "bytes": 437440,
+    "path": "evidence/finaldiscovery/mahoning-current.bin",
+    "links": []
+  },
+  "richland-history": {
+    "status": 200,
+    "url": "https://web.archive.org/web/20220124064019if_/https://www.boe.ohio.gov/richland/c/pdf/MapRCPrecincts.pdf",
+    "bytes": 1048576,
+    "path": "evidence/finaldiscovery/richland-history.bin",
+    "links": []
+  },
+  "butler-public": {
+    "status": 200,
+    "url": "https://gismaps.bceo.org/server/rest/services/Public?f=pjson",
+    "bytes": 796,
+    "path": "evidence/finaldiscovery/butler-public.gz",
+    "data": {
+      "services": [
+        {
+          "name": "Public/Addresses_RO",
+          "type": "MapServer"
+        },
+        {
+          "name": "Public/BCEOBasemap",
+          "type": "FeatureServer"
+        },
+        {
+          "name": "Public/BCEOBasemap",
+          "type": "MapServer"
+        },
+        {
+          "name": "Public/CountyProjects",
+          "type": "FeatureServer"
+        },
+        {
+          "name": "Public/CountyProjects",
+          "type": "MapServer"
+        },
+        {
+          "name": "Public/ParcelQuery",
+          "type": "FeatureServer"
+        },
+        {
+          "name": "Public/ParcelQuery",
+          "type": "MapServer"
+        },
+        {
+          "name": "Public/Roads",
+          "type": "FeatureServer"
+        },
+        {
+          "name": "Public/Roads",
+          "type": "MapServer"
+        },
+        {
+          "name": "Public/Subdivision",
+          "type": "MapServer"
+        },
+        {
+          "name": "Public/TaxmapWebmapCurrent",
+          "type": "MapServer"
+        }
+      ],
+      "folders": [],
+      "layers": null
+    }
+  },
+  "butler-readonly": {
+    "status": 200,
+    "url": "https://gismaps.bceo.org/server/rest/services/ReadOnly?f=pjson",
+    "bytes": 1350,
+    "path": "evidence/finaldiscovery/butler-readonly.gz",
+    "data": {
+      "services": [
+        {
+          "name": "ReadOnly/Accela_Desktop",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/AccelaMobile",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/B_W_Township_Layer",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/Basemap",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/BridgeInspectionsComplete2023",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/CulvertIMSJoin_RO",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/CulvertInspectionReport",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/CulvertInspectionReports",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/CulvertInspectionsComplete",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/fc_TID_CurrentProjects",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/fc_TID_Projects106",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/FEMA_FloodMaps2018",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/Map",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/Mask",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/PMS",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/SWRWaterDistrict",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/TID_ProjectMap",
+          "type": "MapServer"
+        },
+        {
+          "name": "ReadOnly/TID_Projects",
+          "type": "MapServer"
+        }
+      ],
+      "folders": [],
+      "layers": null
+    }
+  },
+  "butler-taxmap": {
+    "status": 200,
+    "url": "https://gismaps.bceo.org/server/rest/services/TaxMap?f=pjson",
+    "bytes": 251,
+    "path": "evidence/finaldiscovery/butler-taxmap.gz",
+    "data": {
+      "services": [
+        {
+          "name": "TaxMap/Address_anno",
+          "type": "MapServer"
+        },
+        {
+          "name": "TaxMap/anno_text",
+          "type": "MapServer"
+        },
+        {
+          "name": "TaxMap/Taxmap",
+          "type": "MapServer"
+        }
+      ],
+      "folders": [],
+      "layers": null
+    }
+  },
+  "medina-mapserver-proxy": {
+    "status": 404,
+    "url": "https://gm.medinaco.org/php/mapserver.php?map=/srv/geomoose/maps/medina/voting/precincp.map&SERVICE=WFS&REQUEST=GetCapabilities",
+    "bytes": 280,
+    "path": "evidence/finaldiscovery/medina-mapserver-proxy.gz",
+    "links": []
+  },
+  "medina-mapbook2": {
+    "status": 200,
+    "url": "https://gm.medinaco.org/php/getmapbook.php",
+    "bytes": 170143,
+    "path": "evidence/finaldiscovery/medina-mapbook2.gz",
+    "links": []
+  },
+  "summit-archive-cdx": {
+    "status": 200,
+    "url": "https://web.archive.org/cdx/search/cdx?url=www.boe.ohio.gov/summit/*&output=json&filter=statuscode:200&filter=mimetype:application/pdf&filter=urlkey:.*map.*&collapse=urlkey",
+    "bytes": 3,
+    "path": "evidence/finaldiscovery/summit-archive-cdx.gz",
+    "data": []
+  },
+  "geauga-mapserver": {
+    "status": null,
+    "url": "https://gis.geauga.oh.gov/arcgis/rest/services?f=pjson",
+    "bytes": 0,
+    "path": "evidence/finaldiscovery/geauga-mapserver.gz",
+    "links": []
+  },
+  "geauga-gis-old": {
+    "status": null,
+    "url": "https://gis.co.geauga.oh.us/arcgis/rest/services?f=pjson",
+    "bytes": 0,
+    "path": "evidence/finaldiscovery/geauga-gis-old.gz",
+    "links": []
+  },
+  "geauga-downloads": {
+    "status": 200,
+    "url": "https://auditor.geauga.oh.gov/gis/",
+    "bytes": 85538,
+    "path": "evidence/finaldiscovery/geauga-downloads.gz",
+    "links": []
+  },
+  "columbiana-gis-current": {
+    "status": null,
+    "url": "https://gis.columbianacountyohio.gov/",
+    "bytes": 0,
+    "path": "evidence/finaldiscovery/columbiana-gis-current.gz",
+    "links": []
+  },
+  "columbiana-data": {
+    "status": 404,
+    "url": "https://www.columbianacounty.org/columbiana-county-gis",
+    "bytes": 1078,
+    "path": "evidence/finaldiscovery/columbiana-data.gz",
+    "links": []
+  },
+  "erie-hub": {
+    "status": 200,
+    "url": "https://data-eriecounty-oh.opendata.arcgis.com/",
+    "bytes": 5580,
+    "path": "evidence/finaldiscovery/erie-hub.gz",
+    "links": []
+  },
+  "portage-gis": {
+    "status": null,
+    "url": "https://portagecounty-oh.gov/gis",
+    "bytes": 0,
+    "path": "evidence/finaldiscovery/portage-gis.gz",
+    "links": []
+  },
+  "fairfield-gis": {
+    "status": 200,
+    "url": "https://www.co.fairfield.oh.us/auditor/gis.html",
+    "bytes": 2407,
+    "path": "evidence/finaldiscovery/fairfield-gis.gz",
+    "links": []
+  }
+}

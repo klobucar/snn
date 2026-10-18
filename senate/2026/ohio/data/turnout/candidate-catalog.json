@@ -1,0 +1,255 @@
+{
+  "2024": {
+    "election_date": "2024-11-05",
+    "election_native_title": "November 5, 2024 General Election Official Canvass\nAll Member of the State Board of Education races are non-partisan.\n*Write-in candidates will be displayed with a (WI) designation and not party affiliation.",
+    "election_numeric_id": null,
+    "county_native_id_semantics": "County Name field; no numeric county ID in these workbooks",
+    "precinct_native_id_semantics": "Precinct Code within County Name and election vintage",
+    "source_summary": "raw/2024-summary-archive.xlsx",
+    "source_precinct": "raw/2024-statewide-races-precint-level.xlsx",
+    "source_turnout_county": "raw/2024-turnout-by-county.xlsx",
+    "source_turnout_precinct": "raw/2024-turnout-by-precinct.xlsx",
+    "reporting_unit_count": 8878,
+    "county_count": 88,
+    "contests": {
+      "senate": {
+        "contest_native_label": "U.S. Senator",
+        "contest_numeric_id": null,
+        "candidate_numeric_ids": null,
+        "candidates": [
+          {
+            "candidate_native_label": "Sherrod Brown (D)",
+            "summary_column": "AA",
+            "precinct_column": "AC",
+            "write_in": false,
+            "certified_statewide_votes": 2650949
+          },
+          {
+            "candidate_native_label": "Stephen Faris (WI)*",
+            "summary_column": "AB",
+            "precinct_column": "AD",
+            "write_in": true,
+            "certified_statewide_votes": 84
+          },
+          {
+            "candidate_native_label": "Don Kissick (L)",
+            "summary_column": "AC",
+            "precinct_column": "AE",
+            "write_in": false,
+            "certified_statewide_votes": 195648
+          },
+          {
+            "candidate_native_label": "Bernie Moreno (R)",
+            "summary_column": "AD",
+            "precinct_column": "AF",
+            "write_in": false,
+            "certified_statewide_votes": 2857383
+          },
+          {
+            "candidate_native_label": "David Allen Pastorius (WI)*",
+            "summary_column": "AE",
+            "precinct_column": "AG",
+            "write_in": true,
+            "certified_statewide_votes": 13
+          },
+          {
+            "candidate_native_label": "Nathan Russell (WI)*",
+            "summary_column": "AF",
+            "precinct_column": "AH",
+            "write_in": true,
+            "certified_statewide_votes": 19
+          },
+          {
+            "candidate_native_label": "Tariq K. Shabazz (WI)*",
+            "summary_column": "AG",
+            "precinct_column": "AI",
+            "write_in": true,
+            "certified_statewide_votes": 524
+          }
+        ],
+        "all_candidate_votes": 5704620,
+        "writein_votes_not_geolocated_to_precinct": 640
+      },
+      "president": {
+        "contest_native_label": "President and Vice President",
+        "contest_numeric_id": null,
+        "candidate_numeric_ids": null,
+        "candidates": [
+          {
+            "candidate_native_label": "Shiva  Ayyadurai and Crystal Ellis (WI)*",
+            "summary_column": "G",
+            "precinct_column": "I",
+            "write_in": true,
+            "certified_statewide_votes": 74
+          },
+          {
+            "candidate_native_label": "Jay Bowman and De D Bowman (WI)*",
+            "summary_column": "H",
+            "precinct_column": "J",
+            "write_in": true,
+            "certified_statewide_votes": 7
+          },
+          {
+            "candidate_native_label": "John Cheng and Wayne Waligorski (WI)*",
+            "summary_column": "I",
+            "precinct_column": "K",
+            "write_in": true,
+            "certified_statewide_votes": 24
+          },
+          {
+            "candidate_native_label": "Claudia De la Cruz and Karina Garcia (WI)*",
+            "summary_column": "J",
+            "precinct_column": "L",
+            "write_in": true,
+            "certified_statewide_votes": 1794
+          },
+          {
+            "candidate_native_label": "Richard Duncan and Mitchell Preston Bupp",
+            "summary_column": "K",
+            "precinct_column": "M",
+            "write_in": false,
+            "certified_statewide_votes": 12805
+          },
+          {
+            "candidate_native_label": "Cherunda Fox and Harlan McVay (WI)*",
+            "summary_column": "L",
+            "precinct_column": "N",
+            "write_in": true,
+            "certified_statewide_votes": 0
+          },
+          {
+            "candidate_native_label": "Chris Garrity and Cody Ballard (WI)*",
+            "summary_column": "M",
+            "precinct_column": "O",
+            "write_in": true,
+            "certified_statewide_votes": 13
+          },
+          {
+            "candidate_native_label": "Kamala D. Harris and Tim Walz (D)",
+            "summary_column": "N",
+            "precinct_column": "P",
+            "write_in": false,
+            "certified_statewide_votes": 2533699
+          },
+          {
+            "candidate_native_label": "Brian Kienitz and Christina Johnston (WI)*",
+            "summary_column": "O",
+            "precinct_column": "Q",
+            "write_in": true,
+            "certified_statewide_votes": 4
+          },
+          {
+            "candidate_native_label": "William Nalbach and Willis Butts (WI)*",
+            "summary_column": "P",
+            "precinct_column": "R",
+            "write_in": true,
+            "certified_statewide_votes": 3
+          },
+          {
+            "candidate_native_label": "Chase Oliver and Mike  ter Maat (L)",
+            "summary_column": "Q",
+            "precinct_column": "S",
+            "write_in": false,
+            "certified_statewide_votes": 28200
+          },
+          {
+            "candidate_native_label": "Peter  Sonski and Lauren  Onak",
+            "summary_column": "R",
+            "precinct_column": "T",
+            "write_in": false,
+            "certified_statewide_votes": 10197
+          },
+          {
+            "candidate_native_label": "Donald J. Trump and JD Vance (R)",
+            "summary_column": "S",
+            "precinct_column": "U",
+            "write_in": false,
+            "certified_statewide_votes": 3180116
+          },
+          {
+            "candidate_native_label": "Cornel West and Melina Abdullah (WI)*",
+            "summary_column": "T",
+            "precinct_column": "V",
+            "write_in": true,
+            "certified_statewide_votes": 852
+          }
+        ],
+        "all_candidate_votes": 5767788,
+        "writein_votes_not_geolocated_to_precinct": 2771
+      }
+    }
+  },
+  "2022": {
+    "election_date": "2022-11-08",
+    "election_native_title": "November 8, 2022 General Election Official Canvass\nAll Member of the State Board of Education races are non-partisan.\n*Write-in candidates will be displayed with a (WI) designation and not party affiliation.",
+    "election_numeric_id": null,
+    "county_native_id_semantics": "County Name field; no numeric county ID in these workbooks",
+    "precinct_native_id_semantics": "Precinct Code within County Name and election vintage",
+    "source_summary": "raw/2022-statewide-races-summary.xlsx",
+    "source_precinct": "raw/2022-statewide-races-by-precinct.xlsx",
+    "source_turnout_county": "raw/2022-voter-turnout-summary.xlsx",
+    "source_turnout_precinct": "raw/2022-voter-turnout-by-precinct.xlsx",
+    "reporting_unit_count": 8933,
+    "county_count": 88,
+    "contests": {
+      "senate": {
+        "contest_native_label": "U.S. Senator",
+        "contest_numeric_id": null,
+        "candidate_numeric_ids": null,
+        "candidates": [
+          {
+            "candidate_native_label": "John Cheng (WI)*",
+            "summary_column": "AB",
+            "precinct_column": "AD",
+            "write_in": true,
+            "certified_statewide_votes": 702
+          },
+          {
+            "candidate_native_label": "Matthew R.  Esh (WI)*",
+            "summary_column": "AC",
+            "precinct_column": "AE",
+            "write_in": true,
+            "certified_statewide_votes": 78
+          },
+          {
+            "candidate_native_label": "Stephen Faris (WI)*",
+            "summary_column": "AD",
+            "precinct_column": "AF",
+            "write_in": true,
+            "certified_statewide_votes": 194
+          },
+          {
+            "candidate_native_label": "Shane Hoffman (WI)*",
+            "summary_column": "AE",
+            "precinct_column": "AG",
+            "write_in": true,
+            "certified_statewide_votes": 403
+          },
+          {
+            "candidate_native_label": "Tim Ryan (D)",
+            "summary_column": "AF",
+            "precinct_column": "AH",
+            "write_in": false,
+            "certified_statewide_votes": 1939489
+          },
+          {
+            "candidate_native_label": "LaShondra Tinsley (WI)*",
+            "summary_column": "AG",
+            "precinct_column": "AI",
+            "write_in": true,
+            "certified_statewide_votes": 362
+          },
+          {
+            "candidate_native_label": "JD Vance (R)",
+            "summary_column": "AH",
+            "precinct_column": "AJ",
+            "write_in": false,
+            "certified_statewide_votes": 2192114
+          }
+        ],
+        "all_candidate_votes": 4133342,
+        "writein_votes_not_geolocated_to_precinct": 1739
+      }
+    }
+  }
+}

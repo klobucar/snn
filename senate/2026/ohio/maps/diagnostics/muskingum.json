@@ -1,0 +1,950 @@
+{
+  "feature_count": 68,
+  "source_vertices": 67863,
+  "derived_vertices": 67863,
+  "empty_ordinals": [],
+  "invalid_features": [
+    {
+      "source_feature_ordinal": 52,
+      "attributes": {
+        "FID": 53,
+        "Id": 62,
+        "WARD": "WASHINGTON",
+        "PRECINCT": "WASHINGTON A",
+        "SCHOOL_DIS": "TRI VALLEY",
+        "POP_TOTAL_": 0,
+        "POP_CAUC": 0,
+        "POP_AA": 0,
+        "POP_HISP": 0,
+        "POP_OTHER": 0,
+        "RV_TOTAL": 0,
+        "RV_REP": 0,
+        "RV_DEM": 0,
+        "RV_NON_AFF": 0,
+        "STATE_ID": "ACZ",
+        "SQ_MILES": 0,
+        "F2004REG_SQ": 0,
+        "VOTES_P_SQ": 0,
+        "Shape__Area": 556687204.5085449,
+        "Shape__Length": 128354.61385890757
+      },
+      "reason": "Ring Self-intersection[2112203.86874451 713093.74034375]"
+    }
+  ],
+  "finite_bounds": true,
+  "overlap_pairs": [
+    {
+      "left_ordinal": 0,
+      "right_ordinal": 41,
+      "area_in_crs_squared_units": 0.01177615150737698
+    },
+    {
+      "left_ordinal": 0,
+      "right_ordinal": 46,
+      "area_in_crs_squared_units": 35854.49728666441
+    },
+    {
+      "left_ordinal": 0,
+      "right_ordinal": 56,
+      "area_in_crs_squared_units": 1.3315049484246064e-05
+    },
+    {
+      "left_ordinal": 0,
+      "right_ordinal": 42,
+      "area_in_crs_squared_units": 1093.483347136929
+    },
+    {
+      "left_ordinal": 0,
+      "right_ordinal": 48,
+      "area_in_crs_squared_units": 20958.133985900855
+    },
+    {
+      "left_ordinal": 0,
+      "right_ordinal": 52,
+      "area_in_crs_squared_units": 160.20413029890221
+    },
+    {
+      "left_ordinal": 1,
+      "right_ordinal": 40,
+      "area_in_crs_squared_units": 22798.32393235585
+    },
+    {
+      "left_ordinal": 1,
+      "right_ordinal": 67,
+      "area_in_crs_squared_units": 0.010840859194597699
+    },
+    {
+      "left_ordinal": 2,
+      "right_ordinal": 11,
+      "area_in_crs_squared_units": 0.040907965662558554
+    },
+    {
+      "left_ordinal": 2,
+      "right_ordinal": 47,
+      "area_in_crs_squared_units": 0.35298300334191074
+    },
+    {
+      "left_ordinal": 2,
+      "right_ordinal": 12,
+      "area_in_crs_squared_units": 49.32707740499112
+    },
+    {
+      "left_ordinal": 2,
+      "right_ordinal": 3,
+      "area_in_crs_squared_units": 0.11833401887515338
+    },
+    {
+      "left_ordinal": 2,
+      "right_ordinal": 59,
+      "area_in_crs_squared_units": 0.38263379687881316
+    },
+    {
+      "left_ordinal": 3,
+      "right_ordinal": 60,
+      "area_in_crs_squared_units": 0.00621212220450655
+    },
+    {
+      "left_ordinal": 3,
+      "right_ordinal": 63,
+      "area_in_crs_squared_units": 0.06658338818754846
+    },
+    {
+      "left_ordinal": 3,
+      "right_ordinal": 9,
+      "area_in_crs_squared_units": 649.0508880707341
+    },
+    {
+      "left_ordinal": 3,
+      "right_ordinal": 59,
+      "area_in_crs_squared_units": 15.2212901378694
+    },
+    {
+      "left_ordinal": 4,
+      "right_ordinal": 33,
+      "area_in_crs_squared_units": 7.620407862588763
+    },
+    {
+      "left_ordinal": 4,
+      "right_ordinal": 21,
+      "area_in_crs_squared_units": 985387.3583376175
+    },
+    {
+      "left_ordinal": 4,
+      "right_ordinal": 23,
+      "area_in_crs_squared_units": 1.861552141856895e-08
+    },
+    {
+      "left_ordinal": 6,
+      "right_ordinal": 58,
+      "area_in_crs_squared_units": 139864.31353504097
+    },
+    {
+      "left_ordinal": 6,
+      "right_ordinal": 28,
+      "area_in_crs_squared_units": 1.8794448414674878
+    },
+    {
+      "left_ordinal": 6,
+      "right_ordinal": 40,
+      "area_in_crs_squared_units": 6069.175470794727
+    },
+    {
+      "left_ordinal": 7,
+      "right_ordinal": 58,
+      "area_in_crs_squared_units": 137440.49237895137
+    },
+    {
+      "left_ordinal": 8,
+      "right_ordinal": 47,
+      "area_in_crs_squared_units": 26236.781050010675
+    },
+    {
+      "left_ordinal": 8,
+      "right_ordinal": 12,
+      "area_in_crs_squared_units": 0.40782308759123775
+    },
+    {
+      "left_ordinal": 8,
+      "right_ordinal": 59,
+      "area_in_crs_squared_units": 0.5778398143417822
+    },
+    {
+      "left_ordinal": 9,
+      "right_ordinal": 10,
+      "area_in_crs_squared_units": 0.015853176879381658
+    },
+    {
+      "left_ordinal": 9,
+      "right_ordinal": 65,
+      "area_in_crs_squared_units": 0.005621369143252645
+    },
+    {
+      "left_ordinal": 9,
+      "right_ordinal": 61,
+      "area_in_crs_squared_units": 4.764635980391199
+    },
+    {
+      "left_ordinal": 9,
+      "right_ordinal": 59,
+      "area_in_crs_squared_units": 0.08514144977865569
+    },
+    {
+      "left_ordinal": 10,
+      "right_ordinal": 36,
+      "area_in_crs_squared_units": 91.98416514687763
+    },
+    {
+      "left_ordinal": 10,
+      "right_ordinal": 35,
+      "area_in_crs_squared_units": 14.985233995905755
+    },
+    {
+      "left_ordinal": 10,
+      "right_ordinal": 13,
+      "area_in_crs_squared_units": 13103.633504816697
+    },
+    {
+      "left_ordinal": 10,
+      "right_ordinal": 59,
+      "area_in_crs_squared_units": 655.198337577323
+    },
+    {
+      "left_ordinal": 11,
+      "right_ordinal": 48,
+      "area_in_crs_squared_units": 21328.866668685343
+    },
+    {
+      "left_ordinal": 11,
+      "right_ordinal": 63,
+      "area_in_crs_squared_units": 0.17262686908755018
+    },
+    {
+      "left_ordinal": 11,
+      "right_ordinal": 47,
+      "area_in_crs_squared_units": 0.020514699359564025
+    },
+    {
+      "left_ordinal": 11,
+      "right_ordinal": 12,
+      "area_in_crs_squared_units": 0.00012059144563593958
+    },
+    {
+      "left_ordinal": 12,
+      "right_ordinal": 47,
+      "area_in_crs_squared_units": 0.24734332626754166
+    },
+    {
+      "left_ordinal": 12,
+      "right_ordinal": 25,
+      "area_in_crs_squared_units": 0.46564606420313837
+    },
+    {
+      "left_ordinal": 13,
+      "right_ordinal": 59,
+      "area_in_crs_squared_units": 0.8663839679020596
+    },
+    {
+      "left_ordinal": 15,
+      "right_ordinal": 16,
+      "area_in_crs_squared_units": 0.845740355125538
+    },
+    {
+      "left_ordinal": 15,
+      "right_ordinal": 59,
+      "area_in_crs_squared_units": 0.26503108169105066
+    },
+    {
+      "left_ordinal": 16,
+      "right_ordinal": 17,
+      "area_in_crs_squared_units": 2.4683659291147992
+    },
+    {
+      "left_ordinal": 16,
+      "right_ordinal": 20,
+      "area_in_crs_squared_units": 0.26828795941586275
+    },
+    {
+      "left_ordinal": 18,
+      "right_ordinal": 54,
+      "area_in_crs_squared_units": 0.2117450946849595
+    },
+    {
+      "left_ordinal": 19,
+      "right_ordinal": 59,
+      "area_in_crs_squared_units": 0.04481705767222898
+    },
+    {
+      "left_ordinal": 19,
+      "right_ordinal": 20,
+      "area_in_crs_squared_units": 2.6416147085663564
+    },
+    {
+      "left_ordinal": 20,
+      "right_ordinal": 26,
+      "area_in_crs_squared_units": 0.01655275428269989
+    },
+    {
+      "left_ordinal": 20,
+      "right_ordinal": 24,
+      "area_in_crs_squared_units": 0.009255131155605598
+    },
+    {
+      "left_ordinal": 20,
+      "right_ordinal": 53,
+      "area_in_crs_squared_units": 0.20516874890807196
+    },
+    {
+      "left_ordinal": 21,
+      "right_ordinal": 52,
+      "area_in_crs_squared_units": 0.07356980853870472
+    },
+    {
+      "left_ordinal": 21,
+      "right_ordinal": 33,
+      "area_in_crs_squared_units": 492907.28531207016
+    },
+    {
+      "left_ordinal": 21,
+      "right_ordinal": 55,
+      "area_in_crs_squared_units": 46.848597048597156
+    },
+    {
+      "left_ordinal": 21,
+      "right_ordinal": 54,
+      "area_in_crs_squared_units": 0.11501140994937227
+    },
+    {
+      "left_ordinal": 23,
+      "right_ordinal": 50,
+      "area_in_crs_squared_units": 1.9692352308827
+    },
+    {
+      "left_ordinal": 24,
+      "right_ordinal": 47,
+      "area_in_crs_squared_units": 22083.744103475765
+    },
+    {
+      "left_ordinal": 24,
+      "right_ordinal": 53,
+      "area_in_crs_squared_units": 30300.927435482303
+    },
+    {
+      "left_ordinal": 24,
+      "right_ordinal": 54,
+      "area_in_crs_squared_units": 0.005169773406803793
+    },
+    {
+      "left_ordinal": 25,
+      "right_ordinal": 47,
+      "area_in_crs_squared_units": 82636.58972790273
+    },
+    {
+      "left_ordinal": 26,
+      "right_ordinal": 59,
+      "area_in_crs_squared_units": 0.8670709838837235
+    },
+    {
+      "left_ordinal": 27,
+      "right_ordinal": 28,
+      "area_in_crs_squared_units": 0.7865577836883817
+    },
+    {
+      "left_ordinal": 27,
+      "right_ordinal": 29,
+      "area_in_crs_squared_units": 0.05948818277356318
+    },
+    {
+      "left_ordinal": 27,
+      "right_ordinal": 35,
+      "area_in_crs_squared_units": 0.1600057634804152
+    },
+    {
+      "left_ordinal": 27,
+      "right_ordinal": 40,
+      "area_in_crs_squared_units": 3866.912344798563
+    },
+    {
+      "left_ordinal": 28,
+      "right_ordinal": 58,
+      "area_in_crs_squared_units": 0.10167002846110955
+    },
+    {
+      "left_ordinal": 28,
+      "right_ordinal": 29,
+      "area_in_crs_squared_units": 0.00954427674137015
+    },
+    {
+      "left_ordinal": 28,
+      "right_ordinal": 40,
+      "area_in_crs_squared_units": 10977.879323369765
+    },
+    {
+      "left_ordinal": 29,
+      "right_ordinal": 57,
+      "area_in_crs_squared_units": 7.645228228782116
+    },
+    {
+      "left_ordinal": 30,
+      "right_ordinal": 51,
+      "area_in_crs_squared_units": 0.004832748950987813
+    },
+    {
+      "left_ordinal": 32,
+      "right_ordinal": 38,
+      "area_in_crs_squared_units": 0.0014849691537555652
+    },
+    {
+      "left_ordinal": 33,
+      "right_ordinal": 52,
+      "area_in_crs_squared_units": 0.001623793182761065
+    },
+    {
+      "left_ordinal": 33,
+      "right_ordinal": 50,
+      "area_in_crs_squared_units": 0.5336135474529584
+    },
+    {
+      "left_ordinal": 34,
+      "right_ordinal": 44,
+      "area_in_crs_squared_units": 0.05190711843976614
+    },
+    {
+      "left_ordinal": 36,
+      "right_ordinal": 40,
+      "area_in_crs_squared_units": 18893.4476354199
+    },
+    {
+      "left_ordinal": 36,
+      "right_ordinal": 66,
+      "area_in_crs_squared_units": 17.812006979132338
+    },
+    {
+      "left_ordinal": 36,
+      "right_ordinal": 65,
+      "area_in_crs_squared_units": 327.3751090844537
+    },
+    {
+      "left_ordinal": 37,
+      "right_ordinal": 38,
+      "area_in_crs_squared_units": 0.10420705631359639
+    },
+    {
+      "left_ordinal": 38,
+      "right_ordinal": 39,
+      "area_in_crs_squared_units": 0.4088959562221936
+    },
+    {
+      "left_ordinal": 38,
+      "right_ordinal": 50,
+      "area_in_crs_squared_units": 236.8032608369116
+    },
+    {
+      "left_ordinal": 39,
+      "right_ordinal": 50,
+      "area_in_crs_squared_units": 0.28082703058422037
+    },
+    {
+      "left_ordinal": 40,
+      "right_ordinal": 67,
+      "area_in_crs_squared_units": 18.144255232530497
+    },
+    {
+      "left_ordinal": 41,
+      "right_ordinal": 44,
+      "area_in_crs_squared_units": 0.08056451619337204
+    },
+    {
+      "left_ordinal": 41,
+      "right_ordinal": 46,
+      "area_in_crs_squared_units": 0.07815765872968607
+    },
+    {
+      "left_ordinal": 41,
+      "right_ordinal": 42,
+      "area_in_crs_squared_units": 0.008772608105740856
+    },
+    {
+      "left_ordinal": 42,
+      "right_ordinal": 46,
+      "area_in_crs_squared_units": 125.72521556839703
+    },
+    {
+      "left_ordinal": 43,
+      "right_ordinal": 44,
+      "area_in_crs_squared_units": 0.5030238521115574
+    },
+    {
+      "left_ordinal": 44,
+      "right_ordinal": 45,
+      "area_in_crs_squared_units": 1.8200625959921084
+    },
+    {
+      "left_ordinal": 44,
+      "right_ordinal": 46,
+      "area_in_crs_squared_units": 0.4094789370413571
+    },
+    {
+      "left_ordinal": 45,
+      "right_ordinal": 56,
+      "area_in_crs_squared_units": 0.0010105643970567135
+    },
+    {
+      "left_ordinal": 47,
+      "right_ordinal": 48,
+      "area_in_crs_squared_units": 16997.459194572868
+    },
+    {
+      "left_ordinal": 48,
+      "right_ordinal": 52,
+      "area_in_crs_squared_units": 0.0003790517296451412
+    },
+    {
+      "left_ordinal": 49,
+      "right_ordinal": 53,
+      "area_in_crs_squared_units": 1782.2750890065613
+    },
+    {
+      "left_ordinal": 53,
+      "right_ordinal": 54,
+      "area_in_crs_squared_units": 0.00601391612022896
+    },
+    {
+      "left_ordinal": 56,
+      "right_ordinal": 67,
+      "area_in_crs_squared_units": 397.11025850523106
+    },
+    {
+      "left_ordinal": 56,
+      "right_ordinal": 64,
+      "area_in_crs_squared_units": 0.00034902792453042565
+    },
+    {
+      "left_ordinal": 60,
+      "right_ordinal": 61,
+      "area_in_crs_squared_units": 0.012685726617462577
+    },
+    {
+      "left_ordinal": 61,
+      "right_ordinal": 65,
+      "area_in_crs_squared_units": 0.04761139058435042
+    },
+    {
+      "left_ordinal": 62,
+      "right_ordinal": 63,
+      "area_in_crs_squared_units": 0.5744571538756587
+    },
+    {
+      "left_ordinal": 64,
+      "right_ordinal": 65,
+      "area_in_crs_squared_units": 1078.0715944358749
+    },
+    {
+      "left_ordinal": 65,
+      "right_ordinal": 66,
+      "area_in_crs_squared_units": 30.497955534838432
+    },
+    {
+      "left_ordinal": 66,
+      "right_ordinal": 67,
+      "area_in_crs_squared_units": 7899.224277679997
+    }
+  ],
+  "intersection_errors": [],
+  "id_field_diagnostics": {
+    "F2004REG_SQ": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 49,
+      "reused_values": {
+        "0": 20
+      },
+      "examples": [
+        "312.885875998",
+        "1193.99902182",
+        "2125.66138155",
+        "450.579241145",
+        "10.1576221087",
+        "16.6085527136",
+        "27.1998589191",
+        "64.155299294"
+      ]
+    },
+    "FID": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 68,
+      "reused_values": {},
+      "examples": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "Id": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 68,
+      "reused_values": {},
+      "examples": [
+        "2",
+        "57",
+        "10",
+        "14",
+        "15",
+        "16",
+        "17",
+        "19"
+      ]
+    },
+    "POP_AA": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "0": 68
+      },
+      "examples": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "POP_CAUC": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "0": 68
+      },
+      "examples": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "POP_HISP": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "0": 68
+      },
+      "examples": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "POP_OTHER": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "0": 68
+      },
+      "examples": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "POP_TOTAL_": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "0": 68
+      },
+      "examples": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "PRECINCT": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 68,
+      "reused_values": {},
+      "examples": [
+        "1B",
+        "SOUTH ZANESVILLE",
+        "5B",
+        "6C",
+        "ADAMS",
+        "BLUE ROCK",
+        "BRUSH CREEK",
+        "CLAY"
+      ]
+    },
+    "RV_DEM": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 42,
+      "reused_values": {
+        "44": 3,
+        "87": 2,
+        "77": 2,
+        "96": 3,
+        "68": 2,
+        "78": 2,
+        "80": 2,
+        "0": 18
+      },
+      "examples": [
+        "58",
+        "44",
+        "87",
+        "110",
+        "30",
+        "53",
+        "77",
+        "106"
+      ]
+    },
+    "RV_NON_AFF": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 49,
+      "reused_values": {
+        "317": 2,
+        "431": 2,
+        "0": 18
+      },
+      "examples": [
+        "317",
+        "318",
+        "366",
+        "321",
+        "162",
+        "309",
+        "298",
+        "431"
+      ]
+    },
+    "RV_REP": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 46,
+      "reused_values": {
+        "187": 2,
+        "155": 2,
+        "51": 2,
+        "211": 2,
+        "154": 2,
+        "0": 18
+      },
+      "examples": [
+        "45",
+        "35",
+        "146",
+        "216",
+        "66",
+        "92",
+        "60",
+        "65"
+      ]
+    },
+    "RV_TOTAL": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 50,
+      "reused_values": {
+        "668": 3,
+        "596": 2,
+        "281": 2,
+        "0": 15
+      },
+      "examples": [
+        "973",
+        "1073",
+        "599",
+        "647",
+        "258",
+        "454",
+        "857",
+        "602"
+      ]
+    },
+    "SCHOOL_DIS": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 7,
+      "reused_values": {
+        "ZANESVILLE": 15,
+        "MAYSVILLE": 7,
+        "TRI VALLEY": 15,
+        "PHILO": 11,
+        "WEST MUSKINGUM": 12,
+        "EAST MUSKINGUM": 7
+      },
+      "examples": [
+        "ZANESVILLE",
+        "MAYSVILLE",
+        "ZANESVILLE",
+        "ZANESVILLE",
+        "TRI VALLEY",
+        "PHILO",
+        "PHILO",
+        "PHILO"
+      ]
+    },
+    "SQ_MILES": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 49,
+      "reused_values": {
+        "0": 20
+      },
+      "examples": [
+        "1.34234247123",
+        "0.332496084792",
+        "0.281794647633",
+        "1.43592944574",
+        "25.3996454326",
+        "27.3353137885",
+        "15.9927300099",
+        "9.3834805016"
+      ]
+    },
+    "STATE_ID": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 68,
+      "reused_values": {},
+      "examples": [
+        "AAB",
+        "ACT",
+        "AAQ",
+        "AAU",
+        "AAX",
+        "AAY",
+        "AAZ",
+        "ABC"
+      ]
+    },
+    "Shape__Area": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 68,
+      "reused_values": {},
+      "examples": [
+        "74556535.80163574",
+        "21610110.388183594",
+        "20824934.51599121",
+        "47903741.220703125",
+        "708101476.6079102",
+        "762064810.7687988",
+        "849749474.4770508",
+        "261596421.7421875"
+      ]
+    },
+    "Shape__Length": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 68,
+      "reused_values": {},
+      "examples": [
+        "87874.98103208635",
+        "36337.71034565849",
+        "32959.20432784181",
+        "54991.652009364836",
+        "106441.14311366896",
+        "114677.9632260746",
+        "125187.29377520012",
+        "64727.0858646582"
+      ]
+    },
+    "VOTES_P_SQ": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 49,
+      "reused_values": {
+        "0": 20
+      },
+      "examples": [
+        "1.15456042804",
+        "4.75696821442",
+        "4.65133781521",
+        "0.892236121079",
+        "0.0490706382063",
+        "0.0478632643043",
+        "0.0866237545194",
+        "0.143524159494"
+      ]
+    },
+    "WARD": {
+      "nonblank": 68,
+      "blank_or_null": 0,
+      "unique_nonblank": 31,
+      "reused_values": {
+        "1": 2,
+        "SPRINGFIELD": 4,
+        "5": 3,
+        "6": 3,
+        "FALLS": 8,
+        "HOPEWELL": 3,
+        "DRESDEN": 2,
+        "LICKING": 2,
+        "MUSKINGUM": 3,
+        "NEWTON": 5,
+        "PERRY": 2,
+        "UNION": 3,
+        "WASHINGTON": 3,
+        "WAYNE": 4,
+        "JACKSON": 2,
+        "2": 2,
+        "4": 2,
+        "3": 2
+      },
+      "examples": [
+        "1",
+        "SPRINGFIELD",
+        "5",
+        "6",
+        "ADAMS",
+        "BLUE ROCK",
+        "BRUSH CREEK",
+        "CLAY"
+      ]
+    }
+  },
+  "checks_do_not_approve_boundaries": true,
+  "extent_native": [
+    2043087.58440517,
+    640410.937218845,
+    2195373.24997759,
+    789235.500133425
+  ],
+  "crs_wkt": "PROJCRS[\"NAD83 / Ohio South (ftUS)\",BASEGEOGCRS[\"NAD83\",DATUM[\"North American Datum 1983\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4269]],CONVERSION[\"SPCS83 Ohio South zone (US survey foot)\",METHOD[\"Lambert Conic Conformal (2SP)\",ID[\"EPSG\",9802]],PARAMETER[\"Latitude of false origin\",38,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8821]],PARAMETER[\"Longitude of false origin\",-82.5,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8822]],PARAMETER[\"Latitude of 1st standard parallel\",40.0333333333333,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8823]],PARAMETER[\"Latitude of 2nd standard parallel\",38.7333333333333,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8824]],PARAMETER[\"Easting at false origin\",1968500,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8826]],PARAMETER[\"Northing at false origin\",0,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8827]]],CS[Cartesian,2],AXIS[\"easting (X)\",east,ORDER[1],LENGTHUNIT[\"US survey foot\",0.304800609601219]],AXIS[\"northing (Y)\",north,ORDER[2],LENGTHUNIT[\"US survey foot\",0.304800609601219]],USAGE[SCOPE[\"Engineering survey, topographic mapping.\"],AREA[\"United States (USA) - Ohio - counties of Adams; Athens; Belmont; Brown; Butler; Champaign; Clark; Clermont; Clinton; Darke; Fairfield; Fayette; Franklin; Gallia; Greene; Guernsey; Hamilton; Highland; Hocking; Jackson; Lawrence; Licking; Madison; Meigs; Miami; Monroe; Montgomery; Morgan; Muskingum; Noble; Perry; Pickaway; Pike; Preble; Ross; Scioto; Vinton; Warren; Washington.\"],BBOX[38.4,-84.83,40.36,-80.7]],ID[\"EPSG\",3735]]"
+}

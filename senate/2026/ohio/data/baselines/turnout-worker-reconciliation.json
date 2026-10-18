@@ -1,0 +1,50 @@
+{
+  "status": "EXACT_NO_DIFFERENCES",
+  "validated_utc": "2026-10-18T01:25:03.240122+00:00",
+  "county_count": 88,
+  "county_field_comparisons_saved": 1936,
+  "candidate_cells_compared": 2464,
+  "candidate_key_label_column_and_writein_status": "all exact",
+  "native_unit_count": 17811,
+  "priority_count": 32,
+  "priority_order_and_all88_rank_order": "exact",
+  "statewide_totals": {
+    "2024_senate": {
+      "baseline_sum": 5704620,
+      "turnout_sum": 5704620,
+      "difference": 0
+    },
+    "2024_president": {
+      "baseline_sum": 5767788,
+      "turnout_sum": 5767788,
+      "difference": 0
+    },
+    "2022_senate": {
+      "baseline_sum": 4133342,
+      "turnout_sum": 4133342,
+      "difference": 0
+    }
+  },
+  "stable_files": [
+    {
+      "path": "county-turnout.csv",
+      "sha256": "d9133f7f88eca91b8bef8f3987b3e1abfb30b19e61d1d824a1e270dde4049a90"
+    },
+    {
+      "path": "turnout/county-candidate-votes.csv",
+      "sha256": "f921cda4fd8d7f2da1c367468cb4af769f98ab8ed9c8fa0640ed7079bfc5b858"
+    },
+    {
+      "path": "turnout/priority-set.json",
+      "sha256": "829c247302b39ba010c74a9c8425a8c7d4053435c8e2e73ed0cc8360cded9c33"
+    },
+    {
+      "path": "county-baselines.csv",
+      "sha256": "2edbf427bff3c0e314ab42ac109688579a78a908ec3ac0d0f71aea35b5408908"
+    },
+    {
+      "path": "baselines/candidate-votes.csv",
+      "sha256": "3add4eb027ffe3a403792ff2a6d08e29dec30b0b2d56e0feb1c2940d0b6f9710"
+    }
+  ]
+}

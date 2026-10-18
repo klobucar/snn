@@ -1,0 +1,258 @@
+{
+  "feature_count": 67,
+  "source_vertices": 14245,
+  "derived_vertices": 14245,
+  "empty_ordinals": [],
+  "invalid_features": [],
+  "finite_bounds": true,
+  "overlap_pairs": [],
+  "intersection_errors": [],
+  "id_field_diagnostics": {
+    "ALAND20": {
+      "nonblank": 67,
+      "blank_or_null": 0,
+      "unique_nonblank": 67,
+      "reused_values": {},
+      "examples": [
+        "52552174",
+        "39198791",
+        "7346115",
+        "50027601",
+        "5206964",
+        "40502251",
+        "30923210",
+        "76346415"
+      ]
+    },
+    "AWATER20": {
+      "nonblank": 67,
+      "blank_or_null": 0,
+      "unique_nonblank": 47,
+      "reused_values": {
+        "0": 21
+      },
+      "examples": [
+        "320845",
+        "14898",
+        "0",
+        "173783",
+        "0",
+        "66302",
+        "80500",
+        "259674"
+      ]
+    },
+    "COUNTYFP20": {
+      "nonblank": 67,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "169": 67
+      },
+      "examples": [
+        "169",
+        "169",
+        "169",
+        "169",
+        "169",
+        "169",
+        "169",
+        "169"
+      ]
+    },
+    "FUNCSTAT20": {
+      "nonblank": 67,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "N": 67
+      },
+      "examples": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    "GEOID20": {
+      "nonblank": 67,
+      "blank_or_null": 0,
+      "unique_nonblank": 67,
+      "reused_values": {},
+      "examples": [
+        "39169085ABQ",
+        "39169085ABP",
+        "39169085AAA",
+        "39169085ABU",
+        "39169085ABV",
+        "39169085ABT",
+        "39169085ABZ",
+        "39169085ABX"
+      ]
+    },
+    "INTPTLAT20": {
+      "nonblank": 67,
+      "blank_or_null": 0,
+      "unique_nonblank": 67,
+      "reused_values": {},
+      "examples": [
+        "+40.8792811",
+        "+40.8304089",
+        "+40.8534098",
+        "+40.9472705",
+        "+40.9754180",
+        "+40.9381461",
+        "+40.8466679",
+        "+40.8629345"
+      ]
+    },
+    "INTPTLON20": {
+      "nonblank": 67,
+      "blank_or_null": 0,
+      "unique_nonblank": 67,
+      "reused_values": {},
+      "examples": [
+        "-081.6958012",
+        "-081.7081052",
+        "-081.7660915",
+        "-081.9608993",
+        "-081.9010947",
+        "-081.9155987",
+        "-082.0951724",
+        "-082.0374976"
+      ]
+    },
+    "LSAD20": {
+      "nonblank": 67,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "00": 67
+      },
+      "examples": [
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00"
+      ]
+    },
+    "MTFCC20": {
+      "nonblank": 67,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "G5240": 67
+      },
+      "examples": [
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240"
+      ]
+    },
+    "NAME20": {
+      "nonblank": 67,
+      "blank_or_null": 0,
+      "unique_nonblank": 67,
+      "reused_values": {},
+      "examples": [
+        "BAUGHMAN TWP 2",
+        "BAUGHMAN TWP 1",
+        "ORRVILLE CITY 1",
+        "CANAAN TWP 1",
+        "CANAAN TWP 2 CRESTON",
+        "CANAAN TWP 3",
+        "CHESTER TWP 2",
+        "CHESTER TWP 1"
+      ]
+    },
+    "NAMELSAD20": {
+      "nonblank": 67,
+      "blank_or_null": 0,
+      "unique_nonblank": 67,
+      "reused_values": {},
+      "examples": [
+        "BAUGHMAN TWP 2",
+        "BAUGHMAN TWP 1",
+        "ORRVILLE CITY 1",
+        "CANAAN TWP 1",
+        "CANAAN TWP 2 CRESTON",
+        "CANAAN TWP 3",
+        "CHESTER TWP 2",
+        "CHESTER TWP 1"
+      ]
+    },
+    "STATEFP20": {
+      "nonblank": 67,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "39": 67
+      },
+      "examples": [
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39"
+      ]
+    },
+    "VTDI20": {
+      "nonblank": 67,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "A": 67
+      },
+      "examples": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "VTDST20": {
+      "nonblank": 67,
+      "blank_or_null": 0,
+      "unique_nonblank": 67,
+      "reused_values": {},
+      "examples": [
+        "085ABQ",
+        "085ABP",
+        "085AAA",
+        "085ABU",
+        "085ABV",
+        "085ABT",
+        "085ABZ",
+        "085ABX"
+      ]
+    }
+  },
+  "checks_do_not_approve_boundaries": true,
+  "extent_native": [
+    -82.129334,
+    40.666826,
+    -81.647564,
+    40.991807
+  ],
+  "crs_wkt": "GEOGCRS[\"NAD83\",DATUM[\"North American Datum 1983\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6269]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"longitude\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"latitude\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]]]"
+}

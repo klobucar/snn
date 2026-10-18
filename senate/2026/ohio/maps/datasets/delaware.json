@@ -1,0 +1,38 @@
+{
+  "county": "delaware",
+  "url": "https://services2.arcgis.com/ziXVKVy3BiopMCCU/arcgis/rest/services/Precincts/FeatureServer/0",
+  "authority": "Delaware County Auditor GIS",
+  "vintage": "current-published; effective date unestablished",
+  "approved_nov2026": false,
+  "layer_metadata_path": "evidence/gis/delaware/layer.gz",
+  "count_path": "evidence/gis/delaware/count.gz",
+  "ids_path": "evidence/gis/delaware/ids.gz",
+  "batch_paths": [
+    "evidence/gis/delaware/batch-000.gz",
+    "evidence/gis/delaware/batch-001.gz",
+    "evidence/gis/delaware/batch-002.gz",
+    "evidence/gis/delaware/batch-003.gz"
+  ],
+  "feature_count": 180,
+  "object_id_field": "OBJECTID",
+  "native_sr": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "query_sr": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "fields": [
+    "OBJECTID",
+    "precinctid",
+    "name",
+    "facilityid",
+    "name_1",
+    "fulladdr",
+    "Label",
+    "Shape__Area",
+    "Shape__Length"
+  ],
+  "pagination": "count equals unique ID set equals every requested and returned batch ID; no transfer flag; no filter or simplification or reprojection"
+}

@@ -1,0 +1,94 @@
+{
+  "not_a_2026_projection": true,
+  "historical_major_party_volume_anchors": {
+    "low_2022_senate": 4131603,
+    "base_2018_senate_amended": 4416067,
+    "high_2024_senate": 5508332
+  },
+  "definitions": [
+    [
+      "2024_senate_own_observed",
+      "2024_senate",
+      "2024_senate",
+      5508332,
+      "observed preference and volume; historical election"
+    ],
+    [
+      "2024_president_own_observed",
+      "2024_president",
+      "2024_president",
+      5713815,
+      "observed preference and volume; historical election"
+    ],
+    [
+      "2022_senate_own_observed",
+      "2022_senate",
+      "2022_senate",
+      4131603,
+      "observed preference and volume; historical election"
+    ],
+    [
+      "2018_senate_amended_own_observed",
+      "2018_senate_amended",
+      "2018_senate_amended",
+      4416067,
+      "observed preference and volume; historical election"
+    ],
+    [
+      "2024_senate_fixed_mix_low_2022",
+      "2024_senate",
+      "2024_senate",
+      4131603,
+      "uniform statewide volume only; 2024 county weights and shares held fixed"
+    ],
+    [
+      "2024_senate_fixed_mix_base_2018_amended",
+      "2024_senate",
+      "2024_senate",
+      4416067,
+      "uniform statewide volume only; 2024 county weights and shares held fixed"
+    ],
+    [
+      "2024_senate_mix_2022_senate_fixed_high_volume",
+      "2024_senate",
+      "2022_senate",
+      5508332,
+      "county composition only; statewide major-party volume fixed at 2024"
+    ],
+    [
+      "2024_senate_mix_2018_senate_amended_fixed_high_volume",
+      "2024_senate",
+      "2018_senate_amended",
+      5508332,
+      "county composition only; statewide major-party volume fixed at 2024"
+    ],
+    [
+      "2024_senate_mix_2022_senate_low_2022",
+      "2024_senate",
+      "2022_senate",
+      4131603,
+      "historical county weights crossed with observed statewide volume; scenario only"
+    ],
+    [
+      "2024_senate_mix_2022_senate_base_2018_amended",
+      "2024_senate",
+      "2022_senate",
+      4416067,
+      "historical county weights crossed with observed statewide volume; scenario only"
+    ],
+    [
+      "2024_senate_mix_2018_senate_amended_low_2022",
+      "2024_senate",
+      "2018_senate_amended",
+      4131603,
+      "historical county weights crossed with observed statewide volume; scenario only"
+    ],
+    [
+      "2024_senate_mix_2018_senate_amended_base_2018_amended",
+      "2024_senate",
+      "2018_senate_amended",
+      4416067,
+      "historical county weights crossed with observed statewide volume; scenario only"
+    ]
+  ]
+}

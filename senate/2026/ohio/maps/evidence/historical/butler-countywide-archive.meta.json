@@ -1,0 +1,33 @@
+{
+  "key": "historical/butler-countywide-archive",
+  "requested_url": "https://web.archive.org/cdx/search/cdx?url=elections.bcohio.gov/Maps/*&output=json&filter=statuscode:200&collapse=urlkey",
+  "final_url": "https://web.archive.org/cdx/search/cdx?url=elections.bcohio.gov/Maps/*&output=json&filter=statuscode:200&collapse=urlkey",
+  "retrieved_utc": "2026-10-18T01:53:01.121775+00:00",
+  "status": 200,
+  "headers": {
+    "Server": "nginx",
+    "Date": "Sun, 18 Oct 2026 01:53:29 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "server-timing": "exclusion.robots;dur=0.087442, exclusion.robots.policy;dur=0.075406, esindex;dur=0.008554, TR;dur=0,Tw;dur=3733,Tc;dur=1, BYPASS",
+    "x-app-server": "wwwb-app207-dc8",
+    "x-ts": "200",
+    "x-tr": "23996",
+    "set-cookie": "wb-cdx-SERVER=wwwb-app207; path=/",
+    "X-location": "cdx",
+    "X-RL": "0",
+    "X-NA": "0",
+    "X-Page-Cache": "BYPASS",
+    "X-NID": "ATT-INTERNET4",
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Permissions-Policy": "interest-cohort=()",
+    "X-sd": "0",
+    "X-be": "wb_cdx_pygwb",
+    "Content-Encoding": "gzip"
+  },
+  "bytes": 5143,
+  "sha256": "91fab2e3de12170e17c2e6e3795eb8ec63b2dd0e480ceda73b25acae67248177",
+  "stored_path": "evidence/historical/butler-countywide-archive.gz",
+  "stored_sha256": "5bdd114065400fe16d7e663457036d202f4f042fdba6e9275a64ed5767ebed78"
+}

@@ -1,0 +1,875 @@
+{
+  "feature_count": 395,
+  "source_vertices": 109667,
+  "derived_vertices": 109667,
+  "empty_ordinals": [],
+  "invalid_features": [],
+  "finite_bounds": true,
+  "overlap_pairs": [
+    {
+      "left_ordinal": 9,
+      "right_ordinal": 132,
+      "area_in_crs_squared_units": 8.363300538655194e-05
+    },
+    {
+      "left_ordinal": 118,
+      "right_ordinal": 254,
+      "area_in_crs_squared_units": 1.0723048852578475e-07
+    },
+    {
+      "left_ordinal": 120,
+      "right_ordinal": 124,
+      "area_in_crs_squared_units": 0.003410002314922167
+    },
+    {
+      "left_ordinal": 124,
+      "right_ordinal": 132,
+      "area_in_crs_squared_units": 1.6533693901085028e-05
+    },
+    {
+      "left_ordinal": 150,
+      "right_ordinal": 254,
+      "area_in_crs_squared_units": 6.205538876003945e-08
+    },
+    {
+      "left_ordinal": 356,
+      "right_ordinal": 357,
+      "area_in_crs_squared_units": 8.32356849134186e-06
+    }
+  ],
+  "intersection_errors": [],
+  "id_field_diagnostics": {
+    "EXTRACT_NA": {
+      "nonblank": 395,
+      "blank_or_null": 0,
+      "unique_nonblank": 364,
+      "reused_values": {
+        "HAR_C": 2,
+        "HAR_E": 2,
+        "DAY_3_B": 2,
+        "RV_B": 5,
+        "TR_4_C": 3,
+        "TR_4_B": 2,
+        "RV_H": 2,
+        "BT_B": 3,
+        "JEF_C": 3,
+        "CTN_1_A": 3,
+        "DAY_3_G": 2,
+        "MBG_3_C": 2,
+        "BT_A": 2,
+        "MIA_D": 2,
+        "MIA_C": 3,
+        "RV_C": 2,
+        "JEF_B": 3,
+        "BRK_D": 3,
+        "GTN_A": 2,
+        "CLA_C": 2,
+        "HUB_6_B": 2
+      },
+      "examples": [
+        "DAY_3_D",
+        "HAR_C",
+        "HAR_E",
+        "HAR_E",
+        "DAY_3_B",
+        "RV_D",
+        "DAY_3_F",
+        "HAR_I"
+      ]
+    },
+    "SHAPE_Area": {
+      "nonblank": 395,
+      "blank_or_null": 0,
+      "unique_nonblank": 395,
+      "reused_values": {},
+      "examples": [
+        "37141978.4561",
+        "37344802.1795",
+        "6105048.02491",
+        "8798956.53126",
+        "7708325.02609",
+        "21772026.2135",
+        "25636388.8911",
+        "6682547.95642"
+      ]
+    },
+    "SHAPE_Leng": {
+      "nonblank": 395,
+      "blank_or_null": 0,
+      "unique_nonblank": 395,
+      "reused_values": {},
+      "examples": [
+        "31879.1484324",
+        "38193.2991887",
+        "11241.4820218",
+        "13442.984164",
+        "13681.736737",
+        "22287.7726254",
+        "31985.5000758",
+        "15837.0551881"
+      ]
+    },
+    "VLABEL": {
+      "nonblank": 391,
+      "blank_or_null": 4,
+      "unique_nonblank": 360,
+      "reused_values": {
+        "HAR-C": 2,
+        "HAR-E": 2,
+        "DAY 3-B": 2,
+        "RV-B": 5,
+        "TR 4-C": 3,
+        "TR 4-B": 2,
+        "RV-H": 2,
+        "BT-B": 3,
+        "JEF-C": 3,
+        "CTN 1-A": 3,
+        "DAY 3-G": 2,
+        "MBG 3-C": 2,
+        "BT-A": 2,
+        "MIA-D": 2,
+        "MIA-C": 3,
+        "RV-C": 2,
+        "JEF-B": 3,
+        "BRK-D": 3,
+        "GTN-A": 2,
+        "CLA-C": 2,
+        "HUB 6-B": 2
+      },
+      "examples": [
+        "DAY 3-D",
+        "HAR-C",
+        "HAR-E",
+        "HAR-E",
+        "DAY 3-B",
+        "RV-D",
+        "DAY 3-F",
+        "HAR-I"
+      ]
+    },
+    "VNAME": {
+      "nonblank": 391,
+      "blank_or_null": 4,
+      "unique_nonblank": 360,
+      "reused_values": {
+        "HARRISON TOWNSHIP C": 2,
+        "HARRISON TOWNSHIP E": 2,
+        "DAYTON 3-B": 2,
+        "RIVERSIDE B": 5,
+        "TROTWOOD 4-C": 3,
+        "TROTWOOD 4-B": 2,
+        "RIVERSIDE H": 2,
+        "BUTLER TOWNSHIP B": 3,
+        "JEFFERSON TOWNSHIP C": 3,
+        "CLAYTON 1-A": 3,
+        "DAYTON 3-G": 2,
+        "MIAMISBURG 3-C": 2,
+        "BUTLER TOWNSHIP A": 2,
+        "MIAMI TOWNSHIP D": 2,
+        "MIAMI TOWNSHIP C": 3,
+        "RIVERSIDE C": 2,
+        "JEFFERSON TOWNSHIP B": 3,
+        "BROOKVILLE D": 3,
+        "GERMANTOWN A": 2,
+        "CLAY TOWNSHIP C": 2,
+        "HUBER HEIGHTS 6-B": 2
+      },
+      "examples": [
+        "DAYTON 3-D",
+        "HARRISON TOWNSHIP C",
+        "HARRISON TOWNSHIP E",
+        "HARRISON TOWNSHIP E",
+        "DAYTON 3-B",
+        "RIVERSIDE D",
+        "DAYTON 3-F",
+        "HARRISON TOWNSHIP I"
+      ]
+    },
+    "VPRECINCT": {
+      "nonblank": 391,
+      "blank_or_null": 4,
+      "unique_nonblank": 360,
+      "reused_values": {
+        "1280": 2,
+        "1300": 2,
+        "0110": 2,
+        "2290": 5,
+        "2270": 3,
+        "2260": 2,
+        "2350": 2,
+        "0970": 3,
+        "1690": 3,
+        "2970": 3,
+        "0160": 2,
+        "2770": 2,
+        "0960": 2,
+        "2450": 2,
+        "2440": 3,
+        "2300": 2,
+        "1680": 3,
+        "1190": 3,
+        "1230": 2,
+        "1150": 2,
+        "1600": 2
+      },
+      "examples": [
+        "0130",
+        "1280",
+        "1300",
+        "1300",
+        "0110",
+        "2310",
+        "0150",
+        "1340"
+      ]
+    },
+    "VPREC_SPLI": {
+      "nonblank": 395,
+      "blank_or_null": 0,
+      "unique_nonblank": 4,
+      "reused_values": {
+        "01": 381,
+        "02": 11,
+        "03": 2
+      },
+      "examples": [
+        "01",
+        "01",
+        "01",
+        "01",
+        "02",
+        "01",
+        "01",
+        "01"
+      ]
+    },
+    "V_CITY": {
+      "nonblank": 293,
+      "blank_or_null": 102,
+      "unique_nonblank": 16,
+      "reused_values": {
+        "DAY": 97,
+        "RV": 19,
+        "VD": 10,
+        "TROT": 20,
+        "UN": 4,
+        "KTG": 40,
+        "HUB": 23,
+        "CTN": 12,
+        "ENG": 10,
+        "CV": 16,
+        "OAK": 7,
+        "MBG": 14,
+        "WCR": 7,
+        "MOR": 4,
+        "BRK": 6,
+        "GTN": 4
+      },
+      "examples": [
+        "DAY",
+        "DAY",
+        "RV",
+        "DAY",
+        "DAY",
+        "RV",
+        "DAY",
+        "DAY"
+      ]
+    },
+    "V_COBDED": {
+      "nonblank": 58,
+      "blank_or_null": 337,
+      "unique_nonblank": 3,
+      "reused_values": {
+        "MONT": 56
+      },
+      "examples": [
+        "MONT",
+        "MONT",
+        "MONT",
+        "MONT",
+        "MONT",
+        "MONT",
+        "MONT",
+        "MONT"
+      ]
+    },
+    "V_COCRTS": {
+      "nonblank": 91,
+      "blank_or_null": 304,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "CDIS": 91
+      },
+      "examples": [
+        "CDIS",
+        "CDIS",
+        "CDIS",
+        "CDIS",
+        "CDIS",
+        "CDIS",
+        "CDIS",
+        "CDIS"
+      ]
+    },
+    "V_COURTS": {
+      "nonblank": 391,
+      "blank_or_null": 4,
+      "unique_nonblank": 7,
+      "reused_values": {
+        "DAY": 97,
+        "VD": 62,
+        "DIS2": 43,
+        "DIS1": 48,
+        "KTG": 84,
+        "OAK": 7,
+        "MBG": 50
+      },
+      "examples": [
+        "DAY",
+        "VD",
+        "VD",
+        "VD",
+        "DAY",
+        "DIS2",
+        "DAY",
+        "VD"
+      ]
+    },
+    "V_CRTAPL": {
+      "nonblank": 391,
+      "blank_or_null": 4,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "AP02": 391
+      },
+      "examples": [
+        "AP02",
+        "AP02",
+        "AP02",
+        "AP02",
+        "AP02",
+        "AP02",
+        "AP02",
+        "AP02"
+      ]
+    },
+    "V_FIRE": {
+      "nonblank": 390,
+      "blank_or_null": 5,
+      "unique_nonblank": 24,
+      "reused_values": {
+        "DAY": 97,
+        "HAR": 16,
+        "RV": 19,
+        "VD": 10,
+        "TR": 20,
+        "UN": 4,
+        "BT": 10,
+        "KT": 40,
+        "HUB": 23,
+        "JEF": 8,
+        "CTN": 12,
+        "ENG": 10,
+        "WS": 40,
+        "OAK": 7,
+        "MIA": 23,
+        "MBG": 14,
+        "WCR": 7,
+        "MOR": 4,
+        "JAKN": 3,
+        "PER": 7,
+        "GER": 6,
+        "CLAY": 7,
+        "JAKS": 2
+      },
+      "examples": [
+        "DAY",
+        "HAR",
+        "HAR",
+        "HAR",
+        "DAY",
+        "RV",
+        "DAY",
+        "HAR"
+      ]
+    },
+    "V_HOUSE": {
+      "nonblank": 391,
+      "blank_or_null": 4,
+      "unique_nonblank": 5,
+      "reused_values": {
+        "HS43": 60,
+        "HS41": 82,
+        "HS40": 92,
+        "HS39": 79,
+        "HS42": 78
+      },
+      "examples": [
+        "HS43",
+        "HS43",
+        "HS43",
+        "HS43",
+        "HS43",
+        "HS41",
+        "HS43",
+        "HS43"
+      ]
+    },
+    "V_LIBRARY": {
+      "nonblank": 390,
+      "blank_or_null": 5,
+      "unique_nonblank": 4,
+      "reused_values": {
+        "DAY": 335,
+        "CV": 40,
+        "OAK": 7,
+        "GTN": 8
+      },
+      "examples": [
+        "DAY",
+        "DAY",
+        "DAY",
+        "DAY",
+        "DAY",
+        "DAY",
+        "DAY",
+        "DAY"
+      ]
+    },
+    "V_LOCATION": {
+      "nonblank": 6,
+      "blank_or_null": 389,
+      "unique_nonblank": 2,
+      "reused_values": {
+        "VL0001": 4,
+        "VL0002": 2
+      },
+      "examples": [
+        "VL0001",
+        "VL0001",
+        "VL0001",
+        "VL0002",
+        "VL0002",
+        "VL0001"
+      ]
+    },
+    "V_PARK": {
+      "nonblank": 221,
+      "blank_or_null": 174,
+      "unique_nonblank": 9,
+      "reused_values": {
+        "DAY": 97,
+        "BT": 10,
+        "KT": 40,
+        "HUB": 23,
+        "WS": 40,
+        "JAK": 3,
+        "GER": 6
+      },
+      "examples": [
+        "DAY",
+        "DAY",
+        "DAY",
+        "DAY",
+        "DAY",
+        "DAY",
+        "DAY",
+        "DAY"
+      ]
+    },
+    "V_POLICE": {
+      "nonblank": 390,
+      "blank_or_null": 5,
+      "unique_nonblank": 29,
+      "reused_values": {
+        "DAY": 97,
+        "HAR": 16,
+        "RV": 19,
+        "VD": 10,
+        "TR": 20,
+        "UN": 4,
+        "BT": 10,
+        "KT": 40,
+        "HUB": 23,
+        "JEF": 8,
+        "CTN": 12,
+        "ENG": 10,
+        "CV": 16,
+        "WS": 24,
+        "OAK": 7,
+        "MIA": 23,
+        "MBG": 14,
+        "WCR": 7,
+        "MOR": 4,
+        "JAK": 2,
+        "PER": 3,
+        "BRK": 6,
+        "GTN": 4,
+        "GER": 2,
+        "NLB": 3,
+        "CLAY": 3
+      },
+      "examples": [
+        "DAY",
+        "HAR",
+        "HAR",
+        "HAR",
+        "DAY",
+        "RV",
+        "DAY",
+        "HAR"
+      ]
+    },
+    "V_RESULT_J": {
+      "nonblank": 395,
+      "blank_or_null": 0,
+      "unique_nonblank": 361,
+      "reused_values": {
+        "1280Y": 2,
+        "1300Y": 2,
+        "0110Y": 2,
+        "2290Y": 5,
+        "2270Y": 3,
+        "2260Y": 2,
+        "2350Y": 2,
+        "0970Y": 3,
+        "1690Y": 3,
+        "2970Y": 3,
+        "0160Y": 2,
+        "Y": 4,
+        "2770Y": 2,
+        "0960Y": 2,
+        "2450Y": 2,
+        "2440Y": 3,
+        "2300Y": 2,
+        "1680Y": 3,
+        "1190Y": 3,
+        "1230Y": 2,
+        "1150Y": 2,
+        "1600Y": 2
+      },
+      "examples": [
+        "0130Y",
+        "1280Y",
+        "1300Y",
+        "1300Y",
+        "0110Y",
+        "2310Y",
+        "0150Y",
+        "1340Y"
+      ]
+    },
+    "V_ROADS": {
+      "nonblank": 0,
+      "blank_or_null": 395,
+      "unique_nonblank": 0,
+      "reused_values": {},
+      "examples": []
+    },
+    "V_SCHOOL": {
+      "nonblank": 391,
+      "blank_or_null": 4,
+      "unique_nonblank": 20,
+      "reused_values": {
+        "NRG": 8,
+        "VB": 23,
+        "DAY": 101,
+        "MDR": 18,
+        "HUB": 28,
+        "TM": 17,
+        "NMT": 28,
+        "KTG": 41,
+        "JEF": 10,
+        "CV": 40,
+        "OAK": 7,
+        "MBG": 30,
+        "WCR": 14,
+        "NLB": 5,
+        "BRK": 9,
+        "VV": 8
+      },
+      "examples": [
+        "NRG",
+        "NRG",
+        "NRG",
+        "NRG",
+        "VB",
+        "BVR",
+        "DAY",
+        "DAY"
+      ]
+    },
+    "V_SENATE": {
+      "nonblank": 391,
+      "blank_or_null": 4,
+      "unique_nonblank": 2,
+      "reused_values": {
+        "SN05": 139,
+        "SN06": 252
+      },
+      "examples": [
+        "SN05",
+        "SN05",
+        "SN05",
+        "SN05",
+        "SN05",
+        "SN06",
+        "SN05",
+        "SN05"
+      ]
+    },
+    "V_STBDED": {
+      "nonblank": 391,
+      "blank_or_null": 4,
+      "unique_nonblank": 2,
+      "reused_values": {
+        "ED03": 390
+      },
+      "examples": [
+        "ED03",
+        "ED03",
+        "ED03",
+        "ED03",
+        "ED03",
+        "ED03",
+        "ED03",
+        "ED03"
+      ]
+    },
+    "V_TOWN": {
+      "nonblank": 135,
+      "blank_or_null": 260,
+      "unique_nonblank": 9,
+      "reused_values": {
+        "HAR": 16,
+        "BT": 10,
+        "JEF": 8,
+        "WS": 40,
+        "MIA": 37,
+        "JAK": 5,
+        "PER": 5,
+        "GER": 6,
+        "CLAY": 8
+      },
+      "examples": [
+        "HAR",
+        "HAR",
+        "HAR",
+        "HAR",
+        "HAR",
+        "HAR",
+        "HAR",
+        "HAR"
+      ]
+    },
+    "V_TYPE2": {
+      "nonblank": 0,
+      "blank_or_null": 395,
+      "unique_nonblank": 0,
+      "reused_values": {},
+      "examples": []
+    },
+    "V_UNCTWP": {
+      "nonblank": 57,
+      "blank_or_null": 338,
+      "unique_nonblank": 6,
+      "reused_values": {
+        "WS": 24,
+        "MIA": 23,
+        "JAK": 2,
+        "PER": 3,
+        "GER": 2,
+        "CLAY": 3
+      },
+      "examples": [
+        "WS",
+        "MIA",
+        "WS",
+        "MIA",
+        "MIA",
+        "MIA",
+        "WS",
+        "MIA"
+      ]
+    },
+    "V_USCONG": {
+      "nonblank": 395,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "CN10": 395
+      },
+      "examples": [
+        "CN10",
+        "CN10",
+        "CN10",
+        "CN10",
+        "CN10",
+        "CN10",
+        "CN10",
+        "CN10"
+      ]
+    },
+    "V_VILLAGE": {
+      "nonblank": 6,
+      "blank_or_null": 389,
+      "unique_nonblank": 4,
+      "reused_values": {
+        "NLB": 3
+      },
+      "examples": [
+        "NLB",
+        "VER",
+        "PHBG",
+        "NLB",
+        "NLB",
+        "FARM"
+      ]
+    },
+    "V_VOCSCH": {
+      "nonblank": 184,
+      "blank_or_null": 211,
+      "unique_nonblank": 2,
+      "reused_values": {
+        "MVCT": 182,
+        "GRN": 2
+      },
+      "examples": [
+        "MVCT",
+        "MVCT",
+        "MVCT",
+        "MVCT",
+        "MVCT",
+        "GRN",
+        "MVCT",
+        "MVCT"
+      ]
+    },
+    "V_WARD": {
+      "nonblank": 391,
+      "blank_or_null": 4,
+      "unique_nonblank": 71,
+      "reused_values": {
+        "DA03": 14,
+        "HAR": 16,
+        "RV": 19,
+        "DA16": 5,
+        "DA18": 4,
+        "VD": 10,
+        "DA15": 4,
+        "TR4": 6,
+        "DA05": 5,
+        "DA04": 4,
+        "DA22": 3,
+        "DA06": 4,
+        "DA21": 3,
+        "DA17": 4,
+        "DA11": 4,
+        "DA02": 4,
+        "UN": 4,
+        "TR3": 3,
+        "TR1": 6,
+        "BT": 10,
+        "KT1": 9,
+        "TR2": 5,
+        "HUB2": 4,
+        "JEF": 8,
+        "CTN2": 3,
+        "CTN1": 6,
+        "CTN3": 3,
+        "ENG": 10,
+        "CV": 16,
+        "KT3": 11,
+        "KT4": 11,
+        "WS": 24,
+        "OAK": 7,
+        "MIA": 23,
+        "HUB6": 4,
+        "MBG2": 3,
+        "WCR": 7,
+        "MBG4": 4,
+        "MBG3": 4,
+        "DA08": 4,
+        "DA20": 4,
+        "KT2": 9,
+        "JAK": 2,
+        "DA01": 5,
+        "DA14": 4,
+        "DA13": 2,
+        "DA19": 4,
+        "DA09": 4,
+        "DA10": 5,
+        "DA12": 4,
+        "DA07": 2,
+        "PER": 3,
+        "BRK": 6,
+        "MBG1": 3,
+        "GTN": 4,
+        "GER": 2,
+        "HUB1": 4,
+        "JNLB": 2,
+        "CLA": 4,
+        "HUB3": 4,
+        "HUB5": 3,
+        "HUB4": 4
+      },
+      "examples": [
+        "DA03",
+        "HAR",
+        "HAR",
+        "HAR",
+        "DA03",
+        "RV",
+        "DA03",
+        "HAR"
+      ]
+    },
+    "WEB_PRECIN": {
+      "nonblank": 391,
+      "blank_or_null": 4,
+      "unique_nonblank": 360,
+      "reused_values": {
+        "http://www.mcegisohio.org/election_pdf/har-c.pdf": 2,
+        "http://www.mcegisohio.org/election_pdf/har-e.pdf": 2,
+        "http://www.mcegisohio.org/election_pdf/day 3-b.pdf": 2,
+        "http://www.mcegisohio.org/election_pdf/rv-b.pdf": 5,
+        "http://www.mcegisohio.org/election_pdf/tr 4-c.pdf": 3,
+        "http://www.mcegisohio.org/election_pdf/tr 4-b.pdf": 2,
+        "http://www.mcegisohio.org/election_pdf/rv-h.pdf": 2,
+        "http://www.mcegisohio.org/election_pdf/bt-b.pdf": 3,
+        "http://www.mcegisohio.org/election_pdf/jef-c.pdf": 3,
+        "http://www.mcegisohio.org/election_pdf/ctn 1-a.pdf": 3,
+        "http://www.mcegisohio.org/election_pdf/day 3-g.pdf": 2,
+        "http://www.mcegisohio.org/election_pdf/mbg 3-c.pdf": 2,
+        "http://www.mcegisohio.org/election_pdf/bt-a.pdf": 2,
+        "http://www.mcegisohio.org/election_pdf/mia-d.pdf": 2,
+        "http://www.mcegisohio.org/election_pdf/mia-c.pdf": 3,
+        "http://www.mcegisohio.org/election_pdf/rv-c.pdf": 2,
+        "http://www.mcegisohio.org/election_pdf/jef-b.pdf": 3,
+        "http://www.mcegisohio.org/election_pdf/brk-d.pdf": 3,
+        "http://www.mcegisohio.org/election_pdf/gtn-a.pdf": 2,
+        "http://www.mcegisohio.org/election_pdf/cla-c.pdf": 2,
+        "http://www.mcegisohio.org/election_pdf/hub 6-b.pdf": 2
+      },
+      "examples": [
+        "http://www.mcegisohio.org/election_pdf/day 3-d.pdf",
+        "http://www.mcegisohio.org/election_pdf/har-c.pdf",
+        "http://www.mcegisohio.org/election_pdf/har-e.pdf",
+        "http://www.mcegisohio.org/election_pdf/har-e.pdf",
+        "http://www.mcegisohio.org/election_pdf/day 3-b.pdf",
+        "http://www.mcegisohio.org/election_pdf/rv-d.pdf",
+        "http://www.mcegisohio.org/election_pdf/day 3-f.pdf",
+        "http://www.mcegisohio.org/election_pdf/har-i.pdf"
+      ]
+    }
+  },
+  "checks_do_not_approve_boundaries": true,
+  "extent_native": [
+    1410775.7502000034,
+    578872.4748000056,
+    1533235.9888000041,
+    704933.75
+  ],
+  "crs_wkt": "PROJCRS[\"NAD83 / Ohio South (ftUS)\",BASEGEOGCRS[\"NAD83\",DATUM[\"North American Datum 1983\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6269]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Lambert Conic Conformal (2SP)\",ID[\"EPSG\",9802]],PARAMETER[\"Latitude of false origin\",38,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8821]],PARAMETER[\"Longitude of false origin\",-82.5,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8822]],PARAMETER[\"Latitude of 1st standard parallel\",38.7333333333333,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8823]],PARAMETER[\"Latitude of 2nd standard parallel\",40.0333333333333,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8824]],PARAMETER[\"Easting at false origin\",1968500,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8826]],PARAMETER[\"Northing at false origin\",0,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8827]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"US survey foot\",0.304800609601219,ID[\"EPSG\",9003]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"US survey foot\",0.304800609601219,ID[\"EPSG\",9003]]]]"
+}

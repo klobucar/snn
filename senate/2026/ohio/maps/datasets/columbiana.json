@@ -1,0 +1,62 @@
+{
+  "county": "columbiana",
+  "url": "https://services8.arcgis.com/234WKrCI77bh5yOY/arcgis/rest/services/Columbiana_County_Election_Map_for_App_2022_WFL1/FeatureServer/0",
+  "authority": "Columbiana BOE \u2192 county GIS app 88daba... \u2192 webmap b4d95... \u2192 Precincts",
+  "vintage": "2022 in service title; current BOE locator publication; effective date unestablished",
+  "approved_nov2026": false,
+  "layer_metadata_path": "evidence/gis/columbiana/layer.gz",
+  "count_path": "evidence/gis/columbiana/count.gz",
+  "ids_path": "evidence/gis/columbiana/ids.gz",
+  "batch_paths": [
+    "evidence/gis/columbiana/batch-000.gz",
+    "evidence/gis/columbiana/batch-001.gz",
+    "evidence/gis/columbiana/batch-002.gz"
+  ],
+  "feature_count": 135,
+  "object_id_field": "OBJECTID",
+  "native_sr": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "query_sr": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "fields": [
+    "OBJECTID",
+    "FID_L0PrecinctsNew",
+    "FID_029ABF",
+    "PRECCODE",
+    "PREC",
+    "PRECNAME",
+    "CNTYNAME",
+    "PRECNAME_1",
+    "Id",
+    "Shape__Are",
+    "Shape__Len",
+    "SHAPE_Leng",
+    "Polling_Lo",
+    "FID_L0SchoolShapefilesNew",
+    "STATEFP10",
+    "UNSDLEA10",
+    "GEOID10",
+    "NAME10",
+    "LSAD10",
+    "LOGRADE10",
+    "HIGRADE10",
+    "MTFCC10",
+    "SDTYP10",
+    "FUNCSTAT10",
+    "ALAND10",
+    "AWATER10",
+    "INTPTLAT10",
+    "INTPTLON10",
+    "BUFF_DIST",
+    "Id_1",
+    "SHAPE_Leng_1",
+    "Shape__Area",
+    "Shape__Length",
+    "PrecinctNamieNew"
+  ],
+  "pagination": "count equals unique ID set equals every requested and returned batch ID; no transfer flag; no filter or simplification or reprojection"
+}

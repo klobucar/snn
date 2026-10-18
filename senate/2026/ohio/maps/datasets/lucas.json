@@ -1,0 +1,52 @@
+{
+  "county": "lucas",
+  "url": "https://services3.arcgis.com/T8dczfwPixv79EgZ/arcgis/rest/services/Lucas_County_Wards_and_Precincts/FeatureServer/8",
+  "authority": "Lucas County GIS",
+  "vintage": "current-published; effective date unestablished",
+  "approved_nov2026": false,
+  "layer_metadata_path": "evidence/gis/lucas/layer.gz",
+  "count_path": "evidence/gis/lucas/count.gz",
+  "ids_path": "evidence/gis/lucas/ids.gz",
+  "batch_paths": [
+    "evidence/gis/lucas/batch-000.gz",
+    "evidence/gis/lucas/batch-001.gz",
+    "evidence/gis/lucas/batch-002.gz",
+    "evidence/gis/lucas/batch-003.gz",
+    "evidence/gis/lucas/batch-004.gz",
+    "evidence/gis/lucas/batch-005.gz"
+  ],
+  "feature_count": 283,
+  "object_id_field": "fid",
+  "native_sr": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "query_sr": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "fields": [
+    "fid",
+    "shape_leng",
+    "ward",
+    "precinct",
+    "w___p",
+    "substation",
+    "wardtext",
+    "tccd",
+    "ushouse",
+    "ohhouse",
+    "ohsenate",
+    "municourt",
+    "pollloc",
+    "globalid",
+    "creationdate",
+    "creator",
+    "editdate",
+    "editor",
+    "globalid_1",
+    "Shape__Area",
+    "Shape__Length"
+  ],
+  "pagination": "count equals unique ID set equals every requested and returned batch ID; no transfer flag; no filter or simplification or reprojection"
+}

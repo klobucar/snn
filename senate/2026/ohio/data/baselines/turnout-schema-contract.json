@@ -1,0 +1,81 @@
+{
+  "confirmation": "User confirmed stable final schema on2026-10-17; both workers read-only across ownership.",
+  "turnout_path": "../county-turnout.csv",
+  "county": "county",
+  "fields": {
+    "county_fips": [
+      "2024_senate",
+      "county_fips"
+    ],
+    "county_native_id": [
+      "2024_senate",
+      "native_county_name"
+    ],
+    "senate_2024_votes": [
+      "2024_senate",
+      "all_candidate_votes"
+    ],
+    "president_2024_votes": [
+      "2024_president",
+      "all_candidate_votes"
+    ],
+    "senate_2022_votes": [
+      "2022_senate",
+      "all_candidate_votes"
+    ],
+    "ballots_counted_2024": [
+      "2024_senate",
+      "ballots_counted_or_total_voters"
+    ],
+    "ballots_counted_2022": [
+      "2022_senate",
+      "ballots_counted_or_total_voters"
+    ],
+    "registered_voters_2024": [
+      "2024_senate",
+      "registered_voters"
+    ],
+    "registered_voters_2022": [
+      "2022_senate",
+      "registered_voters"
+    ],
+    "native_reporting_units_2024": [
+      "2024_senate",
+      "native_precinct_count"
+    ],
+    "native_reporting_units_2022": [
+      "2022_senate",
+      "native_precinct_count"
+    ],
+    "senate_2024_ballots_minus_contest_votes": [
+      "2024_senate",
+      "ballots_minus_contest_votes_unclassified"
+    ],
+    "senate_2022_ballots_minus_contest_votes": [
+      "2022_senate",
+      "ballots_minus_contest_votes_unclassified"
+    ]
+  },
+  "ranks": {
+    "rank_2024_senate": [
+      "2024_senate",
+      "all_candidate_votes"
+    ],
+    "rank_2024_president": [
+      "2024_president",
+      "all_candidate_votes"
+    ],
+    "rank_2022_senate": [
+      "2022_senate",
+      "all_candidate_votes"
+    ],
+    "rank_2024_ballots": [
+      "2024_senate",
+      "ballots_counted_or_total_voters"
+    ],
+    "rank_2022_ballots": [
+      "2022_senate",
+      "ballots_counted_or_total_voters"
+    ]
+  }
+}

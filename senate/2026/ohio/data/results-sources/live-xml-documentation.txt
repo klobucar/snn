@@ -1,0 +1,338 @@
+Implementation of NIST 1500-100 Election
+Results Common Data Format by the Ohio
+Secretary of State
+Documentation for Ohio-ENR 1.0.02
+
+
+
+Introduction
+The Ohio Secretary of State is making its election results available in a new, XML format known as the
+NIST 1500-100 Election Results Common Data Format 1. This specification was developed by a National
+Institute of Standards and Technology (NIST) working group that included the State of Ohio, with the
+goal that election management system manufacturers and election jurisdictions incorporate this
+specification so that election data can be exported in a common format regardless of manufacturer. This
+will lead to savings in time and money in making election results and other election data available
+before, during, and after elections. Ohio's implementation of NIST 1500-100 is to a draft version created
+prior to the final version of 1500-100.
+
+Contents
+Introduction ............................................................................................................................................ 1
+How to Read This Document ................................................................................................................... 1
+Normative references.............................................................................................................................. 2
+Definitions ............................................................................................................................................... 2
+Elements Implemented ........................................................................................................................... 2
+Elements not implemented ..................................................................................................................... 7
+
+
+
+How to Read This Document
+This document is not designed to be a comprehensive reference to the draft 1500-100 specification as
+implemented by Ohio. Rather, it is to provide a guide for consumers of Ohio’s 1500-100 instance file.
+With this goal in mind, the XML elements are organized in the order they occur in the instance file, using
+a depth-first search. Elements and attributes listed for each type indicate a deviation from the draft or
+an exposition on its implementation. Those elements and attributes not listed can be assumed to be
+implemented as provided for in the normative references.
+
+
+
+
+1
+    The NIST 1500-100 specification’s website is located from http://www.nist.gov/itl/vote/election-results.cfm.
+Normative references
+The following referenced document is indispensable for the application of this document (i.e., it must be
+understood and used):
+    • Draft Standard for Election Results Reporting Data Interchange Format dated June, 2015 (prior
+        version of NIST 1500-100) 2
+
+Definitions
+XML: A computer data format that is both machine and human readable.
+
+Instance File: A data file that conforms to the 1622/D1 XML Schema.
+
+Elements Implemented
+ElectionReport
+GeneratedDate
+This attribute is implemented as a date in the format YYYY-MM-DDTHH:MI:SSZ.
+
+Notes
+The occurrence of this element has been changed from 0..1 to 0..*. This may causes schema validation
+failure.
+
+Sequence
+This attribute is implemented as the constant 0.
+
+SequenceEnd
+This attribute is implemented as the constant 0.
+
+Signature
+This element is not implemented Election Night.
+
+TestType
+This attribute is not implemented.
+
+GpUnit
+ComposingGpUnitIds element is not implemented.
+GpUnit as implemented by ReportingUnit
+AuthorityId
+This element is not implemented.
+
+ContactInformation
+This element is implemented when @Type=’County’.
+
+
+
+
+2
+    This document is available at http://www.nist.gov/itl/vote/election-results.cfm.
+CountStatus
+This element is implemented when @Type=’County’.
+
+PartyRegistration
+This element is not implemented.
+
+SubUnitReported
+This attribute is implemented when @Type=’County’.
+
+SummaryCounts
+This element is implemented when @Type=’County’.
+
+SpatialDimension
+This element is not implemented.
+
+TotalSubUnits
+This attribute is implemented when @Type=’County’.
+
+
+Counts
+GpUnitId
+This element is implemented for Counts whose parent is BallotSelection.
+
+BallotsCast
+This attribute is implemented for Counts whose parent is GpUnit.
+
+Device
+This element is not implemented.
+
+Counts as implemented by SummaryCounts
+BallotsRejected
+This attribute is not implemented.
+
+Overvotes
+This attribute is not implemented.
+
+Undervotes
+This attribute is not implemented.
+
+WriteIns
+This attribute is not implemented.
+
+ContactInfomration
+AddressLine
+This element is not implemented.
+
+Email
+This element is not implemented.
+Fax
+This element is not implemented.
+
+Name
+This element is not implemented.
+
+Phone
+This element is not implemented.
+
+Schedule
+This element is not implemented.
+
+Uri
+This element is implemented under GpUnit when @Type=’County’.
+
+Party
+General
+There are certain non-Party relationships that for lack of other means to model them, are modeled as
+Parties. These include:
+
+      •   Affiliation of candidates who run in contests that are non-partisan, that is, regardless of partisan
+          affiliation of the candidate, no party affiliation appears next to their name.
+      •   Write-In candidates do not have a party affiliation on the ballot, since by definition, they do not
+          appear on the ballot.
+      •   Candidates independent of any particular party.
+
+LogoUri
+This attribute is not implemented.
+
+LanguageString
+Language
+Language is implemented as the constant en.
+
+Person
+ContactInformation
+This element is not implemented.
+
+DateOfBirth
+This attribute is not implemented.
+
+FullName
+This element is not implemented.
+
+Gender
+This element is not implemented.
+
+Nickname
+This element is not implemented.
+Prefix
+This element is not implemented.
+
+Profession
+This element is not implemented.
+
+Title
+This element is not implemented.
+
+Office
+ContactInformation
+This element is not implemented.
+
+FilingDeadline
+This attribute is not implemented.
+
+OfficeHolderId
+This element is not implemented.
+
+Term
+EndDate
+This attribute is not implemented.
+
+Contact
+Email
+This attribute is not implemented.
+
+Fax
+This attribute is not implemented.
+
+Hours
+This attribute is not implemented.
+
+Name
+This attribute is not implemented.
+
+Phone
+This attribute is not implemented.
+
+URL
+This attribute is not implemented.
+
+Election
+EndDate
+This attribute is not implemented.
+
+BallotStyle
+This element is not implemented.
+CountStatus
+This element is not implemented.
+
+ElectionScopeId
+This element is not implemented. This may causes schema validation failure.
+
+Candidate
+BallotName
+BallotName is built from the following expression:
+
+ { Person.firstName * } + { Person.middleName } + { Person.lastName *
+ } + { Person.suffix }
+
+The resulting value may or may not be represent the actual ballot name appearing on a given voter’s
+ballot.
+
+FileDate
+This attribute is not implemented.
+
+Id
+This attribute is not implemented.
+
+IsIncumbent
+This attribute is not implemented.
+
+IsTopTicket
+This attribute is implemented when the Candidate is part of a ticket that includes multiple candidates
+(E.g. Governor).
+
+PostElectionStatus
+This attribute is not implemented.
+
+SequenceOrder
+This attribute is not implemented.
+
+Contest
+BallotSubTitle
+This element is not implemented.
+
+BallotTitle
+This element is not implemented.
+
+CountStatus
+This attribute is not implemented.
+
+HasRotation
+This attribute is not implemented.
+OtherVoteVariationType
+This attribute is not implemented.
+
+SequenceOrder
+This attribute is not implemented.
+
+SubUnitsReported
+This attribute is not implemented.
+
+SummaryCounts
+This element is not implemented.
+
+TotalSubUnits
+This attribute is not implemented.
+
+Contest as implemented by BallotMeasureContest
+ConStatement
+This element is not implemented.
+
+EffectOfAbstain
+This element is not implemented.
+
+FullText
+This element is not implemented.
+
+PassageThreshold
+This element is not implemented.
+
+ProStatement
+This element is not implemented.
+
+SummaryText
+This element is not implemented.
+
+BallotSelection as implemented by CandidateSelection
+EndorsementPartyId
+This element is not implemented.
+
+VoteCounts
+Generally
+The instance file includes multiple levels of aggregation. Therefore, it is crucial that consumers
+determine which level of aggregation required (e.g. State, County) then select only the VoteCounts
+corresponding to that geography (GpUnit).
+
+Elements not implemented
+The following elements are not implemented in any part of the instance file.
+
+    •   BallotStyle
+•   Device
+•   Hours
+•   OrderedContest
+•   Party as implemented by Coalition
+•   Contest as implemented by PartyContest
+•   BallotSelection as implemented by PartySelection
+•   PartyRegistration
+•   Contest as implemented by RetentionContest
+•   GpUnit as implemented by ReportingDevice
+•   SpatialDimension
+•   SpatialExtent
+•   Schedule
+

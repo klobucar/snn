@@ -1,0 +1,33 @@
+{
+  "source_layer": "senate/2026/ohio/maps/evidence/gis/tuscarawas/layer.gz",
+  "source_extent": {
+    "xmin": 2187964.482531801,
+    "ymin": 201601.49021489918,
+    "xmax": 2311737.1152353883,
+    "ymax": 366137.4252499789,
+    "spatialReference": {
+      "wkid": 102722,
+      "latestWkid": 3734
+    }
+  },
+  "requested_bbox": [
+    2184251.303550693,
+    196665.41216384678,
+    2315450.294216496,
+    371073.5033010313
+  ],
+  "params": {
+    "f": "image",
+    "bbox": "2184251.303550693,196665.41216384678,2315450.294216496,371073.5033010313",
+    "bboxSR": 3734,
+    "imageSR": 3734,
+    "size": "2000,2600",
+    "dpi": 96,
+    "format": "png32",
+    "transparent": "false",
+    "layers": "show:0"
+  },
+  "approval": "unestablished",
+  "geometry_query_gap": "one minimal feature and all worker batches omitted geometry despite returnGeometry=true",
+  "raster_is_vector_geometry": false
+}

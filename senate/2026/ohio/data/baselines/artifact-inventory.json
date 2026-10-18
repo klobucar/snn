@@ -1,0 +1,385 @@
+{
+  "status": "PASS",
+  "relative_markdown_links_checked": 31,
+  "broken_relative_links": 0,
+  "files_indexed": 75,
+  "max_owned_asset_bytes": 926043,
+  "all_owned_assets_under_40MiB": true,
+  "files": [
+    {
+      "path": "../../county-partisanship.md",
+      "bytes": 31662,
+      "sha256": "65fb4fcf04fae21bdd0ce3469f08e4c2640c026e28d84c7a8c31609f49ceb0c4"
+    },
+    {
+      "path": "../county-baselines.csv",
+      "bytes": 189662,
+      "sha256": "2edbf427bff3c0e314ab42ac109688579a78a908ec3ac0d0f71aea35b5408908"
+    },
+    {
+      "path": "2018-revisions.csv",
+      "bytes": 867,
+      "sha256": "b0a62c320efee71bcb2e679adbe4270307615429cdbfb149d7c356896b3b330b"
+    },
+    {
+      "path": "build-summary.json",
+      "bytes": 1121,
+      "sha256": "0969a9c093975e23790f131ab5a76b016efad64a50fee7b0fda5c12ba269ab2d"
+    },
+    {
+      "path": "calculate.py",
+      "bytes": 19030,
+      "sha256": "8c5b1db81135b42c70167a82e3b1b0ba90182f7cdcbe84907a875b78c226bc64"
+    },
+    {
+      "path": "candidate-universe.csv",
+      "bytes": 6544,
+      "sha256": "9dfb0380950b4b9a26d1de6e3b57a7a630ea9095b7924b5cd8a020314c72af16"
+    },
+    {
+      "path": "candidate-votes.csv",
+      "bytes": 556816,
+      "sha256": "3add4eb027ffe3a403792ff2a6d08e29dec30b0b2d56e0feb1c2940d0b6f9710"
+    },
+    {
+      "path": "county-target-scenarios.csv",
+      "bytes": 753158,
+      "sha256": "3c9bd07bd5bf2695db5c233d1045de53d1137f54019451e4623a98405dcf54a2"
+    },
+    {
+      "path": "evidence-manifest.json",
+      "bytes": 88002,
+      "sha256": "b593b0a98378e137a11eaf6269f48f2f6eac80c3483126e53e9f4e6bf39df61f"
+    },
+    {
+      "path": "excluded-ballot-vintages.csv",
+      "bytes": 984,
+      "sha256": "83fbc57ad1c1ec2f50fae3d3cd093774e6a76ab1002805421c728f212635fe2b"
+    },
+    {
+      "path": "fetch.py",
+      "bytes": 1308,
+      "sha256": "be75e80c78bb6cbf940f9548564aeb8468dbc2f7a235877cfc956421e57c50eb"
+    },
+    {
+      "path": "finalize.py",
+      "bytes": 2134,
+      "sha256": "da41577bb16550c4f0c453cf0bf786242749be299797345529eda14fd7062d6b"
+    },
+    {
+      "path": "house-2018.txt",
+      "bytes": 585811,
+      "sha256": "614b12c2792fb8c9a8a273e952662b70aed774db44f6a648ccd558a248e6408b"
+    },
+    {
+      "path": "house-2022.txt",
+      "bytes": 558350,
+      "sha256": "8959d0648818a8865144d394e8d0763f998cddf4e924936f5456b7ea37fa9280"
+    },
+    {
+      "path": "house-2024.txt",
+      "bytes": 717010,
+      "sha256": "4fa7f4e40b263e28cdb527c424ad2739ec87c0f038762eb4ad6b31a32914b7c9"
+    },
+    {
+      "path": "house-reconciliation.csv",
+      "bytes": 1478,
+      "sha256": "642ac797a44845b4234fc1521db79daea7ff189cd59076791dbe52f83efe9c1b"
+    },
+    {
+      "path": "native-reporting-units.csv.gz",
+      "bytes": 264867,
+      "sha256": "ae41b40612850c6c1369ac03f94a9d8175c526e386efb32dc86369a4b7e5ea1f"
+    },
+    {
+      "path": "precinct-county-checks.csv",
+      "bytes": 221500,
+      "sha256": "bb6f50aa8c96c8a54ad03491e6c35af83a2f7ffe218832c18c7f95053029e986"
+    },
+    {
+      "path": "primary-state-checks.csv",
+      "bytes": 3277,
+      "sha256": "9ba1a2f8e5832795a754176080efcf4b7391d984c526005dcf9a986aa7d1f165"
+    },
+    {
+      "path": "primary-web-observations.json",
+      "bytes": 2263,
+      "sha256": "cc4857f7cc5ca4bf1cf6496934254922f76a09b8c0b31520243db17e17473b60"
+    },
+    {
+      "path": "priority-reconciliation.csv",
+      "bytes": 4716,
+      "sha256": "23562725ece6a49eeacbf2fefd81504b5cbca344c01c6602f91a5652d694b38b"
+    },
+    {
+      "path": "priority-set.json",
+      "bytes": 781,
+      "sha256": "f9f85dde15d29adf881b96eedf9d475fc7e84249e96fcdc934d810edf22d2fe1"
+    },
+    {
+      "path": "raw/2018-statewidecounty-miami-recovered.xlsx",
+      "bytes": 276640,
+      "sha256": "0c7c250fdb4b43c3ccbd62a2b3966fad34502aa65f4fac9ba5bce47f4992fb7b"
+    },
+    {
+      "path": "raw/2018-statewidecounty-miami-recovered.xlsx.meta.json",
+      "bytes": 3444,
+      "sha256": "7d806a7a155d325790b4831b4aff50f8e776c375ceaf843eec882a7ac6f4547a"
+    },
+    {
+      "path": "raw/2018-statewidecounty-miami.xlsx",
+      "bytes": 8997,
+      "sha256": "e972e11540e7aaab968d1c9606f431332240b2d0b2ec45f1946afeb1f4f4ba67"
+    },
+    {
+      "path": "raw/2018-statewidecounty-miami.xlsx.meta.json",
+      "bytes": 6483,
+      "sha256": "9f0339dab65d21bf80c3904b4c51e30f038264fe97e0a95ed8b8f380308d6538"
+    },
+    {
+      "path": "raw/2018-statewidecounty.xlsx",
+      "bytes": 273953,
+      "sha256": "709c92a78714c576c2f9cdb79b64c29d1ebe6b600ddaa3e90d336f77cb28c535"
+    },
+    {
+      "path": "raw/2018-statewidecounty.xlsx.meta.json",
+      "bytes": 4755,
+      "sha256": "60c21d10c8fb7cba3556f75834555a201e31df3e44edf98759a2a476a3c6ac2e"
+    },
+    {
+      "path": "raw/2024-ballot-directive23-archive.pdf",
+      "bytes": 6266,
+      "sha256": "e999325ac8731cbb071340b5a3836d4e92dd9d6bd2b25b21c420e236ac1ad234"
+    },
+    {
+      "path": "raw/2024-ballot-directive23-archive.pdf.meta.json",
+      "bytes": 4625,
+      "sha256": "76fbc87b9392b8114ddc36a0d6395470e0228797b377c8e41e962e82c09a8293"
+    },
+    {
+      "path": "raw/2024-warren-withdrawal.html.gz",
+      "bytes": 925965,
+      "sha256": "84dfec2c061a7381d207939d9f5c335ff66830eb78699dde60b19fa177562403"
+    },
+    {
+      "path": "raw/2024-warren-withdrawal.html.gz.meta.json",
+      "bytes": 2436,
+      "sha256": "4403dc6a9ec0d030c01802c146eca6d1c83d0ff9f978fcb320619492a8b97544"
+    },
+    {
+      "path": "raw/2024-writeins-directive26-archive.pdf",
+      "bytes": 6266,
+      "sha256": "652e83cce66749667db7437ce6c225d6b4bb8392791494cbb134cf7a3a752c72"
+    },
+    {
+      "path": "raw/2024-writeins-directive26-archive.pdf.meta.json",
+      "bytes": 4664,
+      "sha256": "0277b0896fbacb964f8cc254249269885f8bd75fd3e85c1c53a468257d272779"
+    },
+    {
+      "path": "raw/archive-2018-index.html.gz",
+      "bytes": 5921,
+      "sha256": "9cae6c94990397921926c12251dc593e145ba0281c3c36e9d994cb8da51b5b9c"
+    },
+    {
+      "path": "raw/archive-2018-index.html.gz.meta.json",
+      "bytes": 4486,
+      "sha256": "a6d7d67bbd0117d12afb72e4b1a5628ed4d7ed391854eba8e6ead633c9e79f15"
+    },
+    {
+      "path": "raw/archive-miami-cdx.json.gz",
+      "bytes": 279,
+      "sha256": "f8333f4776592f53a9e63075eb6b86b2ef612977d7bdda7beaae245a6d794116"
+    },
+    {
+      "path": "raw/archive-miami-cdx.json.gz.meta.json",
+      "bytes": 1739,
+      "sha256": "31b4da99cc9ad8f48fce16ed26581b642b0ffe882b82581b1cbb5de0f0f84db8"
+    },
+    {
+      "path": "raw/census-counties-2020.txt.gz",
+      "bytes": 31361,
+      "sha256": "bcb240df1d84eb88c83b19f5b5c39b6905afaca0277821c206a047196a70cce8"
+    },
+    {
+      "path": "raw/census-counties-2020.txt.gz.meta.json",
+      "bytes": 1970,
+      "sha256": "6d249b3633aa6da607d2eb49f046bac457e981d295c6885df1b33f49ec00accb"
+    },
+    {
+      "path": "raw/files-index.json.gz",
+      "bytes": 925959,
+      "sha256": "27be72c0cec40e39d59f70050456f3009c069ac83342c7aa471c84d7179c0175"
+    },
+    {
+      "path": "raw/files-index.json.gz.meta.json",
+      "bytes": 2417,
+      "sha256": "aedc09af7d433fc7ba81720861c36304b6b655267c21707c0c03ae2b20538869"
+    },
+    {
+      "path": "raw/house-2018.pdf",
+      "bytes": 460175,
+      "sha256": "35ef9bc223d89cbd3ce4c544a88e93523394060d400001d365612c97f9348c53"
+    },
+    {
+      "path": "raw/house-2018.pdf.meta.json",
+      "bytes": 970,
+      "sha256": "88b21c34b86e3bf8f148c214f8628e710d33e8757784311703cdb901701abc3e"
+    },
+    {
+      "path": "raw/house-2022.pdf",
+      "bytes": 457678,
+      "sha256": "ef9b8cefcc44bebbdc4928bf346b50e00a72dd3bb54a71ed93ec60d4ebf47690"
+    },
+    {
+      "path": "raw/house-2022.pdf.meta.json",
+      "bytes": 969,
+      "sha256": "f20552d00462fc2dd86863cea3d204b1fa48a0fabb92a894e79a7d070bb73ddb"
+    },
+    {
+      "path": "raw/house-2024.pdf",
+      "bytes": 608100,
+      "sha256": "d4ba800fc17135b616ae556c92861080ab962d95916ace34b546c5aac824aec4"
+    },
+    {
+      "path": "raw/house-2024.pdf.meta.json",
+      "bytes": 966,
+      "sha256": "a48617b4236bb1cb53c8c088b9c509a702bd94950e261d05b20f63e81377ea51"
+    },
+    {
+      "path": "raw/old2024-index.html.gz",
+      "bytes": 925998,
+      "sha256": "22b989e958821cbff08b50b57d21351c1c055c3cc089500a8caf82908327aff1"
+    },
+    {
+      "path": "raw/old2024-index.html.gz.meta.json",
+      "bytes": 2472,
+      "sha256": "897b35e3be8e75ce0f2539b20713d4057967fb52353ffe5dd208315ed77eabf4"
+    },
+    {
+      "path": "raw/old2024-summary-response.gz",
+      "bytes": 926013,
+      "sha256": "a75e4162100a77e6b504e328c9bc0c0a28e2af00f8ee930aea31f77c3d74f2f0"
+    },
+    {
+      "path": "raw/old2024-summary-response.gz.meta.json",
+      "bytes": 2480,
+      "sha256": "d7d1174229fdf81f9672e71ca343143cf93c794ccfff3d37013b3b3d24606cc8"
+    },
+    {
+      "path": "raw/portal-main.browser.js",
+      "bytes": 342360,
+      "sha256": "e0c318d7e36aad5ef78452c2fb817cc626d766a75284aaea37a3fa12e765ed64"
+    },
+    {
+      "path": "raw/portal-main.browser.js.meta.json",
+      "bytes": 671,
+      "sha256": "307a7a0f393304ad103f4aadcfd5552b088be86d61d1bb09ceffda7d294acc73"
+    },
+    {
+      "path": "raw/portal-main.js.gz",
+      "bytes": 925937,
+      "sha256": "8c64ea3fff6662be7233feeee759005f1268710be10e4be5e11e12655b0b4114"
+    },
+    {
+      "path": "raw/portal-main.js.gz.meta.json",
+      "bytes": 2401,
+      "sha256": "8e7f97dec5082672798d0b36b9a4891260adc466a53e40dbd9940e3124418bba"
+    },
+    {
+      "path": "raw/portal.html.gz",
+      "bytes": 925927,
+      "sha256": "29302fc11e15dd6eda3b4233411fef9c6e36e6c669f2d8874e1fb99129b3fd74"
+    },
+    {
+      "path": "raw/portal.html.gz.meta.json",
+      "bytes": 2388,
+      "sha256": "1887e93be51ab0371afe49729da6e9b80e1b3ee3b7817db9aefb30c541c569e6"
+    },
+    {
+      "path": "raw/special-election-directive-response.gz",
+      "bytes": 926043,
+      "sha256": "7e3b5b33618a06a799d18314a88550514ad42c6e70054dac45982b097df09ea9"
+    },
+    {
+      "path": "raw/special-election-directive-response.gz.meta.json",
+      "bytes": 2528,
+      "sha256": "a622b7b3626305d86716d6727712021549eef20d83e819b7c88a0773aabb244a"
+    },
+    {
+      "path": "render_report.py",
+      "bytes": 23846,
+      "sha256": "3fd30eae262443a92c53bc58464f2dcc595b6d9cd9ab87d05a3244a8e4e005c8"
+    },
+    {
+      "path": "scenario-definitions.json",
+      "bytes": 2578,
+      "sha256": "166c8cdef1f4d889824cf6a5fcaf1621091b7abab49f3d0a8a1b15316e0ab5bf"
+    },
+    {
+      "path": "selected-county-targets.csv",
+      "bytes": 500429,
+      "sha256": "817a403ba3b62ced30ee13b69c22a28d6abb178a9b9b6fa511ed31de8f846e89"
+    },
+    {
+      "path": "shared-input-manifest.json",
+      "bytes": 27994,
+      "sha256": "74c099a2c14ef640c512e84522765014f390d994402a523bb79e2550a08f88a0"
+    },
+    {
+      "path": "source-schema.json",
+      "bytes": 4122,
+      "sha256": "a6a808635fe4257f472ec477c738e6b763701b9377d2749670a3f582ab427dec"
+    },
+    {
+      "path": "state-scenarios.csv",
+      "bytes": 7219,
+      "sha256": "5ba37b80161e97d2be5b1c4d99106c77a8b3897e4c5b0a0c729ab0eb7b05fa34"
+    },
+    {
+      "path": "third-candidate-denominators.csv",
+      "bytes": 2504,
+      "sha256": "512c4e5a8a883875f26ea8fd0ae51a518324d0b51ad7373d9d4ff0ed41df1441"
+    },
+    {
+      "path": "turnout-schema-contract.json",
+      "bytes": 1871,
+      "sha256": "19b4b64aa4c1424a941a9f8d88631b5ab012155af4cd1622091c61d53de06da8"
+    },
+    {
+      "path": "turnout-worker-candidate-reconciliation.csv",
+      "bytes": 155453,
+      "sha256": "3a2d454312242f0a1859c8fa44e3a7386ca0f8bac5febc9a41b2346d51df770a"
+    },
+    {
+      "path": "turnout-worker-reconciliation.csv",
+      "bytes": 148443,
+      "sha256": "bbe30969bc6350f915dd1b10017c27bcfa586dee2ff8e2b8a8fa238e5fd2e447"
+    },
+    {
+      "path": "turnout-worker-reconciliation.json",
+      "bytes": 1446,
+      "sha256": "45eca9888af0b4440442b2b4524bfd8209c5c52d009e1eec34953b42ade8e2ad"
+    },
+    {
+      "path": "turnout-worker-unit-reconciliation.csv",
+      "bytes": 15927,
+      "sha256": "34ad0079a8bf5449977e920982b51711ba906c02a5dd9c44906f8c183f286f7a"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 20744,
+      "sha256": "aee1d9fedc4d90e9cc04dad6f83dc7b8068a43e3b51b7bb9e19884a04a4f3640"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 4672,
+      "sha256": "d1dba26c18485805577e32e0b2646f2f5a5ca55f21913383b401f19492928519"
+    },
+    {
+      "path": "xlsx_read.py",
+      "bytes": 1201,
+      "sha256": "c0cf8a5c2057cc259cd1ab5c27b2fe7332f331da34736fb4a23c3d9151601f18"
+    }
+  ]
+}

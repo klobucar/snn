@@ -1,0 +1,320 @@
+{
+  "Franklin": {
+    "sources": [
+      "county-franklin",
+      "county-franklin-2024",
+      "franklin-2024-summary",
+      "franklin-2024-amended",
+      "franklin-2024-precinct"
+    ],
+    "observation": "Independent official 2026 page publishes November preparations/candidate list and May official files; no linked November count feed established. 2024 county-only summary and precinct XLSX retained. Post-audit amended PDF visibly reduces Brown and Moreno by one each; original and amended remain separate.",
+    "methods": "Historical Mail In Absentee; In Office Absentee; Election Day; Provisional"
+  },
+  "Cuyahoga": {
+    "sources": [
+      "county-cuyahoga-office",
+      "county-cuyahoga",
+      "enhanced-cuyahoga-catalog",
+      "enhanced-cuyahoga-primary-data",
+      "enhanced-cuyahoga-2024-data",
+      "enhanced-cuyahoga-2024-senate-detail"
+    ],
+    "observation": "Official elections page links Enhanced Voting; inspected app code, actual jurisdiction/election catalogs and complete data. Latest catalog election is May 5 primary; no November entry. 2024 Senate 967-unit breakdown compares all 2,901 printed-candidate cells: 2,900 exact, Brown is one higher in NORTH OLMSTED-02-A. Generic Write-In 530 exceeds named certified write-ins 113 by 417; total source difference418.",
+    "methods": "2024 Provisional; Early In-Person; Election Day; Post VBM; Vote By Mail; Post Election Day"
+  },
+  "Hamilton": {
+    "sources": [
+      "county-hamilton",
+      "hamilton-app",
+      "hamilton-linked-app",
+      "priority-linked-browser-3.json"
+    ],
+    "observation": "Official results landing says May 5 primary; current interactive button actually targets /OH/Hamilton/126081/. Both root and actual linked vendor route return403 JavaScript/robot challenge. Archived PDF/Excel links exist; no current November feed or vendor field schema validated.",
+    "methods": "Not decoded from blocked local vendor"
+  },
+  "Summit": {
+    "sources": [
+      "county-summit",
+      "priority-browser-2.json",
+      "priority-browser-3.json",
+      "priority-access-repairs.json"
+    ],
+    "observation": "Rendered official November election page links summary, precinct canvass and district canvass. Actual November summary /summit/c/elecres/20261103results.pdf returned404 in research browser; raw host403. No local November counts established.",
+    "methods": "No accessible November local data"
+  },
+  "Montgomery": {
+    "sources": [
+      "county-montgomery",
+      "montgomery-linked-observations.json",
+      "enhanced-montgomery-catalog",
+      "enhanced-montgomery-primary-data",
+      "montgomery-primary-summary",
+      "montgomery-zero"
+    ],
+    "observation": "Repaired official-page access in research browser. View Real Time Results is actually an OFFICIAL FINAL May 5 primary PDF, not November; Zero Verification also May. Interactive button links Enhanced Voting May primary. Actual catalog/data tested:381 precincts, primary candidates/methods; no November catalog election.",
+    "methods": "Primary EDAY; ABS; EV; PROV; ABS-AI; EDAY-AI; EV-AI (raw codes retained)"
+  },
+  "Lucas": {
+    "sources": [
+      "county-lucas",
+      "priority-browser-3.json",
+      "priority-browser-5.json"
+    ],
+    "observation": "State-published historic_election_results/index.php returned403; official root and archive failed research-browser access too. Exact local vendor/download, November contest and precinct/method schema remain inaccessible. State's individually tested Lucas mock view contains all seven setup candidates and 280 precincts.",
+    "methods": "Local unavailable; state Senate Total only"
+  },
+  "Stark": {
+    "sources": [
+      "county-stark",
+      "stark-current-app"
+    ],
+    "observation": "Official landing links May5 interactive ENR/starkohenr/13/en/Index_13.html plus official summary/SOVC PDF/XLSX. Linked app raw403; no actual November local dataset established.",
+    "methods": "Local May group detail offered; November not decoded"
+  },
+  "Butler": {
+    "sources": [
+      "county-butler",
+      "butler-2024-app"
+    ],
+    "observation": "Independent county results archive inspected, including actual 2024 ENR/butlerohenr/20/en/Index_20.html link. Linked app403; archive also links2025 and earlier elections. No November2026 vendor route inferred.",
+    "methods": "Blocked linked app; no November split established"
+  },
+  "Lorain": {
+    "sources": [
+      "county-lorain",
+      "lorain-search",
+      "priority-linked-browser-3.json",
+      "lorain-primary-summary",
+      "lorain-2024-summary"
+    ],
+    "observation": "Legacy state URI redirects to homepage; actual official results search and its primary/2024 pages followed. Latest listed2026 result is May primary. Named 2024 Senate candidates match certified baseline;88 invalid write-ins are separate. Static files on official Wix host, no November feed identified.",
+    "methods": "2024 summary totals only"
+  },
+  "Warren": {
+    "sources": [
+      "county-warren",
+      "warren-office",
+      "priority-access-repairs.json"
+    ],
+    "observation": "Working independent official archive links Current Election Results to actual ENR/warrenohenr/18/en/R_Index_18.html. Direct403 and research-browser inaccessible; election identity within that app unverified. May primary17 and historical14 links are distinct, never substitute November by URL sequence.",
+    "methods": "Blocked local ENR"
+  },
+  "Delaware": {
+    "sources": [
+      "county-delaware",
+      "delaware-2024-summary",
+      "delaware-2024-key"
+    ],
+    "observation": "Official past-results page serves summary PDF and numbered-key TXT canvass; latest shown2026 files May primary. All170 historical units/510 printed-candidate cells independently reconcile; all7 candidate county totals match. Generic WRITE-IN125, over7 and under2347 remain separate; local numeric IDs crosswalk by unique one-vintage names, not code reuse.",
+    "methods": "Historical numbered-key total votes; no method columns"
+  },
+  "Lake": {
+    "sources": [
+      "county-lake",
+      "lake-current-summary"
+    ],
+    "observation": "Working independent official page and actual linked72-page Group Detail PDF inspected: body is Official May5,2026 primary/special,163/163 units,43662 ballots. Election Day, Election Day Paper, Early Vote, Regular ABS By Mail and Provisional sum exactly. No November count resource established.",
+    "methods": "May2026 Election Day; Election Day Paper; Early Vote; Regular ABS By Mail; Provisional"
+  },
+  "Clermont": {
+    "sources": [
+      "county-clermont",
+      "clermont-2024-csv",
+      "clermont-2024-summary"
+    ],
+    "observation": "Independent official archive offers2026 May files and2024 summary/precinct/SOVC/CSV. Summary PDF200, CSV403. Seven-candidate baseline113066 differs from local Total Votes Cast113132 by66 explicitly invalid write-ins. Native local method columns and168/168 units inspected; no November live feed established.",
+    "methods": "Election Day; Absentee Mail; Absentee In-Person; Provisional"
+  },
+  "Mahoning": {
+    "sources": [
+      "county-mahoning",
+      "priority-browser-3.json",
+      "mahoning-primary"
+    ],
+    "observation": "State authority URI goes to Election Information & Results; current homepage button is Final Unofficial with write Ins May5 primary PDF.61-page file retained, explicit old-primary stage despite current page. No November count endpoint established.",
+    "methods": "Primary total/group PDF; not November"
+  },
+  "Medina": {
+    "sources": [
+      "county-medina",
+      "local-medina-nov",
+      "priority-november-pdf-observations.json"
+    ],
+    "observation": "Actual November summary renders ZERO REPORT, generated09/18/2026 04:08PM,0/124 precincts and four printed Senate candidates. Raw403; browser extraction retained. Landing says election-night results not final until signature page present; separate official certification still required. Overlap/recount links retained by election.",
+    "methods": "Observed November summary totals only"
+  },
+  "Trumbull": {
+    "sources": [
+      "county-trumbull",
+      "trumbull-2024-labelled"
+    ],
+    "observation": "Current .oh.gov results page200; actual2024-labelled ElectionResults110525.pdf body really November5,2024 UNOFFICIAL, printed election night10:11PM.158/158 precincts still lower than certified candidate counts; staged comparisons retained, not missing-vote estimates. No November2026 live feed established.",
+    "methods": "November unavailable"
+  },
+  "Licking": {
+    "sources": [
+      "county-licking",
+      "local-licking-nov",
+      "priority-linked-browser-1.json"
+    ],
+    "observation": "Actual November17-page unofficial setup summary renders all zero,96 precincts, generated09/17/2026 09:01AM; four printed candidates plus aggregate Write-In Totals and Not Assigned, over/under rows. Raw403; browser extraction retained. Separate overlap PDF must not add to county-only Senate.",
+    "methods": "Election Day; Absentee Mail; Absentee Office; Provisional"
+  },
+  "Greene": {
+    "sources": [
+      "county-greene",
+      "local-greene-nov",
+      "priority-linked-browser-1.json"
+    ],
+    "observation": "Official November summary and precinct links inspected; actual summary /greene/c/elecres/20261103results.pdf returns404 in research browser, raw403. No November counts validated.",
+    "methods": "No accessible local November data"
+  },
+  "Fairfield": {
+    "sources": [
+      "county-fairfield",
+      "local-fairfield-nov",
+      "priority-linked-browser-2.json"
+    ],
+    "observation": "Landing calls November link Official Results, but actual8-page PDF says Unofficial Pre-Election Zero Report, generated10/12/2026 11:06:47AM. Four printed candidates and all3 named write-ins zero; source status overrides link text. Raw403; browser extraction retained.",
+    "methods": "Summary All Counting Groups total"
+  },
+  "Portage": {
+    "sources": [
+      "county-portage",
+      "priority-browser-4.json",
+      "priority-browser-5.json"
+    ],
+    "observation": "Official county results page and board root both403 in direct/research browser. Local vendor/export schema remains blocked. State individually fetched Portage mock county JSON reconciles all7 candidates and126 configured precincts; no local counts inferred.",
+    "methods": "Local unavailable; state Senate Total only"
+  },
+  "Wood": {
+    "sources": [
+      "county-wood",
+      "wood-2024-summary",
+      "wood-2024-precinct"
+    ],
+    "observation": "Official HTML archive serves2024 county summary and135-page precinct PDF; summary has99 precincts and all7 certified candidates. Precinct report warns **** insufficient turnout for privacy; suppression cannot become zero. November local count link not established.",
+    "methods": "Historical overall/precinct reports; no November method split"
+  },
+  "Clark": {
+    "sources": [
+      "county-clark",
+      "repair-clark",
+      "local-clark-app",
+      "priority-browser-1.json",
+      "priority-linked-browser-1.json"
+    ],
+    "observation": "Official latest link May5 primary ENR/clarkohenr/19/en/Index_19.html, raw403 and research-browser oversized response>4194305; excluded as unparsed, not a successful complete sample. November local app not established; 2024 links separate.",
+    "methods": "Blocked local app"
+  },
+  "Miami": {
+    "sources": [
+      "county-miami",
+      "local-miami-nov",
+      "priority-linked-browser-1.json"
+    ],
+    "observation": "Actual November5-page PDF renders no extractable text, raw403; election/count identity cannot be machine validated. General summary/precinct and separate Piqua special-election links retained separately. No live count interpretation from filename.",
+    "methods": "Scanned/unavailable November body"
+  },
+  "Richland": {
+    "sources": [
+      "county-richland",
+      "local-richland-nov",
+      "priority-november-pdf-observations.json"
+    ],
+    "observation": "Actual November13-page unofficial zero-vote summary renders0/83 precincts, generated09/17/2026 12:57:27PM, four Senate candidates and N/A percentages. Raw403; browser extraction retained. Configured denominator does not show remaining ballots.",
+    "methods": "All tabulators; Election Day; Vote by Mail; other header continuation retained in browser evidence"
+  },
+  "Geauga": {
+    "sources": [
+      "county-geauga",
+      "local-geauga-nov",
+      "priority-linked-browser-1.json"
+    ],
+    "observation": "Official November cumulative/precinct/group links inspected; actual November summary404 in research browser and403 raw. Same Results by Groups reference appears under May too: avoid assuming its election from surrounding URL year.",
+    "methods": "No accessible November counts"
+  },
+  "Wayne": {
+    "sources": [
+      "county-wayne",
+      "wayne-current",
+      "wayne-2024",
+      "wayne-primary-summary",
+      "wayne-2024-summary",
+      "wayne-2024-summary-page1.png"
+    ],
+    "observation": "Current independent official homepage and latest May primary page200 in this audit (peer observed403 real-body variant). Link labelled complete2024 official results serves a scanned November8,2022 PDF, visually confirmed; excluded from2024. Preserve transport status and actual body. No November local count feed identified.",
+    "methods": "Wrong-vintage file Election Day ICX; Absentee ICX; Election Day Paper; Absentee Paper; Provisional (2022 only)"
+  },
+  "Columbiana": {
+    "sources": [
+      "county-columbiana",
+      "priority-browser-4.json",
+      "priority-linked-browser-4.json"
+    ],
+    "observation": "Non-www official route repaired in research browser; latest May5 official summary/precinct and explicit overlapping-county report listed. Actual summary click inaccessible; no November2026 count resource established. County-only and overlap totals must remain distinct.",
+    "methods": "No accessible November counts"
+  },
+  "Allen": {
+    "sources": [
+      "county-allen",
+      "priority-access-details.json",
+      "priority-access-repairs.json",
+      "allen-dropbox"
+    ],
+    "observation": "Official Election Reports page delegates public results to actual shared Dropbox folder; actual link followed and redirects to current public folder. Research rendering has no file rows; direct curl exit56 zero bytes. No completed folder download or November election schema claimed; use published BOE contact for missing file.",
+    "methods": "Unavailable cloud-folder contents"
+  },
+  "Ashtabula": {
+    "sources": [
+      "county-ashtabula",
+      "local-ashtabula-nov",
+      "priority-browser-3.json",
+      "priority-linked-browser-3.json"
+    ],
+    "observation": "Official November link actually resolves to17-page PDF in research browser, but full identity/count extraction timed out on re-open; raw403. No verified candidate-count or November unit schema claimed from that file.2024 archive separately labels Recount Results12-6-24 printed01/06/2025; preserve vintages.",
+    "methods": "November PDF full body inaccessible"
+  },
+  "Tuscarawas": {
+    "sources": [
+      "county-tuscarawas",
+      "priority-linked-browser-2.json",
+      "priority-access-repairs.json"
+    ],
+    "observation": "Official November cumulative/precinct/overlap links inspected; actual summary /tuscarawas/c/elecres/20261103results.pdf404 research browser. Raw403. No November counts established.",
+    "methods": "No accessible November data"
+  },
+  "Erie": {
+    "sources": [
+      "county-erie",
+      "priority-browser-2.json",
+      "priority-linked-browser-2.json"
+    ],
+    "observation": "Official November cumulative/precinct links inspected; actual summary /erie/c/elecres/20261103results.pdf404 research browser; raw403. No November local counts established.",
+    "methods": "No accessible November data"
+  },
+  "Muskingum": {
+    "sources": [
+      "county-muskingum",
+      "local-muskingum-nov",
+      "priority-linked-browser-2.json",
+      "priority-browser-4.json"
+    ],
+    "observation": "Actual November linked summary is a one-page announcement placeholder, six extracted lines, not a candidate table. Raw403; research rendering retained. Summary/precinct/overlap links exist but no live count dataset validated.",
+    "methods": "No count fields in placeholder"
+  },
+  "Huron": {
+    "sources": [
+      "county-huron",
+      "repair-county-huron"
+    ],
+    "observation": "State XML URI contains trailing ASCII whitespace; original curl rejected malformed URL. Exact same route retried after trimming whitespace;403 challenge, retained. Local November vendor not established."
+  },
+  "Ottawa": {
+    "sources": [
+      "county-ottawa",
+      "repair-county-ottawa"
+    ],
+    "observation": "State XML URI contains trailing ASCII whitespace; exact current-results route retried after trimming,200 real HTML. Landing inventory only; November candidate/feed schema not deeply inspected."
+  }
+}

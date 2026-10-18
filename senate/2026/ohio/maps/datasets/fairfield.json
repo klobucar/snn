@@ -1,0 +1,47 @@
+{
+  "county": "fairfield",
+  "url": "https://services2.arcgis.com/L7YSCDUQyC7Biss6/arcgis/rest/services/Precincts/FeatureServer/0",
+  "authority": "Fairfield County GIS; authority chain to be checked",
+  "vintage": "current-published; effective date unestablished",
+  "approved_nov2026": false,
+  "layer_metadata_path": "evidence/gis/fairfield/layer.gz",
+  "count_path": "evidence/gis/fairfield/count.gz",
+  "ids_path": "evidence/gis/fairfield/ids.gz",
+  "batch_paths": [
+    "evidence/gis/fairfield/batch-000.gz",
+    "evidence/gis/fairfield/batch-001.gz",
+    "evidence/gis/fairfield/batch-002.gz"
+  ],
+  "feature_count": 133,
+  "object_id_field": "FID",
+  "native_sr": {
+    "wkid": 102723,
+    "latestWkid": 3735
+  },
+  "query_sr": {
+    "wkid": 102723,
+    "latestWkid": 3735
+  },
+  "fields": [
+    "FID",
+    "AREA",
+    "PERIMETER",
+    "PRECINCTS_",
+    "PRECINCTS1",
+    "ID",
+    "ALLCAPS",
+    "FULLNAME",
+    "WARD",
+    "SOS_CODE",
+    "COUNTY_FIP",
+    "STATE_FIPS",
+    "CONG_DIST",
+    "OH_SE_DIST",
+    "OH_HR_DIST",
+    "COMMENTS",
+    "GlobalID",
+    "Shape__Area",
+    "Shape__Length"
+  ],
+  "pagination": "count equals unique ID set equals every requested and returned batch ID; no transfer flag; no filter or simplification or reprojection"
+}

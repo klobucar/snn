@@ -1,0 +1,260 @@
+{
+  "feature_count": 420,
+  "source_vertices": 71295,
+  "derived_vertices": 71295,
+  "empty_ordinals": [],
+  "invalid_features": [],
+  "finite_bounds": true,
+  "overlap_pairs": [],
+  "intersection_errors": [],
+  "id_field_diagnostics": {
+    "ALAND20": {
+      "nonblank": 420,
+      "blank_or_null": 0,
+      "unique_nonblank": 420,
+      "reused_values": {},
+      "examples": [
+        "433180",
+        "2374538",
+        "1263338",
+        "2685790",
+        "1692306",
+        "1345700",
+        "935748",
+        "1397658"
+      ]
+    },
+    "AWATER20": {
+      "nonblank": 420,
+      "blank_or_null": 0,
+      "unique_nonblank": 133,
+      "reused_values": {
+        "0": 288
+      },
+      "examples": [
+        "0",
+        "0",
+        "47510",
+        "0",
+        "0",
+        "0",
+        "0",
+        "3255"
+      ]
+    },
+    "COUNTYFP20": {
+      "nonblank": 420,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "153": 420
+      },
+      "examples": [
+        "153",
+        "153",
+        "153",
+        "153",
+        "153",
+        "153",
+        "153",
+        "153"
+      ]
+    },
+    "FUNCSTAT20": {
+      "nonblank": 420,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "N": 420
+      },
+      "examples": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    "GEOID20": {
+      "nonblank": 420,
+      "blank_or_null": 0,
+      "unique_nonblank": 420,
+      "reused_values": {},
+      "examples": [
+        "39153077AFL",
+        "39153077ARX",
+        "39153077BAM",
+        "39153077AWJ",
+        "39153077AWN",
+        "39153077BBG",
+        "39153077ATN",
+        "39153077AUT"
+      ]
+    },
+    "INTPTLAT20": {
+      "nonblank": 420,
+      "blank_or_null": 0,
+      "unique_nonblank": 420,
+      "reused_values": {},
+      "examples": [
+        "+41.0495659",
+        "+41.0974682",
+        "+41.1560150",
+        "+40.9586885",
+        "+40.9533312",
+        "+41.3271524",
+        "+41.0453662",
+        "+41.3170323"
+      ]
+    },
+    "INTPTLON20": {
+      "nonblank": 420,
+      "blank_or_null": 0,
+      "unique_nonblank": 419,
+      "reused_values": {
+        "-081.3965567": 2
+      },
+      "examples": [
+        "-081.5129309",
+        "-081.6057187",
+        "-081.5020254",
+        "-081.4266156",
+        "-081.4732229",
+        "-081.5171067",
+        "-081.4042223",
+        "-081.5597555"
+      ]
+    },
+    "LSAD20": {
+      "nonblank": 420,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "00": 420
+      },
+      "examples": [
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00"
+      ]
+    },
+    "MTFCC20": {
+      "nonblank": 420,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "G5240": 420
+      },
+      "examples": [
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240"
+      ]
+    },
+    "NAME20": {
+      "nonblank": 420,
+      "blank_or_null": 0,
+      "unique_nonblank": 420,
+      "reused_values": {},
+      "examples": [
+        "AKRON 7-C",
+        "COPLEY TWP B",
+        "CUY FALLS 5-E",
+        "GREEN 2-C",
+        "GREEN 3-B",
+        "MACEDONIA K",
+        "MOGADORE VILL A",
+        "SAGAMORE HILLS TWP B"
+      ]
+    },
+    "NAMELSAD20": {
+      "nonblank": 420,
+      "blank_or_null": 0,
+      "unique_nonblank": 420,
+      "reused_values": {},
+      "examples": [
+        "AKRON 7-C",
+        "COPLEY TWP B",
+        "CUY FALLS 5-E",
+        "GREEN 2-C",
+        "GREEN 3-B",
+        "MACEDONIA K",
+        "MOGADORE VILL A",
+        "SAGAMORE HILLS TWP B"
+      ]
+    },
+    "STATEFP20": {
+      "nonblank": 420,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "39": 420
+      },
+      "examples": [
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39"
+      ]
+    },
+    "VTDI20": {
+      "nonblank": 420,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "A": 420
+      },
+      "examples": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "VTDST20": {
+      "nonblank": 420,
+      "blank_or_null": 0,
+      "unique_nonblank": 420,
+      "reused_values": {},
+      "examples": [
+        "077AFL",
+        "077ARX",
+        "077BAM",
+        "077AWJ",
+        "077AWN",
+        "077BBG",
+        "077ATN",
+        "077AUT"
+      ]
+    }
+  },
+  "checks_do_not_approve_boundaries": true,
+  "extent_native": [
+    -81.688491,
+    40.906501999999996,
+    -81.391532,
+    41.351168
+  ],
+  "crs_wkt": "GEOGCRS[\"NAD83\",DATUM[\"North American Datum 1983\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6269]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"longitude\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"latitude\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]]]"
+}

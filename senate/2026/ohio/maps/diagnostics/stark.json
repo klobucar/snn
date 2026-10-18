@@ -1,0 +1,967 @@
+{
+  "feature_count": 276,
+  "source_vertices": 80519,
+  "derived_vertices": 80519,
+  "empty_ordinals": [],
+  "invalid_features": [
+    {
+      "source_feature_ordinal": 37,
+      "attributes": {
+        "OBJECTID": 617,
+        "NAME": "CANTON CITY 7-A",
+        "PRECINCTID": "ACK",
+        "BOEPREID": "CAN.C7A",
+        "CVT_NAME": "Canton",
+        "PRECINCT2": "7",
+        "WARD2": "A",
+        "POLLINGID": "POLL-130",
+        "COUNTY": "STARK",
+        "last_edited_date": 1662476262000,
+        "Shape.STLength()": 20668.53716426659,
+        "Shape.STArea()": 13818952.528427923
+      },
+      "reason": "Ring Self-intersection[-9061543.85676123 4986144.98213437]"
+    },
+    {
+      "source_feature_ordinal": 107,
+      "attributes": {
+        "OBJECTID": 688,
+        "NAME": "LAWRENCE TWP 3",
+        "PRECINCTID": "AIS",
+        "BOEPREID": "LAW3",
+        "CVT_NAME": "Lawrence Twp.",
+        "PRECINCT2": "3",
+        "WARD2": null,
+        "POLLINGID": "POLL-610",
+        "COUNTY": "STARK",
+        "last_edited_date": 1736195688000,
+        "Shape.STLength()": 127661.54749219636,
+        "Shape.STArea()": 248500350.7579096
+      },
+      "reason": "Ring Self-intersection[-9084801.02782081 4995421.98838477]"
+    },
+    {
+      "source_feature_ordinal": 112,
+      "attributes": {
+        "OBJECTID": 694,
+        "NAME": "CANTON CITY 6-A",
+        "PRECINCTID": "ACD",
+        "BOEPREID": "CAN.C6A",
+        "CVT_NAME": "Canton",
+        "PRECINCT2": "6",
+        "WARD2": "A",
+        "POLLINGID": "POLL-1320",
+        "COUNTY": "STARK",
+        "last_edited_date": 1779994402000,
+        "Shape.STLength()": 98651.69743796623,
+        "Shape.STArea()": 57192406.97701189
+      },
+      "reason": "Ring Self-intersection[-9052181.43069383 4989362.05650195]"
+    },
+    {
+      "source_feature_ordinal": 173,
+      "attributes": {
+        "OBJECTID": 760,
+        "NAME": "NORTH CANTON 3-B",
+        "PRECINCTID": "AFD",
+        "BOEPREID": "N.CAN3B",
+        "CVT_NAME": "North Canton",
+        "PRECINCT2": "3",
+        "WARD2": "B",
+        "POLLINGID": "POLL-840",
+        "COUNTY": "STARK",
+        "last_edited_date": 1674748539000,
+        "Shape.STLength()": 38487.50456298629,
+        "Shape.STArea()": 27969570.955671363
+      },
+      "reason": "Ring Self-intersection[-9058488.33299348 4993398.63884912]"
+    },
+    {
+      "source_feature_ordinal": 250,
+      "attributes": {
+        "OBJECTID": 840,
+        "NAME": "CANTON CITY 4-A",
+        "PRECINCTID": "ABP",
+        "BOEPREID": "CAN.C4A",
+        "CVT_NAME": "Canton",
+        "PRECINCT2": "4",
+        "WARD2": "A",
+        "POLLINGID": "POLL-180",
+        "COUNTY": "STARK",
+        "last_edited_date": 1765213424000,
+        "Shape.STLength()": 84863.50946743961,
+        "Shape.STArea()": 51293848.63142652
+      },
+      "reason": "Ring Self-intersection[-9049361.7705102 4979929.79855136]"
+    }
+  ],
+  "finite_bounds": true,
+  "overlap_pairs": [
+    {
+      "left_ordinal": 1,
+      "right_ordinal": 266,
+      "area_in_crs_squared_units": 0.0007859862112979954
+    },
+    {
+      "left_ordinal": 4,
+      "right_ordinal": 199,
+      "area_in_crs_squared_units": 0.025242475268515852
+    },
+    {
+      "left_ordinal": 4,
+      "right_ordinal": 154,
+      "area_in_crs_squared_units": 0.008558557644178596
+    },
+    {
+      "left_ordinal": 6,
+      "right_ordinal": 95,
+      "area_in_crs_squared_units": 0.003146739477358551
+    },
+    {
+      "left_ordinal": 6,
+      "right_ordinal": 147,
+      "area_in_crs_squared_units": 0.00044638393958365205
+    },
+    {
+      "left_ordinal": 9,
+      "right_ordinal": 14,
+      "area_in_crs_squared_units": 0.00029439415505400166
+    },
+    {
+      "left_ordinal": 10,
+      "right_ordinal": 96,
+      "area_in_crs_squared_units": 0.00011544672671671974
+    },
+    {
+      "left_ordinal": 10,
+      "right_ordinal": 97,
+      "area_in_crs_squared_units": 0.0010175235888980998
+    },
+    {
+      "left_ordinal": 10,
+      "right_ordinal": 177,
+      "area_in_crs_squared_units": 0.0019659146586012716
+    },
+    {
+      "left_ordinal": 12,
+      "right_ordinal": 28,
+      "area_in_crs_squared_units": 0.0005670776493247997
+    },
+    {
+      "left_ordinal": 12,
+      "right_ordinal": 264,
+      "area_in_crs_squared_units": 9.735448723222073e-09
+    },
+    {
+      "left_ordinal": 12,
+      "right_ordinal": 165,
+      "area_in_crs_squared_units": 0.010774650458537618
+    },
+    {
+      "left_ordinal": 14,
+      "right_ordinal": 139,
+      "area_in_crs_squared_units": 0.0010633356474599323
+    },
+    {
+      "left_ordinal": 17,
+      "right_ordinal": 266,
+      "area_in_crs_squared_units": 0.0031243504625351193
+    },
+    {
+      "left_ordinal": 17,
+      "right_ordinal": 247,
+      "area_in_crs_squared_units": 0.0022070560170952373
+    },
+    {
+      "left_ordinal": 17,
+      "right_ordinal": 167,
+      "area_in_crs_squared_units": 0.027903046455207914
+    },
+    {
+      "left_ordinal": 18,
+      "right_ordinal": 266,
+      "area_in_crs_squared_units": 0.009597264461367348
+    },
+    {
+      "left_ordinal": 23,
+      "right_ordinal": 120,
+      "area_in_crs_squared_units": 0.0018469907079773475
+    },
+    {
+      "left_ordinal": 23,
+      "right_ordinal": 191,
+      "area_in_crs_squared_units": 0.07603544308106354
+    },
+    {
+      "left_ordinal": 23,
+      "right_ordinal": 65,
+      "area_in_crs_squared_units": 0.0021096584309330136
+    },
+    {
+      "left_ordinal": 27,
+      "right_ordinal": 28,
+      "area_in_crs_squared_units": 0.003526300275283667
+    },
+    {
+      "left_ordinal": 27,
+      "right_ordinal": 264,
+      "area_in_crs_squared_units": 0.027674633011857658
+    },
+    {
+      "left_ordinal": 33,
+      "right_ordinal": 218,
+      "area_in_crs_squared_units": 3.8140565538670457e-07
+    },
+    {
+      "left_ordinal": 33,
+      "right_ordinal": 40,
+      "area_in_crs_squared_units": 0.00023398136195823538
+    },
+    {
+      "left_ordinal": 34,
+      "right_ordinal": 174,
+      "area_in_crs_squared_units": 79.68459787758161
+    },
+    {
+      "left_ordinal": 34,
+      "right_ordinal": 271,
+      "area_in_crs_squared_units": 0.008134997067061207
+    },
+    {
+      "left_ordinal": 34,
+      "right_ordinal": 175,
+      "area_in_crs_squared_units": 0.000213461673314385
+    },
+    {
+      "left_ordinal": 35,
+      "right_ordinal": 71,
+      "area_in_crs_squared_units": 0.003168455918325498
+    },
+    {
+      "left_ordinal": 36,
+      "right_ordinal": 63,
+      "area_in_crs_squared_units": 1.228123317440627e-05
+    },
+    {
+      "left_ordinal": 36,
+      "right_ordinal": 134,
+      "area_in_crs_squared_units": 0.0011327624952319707
+    },
+    {
+      "left_ordinal": 37,
+      "right_ordinal": 199,
+      "area_in_crs_squared_units": 0.0043967824420144234
+    },
+    {
+      "left_ordinal": 40,
+      "right_ordinal": 218,
+      "area_in_crs_squared_units": 9.637596983054844e-05
+    },
+    {
+      "left_ordinal": 41,
+      "right_ordinal": 56,
+      "area_in_crs_squared_units": 0.0010136360832980473
+    },
+    {
+      "left_ordinal": 45,
+      "right_ordinal": 250,
+      "area_in_crs_squared_units": 0.09423786611608875
+    },
+    {
+      "left_ordinal": 53,
+      "right_ordinal": 268,
+      "area_in_crs_squared_units": 2.180171318814407e-05
+    },
+    {
+      "left_ordinal": 53,
+      "right_ordinal": 173,
+      "area_in_crs_squared_units": 6.217677148336737e-07
+    },
+    {
+      "left_ordinal": 57,
+      "right_ordinal": 265,
+      "area_in_crs_squared_units": 0.0030422769927221953
+    },
+    {
+      "left_ordinal": 60,
+      "right_ordinal": 103,
+      "area_in_crs_squared_units": 0.0006722074821841062
+    },
+    {
+      "left_ordinal": 60,
+      "right_ordinal": 158,
+      "area_in_crs_squared_units": 0.044060242910438426
+    },
+    {
+      "left_ordinal": 63,
+      "right_ordinal": 142,
+      "area_in_crs_squared_units": 0.001105101264329278
+    },
+    {
+      "left_ordinal": 64,
+      "right_ordinal": 176,
+      "area_in_crs_squared_units": 0.02476961327073779
+    },
+    {
+      "left_ordinal": 64,
+      "right_ordinal": 215,
+      "area_in_crs_squared_units": 0.05600085039610348
+    },
+    {
+      "left_ordinal": 67,
+      "right_ordinal": 163,
+      "area_in_crs_squared_units": 0.0012607382331932294
+    },
+    {
+      "left_ordinal": 67,
+      "right_ordinal": 245,
+      "area_in_crs_squared_units": 2.904967097095215e-05
+    },
+    {
+      "left_ordinal": 67,
+      "right_ordinal": 82,
+      "area_in_crs_squared_units": 0.043078481673332183
+    },
+    {
+      "left_ordinal": 69,
+      "right_ordinal": 157,
+      "area_in_crs_squared_units": 5.826704294493654e-05
+    },
+    {
+      "left_ordinal": 69,
+      "right_ordinal": 138,
+      "area_in_crs_squared_units": 0.08235581959870047
+    },
+    {
+      "left_ordinal": 71,
+      "right_ordinal": 174,
+      "area_in_crs_squared_units": 0.14773044051298637
+    },
+    {
+      "left_ordinal": 71,
+      "right_ordinal": 271,
+      "area_in_crs_squared_units": 0.0015745840170490587
+    },
+    {
+      "left_ordinal": 71,
+      "right_ordinal": 175,
+      "area_in_crs_squared_units": 7.380380338825945e-07
+    },
+    {
+      "left_ordinal": 73,
+      "right_ordinal": 114,
+      "area_in_crs_squared_units": 1.0390994353411627
+    },
+    {
+      "left_ordinal": 79,
+      "right_ordinal": 231,
+      "area_in_crs_squared_units": 0.0024047149128707326
+    },
+    {
+      "left_ordinal": 79,
+      "right_ordinal": 266,
+      "area_in_crs_squared_units": 0.001248047162409999
+    },
+    {
+      "left_ordinal": 80,
+      "right_ordinal": 247,
+      "area_in_crs_squared_units": 0.002199573740214733
+    },
+    {
+      "left_ordinal": 84,
+      "right_ordinal": 220,
+      "area_in_crs_squared_units": 0.0006206165966075976
+    },
+    {
+      "left_ordinal": 96,
+      "right_ordinal": 208,
+      "area_in_crs_squared_units": 0.05903610112314439
+    },
+    {
+      "left_ordinal": 96,
+      "right_ordinal": 97,
+      "area_in_crs_squared_units": 3.360981522780582e-08
+    },
+    {
+      "left_ordinal": 103,
+      "right_ordinal": 133,
+      "area_in_crs_squared_units": 3.116694297065122e-05
+    },
+    {
+      "left_ordinal": 103,
+      "right_ordinal": 158,
+      "area_in_crs_squared_units": 0.03369113441318434
+    },
+    {
+      "left_ordinal": 108,
+      "right_ordinal": 244,
+      "area_in_crs_squared_units": 0.0009129545898431957
+    },
+    {
+      "left_ordinal": 111,
+      "right_ordinal": 173,
+      "area_in_crs_squared_units": 0.0173072297711482
+    },
+    {
+      "left_ordinal": 111,
+      "right_ordinal": 131,
+      "area_in_crs_squared_units": 0.0009897555358868125
+    },
+    {
+      "left_ordinal": 112,
+      "right_ordinal": 265,
+      "area_in_crs_squared_units": 87.94306858320701
+    },
+    {
+      "left_ordinal": 113,
+      "right_ordinal": 177,
+      "area_in_crs_squared_units": 0.005173098698476153
+    },
+    {
+      "left_ordinal": 114,
+      "right_ordinal": 173,
+      "area_in_crs_squared_units": 0.0029425710698689064
+    },
+    {
+      "left_ordinal": 115,
+      "right_ordinal": 257,
+      "area_in_crs_squared_units": 0.044984419915008254
+    },
+    {
+      "left_ordinal": 118,
+      "right_ordinal": 265,
+      "area_in_crs_squared_units": 0.00019201893850485756
+    },
+    {
+      "left_ordinal": 118,
+      "right_ordinal": 252,
+      "area_in_crs_squared_units": 0.42023613477340405
+    },
+    {
+      "left_ordinal": 133,
+      "right_ordinal": 216,
+      "area_in_crs_squared_units": 0.00015055658333330921
+    },
+    {
+      "left_ordinal": 134,
+      "right_ordinal": 245,
+      "area_in_crs_squared_units": 0.030400499946399685
+    },
+    {
+      "left_ordinal": 138,
+      "right_ordinal": 157,
+      "area_in_crs_squared_units": 0.0113978212499935
+    },
+    {
+      "left_ordinal": 138,
+      "right_ordinal": 173,
+      "area_in_crs_squared_units": 0.0021713408788693192
+    },
+    {
+      "left_ordinal": 141,
+      "right_ordinal": 174,
+      "area_in_crs_squared_units": 0.07421074394124275
+    },
+    {
+      "left_ordinal": 145,
+      "right_ordinal": 220,
+      "area_in_crs_squared_units": 0.004177867764380672
+    },
+    {
+      "left_ordinal": 150,
+      "right_ordinal": 167,
+      "area_in_crs_squared_units": 2.1139486536606023e-07
+    },
+    {
+      "left_ordinal": 163,
+      "right_ordinal": 235,
+      "area_in_crs_squared_units": 0.00039429529384913883
+    },
+    {
+      "left_ordinal": 167,
+      "right_ordinal": 247,
+      "area_in_crs_squared_units": 0.007203971315273796
+    },
+    {
+      "left_ordinal": 167,
+      "right_ordinal": 255,
+      "area_in_crs_squared_units": 9.906742529464108e-05
+    },
+    {
+      "left_ordinal": 172,
+      "right_ordinal": 223,
+      "area_in_crs_squared_units": 9.779627433204041e-06
+    },
+    {
+      "left_ordinal": 172,
+      "right_ordinal": 268,
+      "area_in_crs_squared_units": 0.003593996049116933
+    },
+    {
+      "left_ordinal": 172,
+      "right_ordinal": 202,
+      "area_in_crs_squared_units": 0.0009645083403381979
+    },
+    {
+      "left_ordinal": 173,
+      "right_ordinal": 207,
+      "area_in_crs_squared_units": 20.94990784855196
+    },
+    {
+      "left_ordinal": 177,
+      "right_ordinal": 269,
+      "area_in_crs_squared_units": 0.0006445025506920327
+    },
+    {
+      "left_ordinal": 187,
+      "right_ordinal": 245,
+      "area_in_crs_squared_units": 0.004942623298786678
+    },
+    {
+      "left_ordinal": 188,
+      "right_ordinal": 251,
+      "area_in_crs_squared_units": 0.0006135087363573341
+    },
+    {
+      "left_ordinal": 188,
+      "right_ordinal": 229,
+      "area_in_crs_squared_units": 1.4617972486070858
+    },
+    {
+      "left_ordinal": 194,
+      "right_ordinal": 268,
+      "area_in_crs_squared_units": 0.004736172921155912
+    },
+    {
+      "left_ordinal": 194,
+      "right_ordinal": 202,
+      "area_in_crs_squared_units": 0.0007791316483495795
+    },
+    {
+      "left_ordinal": 202,
+      "right_ordinal": 223,
+      "area_in_crs_squared_units": 0.00014956259036312362
+    },
+    {
+      "left_ordinal": 205,
+      "right_ordinal": 257,
+      "area_in_crs_squared_units": 0.018765824960673944
+    },
+    {
+      "left_ordinal": 207,
+      "right_ordinal": 268,
+      "area_in_crs_squared_units": 0.00012028370621073627
+    },
+    {
+      "left_ordinal": 231,
+      "right_ordinal": 266,
+      "area_in_crs_squared_units": 0.004871817127714246
+    },
+    {
+      "left_ordinal": 235,
+      "right_ordinal": 245,
+      "area_in_crs_squared_units": 9.334812117848396e-06
+    },
+    {
+      "left_ordinal": 249,
+      "right_ordinal": 250,
+      "area_in_crs_squared_units": 0.03869072085994629
+    },
+    {
+      "left_ordinal": 274,
+      "right_ordinal": 275,
+      "area_in_crs_squared_units": 7659408.03733776
+    }
+  ],
+  "intersection_errors": [],
+  "id_field_diagnostics": {
+    "BOEPREID": {
+      "nonblank": 276,
+      "blank_or_null": 0,
+      "unique_nonblank": 274,
+      "reused_values": {
+        "PLA7": 2,
+        "JAC3": 2
+      },
+      "examples": [
+        "JAC28",
+        "PER8",
+        "JAC14",
+        "ALLI1A",
+        "CAN.C7C",
+        "NIM3",
+        "LSVLF",
+        "MASS3D"
+      ]
+    },
+    "COUNTY": {
+      "nonblank": 276,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "STARK": 276
+      },
+      "examples": [
+        "STARK",
+        "STARK",
+        "STARK",
+        "STARK",
+        "STARK",
+        "STARK",
+        "STARK",
+        "STARK"
+      ]
+    },
+    "CVT_NAME": {
+      "nonblank": 275,
+      "blank_or_null": 1,
+      "unique_nonblank": 30,
+      "reused_values": {
+        "Jackson Twp.": 34,
+        "Perry Twp.": 20,
+        "Alliance": 15,
+        "Canton": 48,
+        "Nimishillen Twp.": 7,
+        "Louisville": 7,
+        "Massillon": 24,
+        "Lake Twp.": 21,
+        "Plain Twp.": 29,
+        "Canton Twp.": 8,
+        "Pike Twp.": 3,
+        "Lawrence Twp.": 6,
+        "Canal Fulton": 4,
+        "North Canton": 12,
+        "Washington Twp.": 3,
+        "Tuscarawas Twp.": 4,
+        "Hartville Village": 2,
+        "Marlboro Twp.": 3,
+        "Osnaburg Twp.": 3,
+        "Bethlehem Twp.": 4,
+        "Paris Twp.": 3,
+        "Lexington Twp.": 4,
+        "Sandy Twp.": 2,
+        "Brewster Village": 2,
+        "Sugarcreek Twp.": 2
+      },
+      "examples": [
+        "Jackson Twp.",
+        "Perry Twp.",
+        "Jackson Twp.",
+        "Alliance",
+        "Canton",
+        "Nimishillen Twp.",
+        "Louisville",
+        "Massillon"
+      ]
+    },
+    "NAME": {
+      "nonblank": 276,
+      "blank_or_null": 0,
+      "unique_nonblank": 274,
+      "reused_values": {
+        "PLAIN TWP 7": 2,
+        "JACKSON TWP 3": 2
+      },
+      "examples": [
+        "JACKSON TWP 28",
+        "PERRY TWP 8",
+        "JACKSON TWP 14",
+        "ALLIANCE 1-A",
+        "CANTON CITY 7-C",
+        "NIMISHILLEN TWP 3",
+        "LOUISVILLE F",
+        "MASSILLON 3-D"
+      ]
+    },
+    "OBJECTID": {
+      "nonblank": 276,
+      "blank_or_null": 0,
+      "unique_nonblank": 276,
+      "reused_values": {},
+      "examples": [
+        "579",
+        "580",
+        "581",
+        "582",
+        "583",
+        "584",
+        "585",
+        "587"
+      ]
+    },
+    "POLLINGID": {
+      "nonblank": 248,
+      "blank_or_null": 28,
+      "unique_nonblank": 100,
+      "reused_values": {
+        "POLL-450": 4,
+        "POLL-950": 3,
+        "POLL-470": 3,
+        "POLL-10": 2,
+        "POLL-280": 3,
+        "POLL-680": 3,
+        "POLL-760": 3,
+        "POLL-580": 3,
+        "POLL-1060": 2,
+        "POLL-360": 4,
+        "POLL-410": 5,
+        "POLL-750": 4,
+        "POLL-1100": 2,
+        "POLL-440": 2,
+        "POLL-770": 3,
+        "POLL-460": 4,
+        "POLL-1330": 4,
+        "POLL-1300": 2,
+        "POLL-70": 3,
+        "POLL-790": 4,
+        "POLL-970": 2,
+        "POLL-1260": 3,
+        "POLL-1240": 3,
+        "POLL-270": 2,
+        "POLL-690": 3,
+        "POLL-1280": 6,
+        "POLL-130": 4,
+        "POLL-1290": 6,
+        "POLL-960": 3,
+        "POLL-870": 2,
+        "POLL-890": 4,
+        "POLL-200": 3,
+        "POLL-340": 4,
+        "POLL-50": 2,
+        "POLL-720": 5,
+        "POLL-930": 2,
+        "POLL-1370": 4,
+        "POLL-260": 3,
+        "POLL-60": 2,
+        "POLL-160": 2,
+        "POLL-840": 4,
+        "POLL-940": 2,
+        "POLL-830": 4,
+        "POLL-530": 3,
+        "POLL-120": 2,
+        "POLL-990": 3,
+        "POLL-100": 2,
+        "POLL-710": 2,
+        "POLL-1090": 2,
+        "POLL-170": 4,
+        "POLL-650": 2,
+        "POLL-1380": 2,
+        "POLL-660": 2,
+        "POLL-350": 3,
+        "POLL-740": 2,
+        "POLL-80": 3,
+        "POLL-1070": 3,
+        "POLL-550": 3,
+        "POLL-610": 2,
+        "POLL-1320": 3,
+        "POLL-230": 2,
+        "POLL-850": 2,
+        "POLL-1080": 2,
+        "POLL-980": 2,
+        "POLL-190": 3,
+        "POLL-430": 3,
+        "POLL-180": 3,
+        "POLL-330": 3,
+        "POLL-400": 3,
+        "POLL-1030": 2,
+        "POLL-670": 2,
+        "POLL-420": 3,
+        "POLL-1110": 3,
+        "POLL-1150": 2,
+        "POLL-300": 2,
+        "POLL-210": 3,
+        "POLL-500": 2,
+        "POLL-630": 3
+      },
+      "examples": [
+        "POLL-450",
+        "POLL-950",
+        "POLL-470",
+        "POLL-10",
+        "POLL-280",
+        "POLL-680",
+        "POLL-680",
+        "POLL-760"
+      ]
+    },
+    "PRECINCT2": {
+      "nonblank": 276,
+      "blank_or_null": 0,
+      "unique_nonblank": 40,
+      "reused_values": {
+        "28": 2,
+        "8": 11,
+        "14": 4,
+        "1": 32,
+        "7": 14,
+        "3": 32,
+        "16": 4,
+        "6": 15,
+        "9": 11,
+        "15": 4,
+        "2": 32,
+        "18": 4,
+        "4": 28,
+        "C": 3,
+        "19": 4,
+        "5": 14,
+        "13": 4,
+        "B": 4,
+        "21": 3,
+        "A": 8,
+        "29": 2,
+        "25": 2,
+        "22": 2,
+        "11": 4,
+        "26": 2,
+        "27": 2,
+        "10": 4,
+        "12": 4,
+        "23": 2,
+        "17": 4,
+        "D": 2,
+        "20": 4,
+        "24": 2
+      },
+      "examples": [
+        "28",
+        "8",
+        "14",
+        "1",
+        "7",
+        "3",
+        "F",
+        "3"
+      ]
+    },
+    "PRECINCTID": {
+      "nonblank": 276,
+      "blank_or_null": 0,
+      "unique_nonblank": 271,
+      "reused_values": {
+        "AFX": 2,
+        "ALF": 2,
+        "AMG": 2,
+        "AMX": 2,
+        "AHC": 2
+      },
+      "examples": [
+        "AHH",
+        "ALD",
+        "AGM",
+        "AAA",
+        "ACM",
+        "AJQ",
+        "ADS",
+        "AEF"
+      ]
+    },
+    "Shape.STArea()": {
+      "nonblank": 276,
+      "blank_or_null": 0,
+      "unique_nonblank": 275,
+      "reused_values": {
+        "47115871.19370536": 2
+      },
+      "examples": [
+        "13991796.39185323",
+        "67345339.55447432",
+        "17348676.789219905",
+        "7415406.066141077",
+        "14877668.259498348",
+        "26960523.329087757",
+        "28555711.220977552",
+        "7411650.017134529"
+      ]
+    },
+    "Shape.STLength()": {
+      "nonblank": 276,
+      "blank_or_null": 0,
+      "unique_nonblank": 275,
+      "reused_values": {
+        "37185.55213212275": 2
+      },
+      "examples": [
+        "16214.077424009256",
+        "38267.54514578523",
+        "28416.499518251418",
+        "12791.587938986058",
+        "28352.792657623",
+        "25154.165334221947",
+        "43168.05480193633",
+        "11138.30119707622"
+      ]
+    },
+    "WARD2": {
+      "nonblank": 99,
+      "blank_or_null": 177,
+      "unique_nonblank": 7,
+      "reused_values": {
+        "A": 23,
+        "C": 23,
+        "D": 14,
+        "B": 23,
+        "E": 9,
+        "F": 5,
+        "G": 2
+      },
+      "examples": [
+        "A",
+        "C",
+        "D",
+        "C",
+        "B",
+        "C",
+        "B",
+        "E"
+      ]
+    },
+    "last_edited_date": {
+      "nonblank": 276,
+      "blank_or_null": 0,
+      "unique_nonblank": 100,
+      "reused_values": {
+        "1569850150000": 27,
+        "1569849976000": 45,
+        "1569849736000": 63,
+        "1738596589000": 3,
+        "1642083093000": 4,
+        "1739552204000": 6,
+        "1649772877000": 2,
+        "1649959471000": 2,
+        "1740067698000": 5,
+        "1649772624000": 2,
+        "1569850293000": 8,
+        "1569850720000": 2,
+        "1649967698000": 7,
+        "1649961224000": 2,
+        "1649967428000": 3,
+        "1649772784000": 3,
+        "1736195688000": 2,
+        "1738090096000": 2,
+        "1649961513000": 4,
+        "1753452558000": 2,
+        "1683041073000": 2,
+        "1683293504000": 2
+      },
+      "examples": [
+        "1569850150000",
+        "1569849976000",
+        "1569849976000",
+        "1569849736000",
+        "1753452684000",
+        "1658149314000",
+        "1569849736000",
+        "1569850150000"
+      ]
+    }
+  },
+  "checks_do_not_approve_boundaries": true,
+  "extent_native": [
+    -9089148.93627368,
+    4958577.053546479,
+    -9026494.61324287,
+    5010675.999165358
+  ],
+  "crs_wkt": "PROJCRS[\"WGS 84 / Pseudo-Mercator\",BASEGEOGCRS[\"WGS 84\",ENSEMBLE[\"World Geodetic System 1984 ensemble\",MEMBER[\"World Geodetic System 1984 (Transit)\"],MEMBER[\"World Geodetic System 1984 (G730)\"],MEMBER[\"World Geodetic System 1984 (G873)\"],MEMBER[\"World Geodetic System 1984 (G1150)\"],MEMBER[\"World Geodetic System 1984 (G1674)\"],MEMBER[\"World Geodetic System 1984 (G1762)\"],MEMBER[\"World Geodetic System 1984 (G2139)\"],MEMBER[\"World Geodetic System 1984 (G2296)\"],ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ENSEMBLEACCURACY[2.0]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4326]],CONVERSION[\"Popular Visualisation Pseudo-Mercator\",METHOD[\"Popular Visualisation Pseudo Mercator\",ID[\"EPSG\",1024]],PARAMETER[\"Latitude of natural origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"easting (X)\",east,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"northing (Y)\",north,ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Web mapping and visualisation.\"],AREA[\"World between 85.06°S and 85.06°N.\"],BBOX[-85.06,-180,85.06,180]],ID[\"EPSG\",3857]]"
+}

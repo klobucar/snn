@@ -1,0 +1,36 @@
+{
+  "county": "portage",
+  "url": "https://services3.arcgis.com/USPCOVt8MExYdEzE/arcgis/rest/services/Voting_Precincts/FeatureServer/0",
+  "authority": "City of Streetsboro GIS (verified ArcGIS organization USPCOVt8MExYdEzE); countywide historical publication; county BOE route blocked",
+  "vintage": "precinct_2017 layer name; ArcGIS service created 2021 and modified 2023; not a verified 2024/2026 boundary set",
+  "approved_nov2026": false,
+  "layer_metadata_path": "evidence/gis/portage/layer.gz",
+  "count_path": "evidence/gis/portage/count.gz",
+  "ids_path": "evidence/gis/portage/ids.gz",
+  "batch_paths": [
+    "evidence/gis/portage/batch-000.gz",
+    "evidence/gis/portage/batch-001.gz",
+    "evidence/gis/portage/batch-002.gz"
+  ],
+  "feature_count": 138,
+  "object_id_field": "FID",
+  "native_sr": {
+    "wkid": 103129,
+    "latestWkid": 6549
+  },
+  "query_sr": {
+    "wkid": 103129,
+    "latestWkid": 6549
+  },
+  "fields": [
+    "FID",
+    "OBJECTID_1",
+    "OBJECTID",
+    "NAME",
+    "PRECINCT",
+    "number",
+    "Shape__Area",
+    "Shape__Length"
+  ],
+  "pagination": "count equals unique ID set equals every requested and returned batch ID; no transfer flag; no filter or simplification or reprojection"
+}

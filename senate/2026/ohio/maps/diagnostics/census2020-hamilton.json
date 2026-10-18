@@ -1,0 +1,258 @@
+{
+  "feature_count": 563,
+  "source_vertices": 70156,
+  "derived_vertices": 70156,
+  "empty_ordinals": [],
+  "invalid_features": [],
+  "finite_bounds": true,
+  "overlap_pairs": [],
+  "intersection_errors": [],
+  "id_field_diagnostics": {
+    "ALAND20": {
+      "nonblank": 563,
+      "blank_or_null": 0,
+      "unique_nonblank": 563,
+      "reused_values": {},
+      "examples": [
+        "2413096",
+        "1403995",
+        "949927",
+        "3518741",
+        "1097410",
+        "1775693",
+        "442094",
+        "382271"
+      ]
+    },
+    "AWATER20": {
+      "nonblank": 563,
+      "blank_or_null": 0,
+      "unique_nonblank": 119,
+      "reused_values": {
+        "0": 445
+      },
+      "examples": [
+        "31773",
+        "25986",
+        "5028",
+        "4849",
+        "12417",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "COUNTYFP20": {
+      "nonblank": 563,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "061": 563
+      },
+      "examples": [
+        "061",
+        "061",
+        "061",
+        "061",
+        "061",
+        "061",
+        "061",
+        "061"
+      ]
+    },
+    "FUNCSTAT20": {
+      "nonblank": 563,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "N": 563
+      },
+      "examples": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    "GEOID20": {
+      "nonblank": 563,
+      "blank_or_null": 0,
+      "unique_nonblank": 563,
+      "reused_values": {},
+      "examples": [
+        "39061031AWL",
+        "39061031AKJ",
+        "39061031ATT",
+        "39061031BAS",
+        "39061031AUM",
+        "39061031AVV",
+        "39061031AGZ",
+        "39061031BCK"
+      ]
+    },
+    "INTPTLAT20": {
+      "nonblank": 563,
+      "blank_or_null": 0,
+      "unique_nonblank": 563,
+      "reused_values": {},
+      "examples": [
+        "+39.1740806",
+        "+39.0990247",
+        "+39.2519999",
+        "+39.1141212",
+        "+39.2137207",
+        "+39.2184568",
+        "+39.1158136",
+        "+39.2078255"
+      ]
+    },
+    "INTPTLON20": {
+      "nonblank": 563,
+      "blank_or_null": 0,
+      "unique_nonblank": 563,
+      "reused_values": {},
+      "examples": [
+        "-084.4982074",
+        "-084.5243563",
+        "-084.3596995",
+        "-084.3263458",
+        "-084.5623163",
+        "-084.4382393",
+        "-084.5195272",
+        "-084.5801402"
+      ]
+    },
+    "LSAD20": {
+      "nonblank": 563,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "00": 563
+      },
+      "examples": [
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00"
+      ]
+    },
+    "MTFCC20": {
+      "nonblank": 563,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "G5240": 563
+      },
+      "examples": [
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240"
+      ]
+    },
+    "NAME20": {
+      "nonblank": 563,
+      "blank_or_null": 0,
+      "unique_nonblank": 563,
+      "reused_values": {},
+      "examples": [
+        "ST BERNARD 1-A",
+        "CINCINNATI 16-A",
+        "MONTGOMERY G",
+        "ANDERSON Z",
+        "NO COLL HILL 2-A",
+        "READING 1-A",
+        "CINCINNATI 10-B",
+        "COLERAIN P"
+      ]
+    },
+    "NAMELSAD20": {
+      "nonblank": 563,
+      "blank_or_null": 0,
+      "unique_nonblank": 563,
+      "reused_values": {},
+      "examples": [
+        "ST BERNARD 1-A",
+        "CINCINNATI 16-A",
+        "MONTGOMERY G",
+        "ANDERSON Z",
+        "NO COLL HILL 2-A",
+        "READING 1-A",
+        "CINCINNATI 10-B",
+        "COLERAIN P"
+      ]
+    },
+    "STATEFP20": {
+      "nonblank": 563,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "39": 563
+      },
+      "examples": [
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39"
+      ]
+    },
+    "VTDI20": {
+      "nonblank": 563,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "A": 563
+      },
+      "examples": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "VTDST20": {
+      "nonblank": 563,
+      "blank_or_null": 0,
+      "unique_nonblank": 563,
+      "reused_values": {},
+      "examples": [
+        "031AWL",
+        "031AKJ",
+        "031ATT",
+        "031BAS",
+        "031AUM",
+        "031AVV",
+        "031AGZ",
+        "031BCK"
+      ]
+    }
+  },
+  "checks_do_not_approve_boundaries": true,
+  "extent_native": [
+    -84.82030499999999,
+    39.021533999999996,
+    -84.256333,
+    39.312056
+  ],
+  "crs_wkt": "GEOGCRS[\"NAD83\",DATUM[\"North American Datum 1983\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6269]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"longitude\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"latitude\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]]]"
+}

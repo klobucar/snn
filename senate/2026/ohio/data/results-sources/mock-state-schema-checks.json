@@ -1,0 +1,83 @@
+{
+  "retrieved_utc": "2026-10-18T01:45:10.948854+00:00",
+  "root_attributes": {
+    "Format": "SummaryContest",
+    "GeneratedDate": "2026-10-18T01:42:11Z",
+    "IsTest": "true",
+    "Issuer": "Ohio Secretary of State Frank LaRose",
+    "IssuerAbbreviation": "OH",
+    "Sequence": "0",
+    "SequenceEnd": "0",
+    "Status": "UnofficialPartial",
+    "VendorApplicationId": "Ohio-ENR 1.0.02"
+  },
+  "election_attributes": {
+    "Date": "2026-11-03",
+    "Type": "General"
+  },
+  "xml_gpunit_types": {
+    "County": 176,
+    "Judicial": 12,
+    "Congressional": 15,
+    "StateHouse": 99,
+    "StateSenate": 17,
+    "State": 1
+  },
+  "reporting_counties": 88,
+  "ballots_rows": 90,
+  "null_objectId_Totals_rows": [
+    {
+      "source_row_zero_based": 0,
+      "objectId": null,
+      "name": "Totals",
+      "registeredVoterTotal": "7,971,297",
+      "ballotCast": "0",
+      "ballotCastPercent": "0.00",
+      "reportedPrecincts": "0",
+      "totalPrecincts": "8,834",
+      "precinctReportingPercent": "0.00",
+      "outAbsentees": "0",
+      "outProvisionals": "0",
+      "balCast": 0.0,
+      "regVoters": 7971297.0,
+      "reportingPrecincts": 0.0,
+      "totalNumPrecincts": 8834.0,
+      "precinctReportingPercNum": 0.0,
+      "outAbsenteeNum": 0.0,
+      "outProvisionalsNum": 0.0
+    },
+    {
+      "source_row_zero_based": 89,
+      "objectId": null,
+      "name": "Totals",
+      "registeredVoterTotal": "7,971,297",
+      "ballotCast": "0",
+      "ballotCastPercent": "0.00",
+      "reportedPrecincts": "0",
+      "totalPrecincts": "8,834",
+      "precinctReportingPercent": "0.00",
+      "outAbsentees": "0",
+      "outProvisionals": "0",
+      "balCast": 0.0,
+      "regVoters": 7971297.0,
+      "reportingPrecincts": 0.0,
+      "totalNumPrecincts": 0.0,
+      "precinctReportingPercNum": 0.0,
+      "outAbsenteeNum": 0.0,
+      "outProvisionalsNum": 0.0
+    }
+  ],
+  "senate_summary_top_contestId": null,
+  "isElectionOfficial_in_mock": true,
+  "county_total_precincts": 8834,
+  "senate_candidate_count": 7,
+  "state_and_county_candidate_total_cells": 623,
+  "individually_tested_county_json": 32,
+  "priority_candidate_cells": 224,
+  "precinct_records_in_state_xml": 0,
+  "method_counts_in_senate_xml": [
+    "Total"
+  ],
+  "blank_candidate_IDs": 0,
+  "warning": "Test IsTest overrides isElectionOfficial=true and familiar date/name/ID. GpUnit County scopes are not duplicate reporting counties. TWO Totals rows have null IDs: leading8834-precinct total and trailing zero-precinct total; both retained and excluded from county rows. No November exact outstanding count inferred."
+}

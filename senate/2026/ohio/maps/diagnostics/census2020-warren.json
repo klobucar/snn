@@ -1,0 +1,258 @@
+{
+  "feature_count": 175,
+  "source_vertices": 45272,
+  "derived_vertices": 45272,
+  "empty_ordinals": [],
+  "invalid_features": [],
+  "finite_bounds": true,
+  "overlap_pairs": [],
+  "intersection_errors": [],
+  "id_field_diagnostics": {
+    "ALAND20": {
+      "nonblank": 175,
+      "blank_or_null": 0,
+      "unique_nonblank": 175,
+      "reused_values": {},
+      "examples": [
+        "9384834",
+        "2818045",
+        "3382299",
+        "1339914",
+        "2615629",
+        "1134406",
+        "8359461",
+        "612753"
+      ]
+    },
+    "AWATER20": {
+      "nonblank": 175,
+      "blank_or_null": 0,
+      "unique_nonblank": 71,
+      "reused_values": {
+        "0": 105
+      },
+      "examples": [
+        "0",
+        "0",
+        "1739",
+        "0",
+        "121936",
+        "31036",
+        "1819",
+        "0"
+      ]
+    },
+    "COUNTYFP20": {
+      "nonblank": 175,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "165": 175
+      },
+      "examples": [
+        "165",
+        "165",
+        "165",
+        "165",
+        "165",
+        "165",
+        "165",
+        "165"
+      ]
+    },
+    "FUNCSTAT20": {
+      "nonblank": 175,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "N": 175
+      },
+      "examples": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    "GEOID20": {
+      "nonblank": 175,
+      "blank_or_null": 0,
+      "unique_nonblank": 175,
+      "reused_values": {},
+      "examples": [
+        "39165083AHF",
+        "39165083AHB",
+        "39165083AHC",
+        "39165083AHA",
+        "39165083AHE",
+        "39165083AHD",
+        "39165083AFC",
+        "39165083AEZ"
+      ]
+    },
+    "INTPTLAT20": {
+      "nonblank": 175,
+      "blank_or_null": 0,
+      "unique_nonblank": 175,
+      "reused_values": {},
+      "examples": [
+        "+39.4594032",
+        "+39.3662921",
+        "+39.5753501",
+        "+39.3557250",
+        "+39.3477720",
+        "+39.3286372",
+        "+39.5523101",
+        "+39.5665899"
+      ]
+    },
+    "INTPTLON20": {
+      "nonblank": 175,
+      "blank_or_null": 0,
+      "unique_nonblank": 175,
+      "reused_values": {},
+      "examples": [
+        "-084.3299067",
+        "-084.2662329",
+        "-084.1498292",
+        "-084.2067359",
+        "-084.2449844",
+        "-084.2474463",
+        "-084.2636422",
+        "-084.2489026"
+      ]
+    },
+    "LSAD20": {
+      "nonblank": 175,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "00": 175
+      },
+      "examples": [
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00"
+      ]
+    },
+    "MTFCC20": {
+      "nonblank": 175,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "G5240": 175
+      },
+      "examples": [
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240"
+      ]
+    },
+    "NAME20": {
+      "nonblank": 175,
+      "blank_or_null": 0,
+      "unique_nonblank": 175,
+      "reused_values": {},
+      "examples": [
+        "TURTLECREEK TWP L",
+        "MASON CITY Z",
+        "CLEARCREEK TWP N",
+        "SOUTH LEBANON VILLAGE D",
+        "HAMILTON TWP U",
+        "HAMILTON TWP T",
+        "SPRINGBORO CITY 3-A",
+        "SPRINGBORO CITY 4-C"
+      ]
+    },
+    "NAMELSAD20": {
+      "nonblank": 175,
+      "blank_or_null": 0,
+      "unique_nonblank": 175,
+      "reused_values": {},
+      "examples": [
+        "TURTLECREEK TWP L",
+        "MASON CITY Z",
+        "CLEARCREEK TWP N",
+        "SOUTH LEBANON VILLAGE D",
+        "HAMILTON TWP U",
+        "HAMILTON TWP T",
+        "SPRINGBORO CITY 3-A",
+        "SPRINGBORO CITY 4-C"
+      ]
+    },
+    "STATEFP20": {
+      "nonblank": 175,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "39": 175
+      },
+      "examples": [
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39"
+      ]
+    },
+    "VTDI20": {
+      "nonblank": 175,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "A": 175
+      },
+      "examples": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "VTDST20": {
+      "nonblank": 175,
+      "blank_or_null": 0,
+      "unique_nonblank": 175,
+      "reused_values": {},
+      "examples": [
+        "083AHF",
+        "083AHB",
+        "083AHC",
+        "083AHA",
+        "083AHE",
+        "083AHD",
+        "083AFC",
+        "083AEZ"
+      ]
+    }
+  },
+  "checks_do_not_approve_boundaries": true,
+  "extent_native": [
+    -84.36523199999999,
+    39.255112,
+    -83.976987,
+    39.589580999999995
+  ],
+  "crs_wkt": "GEOGCRS[\"NAD83\",DATUM[\"North American Datum 1983\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6269]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"longitude\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"latitude\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]]]"
+}

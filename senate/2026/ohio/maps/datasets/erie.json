@@ -1,0 +1,38 @@
+{
+  "county": "erie",
+  "url": "https://services3.arcgis.com/r00vmm8eIzAwdHlO/arcgis/rest/services/EC_Precincts/FeatureServer/0",
+  "authority": "Erie County Auditor GIS / Erie Regional Planning Commission; official portal linked by Auditor",
+  "vintage": "catalog created 2016; current publication with effective date unestablished",
+  "approved_nov2026": false,
+  "layer_metadata_path": "evidence/gis/erie/layer.gz",
+  "count_path": "evidence/gis/erie/count.gz",
+  "ids_path": "evidence/gis/erie/ids.gz",
+  "batch_paths": [
+    "evidence/gis/erie/batch-000.gz",
+    "evidence/gis/erie/batch-001.gz"
+  ],
+  "feature_count": 63,
+  "object_id_field": "OBJECTID_12",
+  "native_sr": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "query_sr": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "fields": [
+    "OBJECTID_12",
+    "OBJECTID",
+    "OBJECTID_1",
+    "County",
+    "Precinct_I",
+    "Jurisdctn",
+    "Shape_Le_1",
+    "Shape__Are",
+    "Shape__Len",
+    "Shape__Area",
+    "Shape__Length"
+  ],
+  "pagination": "count equals unique ID set equals every requested and returned batch ID; no transfer flag; no filter or simplification or reprojection"
+}

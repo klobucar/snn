@@ -1,0 +1,258 @@
+{
+  "feature_count": 105,
+  "source_vertices": 14380,
+  "derived_vertices": 14380,
+  "empty_ordinals": [],
+  "invalid_features": [],
+  "finite_bounds": true,
+  "overlap_pairs": [],
+  "intersection_errors": [],
+  "id_field_diagnostics": {
+    "ALAND20": {
+      "nonblank": 105,
+      "blank_or_null": 0,
+      "unique_nonblank": 105,
+      "reused_values": {},
+      "examples": [
+        "1577444",
+        "900532",
+        "5568209",
+        "375475",
+        "66449382",
+        "62105356",
+        "14667788",
+        "18231360"
+      ]
+    },
+    "AWATER20": {
+      "nonblank": 105,
+      "blank_or_null": 0,
+      "unique_nonblank": 58,
+      "reused_values": {
+        "0": 48
+      },
+      "examples": [
+        "0",
+        "0",
+        "16160",
+        "0",
+        "27015",
+        "165026",
+        "37274",
+        "0"
+      ]
+    },
+    "COUNTYFP20": {
+      "nonblank": 105,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "007": 105
+      },
+      "examples": [
+        "007",
+        "007",
+        "007",
+        "007",
+        "007",
+        "007",
+        "007",
+        "007"
+      ]
+    },
+    "FUNCSTAT20": {
+      "nonblank": 105,
+      "blank_or_null": 0,
+      "unique_nonblank": 2,
+      "reused_values": {
+        "N": 104
+      },
+      "examples": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    "GEOID20": {
+      "nonblank": 105,
+      "blank_or_null": 0,
+      "unique_nonblank": 105,
+      "reused_values": {},
+      "examples": [
+        "39007004ABQ",
+        "39007004AAY",
+        "39007004ACJ",
+        "39007004AAX",
+        "39007004AES",
+        "39007004ACQ",
+        "39007004AEH",
+        "39007004AEO"
+      ]
+    },
+    "INTPTLAT20": {
+      "nonblank": 105,
+      "blank_or_null": 0,
+      "unique_nonblank": 105,
+      "reused_values": {},
+      "examples": [
+        "+41.9502954",
+        "+41.8514910",
+        "+41.8690194",
+        "+41.8581319",
+        "+41.6898575",
+        "+41.6075811",
+        "+41.8019294",
+        "+41.8458124"
+      ]
+    },
+    "INTPTLON20": {
+      "nonblank": 105,
+      "blank_or_null": 0,
+      "unique_nonblank": 105,
+      "reused_values": {},
+      "examples": [
+        "-080.5392316",
+        "-080.7948865",
+        "-080.7440293",
+        "-080.7918970",
+        "-080.9486206",
+        "-080.6680904",
+        "-080.8722190",
+        "-080.8824819"
+      ]
+    },
+    "LSAD20": {
+      "nonblank": 105,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "00": 105
+      },
+      "examples": [
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00"
+      ]
+    },
+    "MTFCC20": {
+      "nonblank": 105,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "G5240": 105
+      },
+      "examples": [
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240"
+      ]
+    },
+    "NAME20": {
+      "nonblank": 105,
+      "blank_or_null": 0,
+      "unique_nonblank": 105,
+      "reused_values": {},
+      "examples": [
+        "CONNEAUT 4-C",
+        "ASHTABULA 5-C",
+        "ASHTABULA TWP. 5",
+        "ASHTABULA 5-B",
+        "TRUMBULL TWP.",
+        "Cherry Valley",
+        "SAYBROOK TWP. 1",
+        "SAYBROOK TWP. 7"
+      ]
+    },
+    "NAMELSAD20": {
+      "nonblank": 105,
+      "blank_or_null": 0,
+      "unique_nonblank": 105,
+      "reused_values": {},
+      "examples": [
+        "CONNEAUT 4-C",
+        "ASHTABULA 5-C",
+        "ASHTABULA TWP. 5",
+        "ASHTABULA 5-B",
+        "TRUMBULL TWP.",
+        "Cherry Valley",
+        "SAYBROOK TWP. 1",
+        "SAYBROOK TWP. 7"
+      ]
+    },
+    "STATEFP20": {
+      "nonblank": 105,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "39": 105
+      },
+      "examples": [
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39"
+      ]
+    },
+    "VTDI20": {
+      "nonblank": 105,
+      "blank_or_null": 0,
+      "unique_nonblank": 2,
+      "reused_values": {
+        "A": 104
+      },
+      "examples": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "VTDST20": {
+      "nonblank": 105,
+      "blank_or_null": 0,
+      "unique_nonblank": 105,
+      "reused_values": {},
+      "examples": [
+        "004ABQ",
+        "004AAY",
+        "004ACJ",
+        "004AAX",
+        "004AES",
+        "004ACQ",
+        "004AEH",
+        "004AEO"
+      ]
+    }
+  },
+  "checks_do_not_approve_boundaries": true,
+  "extent_native": [
+    -81.009827,
+    41.499327,
+    -80.51915799999999,
+    42.327132
+  ],
+  "crs_wkt": "GEOGCRS[\"NAD83\",DATUM[\"North American Datum 1983\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6269]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"longitude\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"latitude\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]]]"
+}

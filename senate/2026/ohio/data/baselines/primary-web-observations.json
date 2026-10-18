@@ -1,0 +1,39 @@
+{
+  "observation_utc": "2026-10-18T01:12:24.603720+00:00",
+  "method": "primary web browsing; parsed content supplied by browser tool; HTTP headers/status not exposed. Separate direct request failures retained in raw/*.meta.json.",
+  "sources": [
+    {
+      "url": "https://www.ohiosos.gov/assets/directive-2025-54-writ-of-special-election-for-united-states-senate-election.pdf",
+      "document_id": "Directive 2025-54",
+      "document_date": "2025-11-13",
+      "finding": "Special general election November 3,2026, unexpired term ending January3,2029; vacancy after JDVance resignation January10,2025."
+    },
+    {
+      "url": "https://www.ohiosos.gov/assets/dir2024-23.pdf",
+      "document_id": "Directive2024-23",
+      "document_date": "2024-09-06",
+      "finding": "Native SOS precinct codes consist of three alphabet letters; names and codes must be checked with voter registration system. Lists five original presidential write-in tickets and four Senate write-ins. Duncan ballot designation Nonparty; Sonski Other-party. Stein/Rios listed at this prior ballot vintage."
+    },
+    {
+      "url": "https://www.ohiosos.gov/assets/dir2024-26.pdf",
+      "document_id": "Directive2024-26",
+      "document_date": "2024-10-04",
+      "finding": "Four added presidential write-in tickets: Garrity/Ballard, Nalbach/Butts, Bowman/Bowman, West/Abdullah."
+    },
+    {
+      "url": "https://liveresults.boe.ohio.gov/ENR/warrenohenr/14/en/Index_14.html",
+      "source_status": "historical local result page; not used as certified historical tally",
+      "finding": "Primary Warren Board page states Stein/Rios withdrawn and votes for them not counted. Some displayed precinct vote rows nevertheless include marks for the ticket. Do not add those to certified statewide contest."
+    },
+    {
+      "url": "https://www.ohiosos.gov/office/media-center/categories/press-releases/2024-12-02",
+      "document_date": "2024-12-02",
+      "finding": "2024 general certification after canvass by all88 boards; ballots5851387 registered8159946."
+    },
+    {
+      "url": "https://www.ohiosos.gov/office/media-center/categories/press-releases/2022-12-09",
+      "document_date": "2022-12-09",
+      "finding": "2022 general election results certified."
+    }
+  ]
+}

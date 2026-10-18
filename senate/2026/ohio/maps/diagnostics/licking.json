@@ -1,0 +1,709 @@
+{
+  "feature_count": 96,
+  "source_vertices": 34149,
+  "derived_vertices": 34149,
+  "empty_ordinals": [],
+  "invalid_features": [
+    {
+      "source_feature_ordinal": 45,
+      "attributes": {
+        "OBJECTID": 48,
+        "PrecinctID": "111C",
+        "PrecinctName": "Granville Twp. C",
+        "County": "Licking",
+        "Jurisdiction": "Granville Twp.",
+        "Municipality": null,
+        "Township": "Granville",
+        "Ward": null,
+        "PollID": "15",
+        "PollName": "BRYN DU FIELDHOUSE",
+        "PollAddress": "537 JONES RD",
+        "PollCityStateZip": "GRANVILLE, OH 43023",
+        "RevisionDate": 1682395200000,
+        "Color": "6",
+        "GISAcres": 3637.30946169,
+        "GISSquareMiles": 5.6832733,
+        "created_user": "kscha1",
+        "created_date": 1485925200000,
+        "last_edited_user": "kscha1",
+        "last_edited_date": 1781566863000,
+        "GlobalID": "{0797D683-9764-4518-AFF4-4936F342BCF9}",
+        "Shape.STArea()": 158440566.38705972,
+        "Shape.STLength()": 114252.11805580075
+      },
+      "reason": "Ring Self-intersection[1963341.56870064 749845.96113047]"
+    },
+    {
+      "source_feature_ordinal": 72,
+      "attributes": {
+        "OBJECTID": 75,
+        "PrecinctID": "281B",
+        "PrecinctName": "Johnstown B",
+        "County": "Licking",
+        "Jurisdiction": "Johnstown City",
+        "Municipality": "Johnstown",
+        "Township": null,
+        "Ward": null,
+        "PollID": "21",
+        "PollName": "JOHNSTOWN CITY OFFICE",
+        "PollAddress": "599 S MAIN ST",
+        "PollCityStateZip": "JOHNSTOWN, OH 43031",
+        "RevisionDate": 1786334400000,
+        "Color": "2",
+        "GISAcres": 1013.93335799,
+        "GISSquareMiles": 1.58426453,
+        "created_user": "kscha1",
+        "created_date": 1485925200000,
+        "last_edited_user": "kscha1",
+        "last_edited_date": 1787349348000,
+        "GlobalID": "{DE02EE5D-37B3-49C2-8627-4F11423B23FB}",
+        "Shape.STArea()": 44166760.40635225,
+        "Shape.STLength()": 61975.982161092295
+      },
+      "reason": "Ring Self-intersection[1908466.76211189 778393.914861232]"
+    }
+  ],
+  "finite_bounds": true,
+  "overlap_pairs": [
+    {
+      "left_ordinal": 18,
+      "right_ordinal": 74,
+      "area_in_crs_squared_units": 0.14477710167549332
+    },
+    {
+      "left_ordinal": 28,
+      "right_ordinal": 62,
+      "area_in_crs_squared_units": 0.09091743302120212
+    },
+    {
+      "left_ordinal": 28,
+      "right_ordinal": 89,
+      "area_in_crs_squared_units": 0.04337313106795948
+    },
+    {
+      "left_ordinal": 41,
+      "right_ordinal": 94,
+      "area_in_crs_squared_units": 0.0013902959973723927
+    },
+    {
+      "left_ordinal": 42,
+      "right_ordinal": 65,
+      "area_in_crs_squared_units": 0.0027318370345650322
+    },
+    {
+      "left_ordinal": 56,
+      "right_ordinal": 69,
+      "area_in_crs_squared_units": 0.033380935298282566
+    },
+    {
+      "left_ordinal": 58,
+      "right_ordinal": 72,
+      "area_in_crs_squared_units": 0.041876478790523086
+    },
+    {
+      "left_ordinal": 58,
+      "right_ordinal": 70,
+      "area_in_crs_squared_units": 0.041876478790523086
+    },
+    {
+      "left_ordinal": 58,
+      "right_ordinal": 69,
+      "area_in_crs_squared_units": 0.002278149787741768
+    },
+    {
+      "left_ordinal": 60,
+      "right_ordinal": 70,
+      "area_in_crs_squared_units": 0.07131472861512833
+    },
+    {
+      "left_ordinal": 61,
+      "right_ordinal": 70,
+      "area_in_crs_squared_units": 2.265860530314967e-07
+    },
+    {
+      "left_ordinal": 70,
+      "right_ordinal": 72,
+      "area_in_crs_squared_units": 0.04209618673950655
+    },
+    {
+      "left_ordinal": 70,
+      "right_ordinal": 71,
+      "area_in_crs_squared_units": 0.028263060601652512
+    },
+    {
+      "left_ordinal": 78,
+      "right_ordinal": 94,
+      "area_in_crs_squared_units": 0.0028084162105684873
+    }
+  ],
+  "intersection_errors": [],
+  "id_field_diagnostics": {
+    "Color": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 6,
+      "reused_values": {
+        "1": 19,
+        "6": 15,
+        "3": 17,
+        "5": 14,
+        "2": 15,
+        "4": 16
+      },
+      "examples": [
+        "1",
+        "6",
+        "3",
+        "5",
+        "2",
+        "4",
+        "3",
+        "6"
+      ]
+    },
+    "County": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "Licking": 96
+      },
+      "examples": [
+        "Licking",
+        "Licking",
+        "Licking",
+        "Licking",
+        "Licking",
+        "Licking",
+        "Licking",
+        "Licking"
+      ]
+    },
+    "GISAcres": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 96,
+      "reused_values": {},
+      "examples": [
+        "585.22480019",
+        "1218.90899747",
+        "303.61940237",
+        "686.70223807",
+        "422.35817801",
+        "678.34220812",
+        "1195.77332032",
+        "368.91806883"
+      ]
+    },
+    "GISSquareMiles": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 96,
+      "reused_values": {},
+      "examples": [
+        "0.91441375",
+        "1.90454531",
+        "0.47440532",
+        "1.07297225",
+        "0.65993465",
+        "1.0599097",
+        "1.86838834",
+        "0.57643448"
+      ]
+    },
+    "GlobalID": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 96,
+      "reused_values": {},
+      "examples": [
+        "{0688FEB5-335E-4DE4-ABAE-AE1B187CAC7E}",
+        "{6A25EA46-3BED-4BB2-898D-DE7BB55F96DA}",
+        "{0228BA48-8B3E-4361-9468-BC232178437B}",
+        "{E27B4B25-B87E-42BF-B62F-110A700B7E0A}",
+        "{0D1A1696-42C5-42DE-B9E6-E0D72A94076C}",
+        "{F5EC5244-2689-4144-A81B-95540BC824B4}",
+        "{D91B8CA1-7A00-4F49-B443-91075BB38F0A}",
+        "{CD94CD76-7A1D-4914-A153-7F891EB2D9AB}"
+      ]
+    },
+    "Jurisdiction": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 37,
+      "reused_values": {
+        "Newark City": 25,
+        "Heath City": 6,
+        "Etna Twp.": 4,
+        "Reynoldsburg City": 5,
+        "Granville Twp.": 3,
+        "Granville Village": 3,
+        "Harrison Twp.": 4,
+        "Jersey Twp.": 2,
+        "Liberty Twp.": 2,
+        "Licking Twp.": 3,
+        "Madison Twp.": 2,
+        "Monroe Twp.": 2,
+        "Johnstown City": 3,
+        "Pataskala City": 8,
+        "Union Twp.": 2
+      },
+      "examples": [
+        "Newark City",
+        "Newark City",
+        "Newark City",
+        "Newark City",
+        "Newark City",
+        "Newark City",
+        "Newark City",
+        "Newark City"
+      ]
+    },
+    "Municipality": {
+      "nonblank": 59,
+      "blank_or_null": 37,
+      "unique_nonblank": 15,
+      "reused_values": {
+        "Newark": 25,
+        "Heath": 6,
+        "Reynoldsburg": 5,
+        "Granville": 3,
+        "Johnstown": 3,
+        "Pataskala": 8
+      },
+      "examples": [
+        "Newark",
+        "Newark",
+        "Newark",
+        "Newark",
+        "Newark",
+        "Newark",
+        "Newark",
+        "Newark"
+      ]
+    },
+    "OBJECTID": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 96,
+      "reused_values": {},
+      "examples": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "PollAddress": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 28,
+      "reused_values": {
+        "549 E MAIN ST": 2,
+        "85 S 6TH ST": 3,
+        "1040 W MAIN ST": 7,
+        "1075 EVANS BLVD": 5,
+        "2181 RIGGS RD": 6,
+        "475 JEFFERSON RD": 3,
+        "525 S 30TH ST": 6,
+        "40 S MAIN ST": 2,
+        "15508 4TH ST": 2,
+        "218 N JEFFERSON ST": 3,
+        "12969 TECHNIGLAS RD": 2,
+        "500 PIKE ST": 4,
+        "8579 SUMMIT RD": 5,
+        "5222 NATIONAL RD SE": 4,
+        "537 JONES RD": 2,
+        "110 W BROADWAY": 3,
+        "100 HAINSVIEW DR": 5,
+        "5310 YORK RD": 5,
+        "13260 MORSE RD": 2,
+        "1213 DUTCH LN NW": 3,
+        "599 S MAIN ST": 5,
+        "8135 MT VERNON RD": 2,
+        "13220 CABLE RD SW": 4,
+        "8100 HAZELTON-ETNA RD SW": 4,
+        "5380 MOOTS RUN RD": 2,
+        "1380 BEAVER RUN RD": 2,
+        "925 W MAIN ST": 2
+      },
+      "examples": [
+        "549 E MAIN ST",
+        "549 E MAIN ST",
+        "85 S 6TH ST",
+        "85 S 6TH ST",
+        "85 S 6TH ST",
+        "1040 W MAIN ST",
+        "1040 W MAIN ST",
+        "1040 W MAIN ST"
+      ]
+    },
+    "PollCityStateZip": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 13,
+      "reused_values": {
+        "NEWARK, OH 43055": 36,
+        "HEATH OH 43056": 6,
+        "CROTON, OH 43013": 2,
+        "BROWNSVILLE, OH 43721": 2,
+        "UTICA, OH 43080": 3,
+        "ETNA, OH 43018": 4,
+        "REYNOLDSBURG, OH 43068": 5,
+        "HEBRON, OH 43025": 8,
+        "GRANVILLE, OH 43023": 6,
+        "PATASKALA, OH 43062": 15,
+        "JOHNSTOWN, OH 43031": 5,
+        "ST LOUISVILLE, OH 43071": 2,
+        "ALEXANDRIA, OH 43001": 2
+      },
+      "examples": [
+        "NEWARK, OH 43055",
+        "NEWARK, OH 43055",
+        "NEWARK, OH 43055",
+        "NEWARK, OH 43055",
+        "NEWARK, OH 43055",
+        "NEWARK, OH 43055",
+        "NEWARK, OH 43055",
+        "NEWARK, OH 43055"
+      ]
+    },
+    "PollID": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 27,
+      "reused_values": {
+        "01": 2,
+        "02": 7,
+        "03": 3,
+        "04": 5,
+        "05": 6,
+        "06": 3,
+        "07": 6,
+        "08": 2,
+        "09": 2,
+        "10": 3,
+        "11": 2,
+        "12": 4,
+        "13": 5,
+        "14": 4,
+        "15": 3,
+        "16": 3,
+        "17": 5,
+        "18": 5,
+        "19": 2,
+        "20": 3,
+        "21": 5,
+        "22": 2,
+        "23": 4,
+        "24": 4,
+        "25": 2,
+        "26": 2,
+        "27": 2
+      },
+      "examples": [
+        "01",
+        "01",
+        "02",
+        "02",
+        "02",
+        "03",
+        "03",
+        "03"
+      ]
+    },
+    "PollName": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 27,
+      "reused_values": {
+        "CARSON ELEMENTARY SCHOOL": 2,
+        "AMERICAN LEGION": 3,
+        "CHERRY VALLEY ELEMENTARY SCHOOL": 7,
+        "LEGEND ELEMENTARY SCHOOL": 5,
+        "CHURCH OF GOD OF LICKING COUNTY": 6,
+        "JOHN CLEM ELEMENTARY SCHOOL": 3,
+        "HEATH FIRST BAPTIST CHURCH": 6,
+        "CROTON CHURCH OF CHRIST": 2,
+        "BOWLING GREEN COMMUNITY BUILDING": 2,
+        "UTICA HIGH SCHOOL GYM": 3,
+        "ROCKY FORK CHURCH OF CHRIST": 2,
+        "ETNA HIGH POINT CHURCH": 4,
+        "REYNOLDSBURG HIGH SCHOOL": 5,
+        "LAKEWOOD MIDDLE SCHOOL": 4,
+        "BRYN DU FIELDHOUSE": 3,
+        "FIRST PRESBYTERIAN CHURCH": 3,
+        "LICKING VALLEY HIGH SCHOOL AUX GYM": 5,
+        "TRI VILLAGE CHRISTIAN CHURCH": 5,
+        "JERSEY BAPTIST CHURCH": 2,
+        "HIGHWATER CHURCH OF CHRIST": 3,
+        "JOHNSTOWN CITY OFFICE": 5,
+        "HOUSE OF NEW HOPE": 2,
+        "LICKING HEIGHTS MIDDLE SCHOOL": 4,
+        "CHURCH OF THE NAZARENE": 4,
+        "CHURCH OF CHRIST AT ALEXANDRIA": 2,
+        "UNION TOWNSHIP COMPLEX": 2,
+        "HEBRON NEW LIFE GYM": 2
+      },
+      "examples": [
+        "CARSON ELEMENTARY SCHOOL",
+        "CARSON ELEMENTARY SCHOOL",
+        "AMERICAN LEGION",
+        "AMERICAN LEGION",
+        "AMERICAN LEGION",
+        "CHERRY VALLEY ELEMENTARY SCHOOL",
+        "CHERRY VALLEY ELEMENTARY SCHOOL",
+        "CHERRY VALLEY ELEMENTARY SCHOOL"
+      ]
+    },
+    "PrecinctID": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 96,
+      "reused_values": {},
+      "examples": [
+        "011A",
+        "011B",
+        "012A",
+        "012B",
+        "012C",
+        "013A",
+        "013B",
+        "013C"
+      ]
+    },
+    "PrecinctName": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 96,
+      "reused_values": {},
+      "examples": [
+        "Newark 1-A",
+        "Newark 1-B",
+        "Newark 2-A",
+        "Newark 2-B",
+        "Newark 2-C",
+        "Newark 3-A",
+        "Newark 3-B",
+        "Newark 3-C"
+      ]
+    },
+    "RevisionDate": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 36,
+      "reused_values": {
+        "1392181200000": 2,
+        "1379044800000": 19,
+        "1028606400000": 6,
+        "1567483200000": 3,
+        "1782792000000": 2,
+        "1422248400000": 2,
+        "1520485200000": 6,
+        "1786593600000": 2,
+        "1693195200000": 3,
+        "957153600000": 11,
+        "1132549200000": 2,
+        "1713412800000": 2,
+        "1682395200000": 2,
+        "1516597200000": 2,
+        "1450846800000": 2,
+        "1634270400000": 2,
+        "1786334400000": 2,
+        "1423198800000": 2,
+        "1678766400000": 4,
+        "1359694800000": 3,
+        "1784520000000": 2
+      },
+      "examples": [
+        "1392181200000",
+        "1392181200000",
+        "1391230800000",
+        "1379044800000",
+        "1379044800000",
+        "1379044800000",
+        "1379044800000",
+        "1379044800000"
+      ]
+    },
+    "Shape.STArea()": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 96,
+      "reused_values": {},
+      "examples": [
+        "25492290.326847024",
+        "53095463.54745797",
+        "13225608.264773041",
+        "29912629.83963178",
+        "18397848.642723694",
+        "29548468.391650833",
+        "52087677.481644675",
+        "16070006.797895595"
+      ]
+    },
+    "Shape.STLength()": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 96,
+      "reused_values": {},
+      "examples": [
+        "42141.90581445999",
+        "55217.515139399075",
+        "24863.68743676565",
+        "24010.315538880102",
+        "25608.846115428852",
+        "24050.435419133053",
+        "46322.51113833713",
+        "18513.802516440923"
+      ]
+    },
+    "Township": {
+      "nonblank": 42,
+      "blank_or_null": 54,
+      "unique_nonblank": 24,
+      "reused_values": {
+        "Etna": 4,
+        "Granville": 3,
+        "Harrison": 5,
+        "Jersey": 2,
+        "Liberty": 2,
+        "Licking": 3,
+        "Madison": 2,
+        "Monroe": 2,
+        "Newton": 2,
+        "St. Albans": 2,
+        "Union": 2
+      },
+      "examples": [
+        "Bennington",
+        "Bowling Green",
+        "Burlington",
+        "Eden-Fallsbury",
+        "Etna",
+        "Etna",
+        "Etna",
+        "Franklin"
+      ]
+    },
+    "Ward": {
+      "nonblank": 44,
+      "blank_or_null": 52,
+      "unique_nonblank": 7,
+      "reused_values": {
+        "1": 6,
+        "2": 8,
+        "3": 11,
+        "4": 6,
+        "5": 5,
+        "6": 5,
+        "7": 3
+      },
+      "examples": [
+        "1",
+        "1",
+        "2",
+        "2",
+        "2",
+        "3",
+        "3",
+        "3"
+      ]
+    },
+    "created_date": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 5,
+      "reused_values": {
+        "1485925200000": 92
+      },
+      "examples": [
+        "1485925200000",
+        "1485925200000",
+        "1485925200000",
+        "1485925200000",
+        "1485925200000",
+        "1485925200000",
+        "1485925200000",
+        "1485925200000"
+      ]
+    },
+    "created_user": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "kscha1": 96
+      },
+      "examples": [
+        "kscha1",
+        "kscha1",
+        "kscha1",
+        "kscha1",
+        "kscha1",
+        "kscha1",
+        "kscha1",
+        "kscha1"
+      ]
+    },
+    "last_edited_date": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 84,
+      "reused_values": {
+        "1780958794000": 2,
+        "1780943815000": 2,
+        "1781216833000": 2,
+        "1780963057000": 2,
+        "1781566863000": 2,
+        "1714576696000": 2,
+        "1780943147000": 2,
+        "1786660648000": 2,
+        "1698781061000": 2,
+        "1787349348000": 2,
+        "1780354961000": 2,
+        "1789405459000": 2
+      },
+      "examples": [
+        "1593656886000",
+        "1651321769000",
+        "1749736958000",
+        "1640984569000",
+        "1680633651000",
+        "1634925967000",
+        "1780360384000",
+        "1753546430000"
+      ]
+    },
+    "last_edited_user": {
+      "nonblank": 96,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "kscha1": 96
+      },
+      "examples": [
+        "kscha1",
+        "kscha1",
+        "kscha1",
+        "kscha1",
+        "kscha1",
+        "kscha1",
+        "kscha1",
+        "kscha1"
+      ]
+    }
+  },
+  "checks_do_not_approve_boundaries": true,
+  "extent_native": [
+    1889310.3148605525,
+    696963.4395991415,
+    2057050.6060197204,
+    829443.37214531
+  ],
+  "crs_wkt": "PROJCRS[\"NAD83 / Ohio South (ftUS)\",BASEGEOGCRS[\"NAD83\",DATUM[\"North American Datum 1983\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4269]],CONVERSION[\"SPCS83 Ohio South zone (US survey foot)\",METHOD[\"Lambert Conic Conformal (2SP)\",ID[\"EPSG\",9802]],PARAMETER[\"Latitude of false origin\",38,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8821]],PARAMETER[\"Longitude of false origin\",-82.5,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8822]],PARAMETER[\"Latitude of 1st standard parallel\",40.0333333333333,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8823]],PARAMETER[\"Latitude of 2nd standard parallel\",38.7333333333333,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8824]],PARAMETER[\"Easting at false origin\",1968500,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8826]],PARAMETER[\"Northing at false origin\",0,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8827]]],CS[Cartesian,2],AXIS[\"easting (X)\",east,ORDER[1],LENGTHUNIT[\"US survey foot\",0.304800609601219]],AXIS[\"northing (Y)\",north,ORDER[2],LENGTHUNIT[\"US survey foot\",0.304800609601219]],USAGE[SCOPE[\"Engineering survey, topographic mapping.\"],AREA[\"United States (USA) - Ohio - counties of Adams; Athens; Belmont; Brown; Butler; Champaign; Clark; Clermont; Clinton; Darke; Fairfield; Fayette; Franklin; Gallia; Greene; Guernsey; Hamilton; Highland; Hocking; Jackson; Lawrence; Licking; Madison; Meigs; Miami; Monroe; Montgomery; Morgan; Muskingum; Noble; Perry; Pickaway; Pike; Preble; Ross; Scioto; Vinton; Warren; Washington.\"],BBOX[38.4,-84.83,40.36,-80.7]],ID[\"EPSG\",3735]]"
+}

@@ -1,0 +1,258 @@
+{
+  "feature_count": 194,
+  "source_vertices": 38917,
+  "derived_vertices": 38917,
+  "empty_ordinals": [],
+  "invalid_features": [],
+  "finite_bounds": true,
+  "overlap_pairs": [],
+  "intersection_errors": [],
+  "id_field_diagnostics": {
+    "ALAND20": {
+      "nonblank": 194,
+      "blank_or_null": 0,
+      "unique_nonblank": 194,
+      "reused_values": {},
+      "examples": [
+        "2273554",
+        "2315462",
+        "1108423",
+        "1632724",
+        "3456844",
+        "66624523",
+        "40548298",
+        "8729213"
+      ]
+    },
+    "AWATER20": {
+      "nonblank": 194,
+      "blank_or_null": 0,
+      "unique_nonblank": 95,
+      "reused_values": {
+        "0": 100
+      },
+      "examples": [
+        "2042",
+        "58042",
+        "0",
+        "0",
+        "51844",
+        "744256",
+        "392323",
+        "29082"
+      ]
+    },
+    "COUNTYFP20": {
+      "nonblank": 194,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "093": 194
+      },
+      "examples": [
+        "093",
+        "093",
+        "093",
+        "093",
+        "093",
+        "093",
+        "093",
+        "093"
+      ]
+    },
+    "FUNCSTAT20": {
+      "nonblank": 194,
+      "blank_or_null": 0,
+      "unique_nonblank": 2,
+      "reused_values": {
+        "N": 193
+      },
+      "examples": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N",
+        "N"
+      ]
+    },
+    "GEOID20": {
+      "nonblank": 194,
+      "blank_or_null": 0,
+      "unique_nonblank": 194,
+      "reused_values": {},
+      "examples": [
+        "39093047AKK",
+        "39093047AKH",
+        "39093047ACG",
+        "39093047ACD",
+        "39093047ACP",
+        "39093047AJX",
+        "39093047AJZ",
+        "39093047AFU"
+      ]
+    },
+    "INTPTLAT20": {
+      "nonblank": 194,
+      "blank_or_null": 0,
+      "unique_nonblank": 194,
+      "reused_values": {},
+      "examples": [
+        "+41.4252470",
+        "+41.4222877",
+        "+41.3474915",
+        "+41.3482109",
+        "+41.4118455",
+        "+41.0950217",
+        "+41.2639827",
+        "+41.4248824"
+      ]
+    },
+    "INTPTLON20": {
+      "nonblank": 194,
+      "blank_or_null": 0,
+      "unique_nonblank": 194,
+      "reused_values": {},
+      "examples": [
+        "-082.1497915",
+        "-082.1088256",
+        "-082.0800223",
+        "-082.0626839",
+        "-082.0992529",
+        "-082.2177444",
+        "-082.1473670",
+        "-082.2603164"
+      ]
+    },
+    "LSAD20": {
+      "nonblank": 194,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "00": 194
+      },
+      "examples": [
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00",
+        "00"
+      ]
+    },
+    "MTFCC20": {
+      "nonblank": 194,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "G5240": 194
+      },
+      "examples": [
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240",
+        "G5240"
+      ]
+    },
+    "NAME20": {
+      "nonblank": 194,
+      "blank_or_null": 0,
+      "unique_nonblank": 194,
+      "reused_values": {},
+      "examples": [
+        "PRECINCT SHEFFIELD TWP WEST",
+        "PRECINCT SHEFFIELD TWP EAST",
+        "ELYRIA CITY 3-D",
+        "ELYRIA CITY 3-A",
+        "ELYRIA CITY 4-D",
+        "HUNTINGTON TWP",
+        "LAGRANGE TWP #2",
+        "LORAIN CITY 8-A"
+      ]
+    },
+    "NAMELSAD20": {
+      "nonblank": 194,
+      "blank_or_null": 0,
+      "unique_nonblank": 194,
+      "reused_values": {},
+      "examples": [
+        "PRECINCT SHEFFIELD TWP WEST",
+        "PRECINCT SHEFFIELD TWP EAST",
+        "ELYRIA CITY 3-D",
+        "ELYRIA CITY 3-A",
+        "ELYRIA CITY 4-D",
+        "HUNTINGTON TWP",
+        "LAGRANGE TWP #2",
+        "LORAIN CITY 8-A"
+      ]
+    },
+    "STATEFP20": {
+      "nonblank": 194,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "39": 194
+      },
+      "examples": [
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39",
+        "39"
+      ]
+    },
+    "VTDI20": {
+      "nonblank": 194,
+      "blank_or_null": 0,
+      "unique_nonblank": 2,
+      "reused_values": {
+        "A": 193
+      },
+      "examples": [
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A",
+        "A"
+      ]
+    },
+    "VTDST20": {
+      "nonblank": 194,
+      "blank_or_null": 0,
+      "unique_nonblank": 194,
+      "reused_values": {},
+      "examples": [
+        "047AKK",
+        "047AKH",
+        "047ACG",
+        "047ACD",
+        "047ACP",
+        "047AJX",
+        "047AJZ",
+        "047AFU"
+      ]
+    }
+  },
+  "checks_do_not_approve_boundaries": true,
+  "extent_native": [
+    -82.34818299999999,
+    41.063537,
+    -81.87696,
+    41.877845
+  ],
+  "crs_wkt": "GEOGCRS[\"NAD83\",DATUM[\"North American Datum 1983\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6269]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]],CS[ellipsoidal,2],AXIS[\"longitude\",east,ORDER[1],ANGLEUNIT[\"Degree\",0.0174532925199433]],AXIS[\"latitude\",north,ORDER[2],ANGLEUNIT[\"Degree\",0.0174532925199433]]]"
+}

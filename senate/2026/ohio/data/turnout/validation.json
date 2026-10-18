@@ -1,0 +1,102 @@
+{
+  "validation_utc": "2026-10-18T01:26:16.009894+00:00",
+  "passed": true,
+  "checks": {
+    "source_bytes_hashes_http_utc": {
+      "passed": true,
+      "sources": 21,
+      "status_counts": {
+        "403": 7,
+        "200": 13,
+        "404": 1
+      }
+    },
+    "deterministic_reconstruction": {
+      "passed": true,
+      "products": 14
+    },
+    "all88_exact_weights_order_top15_minimum80": {
+      "passed": true,
+      "top15_votes": 3525320,
+      "first31_votes": 4542798,
+      "minimum80_votes": 4581738,
+      "minimum80_count": 32,
+      "denominator": 5704620
+    },
+    "independent_house_clerk_senate_controls": {
+      "passed": true,
+      "candidate_controls": 14,
+      "source_files": {
+        "data/baselines/house-2024.txt": "4fa7f4e40b263e28cdb527c424ad2739ec87c0f038762eb4ad6b31a32914b7c9",
+        "data/baselines/house-2022.txt": "8959d0648818a8865144d394e8d0763f998cddf4e924936f5456b7ea37fa9280"
+      },
+      "source_urls": [
+        "https://clerk.house.gov/member_info/electionInfo/2024/statistics2024.pdf",
+        "https://clerk.house.gov/member_info/electionInfo/2022/statistics2022.pdf"
+      ],
+      "note": "Read-only reuse of primary PDFs and pdftotext extractions retained by partisanship worker; original PDF retrieval/status/hash metadata is adjacent to its PDF."
+    },
+    "all_county_candidate_state_reconciliation": {
+      "passed": true,
+      "county_candidate_rows": 2464,
+      "state_candidate_controls": 28,
+      "writein_residuals": {
+        "2024_senate": 640,
+        "2024_president": 2771,
+        "2022_senate": 1739
+      }
+    },
+    "native_units_full_candidate_coverage_and_no_double_counting": {
+      "passed": true,
+      "years": {
+        "2024": {
+          "reporting_units": 8878,
+          "precinct_candidate_records": 186438,
+          "ballots_counted": 5851387,
+          "registered_voters": 8159946
+        },
+        "2022": {
+          "reporting_units": 8933,
+          "precinct_candidate_records": 62531,
+          "ballots_counted": 4201368,
+          "registered_voters": 8029950
+        }
+      }
+    },
+    "independent_volume_rankings": {
+      "passed": true,
+      "metrics": [
+        "2024_senate",
+        "2024_president",
+        "2022_senate",
+        "2024_ballots",
+        "2022_ballots"
+      ],
+      "same80_geography": true
+    },
+    "read_only_partisanship_reconciliation": {
+      "passed": true,
+      "count_comparisons": 1056,
+      "candidate_cells": 2464,
+      "same_ordered32": true,
+      "different_cells": 0,
+      "source_hashes": {
+        "data/county-baselines.csv": "2edbf427bff3c0e314ab42ac109688579a78a908ec3ac0d0f71aea35b5408908",
+        "data/baselines/candidate-votes.csv": "3add4eb027ffe3a403792ff2a6d08e29dec30b0b2d56e0feb1c2940d0b6f9710",
+        "data/baselines/priority-set.json": "f9f85dde15d29adf881b96eedf9d475fc7e84249e96fcdc934d810edf22d2fe1"
+      }
+    },
+    "relative_links_and_asset_bounds": {
+      "passed": true,
+      "local_links": 18,
+      "files": 44,
+      "largest_bytes": 23245523
+    }
+  },
+  "substantive_gaps": [
+    "precinct write-in allocation unavailable",
+    "voting-method and under/over counts not published in these statewide workbooks",
+    "2026 reporting-unit and approved boundary crosswalk unverified",
+    "no tested 2026 live feed"
+  ]
+}

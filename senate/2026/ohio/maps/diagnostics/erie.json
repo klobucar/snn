@@ -1,0 +1,716 @@
+{
+  "feature_count": 63,
+  "source_vertices": 19972,
+  "derived_vertices": 19972,
+  "empty_ordinals": [],
+  "invalid_features": [
+    {
+      "source_feature_ordinal": 23,
+      "attributes": {
+        "OBJECTID_12": 24,
+        "OBJECTID": 24,
+        "OBJECTID_1": 60,
+        "County": "Erie",
+        "Precinct_I": "SAN-D",
+        "Jurisdctn": " ",
+        "Shape_Le_1": 0,
+        "Shape__Are": 12610533.6545,
+        "Shape__Len": 24108.2506519,
+        "Shape__Area": 12610533.654541016,
+        "Shape__Length": 24108.250651883656
+      },
+      "reason": "Ring Self-intersection[1916210.99716851 647566.90241617]"
+    },
+    {
+      "source_feature_ordinal": 25,
+      "attributes": {
+        "OBJECTID_12": 26,
+        "OBJECTID": 26,
+        "OBJECTID_1": 62,
+        "County": "Erie",
+        "Precinct_I": "SAN-A",
+        "Jurisdctn": " ",
+        "Shape_Le_1": 0,
+        "Shape__Are": 62504673.1267,
+        "Shape__Len": 73587.1862958,
+        "Shape__Area": 62504673.126708984,
+        "Shape__Length": 73587.18629575908
+      },
+      "reason": "Ring Self-intersection[1918403.17585501 659204.678025082]"
+    },
+    {
+      "source_feature_ordinal": 28,
+      "attributes": {
+        "OBJECTID_12": 29,
+        "OBJECTID": 29,
+        "OBJECTID_1": 13,
+        "County": "Erie",
+        "Precinct_I": "Margaretta Twp 1",
+        "Jurisdctn": " ",
+        "Shape_Le_1": 0,
+        "Shape__Are": 242547780.785,
+        "Shape__Len": 101250.248157,
+        "Shape__Area": 242547780.78503418,
+        "Shape__Length": 101250.24815704614
+      },
+      "reason": "Ring Self-intersection[1887259.80539909 629728.153972998]"
+    },
+    {
+      "source_feature_ordinal": 54,
+      "attributes": {
+        "OBJECTID_12": 55,
+        "OBJECTID": 55,
+        "OBJECTID_1": 39,
+        "County": "Erie",
+        "Precinct_I": "Vermilion 3-B",
+        "Jurisdctn": " ",
+        "Shape_Le_1": 0,
+        "Shape__Are": 5995559.09912,
+        "Shape__Len": 18855.0847532,
+        "Shape__Area": 5995559.099121094,
+        "Shape__Length": 18855.08475322478
+      },
+      "reason": "Ring Self-intersection[2010290.06885251 635837.434077263]"
+    }
+  ],
+  "finite_bounds": true,
+  "overlap_pairs": [
+    {
+      "left_ordinal": 0,
+      "right_ordinal": 7,
+      "area_in_crs_squared_units": 0.0029317132113444444
+    },
+    {
+      "left_ordinal": 0,
+      "right_ordinal": 1,
+      "area_in_crs_squared_units": 0.02487027706480761
+    },
+    {
+      "left_ordinal": 1,
+      "right_ordinal": 7,
+      "area_in_crs_squared_units": 0.000808747949712682
+    },
+    {
+      "left_ordinal": 1,
+      "right_ordinal": 2,
+      "area_in_crs_squared_units": 26.73368386593947
+    },
+    {
+      "left_ordinal": 2,
+      "right_ordinal": 8,
+      "area_in_crs_squared_units": 808.201753014695
+    },
+    {
+      "left_ordinal": 2,
+      "right_ordinal": 37,
+      "area_in_crs_squared_units": 0.015864984159861706
+    },
+    {
+      "left_ordinal": 2,
+      "right_ordinal": 3,
+      "area_in_crs_squared_units": 458887.0751905563
+    },
+    {
+      "left_ordinal": 2,
+      "right_ordinal": 5,
+      "area_in_crs_squared_units": 1212.0099258954351
+    },
+    {
+      "left_ordinal": 3,
+      "right_ordinal": 8,
+      "area_in_crs_squared_units": 3683.3572666197288
+    },
+    {
+      "left_ordinal": 3,
+      "right_ordinal": 37,
+      "area_in_crs_squared_units": 2875.1446887183806
+    },
+    {
+      "left_ordinal": 3,
+      "right_ordinal": 38,
+      "area_in_crs_squared_units": 0.009598966535059924
+    },
+    {
+      "left_ordinal": 4,
+      "right_ordinal": 5,
+      "area_in_crs_squared_units": 9.207648664986898
+    },
+    {
+      "left_ordinal": 5,
+      "right_ordinal": 6,
+      "area_in_crs_squared_units": 0.013551508091040887
+    },
+    {
+      "left_ordinal": 5,
+      "right_ordinal": 16,
+      "area_in_crs_squared_units": 0.003956903089985531
+    },
+    {
+      "left_ordinal": 5,
+      "right_ordinal": 17,
+      "area_in_crs_squared_units": 0.0001869216830868714
+    },
+    {
+      "left_ordinal": 5,
+      "right_ordinal": 18,
+      "area_in_crs_squared_units": 10888.393043778064
+    },
+    {
+      "left_ordinal": 7,
+      "right_ordinal": 30,
+      "area_in_crs_squared_units": 3.823543308546394e-09
+    },
+    {
+      "left_ordinal": 7,
+      "right_ordinal": 26,
+      "area_in_crs_squared_units": 115.22274049167659
+    },
+    {
+      "left_ordinal": 7,
+      "right_ordinal": 11,
+      "area_in_crs_squared_units": 0.007904766313004075
+    },
+    {
+      "left_ordinal": 7,
+      "right_ordinal": 8,
+      "area_in_crs_squared_units": 0.1917152013813368
+    },
+    {
+      "left_ordinal": 7,
+      "right_ordinal": 10,
+      "area_in_crs_squared_units": 115.20983693882224
+    },
+    {
+      "left_ordinal": 8,
+      "right_ordinal": 61,
+      "area_in_crs_squared_units": 0.0015646582196495729
+    },
+    {
+      "left_ordinal": 8,
+      "right_ordinal": 37,
+      "area_in_crs_squared_units": 2875.205333408706
+    },
+    {
+      "left_ordinal": 9,
+      "right_ordinal": 26,
+      "area_in_crs_squared_units": 0.1492590496669714
+    },
+    {
+      "left_ordinal": 9,
+      "right_ordinal": 36,
+      "area_in_crs_squared_units": 0.0001507934886646467
+    },
+    {
+      "left_ordinal": 10,
+      "right_ordinal": 26,
+      "area_in_crs_squared_units": 115.18663420708116
+    },
+    {
+      "left_ordinal": 10,
+      "right_ordinal": 11,
+      "area_in_crs_squared_units": 0.014593122295991634
+    },
+    {
+      "left_ordinal": 10,
+      "right_ordinal": 12,
+      "area_in_crs_squared_units": 0.07298854512566633
+    },
+    {
+      "left_ordinal": 11,
+      "right_ordinal": 16,
+      "area_in_crs_squared_units": 3777.519341765659
+    },
+    {
+      "left_ordinal": 12,
+      "right_ordinal": 13,
+      "area_in_crs_squared_units": 0.1290595373163148
+    },
+    {
+      "left_ordinal": 13,
+      "right_ordinal": 21,
+      "area_in_crs_squared_units": 0.0017340606485163335
+    },
+    {
+      "left_ordinal": 13,
+      "right_ordinal": 20,
+      "area_in_crs_squared_units": 0.09392475547500992
+    },
+    {
+      "left_ordinal": 15,
+      "right_ordinal": 21,
+      "area_in_crs_squared_units": 59.910461139756876
+    },
+    {
+      "left_ordinal": 17,
+      "right_ordinal": 18,
+      "area_in_crs_squared_units": 326.0738552072532
+    },
+    {
+      "left_ordinal": 18,
+      "right_ordinal": 22,
+      "area_in_crs_squared_units": 56559.15987646638
+    },
+    {
+      "left_ordinal": 19,
+      "right_ordinal": 37,
+      "area_in_crs_squared_units": 0.1567094942147378
+    },
+    {
+      "left_ordinal": 20,
+      "right_ordinal": 22,
+      "area_in_crs_squared_units": 2878.752718205569
+    },
+    {
+      "left_ordinal": 20,
+      "right_ordinal": 21,
+      "area_in_crs_squared_units": 0.2505339243872413
+    },
+    {
+      "left_ordinal": 21,
+      "right_ordinal": 22,
+      "area_in_crs_squared_units": 27067.46234670406
+    },
+    {
+      "left_ordinal": 22,
+      "right_ordinal": 24,
+      "area_in_crs_squared_units": 16120.683596261031
+    },
+    {
+      "left_ordinal": 22,
+      "right_ordinal": 23,
+      "area_in_crs_squared_units": 36862.11350116331
+    },
+    {
+      "left_ordinal": 23,
+      "right_ordinal": 24,
+      "area_in_crs_squared_units": 99065.28899257643
+    },
+    {
+      "left_ordinal": 24,
+      "right_ordinal": 25,
+      "area_in_crs_squared_units": 0.0027884947207894584
+    },
+    {
+      "left_ordinal": 25,
+      "right_ordinal": 37,
+      "area_in_crs_squared_units": 0.400272686034441
+    },
+    {
+      "left_ordinal": 25,
+      "right_ordinal": 38,
+      "area_in_crs_squared_units": 0.08411339842132293
+    },
+    {
+      "left_ordinal": 26,
+      "right_ordinal": 30,
+      "area_in_crs_squared_units": 0.0486335221816835
+    },
+    {
+      "left_ordinal": 27,
+      "right_ordinal": 36,
+      "area_in_crs_squared_units": 0.005223420012286194
+    },
+    {
+      "left_ordinal": 28,
+      "right_ordinal": 29,
+      "area_in_crs_squared_units": 0.11623427064968794
+    },
+    {
+      "left_ordinal": 30,
+      "right_ordinal": 32,
+      "area_in_crs_squared_units": 0.17508894962412502
+    },
+    {
+      "left_ordinal": 31,
+      "right_ordinal": 62,
+      "area_in_crs_squared_units": 838.0727467987026
+    },
+    {
+      "left_ordinal": 31,
+      "right_ordinal": 32,
+      "area_in_crs_squared_units": 16.215380106533573
+    },
+    {
+      "left_ordinal": 32,
+      "right_ordinal": 61,
+      "area_in_crs_squared_units": 3.333719105124751
+    },
+    {
+      "left_ordinal": 33,
+      "right_ordinal": 60,
+      "area_in_crs_squared_units": 4262.625477399633
+    },
+    {
+      "left_ordinal": 34,
+      "right_ordinal": 59,
+      "area_in_crs_squared_units": 0.015215438723863883
+    },
+    {
+      "left_ordinal": 34,
+      "right_ordinal": 58,
+      "area_in_crs_squared_units": 0.004322517907089113
+    },
+    {
+      "left_ordinal": 34,
+      "right_ordinal": 46,
+      "area_in_crs_squared_units": 89.09455201455776
+    },
+    {
+      "left_ordinal": 34,
+      "right_ordinal": 49,
+      "area_in_crs_squared_units": 619.4410631685166
+    },
+    {
+      "left_ordinal": 34,
+      "right_ordinal": 45,
+      "area_in_crs_squared_units": 1212.6979713506234
+    },
+    {
+      "left_ordinal": 34,
+      "right_ordinal": 60,
+      "area_in_crs_squared_units": 6814.868548455416
+    },
+    {
+      "left_ordinal": 37,
+      "right_ordinal": 38,
+      "area_in_crs_squared_units": 0.0012349363815309378
+    },
+    {
+      "left_ordinal": 38,
+      "right_ordinal": 41,
+      "area_in_crs_squared_units": 1617.5858738136671
+    },
+    {
+      "left_ordinal": 39,
+      "right_ordinal": 43,
+      "area_in_crs_squared_units": 0.00025988784472508186
+    },
+    {
+      "left_ordinal": 39,
+      "right_ordinal": 41,
+      "area_in_crs_squared_units": 7.443915098142667
+    },
+    {
+      "left_ordinal": 39,
+      "right_ordinal": 44,
+      "area_in_crs_squared_units": 0.024895187774787577
+    },
+    {
+      "left_ordinal": 39,
+      "right_ordinal": 40,
+      "area_in_crs_squared_units": 0.008117446193864453
+    },
+    {
+      "left_ordinal": 40,
+      "right_ordinal": 41,
+      "area_in_crs_squared_units": 209.3298250377083
+    },
+    {
+      "left_ordinal": 41,
+      "right_ordinal": 42,
+      "area_in_crs_squared_units": 24220.563936023096
+    },
+    {
+      "left_ordinal": 42,
+      "right_ordinal": 45,
+      "area_in_crs_squared_units": 11396.603774175519
+    },
+    {
+      "left_ordinal": 43,
+      "right_ordinal": 45,
+      "area_in_crs_squared_units": 2269.5153125773663
+    },
+    {
+      "left_ordinal": 43,
+      "right_ordinal": 44,
+      "area_in_crs_squared_units": 17.516368118631323
+    },
+    {
+      "left_ordinal": 44,
+      "right_ordinal": 45,
+      "area_in_crs_squared_units": 9192.327591688747
+    },
+    {
+      "left_ordinal": 45,
+      "right_ordinal": 60,
+      "area_in_crs_squared_units": 7831.955174993048
+    },
+    {
+      "left_ordinal": 45,
+      "right_ordinal": 61,
+      "area_in_crs_squared_units": 0.007451205334291444
+    },
+    {
+      "left_ordinal": 46,
+      "right_ordinal": 47,
+      "area_in_crs_squared_units": 1327.0168844349137
+    },
+    {
+      "left_ordinal": 46,
+      "right_ordinal": 48,
+      "area_in_crs_squared_units": 904.47903739289
+    },
+    {
+      "left_ordinal": 46,
+      "right_ordinal": 50,
+      "area_in_crs_squared_units": 0.07779659587413335
+    },
+    {
+      "left_ordinal": 46,
+      "right_ordinal": 51,
+      "area_in_crs_squared_units": 244.58700555526002
+    },
+    {
+      "left_ordinal": 47,
+      "right_ordinal": 48,
+      "area_in_crs_squared_units": 2752.0737748080523
+    },
+    {
+      "left_ordinal": 48,
+      "right_ordinal": 51,
+      "area_in_crs_squared_units": 244.57550875230572
+    },
+    {
+      "left_ordinal": 48,
+      "right_ordinal": 52,
+      "area_in_crs_squared_units": 0.0020127976723689316
+    },
+    {
+      "left_ordinal": 49,
+      "right_ordinal": 50,
+      "area_in_crs_squared_units": 64.80442651100819
+    },
+    {
+      "left_ordinal": 50,
+      "right_ordinal": 51,
+      "area_in_crs_squared_units": 1.0457217492875883
+    },
+    {
+      "left_ordinal": 51,
+      "right_ordinal": 52,
+      "area_in_crs_squared_units": 0.12615081817784812
+    },
+    {
+      "left_ordinal": 52,
+      "right_ordinal": 54,
+      "area_in_crs_squared_units": 0.05597303396098141
+    },
+    {
+      "left_ordinal": 52,
+      "right_ordinal": 55,
+      "area_in_crs_squared_units": 0.18717446501198107
+    },
+    {
+      "left_ordinal": 52,
+      "right_ordinal": 56,
+      "area_in_crs_squared_units": 0.05065535661911569
+    },
+    {
+      "left_ordinal": 54,
+      "right_ordinal": 56,
+      "area_in_crs_squared_units": 929.7051701354203
+    },
+    {
+      "left_ordinal": 55,
+      "right_ordinal": 57,
+      "area_in_crs_squared_units": 395.94994229730764
+    },
+    {
+      "left_ordinal": 56,
+      "right_ordinal": 57,
+      "area_in_crs_squared_units": 107.22550759208639
+    },
+    {
+      "left_ordinal": 59,
+      "right_ordinal": 60,
+      "area_in_crs_squared_units": 10188.725519293628
+    },
+    {
+      "left_ordinal": 60,
+      "right_ordinal": 61,
+      "area_in_crs_squared_units": 8022.320874571961
+    }
+  ],
+  "intersection_errors": [],
+  "id_field_diagnostics": {
+    "County": {
+      "nonblank": 63,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "Erie": 63
+      },
+      "examples": [
+        "Erie",
+        "Erie",
+        "Erie",
+        "Erie",
+        "Erie",
+        "Erie",
+        "Erie",
+        "Erie"
+      ]
+    },
+    "Jurisdctn": {
+      "nonblank": 0,
+      "blank_or_null": 63,
+      "unique_nonblank": 0,
+      "reused_values": {},
+      "examples": []
+    },
+    "OBJECTID": {
+      "nonblank": 63,
+      "blank_or_null": 0,
+      "unique_nonblank": 63,
+      "reused_values": {},
+      "examples": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "OBJECTID_1": {
+      "nonblank": 63,
+      "blank_or_null": 0,
+      "unique_nonblank": 63,
+      "reused_values": {},
+      "examples": [
+        "20",
+        "21",
+        "24",
+        "25",
+        "23",
+        "22",
+        "19",
+        "18"
+      ]
+    },
+    "OBJECTID_12": {
+      "nonblank": 63,
+      "blank_or_null": 0,
+      "unique_nonblank": 63,
+      "reused_values": {},
+      "examples": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "Precinct_I": {
+      "nonblank": 63,
+      "blank_or_null": 0,
+      "unique_nonblank": 63,
+      "reused_values": {},
+      "examples": [
+        "Perkins Twp 8",
+        "Perkins Twp 9",
+        "Perkins Twp 2",
+        "Perkins Twp 3",
+        "Perkins Twp 5",
+        "Perkins Twp 4",
+        "Perkins Twp 6",
+        "Perkins Twp 7"
+      ]
+    },
+    "Shape_Le_1": {
+      "nonblank": 63,
+      "blank_or_null": 0,
+      "unique_nonblank": 1,
+      "reused_values": {
+        "0": 63
+      },
+      "examples": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "Shape__Are": {
+      "nonblank": 63,
+      "blank_or_null": 0,
+      "unique_nonblank": 63,
+      "reused_values": {},
+      "examples": [
+        "16207467.0503",
+        "19245726.8416",
+        "74560385.7035",
+        "22863292.7599",
+        "3928582.70178",
+        "25714553.6284",
+        "14959150.3346",
+        "161535214.205"
+      ]
+    },
+    "Shape__Area": {
+      "nonblank": 63,
+      "blank_or_null": 0,
+      "unique_nonblank": 63,
+      "reused_values": {},
+      "examples": [
+        "16207467.050292969",
+        "19245726.841552734",
+        "74560385.70349121",
+        "22863292.759887695",
+        "3928582.7017822266",
+        "25714553.62841797",
+        "14959150.334594727",
+        "161535214.20483398"
+      ]
+    },
+    "Shape__Len": {
+      "nonblank": 63,
+      "blank_or_null": 0,
+      "unique_nonblank": 63,
+      "reused_values": {},
+      "examples": [
+        "19781.0080989",
+        "21767.3896125",
+        "47149.5854099",
+        "22648.6579191",
+        "9697.08329522",
+        "22505.2828496",
+        "18098.1071215",
+        "59066.6945351"
+      ]
+    },
+    "Shape__Length": {
+      "nonblank": 63,
+      "blank_or_null": 0,
+      "unique_nonblank": 63,
+      "reused_values": {},
+      "examples": [
+        "19781.008098859318",
+        "21767.389612519393",
+        "47149.58540991635",
+        "22648.65791905991",
+        "9697.083295218454",
+        "22505.28284961204",
+        "18098.1071215102",
+        "59066.694535118964"
+      ]
+    }
+  },
+  "checks_do_not_approve_boundaries": true,
+  "extent_native": [
+    1858030.26477693,
+    589194.630053341,
+    2011827.170109,
+    713359.55495134
+  ],
+  "crs_wkt": "PROJCRS[\"NAD83 / Ohio North (ftUS)\",BASEGEOGCRS[\"NAD83\",DATUM[\"North American Datum 1983\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4269]],CONVERSION[\"SPCS83 Ohio North zone (US survey foot)\",METHOD[\"Lambert Conic Conformal (2SP)\",ID[\"EPSG\",9802]],PARAMETER[\"Latitude of false origin\",39.6666666666667,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8821]],PARAMETER[\"Longitude of false origin\",-82.5,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8822]],PARAMETER[\"Latitude of 1st standard parallel\",41.7,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8823]],PARAMETER[\"Latitude of 2nd standard parallel\",40.4333333333333,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8824]],PARAMETER[\"Easting at false origin\",1968500,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8826]],PARAMETER[\"Northing at false origin\",0,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8827]]],CS[Cartesian,2],AXIS[\"easting (X)\",east,ORDER[1],LENGTHUNIT[\"US survey foot\",0.304800609601219]],AXIS[\"northing (Y)\",north,ORDER[2],LENGTHUNIT[\"US survey foot\",0.304800609601219]],USAGE[SCOPE[\"Engineering survey, topographic mapping.\"],AREA[\"United States (USA) - Ohio - counties of Allen;Ashland; Ashtabula; Auglaize; Carroll; Columbiana; Coshocton; Crawford; Cuyahoga; Defiance; Delaware; Erie; Fulton; Geauga; Hancock; Hardin; Harrison; Henry; Holmes; Huron; Jefferson; Knox; Lake; Logan; Lorain; Lucas; Mahoning; Marion; Medina; Mercer; Morrow; Ottawa; Paulding; Portage; Putnam; Richland; Sandusky; Seneca; Shelby; Stark; Summit; Trumbull; Tuscarawas; Union; Van Wert; Wayne; Williams; Wood; Wyandot.\"],BBOX[40.1,-84.81,42.33,-80.51]],ID[\"EPSG\",3734]]"
+}

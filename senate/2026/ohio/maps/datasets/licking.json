@@ -1,0 +1,69 @@
+{
+  "county": "licking",
+  "url": "https://gis.lickingcounty.gov/server/rest/services/Auditor/Boundaries/MapServer/2",
+  "authority": "Licking County Auditor GIS",
+  "vintage": "current-published; effective date unestablished",
+  "approved_nov2026": false,
+  "layer_metadata_path": "evidence/gis/licking/layer.gz",
+  "count_path": "evidence/gis/licking/count.gz",
+  "ids_path": "evidence/gis/licking/ids.gz",
+  "batch_paths": [
+    "evidence/gis/licking/batch-000.gz",
+    "evidence/gis/licking/batch-001.gz"
+  ],
+  "feature_count": 96,
+  "object_id_field": "OBJECTID",
+  "native_sr": {
+    "wkid": 102723,
+    "latestWkid": 3735,
+    "xyTolerance": 0.003280833333333333,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -119670700,
+    "falseY": -95612900,
+    "xyUnits": 3048.0060960121928,
+    "falseZ": 0,
+    "zUnits": 1,
+    "falseM": 0,
+    "mUnits": 1
+  },
+  "query_sr": {
+    "wkid": 102723,
+    "latestWkid": 3735
+  },
+  "fields": [
+    "OBJECTID",
+    "PrecinctID",
+    "PrecinctName",
+    "County",
+    "Jurisdiction",
+    "Municipality",
+    "Township",
+    "Ward",
+    "PollID",
+    "PollName",
+    "PollAddress",
+    "PollCityStateZip",
+    "RevisionDate",
+    "Color",
+    "GISAcres",
+    "GISSquareMiles",
+    "created_user",
+    "created_date",
+    "last_edited_user",
+    "last_edited_date",
+    "Shape",
+    "GlobalID",
+    "Shape.STArea()",
+    "Shape.STLength()"
+  ],
+  "pagination": "count equals unique ID set equals every requested and returned batch ID; no transfer flag; no filter or simplification or reprojection",
+  "linearized_derivative_path": "evidence/gis-derivative/licking/linearized.gz",
+  "native_curve_object_ids": [
+    92,
+    94
+  ],
+  "linearized_derivative_paths": [
+    "evidence/gis-derivative/licking/linearized.gz"
+  ]
+}

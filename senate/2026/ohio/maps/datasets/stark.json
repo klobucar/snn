@@ -1,0 +1,69 @@
+{
+  "county": "stark",
+  "url": "https://scgisa.starkcountyohio.gov/arcgis/rest/services/BoardOfElections/PollingLocationsAndPrecincts/MapServer/1",
+  "authority": "Stark County BOE / GIS",
+  "vintage": "current-published; effective date unestablished",
+  "approved_nov2026": false,
+  "layer_metadata_path": "evidence/gis/stark/layer.gz",
+  "count_path": "evidence/gis/stark/count.gz",
+  "ids_path": "evidence/gis/stark/ids.gz",
+  "batch_paths": [
+    "evidence/gis/stark/batch-000.gz",
+    "evidence/gis/stark/batch-001.gz",
+    "evidence/gis/stark/batch-002.gz",
+    "evidence/gis/stark/batch-003.gz",
+    "evidence/gis/stark/batch-004.gz",
+    "evidence/gis/stark/batch-005.gz"
+  ],
+  "feature_count": 276,
+  "object_id_field": "OBJECTID",
+  "native_sr": {
+    "wkid": 102722,
+    "latestWkid": 3734,
+    "xyTolerance": 0.003280833333333333,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -118963900,
+    "falseY": -96373800,
+    "xyUnits": 3048.0060960121928,
+    "falseZ": 0,
+    "zUnits": 1,
+    "falseM": 0,
+    "mUnits": 1
+  },
+  "query_sr": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "fields": [
+    "OBJECTID",
+    "Shape",
+    "NAME",
+    "PRECINCTID",
+    "BOEPREID",
+    "CVT_NAME",
+    "PRECINCT2",
+    "WARD2",
+    "POLLINGID",
+    "COUNTY",
+    "last_edited_date",
+    "Shape.STLength()",
+    "Shape.STArea()"
+  ],
+  "pagination": "count equals unique ID set equals every requested and returned batch ID; no transfer flag; no filter or simplification or reprojection",
+  "linearized_derivative_path": "evidence/gis-derivative/stark/linearized.gz",
+  "native_curve_object_ids": [
+    614,
+    621,
+    655,
+    693,
+    697,
+    701,
+    760,
+    793,
+    874
+  ],
+  "linearized_derivative_paths": [
+    "evidence/gis-derivative/stark/linearized.gz"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "key": "resolve/summit-archive-old",
+  "requested_url": "https://web.archive.org/cdx/search/cdx?url=www.summitcountyboe.com/*&output=json&filter=statuscode:200&filter=mimetype:application/pdf&filter=urlkey:.*[Mm]ap.*&collapse=urlkey",
+  "final_url": "https://web.archive.org/cdx/search/cdx?url=www.summitcountyboe.com/*&output=json&filter=statuscode:200&filter=mimetype:application/pdf&filter=urlkey:.*%5BMm%5Dap.*&collapse=urlkey",
+  "retrieved_utc": "2026-10-18T01:51:13.820966+00:00",
+  "status": 200,
+  "headers": {
+    "Server": "nginx",
+    "Date": "Sun, 18 Oct 2026 01:51:29 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "server-timing": "exclusion.robots;dur=0.086348, exclusion.robots.policy;dur=0.073137, esindex;dur=0.009737, TR;dur=0,Tw;dur=600,Tc;dur=1, BYPASS",
+    "x-app-server": "wwwb-app208-dc8",
+    "x-ts": "200",
+    "x-tr": "15125",
+    "set-cookie": "wb-cdx-SERVER=wwwb-app208; path=/",
+    "X-location": "cdx",
+    "X-RL": "0",
+    "X-NA": "0",
+    "X-Page-Cache": "BYPASS",
+    "X-NID": "ATT-INTERNET4",
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Permissions-Policy": "interest-cohort=()",
+    "X-sd": "0",
+    "X-be": "wb_cdx_pygwb",
+    "Content-Encoding": "gzip"
+  },
+  "bytes": 161150,
+  "sha256": "003b3cd7db7442df3b616d3196c6b52d092126dff26bca250d089ae1ac4de7b7",
+  "stored_path": "evidence/resolve/summit-archive-old.gz",
+  "stored_sha256": "4c59bc6a7e5b9c0ae00d0e7f5df0012e92edcb8df8cb3f1b72b407c95e784a88"
+}

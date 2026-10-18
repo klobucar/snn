@@ -1,0 +1,33 @@
+{
+  "key": "continued/richland-maparchive",
+  "requested_url": "https://web.archive.org/cdx/search/cdx?url=www.boe.ohio.gov/richland/*&output=json&filter=statuscode:200&filter=mimetype:application/pdf&filter=urlkey:.*(map|Map).*&collapse=urlkey",
+  "final_url": "https://web.archive.org/cdx/search/cdx?url=www.boe.ohio.gov/richland/*&output=json&filter=statuscode:200&filter=mimetype:application/pdf&filter=urlkey:.*(map%7CMap).*&collapse=urlkey",
+  "retrieved_utc": "2026-10-18T01:49:32.792995+00:00",
+  "status": 200,
+  "headers": {
+    "Server": "nginx",
+    "Date": "Sun, 18 Oct 2026 01:49:38 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "server-timing": "exclusion.robots;dur=0.098341, exclusion.robots.policy;dur=0.081614, esindex;dur=0.009143, TR;dur=0,Tw;dur=0,Tc;dur=1, BYPASS",
+    "x-app-server": "wwwb-app251-dc8",
+    "x-ts": "200",
+    "x-tr": "5407",
+    "set-cookie": "wb-cdx-SERVER=wwwb-app251; path=/",
+    "X-location": "cdx",
+    "X-RL": "0",
+    "X-NA": "0",
+    "X-Page-Cache": "BYPASS",
+    "X-NID": "ATT-INTERNET4",
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Permissions-Policy": "interest-cohort=()",
+    "X-sd": "0",
+    "X-be": "wb_cdx_pygwb",
+    "Content-Encoding": "gzip"
+  },
+  "bytes": 474,
+  "sha256": "b4df3984d879fb89de18a96806e5b3b321ecba60d5f33787930c3acae29f3273",
+  "stored_path": "evidence/continued/richland-maparchive.gz",
+  "stored_sha256": "ee8ec7801f65da49750b52886f5fe270d70f98563c1d67af21f44a29eb200c03"
+}

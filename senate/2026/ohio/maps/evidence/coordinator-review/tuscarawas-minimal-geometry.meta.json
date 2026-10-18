@@ -1,0 +1,21 @@
+{
+  "key": "coordinator-review/tuscarawas-minimal-geometry",
+  "requested_url": "https://gis.co.tuscarawas.oh.us/arcgis/rest/services/CountyWebServices/BOE_Precints/MapServer/0/query?f=json&where=OBJECTID%3D1&outFields=OBJECTID%2CPRECT_NA&returnGeometry=true",
+  "final_url": "https://gis.co.tuscarawas.oh.us/arcgis/rest/services/CountyWebServices/BOE_Precints/MapServer/0/query?f=json&where=OBJECTID%3D1&outFields=OBJECTID%2CPRECT_NA&returnGeometry=true",
+  "retrieved_utc": "2026-10-18T02:08:24.235339+00:00",
+  "status": 200,
+  "headers": {
+    "Cache-Control": "private, must-revalidate, max-age=0",
+    "Content-Type": "application/json;charset=UTF-8",
+    "ETag": "gWd3a9dmbDgEleX5_1781101231",
+    "Vary": "Origin",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sun, 18 Oct 2026 02:07:24 GMT",
+    "Content-Length": "308"
+  },
+  "bytes": 308,
+  "sha256": "f757ddc590dfa834d02c2a1b6d35307e631acf2938a7210035d66c45c69ab18e",
+  "stored_sha256": "baac502cc385c3893208f1934a374eec32fa2052bd79d33e638af5715ccc25fa",
+  "stored_path": "evidence/coordinator-review/tuscarawas-minimal-geometry.gz",
+  "imported_from": "read-only ../data/map-review/manifest.json; no new retrieval time invented"
+}

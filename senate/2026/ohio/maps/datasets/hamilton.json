@@ -1,0 +1,57 @@
+{
+  "county": "hamilton",
+  "url": "https://services.arcgis.com/JyZag7oO4NteHGiq/arcgis/rest/services/Open_Data_Feature_Collection/FeatureServer/41",
+  "authority": "Cincinnati Area Geographic Information System (CAGIS) open data",
+  "vintage": "current-published; effective date unestablished",
+  "approved_nov2026": false,
+  "layer_metadata_path": "evidence/gis/hamilton/layer.gz",
+  "count_path": "evidence/gis/hamilton/count.gz",
+  "ids_path": "evidence/gis/hamilton/ids.gz",
+  "batch_paths": [
+    "evidence/gis/hamilton/batch-000.gz",
+    "evidence/gis/hamilton/batch-001.gz",
+    "evidence/gis/hamilton/batch-002.gz",
+    "evidence/gis/hamilton/batch-003.gz",
+    "evidence/gis/hamilton/batch-004.gz",
+    "evidence/gis/hamilton/batch-005.gz",
+    "evidence/gis/hamilton/batch-006.gz",
+    "evidence/gis/hamilton/batch-007.gz",
+    "evidence/gis/hamilton/batch-008.gz",
+    "evidence/gis/hamilton/batch-009.gz",
+    "evidence/gis/hamilton/batch-010.gz",
+    "evidence/gis/hamilton/batch-011.gz"
+  ],
+  "feature_count": 563,
+  "object_id_field": "OBJECTID",
+  "native_sr": {
+    "wkid": 102100,
+    "latestWkid": 3857,
+    "vcsWkid": 105790,
+    "latestVcsWkid": 3855
+  },
+  "query_sr": {
+    "wkid": 102100,
+    "latestWkid": 3857,
+    "vcsWkid": 105790,
+    "latestVcsWkid": 3855
+  },
+  "fields": [
+    "OBJECTID",
+    "PRECINCT",
+    "NEWADDR",
+    "PCT",
+    "PRC_NAME",
+    "LOCATION",
+    "ADDRESS",
+    "CITY",
+    "ZIP",
+    "GLOBALID",
+    "GLOBALID_1",
+    "ENTRANCE",
+    "CREATED_DATE",
+    "LAST_EDITED_DATE",
+    "SHAPE__Area",
+    "SHAPE__Length"
+  ],
+  "pagination": "count equals unique ID set equals every requested and returned batch ID; no transfer flag; no filter or simplification or reprojection"
+}

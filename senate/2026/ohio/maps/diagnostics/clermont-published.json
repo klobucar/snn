@@ -1,0 +1,937 @@
+{
+  "feature_count": 344,
+  "source_vertices": 80867,
+  "derived_vertices": 80867,
+  "empty_ordinals": [],
+  "invalid_features": [
+    {
+      "source_feature_ordinal": 230,
+      "attributes": {
+        "PRECINCT": "MIAMI TWP Y",
+        "SPLITS": "MIAMI TWP Y",
+        "ITEM": "25325.1",
+        "ITEM_PREC": "25325",
+        "STATEID": "ACZ",
+        "GlobalID": "{45415B68-336A-401D-9948-D97C3414202D}",
+        "SCHOOL": "",
+        "Shape_Leng": 1912.71817054,
+        "Shape_Area": 49352.444543
+      },
+      "reason": "Ring Self-intersection[-9378963.9876 4758878.7572]"
+    }
+  ],
+  "finite_bounds": true,
+  "overlap_pairs": [
+    {
+      "left_ordinal": 0,
+      "right_ordinal": 338,
+      "area_in_crs_squared_units": 0.00038944763042625397
+    },
+    {
+      "left_ordinal": 0,
+      "right_ordinal": 340,
+      "area_in_crs_squared_units": 8.617960444853856e-05
+    },
+    {
+      "left_ordinal": 1,
+      "right_ordinal": 185,
+      "area_in_crs_squared_units": 5.3230650590058595
+    },
+    {
+      "left_ordinal": 21,
+      "right_ordinal": 150,
+      "area_in_crs_squared_units": 0.0024102393034948245
+    },
+    {
+      "left_ordinal": 29,
+      "right_ordinal": 59,
+      "area_in_crs_squared_units": 0.00171028896826627
+    },
+    {
+      "left_ordinal": 29,
+      "right_ordinal": 43,
+      "area_in_crs_squared_units": 0.00014466858174788655
+    },
+    {
+      "left_ordinal": 33,
+      "right_ordinal": 273,
+      "area_in_crs_squared_units": 0.005904386170641374
+    },
+    {
+      "left_ordinal": 33,
+      "right_ordinal": 76,
+      "area_in_crs_squared_units": 0.00019883643328454104
+    },
+    {
+      "left_ordinal": 51,
+      "right_ordinal": 166,
+      "area_in_crs_squared_units": 0.004172262618629484
+    },
+    {
+      "left_ordinal": 64,
+      "right_ordinal": 192,
+      "area_in_crs_squared_units": 0.002471671160627409
+    },
+    {
+      "left_ordinal": 72,
+      "right_ordinal": 84,
+      "area_in_crs_squared_units": 4.0477901010194106e-07
+    },
+    {
+      "left_ordinal": 75,
+      "right_ordinal": 84,
+      "area_in_crs_squared_units": 0.003774293720754671
+    },
+    {
+      "left_ordinal": 76,
+      "right_ordinal": 230,
+      "area_in_crs_squared_units": 0.032909533286753286
+    },
+    {
+      "left_ordinal": 77,
+      "right_ordinal": 281,
+      "area_in_crs_squared_units": 0.00010070830471156818
+    },
+    {
+      "left_ordinal": 84,
+      "right_ordinal": 334,
+      "area_in_crs_squared_units": 2.3706018642578874e-05
+    },
+    {
+      "left_ordinal": 95,
+      "right_ordinal": 261,
+      "area_in_crs_squared_units": 0.0006716608799499238
+    },
+    {
+      "left_ordinal": 107,
+      "right_ordinal": 139,
+      "area_in_crs_squared_units": 0.004087735192578924
+    },
+    {
+      "left_ordinal": 107,
+      "right_ordinal": 299,
+      "area_in_crs_squared_units": 0.013533356634525262
+    },
+    {
+      "left_ordinal": 107,
+      "right_ordinal": 125,
+      "area_in_crs_squared_units": 0.0037509009745902676
+    },
+    {
+      "left_ordinal": 110,
+      "right_ordinal": 236,
+      "area_in_crs_squared_units": 0.001361568932765067
+    },
+    {
+      "left_ordinal": 111,
+      "right_ordinal": 283,
+      "area_in_crs_squared_units": 1.4191139671802105e-07
+    },
+    {
+      "left_ordinal": 111,
+      "right_ordinal": 240,
+      "area_in_crs_squared_units": 0.0018232686298996336
+    },
+    {
+      "left_ordinal": 114,
+      "right_ordinal": 283,
+      "area_in_crs_squared_units": 0.04123664889692827
+    },
+    {
+      "left_ordinal": 118,
+      "right_ordinal": 288,
+      "area_in_crs_squared_units": 0.001973715810891008
+    },
+    {
+      "left_ordinal": 121,
+      "right_ordinal": 268,
+      "area_in_crs_squared_units": 0.03400871875601297
+    },
+    {
+      "left_ordinal": 121,
+      "right_ordinal": 255,
+      "area_in_crs_squared_units": 0.010422326198067822
+    },
+    {
+      "left_ordinal": 125,
+      "right_ordinal": 324,
+      "area_in_crs_squared_units": 0.0869918418983443
+    },
+    {
+      "left_ordinal": 126,
+      "right_ordinal": 132,
+      "area_in_crs_squared_units": 0.0010688814660487177
+    },
+    {
+      "left_ordinal": 126,
+      "right_ordinal": 277,
+      "area_in_crs_squared_units": 0.0007481077946920323
+    },
+    {
+      "left_ordinal": 131,
+      "right_ordinal": 136,
+      "area_in_crs_squared_units": 0.0006661024855355666
+    },
+    {
+      "left_ordinal": 131,
+      "right_ordinal": 279,
+      "area_in_crs_squared_units": 0.11198232057247837
+    },
+    {
+      "left_ordinal": 133,
+      "right_ordinal": 137,
+      "area_in_crs_squared_units": 0.03001522087892674
+    },
+    {
+      "left_ordinal": 133,
+      "right_ordinal": 326,
+      "area_in_crs_squared_units": 0.027367516209101047
+    },
+    {
+      "left_ordinal": 133,
+      "right_ordinal": 328,
+      "area_in_crs_squared_units": 0.00256213882027073
+    },
+    {
+      "left_ordinal": 133,
+      "right_ordinal": 292,
+      "area_in_crs_squared_units": 0.018509558943605953
+    },
+    {
+      "left_ordinal": 134,
+      "right_ordinal": 147,
+      "area_in_crs_squared_units": 0.0005207648347772187
+    },
+    {
+      "left_ordinal": 134,
+      "right_ordinal": 178,
+      "area_in_crs_squared_units": 7.906249405843606e-05
+    },
+    {
+      "left_ordinal": 138,
+      "right_ordinal": 267,
+      "area_in_crs_squared_units": 5.492973950979932e-06
+    },
+    {
+      "left_ordinal": 138,
+      "right_ordinal": 248,
+      "area_in_crs_squared_units": 0.00010556349512569341
+    },
+    {
+      "left_ordinal": 139,
+      "right_ordinal": 140,
+      "area_in_crs_squared_units": 0.009744902637373806
+    },
+    {
+      "left_ordinal": 139,
+      "right_ordinal": 298,
+      "area_in_crs_squared_units": 0.0015682178426175142
+    },
+    {
+      "left_ordinal": 141,
+      "right_ordinal": 319,
+      "area_in_crs_squared_units": 0.0001541953899035775
+    },
+    {
+      "left_ordinal": 141,
+      "right_ordinal": 316,
+      "area_in_crs_squared_units": 4.908706126485057e-07
+    },
+    {
+      "left_ordinal": 141,
+      "right_ordinal": 144,
+      "area_in_crs_squared_units": 0.002477830790755302
+    },
+    {
+      "left_ordinal": 144,
+      "right_ordinal": 251,
+      "area_in_crs_squared_units": 8.518387377476344e-06
+    },
+    {
+      "left_ordinal": 144,
+      "right_ordinal": 252,
+      "area_in_crs_squared_units": 0.010289966967188268
+    },
+    {
+      "left_ordinal": 144,
+      "right_ordinal": 315,
+      "area_in_crs_squared_units": 0.08302500063442175
+    },
+    {
+      "left_ordinal": 144,
+      "right_ordinal": 317,
+      "area_in_crs_squared_units": 0.03607964794486231
+    },
+    {
+      "left_ordinal": 144,
+      "right_ordinal": 318,
+      "area_in_crs_squared_units": 0.06602144128509163
+    },
+    {
+      "left_ordinal": 146,
+      "right_ordinal": 162,
+      "area_in_crs_squared_units": 0.034154520342584815
+    },
+    {
+      "left_ordinal": 147,
+      "right_ordinal": 269,
+      "area_in_crs_squared_units": 0.0016862712697419445
+    },
+    {
+      "left_ordinal": 150,
+      "right_ordinal": 274,
+      "area_in_crs_squared_units": 0.0025547167628587886
+    },
+    {
+      "left_ordinal": 165,
+      "right_ordinal": 260,
+      "area_in_crs_squared_units": 3.1943118671443754e-05
+    },
+    {
+      "left_ordinal": 165,
+      "right_ordinal": 291,
+      "area_in_crs_squared_units": 2.198814597370591e-06
+    },
+    {
+      "left_ordinal": 178,
+      "right_ordinal": 269,
+      "area_in_crs_squared_units": 0.0001221382457803344
+    },
+    {
+      "left_ordinal": 178,
+      "right_ordinal": 300,
+      "area_in_crs_squared_units": 2.1197015823148924e-08
+    },
+    {
+      "left_ordinal": 188,
+      "right_ordinal": 340,
+      "area_in_crs_squared_units": 0.0008200714133762988
+    },
+    {
+      "left_ordinal": 231,
+      "right_ordinal": 251,
+      "area_in_crs_squared_units": 0.0076964250551932525
+    },
+    {
+      "left_ordinal": 231,
+      "right_ordinal": 310,
+      "area_in_crs_squared_units": 0.012402510905322437
+    },
+    {
+      "left_ordinal": 231,
+      "right_ordinal": 248,
+      "area_in_crs_squared_units": 0.00215656226931488
+    },
+    {
+      "left_ordinal": 232,
+      "right_ordinal": 233,
+      "area_in_crs_squared_units": 2.2201365082324953e-06
+    },
+    {
+      "left_ordinal": 232,
+      "right_ordinal": 308,
+      "area_in_crs_squared_units": 0.018570375487115598
+    },
+    {
+      "left_ordinal": 236,
+      "right_ordinal": 264,
+      "area_in_crs_squared_units": 3.6334045811286034e-05
+    },
+    {
+      "left_ordinal": 243,
+      "right_ordinal": 244,
+      "area_in_crs_squared_units": 0.0006366746059387049
+    },
+    {
+      "left_ordinal": 244,
+      "right_ordinal": 262,
+      "area_in_crs_squared_units": 0.0005337593781468636
+    },
+    {
+      "left_ordinal": 245,
+      "right_ordinal": 273,
+      "area_in_crs_squared_units": 1.088473945871915e-08
+    },
+    {
+      "left_ordinal": 248,
+      "right_ordinal": 310,
+      "area_in_crs_squared_units": 0.0005343755531868055
+    },
+    {
+      "left_ordinal": 249,
+      "right_ordinal": 251,
+      "area_in_crs_squared_units": 4.699746499814417e-05
+    },
+    {
+      "left_ordinal": 249,
+      "right_ordinal": 252,
+      "area_in_crs_squared_units": 0.003988672689573036
+    },
+    {
+      "left_ordinal": 250,
+      "right_ordinal": 251,
+      "area_in_crs_squared_units": 0.0018799271429070386
+    },
+    {
+      "left_ordinal": 251,
+      "right_ordinal": 313,
+      "area_in_crs_squared_units": 0.029879276453676076
+    },
+    {
+      "left_ordinal": 251,
+      "right_ordinal": 311,
+      "area_in_crs_squared_units": 0.0041815894905994355
+    },
+    {
+      "left_ordinal": 251,
+      "right_ordinal": 310,
+      "area_in_crs_squared_units": 3.092294150602859e-08
+    },
+    {
+      "left_ordinal": 252,
+      "right_ordinal": 253,
+      "area_in_crs_squared_units": 0.04104155247965907
+    },
+    {
+      "left_ordinal": 254,
+      "right_ordinal": 341,
+      "area_in_crs_squared_units": 0.012278600193766764
+    },
+    {
+      "left_ordinal": 254,
+      "right_ordinal": 268,
+      "area_in_crs_squared_units": 0.0005453210259744878
+    },
+    {
+      "left_ordinal": 254,
+      "right_ordinal": 323,
+      "area_in_crs_squared_units": 4.928228257838896e-05
+    },
+    {
+      "left_ordinal": 254,
+      "right_ordinal": 255,
+      "area_in_crs_squared_units": 0.0005057299046087056
+    },
+    {
+      "left_ordinal": 263,
+      "right_ordinal": 264,
+      "area_in_crs_squared_units": 0.016907650661892523
+    },
+    {
+      "left_ordinal": 280,
+      "right_ordinal": 281,
+      "area_in_crs_squared_units": 0.0003876615223710189
+    },
+    {
+      "left_ordinal": 296,
+      "right_ordinal": 310,
+      "area_in_crs_squared_units": 0.0012542725796006763
+    },
+    {
+      "left_ordinal": 297,
+      "right_ordinal": 310,
+      "area_in_crs_squared_units": 0.00021599830146219919
+    },
+    {
+      "left_ordinal": 316,
+      "right_ordinal": 319,
+      "area_in_crs_squared_units": 5.776596969305284e-05
+    }
+  ],
+  "intersection_errors": [],
+  "id_field_diagnostics": {
+    "GlobalID": {
+      "nonblank": 344,
+      "blank_or_null": 0,
+      "unique_nonblank": 344,
+      "reused_values": {},
+      "examples": [
+        "{CEE74686-4663-4E52-A7F5-7095720E7FAF}",
+        "{9A998656-B118-4C2A-A9A4-B90B91846F03}",
+        "{CCDE9D93-3FD4-4459-8E1A-1ED4CBC70CD4}",
+        "{CAAC1574-6938-4A2B-8E7D-F53D262E3870}",
+        "{5B66725F-846B-43C1-9D83-8DBB4E2B14ED}",
+        "{AD94EEA7-8425-4A2F-8F7F-20694AC0AB2E}",
+        "{3E3A1A5D-928E-4A4E-8F91-31F620F91DCD}",
+        "{FC2A428A-C5B9-47A9-BBE5-8BB3820FE473}"
+      ]
+    },
+    "ITEM": {
+      "nonblank": 344,
+      "blank_or_null": 0,
+      "unique_nonblank": 226,
+      "reused_values": {
+        "1101.1": 2,
+        "65305.3": 6,
+        "25332.1": 2,
+        "25303.1": 4,
+        "25311.1": 4,
+        "25107.1": 2,
+        "50202.1": 2,
+        "25108.1": 2,
+        "55301.1": 2,
+        "45305.1": 3,
+        "1102.1": 2,
+        "55301.3": 2,
+        "45301.1": 3,
+        "55304.1": 2,
+        "5308.1": 4,
+        "5304.1": 2,
+        "70301.1": 6,
+        "55321.1": 2,
+        "5310.1": 2,
+        "55305.3": 2,
+        "40310.1": 3,
+        "40306.1": 2,
+        "70203.1": 5,
+        "5307.1": 2,
+        "40302.1": 2,
+        "70302.1": 5,
+        "70304.1": 5,
+        "40303.1": 2,
+        "40201.1": 3,
+        "35201.1": 2,
+        "50201.1": 2,
+        "50203.1": 2,
+        "5303.1": 3,
+        "10301.3": 2,
+        "10301.1": 2,
+        "15314.3": 2,
+        "25310.1": 2,
+        "25310.3": 2,
+        "25341.3": 2,
+        "25326.3": 2,
+        "35303.1": 2,
+        "35303.3": 2,
+        "55308.1": 2,
+        "5302.1": 5,
+        "50304.3": 2,
+        "50306.3": 3,
+        "60301.3": 3,
+        "20302.1": 3,
+        "25325.1": 3,
+        "5305.1": 5,
+        "65201.1": 5,
+        "05313.1": 6,
+        "55344.1": 2,
+        "25341.1": 2,
+        "25326.1": 2,
+        "5311.1": 2,
+        "5306.1": 5,
+        "5201.1": 2,
+        "40304.1": 9,
+        "5301.1": 3,
+        "35302.1": 3
+      },
+      "examples": [
+        "1101.1",
+        "15303.1",
+        "15302.1",
+        "15310.1",
+        "65305.3",
+        "65301.1",
+        "65304.1",
+        "15312.1"
+      ]
+    },
+    "ITEM_PREC": {
+      "nonblank": 344,
+      "blank_or_null": 0,
+      "unique_nonblank": 200,
+      "reused_values": {
+        "1101": 2,
+        "65305": 7,
+        "25332": 2,
+        "25303": 5,
+        "5302": 6,
+        "25311": 4,
+        "25107": 2,
+        "50202": 2,
+        "40304": 10,
+        "25108": 2,
+        "55301": 4,
+        "45305": 3,
+        "1102": 2,
+        "45301": 3,
+        "55304": 2,
+        "5308": 4,
+        "5304": 2,
+        "60302": 2,
+        "70301": 6,
+        "55321": 2,
+        "5310": 2,
+        "55305": 3,
+        "40310": 3,
+        "40306": 2,
+        "70203": 5,
+        "5307": 2,
+        "40302": 2,
+        "70302": 5,
+        "70304": 5,
+        "40303": 2,
+        "40201": 3,
+        "50308": 2,
+        "35201": 2,
+        "50201": 2,
+        "50203": 2,
+        "60303": 2,
+        "10302": 2,
+        "5303": 4,
+        "10301": 4,
+        "10304": 2,
+        "15314": 4,
+        "25310": 4,
+        "25341": 4,
+        "25326": 4,
+        "35303": 4,
+        "55308": 2,
+        "50304": 3,
+        "50306": 4,
+        "55342": 2,
+        "60301": 5,
+        "70303": 2,
+        "20302": 3,
+        "25325": 3,
+        "5305": 5,
+        "65201": 5,
+        "05313": 6,
+        "55346": 2,
+        "55344": 2,
+        "5311": 2,
+        "5306": 5,
+        "5201": 2,
+        "5301": 3,
+        "35302": 3
+      },
+      "examples": [
+        "1101",
+        "15303",
+        "15302",
+        "15310",
+        "65305",
+        "65301",
+        "65304",
+        "15312"
+      ]
+    },
+    "PRECINCT": {
+      "nonblank": 344,
+      "blank_or_null": 0,
+      "unique_nonblank": 168,
+      "reused_values": {
+        "LOVELAND CITY A": 2,
+        "GOSHEN TWP B": 2,
+        "WAYNE TWP C": 10,
+        "WAYNE TWP A": 2,
+        "GOSHEN TWP A": 2,
+        "MIAMI TWP X": 2,
+        "MIAMI TWP K": 5,
+        "MIAMI TWP H1H": 2,
+        "WAYNE TWP B": 4,
+        "MIAMI TWP C": 5,
+        "MIAMI TWP N1N": 2,
+        "MIAMI TWP L1L": 2,
+        "MIAMI TWP A": 2,
+        "MIAMI TWP H": 2,
+        "BATAVIA TWP L": 2,
+        "MIAMI TWP T": 2,
+        "STONELICK TWP D": 2,
+        "MILFORD CITY G": 2,
+        "BETHEL VILLAGE B": 2,
+        "TATE TWP B": 2,
+        "MILFORD CITY B": 2,
+        "PIERCE TWP D": 4,
+        "MILFORD CITY H": 2,
+        "MIAMI TWP I": 2,
+        "UNION TWP A": 3,
+        "STONELICK TWP A": 3,
+        "UNION TWP R": 2,
+        "OWENSVILLE VILLAGE": 4,
+        "BATAVIA TWP H": 4,
+        "UNION TWP L1L": 4,
+        "BATAVIA TWP D": 2,
+        "UNION TWP F": 2,
+        "UNION TWP G": 2,
+        "UNION TWP M1M": 2,
+        "WASHINGTON TWP C": 3,
+        "WASHINGTON TWP B": 5,
+        "WILLIAMSBURG TWP A": 4,
+        "BATAVIA VILLAGE A": 11,
+        "UNION TWP T": 2,
+        "BATAVIA TWP I": 4,
+        "UNION TWP E": 3,
+        "UNION TWP O": 2,
+        "WILLIAMSBURG VILLAGE A": 5,
+        "PIERCE TWP A": 4,
+        "PIERCE TWP K": 2,
+        "WILLIAMSBURG VILLAGE C": 11,
+        "PIERCE TWP G": 2,
+        "WILLIAMSBURG TWP B": 3,
+        "PIERCE TWP N": 8,
+        "TATE TWP D": 5,
+        "MONROE TWP A": 2,
+        "MONROE TWP B": 2,
+        "TATE TWP A": 2,
+        "NEW RICHMOND VILLAGE A": 2,
+        "BETHEL VILLAGE A": 4,
+        "MONROE TWP D": 2,
+        "NEW RICHMOND VILLAGE B": 4,
+        "TATE TWP F": 5,
+        "MONROE TWP C": 2,
+        "FRANKLIN TWP B": 2,
+        "BATAVIA TWP C": 2,
+        "FRANKLIN TWP A": 5,
+        "FRANKLIN TWP D": 2,
+        "GOSHEN TWP N": 4,
+        "MIAMI TWP J": 4,
+        "MIAMI TWP Q1Q": 3,
+        "MIAMI TWP Z": 3,
+        "OHIO TWP C": 4,
+        "UNION TWP P1P": 2,
+        "WASHINGTON TWP A": 2,
+        "WILLIAMSBURG TWP C": 2,
+        "JACKSON TWP B": 3,
+        "MIAMI TWP Y": 2,
+        "BATAVIA TWP M": 3,
+        "UNION TWP U1U": 2,
+        "BATAVIA TWP N": 5,
+        "BATAVIA TWP F": 2,
+        "BATAVIA TWP O": 6,
+        "PIERCE TWP O": 4
+      },
+      "examples": [
+        "LOVELAND CITY A",
+        "GOSHEN TWP B",
+        "GOSHEN TWP B",
+        "GOSHEN TWP J",
+        "WAYNE TWP C",
+        "WAYNE TWP A",
+        "WAYNE TWP A",
+        "GOSHEN TWP L"
+      ]
+    },
+    "SCHOOL": {
+      "nonblank": 0,
+      "blank_or_null": 344,
+      "unique_nonblank": 0,
+      "reused_values": {},
+      "examples": []
+    },
+    "SPLITS": {
+      "nonblank": 344,
+      "blank_or_null": 0,
+      "unique_nonblank": 200,
+      "reused_values": {
+        "WAYNE TWP E": 7,
+        "MIAMI TWP F1F": 2,
+        "MIAMI TWP C": 6,
+        "BATAVIA TWP B": 5,
+        "MIAMI TWP K": 4,
+        "MILFORD CITY G": 2,
+        "BETHEL VILLAGE B": 2,
+        "PIERCE TWP D": 10,
+        "MILFORD CITY H": 2,
+        "UNION TWP A": 4,
+        "STONELICK TWP E": 3,
+        "LOVELAND CITY B": 2,
+        "STONELICK TWP A": 3,
+        "UNION TWP D": 2,
+        "BATAVIA TWP H": 4,
+        "BATAVIA TWP D": 2,
+        "WASHINGTON TWP B": 2,
+        "WILLIAMSBURG TWP A": 7,
+        "UNION TWP U": 2,
+        "BATAVIA TWP J": 2,
+        "BATAVIA TWP I": 2,
+        "UNION TWP E": 3,
+        "PIERCE TWP J": 3,
+        "PIERCE TWP F": 2,
+        "WILLIAMSBURG VILLAGE C": 4,
+        "BATAVIA TWP G": 2,
+        "PIERCE TWP B": 2,
+        "WILLIAMSBURG TWP B": 8,
+        "WILLIAMSBURG TWP D": 2,
+        "PIERCE TWP C": 2,
+        "AMELIA VILLAGE A": 3,
+        "TATE TWP H": 2,
+        "NEW RICHMOND VILLAGE A": 2,
+        "TATE TWP A": 2,
+        "BETHEL VILLAGE C": 2,
+        "WASHINGTON TWP C": 2,
+        "FRANKLIN TWP B": 2,
+        "BATAVIA TWP C": 4,
+        "FRANKLIN TWP A": 4,
+        "FRANKLIN TWP D": 2,
+        "GOSHEN TWP N": 4,
+        "MIAMI TWP J": 4,
+        "MIAMI TWP O1O": 4,
+        "MIAMI TWP Z": 4,
+        "OHIO TWP C": 4,
+        "UNION TWP H": 2,
+        "TATE TWP D": 3,
+        "TATE TWP F": 4,
+        "UNION TWP P1P": 2,
+        "WASHINGTON TWP A": 5,
+        "WILLIAMSBURG TWP C": 2,
+        "JACKSON TWP B": 3,
+        "MIAMI TWP Y": 3,
+        "BATAVIA TWP E": 4,
+        "NEWTONSVILLE VILLAGE": 5,
+        "BATAVIA TWP M": 6,
+        "UNION TWP U1U": 2,
+        "UNION TWP R1R": 2,
+        "BATAVIA TWP K": 2,
+        "BATAVIA TWP F": 5,
+        "AMELIA VILLAGE B": 3,
+        "BATAVIA TWP A": 3,
+        "OHIO TWP B": 3
+      },
+      "examples": [
+        "LOVELAND CITY A",
+        "GOSHEN TWP C",
+        "GOSHEN TWP B",
+        "GOSHEN TWP J",
+        "WAYNE TWP E",
+        "WAYNE TWP A",
+        "WAYNE TWP D",
+        "GOSHEN TWP L"
+      ]
+    },
+    "STATEID": {
+      "nonblank": 344,
+      "blank_or_null": 0,
+      "unique_nonblank": 168,
+      "reused_values": {
+        "AAA": 2,
+        "ABA": 2,
+        "AGW": 10,
+        "AGU": 2,
+        "AAZ": 2,
+        "ACY": 2,
+        "ACK": 5,
+        "ACF": 2,
+        "AGV": 4,
+        "ABU": 5,
+        "AHU": 2,
+        "AHS": 2,
+        "ABQ": 2,
+        "ACE": 2,
+        "AAN": 2,
+        "ACU": 2,
+        "AEI": 2,
+        "AHM": 2,
+        "AEW": 2,
+        "AEN": 2,
+        "AHH": 2,
+        "ADU": 4,
+        "AHN": 2,
+        "ACG": 2,
+        "AEY": 3,
+        "AEF": 3,
+        "AGG": 2,
+        "AEE": 4,
+        "AAJ": 4,
+        "AFV": 4,
+        "AAF": 2,
+        "AFI": 2,
+        "AFK": 2,
+        "AFX": 2,
+        "AGS": 3,
+        "AGR": 5,
+        "AGZ": 4,
+        "AAP": 10,
+        "AGI": 2,
+        "AAK": 5,
+        "AFG": 3,
+        "AGA": 2,
+        "AHD": 5,
+        "ADR": 4,
+        "AEB": 2,
+        "AHF": 11,
+        "ADX": 2,
+        "AHA": 3,
+        "AED": 8,
+        "AEP": 5,
+        "ADB": 2,
+        "ADC": 2,
+        "AEM": 2,
+        "ADO": 2,
+        "AEV": 4,
+        "ADE": 2,
+        "ADP": 4,
+        "AER": 5,
+        "ADD": 2,
+        "AAT": 2,
+        "AAE": 2,
+        "AAS": 5,
+        "AAV": 2,
+        "ABM": 4,
+        "ACI": 4,
+        "AHZ": 3,
+        "ADA": 3,
+        "ADN": 4,
+        "AGD": 2,
+        "AGQ": 2,
+        "AHB": 2,
+        "ABO": 3,
+        "ACZ": 2,
+        "AHR": 3,
+        "AHY": 2,
+        "AIB": 5,
+        "AAH": 2,
+        "AAO": 6,
+        "AHQ": 4
+      },
+      "examples": [
+        "AAA",
+        "ABA",
+        "ABA",
+        "ABI",
+        "AGW",
+        "AGU",
+        "AGU",
+        "ABK"
+      ]
+    },
+    "Shape_Area": {
+      "nonblank": 344,
+      "blank_or_null": 0,
+      "unique_nonblank": 344,
+      "reused_values": {},
+      "examples": [
+        "2136123.31247",
+        "9494171.6046",
+        "19401182.8818",
+        "17091897.1451",
+        "2036519.80715",
+        "32006579.1927",
+        "39851847.4655",
+        "4436368.47579"
+      ]
+    },
+    "Shape_Leng": {
+      "nonblank": 344,
+      "blank_or_null": 0,
+      "unique_nonblank": 344,
+      "reused_values": {},
+      "examples": [
+        "7922.42962097",
+        "16144.8762772",
+        "24213.8564698",
+        "18144.4678365",
+        "8273.98803988",
+        "33915.3977314",
+        "35998.3607262",
+        "11766.4657859"
+      ]
+    }
+  },
+  "checks_do_not_approve_boundaries": true,
+  "extent_native": [
+    -9386469.2222,
+    4689044.578699999,
+    -9349712.0046,
+    4760544.566200003
+  ],
+  "crs_wkt": "PROJCRS[\"WGS 84 / Pseudo-Mercator\",BASEGEOGCRS[\"WGS 84\",DATUM[\"World Geodetic System 1984\",ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ID[\"EPSG\",6326]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"Degree\",0.0174532925199433]]],CONVERSION[\"unnamed\",METHOD[\"Popular Visualisation Pseudo Mercator\",ID[\"EPSG\",1024]],PARAMETER[\"Latitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"Degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1,ID[\"EPSG\",9001]]]]"
+}

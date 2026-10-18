@@ -1,0 +1,33 @@
+{
+  "county": "tuscarawas",
+  "url": "https://gis.co.tuscarawas.oh.us/arcgis/rest/services/CountyWebServices/BOE_Precints/MapServer/0",
+  "authority": "Tuscarawas County GIS precinct webmap",
+  "vintage": "current-published; effective date unestablished",
+  "approved_nov2026": false,
+  "layer_metadata_path": "evidence/gis/tuscarawas/layer.gz",
+  "count_path": "evidence/gis/tuscarawas/count.gz",
+  "ids_path": "evidence/gis/tuscarawas/ids.gz",
+  "batch_paths": [
+    "evidence/gis/tuscarawas/batch-000.gz",
+    "evidence/gis/tuscarawas/batch-001.gz"
+  ],
+  "feature_count": 81,
+  "object_id_field": "OBJECTID",
+  "native_sr": {
+    "wkid": 102722,
+    "latestWkid": 3734
+  },
+  "query_sr": null,
+  "fields": [
+    "OBJECTID",
+    "PRECINCT",
+    "PRECT_NA",
+    "COMMUNITY",
+    "PRECT_MAPS",
+    "PRECT_MA_1",
+    "PRECT_WEB",
+    "Shape_Length",
+    "Shape_Area"
+  ],
+  "pagination": "count equals unique ID set equals every requested and returned batch ID; no transfer flag; no filter or simplification or reprojection"
+}
