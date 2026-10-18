@@ -1,0 +1,16 @@
+{
+  "observed_utc": "2026-10-18T00:50:12.556068+00:00",
+  "compared_file": "../county-baselines.csv",
+  "compared_sha256": "b073cca16179eba3bc046b644dfcc22852547cb70d3bec6a56a94dafa9ce22cc",
+  "comparisons": 82,
+  "differences": 0,
+  "scope": "Same-election HD candidate-volume sums only; no cross-year district join",
+  "companion_cvr_gap_audit": {
+    "file": "../baselines/cvr-ballot-coverage-gaps.csv",
+    "sha256": "2a0005ff7119ead3325ec7eae1fd5ca908a351bf4e946a9e83f95a33a9349364",
+    "gap_units": 6,
+    "missing_ballots": 250,
+    "missing_candidate_votes": 237,
+    "verification": "Full-ballot cells independently match turnout HD PDFs; CVR values supplied by companion audit"
+  }
+}

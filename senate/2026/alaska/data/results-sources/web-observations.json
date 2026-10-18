@@ -1,0 +1,18 @@
+{
+  "logged_utc": "2026-10-18T01:03:01.362266+00:00",
+  "scope": "Supplemental web-tool observations during this session; raw curl evidence separately retained in matching .meta.json records. This is an observation note, not original HTTP bytes.",
+  "observations": [
+    {
+      "url": "https://www.transportation.gov/regulations/time-act",
+      "observation": "Web rendering showed the current Uniform Time page, last updated July 15, 2026, with actual outbound Time Zones Geospatial Map and Daylight Saving Time links. Raw curl returned 403.",
+      "outbound_urls": [
+        "https://geodata.bts.gov/datasets/usdot::time-zones/about",
+        "https://www.transportation.gov/regulations/daylight-saving-time"
+      ]
+    },
+    {
+      "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB++64",
+      "observation": "Web-rendered bill history showed veto sustained with May 4, 2026 status date. Raw HTML retrieval showed veto sustained with April 29 status header date. Both routes establish no enacted SB64 cure system; their header date difference is retained."
+    }
+  ]
+}

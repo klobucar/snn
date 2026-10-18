@@ -1,0 +1,59 @@
+{
+  "verified_utc": "2026-10-18T00:53:29.545638+00:00",
+  "successful_raw_evidence_files": 60,
+  "failed_fetches_retained": [
+    {
+      "file": "official2020-alternate.html",
+      "url": "https://elections.alaska.gov/results/20GENR/index.php",
+      "exit_code": 56
+    },
+    {
+      "file": "official2020.html",
+      "url": "https://www.elections.alaska.gov/results/20GENR/index.php",
+      "exit_code": 56
+    }
+  ],
+  "baseline_rows": 1558,
+  "independent_turnout_comparisons": 533,
+  "turnout_input": "data/turnout/district-reconciliation.csv",
+  "turnout_input_sha256": "929777ce3f5389c4adfdc5a2d6771845b33e002fb90e9b78298a23dc54b2e102",
+  "county_baselines_sha256": "b073cca16179eba3bc046b644dfcc22852547cb70d3bec6a56a94dafa9ce22cc",
+  "selected_unit_examples": [
+    {
+      "unit": 99,
+      "others_share_shift_pp": 0,
+      "target_margin_pp": 0,
+      "required_share_pct": 5827.390180878553,
+      "status": "impossible"
+    },
+    {
+      "unit": 12,
+      "others_share_shift_pp": 6.8,
+      "target_margin_pp": 0,
+      "required_share_pct": 59.30471560525034,
+      "status": "feasible"
+    },
+    {
+      "unit": 12,
+      "others_share_shift_pp": 6.8,
+      "target_margin_pp": 1.0,
+      "required_share_pct": 79.02299465240638,
+      "status": "feasible"
+    },
+    {
+      "unit": 12,
+      "others_share_shift_pp": 8,
+      "target_margin_pp": 0,
+      "required_share_pct": 13.180845892075881,
+      "status": "feasible"
+    },
+    {
+      "unit": 12,
+      "others_share_shift_pp": 9,
+      "target_margin_pp": 0,
+      "required_share_pct": -25.255712202236253,
+      "status": "already secured"
+    }
+  ],
+  "all_checks_passed": true
+}

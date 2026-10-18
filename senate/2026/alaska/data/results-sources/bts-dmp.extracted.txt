@@ -1,0 +1,123 @@
+                   Data Management Plan (DMP) for Time Zones 2019-Present Dataset
+                              U.S. Department of Transportation (USDOT)
+                               Bureau of Transportation Statistics (BTS)
+                                             2025-06-09
+
+                               Persistent link: https://doi.org/10.21949/1403512
+
+Recommended Citation:
+U.S. Department of Transportation (USDOT), Bureau of Transportation Statistics (BTS). Time Zones 2019-
+Present [datasets]. https://doi.org/10.21949/1403512.
+
+Change log:
+2025-06-09: Initial DMP written
+2025-12-30: DOI added
+
+CONTENTS
+0. Dataset and Contact Information
+1. Data Description
+2. Standards Employed
+3. Access Policies
+4. Re-Use, Redistribution, and Derivative Products Policies
+5. Archiving and Preservation Plans
+6. Policies Affecting this Data Management Plan
+
+0. Dataset and Contact Information
+Title of Dataset: Time Zones 2019-Present Dataset
+URL: https://doi.org/10.21949/1403512
+This is an ☒ initial DMP or a ☐ revised DMP.
+
+Organizational Contact Information
+  Institution: U.S. Department of Transportation (DOT), Bureau of Transportation Statistics (BTS)
+  Address: 1200 New Jersey Ave SE, Washington D.C. 20590
+  Contact: bts@dot.gov
+
+Data Distributor Contact Information
+    Name: National Transportation Atlas Database (NTAD)
+    Institution: U.S. Department of Transportation, Bureau of Transportation Statistics (BTS)
+    Address: 1200 New Jersey Ave. SE, Washington D.C. 20590
+    Email: ntad@dot.gov
+
+1. Data Description:
+The Time Zones 2019-Present dataset is from the Bureau of Transportation Statistics (BTS), and is part of the
+U.S. Department of Transportation (USDOT)/Bureau of Transportation Statistics’ (BTS's) National
+Transportation Atlas Database (NTAD). This layer is a digital representation of the geographic boundaries of
+the nine time zones that cover the United States and its territories (the Atlantic, Eastern, Central, Mountain,
+Pacific, Alaska, Hawaii–Aleutian, Samoa, and Chamorro time zones). The U.S. Department of Transportation
+(DOT) oversees the Nation's time zones and the uniform observance of Daylight-Saving Time. The oversight of
+time zones was assigned to DOT due to the importance of time coordination for transportation related activities.
+The time zones were established by the Standard Time Act of 1918 and amended by the Uniform Time Act of
+1966. Time zones in the U.S. are defined in the U.S. Code, Title 15, Chapter 6, Subchapter IX - Standard Time.
+The time zone boundaries are defined in the Code of Federal Regulations (CFR), Title 49, Subtitle A, Part 71 -
+Standard Time Zone Boundaries. Segments used to compile the geospatial layer were derived from the CFR’s
+time zone descriptions (https://www.ecfr.gov/current/title-49/subtitle-A/part-71). Descriptions consist of
+segments referencing administrative boundaries, infrastructure, natural features, and geodesic lines. These
+segments are contained in various data layers in the National Geospatial Data Asset (NGDA) portfolio, the
+federal government’s authoritative geospatial data repository. Referenced segments were extracted from their
+NGDA and then merged to form continuous boundaries. In instances where there were multiple scales for a
+given dataset, the largest scale or most detailed layer was used. The standard time of the Atlantic zone is the
+Coordinated Universal Time (UTC) minus 4 hours; Eastern zone is UTC minus 5 hours; Central zone is UTC
+minus 6 hours; Mountain zone is UTC minus 7 hours; Pacific zone is UTC minus 8 hours; Alaska zone is UTC
+minus 9 hours; Hawaii–Aleutian zone is UTC minus 10 hours; Samoa zone is UTC minus 11 hours; and
+Chamorro zone is UTC plus 10 hours. For more information, please visit: https://doi.org/10.21949/1519143.
+
+2. Standards Employed:
+The data files collected here are saved in the ubiquitous and common geospatial file geodatabase (.gdb) formats.
+As the files created for this ingest were migrations from the original format in a SQL geodatabase, each data file
+name includes a date stamp indicating when the data in the shapefile was from.
+Documentation will include this data management plan, and the metadata and readme files created in 2025.
+Documentation will also include the shapefiles, data dictionary, and relevant supporting files created alongside
+the data from 1995. A DCAT-US vs. 1.1 .json metadata file will be created to describe the archival location of
+this data, and that .json file will be uploaded to data.gov and transportation.data.gov
+
+Necessary software tools: The file formats found in the zip files include: .txt, file geodatabases (.gdb), and .pdf
+files.
+   • File geodatabases (.gdb) can be opened with any Esri GIS software program https://www.esri.com/en-
+us/home/.
+   • The txt is a common text file, which can be opened with a basic text editor. The most common software
+used to open .txt files are Microsoft Windows Notepad, Sublime Text, Atom, and TextEdit (for more
+information on .txt files and software, please visit https://www.file-extensions.org/txt-file-extension)
+   • The pdf file format was developed by Adobe Systems and represents two-dimensional documents in a
+device-independent and resolution-independent format. There are PDF readers available on many platforms,
+such as Xpdf, Foxit, and Adobe's own Adobe Acrobat Reader. PDF readers/viewers or online services for basic
+functions are generally free (for more information on .pdf files and software, please visit https://www.file-
+extensions.org/pdf-file-extension).
+
+3. Access Policies:
+These data files are in the public domain, and can be shared without restriction. The data files contain no
+sensitive information.
+
+4. Re-Use, Redistribution, and Derivative Products Policies:
+These data are managed by the Bureau of Transportation Statistics. The data are in the public domain, and may
+be re-used without restriction.
+Citation of the data is appreciated. Please use the following recommended citation:
+U.S. Department of Transportation, Bureau of Transportation Statistics (BTS) [distributor]. Time Zones 2019-
+Present [datasets]. https://doi.org/10.21949/1403512
+
+5. Archiving and Preservation Plans:
+The dataset will be archived in the National Transportation Library Repository and Open Science Access Portal
+(ROSA P). Prior to archiving, the data are stored on the secured BTS networks and drives, which are backed up
+nightly. The US DOT systems are secured from outside users and backed up daily.
+
+Files in ROSA P are backed up in NTL drives at US DOT, daily; at the Centers for Disease Control, the
+repository managing facility, daily; and in Amazon Web Service Cloud servers in Virginia and Oregon daily.
+
+The dataset will be retained in perpetuity.
+
+NTL staff will mint persistent Digital Object Identifiers (DOIs) for each dataset stored in ROSA P. These DOIs
+will be associated with dataset documentation as soon as they become available for use.
+
+The DOIs associated with this dataset include: https://doi.org/10.21949/1403512
+
+The assigned DOI resolves to the repository landing page for the “Time Zones 2019-Present” dataset, so that
+users may locate associated metadata and supporting files.
+
+ROSA P meets all the criteria outlined on the “Guidelines for Evaluating Repositories for Conformance with the
+DOT Public Access Plan” page: https://ntl.bts.gov/publicaccess/evaluatingrepositories.html
+
+6. Policies Affecting this Data Management Plan
+This document was created to meet the requirements enumerated in the U.S. Department of Transportation's
+Plan to Increase Public Access to the Results of Federally-Funded Scientific Research' Version 1.1 <<
+https://doi.org/10.21949/1520559 >> and guidelines suggested by the DOT Public Access website <<
+https://doi.org/10.21949/1503647 >>, in effect and current as of December 03, 2020.
+

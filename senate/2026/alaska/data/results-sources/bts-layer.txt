@@ -1,0 +1,110 @@
+Layer: Time Zones (ID:0)
+ArcGIS REST Services Directory
+Home
+>
+services
+>
+NTAD_Time_Zones (FeatureServer)
+>
+Time Zones
+|
+API Reference
+JSON
+Layer: Time Zones (ID:0)
+View In:
+Map Viewer
+Name:
+Time Zones
+Display Field:
+zone
+Type:
+Feature Layer
+Geometry Type:
+esriGeometryPolygon
+Is View:
+true
+Is Updatable View:
+true
+Source Schema Changes Allowed:
+true
+Sources
+Description:
+The Time Zones dataset was compiled on October 04, 2019 and was updated January 05, 2023 from the Bureau of Transportation Statistics (BTS) and is part of the U.S. Department of Transportation (USDOT)/Bureau of Transportation Statistics (BTS) National Transportation Atlas Database (NTAD). This layer is a digital representation of the geographic boundaries of the nine time zones that cover the United States and its territories (the Atlantic, Eastern, Central, Mountain, Pacific, Alaska, Hawaii–Aleutian, Samoa, and Chamorro time zones). The U.S. Department of Transportation (DOT) oversees the Nation's time zones and the uniform observance of Daylight-Saving Time. The oversight of time zones was assigned to DOT due to the importance of time coordination for transportation related activities. The time zones were established by the Standard Time Act of 1918 and amended by the Uniform Time Act of 1966. Time zones in the U.S. are defined in the U.S. Code, Title 15, Chapter 6, Subchapter IX - Standard Time. The time zone boundaries are defined in the Code of Federal Regulations (CFR), Title 49, Subtitle A, Part 71 - Standard Time Zone Boundaries. Segments used to compile the geospatial layer were derived from the CFR’s time zone descriptions (https://www.ecfr.gov/current/title-49/subtitle-A/part-71). Descriptions consist of segments referencing administrative boundaries, infrastructure, natural features, and geodesic lines. These segments are contained in various data layers in the National Geospatial Data Asset (NGDA) portfolio, the federal government’s authoritative geospatial data repository. Referenced segments were extracted from their NGDA and then merged to form continuous boundaries. In instances where there were multiple scales for a given dataset, the largest scale or most detailed layer was used. The standard time of the Atlantic zone is the Coordinated Universal Time (UTC) minus 4 hours; Eastern zone is UTC minus 5 hours; Central zone is UTC minus 6 hours; Mountain zone is UTC minus 7 hours; Pacific zone is UTC minus 8 hours; Alaska zone is UTC minus 9 hours; Hawaii–Aleutian zone is UTC minus 10 hours; Samoa zone is UTC minus 11 hours; and Chamorro zone is UTC plus 10 hours. For more information, please visit: https://doi.org/10.21949/1519143.
+Copyright Text:
+This NTAD dataset is a work of the United States government as defined in 17 U.S.C. § 101 and as such are not protected by any U.S. copyrights. This work is available for unrestricted public use.
+Min. Scale:
+0
+Max. Scale:
+0
+Default Visibility:
+true
+Max Record Count:
+2000
+Supported query Formats:
+JSON, geoJSON, PBF
+Use Standardized Queries:
+True
+Extent:
+XMin: -179.231101251189
+YMin: -14.6018060155132
+XMax: 179.859665728096
+YMax: 71.4397857072312
+Spatial Reference: 4326 (4326)
+Drawing Info:
+{"renderer":{"type":"simple","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,179,190,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}}},"scaleSymbols":true,"transparency":0,"labelingInfo":null}
+HasZ:
+false
+HasM:
+false
+Has Attachments:
+false
+Has Geometry Properties:
+true
+HTML Popup Type:
+esriServerHTMLPopupTypeAsHTMLText
+Object ID Field:
+fid
+Unique ID Field:
+Name : fid
+IsSystemMaintained : True
+Global ID Field:
+Type ID Field:
+Fields:
+fid
+(type: esriFieldTypeOID, alias: fid, SQL Type: sqlTypeOther, length: 0, nullable: false, editable: false)
+zone
+(type: esriFieldTypeString, alias: Zone, SQL Type: sqlTypeOther, length: 80, nullable: true, editable: true)
+utc
+(type: esriFieldTypeString, alias: UTC, SQL Type: sqlTypeOther, length: 80, nullable: true, editable: true)
+Shape__Area
+(type: esriFieldTypeDouble, alias: Shape__Area, SQL Type: sqlTypeDouble, nullable: true, editable: false)
+Shape__Length
+(type: esriFieldTypeDouble, alias: Shape__Length, SQL Type: sqlTypeDouble, nullable: true, editable: false)
+Templates:
+Name: Time Zones
+Description:
+Drawing Tool: esriFeatureEditToolPolygon
+Prototype:
+Attributes:
+Is Data Versioned:
+false
+Has Contingent Values:
+false
+Supports Rollback On Failure Parameter:
+true
+Last Edit Date:
+3/25/2025 5:23:09 PM
+Schema Last Edit Date:
+3/25/2025 5:23:09 PM
+Data Last Edit Date:
+6/28/2024 2:32:39 PM
+Supported Operations:
+Query
+Query Pivot
+Query Top Features
+Query Analytic
+Query Bins
+Generate Renderer
+Validate SQL
+Get Estimates
+ConvertFormat

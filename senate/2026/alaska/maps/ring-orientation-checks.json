@@ -1,0 +1,106 @@
+{
+  "vintages": {
+    "baseline-2024": [
+      {
+        "native_precinct_id": "04-130",
+        "ring_count": 1,
+        "clockwise_shells": 0,
+        "counterclockwise_rings": 1,
+        "unclosed_rings": [],
+        "short_rings": [],
+        "zero_area_rings": [],
+        "native_signed_ring_areas": [
+          6519498.6350749135
+        ]
+      },
+      {
+        "native_precinct_id": "33-155",
+        "ring_count": 1,
+        "clockwise_shells": 0,
+        "counterclockwise_rings": 1,
+        "unclosed_rings": [],
+        "short_rings": [],
+        "zero_area_rings": [],
+        "native_signed_ring_areas": [
+          23005210.217300177
+        ]
+      },
+      {
+        "native_precinct_id": "37-756",
+        "ring_count": 1,
+        "clockwise_shells": 0,
+        "counterclockwise_rings": 1,
+        "unclosed_rings": [],
+        "short_rings": [],
+        "zero_area_rings": [],
+        "native_signed_ring_areas": [
+          131739013224.27332
+        ]
+      },
+      {
+        "native_precinct_id": "18-556",
+        "ring_count": 1,
+        "clockwise_shells": 0,
+        "counterclockwise_rings": 1,
+        "unclosed_rings": [],
+        "short_rings": [],
+        "zero_area_rings": [],
+        "native_signed_ring_areas": [
+          252406658.733778
+        ]
+      },
+      {
+        "native_precinct_id": "26-380",
+        "ring_count": 1,
+        "clockwise_shells": 0,
+        "counterclockwise_rings": 1,
+        "unclosed_rings": [],
+        "short_rings": [],
+        "zero_area_rings": [],
+        "native_signed_ring_areas": [
+          85187698.43073606
+        ]
+      },
+      {
+        "native_precinct_id": "26-350",
+        "ring_count": 1,
+        "clockwise_shells": 0,
+        "counterclockwise_rings": 1,
+        "unclosed_rings": [],
+        "short_rings": [],
+        "zero_area_rings": [],
+        "native_signed_ring_areas": [
+          191416878.62619805
+        ]
+      },
+      {
+        "native_precinct_id": "39-942",
+        "ring_count": 2,
+        "clockwise_shells": 0,
+        "counterclockwise_rings": 2,
+        "unclosed_rings": [],
+        "short_rings": [],
+        "zero_area_rings": [],
+        "native_signed_ring_areas": [
+          21869344821.70779,
+          504207317.0019989
+        ]
+      },
+      {
+        "native_precinct_id": "18-555",
+        "ring_count": 1,
+        "clockwise_shells": 0,
+        "counterclockwise_rings": 1,
+        "unclosed_rings": [],
+        "short_rings": [],
+        "zero_area_rings": [],
+        "native_signed_ring_areas": [
+          211652630.3421049
+        ]
+      }
+    ],
+    "current-retrieved-2026": []
+  },
+  "conversion": "pyshp groups clockwise shells and counterclockwise holes. When every ring is counterclockwise, pyshp emits each ring as a shell and warns. No coordinates are changed. Raw sources are authoritative; review these derivative interpretations before overlay.",
+  "repaired": false
+}

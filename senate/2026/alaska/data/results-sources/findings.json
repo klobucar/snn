@@ -1,0 +1,54 @@
+{
+  "as_of_utc": "2026-10-18",
+  "current_setup": "Certified August 18 primary; not November zero/test/results",
+  "november_dataset": null,
+  "november_contest_id": null,
+  "november_candidate_ids": null,
+  "november_crosswalk_validated": false,
+  "remaining_candidate_votes": null,
+  "observed_provenance_distinctions": [
+    "Current homepage app still points to August primary, while results landing displays October REAA.",
+    "format=2024 is JSON schema, not election year.",
+    "2026 map index n=0 and CSV Contest_Id=6 identify August Senate only; 2024 president map n=0 vs CSV 4.",
+    "App statewide counts include HD99 and method administrative units absent from map detail arrays.",
+    "401/403 precincts reported coexists with certified status; all primary CSV Reporting_flag values are 0.",
+    "2026 primary votes + explicit under/overvotes leave 88 ballots unexplained in 47 units; original fields retained.",
+    "2024 four Early Voting-labeled units contain actual Election Day columns.",
+    "2022 first-choice text Unofficial header retained although 533 candidate-HD cells across 2024/2022 match official PDFs.",
+    "2022 turnout RCV parsed JSON still says gap unresolved; companion CVR audit localizes 250 ballots, without proving cause.",
+    "Daniel J. Sullivan Jr. party blank on ballot and August results, Registered Republican in general roster.",
+    "Heather McElwain REP in August source, Registered Libertarian certified write-in in general roster.",
+    "Region IV November absentee-in-person mail routes through Anchorage; no geographic reassignment.",
+    "2026 primary combined ballot report and linked 2024 report returned HTTP405 access bodies.",
+    "SB64 raw status header date differs from web-rendered status date; both say veto sustained. Use actual action history, not header date as an election deadline.",
+    "Python requests certificate failure; default-TLS system curl succeeds.",
+    "Current eCFR access challenge; historical official CFR text labeled historical; current BTS offsets and representative points checked."
+  ],
+  "schedule": {
+    "first_results": "calendar after 9 p.m.; not a guaranteed cadence",
+    "ongoing_first_choices": "Nov 4-17 per 2026 OEP p5",
+    "final_tabulation_unofficial_reporting": "Nov 18 per OEP p5; after day-15 final count per current counting page",
+    "rcv_hour": null,
+    "certification_target": "2026-11-25; not guaranteed"
+  },
+  "remaining_gates": [
+    "Actual November endpoint/election and Senate/candidate IDs",
+    "Final write-in list after Oct 29",
+    "Daniel J. Jr. affiliation label difference",
+    "Approved November native reporting units and geography/method crosswalk",
+    "Per-precinct timezone and any actual extension order",
+    "Exact RCV start hour",
+    "Source timestamp timezone",
+    "Genuine historical-night snapshots, corrections and publication cadence",
+    "Cause of 88-primary-ballot invalid-vote gap",
+    "Cause and missing ranks of localized 250-ballot 2022 CVR gap",
+    "Working combined-ballot-status report access",
+    "Current accepted-unprocessed ballot inventory",
+    "Collector implementation/replay and forecast calibration"
+  ],
+  "notification_preference": {
+    "notifyOnFinish": true
+  },
+  "git_commands_or_mutations": false,
+  "delegation": false
+}

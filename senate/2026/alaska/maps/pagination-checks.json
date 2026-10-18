@@ -1,0 +1,21 @@
+{
+  "source_count": 402,
+  "object_ids": 402,
+  "returned_features": 402,
+  "batches": 9,
+  "batch_size": 50,
+  "complete": true,
+  "native_crs": "EPSG:3857",
+  "parameters": "objectIds batches; outFields=*; returnGeometry=true; no outSR, precision or quantization",
+  "source_files": [
+    "raw/locator-features-001.json.gz",
+    "raw/locator-features-002.json.gz",
+    "raw/locator-features-003.json.gz",
+    "raw/locator-features-004.json.gz",
+    "raw/locator-features-005.json.gz",
+    "raw/locator-features-006.json.gz",
+    "raw/locator-features-007.json.gz",
+    "raw/locator-features-008.json.gz",
+    "raw/locator-features-009.json.gz"
+  ]
+}

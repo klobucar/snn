@@ -1,0 +1,7 @@
+{
+  "retrieved_utc": "2026-10-18T00:55:03.334637+00:00",
+  "url": "https://www.elections.alaska.gov/election-results/",
+  "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='www.elections.alaska.gov', port=443): Max retries exceeded with url: /election-results/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))\"))",
+  "transport": "Python requests; default verification",
+  "fallback": "results.meta.json: system curl default TLS verification succeeded"
+}

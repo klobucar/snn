@@ -1,0 +1,43 @@
+| Rank | Native 2022 reporting geography | Senate first choices | Ballots 2022 | Cumulative % |
+| ---: | --- | ---: | ---: | ---: |
+| 1 | House District 9 | 10,119 | 10,284 | 3.8666 |
+| 2 | House District 6 | 9,733 | 9,847 | 7.5856 |
+| 3 | House District 3 | 8,743 | 8,804 | 10.9264 |
+| 4 | House District 8 | 8,636 | 8,793 | 14.2263 |
+| 5 | House District 23 | 8,300 | 8,336 | 17.3978 |
+| 6 | House District 11 | 8,167 | 8,190 | 20.5185 |
+| 7 | House District 30 | 8,058 | 8,135 | 23.5976 |
+| 8 | House District 25 | 8,018 | 8,378 | 26.6613 |
+| 9 | House District 29 | 7,859 | 8,220 | 29.6643 |
+| 10 | House District 35 | 7,852 | 7,878 | 32.6646 |
+| 11 | House District 16 | 7,825 | 8,068 | 35.6546 |
+| 12 | House District 24 | 7,814 | 7,996 | 38.6405 |
+| 13 | House District 36 | 7,706 | 7,952 | 41.5850 |
+| 14 | House District 15 | 7,666 | 7,709 | 44.5142 |
+| 15 | House District 34 | 7,626 | 7,693 | 47.4282 |
+| 16 | House District 2 | 7,467 | 7,567 | 50.2814 |
+| 17 | House District 4 | 7,409 | 7,713 | 53.1125 |
+| 18 | House District 7 | 7,397 | 7,443 | 55.9389 |
+| 19 | House District 26 | 7,150 | 7,213 | 58.6710 |
+| 20 | House District 21 | 7,106 | 7,313 | 61.3863 |
+| 21 | House District 10 | 7,083 | 7,153 | 64.0928 |
+| 22 | House District 28 | 6,955 | 7,098 | 66.7503 |
+| 23 | House District 1 | 6,633 | 6,888 | 69.2849 |
+| 24 | House District 27 | 6,612 | 6,678 | 71.8114 |
+| 25 | House District 12 | 6,583 | 6,774 | 74.3268 |
+| 26 | House District 17 | 6,339 | 6,465 | 76.7490 |
+| 27 | House District 14 | 6,087 | 6,155 | 79.0749 |
+| 28 | House District 33 | 5,990 | 6,256 | 81.3637 |
+| 29 | House District 5 | 5,847 | 5,989 | 83.5979 |
+| 30 | House District 13 | 5,594 | 5,790 | 85.7355 |
+| 31 | House District 31 | 5,288 | 5,330 | 87.7561 |
+| 32 | House District 20 | 5,283 | 5,469 | 89.7747 |
+| 33 | House District 22 | 3,906 | 3,964 | 91.2673 |
+| 34 | House District 39 | 3,760 | 3,817 | 92.7040 |
+| 35 | House District 19 | 3,693 | 3,728 | 94.1151 |
+| 36 | House District 38 | 3,642 | 3,763 | 95.5068 |
+| 37 | House District 37 | 3,528 | 3,680 | 96.8549 |
+| 38 | House District 32 | 3,329 | 3,406 | 98.1269 |
+| 39 | House District 40 | 2,533 | 2,711 | 99.0948 |
+| 40 | House District 18 | 2,265 | 2,297 | 99.9603 |
+| 41 | HD99 Fed Overseas Absentee | 104 | 104 | 100.0000 |

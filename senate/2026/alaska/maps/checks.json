@@ -1,0 +1,69 @@
+{
+  "status": "pass",
+  "inputs_sha256": {
+    "data/turnout/priority-set.json": "e647b370515f48a37a728a74b5c8d740f1db2a225322f1a890eb8b717007a358",
+    "data/turnout/reporting-units-2024.csv": "f25338f38272a3a72d7898c56215dc6258eca6cde7d1dbadfa2d3d5b8f010f8e",
+    "data/turnout/reporting-units-2022.csv": "a7aca4fa3ad6c84384d45f96d73d254899f4114e561581f6b9ce7bfc487eed9b",
+    "data/coordinator-baseline-reconciliation.json": "6da4b0f70127af2c92523dbfd4d330ddea45e9f0dd1fe95750b2b111441dfae7"
+  },
+  "priority_districts": [
+    6,
+    9,
+    3,
+    8,
+    23,
+    29,
+    25,
+    30,
+    24,
+    34,
+    11,
+    35,
+    16,
+    7,
+    36,
+    2,
+    26,
+    15,
+    28,
+    4,
+    21,
+    27,
+    33,
+    10,
+    1,
+    12,
+    5,
+    17
+  ],
+  "priority_votes": 271492,
+  "statewide_votes": 338177,
+  "priority_share_percent": 80.28103626207577,
+  "prior27_votes": 263774,
+  "all_hd_inventory_rows": 41,
+  "reporting_unit_compatibility_rows": 1045,
+  "physical_precincts_2024": 402,
+  "physical_precincts_2022": 401,
+  "priority_pdf_packets": 28,
+  "priority_pdf_pages": 256,
+  "priority_physical_results_units": 256,
+  "coverage_rows": 56,
+  "features_by_vintage": {
+    "baseline-2024": 402,
+    "current-retrieved-2026": 402
+  },
+  "priority_features_by_vintage": {
+    "baseline-2024": 256,
+    "current-retrieved-2026": 256
+  },
+  "november2026_approval": "unknown for all 28 priority HDs",
+  "cross_year_crosswalk": false,
+  "vote_allocation": false,
+  "versions": {
+    "pyproj": "3.7.2",
+    "shapely": "2.2.0",
+    "geos": "3.14.1",
+    "pyshp": "3.1.6",
+    "pymupdf": "1.28.2"
+  }
+}
