@@ -1,0 +1,39 @@
+{
+  "id": "arcitem-johnson-d0329206d4cd4c2a9746c8cbe26f38e7",
+  "requested_url": "https://www.arcgis.com/sharing/rest/content/items/d0329206d4cd4c2a9746c8cbe26f38e7?f=pjson",
+  "parent_source_url": "Exact nested item ID from retained official-linked ArcGIS item data",
+  "retrieved_utc": "2026-10-18T03:36:04.083942+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.arcgis.com/sharing/rest/content/items/d0329206d4cd4c2a9746c8cbe26f38e7?f=pjson",
+  "headers": {
+    "Content-Type": "text/plain;charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:36:04 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Server": "ArcGIS Online",
+    "X-Content-Type-Options": "nosniff",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "Expires": "-1",
+    "Vary": "Origin",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 b35909f0d8c90a899749b6603124ca90.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD51-P2",
+    "X-Amz-Cf-Id": "w9RIIZpXQ3w3A5bIkdr-dMmiQvYNI_eQGpbuFKD0GPtezOZokvOhLQ=="
+  },
+  "redirects": [],
+  "original_bytes": 1722,
+  "original_sha256": "30e1b0e6f2e7623a9a65820b964a63bcb72470c9035ffd3494206c79d8c6061b",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/arcitem-johnson-d0329206d4cd4c2a9746c8cbe26f38e7.body",
+      "bytes": 1722,
+      "sha256": "30e1b0e6f2e7623a9a65820b964a63bcb72470c9035ffd3494206c79d8c6061b"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256."
+}

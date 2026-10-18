@@ -1,0 +1,296 @@
+{
+  "dispatch_key": "TX:48367",
+  "county_fips": "48367",
+  "county": "Parker",
+  "rank": 25,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48367",
+    "county_fips": "48367",
+    "county": "Parker",
+    "rank": 25,
+    "priority": true,
+    "directory_label": "PARKER COUNTY",
+    "authority_role": "Elections Administrator",
+    "authority_name": "Crickett Miller",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "http://www.parkercountytx.com/index.aspx?NID=118",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48367",
+      "metadata_path": "raw/county-48367.json",
+      "request_url": "http://www.parkercountytx.com/index.aspx?NID=118",
+      "final_url": "https://www.parkercountytx.gov/118/Elections",
+      "status": 200,
+      "original_sha256": "927a6c1627503d07e0ba54a272e792d3875b47846adb4d8ab823336acb8844f5",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "sos-county-links"
+    },
+    {
+      "source_id": "county-48367-result1",
+      "metadata_path": "raw/county-48367-result1.json",
+      "request_url": "https://www.parkercountytx.gov/482/Election-Results",
+      "final_url": "https://www.parkercountytx.gov/482/Election-Results",
+      "status": 200,
+      "original_sha256": "4473775f2f758fa2f3282adbbb6fd3fa4d4c3eeac30b1fd3e42e568bf660b130",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48367"
+    },
+    {
+      "source_id": "county-48367-result1-linked1",
+      "metadata_path": "raw/county-48367-result1-linked1.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Parker/126014/",
+      "final_url": "https://results.enr.clarityelections.com/TX/Parker/126014/",
+      "status": 200,
+      "original_sha256": "6d00545d20ba03c07bff7c00cdba2f382db71831f49bab36a51b3ac9b7c8c1b6",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48367-result1"
+    },
+    {
+      "source_id": "clarity-48367-config",
+      "metadata_path": "raw/clarity-48367-config.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/config.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/config.json",
+      "status": 200,
+      "original_sha256": "78292ed41040455b998725bdda012ab0b0bd438c27d902795578de956bd7603d",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48367-version"
+    },
+    {
+      "source_id": "clarity-48367-electionsettings",
+      "metadata_path": "raw/clarity-48367-electionsettings.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/en/electionsettings.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/en/electionsettings.json",
+      "status": 200,
+      "original_sha256": "de32de64403c1feaa703849316c8ab53f794d599d47da74bef3598566d200f7b",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48367-config"
+    },
+    {
+      "source_id": "clarity-48367-summary",
+      "metadata_path": "raw/clarity-48367-summary.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/en/summary.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/en/summary.json",
+      "status": 200,
+      "original_sha256": "ac27fb49c27c935d871c4219e6fc6671ac1661d8f7d5b3f658951b3424d08bb6",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48367-config"
+    },
+    {
+      "source_id": "clarity-48367-status",
+      "metadata_path": "raw/clarity-48367-status.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/status.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/status.json",
+      "status": 200,
+      "original_sha256": "1795837aba958159035e24257b7f21f442087d34527ad8dc90634163079c3e40",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48367-config"
+    },
+    {
+      "source_id": "clarity-48367-vt",
+      "metadata_path": "raw/clarity-48367-vt.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/vt.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/vt.json",
+      "status": 200,
+      "original_sha256": "45501ed269c744c194b63532f5c9a1a8fac79e3d85c609ea1512d58f1c5a9d2b",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48367-config"
+    },
+    {
+      "source_id": "clarity-48367-details",
+      "metadata_path": "raw/clarity-48367-details.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/details.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/details.json",
+      "status": 200,
+      "original_sha256": "481b47feb8aa86bc5a02f335668a4ab40acf0a53e87552014e6fbf06eb566bee",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48367-config"
+    },
+    {
+      "source_id": "clarity-48367-vc",
+      "metadata_path": "raw/clarity-48367-vc.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/vc.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/vc.json",
+      "status": 200,
+      "original_sha256": "dade629be9bf1cb9eb9e7b6fc56f20cf7d7ff36189c72f25ddb0c5c4ad5fedf0",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48367-config"
+    }
+  ],
+  "assessment": "Official Election Results page links Clarity 126014. Actual election date 3/3/2026, separate Republican and Democratic primary Senate contests, both 46/46 reported. These nonzero primary votes are excluded from November; old scrolling link also remains.",
+  "gaps": "November county election ID and native roster unknown; old source status/method/center identities retained without crosswalk.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 184,
+    "CN": "PARKER",
+    "MID": 48184,
+    "county_fips": "48367",
+    "dispatch_key": "TX:48367",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 47.0,
+    "P": 0.0,
+    "RV": 133925.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 36.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 133925,
+    "TP": 47,
+    "TV": 0,
+    "TPR": 47
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/184",
+    "summary": "/upload/184/Summary",
+    "senate": "/upload/184/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "PARKER",
+    "id": 184,
+    "registered_voters": 133925,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 0,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48367",
+    "county_fips": "48367",
+    "county": "Parker",
+    "rank": "25",
+    "priority": "1",
+    "state_county_id": "184",
+    "state_mid": 48184,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": 129,
+    "derivative_historical_units": 138,
+    "original_historical_units": null,
+    "tlc_vtd_rows": 225,
+    "november_native_gap": "November county election ID and native roster unknown; old source status/method/center identities retained without crosswalk."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

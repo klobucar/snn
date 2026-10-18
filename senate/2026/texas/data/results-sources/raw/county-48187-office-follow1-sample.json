@@ -1,0 +1,43 @@
+{
+  "id": "county-48187-office-follow1-sample",
+  "request_url": "https://www.guadalupetx.gov/upload/page/0210/docs/2026/5-26/Official_Result-052626.pdf",
+  "parent_id": "county-48187-office-follow1",
+  "purpose": "representative published older-election source: Joint Primary Runoff Election-Election Summary Report-Official Results ",
+  "retrieval_started_utc": "2026-10-18T03:31:49.677294+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.guadalupetx.gov/upload/page/0210/docs/2026/5-26/Official_Result-052626.pdf",
+  "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Fri, 11 Sep 2026 13:35:34 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"70854e6cf241dd1:0\"",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:31:49 GMT",
+    "Content-Length": "1170486"
+  },
+  "redirects": [],
+  "original_bytes": 1170486,
+  "original_sha256": "f07436e27747b67743f4f94d7d328829363b05aeb7da8d7f3df64f481cc42399",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 663797,
+  "stored_stream_sha256": "74eea8e35af10804e5c82c1874002d5bddc188873bf865607452647f5dad4924",
+  "stored_parts": [
+    {
+      "path": "raw/county-48187-office-follow1-sample.body.gz",
+      "bytes": 663797,
+      "sha256": "74eea8e35af10804e5c82c1874002d5bddc188873bf865607452647f5dad4924"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:31:50.117228+00:00"
+}

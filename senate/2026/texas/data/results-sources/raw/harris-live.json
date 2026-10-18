@@ -1,0 +1,46 @@
+{
+  "id": "harris-live",
+  "request_url": "https://app.harrisvotes.com/electionresults/electionday",
+  "parent_id": "county-48201-result2",
+  "purpose": "actual embedded official app",
+  "retrieval_started_utc": "2026-10-18T03:27:30.433620+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://app.harrisvotes.com/electionresults/electionday",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:27:30 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "vary": "Accept-Encoding",
+    "strict-transport-security": "max-age=2592000",
+    "request-context": "appId=cid-v1:3042bf44-412b-404c-8fce-9006cf64bb44",
+    "x-powered-by": "ASP.NET",
+    "last-modified": "Sun, 18 Oct 2026 03:27:30 GMT",
+    "expires": "Sun, 18 Oct 2026 07:27:30 GMT",
+    "Cache-Control": "public, max-age=14400",
+    "cf-cache-status": "HIT",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a4c472986c23db04-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 57808,
+  "original_sha256": "6e5cc9f6089dee8e44a377e85ec56d0e1f64277eb66b0e3bead4929a149b95bf",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 9612,
+  "stored_stream_sha256": "51486de4825794f5c2d0e514d50b12c9fe6a79b45ed9dfc399379545c48818ee",
+  "stored_parts": [
+    {
+      "path": "raw/harris-live.body.gz",
+      "bytes": 9612,
+      "sha256": "51486de4825794f5c2d0e514d50b12c9fe6a79b45ed9dfc399379545c48818ee"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:30.633937+00:00"
+}

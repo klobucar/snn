@@ -1,0 +1,33 @@
+{
+  "id": "gis-travis-precincts-pre-ids",
+  "requested_url": "https://taxmaps.traviscountytx.gov/arcgis/rest/services/Precincts/MapServer/0/query?f=json&where=1%3D1&returnIdsOnly=true",
+  "parent_source_url": "https://tax-office.traviscountytx.gov/voters",
+  "retrieved_utc": "2026-10-18T03:34:36.331189+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://taxmaps.traviscountytx.gov/arcgis/rest/services/Precincts/MapServer/0/query?f=json&where=1%3D1&returnIdsOnly=true",
+  "headers": {
+    "Cache-Control": "max-age=00:00:00",
+    "Content-Length": "1447",
+    "Content-Type": "application/json; charset=UTF-8",
+    "ETag": "\"a7d204b9\"",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "Set-Cookie": "AGS_ROLES=\"419jqfa+uOZgYod4xPOQ8Q==\"; Version=1; Max-Age=60; Expires=Sun, 18 Oct 2026 03:35:36 GMT; Path=/arcgis/rest; Secure; HttpOnly, TS01d3e21d=017b105113feb8fd92eaed7d3512c9e84c6628c882dcb2319eb830933df81a21121767dcdd7574d9162e605f06690bd5f8aebdc3c1; Path=/; Domain=.taxmaps.traviscountytx.gov, TS0127cf19=017b105113feb8fd92eaed7d3512c9e84c6628c882dcb2319eb830933df81a21121767dcdd7574d9162e605f06690bd5f8aebdc3c1; path=/arcgis/rest",
+    "Date": "Sun, 18 Oct 2026 03:34:36 GMT"
+  },
+  "redirects": [],
+  "original_bytes": 1447,
+  "original_sha256": "a34dabb7e4a268109cd94da118398395f3ec2498b6920227dce5a4bb2230c106",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/gis-travis-precincts-post-ids.body",
+      "bytes": 1447,
+      "sha256": "a34dabb7e4a268109cd94da118398395f3ec2498b6920227dce5a4bb2230c106"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "reused_exact_source": "gis-travis-precincts-post-ids"
+}

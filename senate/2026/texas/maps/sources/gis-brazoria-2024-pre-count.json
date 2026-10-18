@@ -1,0 +1,36 @@
+{
+  "id": "gis-brazoria-2024-pre-count",
+  "requested_url": "https://arcgis-web.brazoriacountytx.gov/arcgis/rest/services/general/Political_Boundaries/MapServer/9/query?f=json&where=1%3D1&returnCountOnly=true",
+  "parent_source_url": "https://www.brazoriacountyclerktx.gov/departments/elections/precinct-maps",
+  "retrieved_utc": "2026-10-18T03:34:36.017807+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://arcgis-web.brazoriacountytx.gov/arcgis/rest/services/general/Political_Boundaries/MapServer/9/query?f=json&where=1%3D1&returnCountOnly=true",
+  "headers": {
+    "Cache-Control": "max-age=00:00:00",
+    "Content-Length": "12",
+    "Content-Type": "application/json; charset=UTF-8",
+    "ETag": "\"1678802457\"",
+    "Vary": "Origin",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Set-Cookie": "AGS_ROLES=\"419jqfa+uOZgYod4xPOQ8Q==\"; Version=1; Max-Age=60; Expires=Sun, 18 Oct 2026 03:35:36 GMT; Path=/arcgis/rest; HttpOnly",
+    "Strict-Transport-Security": "max-age=31356000",
+    "Date": "Sun, 18 Oct 2026 03:34:40 GMT"
+  },
+  "redirects": [],
+  "original_bytes": 12,
+  "original_sha256": "5bd49ef37ce510afa1eeeb39be066abe7002d02ef8f6186efb38ab47741b28c2",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/gis-brazoria-2024-post-count.body",
+      "bytes": 12,
+      "sha256": "5bd49ef37ce510afa1eeeb39be066abe7002d02ef8f6186efb38ab47741b28c2"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "reused_exact_source": "gis-brazoria-2024-post-count"
+}

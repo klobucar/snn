@@ -1,0 +1,41 @@
+{
+  "id": "nueces-history",
+  "request_url": "https://www.nuecesco.com/county-services/county-clerk/elections-department/election-history/-folder-126",
+  "parent_id": "county-48355",
+  "purpose": "official search-discovered archive",
+  "retrieval_started_utc": "2026-10-18T03:29:30.586764+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 403,
+  "final_url": "https://www.nuecesco.com/county-services/county-clerk/elections-department/election-history/-folder-126",
+  "headers": {
+    "Server": "AkamaiGHost",
+    "Mime-Version": "1.0",
+    "Content-Type": "text/html",
+    "Content-Length": "524",
+    "X-Reference-Error": "18.92291eb8.1792294170.9551cd8",
+    "Cache-Control": "max-age=0, max-age=0, no-cache, no-store",
+    "Expires": "Sun, 18 Oct 2026 03:29:30 GMT",
+    "Date": "Sun, 18 Oct 2026 03:29:30 GMT",
+    "Connection": "close",
+    "Server-Timing": "cdn-cache; desc=HIT, edge; dur=1, ak_p; desc=\"1792294170841_3088984466_156572888_19_14664_9_0_-\";dur=1"
+  },
+  "redirects": [],
+  "original_bytes": 524,
+  "original_sha256": "fd47b0eb62c5cd898154b568016d820f63b0de9f63adb8eaf87125ec183ea791",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 319,
+  "stored_stream_sha256": "896c2c37503c3b2485bbdacbb023f08630aaa3e019cfff9cb103189f73e0f013",
+  "stored_parts": [
+    {
+      "path": "raw/nueces-history.body.gz",
+      "bytes": 319,
+      "sha256": "896c2c37503c3b2485bbdacbb023f08630aaa3e019cfff9cb103189f73e0f013"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:29:30.779094+00:00"
+}

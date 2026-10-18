@@ -1,0 +1,51 @@
+{
+  "id": "clarity-48367-version",
+  "request_url": "https://results.enr.clarityelections.com/TX/Parker/126014/current_ver.txt",
+  "parent_id": "county-48367-result1-linked1",
+  "purpose": "version literal public route from inspected bundle",
+  "retrieval_started_utc": "2026-10-18T03:32:50.568304+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Parker/126014/current_ver.txt",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "text/plain; charset=utf-8",
+    "Content-Length": "6",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:32:50 GMT",
+    "X-GG-Cache-Status": "MISS",
+    "Last-Modified": "Tue, 10 Mar 2026 18:23:35 GMT",
+    "Expires": "Sun, 18 Oct 2026 03:32:50 GMT",
+    "Cache-Control": "max-age=0, no-cache",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"69b061a7-6\"",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 dc3bc2dd1f151417f0c9932a954494e2.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "TONQlF7bWpUWfzMt__Fu4Og78L-AeFy9XvbhBdCpOUaE2aiWOSKRow==",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 6,
+  "original_sha256": "180562d31478bf21c50cdbcf60d7da8485dcf4d2ed5b03ec7f5b22c593e0fe14",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 26,
+  "stored_stream_sha256": "59290ed8b149bfd4419b0b7dabba289a3b95616078692e0f47d63bdeaf7bb071",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48367-version.body.gz",
+      "bytes": 26,
+      "sha256": "59290ed8b149bfd4419b0b7dabba289a3b95616078692e0f47d63bdeaf7bb071"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:32:50.669213+00:00"
+}

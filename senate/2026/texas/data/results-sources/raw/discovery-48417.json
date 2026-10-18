@@ -1,0 +1,42 @@
+{
+  "id": "discovery-48417",
+  "request_url": "https://www.shackelfordcounty.org/page/shackelford.Elections",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:20.238506+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.shackelfordcounty.org/page/shackelford.Elections",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Set-Cookie": "ASP.NET_SessionId=b32zajgg1fhvk1szqp01khuk; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:34:20 GMT",
+    "Content-Length": "37033"
+  },
+  "redirects": [],
+  "original_bytes": 37033,
+  "original_sha256": "1046e64b001d774388c6f9cda43357f89ad15e354ef330d7a93989c7396c6054",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 8877,
+  "stored_stream_sha256": "1fbd1001eeb1848c63939d0aefed422bc48e25bf52556bb7e33bd91d3e120b9b",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48417.body.gz",
+      "bytes": 8877,
+      "sha256": "1fbd1001eeb1848c63939d0aefed422bc48e25bf52556bb7e33bd91d3e120b9b"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:21.429163+00:00"
+}

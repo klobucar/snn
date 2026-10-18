@@ -1,0 +1,51 @@
+{
+  "id": "clarity-48027-version",
+  "request_url": "https://results.enr.clarityelections.com/TX/Bell/126390/current_ver.txt",
+  "parent_id": "county-48027-result2",
+  "purpose": "bundle getBaseUri plus Version literal; ID from actual county link",
+  "retrieval_started_utc": "2026-10-18T03:30:10.615799+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Bell/126390/current_ver.txt",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "text/plain; charset=utf-8",
+    "Content-Length": "6",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:30:10 GMT",
+    "X-GG-Cache-Status": "MISS",
+    "Last-Modified": "Fri, 09 Oct 2026 14:37:46 GMT",
+    "Expires": "Sun, 18 Oct 2026 03:30:10 GMT",
+    "Cache-Control": "max-age=0, no-cache",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"6ac8fc3a-6\"",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 e10f0b32dbf391842a3cc42e46640810.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "fGP55tjDe3Xs6ehTloVcNV71VfpK48tlTbMnNcmQoCn4pPCnswYiyw==",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 6,
+  "original_sha256": "e566a5c387e78a630f2bb4fa46ee995b640b59fab0bc1bf032d2fb9db7de11d5",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 26,
+  "stored_stream_sha256": "0c8da06cbfd3fc8d0f057aba96bd4474b117da4f791932f3e2d7e5b7591d6f7c",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48027-version.body.gz",
+      "bytes": 26,
+      "sha256": "0c8da06cbfd3fc8d0f057aba96bd4474b117da4f791932f3e2d7e5b7591d6f7c"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:30:10.710103+00:00"
+}

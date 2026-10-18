@@ -1,0 +1,17 @@
+{
+  "id": "discovery-48345",
+  "request_url": "https://www.co.motley.tx.us/page/motley.Elections",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:21.429656+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": null,
+  "final_url": null,
+  "body_complete": false,
+  "error": "ConnectionError: HTTPSConnectionPool(host='www.co.motley.tx.us', port=443): Max retries exceeded with url: /page/motley.Elections (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x106880950>: Failed to resolve 'www.co.motley.tx.us' ([Errno 8] nodename nor servname provided, or not known)\"))",
+  "retrieval_finished_utc": "2026-10-18T03:34:24.163908+00:00"
+}

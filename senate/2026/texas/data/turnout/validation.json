@@ -1,0 +1,89 @@
+{
+  "status": "pass",
+  "source_payloads_and_hashes_verified": 232,
+  "primary_contests": {
+    "senate": {
+      "source_id": "sos-2024-canvass-archive",
+      "candidates": 5,
+      "candidate_votes": 11291854,
+      "all_county_candidate_control": "pass"
+    },
+    "president": {
+      "source_id": "sos-2024-canvass-archive",
+      "candidates": 10,
+      "candidate_votes": 11388674,
+      "all_county_candidate_control": "pass"
+    },
+    "senate_2020": {
+      "source_id": "sos2020-state-20210510",
+      "candidates": 5,
+      "candidate_votes": 11144040,
+      "all_county_candidate_control": "pass"
+    },
+    "governor_2022": {
+      "source_id": "sos2022-state-20230627",
+      "candidates": 6,
+      "candidate_votes": 8102908,
+      "all_county_candidate_control": "pass"
+    }
+  },
+  "county_rows": 254,
+  "candidate_county_cells": 6604,
+  "primary_county_native_labels": 254,
+  "full_rank_and_exact_integer_minimum80": "pass",
+  "top15_votes": 7369697,
+  "minimum80_count": 34,
+  "minimum80_votes": 9076868,
+  "preceding_set_votes": 9018686,
+  "remainder_votes": 2214986,
+  "native_raw_replay": {
+    "2024": {
+      "selected_rows": 157929,
+      "inventory_keys": 10786,
+      "source_row_replay": "pass"
+    },
+    "2022": {
+      "selected_rows": 35995,
+      "inventory_keys": 5055,
+      "source_row_replay": "pass"
+    },
+    "2020": {
+      "selected_rows": 108309,
+      "inventory_keys": 15861,
+      "source_row_replay": "pass"
+    }
+  },
+  "primary_native_units": 4276,
+  "harris_all_unit_candidate_ballot_method_controls": "pass",
+  "original_vendor_rows_checked": 5493,
+  "original_vendor_candidate_and_ballot_method_controls": "pass",
+  "tlc_source_rows_replayed": 48560,
+  "tlc_source_county_sums": "pass",
+  "peer_shared_fields": 57404,
+  "relative_report_links_checked": [
+    "data/county-turnout.csv",
+    "data/turnout/priority-set.json",
+    "data/turnout/SCHEMA.md",
+    "data/turnout/primary-county-extraction.json",
+    "data/turnout/raw/sos2024-county-page1.png",
+    "data/turnout/raw/sos-2024-canvass-page1.png",
+    "data/turnout/primary-harris-senate-units.csv.gz",
+    "data/turnout/primary-unit-controls.json",
+    "data/turnout/native-reporting-units.csv.gz",
+    "data/turnout/native-coverage-summary.json",
+    "data/turnout/native-source-diagnostics.json",
+    "data/turnout/primary-native-units.csv.gz",
+    "data/turnout/primary-native-records.csv.gz",
+    "data/turnout/primary-native-diagnostics.json",
+    "data/turnout/original-vendor-county-comparison.csv",
+    "data/turnout/tlc-derived-vtd-units.csv.gz",
+    "data/turnout/tlc-county-reconciliation.csv",
+    "data/turnout/fetch_evidence.py",
+    "data/turnout/source-ledger.json",
+    "data/turnout/asset-manifest.json",
+    "data/turnout/validate_turnout.py",
+    "data/turnout/validation.json",
+    "data/turnout/peer-reconciliation.json"
+  ],
+  "qualification": "Validation proves exact selected county controls and faithful source-scoped finer extracts, not correctness of conflicting native source counts, complete native statewide geography, boundary matches or2026 approval."
+}

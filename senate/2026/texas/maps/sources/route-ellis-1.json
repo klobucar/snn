@@ -1,0 +1,36 @@
+{
+  "id": "route-ellis-1",
+  "requested_url": "https://elliscountytx.gov/629/Upcoming-Elections",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:33:14.703888+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://elliscountytx.gov/629/Upcoming-Elections",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "text/html; charset=utf-8",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=wfdwleacm4o3uyuzwk4dpter; path=/; HttpOnly; SameSite=Lax",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:33:14 GMT",
+    "Content-Length": "127667"
+  },
+  "redirects": [],
+  "original_bytes": 127667,
+  "original_sha256": "cde989af4c729deca50f915506ed193e1c7c56eef747c6f66a887f2e6605f4d7",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/route-ellis-1.body",
+      "bytes": 127667,
+      "sha256": "cde989af4c729deca50f915506ed193e1c7c56eef747c6f66a887f2e6605f4d7"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Ellis"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "county-48479-office-follow1",
+  "request_url": "https://www.webbcountytx.gov/867/Official-Results-2026",
+  "parent_id": "county-48479-office",
+  "purpose": "Official Results",
+  "retrieval_started_utc": "2026-10-18T03:29:30.087475+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.webbcountytx.gov/867/Official-Results-2026",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:29:30 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30",
+    "set-cookie": "__cf_bm=CbOhFLp0mRXodUFz2m1LruMBBRmwTYGlcDAHVfhRreY-1792294170.2126448-1.0.1.1-P_ajaHa8tJDeocaxNc4RVjzZ0.kcE0_gNsXI4i6daSxUVWLLxpQlWo9LX6Ry9L16udAFnaZre0cU3d7xOYrs_cR9wYMhb0cRfAgnVWjSO_7q3Qb.IPa159c1DRN2Z8wl; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.webbcountytx.gov; Expires=Sun, 18 Oct 2026 03:59:30 GMT",
+    "vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "camera=(), microphone=()",
+    "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "last-modified": "Sun, 18 Oct 2026 03:29:30 GMT",
+    "expires": "Sun, 18 Oct 2026 03:30:00 GMT",
+    "cf-cache-status": "EXPIRED",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47583dcb3eaca-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 138406,
+  "original_sha256": "5c6986133f9400f445d58a4d4d8b2cc7d61c8d9dbbb75433b4551137ee0318e6",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 25506,
+  "stored_stream_sha256": "973456bbe3d81bbb77f386310c78429c99306fdadc3d5a8e3ba144968c664b1a",
+  "stored_parts": [
+    {
+      "path": "raw/county-48479-office-follow1.body.gz",
+      "bytes": 25506,
+      "sha256": "973456bbe3d81bbb77f386310c78429c99306fdadc3d5a8e3ba144968c664b1a"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:29:30.533346+00:00"
+}

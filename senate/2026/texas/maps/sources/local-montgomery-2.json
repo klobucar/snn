@@ -1,0 +1,44 @@
+{
+  "id": "local-montgomery-2",
+  "requested_url": "https://elections.mctx.org/maps/2026/precinct_maps/AllPrecincts_2026.pdf",
+  "parent_source_url": "https://elections.mctx.org/Maps.asp",
+  "retrieved_utc": "2026-10-18T03:34:02.257390+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://elections.mctx.org/maps/2026/precinct_maps/AllPrecincts_2026.pdf",
+  "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Wed, 04 Feb 2026 16:27:40 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"3a37d32ef395dc1:0\"",
+    "Server": "Microsoft-IIS/8.5",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sun, 18 Oct 2026 03:33:58 GMT",
+    "Content-Length": "75537751"
+  },
+  "redirects": [],
+  "original_bytes": 75537751,
+  "original_sha256": "d49ac73e0a20653cecd3605155d8165869b06767632f212c5128cea8f76b333f",
+  "storage_encoding": "gzip",
+  "stored_parts": [
+    {
+      "path": "originals/local-montgomery-2.pdf.gz.part001",
+      "bytes": 32000000,
+      "sha256": "f92ddf49a29501b1d0dfc6b1a8aec92f30d5f7323bb88d0925823761818630ed"
+    },
+    {
+      "path": "originals/local-montgomery-2.pdf.gz.part002",
+      "bytes": 32000000,
+      "sha256": "4578dde3f97b354dff1e3a63bf0bc97bd3f88f521b1dc86b924b97b3e8b12070"
+    },
+    {
+      "path": "originals/local-montgomery-2.pdf.gz.part003",
+      "bytes": 8415873,
+      "sha256": "e4d3b5ce46cf67784ba04d226e47daffbbe8f15b25536e909ef55dce16aad8f1"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Montgomery",
+  "advertised_title": "All Precincts in One PDF"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "route-brazoria-1",
+  "requested_url": "https://www.brazoriacountyclerktx.gov/departments/elections/precinct-maps",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:33:13.208107+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.brazoriacountyclerktx.gov/departments/elections/precinct-maps",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Last-Modified": "Sun, 18 Oct 2026 03:33:13 GMT",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000;",
+    "X-XSS-Protection": "1; mode=block",
+    "Expect-CT": "max-age=31536000",
+    "Last-Published": "Sun, 22 Feb 2026 20:16:47 GMT",
+    "Edge-Cache-Tag": "1555A8A6.G,1555A8A6.P185,1555A8A6.CMENU,1555A8A6.CL3",
+    "GranicusServer": "gasap-viscmse1",
+    "X-Akamai-Transformed": "9 22025 0 pmb=mRUM,1",
+    "Vary": "Accept-Encoding",
+    "Cache-Control": "public, max-age=86400",
+    "Expires": "Mon, 19 Oct 2026 03:33:13 GMT",
+    "Date": "Sun, 18 Oct 2026 03:33:13 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive, Transfer-Encoding",
+    "Set-Cookie": "ASP.NET_SessionId=4joqaigppsb4edghysy0uqof; path=/; secure; HttpOnly; SameSite=Lax, ASP.NET_SessionId=4joqaigppsb4edghysy0uqof; path=/; secure; HttpOnly; SameSite=Lax, ShowTopTips=True; expires=Sun, 18-Oct-2026 21:33:13 GMT; path=/; secure; HttpOnly, ShowTopTipsPublishDate=639208537214630000; expires=Sun, 18-Oct-2026 21:33:13 GMT; path=/; secure; HttpOnly, __RequestVerificationToken=_XryVwFcH0oLRZjuz79CLz_uuU46dFVmm8j_SToWOKK12Sf3fqdn4TzE_5KS4RGXpK5cXKG9scGZ-BmtQpasjZzLAHvu6yC737Nxz-YA61A1; path=/; secure; HttpOnly, BIGipServer~AUTO-VISION-PROD~visionlive~www.brazoriacountyclerktx.gov_443=!XJXv8xLZJLaoVbKndi9M08NkPzUn6gdIHqHcfv0fH+1kpVmZxik/WUJJS1+3rqOhru9pJNC4OsDByQ==; path=/; Httponly; Secure",
+    "Server-Timing": "cdn-cache; desc=MISS, edge; dur=59, origin; dur=392, ak_p; desc=\"1792294393339_3088984487_149577430_45084_12481_10_22_-\";dur=1"
+  },
+  "redirects": [],
+  "original_bytes": 113939,
+  "original_sha256": "f48d47f6813c3f220939e95387f4f2921d311ac2b7a5904c43453c1c75f325fe",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/route-brazoria-1.body",
+      "bytes": 113939,
+      "sha256": "f48d47f6813c3f220939e95387f4f2921d311ac2b7a5904c43453c1c75f325fe"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Brazoria"
+}

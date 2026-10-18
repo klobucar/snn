@@ -1,0 +1,83 @@
+{
+  "id": "county-48157",
+  "request_url": "https://www.fortbendcountytx.gov/government/departments/county-services/elections-voter-registration",
+  "parent_id": "sos-county-links",
+  "purpose": "Fort Bend official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:33.167816+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:26:34 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Content-Length": "40027",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "Cache-Control": "must-revalidate, no-cache, private",
+    "x-drupal-dynamic-cache": "UNCACHEABLE",
+    "x-ua-compatible": "IE=edge",
+    "content-language": "en",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "expires": "Sun, 19 Nov 1978 05:00:00 GMT",
+    "x-generator": "Drupal 9 (https://www.drupal.org)",
+    "vary": "Accept-Encoding",
+    "Content-Encoding": "gzip",
+    "x-request-id": "v-b7c9a888-caa3-11f1-b18c-0343d4ce01c4",
+    "x-ah-environment": "prod",
+    "Age": "0",
+    "via": "varnish",
+    "x-cache": "MISS",
+    "Accept-Ranges": "bytes",
+    "cf-cache-status": "DYNAMIC",
+    "CF-RAY": "a4c47134688aeb5a-ORD"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://www.fortbendcountytx.gov/government/departments/county-services/elections-voter-registration",
+      "headers": {
+        "Date": "Sun, 18 Oct 2026 03:26:33 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Content-Length": "29869",
+        "Connection": "keep-alive",
+        "Server": "cloudflare",
+        "location": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration",
+        "x-redirect-id": "631",
+        "x-ua-compatible": "IE=edge",
+        "content-language": "en",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-generator": "Drupal 9 (https://www.drupal.org)",
+        "x-drupal-cache": "MISS",
+        "x-request-id": "v-b7a7ae72-caa3-11f1-b66d-e33956af08d8",
+        "x-ah-environment": "prod",
+        "Cache-Control": "max-age=900, public",
+        "Age": "0",
+        "via": "varnish",
+        "x-cache": "MISS",
+        "cf-cache-status": "DYNAMIC",
+        "set-cookie": "__cf_bm=B_HrNi2d_M_9HB2y0OPTsxbTOwz97V.BwaWI1ky7VNA-1792293993.3306446-1.0.1.1-f5.sPZla36XUxImaaHAGm5QH4jwmRRStQN9COPI0q8k89IbB.6DuKuiEib8Z3uloYjMtQi_jpQ9MfxsXIzc0zo4f.m7leOLowGvzWONucclOOFxmmfdGQorveGd8HbSu; HttpOnly; SameSite=None; Secure; Path=/; Domain=fortbendcountytx.gov; Expires=Sun, 18 Oct 2026 03:56:33 GMT",
+        "CF-RAY": "a4c471324c16eb5a-ORD"
+      }
+    }
+  ],
+  "original_bytes": 192175,
+  "original_sha256": "e62efad7d98d89cda01542aa25b555436dfd530e95b4388328240db77111dc73",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 39535,
+  "stored_stream_sha256": "3d26707dcd8c369bdea47671f26283d265ff1a981bb680a7d8e5ea9b4cd3eac0",
+  "stored_parts": [
+    {
+      "path": "raw/county-48157.body.gz",
+      "bytes": 39535,
+      "sha256": "3d26707dcd8c369bdea47671f26283d265ff1a981bb680a7d8e5ea9b4cd3eac0"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:34.585468+00:00"
+}

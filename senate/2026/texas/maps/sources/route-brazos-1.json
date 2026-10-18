@@ -1,0 +1,49 @@
+{
+  "id": "route-brazos-1",
+  "requested_url": "https://elections.brazoscountytx.gov/",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:33:14.735069+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://elections.brazoscountytx.gov/",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:33:14 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}",
+    "CF-Ray": "a4c47affe9ac344d-ORD",
+    "CF-Cache-Status": "HIT",
+    "Age": "105365",
+    "Cache-Control": "public, max-age=0, s-maxage=2592000",
+    "Last-Modified": "Fri, 16 Oct 2026 22:17:09 GMT",
+    "Link": "<https://elections.brazoscountytx.gov/wp-json/>; rel=\"https://api.w.org/\", <https://elections.brazoscountytx.gov/wp-json/wp/v2/pages/1194>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://elections.brazoscountytx.gov/>; rel=shortlink",
+    "Server": "cloudflare",
+    "Vary": "Accept-Encoding",
+    "Ki-CF-Cache-Status": "HIT",
+    "X-Content-Type-Options": "nosniff",
+    "X-Edge-Location-Klb": "1",
+    "ki-Cache-Tag": "0111ab0b-a027-4c2f-8c96-caa239f650f5,f704bb261b43906606c11d3199158282bb064e5598d4018481ff385563becd9f",
+    "ki-cache-type": "Edge",
+    "ki-edge": "v=28.5.1;mv=99.9.9",
+    "ki-origin": "g1p",
+    "x-kinsta-cache": "HIT",
+    "set-cookie": "__cf_bm=Q4Y8F0qGgmGuqTxkMGJKBpceLBedM6w8KkaNxzftCkQ-1792294394.8669019-1.0.1.1-SEiZOoYO_vMuoAtXJ5LrZZshsbbkH13su9DB0JMPil4vhZDVPFdHmCIq2y.1MQZin_u28wm_qePAyIGTHjAhZQ1efXl_BAojChR3nk_Ty3aKYAm5WESxic9WBSL4a9Kn; HttpOnly; SameSite=None; Secure; Path=/; Domain=elections.brazoscountytx.gov; Expires=Sun, 18 Oct 2026 04:03:14 GMT",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=G3dqL10qWP%2Ft6fLccwI56%2BZD7QaKFCovFtUEdWAUucJlqzxmHZjjDTv2218w0hYwij9IoNu9UdA4kTvxLlWRUDlXgfRVZMnWUWdXtcBR8TW50wP71YnqYZG9SbgtkZNgbPoZM8E7wwyYwGMDKU0%3D\"}]}",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "redirects": [],
+  "original_bytes": 110018,
+  "original_sha256": "4a8bf88b8abc25f5be31c5cc8df24e1a13e90753050fca4cd4b5828008dbe514",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/route-brazos-1.body",
+      "bytes": 110018,
+      "sha256": "4a8bf88b8abc25f5be31c5cc8df24e1a13e90753050fca4cd4b5828008dbe514"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Brazos"
+}

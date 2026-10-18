@@ -1,0 +1,47 @@
+{
+  "id": "sos-advisory-index",
+  "request_url": "https://www.sos.texas.gov/elections/laws/election-division-advisories.shtml",
+  "parent_id": "sos-elections",
+  "purpose": "actual advisory index discovered on official site",
+  "retrieval_started_utc": "2026-10-18T03:30:10.482498+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.sos.texas.gov/elections/laws/election-division-advisories.shtml",
+  "headers": {
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "AmazonS3",
+    "Date": "Sun, 18 Oct 2026 03:30:11 GMT",
+    "Last-Modified": "Sat, 17 Oct 2026 14:48:34 GMT",
+    "Content-Encoding": "gzip",
+    "x-amz-server-side-encryption": "AES256",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "x-amz-version-id": "OcrwCZn6u6w0OVu5l9z15Dh1x7MayjO_",
+    "ETag": "W/\"b50613f5efc0876360b62e99ab18f08a\"",
+    "Vary": "Accept-Encoding",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 84d62fe4c750323757fd116b856baee2.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P11",
+    "X-Amz-Cf-Id": "wirrPjdGKZfZLycoy2olojkex0Lp27tu0pvOcOLXBSWn4MAdqnAXKg=="
+  },
+  "redirects": [],
+  "original_bytes": 137616,
+  "original_sha256": "526da1f68424dd88ac0b1cc277944ab2fd42d664fdb814270fd0dbb1090f03ec",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 17699,
+  "stored_stream_sha256": "d55926bdbc391de090a007f9492e2088feed2a53665feb7beebf8bd9f2cc464c",
+  "stored_parts": [
+    {
+      "path": "raw/sos-advisory-index.body.gz",
+      "bytes": 17699,
+      "sha256": "d55926bdbc391de090a007f9492e2088feed2a53665feb7beebf8bd9f2cc464c"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:30:10.781140+00:00"
+}

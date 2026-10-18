@@ -1,0 +1,440 @@
+{
+  "layers": [
+    {
+      "id": "bell-2022",
+      "county": "Bell",
+      "county_fips": "48027",
+      "source_audit": "gis/bell-2022-audit.json",
+      "features": 72,
+      "vertices": 8014,
+      "native_id_field": "EP",
+      "duplicate_native_ids": {},
+      "geometry_issues": [],
+      "true_curve_count": 0,
+      "actual_point_dimensions": {
+        "2": 8014
+      },
+      "advertised_hasZ": false,
+      "advertised_hasM": false,
+      "requested_returnZ": true,
+      "requested_returnM": true,
+      "requested_returnTrueCurves": true,
+      "axis_order": [
+        {
+          "name": "Easting",
+          "direction": "east",
+          "unit": "metre"
+        },
+        {
+          "name": "Northing",
+          "direction": "north",
+          "unit": "metre"
+        }
+      ],
+      "preview": "previews/gis-bell-2022.png",
+      "preview_operation": "Native projected x/y to image pixels, all source rings drawn; Z/M ignored in display only; curves excluded and listed, source unchanged.",
+      "geographic_bounds_check": {
+        "transformer": "Inverse of Popular Visualisation Pseudo-Mercator + axis order change (2D)",
+        "always_xy": true,
+        "observed_lonlat_bbox": [
+          -97.91385068623231,
+          30.75236799665713,
+          -97.07006313985883,
+          31.320204596752077
+        ]
+      },
+      "approval": "Unknown for November2026; Hays VTD field remains literally VTD, no Census/TLC equivalence assumed."
+    },
+    {
+      "id": "bexar-voter",
+      "county": "Bexar",
+      "county_fips": "48029",
+      "source_audit": "gis/bexar-voter-audit.json",
+      "features": 806,
+      "vertices": 112882,
+      "native_id_field": "NAME",
+      "duplicate_native_ids": {},
+      "geometry_issues": [],
+      "true_curve_count": 0,
+      "actual_point_dimensions": {
+        "2": 112882
+      },
+      "advertised_hasZ": null,
+      "advertised_hasM": null,
+      "requested_returnZ": true,
+      "requested_returnM": true,
+      "requested_returnTrueCurves": true,
+      "axis_order": [
+        {
+          "name": "Easting",
+          "direction": "east",
+          "unit": "US survey foot"
+        },
+        {
+          "name": "Northing",
+          "direction": "north",
+          "unit": "US survey foot"
+        }
+      ],
+      "preview": "previews/gis-bexar-voter.png",
+      "preview_operation": "Native projected x/y to image pixels, all source rings drawn; Z/M ignored in display only; curves excluded and listed, source unchanged.",
+      "geographic_bounds_check": {
+        "transformer": "Inverse of SPCS83 Texas South Central zone (US survey foot) + NAD83 to WGS 84 (1) + axis order change (2D)",
+        "always_xy": true,
+        "observed_lonlat_bbox": [
+          -98.80674305115426,
+          29.11453966790447,
+          -98.11658371334441,
+          29.760580682128488
+        ]
+      },
+      "approval": "Unknown for November2026; Hays VTD field remains literally VTD, no Census/TLC equivalence assumed."
+    },
+    {
+      "id": "brazoria-2024",
+      "county": "Brazoria",
+      "county_fips": "48039",
+      "source_audit": "gis/brazoria-2024-audit.json",
+      "features": 80,
+      "vertices": 29477,
+      "native_id_field": "PRECINCT",
+      "duplicate_native_ids": {},
+      "geometry_issues": [
+        {
+          "object_id": 23,
+          "native_id": "24.0",
+          "reason": "Ring Self-intersection[-10618978.5105397 3380804.21335621]"
+        }
+      ],
+      "true_curve_count": 0,
+      "actual_point_dimensions": {
+        "2": 29477
+      },
+      "advertised_hasZ": null,
+      "advertised_hasM": null,
+      "requested_returnZ": true,
+      "requested_returnM": true,
+      "requested_returnTrueCurves": true,
+      "axis_order": [
+        {
+          "name": "Easting",
+          "direction": "east",
+          "unit": "metre"
+        },
+        {
+          "name": "Northing",
+          "direction": "north",
+          "unit": "metre"
+        }
+      ],
+      "preview": "previews/gis-brazoria-2024.png",
+      "preview_operation": "Native projected x/y to image pixels, all source rings drawn; Z/M ignored in display only; curves excluded and listed, source unchanged.",
+      "geographic_bounds_check": {
+        "transformer": "Inverse of Popular Visualisation Mercator + Ballpark geographic offset from Popular Visualisation CRS to WGS 84 + axis order change (2D)",
+        "always_xy": true,
+        "observed_lonlat_bbox": [
+          -95.87403510845604,
+          28.824297999744193,
+          -95.05650589826854,
+          29.59912116562396
+        ]
+      },
+      "approval": "Unknown for November2026; Hays VTD field remains literally VTD, no Census/TLC equivalence assumed."
+    },
+    {
+      "id": "brazoria-2026",
+      "county": "Brazoria",
+      "county_fips": "48039",
+      "source_audit": "gis/brazoria-2026-audit.json",
+      "features": 84,
+      "vertices": 29156,
+      "native_id_field": "PRECINCT",
+      "duplicate_native_ids": {},
+      "geometry_issues": [
+        {
+          "object_id": 22,
+          "native_id": "24.0",
+          "reason": "Ring Self-intersection[-10618978.5105397 3380804.21335621]"
+        }
+      ],
+      "true_curve_count": 0,
+      "actual_point_dimensions": {
+        "2": 29156
+      },
+      "advertised_hasZ": null,
+      "advertised_hasM": null,
+      "requested_returnZ": true,
+      "requested_returnM": true,
+      "requested_returnTrueCurves": true,
+      "axis_order": [
+        {
+          "name": "Easting",
+          "direction": "east",
+          "unit": "metre"
+        },
+        {
+          "name": "Northing",
+          "direction": "north",
+          "unit": "metre"
+        }
+      ],
+      "preview": "previews/gis-brazoria-2026.png",
+      "preview_operation": "Native projected x/y to image pixels, all source rings drawn; Z/M ignored in display only; curves excluded and listed, source unchanged.",
+      "geographic_bounds_check": {
+        "transformer": "Inverse of Popular Visualisation Mercator + Ballpark geographic offset from Popular Visualisation CRS to WGS 84 + axis order change (2D)",
+        "always_xy": true,
+        "observed_lonlat_bbox": [
+          -95.87403510845604,
+          28.824297999744193,
+          -95.05650589826854,
+          29.59912116562396
+        ]
+      },
+      "approval": "Unknown for November2026; Hays VTD field remains literally VTD, no Census/TLC equivalence assumed."
+    },
+    {
+      "id": "fort-bend-2022",
+      "county": "Fort Bend",
+      "county_fips": "48157",
+      "source_audit": "gis/fort-bend-2022-audit.json",
+      "features": 175,
+      "vertices": 25811,
+      "native_id_field": "NAME",
+      "duplicate_native_ids": {},
+      "geometry_issues": [],
+      "true_curve_count": 0,
+      "actual_point_dimensions": {
+        "2": 25811
+      },
+      "advertised_hasZ": null,
+      "advertised_hasM": null,
+      "requested_returnZ": true,
+      "requested_returnM": true,
+      "requested_returnTrueCurves": true,
+      "axis_order": [
+        {
+          "name": "Easting",
+          "direction": "east",
+          "unit": "US survey foot"
+        },
+        {
+          "name": "Northing",
+          "direction": "north",
+          "unit": "US survey foot"
+        }
+      ],
+      "preview": "previews/gis-fort-bend-2022.png",
+      "preview_operation": "Native projected x/y to image pixels, all source rings drawn; Z/M ignored in display only; curves excluded and listed, source unchanged.",
+      "geographic_bounds_check": {
+        "transformer": "Inverse of SPCS83 Texas South Central zone (US survey foot) + NAD83(2011) to WGS 84 (1) + axis order change (2D)",
+        "always_xy": true,
+        "observed_lonlat_bbox": [
+          -96.08662517778826,
+          29.263279095031496,
+          -95.42368228192008,
+          29.787846587528726
+        ]
+      },
+      "approval": "Unknown for November2026; Hays VTD field remains literally VTD, no Census/TLC equivalence assumed."
+    },
+    {
+      "id": "fort-bend-2025",
+      "county": "Fort Bend",
+      "county_fips": "48157",
+      "source_audit": "gis/fort-bend-2025-audit.json",
+      "features": 201,
+      "vertices": 29244,
+      "native_id_field": "NAME",
+      "duplicate_native_ids": {},
+      "geometry_issues": [],
+      "true_curve_count": 0,
+      "actual_point_dimensions": {
+        "2": 29244
+      },
+      "advertised_hasZ": null,
+      "advertised_hasM": null,
+      "requested_returnZ": true,
+      "requested_returnM": true,
+      "requested_returnTrueCurves": true,
+      "axis_order": [
+        {
+          "name": "Easting",
+          "direction": "east",
+          "unit": "US survey foot"
+        },
+        {
+          "name": "Northing",
+          "direction": "north",
+          "unit": "US survey foot"
+        }
+      ],
+      "preview": "previews/gis-fort-bend-2025.png",
+      "preview_operation": "Native projected x/y to image pixels, all source rings drawn; Z/M ignored in display only; curves excluded and listed, source unchanged.",
+      "geographic_bounds_check": {
+        "transformer": "Inverse of SPCS83 Texas South Central zone (US survey foot) + NAD83(2011) to WGS 84 (1) + axis order change (2D)",
+        "always_xy": true,
+        "observed_lonlat_bbox": [
+          -96.08663298773304,
+          29.263284223061625,
+          -95.42368927146835,
+          29.788300255003236
+        ]
+      },
+      "approval": "Unknown for November2026; Hays VTD field remains literally VTD, no Census/TLC equivalence assumed."
+    },
+    {
+      "id": "hays-2026",
+      "county": "Hays",
+      "county_fips": "48209",
+      "source_audit": "gis/hays-2026-audit.json",
+      "features": 88,
+      "vertices": 26805,
+      "native_id_field": "VTD",
+      "duplicate_native_ids": {},
+      "geometry_issues": [
+        {
+          "object_id": 4,
+          "native_id": "337",
+          "reason": "Ring Self-intersection[2231432.92478521 13957625.6735006]"
+        }
+      ],
+      "true_curve_count": 0,
+      "actual_point_dimensions": {
+        "2": 26805
+      },
+      "advertised_hasZ": false,
+      "advertised_hasM": false,
+      "requested_returnZ": true,
+      "requested_returnM": true,
+      "requested_returnTrueCurves": true,
+      "axis_order": [
+        {
+          "name": "Easting",
+          "direction": "east",
+          "unit": "US survey foot"
+        },
+        {
+          "name": "Northing",
+          "direction": "north",
+          "unit": "US survey foot"
+        }
+      ],
+      "preview": "previews/gis-hays-2026.png",
+      "preview_operation": "Native projected x/y to image pixels, all source rings drawn; Z/M ignored in display only; curves excluded and listed, source unchanged.",
+      "geographic_bounds_check": {
+        "transformer": "Inverse of SPCS83 Texas South Central zone (US survey foot) + NAD83 to WGS 84 (1) + axis order change (2D)",
+        "always_xy": true,
+        "observed_lonlat_bbox": [
+          -98.29838857755554,
+          29.75260757339794,
+          -97.70841231646715,
+          30.355650071368462
+        ]
+      },
+      "approval": "Unknown for November2026; Hays VTD field remains literally VTD, no Census/TLC equivalence assumed."
+    },
+    {
+      "id": "johnson-2022",
+      "county": "Johnson",
+      "county_fips": "48251",
+      "source_audit": "gis/johnson-2022-audit.json",
+      "features": 50,
+      "vertices": 20420,
+      "native_id_field": "DISTRICT",
+      "duplicate_native_ids": {},
+      "geometry_issues": [],
+      "true_curve_count": 0,
+      "actual_point_dimensions": {
+        "3": 20420
+      },
+      "advertised_hasZ": true,
+      "advertised_hasM": false,
+      "requested_returnZ": true,
+      "requested_returnM": true,
+      "requested_returnTrueCurves": true,
+      "axis_order": [
+        {
+          "name": "Easting",
+          "direction": "east",
+          "unit": "US survey foot"
+        },
+        {
+          "name": "Northing",
+          "direction": "north",
+          "unit": "US survey foot"
+        }
+      ],
+      "preview": "previews/gis-johnson-2022.png",
+      "preview_operation": "Native projected x/y to image pixels, all source rings drawn; Z/M ignored in display only; curves excluded and listed, source unchanged.",
+      "geographic_bounds_check": {
+        "transformer": "Inverse of SPCS83 Texas North Central zone (US survey foot) + NAD83 to WGS 84 (1) + axis order change (2D)",
+        "always_xy": true,
+        "observed_lonlat_bbox": [
+          -97.61812621850433,
+          32.13436701006854,
+          -97.08448474793713,
+          32.555437423553954
+        ]
+      },
+      "approval": "Unknown for November2026; Hays VTD field remains literally VTD, no Census/TLC equivalence assumed."
+    },
+    {
+      "id": "travis-precincts",
+      "county": "Travis",
+      "county_fips": "48453",
+      "source_audit": "gis/travis-precincts-audit.json",
+      "features": 308,
+      "vertices": 65699,
+      "native_id_field": "Precinct",
+      "duplicate_native_ids": {},
+      "geometry_issues": [],
+      "true_curve_count": 0,
+      "actual_point_dimensions": {
+        "2": 65699
+      },
+      "advertised_hasZ": null,
+      "advertised_hasM": null,
+      "requested_returnZ": true,
+      "requested_returnM": true,
+      "requested_returnTrueCurves": true,
+      "axis_order": [
+        {
+          "name": "Easting",
+          "direction": "east",
+          "unit": "US survey foot"
+        },
+        {
+          "name": "Northing",
+          "direction": "north",
+          "unit": "US survey foot"
+        }
+      ],
+      "preview": "previews/gis-travis-precincts.png",
+      "preview_operation": "Native projected x/y to image pixels, all source rings drawn; Z/M ignored in display only; curves excluded and listed, source unchanged.",
+      "geographic_bounds_check": {
+        "transformer": "Inverse of SPCS83 Texas Central zone (US survey foot) + NAD83 to WGS 84 (1) + axis order change (2D)",
+        "always_xy": true,
+        "observed_lonlat_bbox": [
+          -98.1737096431878,
+          30.025992755779395,
+          -97.3682303668991,
+          30.62690302335877
+        ]
+      },
+      "approval": "Unknown for November2026; Hays VTD field remains literally VTD, no Census/TLC equivalence assumed."
+    }
+  ],
+  "features": 1864,
+  "original_zip_layers": [
+    {
+      "source_id": "extra-harris-zip-https",
+      "features": 1165,
+      "scope": "20211220 county-adopted historical precincts"
+    },
+    {
+      "source_id": "extra-galveston-city-voting",
+      "features": 96,
+      "scope": "City-published voting precinct reference; countywide completeness and current approval unverified"
+    }
+  ]
+}

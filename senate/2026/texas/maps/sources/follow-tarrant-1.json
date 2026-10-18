@@ -1,0 +1,39 @@
+{
+  "id": "follow-tarrant-1",
+  "requested_url": "https://www.tarrantcountytx.gov/en/elections/interactive-maps/voting-precinct-maps.html",
+  "parent_source_url": "Search-discovered official county publication; see county discovery routes",
+  "retrieved_utc": "2026-10-18T03:33:57.742221+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.tarrantcountytx.gov/en/elections/interactive-maps/voting-precinct-maps.html",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:33:57 GMT",
+    "Content-Type": "text/html;charset=utf-8",
+    "Content-Length": "340930",
+    "Connection": "keep-alive",
+    "Server": "Apache",
+    "X-Dispatcher": "dispatcher2useast1-b86",
+    "X-Vhost": "publish",
+    "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "X-Content-Type-Options": "nosniff",
+    "Last-Modified": "Sat, 17 Oct 2026 21:51:09 GMT",
+    "ETag": "\"533c2-65e104759d3ad\"",
+    "Accept-Ranges": "bytes",
+    "Vary": "Accept-Encoding,User-Agent",
+    "X-Frame-Options": "SAMEORIGIN"
+  },
+  "redirects": [],
+  "original_bytes": 340930,
+  "original_sha256": "0294db21ce2b6ed8ed59589d4bb4c4150acd99b052469462291cd8a19a89f0cb",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/follow-tarrant-1.body",
+      "bytes": 340930,
+      "sha256": "0294db21ce2b6ed8ed59589d4bb4c4150acd99b052469462291cd8a19a89f0cb"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Tarrant"
+}

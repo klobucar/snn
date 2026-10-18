@@ -1,0 +1,68 @@
+{
+  "id": "local-comal-5",
+  "requested_url": "https://www.comalcounty.gov/DocumentCenter/View/1127",
+  "parent_source_url": "https://www.comalcounty.gov/880/Precinct-Maps",
+  "retrieved_utc": "2026-10-18T03:34:00.756923+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.comalcounty.gov/DocumentCenter/View/1127/Notice-of-Boundary-Change-in-Precinct-305-PDF?bidId=",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:34:01 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "1828822",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "content-disposition": "inline;filename=Notice%20of%20Boundary%20Change%20in%20Precinct%20305%20%28PDF%29.pdf",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "camera=(), microphone=()",
+    "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Accept-Ranges": "bytes",
+    "last-modified": "Sun, 18 Oct 2026 03:34:01 GMT",
+    "expires": "Sun, 18 Oct 2026 03:34:31 GMT",
+    "cf-cache-status": "EXPIRED",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47c20995fe239-ORD"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://www.comalcounty.gov/DocumentCenter/View/1127",
+      "headers": {
+        "Date": "Sun, 18 Oct 2026 03:34:01 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=30",
+        "location": "/DocumentCenter/View/1127/Notice-of-Boundary-Change-in-Precinct-305-PDF?bidId=",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=()",
+        "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+        "expires": "Sun, 18 Oct 2026 03:34:31 GMT",
+        "cf-cache-status": "EXPIRED",
+        "set-cookie": "__cf_bm=WpzWgBJrtm9kmIpOf5NIliq6Gydr0cuWs.9LG9rYtIk-1792294440.9075375-1.0.1.1-wIcFF05SQKXO8Jv1bhcCPnQ6JvbD_3onaGZ5VG2pM62d10KlPWwOSIt6YIgg8tRYfPoKaEtviTHT5ZE_.dgfQ5BWaYe5rtcHTA_3xLR7VsZheTTPG2zTzsg.GvYhKu87; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.comalcounty.gov; Expires=Sun, 18 Oct 2026 04:04:01 GMT",
+        "Server": "cloudflare",
+        "CF-RAY": "a4c47c1fa8d6e239-ORD"
+      }
+    }
+  ],
+  "original_bytes": 1828822,
+  "original_sha256": "a676249e271313a1dc1d7c5993b171973020c6bc59441bd0a5d52b6c79fe64ab",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/local-comal-5.pdf",
+      "bytes": 1828822,
+      "sha256": "a676249e271313a1dc1d7c5993b171973020c6bc59441bd0a5d52b6c79fe64ab"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Comal",
+  "advertised_title": "Notice of Boundary Change in Precinct 305 (PDF)"
+}

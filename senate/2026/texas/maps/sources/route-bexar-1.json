@@ -1,0 +1,36 @@
+{
+  "id": "route-bexar-1",
+  "requested_url": "https://elections.bexar.gov/173/Voter-Precinct-Maps",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:33:11.953931+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://elections.bexar.gov/173/Voter-Precinct-Maps",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "text/html; charset=utf-8",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=diu1fclo5syw0lyd2tea5fit; path=/; secure; HttpOnly; SameSite=None",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:33:12 GMT",
+    "Content-Length": "112537"
+  },
+  "redirects": [],
+  "original_bytes": 112537,
+  "original_sha256": "82db7bbe7570a5a76df902c1d64c2e844b0b726c64aaa78ab46a3a5524fb4106",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/route-bexar-1.body",
+      "bytes": 112537,
+      "sha256": "82db7bbe7570a5a76df902c1d64c2e844b0b726c64aaa78ab46a3a5524fb4106"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Bexar"
+}

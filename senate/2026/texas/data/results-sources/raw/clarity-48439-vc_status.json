@@ -1,0 +1,52 @@
+{
+  "id": "clarity-48439-vc_status",
+  "request_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/vc_status.json",
+  "parent_id": "tarrant-clarity-main",
+  "purpose": "literal bundle file enum and nonlocalized route; current county/version from chain",
+  "retrieval_started_utc": "2026-10-18T03:31:49.468746+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/vc_status.json",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sat, 17 Oct 2026 07:46:22 GMT",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "HIT",
+    "Last-Modified": "Wed, 07 Oct 2026 16:40:37 GMT",
+    "ETag": "W/\"6ac67605-1501\"",
+    "Expires": "Sat, 17 Oct 2026 01:52:29 GMT",
+    "Cache-Control": "max-age=86400",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 4a0551ae94e22ed7f1bb37c1e336e606.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "FkeSegoIg7VSOk_6QMTtAr5juFHfIn4FB-PYcqFaYO10BFYT6crgYQ==",
+    "Age": "71127",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 5377,
+  "original_sha256": "fe4bd70f47b4e5b5fb2f93b63e751d4ce2eca17ea9fcb20169427f31d34dea26",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 557,
+  "stored_stream_sha256": "b384a9f8f145324ad83d47becaad796db4fee6966599f8f6a392eb0aeefadcbc",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48439-vc_status.body.gz",
+      "bytes": 557,
+      "sha256": "b384a9f8f145324ad83d47becaad796db4fee6966599f8f6a392eb0aeefadcbc"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:31:49.567833+00:00"
+}

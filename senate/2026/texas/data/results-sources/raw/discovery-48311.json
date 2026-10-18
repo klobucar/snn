@@ -1,0 +1,51 @@
+{
+  "id": "discovery-48311",
+  "request_url": "https://mcmullencounty.org/elections/",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:22.058902+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://mcmullencounty.org/elections/",
+  "headers": {
+    "Server": "nginx",
+    "Date": "Sun, 18 Oct 2026 03:34:22 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Vary": "Accept-Encoding, accept, content-type, cookie",
+    "Host-Header": "wpcloud",
+    "Link": "<https://cdn.gtranslate.net/>; rel=dns-prefetch, <https://mcmullencounty.org/wp-json/>; rel=\"https://api.w.org/\", <https://mcmullencounty.org/wp-json/wp/v2/pages/603>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://mcmullencounty.org/?p=603>; rel=shortlink",
+    "X-TEC-API-VERSION": "v1",
+    "X-TEC-API-ROOT": "https://mcmullencounty.org/wp-json/tribe/events/v1/",
+    "X-TEC-API-ORIGIN": "https://mcmullencounty.org",
+    "Last-Modified": "Tue, 13 Oct 2026 15:32:53 GMT",
+    "Cache-Control": "max-age=300, must-revalidate",
+    "X-nananana": "Batcache-Set",
+    "Content-Encoding": "gzip",
+    "X-ac": "34.mdw _atomic_dca STALE",
+    "X-Remembering": "Eric Binnion <https://friendsofericbinnion.wordpress.com/>",
+    "Alt-Svc": "clear",
+    "Server-Timing": "a8c-cdn, dc;desc=mdw, cache;desc=STALE;dur=3.0"
+  },
+  "redirects": [],
+  "original_bytes": 298768,
+  "original_sha256": "30f070eb45364875d2532a09fadc0fccc82875c4699fe07f8b32157a84e9837b",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 39127,
+  "stored_stream_sha256": "9bc25fe217b47e4ad8390cf54db37b44b3fcf1b1724dc4fb850e9656e352218f",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48311.body.gz",
+      "bytes": 39127,
+      "sha256": "9bc25fe217b47e4ad8390cf54db37b44b3fcf1b1724dc4fb850e9656e352218f"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:23.052106+00:00"
+}

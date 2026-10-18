@@ -1,0 +1,53 @@
+{
+  "id": "sos-november-data",
+  "request_url": "https://goelect.txelections.civixapps.com/api-ivis-system/api/s3/enr/election/53815",
+  "parent_id": "sos-election-constants",
+  "purpose": "actual November ID 53815 from constants, public bundle route",
+  "retrieval_started_utc": "2026-10-18T03:27:30.433060+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://goelect.txelections.civixapps.com/api-ivis-system/api/s3/enr/election/53815",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:27:31 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "0",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET, POST, OPTIONS, PUT, DELETE",
+    "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range",
+    "access-control-expose-headers": "Content-Length,Content-Range",
+    "access-control-allow-credentials": "true",
+    "cf-cache-status": "DYNAMIC",
+    "set-cookie": "__cf_bm=RDxtE76dlnDoa9PbJSXRh1tBKgPY.tpYcntbE_ZxBQA-1792294050.6862657-1.0.1.1-f6cO9JifPSYUwhxatnUyn0MIYeHCFX9eR09RORKlJge8jXqrZzVb9bwSmYOmBb_v6pRYylX_BMN7ZQHEw.fOLhQ7ozMQ9Lh2IvlBmcaAbkyfxY1CWOHC5FJe1etD8Uoq; HttpOnly; SameSite=None; Secure; Path=/; Domain=civixapps.com; Expires=Sun, 18 Oct 2026 03:57:31 GMT",
+    "Strict-Transport-Security": "max-age=0",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a4c47298cd0c1144-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 1613170,
+  "original_sha256": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 246354,
+  "stored_stream_sha256": "e815607c508bc11ed0071b32f2a44dd0e25d37c9988f1f088ca7b541cf80d5f9",
+  "stored_parts": [
+    {
+      "path": "raw/sos-november-data.body.gz",
+      "bytes": 246354,
+      "sha256": "e815607c508bc11ed0071b32f2a44dd0e25d37c9988f1f088ca7b541cf80d5f9"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:31.579725+00:00"
+}

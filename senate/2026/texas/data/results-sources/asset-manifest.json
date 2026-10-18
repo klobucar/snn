@@ -1,0 +1,3107 @@
+{
+  "ownership": "official-results.md; data/official-results-sources.csv; data/results-sources/** only",
+  "self_excluded": true,
+  "strict_asset_limit": 40000000,
+  "assets": [
+    {
+      "path": "data/official-results-sources.csv",
+      "bytes": 333626,
+      "sha256": "a947abbd838766aadf31dfd7cb91b41e583557a12826df608fa8654a36460eb7"
+    },
+    {
+      "path": "data/results-sources/README.md",
+      "bytes": 3049,
+      "sha256": "f227cf7d82546ae5e2ce5fe1dd8795ae5107d4136fb4c82c3b6bf2a42c8b61fd"
+    },
+    {
+      "path": "data/results-sources/SCHEMA.md",
+      "bytes": 9889,
+      "sha256": "b427f7d3216dbb1ea68a5410271ce9c275e36c76df5cad8f376e3be5e59dee18"
+    },
+    {
+      "path": "data/results-sources/assets.py",
+      "bytes": 939,
+      "sha256": "f656dad47d2208ae09f5c7b24529d8b1454254c885d6ac6b23744cfb279a1cfc"
+    },
+    {
+      "path": "data/results-sources/bounded-observations.json",
+      "bytes": 891,
+      "sha256": "b14b53d927393b2d7d34b9dcd7839a83192a295974ae46f8038574c09e400b96"
+    },
+    {
+      "path": "data/results-sources/build.py",
+      "bytes": 13242,
+      "sha256": "32526c9a19570e02c3b71d9141761ac5b2cb6dae4a28f7858693a70793ca4612"
+    },
+    {
+      "path": "data/results-sources/candidate-roster.json",
+      "bytes": 2103,
+      "sha256": "a0a95b8c2cc275b2f2bc52036283d45aec9aa7f0adf37ddd89503b285d857b20"
+    },
+    {
+      "path": "data/results-sources/certification-county-extraction.json",
+      "bytes": 60423,
+      "sha256": "be9ca18b90bd745e6b08366e372bb73ed3c9849abc03d63c8d31843bdf126205"
+    },
+    {
+      "path": "data/results-sources/code-route-evidence.json",
+      "bytes": 11203,
+      "sha256": "6c5b9a64f125c1ed512bbbb902532b7281a831fee921a6f3e2d2507efd76fe96"
+    },
+    {
+      "path": "data/results-sources/county-48041-result1-sample.txt.gz",
+      "bytes": 12247,
+      "sha256": "8e16942dae46eeceb4d8a8f8d1f865ad92af719b3883a4c08619707d213b7878"
+    },
+    {
+      "path": "data/results-sources/county-48181-office-follow1-sample.txt.gz",
+      "bytes": 97975,
+      "sha256": "1eca6e4ce53c2ae85959c3d7df58e4b1248217908502ce7d630aef5952845f91"
+    },
+    {
+      "path": "data/results-sources/county-48187-office-follow1-sample-preview.png",
+      "bytes": 84704,
+      "sha256": "ff6bd8b867c4e112ad7c2d64ffdb637b4754489e36e690ecf034394c4d5a3d9a"
+    },
+    {
+      "path": "data/results-sources/county-48187-office-follow1-sample.txt.gz",
+      "bytes": 23,
+      "sha256": "dad8ee3d68acb3dd63592b5d491d945b5d6ed904826fe4f10a182664e4d54bce"
+    },
+    {
+      "path": "data/results-sources/county-48339-result1-sample-preview.png",
+      "bytes": 838313,
+      "sha256": "0a2e657e019421f421622f872316741881c5c8e4f26ce17e98df921c09037d21"
+    },
+    {
+      "path": "data/results-sources/county-48339-result1-sample.txt.gz",
+      "bytes": 21,
+      "sha256": "4eebd54fd563c1219dbd3fa137a0558d21493a4c6be51bd1bb876291fa40a28d"
+    },
+    {
+      "path": "data/results-sources/county-48479-office-follow2-sample-preview.png",
+      "bytes": 84197,
+      "sha256": "3a315cb5248f68eb5b41e293501c673808e4ba3d8cf15ada1fabe4143fb67132"
+    },
+    {
+      "path": "data/results-sources/county-48479-office-follow2-sample.txt.gz",
+      "bytes": 23,
+      "sha256": "ea62e84b11c6c1c77a436ad1ea5a7c3530bcabd1b4911dec98dd21915977bf0d"
+    },
+    {
+      "path": "data/results-sources/county-decisions.json",
+      "bytes": 19939,
+      "sha256": "cd47f4b0381174298a53b51ce64e79c4c25f89593565a06c373f248f0069a63b"
+    },
+    {
+      "path": "data/results-sources/county-discovery.json",
+      "bytes": 151732,
+      "sha256": "f35abbd7555d18269823df846118e1fcefd42715f41b0f8e200e6844ffc1be4c"
+    },
+    {
+      "path": "data/results-sources/county-native-coverage.csv",
+      "bytes": 59459,
+      "sha256": "8d49411fa3aa84167b7cbd58cbcffb94db2603b406c51cb78c1eb54c59e504ed"
+    },
+    {
+      "path": "data/results-sources/directories.py",
+      "bytes": 2528,
+      "sha256": "2aaa857708a4ade25279cdda69fb6968aa2ca758c95b8e632706a3235cacaf22"
+    },
+    {
+      "path": "data/results-sources/fetch.py",
+      "bytes": 2636,
+      "sha256": "b49c449eb3184a2852326336d47ffa5159914019dcb975202139f4fbb83ef677"
+    },
+    {
+      "path": "data/results-sources/grayson-primary-preview.png",
+      "bytes": 147420,
+      "sha256": "9ab2a4d42d65784322b93916e516a902c8f6a0dcbdaa51271859ef6265ad2f6d"
+    },
+    {
+      "path": "data/results-sources/initial-link-index.json",
+      "bytes": 499562,
+      "sha256": "ffd7dd0ba641bcd38d23e5d38b514af5901e64d00c56d116660924df23cd3f0a"
+    },
+    {
+      "path": "data/results-sources/inspect_html.py",
+      "bytes": 1498,
+      "sha256": "3ae322fb09b3d3470c4813266c176095ba039f0af131323d997a87a05e229ff3"
+    },
+    {
+      "path": "data/results-sources/legal-source-audit.json",
+      "bytes": 50988,
+      "sha256": "c2e8c16b1eeb5bb633330c652865e278559ee3338e2e308053675977d32fd8c4"
+    },
+    {
+      "path": "data/results-sources/native-field-schemas.json",
+      "bytes": 121688,
+      "sha256": "da8ca595801613076760494e89b93db0bf90c90b45805e499073c2b326fd22d2"
+    },
+    {
+      "path": "data/results-sources/native-inventory-summary.json",
+      "bytes": 2631,
+      "sha256": "5b0f61e3621ff0c78653d2379403b8c709e3728701920b922ada2316441cc908"
+    },
+    {
+      "path": "data/results-sources/native-unit-identities.csv.gz",
+      "bytes": 151211,
+      "sha256": "425f67998803ab3e64be410739083f2deabc1995052f484252bd159f4e5c0b61"
+    },
+    {
+      "path": "data/results-sources/native-unit-observations.csv.gz",
+      "bytes": 1837859,
+      "sha256": "81e6a8ad4fa554303d85ef59099468ae99cd806fc3cab578567e9d29c3a3ad5c"
+    },
+    {
+      "path": "data/results-sources/native_inventory.py",
+      "bytes": 6042,
+      "sha256": "990f969a7ed0d78fa942cab6551c601eef9b446b24d795a006eb005ec0b04c42"
+    },
+    {
+      "path": "data/results-sources/peer-county-routes.json",
+      "bytes": 174702,
+      "sha256": "6f3291530bcc71943e56846b14646b564862a6a6c749d2c69595f0eab2111d7c"
+    },
+    {
+      "path": "data/results-sources/priority/48027.json",
+      "bytes": 9375,
+      "sha256": "cf38aadaa15953c85867c5fb0007311fcfd8d0bbce6eda3d50594fb08b29d472"
+    },
+    {
+      "path": "data/results-sources/priority/48029.json",
+      "bytes": 11038,
+      "sha256": "826ddec200562a55900b6de5e0ef7e57ebd27927dd6f8254b16b9d6e8dcb697f"
+    },
+    {
+      "path": "data/results-sources/priority/48039.json",
+      "bytes": 6396,
+      "sha256": "408a861f22073b58b4660c5161cd4617a77de3ffcf0fd2c6856c89c17e3859e1"
+    },
+    {
+      "path": "data/results-sources/priority/48041.json",
+      "bytes": 7033,
+      "sha256": "30fccff7bf136ce0409ef9134f89bc441d06dbba7d5b68f3bf481fa12128e2a0"
+    },
+    {
+      "path": "data/results-sources/priority/48061.json",
+      "bytes": 6323,
+      "sha256": "0d47e53ff265ca7d53d3641b1dcbaea863e30fa584c79173ff86c79bfcb03b0b"
+    },
+    {
+      "path": "data/results-sources/priority/48085.json",
+      "bytes": 7169,
+      "sha256": "1b3241ec0ebf0487aab1fcc0c12b8452c66b6d825f49b7f7640d1b28ffa3fd1d"
+    },
+    {
+      "path": "data/results-sources/priority/48091.json",
+      "bytes": 6886,
+      "sha256": "484b4c68b0cf2c9ddd12988504a93cda008bb69b5a764aea6d6210b991548279"
+    },
+    {
+      "path": "data/results-sources/priority/48113.json",
+      "bytes": 6336,
+      "sha256": "84aeda061f45f7519fb67c0cb51462f4d3ed4f614dacd22d084f9ab699c620bd"
+    },
+    {
+      "path": "data/results-sources/priority/48121.json",
+      "bytes": 7327,
+      "sha256": "681df7860c6abbd95ffd8c86accf79500c5fa96a8b0dcba7ddd28cfd2d3b614e"
+    },
+    {
+      "path": "data/results-sources/priority/48139.json",
+      "bytes": 6837,
+      "sha256": "727dfb7b2469cb91bb7af1198550b1638ab089ddb902124ea87a4788e3169e35"
+    },
+    {
+      "path": "data/results-sources/priority/48141.json",
+      "bytes": 11024,
+      "sha256": "406978d18b0e7a02dc1efad8ba6e3a83df46bb0d4e8fc98e36d53bad120d8096"
+    },
+    {
+      "path": "data/results-sources/priority/48157.json",
+      "bytes": 11280,
+      "sha256": "f44106d55700e862f9061b80ec202a5506d0363f4333737d590bb47cae5c4954"
+    },
+    {
+      "path": "data/results-sources/priority/48167.json",
+      "bytes": 6297,
+      "sha256": "9cb59350fb4ae84fdba2a1b0a5ce2b39af81dda8023b463f3822221041ba25c5"
+    },
+    {
+      "path": "data/results-sources/priority/48181.json",
+      "bytes": 7619,
+      "sha256": "dbb120821c054e27cc2a0d00acec62e7e27fd08f579186e6cac25eb26dc07a7a"
+    },
+    {
+      "path": "data/results-sources/priority/48187.json",
+      "bytes": 7577,
+      "sha256": "e3d59a15ddf307101a916376427aebd3fe56f3491e646a58019be2525e479182"
+    },
+    {
+      "path": "data/results-sources/priority/48201.json",
+      "bytes": 8294,
+      "sha256": "ddd8855f4f87c81ebb69873853ce907a810593885461abed01038e17bd31e48f"
+    },
+    {
+      "path": "data/results-sources/priority/48209.json",
+      "bytes": 6656,
+      "sha256": "3827325bf4394ad02d41e6fc13fce406107a4ab63c3e1380db42873a4a250b16"
+    },
+    {
+      "path": "data/results-sources/priority/48215.json",
+      "bytes": 6361,
+      "sha256": "526c8ad58182b0741b7409f0bd65bcf02e5db89071cc2ab9d42b508afbb9ea6f"
+    },
+    {
+      "path": "data/results-sources/priority/48245.json",
+      "bytes": 6508,
+      "sha256": "f0543afcbb23aa464bf133344e53e1b640f210e8a19c9694a8111ce8c75f4052"
+    },
+    {
+      "path": "data/results-sources/priority/48251.json",
+      "bytes": 6909,
+      "sha256": "2949021db17ba369efda78c953ff72c2056c75b0e159584c98eccfe2298bf75e"
+    },
+    {
+      "path": "data/results-sources/priority/48257.json",
+      "bytes": 7266,
+      "sha256": "f17fe31e4589475903928bf8d734c5cde71c657d22aff1c55c7bb8f6fc601c7b"
+    },
+    {
+      "path": "data/results-sources/priority/48303.json",
+      "bytes": 6875,
+      "sha256": "7bb9be254a69fd534ad9f259b020da81d638d40ed540050eebc5bb6818ce56a3"
+    },
+    {
+      "path": "data/results-sources/priority/48309.json",
+      "bytes": 6764,
+      "sha256": "063ed24ecba0b757979bf9eedbd020e6e2150d6ca9ab8a53f81048e485ff7cce"
+    },
+    {
+      "path": "data/results-sources/priority/48329.json",
+      "bytes": 5884,
+      "sha256": "acaf8ece9a7345cf125571ebf0578200fc9fd3afa182126f9daf4c33317682d0"
+    },
+    {
+      "path": "data/results-sources/priority/48339.json",
+      "bytes": 7116,
+      "sha256": "391f20c3ff40d17d064f2ee4feae645268c307a786a609ae16e4b525a6f8f11c"
+    },
+    {
+      "path": "data/results-sources/priority/48355.json",
+      "bytes": 6951,
+      "sha256": "8455694c2bdf3f17a3e804bc7304bcaf2d950e27b9b6cee939c11fcb96e0012a"
+    },
+    {
+      "path": "data/results-sources/priority/48367.json",
+      "bytes": 10967,
+      "sha256": "d3cf30d369666cd57a96fa36e76267ce2625b937dd2c97bb5b0af00606173d56"
+    },
+    {
+      "path": "data/results-sources/priority/48381.json",
+      "bytes": 7066,
+      "sha256": "06c7515b56bb34be1c5ca4dd7bd39b74c02a88150433699fcde34b54ae866045"
+    },
+    {
+      "path": "data/results-sources/priority/48397.json",
+      "bytes": 6331,
+      "sha256": "1d3b37583dbfcecd2418d837840fc4c89f4d3d49cc16dc3a7e4bfc9cc109c91a"
+    },
+    {
+      "path": "data/results-sources/priority/48423.json",
+      "bytes": 6956,
+      "sha256": "6b496b570ca4f1080d0c264432c7ba83950666347a4dfee930e0908fc58e9bce"
+    },
+    {
+      "path": "data/results-sources/priority/48439.json",
+      "bytes": 11827,
+      "sha256": "5cf4fb615727f170f347d628cfab36490976af2a15c55bed4eb5bb6cf43a934c"
+    },
+    {
+      "path": "data/results-sources/priority/48453.json",
+      "bytes": 6987,
+      "sha256": "6e956c2b7c187930d5bd04b3b99bcabf5ecf17736c01d295353cfab6ae1aecf1"
+    },
+    {
+      "path": "data/results-sources/priority/48479.json",
+      "bytes": 8735,
+      "sha256": "c5b5010a7acd7f3b5d7ee56f0a3332542261490bdae01476dad0cf539431ef27"
+    },
+    {
+      "path": "data/results-sources/priority/48491.json",
+      "bytes": 6851,
+      "sha256": "f75bfccc569bf4ef43db1b89eb1c74ceb2947e0e96651e84dc07fd735fc5a54e"
+    },
+    {
+      "path": "data/results-sources/priority-index.json",
+      "bytes": 3930,
+      "sha256": "bf4e848d02dfb8651b3e6f122bf615a3871a64c2cb7735ceba9a7c9999b62d9b"
+    },
+    {
+      "path": "data/results-sources/publication-link-inventory.json",
+      "bytes": 3715511,
+      "sha256": "fdab6b3f4883259f4f48705ab01e3a29d6e703b389611ec60b38543c5e6a9934"
+    },
+    {
+      "path": "data/results-sources/randall-results-sample.txt.gz",
+      "bytes": 942,
+      "sha256": "dff49cdf1cea1a1297b550d23bd98f528c7f357ad0862c8f6aca41770ba15acf"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48027-config.body.gz",
+      "bytes": 102,
+      "sha256": "6a5d09b7a87099775ed685a0ed8827539e011aa139783d64b92edb8c5b530ed5"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48027-config.json",
+      "bytes": 2152,
+      "sha256": "b83ee152dbc88541492802a2aee7b7abb943f1c8da0a9038957700a32a7dfe36"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48027-electionsettings.body.gz",
+      "bytes": 7486,
+      "sha256": "a90419c0a3292adf75f2db2c26378716a04d582bf418e648d40172cf7b095829"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48027-electionsettings.json",
+      "bytes": 2214,
+      "sha256": "d843c025d7bbae1e54f07eb7d34ed58bb636ee885e0974a9cd1beaee41a375da"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48027-pr.body.gz",
+      "bytes": 940,
+      "sha256": "83c1679681320878c9fe7775b0af323ef65df30121e21e8a2d057a61af67fa7d"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48027-pr.json",
+      "bytes": 1908,
+      "sha256": "48ed54c53c4193f6c2ee7835ebcb5e297f09fb31c7365ec0025fda3b70d55230"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48027-status.body.gz",
+      "bytes": 565,
+      "sha256": "5ab4999cbe62eedb123e1afe9b7c7a0367f466e3c2954b2c9bfb28fd689ca283"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48027-status.json",
+      "bytes": 2154,
+      "sha256": "c88bdca857d53c112faed8e214e2c34e7fa7c2cbe9aeb1215c76c76c4d131260"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48027-summary.body.gz",
+      "bytes": 1218,
+      "sha256": "75eb9fdfb5a69c70ad81355f4b5c98cd7ffc72317a35e22ad132e04f933e8c59"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48027-summary.json",
+      "bytes": 2177,
+      "sha256": "2d4a28675a56fa26317394ba0aae86226879bb55e6fa79467e22345868727013"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48027-vc.body.gz",
+      "bytes": 1964,
+      "sha256": "46ab0e2e105d403509f52657c2189b268a7d03e357fbd979c924543744adddcf"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48027-vc.json",
+      "bytes": 2141,
+      "sha256": "e943b0c9cb2e8c5fc1a9ff01c667a3f7ca6aab1eaefaecae76c416da246bba47"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48027-version.body.gz",
+      "bytes": 26,
+      "sha256": "0c8da06cbfd3fc8d0f057aba96bd4474b117da4f791932f3e2d7e5b7591d6f7c"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48027-version.json",
+      "bytes": 2155,
+      "sha256": "ea94972926530b917358ffd339b688d3396c270f69a29c4551cc58684533c2a6"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-config.json",
+      "bytes": 2221,
+      "sha256": "68f8eae3bd317e6cd0d6c3abf338e68038ceab041cc14193ecbbf35d2a296c30"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-details.body.gz",
+      "bytes": 12203,
+      "sha256": "49873e40387176f81aa13a052ed330f979975e879d67fe8e7ab6163319cb0113"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-details.json",
+      "bytes": 2222,
+      "sha256": "af60def9fbe504dffdabf75b249d22df017e7f9a036ef885a2b2282b3519a2ad"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-electionsettings.body.gz",
+      "bytes": 9817,
+      "sha256": "bc105b7571030c836c77d856ade5c543c9efccb4b26c97bd85f6ef0743fc686a"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-electionsettings.json",
+      "bytes": 2228,
+      "sha256": "69db1d3b36dfcca38007511dc8f2d08383efd818a300eaa67e35510b0f6c89c2"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-pr.json",
+      "bytes": 1960,
+      "sha256": "968acd1e2dd35d088c81e33dfd34bbd21319dd8a67816e327f9361bc6fe9c186"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-status.body.gz",
+      "bytes": 1637,
+      "sha256": "b722d092f24c2d866fd4354dda95f3815f4ffe906bbc5f79b4de19970b6f5c07"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-status.json",
+      "bytes": 2172,
+      "sha256": "a96645cb744e40659c1ebb4794c7c9b4aea87d377699f516e0804300f1490b99"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-summary.body.gz",
+      "bytes": 6025,
+      "sha256": "dc06d16527a0c1e26fc07ace2ed68570a695359fa3b00f6813b6530ad33ada3f"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-summary.json",
+      "bytes": 2194,
+      "sha256": "c1d41c43f0d1c43c8140394ca8896d051be26036b005a315d040ebdcc68f008f"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-vc.body.gz",
+      "bytes": 13438,
+      "sha256": "8ad4c1ef39a1495c41218eb90ab4c82a5ba8531b92140f7000dddeaf27c62890"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-vc.json",
+      "bytes": 2158,
+      "sha256": "d84c0198c64f512e8f27c1d6c21cf4bd288bae4df3a196afdbacc629add19259"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-vc_status.body.gz",
+      "bytes": 786,
+      "sha256": "ae976906f60f531723d42101128bf31535c36adb4872bba6c58c7c12e4c36f95"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-vc_status.json",
+      "bytes": 2223,
+      "sha256": "28908181d01981b291bc7655ff928274afe6a33cbeb881788f02ed1c4ed373b7"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-version.body.gz",
+      "bytes": 26,
+      "sha256": "68ee61648e33b56b6e59215b1298bf9f33f41b911a12d5deff31f496c0205c6d"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-version.json",
+      "bytes": 2157,
+      "sha256": "28c593820b1c75ea738693347c439f05b7c42a199ed50f3c53bed623de2b4e2b"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-vt.body.gz",
+      "bytes": 684,
+      "sha256": "97b51ac89e2f53aa8d7ddc1da38ec210c4b3a7035d41223abf2b4ff61f576220"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48029-vt.json",
+      "bytes": 2197,
+      "sha256": "857b0c86041b3a1977a0873e2f77da179f873e811943e1156143d8cfbc655128"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-config.body.gz",
+      "bytes": 92,
+      "sha256": "b8f3d5a33145e944444572ccb4f8aff381c84d9fbf837f5587eccf6367c68c35"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-config.json",
+      "bytes": 2156,
+      "sha256": "20754b91dbe45b3b3dc767d8fa67ac973e8e4a48347fb651597bbfc33180f9b5"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-details.body.gz",
+      "bytes": 2632,
+      "sha256": "03704257afd6983e25e769ad36a5c0128c0f87b7a7b84d18dc9299f1dacf6d35"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-details.json",
+      "bytes": 2212,
+      "sha256": "75685543e86548721bd60d8809659950f3e3311fabf617a5f166a2081a8f206b"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-electionsettings.body.gz",
+      "bytes": 7558,
+      "sha256": "124993893dff053dbba8c3ca449c92dbfe1a18ca4bbd337272abbf511fc9ed91"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-electionsettings.json",
+      "bytes": 2213,
+      "sha256": "594d24696c621aca2fff7c15a71a36d9eb2ce3e0566a138ae8555f426077949b"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-pr.json",
+      "bytes": 1964,
+      "sha256": "1cee9a809fbe67cfe7804bed2cc15e7da9ba8f837c95d6192cb0b54269594948"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-status.body.gz",
+      "bytes": 513,
+      "sha256": "7629e76385c240ca85e17de8f9ff781080a256a97db944f860c067a5d3506baf"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-status.json",
+      "bytes": 2160,
+      "sha256": "8b7b5cf3eecfb0c4de327027481fc385ac7ade9cc90cd21c0fbf4d2b22aae3cd"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-summary.body.gz",
+      "bytes": 4237,
+      "sha256": "1980d886aef93edf9acd5d4e493ac0de8e10f46bff582fec56676b906843061c"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-summary.json",
+      "bytes": 2185,
+      "sha256": "a03bccdb17efc98fa37eeacefb15fc3557f4c36e8803d9fc6fe5e21bf8297bba"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-vc.body.gz",
+      "bytes": 7389,
+      "sha256": "fc6516afd7f100e35af4f628eddd2d44b9d2b743195d79dac61d77b6b9c00295"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-vc.json",
+      "bytes": 2148,
+      "sha256": "7800a0488e9d9c5cf94f5eaa42da1631622db00f545fced897128e2494f0d4ea"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-vc_status.body.gz",
+      "bytes": 409,
+      "sha256": "c82a00e8cbf7f40af133ce7607e7cf9264e8b501a2d39af2ff9064c787e8595a"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-vc_status.json",
+      "bytes": 2214,
+      "sha256": "7d0f5e37aaeb42a830c2dbe770efb32e401539023fd83b46f358603f905bf8b0"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-version.body.gz",
+      "bytes": 26,
+      "sha256": "eda271afb509bbab5a7c66375b900c6dd1ac3b74b8a3a0a9f91c7f16fa4d3e7e"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-version.json",
+      "bytes": 2161,
+      "sha256": "8e97e3b7e3306e439e782ee2236c72a6b2ef0545b2bd36b042e05dc67374cefe"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-vt.body.gz",
+      "bytes": 426,
+      "sha256": "7b00a5ba168da597d71368ade5be159d6c7431b85080ace32db171a77779a90b"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48141-vt.json",
+      "bytes": 2187,
+      "sha256": "dc5d2cb903aa05f8db1adcfd0d66f72cc0e2584597b1284189f76f6ced5045f6"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48157-config.json",
+      "bytes": 2227,
+      "sha256": "3d7681da1c108301a21f0dbc49b3640b826e4d99dc5185847506662577499843"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48157-details.body.gz",
+      "bytes": 3223,
+      "sha256": "dba6db69979c7f7a508673a4bc050619425a84357315627e0f9b9ed9a1c39a52"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48157-details.json",
+      "bytes": 2215,
+      "sha256": "6c2956294567900f07d48fcbb790f70bcf2aec08583f4f9012daa2725cd40fc1"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48157-electionsettings.body.gz",
+      "bytes": 8528,
+      "sha256": "9c117eee23d8c02b095f12785dd6d8f23be278efffc80285d8b7f0ae5e255e6b"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48157-electionsettings.json",
+      "bytes": 2255,
+      "sha256": "19c3ec968e562011d5e13ec6df77e70ae2b1e9e40fa5108ca5ceef3747a4acc0"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48157-status.body.gz",
+      "bytes": 513,
+      "sha256": "d2a541b1f19528b4441d0b8bc24fdd442a38ecacc4e01e070192c9a698e0e2f5"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48157-status.json",
+      "bytes": 2185,
+      "sha256": "4f4abe0e163ecdf299a6df45ede913d3219d475fbff88ba206620848eed62c70"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48157-summary.body.gz",
+      "bytes": 3413,
+      "sha256": "6626193920ea965150f1ef5b2e1b6cca32f23632716aba1f1e3cb39b51a4d750"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48157-summary.json",
+      "bytes": 2199,
+      "sha256": "03d1529198ec421cc587d0d68dfea990c0d007f3354e5877f1c3860e736c8359"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48157-vc.body.gz",
+      "bytes": 3059,
+      "sha256": "bcb6da03f06f4ee505328ff84ba51c07a3f61d59d871b3cb764da46fdc01a506"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48157-vc.json",
+      "bytes": 2193,
+      "sha256": "1f9ff09493bea57d9f862ae346c2bd3cfed766fb88282c2ce96dc11ee1704ca5"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48157-version.body.gz",
+      "bytes": 26,
+      "sha256": "784504d0280f778f392eb975af67b8204caaf8efb047d105812bd71deca72e8f"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48157-version.json",
+      "bytes": 2157,
+      "sha256": "92b49e593ccf3be7d371dba7a56121cec1e801c88972fa77ba3053e49152b111"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48157-vt.body.gz",
+      "bytes": 344,
+      "sha256": "f7967b6b6e4e2334e3bfe52b35e144dc48624b0294b34dd72afdbc7a30379781"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48157-vt.json",
+      "bytes": 2170,
+      "sha256": "43fbab2dc9a34e9343660465c0ce329bcaa4b2dea80a5654ed822a241bded851"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48367-config.json",
+      "bytes": 2201,
+      "sha256": "826e30d3a88c491a631daf66b9a5a8e79b13e61b494b034fdc31024104f6c14c"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48367-details.body.gz",
+      "bytes": 18387,
+      "sha256": "de75c5004c60a8a744672fe29ffc2ea2e0ed6eb12babf9520db5ce74be485ea9"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48367-details.json",
+      "bytes": 2198,
+      "sha256": "b6b0ecba84475a3863a0ac0cbcffbac15897eb9f3a831be8e5ab6f8f2b89a5f3"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48367-electionsettings.body.gz",
+      "bytes": 7279,
+      "sha256": "535534c2dd714ef27fbd0cfd1472ed7e14acbd6062658114dcb5912b373bcc89"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48367-electionsettings.json",
+      "bytes": 2237,
+      "sha256": "47d25eff580d1d3100a264c12645dfa31db6e89602bdac525d7d08c92838324b"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48367-status.body.gz",
+      "bytes": 429,
+      "sha256": "8f109b84febda9d37f75245c70cbd14bf420cee8a5d2d11cadf73ee2a9237f9c"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48367-status.json",
+      "bytes": 2179,
+      "sha256": "a8d5bc6bde87b6b1756d5c83b5c263d66ca4c6944e2945f2bea23668b58b6c43"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48367-summary.body.gz",
+      "bytes": 6320,
+      "sha256": "1037d06a8489471eac04260c1c06c2a42e2224ecee53c1ac8c3e7cd0dadad5a8"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48367-summary.json",
+      "bytes": 2193,
+      "sha256": "bef4a204faf9c609d31ac68e9335a3f488aef2570cdb20e903143c253b255018"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48367-vc.body.gz",
+      "bytes": 1955,
+      "sha256": "d041c45ae0aa00479782522fdf1586cc86969ea3a8838e1eb6a55838d43a1a0e"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48367-vc.json",
+      "bytes": 2167,
+      "sha256": "09158ffca38f718697cc238ba1eb01ba3d36170ab4a145c9a999dbcc8debcd53"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48367-version.body.gz",
+      "bytes": 26,
+      "sha256": "59290ed8b149bfd4419b0b7dabba289a3b95616078692e0f47d63bdeaf7bb071"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48367-version.json",
+      "bytes": 2151,
+      "sha256": "ad32e2b4ea648c068a81b8722c5b71da837b756f46c2b96fff68f6b200c6e2ab"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48367-vt.body.gz",
+      "bytes": 2818,
+      "sha256": "21cbc51ca70ac27dce3901bf31c7d8544f24fb07191d0da73bdc96cedef370a5"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48367-vt.json",
+      "bytes": 2174,
+      "sha256": "7694796109770eedfb13be3a53c71acc71dcd018b1937e9f1ea84caff1f50f52"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-config.json",
+      "bytes": 2223,
+      "sha256": "a2be2f0f122dbe64dc3d72473ec03c19f9ea400cddf62eeaa7d0074fcd9ae92c"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-details.body.gz",
+      "bytes": 144195,
+      "sha256": "eafdb332e26d4e4804f66c81fb0f30affc03b6b709e628f60645a723f06ba571"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-details.json",
+      "bytes": 2229,
+      "sha256": "542957222e38e063df0c46cf4863ffcb85422bf2d614be4dc137e6fe3a87b93a"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-electionsettings.body.gz",
+      "bytes": 10054,
+      "sha256": "ad912db7f3448f0c90465249caf09678db67b15adf61fe079a418a31340e81ed"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-electionsettings.json",
+      "bytes": 2235,
+      "sha256": "f28f409af2e69e1cff88bcb6dd4d5630533f45190869da394e9e3e84741c2b0e"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-pr.json",
+      "bytes": 1964,
+      "sha256": "a0de52d7ed2fc2b9bc825d281d6f78b2093c5a353fc945a40c8f7e2899d93171"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-status.body.gz",
+      "bytes": 7558,
+      "sha256": "87634e463c897e939b7b68c702766c25dbd59b319519697b09f314285ee7c426"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-status.json",
+      "bytes": 2175,
+      "sha256": "b7cc8b4b40a4a2320adbb8efbf1944d6f15d5854adf69c43dfb2ed2723f052d7"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-summary.body.gz",
+      "bytes": 4720,
+      "sha256": "85e67aa57aa3f9d0fbb31bc70d1e84db92e06c627ff223f535bca8e14d54f740"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-summary.json",
+      "bytes": 2205,
+      "sha256": "69cc37d24899d5f6b31961ffac01414628e579dedccc2a001f5bce42e6ac97d9"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-vc.body.gz",
+      "bytes": 6446,
+      "sha256": "b2faec5c0fdbcc6b267cc63d562e4e9ac5d8d18bb09d406df186aafa6794564e"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-vc.json",
+      "bytes": 2168,
+      "sha256": "09959304895f6c1969ecda2e3056988b79081605686e39bbb7e3b6a4ab382be1"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-vc_status.body.gz",
+      "bytes": 557,
+      "sha256": "b384a9f8f145324ad83d47becaad796db4fee6966599f8f6a392eb0aeefadcbc"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-vc_status.json",
+      "bytes": 2227,
+      "sha256": "d58019c702f86a13c62d81be760e68fc30e2c3154bb700a5a08dc73cc090d63d"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-version-repeat.json",
+      "bytes": 2238,
+      "sha256": "c88855c49ea577f53ef5e77c4b2baa63593a799e917e3ab9a54adbcb2f9dc12f"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-version.body.gz",
+      "bytes": 26,
+      "sha256": "db0c712268864d781bd7c26a57b12fc62ad0d160392d92f9019a007ed3a7daac"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-version.json",
+      "bytes": 2161,
+      "sha256": "1a6900f77444495cfd7b69e570db170856923d3b11bef9e508e58b80e1740baa"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-vt.body.gz",
+      "bytes": 488,
+      "sha256": "7ac1fceca66d67847f38e9ec8828e18a1d5a02661cba39d3a07bbb19231546b0"
+    },
+    {
+      "path": "data/results-sources/raw/clarity-48439-vt.json",
+      "bytes": 2198,
+      "sha256": "503268a9f8c431fc91033c181eb85772a2c1e5c1179bb2cb97d63f43f8263ebb"
+    },
+    {
+      "path": "data/results-sources/raw/county-48027-result1.body.gz",
+      "bytes": 2163,
+      "sha256": "b786bb410d01f46e513fe175031ccf2fc50621ef5c312895165f476b485bcb3a"
+    },
+    {
+      "path": "data/results-sources/raw/county-48027-result1.json",
+      "bytes": 1459,
+      "sha256": "f94f9a0e6d18e97131c7617469e9ee35250a29a3c6e98833343bff7f3b3ff145"
+    },
+    {
+      "path": "data/results-sources/raw/county-48027-result2.body.gz",
+      "bytes": 522,
+      "sha256": "3ada7ccc6a5d44bb1c853f59712c6ffb5c0a90e9b6c1d99d6c26d0b1f41dd7da"
+    },
+    {
+      "path": "data/results-sources/raw/county-48027-result2.json",
+      "bytes": 2070,
+      "sha256": "e77a7110f28eceeafe119e8b5e0775eb4c2151932ca28af549435f58e5e1bc20"
+    },
+    {
+      "path": "data/results-sources/raw/county-48027.body.gz",
+      "bytes": 15502,
+      "sha256": "4e45b9dc399094309c369e6745d6390b1256f3673d13cc5356dfba3dd854ef09"
+    },
+    {
+      "path": "data/results-sources/raw/county-48027.json",
+      "bytes": 3026,
+      "sha256": "a33cbcc4bd81dc75b785e0f345498f394cb771d7fdc3a208db1414d735f4dfff"
+    },
+    {
+      "path": "data/results-sources/raw/county-48029-result1.body.gz",
+      "bytes": 2120,
+      "sha256": "344c53914c780c13232b39d5f40497b981540738998d857bacdf500ee3b38c84"
+    },
+    {
+      "path": "data/results-sources/raw/county-48029-result1.json",
+      "bytes": 1729,
+      "sha256": "bc28d1f2967d7acf0d220fdabcc3aa2deaf081221416d6686f80a8c533b55d12"
+    },
+    {
+      "path": "data/results-sources/raw/county-48029-result2.json",
+      "bytes": 2138,
+      "sha256": "bc7b1b3d31c206bb8d7a30c048beabd4dd1419a53ead12e5cc5069c59ac68a22"
+    },
+    {
+      "path": "data/results-sources/raw/county-48029-result3.json",
+      "bytes": 651,
+      "sha256": "1ad5bf576ed263c27fb650147d9e01d8801afb0c3e846b132c076b2857d234dc"
+    },
+    {
+      "path": "data/results-sources/raw/county-48029.body.gz",
+      "bytes": 30351,
+      "sha256": "2357177323666cd6b223d824106292186f0f6b53e3527420585ab3dd69e1d464"
+    },
+    {
+      "path": "data/results-sources/raw/county-48029.json",
+      "bytes": 4062,
+      "sha256": "a828ccb5de4c63fc6e8db7b7ca62ed00b619d0f60ea4c3c658c3df5d82548bbe"
+    },
+    {
+      "path": "data/results-sources/raw/county-48039.body.gz",
+      "bytes": 271,
+      "sha256": "d5c00c3c671d266d6d6975cf9dff754e4cc18677c823f82817f4b99d62a088ff"
+    },
+    {
+      "path": "data/results-sources/raw/county-48039.json",
+      "bytes": 1642,
+      "sha256": "bd19edc6dea5bb77b959420621d64b0f854bb41df1a7879946ad4bc063f19a31"
+    },
+    {
+      "path": "data/results-sources/raw/county-48041-result1-sample.body.gz",
+      "bytes": 1059422,
+      "sha256": "639d1e49546d23b4a98c8c5848784f40373d96225b2e78df6897c69d810e9c8e"
+    },
+    {
+      "path": "data/results-sources/raw/county-48041-result1-sample.json",
+      "bytes": 2658,
+      "sha256": "5588a02fe7ce3b7169289aaf2881aa8b3a64fa85a6afb27648482dfffab71f19"
+    },
+    {
+      "path": "data/results-sources/raw/county-48041-result1.body.gz",
+      "bytes": 23041,
+      "sha256": "66cd9dcb6e7e4014ad055a815733301278095b85ee9c9a5714580fa77a00eb0d"
+    },
+    {
+      "path": "data/results-sources/raw/county-48041-result1.json",
+      "bytes": 2993,
+      "sha256": "f074cdf151a241774e87e4824c43327a539d4cb9492a9720deadc4288e45f9fe"
+    },
+    {
+      "path": "data/results-sources/raw/county-48041.body.gz",
+      "bytes": 19478,
+      "sha256": "4a36cb7a67a005c676a2251dfeb1a9927103ab4dd09baafb90efd49a6794d610"
+    },
+    {
+      "path": "data/results-sources/raw/county-48041.json",
+      "bytes": 3392,
+      "sha256": "ad80e2ec1a54541f47416de9517abdb4de5ea5a27d18568b17e728b2060cb294"
+    },
+    {
+      "path": "data/results-sources/raw/county-48061-result1-linked1.json",
+      "bytes": 2223,
+      "sha256": "dec29b5ce54bfdebf4515804d611030c31879405ec1efd32bb0687d4e876c8a6"
+    },
+    {
+      "path": "data/results-sources/raw/county-48061-result1.body.gz",
+      "bytes": 59122,
+      "sha256": "5ebf763bfe2ff4615fd4d4bbeb95f18f416bacec51cf3631c9d9fe8e05850f19"
+    },
+    {
+      "path": "data/results-sources/raw/county-48061-result1.json",
+      "bytes": 2056,
+      "sha256": "5aee91ec67badb4ea754853b55562977c951dd47a157606c7dd41adae7719316"
+    },
+    {
+      "path": "data/results-sources/raw/county-48061.body.gz",
+      "bytes": 27527,
+      "sha256": "a22f2d8e2bcefbbc6f3160b02619279f5c4267070d0e50393112d1408b4700d7"
+    },
+    {
+      "path": "data/results-sources/raw/county-48061.json",
+      "bytes": 2250,
+      "sha256": "8d263085380b07e76b60f9a977986ea082d15ad757fa0ad4fb43ce45037aeb17"
+    },
+    {
+      "path": "data/results-sources/raw/county-48085-result1-sample.body.gz",
+      "bytes": 921,
+      "sha256": "df911242bf023148a7948d0d7628ddd589c575668bd38b1da6b970d8e452946c"
+    },
+    {
+      "path": "data/results-sources/raw/county-48085-result1-sample.json",
+      "bytes": 6785,
+      "sha256": "2138fa49aaa31edf009cb457125fbd12672b90eef8e20f177abce4b83234a585"
+    },
+    {
+      "path": "data/results-sources/raw/county-48085-result1.body.gz",
+      "bytes": 11575,
+      "sha256": "5dc2c39991e97c6ebb063f4e4762115b4e5fe7c00c315ea3164368f07917a966"
+    },
+    {
+      "path": "data/results-sources/raw/county-48085-result1.json",
+      "bytes": 3934,
+      "sha256": "4fc1ca405205784c725918419456bf75a5cf43b7dd15986a141eaa55198e2aae"
+    },
+    {
+      "path": "data/results-sources/raw/county-48085-result2.body.gz",
+      "bytes": 34533,
+      "sha256": "bc6136a2e6b0525d3f429493914520b9e1c2c8c921df83557093cb3caff431f6"
+    },
+    {
+      "path": "data/results-sources/raw/county-48085-result2.json",
+      "bytes": 3887,
+      "sha256": "74465ae3319b557f2797f58afb918588beb6a54a196a5b117209be839d72f385"
+    },
+    {
+      "path": "data/results-sources/raw/county-48085.body.gz",
+      "bytes": 11583,
+      "sha256": "0a236f093d669454e1e1ca6298ba2467efe21083f356fbfb23534a349f530614"
+    },
+    {
+      "path": "data/results-sources/raw/county-48085.json",
+      "bytes": 3885,
+      "sha256": "9f42fde8d3c11c51da777cb3f4713e5f500b389f3cd9ddc32a01bd578d4f9a3e"
+    },
+    {
+      "path": "data/results-sources/raw/county-48091-office-follow1.body.gz",
+      "bytes": 1650,
+      "sha256": "19ca3c7273d183d858807f0e7ee1eb12c418a8c4c1104128b8cb10394d6d1dce"
+    },
+    {
+      "path": "data/results-sources/raw/county-48091-office-follow1.json",
+      "bytes": 2089,
+      "sha256": "c73e762fc9f560880d62903f922f2031f16d48005a65f96e86a6c5e04b738544"
+    },
+    {
+      "path": "data/results-sources/raw/county-48091-office.body.gz",
+      "bytes": 25903,
+      "sha256": "4a6fbd86d0209a7e4f4af8a85e8a6e583ef3bf303d9d5cebc12da207f8236170"
+    },
+    {
+      "path": "data/results-sources/raw/county-48091-office.json",
+      "bytes": 3756,
+      "sha256": "54320cf86465b373979f2ec3a1c718eecfd256edd9f16a563d42e16363dd84cb"
+    },
+    {
+      "path": "data/results-sources/raw/county-48091-result1.body.gz",
+      "bytes": 16167,
+      "sha256": "2d0fa3a46ad6a9628c09783d5af07801e5edf21900b9c102013a218b3147953b"
+    },
+    {
+      "path": "data/results-sources/raw/county-48091-result1.json",
+      "bytes": 6961,
+      "sha256": "38aa7fc036ebecee5a023c77f0de21759cc83cf274f37cf6fdec88eede9b6648"
+    },
+    {
+      "path": "data/results-sources/raw/county-48091.body.gz",
+      "bytes": 26250,
+      "sha256": "89a8a871a0d227da1f0f9f9a06f20931e0c2bdac2462950993faa5cd62a07cde"
+    },
+    {
+      "path": "data/results-sources/raw/county-48091.json",
+      "bytes": 2909,
+      "sha256": "79b8545dbffdb592b62aad294121e5a3bfc0380bcd822d7e7707ad80a17ceba2"
+    },
+    {
+      "path": "data/results-sources/raw/county-48113.body.gz",
+      "bytes": 20,
+      "sha256": "f1b651238a58fe290baec6c5e32f3bdb1943dd2bd582f02569231f7a757c7837"
+    },
+    {
+      "path": "data/results-sources/raw/county-48113.json",
+      "bytes": 1578,
+      "sha256": "6253d365e766ca09c79c02ed2d37e5cca782c112980e059e1c40c390dd77b15c"
+    },
+    {
+      "path": "data/results-sources/raw/county-48121-office-follow1.json",
+      "bytes": 1691,
+      "sha256": "d0f886820b38811a89c584a61597294fa09b45f686ecb5fda4da5d8f02f75fba"
+    },
+    {
+      "path": "data/results-sources/raw/county-48121-office.body.gz",
+      "bytes": 20589,
+      "sha256": "14836c37c939e35fccdf3eac293a875cedface64082dea9a7e401543892b5a7d"
+    },
+    {
+      "path": "data/results-sources/raw/county-48121-office.json",
+      "bytes": 2688,
+      "sha256": "df7e8843564be59dac68396648cec702c1f1c9a62de5632a3e16aefb8d2de993"
+    },
+    {
+      "path": "data/results-sources/raw/county-48121-result1.body.gz",
+      "bytes": 60128,
+      "sha256": "6f39ae5836d82763803e33e3aaab0f3449731d39552c9c7a9badb1bd144abc9c"
+    },
+    {
+      "path": "data/results-sources/raw/county-48121-result1.json",
+      "bytes": 12253,
+      "sha256": "a2cfcf2ab48614b9bbd51f3e5b1dd5b50732b38332795bd8657cf81efcb130de"
+    },
+    {
+      "path": "data/results-sources/raw/county-48121.body.gz",
+      "bytes": 40510,
+      "sha256": "7d72622fb47d26a0b9c4470b0d3496641ff3da0e7711ef2b57c8b190611732b1"
+    },
+    {
+      "path": "data/results-sources/raw/county-48121.json",
+      "bytes": 2641,
+      "sha256": "e19907b78f899ffe9cea083f5c8e31e384fb17f49c20ea13e06ae9a34adb98da"
+    },
+    {
+      "path": "data/results-sources/raw/county-48139-result1.body.gz",
+      "bytes": 24193,
+      "sha256": "c6d5a2e05f5e494ea123f41bb9119075dbe158502197b10f9b2bdfc481a018ac"
+    },
+    {
+      "path": "data/results-sources/raw/county-48139-result1.json",
+      "bytes": 2169,
+      "sha256": "d3bfb83fa6258607b3b51fe563517c500a19902c00b29ab3f78cc9d54cf40769"
+    },
+    {
+      "path": "data/results-sources/raw/county-48139-result2.body.gz",
+      "bytes": 23982,
+      "sha256": "8f8864c4273b217c966325ae70faedbdfef9115abeda3ef25580fb009ad4f9dc"
+    },
+    {
+      "path": "data/results-sources/raw/county-48139-result2.json",
+      "bytes": 2205,
+      "sha256": "7b8e3afc38119b5c791730a906501d048b329efedec7cb131b95632c63a76422"
+    },
+    {
+      "path": "data/results-sources/raw/county-48139.body.gz",
+      "bytes": 29996,
+      "sha256": "8a6867c4701a37cb414bdf37e6acc5da40277358a6e75126b7fc93bb9f672c63"
+    },
+    {
+      "path": "data/results-sources/raw/county-48139.json",
+      "bytes": 5138,
+      "sha256": "121965620a3a0ca2c043b34416a97d98cad6df13162c5b3a85956d1aec9f66b4"
+    },
+    {
+      "path": "data/results-sources/raw/county-48141-result1.json",
+      "bytes": 2151,
+      "sha256": "bcf93d1f0f036b7d35d2bdb852aa3b61c50cbe498bde18ba9fb583ce4e1bdeea"
+    },
+    {
+      "path": "data/results-sources/raw/county-48141-result2.body.gz",
+      "bytes": 59636,
+      "sha256": "26c21e0f572cbe84f34f658fcac3ffcebacc43f7aaeb6211afe769e4b08c8c7d"
+    },
+    {
+      "path": "data/results-sources/raw/county-48141-result2.json",
+      "bytes": 12252,
+      "sha256": "294113c6e263bee6f477bbb8f551bb41ecda8fc8adf889b9147c1abdfdf6267b"
+    },
+    {
+      "path": "data/results-sources/raw/county-48141.body.gz",
+      "bytes": 7900,
+      "sha256": "aa9f22f6d543280b61f40c46441386482c274eb35e15726b39b1f1e25a7c0ead"
+    },
+    {
+      "path": "data/results-sources/raw/county-48141.json",
+      "bytes": 2933,
+      "sha256": "c0742e82a21d18066f0a3f25f72046ac592b61ecad73143b393a59f85db612b3"
+    },
+    {
+      "path": "data/results-sources/raw/county-48157-result1.body.gz",
+      "bytes": 120,
+      "sha256": "075d56a4e7d620041dd8dcd47673b243b0324560a30890a875180f35dca68125"
+    },
+    {
+      "path": "data/results-sources/raw/county-48157-result1.json",
+      "bytes": 1802,
+      "sha256": "e1ff076fc87eeceb5eb51e6f7a1d82a4c34e321bbbe05442e09c76920baea920"
+    },
+    {
+      "path": "data/results-sources/raw/county-48157-result2-linked1.json",
+      "bytes": 2158,
+      "sha256": "1f5f52ce7b65c86ecb28fca709f4aa6a0c9b504ed67863c710300d9d754a9a06"
+    },
+    {
+      "path": "data/results-sources/raw/county-48157-result2-linked2.json",
+      "bytes": 2156,
+      "sha256": "9a10c38db8f3e851fc3b26f2a8b1c8c284e2c0271aab21a7e3a01fa0433ae8da"
+    },
+    {
+      "path": "data/results-sources/raw/county-48157-result2-linked3.json",
+      "bytes": 2156,
+      "sha256": "101eda16877a56c3db93ccaaab77dae9786ecad09df8293fe1ab7136323bafd5"
+    },
+    {
+      "path": "data/results-sources/raw/county-48157-result2.body.gz",
+      "bytes": 36390,
+      "sha256": "f4721c7a87c8f7183025d91fe32b905dab9db9be119037214808e9adaa1daf4a"
+    },
+    {
+      "path": "data/results-sources/raw/county-48157-result2.json",
+      "bytes": 2475,
+      "sha256": "7ddc7124266977e531dbf71e91f4df4c9eee86eb2c14d409055071972a29f334"
+    },
+    {
+      "path": "data/results-sources/raw/county-48157-result3.body.gz",
+      "bytes": 37714,
+      "sha256": "504186b51c94ec138a471d62afbb408b6adf64a204d7a3cda94a07c76d7aba80"
+    },
+    {
+      "path": "data/results-sources/raw/county-48157-result3.json",
+      "bytes": 2475,
+      "sha256": "eb91e7bb37395fbb59c724f5d9ec1e87281cc83d12713b23970cac0024899979"
+    },
+    {
+      "path": "data/results-sources/raw/county-48157-result4.body.gz",
+      "bytes": 37199,
+      "sha256": "76860865fbac271fbae646c10097ad112f3051da1ac949c643eda379cd152630"
+    },
+    {
+      "path": "data/results-sources/raw/county-48157-result4.json",
+      "bytes": 2475,
+      "sha256": "b8d2d891f72475d81e4c8301d695f6ec26fb15944e5ded730447bcab6f6f5143"
+    },
+    {
+      "path": "data/results-sources/raw/county-48157.body.gz",
+      "bytes": 39535,
+      "sha256": "3d26707dcd8c369bdea47671f26283d265ff1a981bb680a7d8e5ea9b4cd3eac0"
+    },
+    {
+      "path": "data/results-sources/raw/county-48157.json",
+      "bytes": 3529,
+      "sha256": "3bb97226db5cddf440d845ed6781c03e7f32fd978e1b722252e0fa914658fa72"
+    },
+    {
+      "path": "data/results-sources/raw/county-48167.json",
+      "bytes": 1621,
+      "sha256": "ad16e4ee578133f82b825a50102af2a28a070b0e0522e73f606c749bc9d2fbc8"
+    },
+    {
+      "path": "data/results-sources/raw/county-48181-office-follow1-sample.body.gz",
+      "bytes": 1345765,
+      "sha256": "8875c70866e1fd47a73ae5a437d5a2e81d7cf7c1981bc3f1299a1cb60fb91d15"
+    },
+    {
+      "path": "data/results-sources/raw/county-48181-office-follow1-sample.json",
+      "bytes": 1833,
+      "sha256": "6d8bf1cd89c4ad2f1ff8358a9ad875f5507b47f69600742c1d033d799b71f953"
+    },
+    {
+      "path": "data/results-sources/raw/county-48181-office-follow1.body.gz",
+      "bytes": 30500,
+      "sha256": "68e94cad2d4d6490647c17c70a4960e5416f20bde618065f8c34522d829fcab9"
+    },
+    {
+      "path": "data/results-sources/raw/county-48181-office-follow1.json",
+      "bytes": 1792,
+      "sha256": "b037c5aaed9767056eb9e4c685d69a08bfb14601b494231fa6ad838da2d55f0e"
+    },
+    {
+      "path": "data/results-sources/raw/county-48181-office.body.gz",
+      "bytes": 28434,
+      "sha256": "4b1c1ae55e1f67932bdf9e920a60cf7e6cb2cf6be1bd2b06f0b99c48a7a26a1c"
+    },
+    {
+      "path": "data/results-sources/raw/county-48181-office.json",
+      "bytes": 1777,
+      "sha256": "b2739d89594ceee09f781ef43921a025692ff56b268c82e8eab32b444f7a6d4c"
+    },
+    {
+      "path": "data/results-sources/raw/county-48181-result1.body.gz",
+      "bytes": 12930,
+      "sha256": "09447c8b70fb5720da3750ea8372c4234f515c821f0683e843a4b498c1f1e616"
+    },
+    {
+      "path": "data/results-sources/raw/county-48181-result1.json",
+      "bytes": 1759,
+      "sha256": "2846f47e1c1fc52398fc06d259f2748c3b1085ba8cb1cf385c7b44440b45d04a"
+    },
+    {
+      "path": "data/results-sources/raw/county-48181-result2.body.gz",
+      "bytes": 1028,
+      "sha256": "bd286d6fcd456e7342fcc5be1d459ba6ee5ee445f41cefbc450b4fa8f4412fd6"
+    },
+    {
+      "path": "data/results-sources/raw/county-48181-result2.json",
+      "bytes": 2446,
+      "sha256": "2916b716d92b187aa760921ae2f3813466580f5f98cc9c56ec0cf95fe35555a1"
+    },
+    {
+      "path": "data/results-sources/raw/county-48181.body.gz",
+      "bytes": 18236,
+      "sha256": "5e0ae2be7d28fc86d1ed8ae5db964be3835d2ddb8e784fdaa86408298450eaa2"
+    },
+    {
+      "path": "data/results-sources/raw/county-48181.json",
+      "bytes": 2452,
+      "sha256": "cd1c84cf8f66374143afb7c3f8d76ce72e59aaee8e7a0dbf6c044ced76944c37"
+    },
+    {
+      "path": "data/results-sources/raw/county-48187-office-follow1-sample.body.gz",
+      "bytes": 663797,
+      "sha256": "74eea8e35af10804e5c82c1874002d5bddc188873bf865607452647f5dad4924"
+    },
+    {
+      "path": "data/results-sources/raw/county-48187-office-follow1-sample.json",
+      "bytes": 1917,
+      "sha256": "002b6d527dbd98a7814ecfac03cf768e74f8faae8ea98b99428de3d59a555eab"
+    },
+    {
+      "path": "data/results-sources/raw/county-48187-office-follow1.body.gz",
+      "bytes": 25484,
+      "sha256": "11347ea78485c235518cbf9c31e685b805fc9087dc47dbe033a211ea15a6caae"
+    },
+    {
+      "path": "data/results-sources/raw/county-48187-office-follow1.json",
+      "bytes": 1803,
+      "sha256": "d1eefe82aa78cf8c2e8b4ba0728c52ab037baa95965837f12f7c653a74917e3b"
+    },
+    {
+      "path": "data/results-sources/raw/county-48187-office.body.gz",
+      "bytes": 20435,
+      "sha256": "d69ba8fe645535da2e26a7189d18ddea77e63d04b087160ee4ab7b811eede3b7"
+    },
+    {
+      "path": "data/results-sources/raw/county-48187-office.json",
+      "bytes": 1799,
+      "sha256": "82557274aef2d48960711ac0c58d70b1d9efdb53c00d69041875aa1accb4ca8e"
+    },
+    {
+      "path": "data/results-sources/raw/county-48187-result1.body.gz",
+      "bytes": 32953,
+      "sha256": "caa1ea54805b364f651a342417c599ffdcea5f2258fa4867d624d30313a39072"
+    },
+    {
+      "path": "data/results-sources/raw/county-48187-result1.json",
+      "bytes": 3380,
+      "sha256": "49bbb1f8d676b0c48a75da3d37e6f6944ec7aa07ec450633e94e06886103ca65"
+    },
+    {
+      "path": "data/results-sources/raw/county-48187.body.gz",
+      "bytes": 22940,
+      "sha256": "e82ac96b2d087ce1fc95d5866a8fc8830deedd546df32f3224977adb9d839c87"
+    },
+    {
+      "path": "data/results-sources/raw/county-48187.json",
+      "bytes": 1735,
+      "sha256": "89852471c3c015b44bd27bca09064bc0ec93306c8ca450d7813124c315b5a54d"
+    },
+    {
+      "path": "data/results-sources/raw/county-48201-result1.body.gz",
+      "bytes": 11550,
+      "sha256": "cd0665828466bb8e8e4e1eb337523cd5c14aff6ff5e02ff2b8bae99c9f338800"
+    },
+    {
+      "path": "data/results-sources/raw/county-48201-result1.json",
+      "bytes": 1699,
+      "sha256": "1e7d2aa48e70311b605e51ceff8acba740aa46cb3713161008f843652b5c3753"
+    },
+    {
+      "path": "data/results-sources/raw/county-48201-result2.body.gz",
+      "bytes": 9304,
+      "sha256": "3562b694bfad73ee4a8826f9d0bf5cc5fb7e1dd37f73afe2c13c135e1ffd5e6a"
+    },
+    {
+      "path": "data/results-sources/raw/county-48201-result2.json",
+      "bytes": 1715,
+      "sha256": "63ba15dc35bf675424fddf601a5df102e4ff855a7cdec4ff31106e1551d01fc6"
+    },
+    {
+      "path": "data/results-sources/raw/county-48201-result3.body.gz",
+      "bytes": 15088,
+      "sha256": "30ade1047aef2c9b63ac9c483341c661d42021ff2f4e3958bc83fb240bc10109"
+    },
+    {
+      "path": "data/results-sources/raw/county-48201-result3.json",
+      "bytes": 1705,
+      "sha256": "64f9af4f0c6b7784a2173c8ce76a450b719a5de0b3bbec4d731661d9fe7553bd"
+    },
+    {
+      "path": "data/results-sources/raw/county-48201-result4.body.gz",
+      "bytes": 11660,
+      "sha256": "0f21089c468d5f813dc173ccf97e3c86551eac81f4731c6a9677735ca68df305"
+    },
+    {
+      "path": "data/results-sources/raw/county-48201-result4.json",
+      "bytes": 1729,
+      "sha256": "570582f7cf12dd7f4f46bc951703803ab2f68ed8f7a0dd54e5a8ac476f206ad7"
+    },
+    {
+      "path": "data/results-sources/raw/county-48201.body.gz",
+      "bytes": 13351,
+      "sha256": "5a0b38a0693b8693feb19525249aa2d99d7fb09ec6dea6194b8797250a486440"
+    },
+    {
+      "path": "data/results-sources/raw/county-48201.json",
+      "bytes": 1684,
+      "sha256": "dd42addc659f892f36030879b627c615889c9ff2bf0d9e8c40cf932d02233835"
+    },
+    {
+      "path": "data/results-sources/raw/county-48209.body.gz",
+      "bytes": 2098,
+      "sha256": "1579817c78ae26c2825db39447dd5b0953cbe0d9ba6a2dd49d87f858ff444156"
+    },
+    {
+      "path": "data/results-sources/raw/county-48209.json",
+      "bytes": 1965,
+      "sha256": "c75e7a352615bdec9598f577a76fa40b06626273d258d656b12778bcf5f6d820"
+    },
+    {
+      "path": "data/results-sources/raw/county-48215.body.gz",
+      "bytes": 27615,
+      "sha256": "9cda8aa9617e8c25ecb0511bbf2550a0b4d398db1e1e92160ee8c34efc2d9302"
+    },
+    {
+      "path": "data/results-sources/raw/county-48215.json",
+      "bytes": 2880,
+      "sha256": "5776c2b9cd5c75989d0d1e841376a4bfe76c3782badb66bd0f2f6b586261bcef"
+    },
+    {
+      "path": "data/results-sources/raw/county-48245.json",
+      "bytes": 1661,
+      "sha256": "a3404f2ea563383f1d313f99c90fbaa9ba9cff16e901587530f2f3c6e48b33bd"
+    },
+    {
+      "path": "data/results-sources/raw/county-48251-https.body.gz",
+      "bytes": 271,
+      "sha256": "12a66d8bce45085f1e3efdd1cfb1b1b9f6b6f6613374fba61acac7d18e2bda53"
+    },
+    {
+      "path": "data/results-sources/raw/county-48251-https.json",
+      "bytes": 1687,
+      "sha256": "b383bd280ff06b8a519e7ce7b5ac4bda4cb6dd1d3e4ddc4837894f14b02f1b41"
+    },
+    {
+      "path": "data/results-sources/raw/county-48251.body.gz",
+      "bytes": 271,
+      "sha256": "8ecb82f06e1b5cdcc86e1c5b0b33a595a5a4e77330e3c132a11112547a1a1173"
+    },
+    {
+      "path": "data/results-sources/raw/county-48251.json",
+      "bytes": 1643,
+      "sha256": "e03816f842b2965324d5bca9d3e03870ba065375b7d8a70f389435140401fd48"
+    },
+    {
+      "path": "data/results-sources/raw/county-48257-office-follow1.body.gz",
+      "bytes": 1641,
+      "sha256": "39e12644a617081f3e36bdbaf6560eed1823a1ef14e3de2e61e1ea0e77eee76e"
+    },
+    {
+      "path": "data/results-sources/raw/county-48257-office-follow1.json",
+      "bytes": 2117,
+      "sha256": "51f4290a430f8049b9781a05c4e521e89b78b421dd2bd559e0faad401b53176f"
+    },
+    {
+      "path": "data/results-sources/raw/county-48257-office-follow2.body.gz",
+      "bytes": 21780,
+      "sha256": "570ef05870adc4eeb251a340e2a16eb43ffa9f9ec0c55fac23e1e8148f877191"
+    },
+    {
+      "path": "data/results-sources/raw/county-48257-office-follow2.json",
+      "bytes": 2198,
+      "sha256": "27f7a7eac18c467bcb0a07bd935fa20467534d03cce6dd3ac43abee6c5664506"
+    },
+    {
+      "path": "data/results-sources/raw/county-48257-office.body.gz",
+      "bytes": 23763,
+      "sha256": "d24fd375d3a9addef5e5c44bbf87810f11d25e99f8ea61f73eb875ae4a700db0"
+    },
+    {
+      "path": "data/results-sources/raw/county-48257-office.json",
+      "bytes": 2185,
+      "sha256": "23ce31501f3b18131e8118199f2400e330b96ecb1b1ded473bc0c7658bc524e8"
+    },
+    {
+      "path": "data/results-sources/raw/county-48257.body.gz",
+      "bytes": 25103,
+      "sha256": "13310ef368913f1622b10eed98563a6f9d8ee05d24c00cf8f433ea7c139526db"
+    },
+    {
+      "path": "data/results-sources/raw/county-48257.json",
+      "bytes": 2141,
+      "sha256": "a446ec00a97361d7c40c41df43d6e6a48670175aabf681d61658ecba66bcc6d4"
+    },
+    {
+      "path": "data/results-sources/raw/county-48303.json",
+      "bytes": 1647,
+      "sha256": "8fca2adbd59a9557335c415024f07ffdcab4826cae324bec9d4b68ffffcacdd3"
+    },
+    {
+      "path": "data/results-sources/raw/county-48309-https.body.gz",
+      "bytes": 2097,
+      "sha256": "72ca6e6e293e60494fc466b6efe31ac7aababf3bcca0ffb3523c86a9447e5198"
+    },
+    {
+      "path": "data/results-sources/raw/county-48309-https.json",
+      "bytes": 2378,
+      "sha256": "6ad5e4e319ba86ccca69f8ccc6699770bc0b1da12050ab315506ad87bd69b6cf"
+    },
+    {
+      "path": "data/results-sources/raw/county-48309.body.gz",
+      "bytes": 3189,
+      "sha256": "d16983be8289787b2a686734f1ebc4999affe9c6c650de4e125fd8891c421a32"
+    },
+    {
+      "path": "data/results-sources/raw/county-48309.json",
+      "bytes": 3834,
+      "sha256": "3272e8a13f0cc7b03d0c98fc94dd6f108f96848e2897fe11032ddab49dfb54c4"
+    },
+    {
+      "path": "data/results-sources/raw/county-48329.json",
+      "bytes": 2705,
+      "sha256": "ca0997912c3c65dcfc062c1cee0820a5c65a74ecfa32ad180b3bc4bb82fe6869"
+    },
+    {
+      "path": "data/results-sources/raw/county-48339-result1-sample.body.gz",
+      "bytes": 260408,
+      "sha256": "e4fd85f5883c0eb01e48934393398b7f5acf7c3a83161c99b27b0dafcf28ac63"
+    },
+    {
+      "path": "data/results-sources/raw/county-48339-result1-sample.json",
+      "bytes": 1650,
+      "sha256": "6ad7a315f8b104306c4fd6eb786fbcd840737d0efba852e972fe3cdece9fe6c7"
+    },
+    {
+      "path": "data/results-sources/raw/county-48339-result1.body.gz",
+      "bytes": 10695,
+      "sha256": "896bfeb9acee0af8ba8de4df73d9fe068e005cce8918f10329ddabd646050e1e"
+    },
+    {
+      "path": "data/results-sources/raw/county-48339-result1.json",
+      "bytes": 1529,
+      "sha256": "deed0775cffa223e44841463916f4ddd876c54139243b7e40d12787c3d0e2ea6"
+    },
+    {
+      "path": "data/results-sources/raw/county-48339.body.gz",
+      "bytes": 5994,
+      "sha256": "c57a7a197a379b22550919c73aefafcccec52690800dd2ee6ececbe5e7228eb9"
+    },
+    {
+      "path": "data/results-sources/raw/county-48339.json",
+      "bytes": 1475,
+      "sha256": "2c94b929eea63fe975877977b45b2e2660b1b44180f6b416d82303d2dca499e9"
+    },
+    {
+      "path": "data/results-sources/raw/county-48355.body.gz",
+      "bytes": 265,
+      "sha256": "ee25a975d780c234e477b4c7270f50c339c09513763b6b71ef5d64a06c89f08a"
+    },
+    {
+      "path": "data/results-sources/raw/county-48355.json",
+      "bytes": 1932,
+      "sha256": "9638a015bc0a6f3a45b1bb19a107052fe29d095de91b1259146b415993a396a9"
+    },
+    {
+      "path": "data/results-sources/raw/county-48367-result1-linked1.json",
+      "bytes": 2127,
+      "sha256": "8a0884528e90d0cb26fcdc0928fabbfb88a6bec2268b17f22feba0428266305f"
+    },
+    {
+      "path": "data/results-sources/raw/county-48367-result1-linked2.body.gz",
+      "bytes": 271,
+      "sha256": "52acc26842d6d0df0b1ea944f10be81b2146631546126a39ecf974444aafe64c"
+    },
+    {
+      "path": "data/results-sources/raw/county-48367-result1-linked2.json",
+      "bytes": 2117,
+      "sha256": "ee9272bea1301d9927c6da8be2d079741d5dfc44bdb4d120b7c0170a59865b06"
+    },
+    {
+      "path": "data/results-sources/raw/county-48367-result1.body.gz",
+      "bytes": 18546,
+      "sha256": "14b05b3a894c3e8330cd557687f2c0642e51f42ce6904c0c9f74256790a2cb37"
+    },
+    {
+      "path": "data/results-sources/raw/county-48367-result1.json",
+      "bytes": 2179,
+      "sha256": "2bf925483435b1191bb429fd7a37ca9580c39e23d2af34efc6d94d7296caee53"
+    },
+    {
+      "path": "data/results-sources/raw/county-48367-result2.body.gz",
+      "bytes": 23966,
+      "sha256": "c07e3a10074bb24d60e1857fc200a1e77358d3b320158efbbb841bce773b27d8"
+    },
+    {
+      "path": "data/results-sources/raw/county-48367-result2.json",
+      "bytes": 2195,
+      "sha256": "828490627f1f99fb63c282041b04360e656a10c4e50e7c36464f752c8022a156"
+    },
+    {
+      "path": "data/results-sources/raw/county-48367.body.gz",
+      "bytes": 22632,
+      "sha256": "71b04e80b051ecfb22cea8749296da86703700aa7df3dedde8327a9ed2151ef7"
+    },
+    {
+      "path": "data/results-sources/raw/county-48367.json",
+      "bytes": 5169,
+      "sha256": "e65e4b8104f6e63210d9c3af39c2c3b459addffc300a57870c33cd2044bb6d97"
+    },
+    {
+      "path": "data/results-sources/raw/county-48381.body.gz",
+      "bytes": 22600,
+      "sha256": "85faed3b7c3f74e6bc3930769462755c2e00f7a87ad1a20f88efeb9820cc5bb1"
+    },
+    {
+      "path": "data/results-sources/raw/county-48381.json",
+      "bytes": 4218,
+      "sha256": "58991de303f29f0dcdfb3ac3fa2a278860d5891a4842085502e69a58b55ca7b8"
+    },
+    {
+      "path": "data/results-sources/raw/county-48397.json",
+      "bytes": 4841,
+      "sha256": "320145ba09f742b78488010681f316739a0b86d52c72cfc9e75f516161dc17c0"
+    },
+    {
+      "path": "data/results-sources/raw/county-48423-office-follow1-route1.body.gz",
+      "bytes": 23595,
+      "sha256": "e255a63dbc702a813c520acac3a369b1332cf0c6c01dddc20a4c9980f43a0566"
+    },
+    {
+      "path": "data/results-sources/raw/county-48423-office-follow1-route1.json",
+      "bytes": 2735,
+      "sha256": "b6d98a94da942824432a499a393b664b32efcdaddf91349f56654483cb78710a"
+    },
+    {
+      "path": "data/results-sources/raw/county-48423-office-follow1.body.gz",
+      "bytes": 23594,
+      "sha256": "0305075cf9143e7b722f93cb6879d9e19ee6ba395bd9adc2141a3401d067ad7c"
+    },
+    {
+      "path": "data/results-sources/raw/county-48423-office-follow1.json",
+      "bytes": 2605,
+      "sha256": "edebd3203c13f365540f4b7c806463cdeb53ec8f3cbb673ea64afaada7eaea4c"
+    },
+    {
+      "path": "data/results-sources/raw/county-48423-office.body.gz",
+      "bytes": 27795,
+      "sha256": "ee89d1af21ffeb7de9deaec4d6c6bb66f99bc6806789e636a41eddccbfeb4ebf"
+    },
+    {
+      "path": "data/results-sources/raw/county-48423-office.json",
+      "bytes": 2580,
+      "sha256": "deceaadcf0f9918f36397479ac023743589bb162433d282c30d56808f1636cd0"
+    },
+    {
+      "path": "data/results-sources/raw/county-48423.body.gz",
+      "bytes": 20954,
+      "sha256": "55128ef8e8612369f4318f91d31e8950b968c0998b9c34cfdebe2540ca89bf96"
+    },
+    {
+      "path": "data/results-sources/raw/county-48423.json",
+      "bytes": 2501,
+      "sha256": "124743122bc2aeab92879dc1abc65ba3808a79789a8383b4ea5c92ca6a4afae7"
+    },
+    {
+      "path": "data/results-sources/raw/county-48439-result1.json",
+      "bytes": 2136,
+      "sha256": "3c48a6c12b35d15229a30a539d53980470b3fd6f9144400102d4096a99df009a"
+    },
+    {
+      "path": "data/results-sources/raw/county-48439.body.gz",
+      "bytes": 30531,
+      "sha256": "c80ec9039373f139cffe16864c7f242536988f2d2184507ff93f8ed8a0ac1baa"
+    },
+    {
+      "path": "data/results-sources/raw/county-48439.json",
+      "bytes": 2035,
+      "sha256": "ec72e39ac87ac008025dc46f66d02dc89b7992bcefa4aa3070ab849f185a7854"
+    },
+    {
+      "path": "data/results-sources/raw/county-48453-result1.body.gz",
+      "bytes": 25632,
+      "sha256": "15ad839f401b6028912d47033b0ca9748e5abfa71eedb29dffc5f616f813dfd9"
+    },
+    {
+      "path": "data/results-sources/raw/county-48453-result1.json",
+      "bytes": 5501,
+      "sha256": "ee61524089ea34f651af4644816626b6c431506cb81cb509954141002b2e5326"
+    },
+    {
+      "path": "data/results-sources/raw/county-48453-result2.body.gz",
+      "bytes": 5494,
+      "sha256": "7c7ac0bbb6b621161bef67349fcbd071460beac70f386616deb99f3fdb8ba1f0"
+    },
+    {
+      "path": "data/results-sources/raw/county-48453-result2.json",
+      "bytes": 2233,
+      "sha256": "8ec8e2b69531ec07685187eeeca1b6a78d904641c1f0488bc17aa251490c690e"
+    },
+    {
+      "path": "data/results-sources/raw/county-48453-result3.body.gz",
+      "bytes": 1642,
+      "sha256": "d6b42097ecddb396ec44ee7ca4ed2b336f94343702ab5bd4dfeb464f2103c473"
+    },
+    {
+      "path": "data/results-sources/raw/county-48453-result3.json",
+      "bytes": 2095,
+      "sha256": "bf6e62bc5620909ae835d2c3c5dacac5edfb214032409f8de70788c73acd0eb7"
+    },
+    {
+      "path": "data/results-sources/raw/county-48453.body.gz",
+      "bytes": 22108,
+      "sha256": "f38886b9af7bcfe3df86cdbf343d477f2ef7cee5dc55f9588fe67afbadbfaf65"
+    },
+    {
+      "path": "data/results-sources/raw/county-48453.json",
+      "bytes": 5384,
+      "sha256": "f6332e92db3bd6bffb85ccc6c19eb8623d39efef42400e40f9a27d44d329c121"
+    },
+    {
+      "path": "data/results-sources/raw/county-48479-office-follow1.body.gz",
+      "bytes": 25506,
+      "sha256": "973456bbe3d81bbb77f386310c78429c99306fdadc3d5a8e3ba144968c664b1a"
+    },
+    {
+      "path": "data/results-sources/raw/county-48479-office-follow1.json",
+      "bytes": 2592,
+      "sha256": "b3ae6425ce2491742dcbd51b347dc3fdc4e330cf828a0bfcf2bdeec3dafeeb43"
+    },
+    {
+      "path": "data/results-sources/raw/county-48479-office-follow2-sample.body.gz",
+      "bytes": 381204,
+      "sha256": "2fc4a3d88d9b1438311b87438d7212cfd8b18fb0ad26e0fd7ddfa5cf91c548fa"
+    },
+    {
+      "path": "data/results-sources/raw/county-48479-office-follow2-sample.json",
+      "bytes": 2735,
+      "sha256": "80d5b728a5be1b6c8123131372f854ee917bb25233994d4bcd4e60a009ca2273"
+    },
+    {
+      "path": "data/results-sources/raw/county-48479-office-follow2.body.gz",
+      "bytes": 25534,
+      "sha256": "dc372cb6d43393f7f280b79e20efa48cf605dce3f996e598e2876e7807a16974"
+    },
+    {
+      "path": "data/results-sources/raw/county-48479-office-follow2.json",
+      "bytes": 2597,
+      "sha256": "5e6e3f6d374cdea095137d3a1f0687100617570efb37b842b86a2dace4083377"
+    },
+    {
+      "path": "data/results-sources/raw/county-48479-office-follow3.body.gz",
+      "bytes": 25709,
+      "sha256": "e9dce6dd71b61fadb1df58b44ea9084b890d36b521c0481340c4f58832c0cd52"
+    },
+    {
+      "path": "data/results-sources/raw/county-48479-office-follow3.json",
+      "bytes": 2607,
+      "sha256": "d5243e55310d044c4f572c562ae0e888fd3cc76f0c345f1372006ff0275820ed"
+    },
+    {
+      "path": "data/results-sources/raw/county-48479-office.body.gz",
+      "bytes": 32634,
+      "sha256": "edf2a19df1571c659f8d0d33c4e5513d061ccf3e4ccfe6f87475df123a6abf5d"
+    },
+    {
+      "path": "data/results-sources/raw/county-48479-office.json",
+      "bytes": 3766,
+      "sha256": "853be1571fc43cbab842d9c48a4fd0c0f9f7e116f01a6813be25ff2c9ce00cf7"
+    },
+    {
+      "path": "data/results-sources/raw/county-48479.body.gz",
+      "bytes": 19646,
+      "sha256": "947e18662b3a6cc0c3b14b20a43e69b0718a36e9d948b341c3eaa391c0b67968"
+    },
+    {
+      "path": "data/results-sources/raw/county-48479.json",
+      "bytes": 3669,
+      "sha256": "03aa4171d860014f992ace0ec7317d18680aeeae509c1fa4ab8f9fe85309bd08"
+    },
+    {
+      "path": "data/results-sources/raw/county-48491.body.gz",
+      "bytes": 2097,
+      "sha256": "99271a7bfbb92c6acaf7d48401429d3d43c0adec1a8aea12e337a72e06966608"
+    },
+    {
+      "path": "data/results-sources/raw/county-48491.json",
+      "bytes": 2719,
+      "sha256": "26ac227597c60f32db6170a6d8698e8b6f9422dc40540634301c84379288ce22"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48039.body.gz",
+      "bytes": 281,
+      "sha256": "860f71213061f4cc29b20045984bf2cdefffc96b26aa698423258800b1a0c040"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48039.json",
+      "bytes": 1751,
+      "sha256": "56c3fffd38949f1cec6a4a408298557ba4ab8b25afabc976a8436e2a8d1fe33c"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48075.body.gz",
+      "bytes": 675,
+      "sha256": "c804369769a31f75e05bd9b8f160a08a9c048bb4263910edfaef0aada1effb7f"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48075.json",
+      "bytes": 1643,
+      "sha256": "57109f14ffc2b0a6b195b02db302a5b337bac5b873d3f783d3c077fc5db2b5cb"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48093.body.gz",
+      "bytes": 17765,
+      "sha256": "d3cf1e929d37621a45daaf40635bf8a8996875a8e6ab3a12234669e8531550c0"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48093.json",
+      "bytes": 1823,
+      "sha256": "e75975a8ee6c8e4026a308d84fd0d4a4cc44477e9f33e7bcc39904323ec927ee"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48105.body.gz",
+      "bytes": 10146,
+      "sha256": "b128452210105a308d930fd814a2528dabee802b9d51a7be59786d38db4c6705"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48105.json",
+      "bytes": 1795,
+      "sha256": "f5f17cf062392ba1d32771e88292c61eccfa65d5efa87f98f4f36d2d71c60899"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48113.json",
+      "bytes": 1837,
+      "sha256": "55ec43c7e2166a11806d13f38243129b796d8d806a9a9ca1cf63abd59fe2bb19"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48121.json",
+      "bytes": 1853,
+      "sha256": "71ae4f3e100559c216dc9387658dec3e5c8b614147f7dc7e28cfa2b8691760fe"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48145.body.gz",
+      "bytes": 20690,
+      "sha256": "1d650b3a4b8330bd3a485212270eef8aec4135ea1f1848472000ae9daf835288"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48145.json",
+      "bytes": 2483,
+      "sha256": "7e67f9e4a48045df304fa24027bd5a9feb24ce0d5a37be655a13c61f70bffc47"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48155.body.gz",
+      "bytes": 19699,
+      "sha256": "5a428294e6ec2d1f700300d081b8b661517d5a03a7af781ca4f73e3767e842b1"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48155.json",
+      "bytes": 2523,
+      "sha256": "fc7ce8f089e6855459703518897d15df5822652179ed97ad04b8f775436f3654"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48167.json",
+      "bytes": 1851,
+      "sha256": "d555f40ec5308158e143480d3ae0daed877e8c295ec4c99ee29341ed74d510d7"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48209.body.gz",
+      "bytes": 2097,
+      "sha256": "77a11cb10781b2f6c925dcecf1e16c57a211783f783c98a2e8d86c4bf9dc26c6"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48209.json",
+      "bytes": 2058,
+      "sha256": "3ea59e64c8f59e617536a3810f0016b524d71bfcf7474d3b675b74055ee9ead2"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48229.body.gz",
+      "bytes": 1028,
+      "sha256": "9643fe69fbb36bef699e89c7235d89b9ec43221504bb6b8d1571df2e826a4536"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48229.json",
+      "bytes": 2337,
+      "sha256": "b6d485da0ebde1c4e04671382d0d40842108d5685bfecda37708e294b9236fbf"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48245.json",
+      "bytes": 1871,
+      "sha256": "91a7f40a79f8e150bc3714dec870ac4d5c30523ff584866494e65bf9f2eefaf2"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48251.body.gz",
+      "bytes": 286,
+      "sha256": "615379bf70abb5f10af82f7732eb9179728cf85a4f1b5bee15b0657cac13ca5a"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48251.json",
+      "bytes": 1790,
+      "sha256": "f8a5622344bd61002a6a2a4547188934739253861297c423979c0426a207eca7"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48263.body.gz",
+      "bytes": 8126,
+      "sha256": "d565ddd0d5ecac4465bebdbdf3019c1069fafe5e69cc546da2febd77ca869e40"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48263.json",
+      "bytes": 1777,
+      "sha256": "159552bab5ddbd7caee5338ba975887cc5df046ef639ad8b1905159db9cc6641"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48269.body.gz",
+      "bytes": 22085,
+      "sha256": "97de8984c1f2f348d7bbce7b5cae47e55295d8d8a931f5916d39cc31d8244cc0"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48269.json",
+      "bytes": 1787,
+      "sha256": "2606723155547e1cae619a9a55952f95f5b4ee77de43a7702436aee7ae363a65"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48303.json",
+      "bytes": 1867,
+      "sha256": "2cb7863dfd57e66314d06abc40c82771bffa99a2bd35c815cee25b3af8010913"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48309.body.gz",
+      "bytes": 2097,
+      "sha256": "a87028e77a55d172d5e57320dfa4de335598d4df3d2957d0a8a672321f8cfdfa"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48309.json",
+      "bytes": 2066,
+      "sha256": "381748c44c46fc4d575c2d37aa8fab185e4b9c8d3edf0b5c8b822e4e13cf14dd"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48311.body.gz",
+      "bytes": 39127,
+      "sha256": "9bc25fe217b47e4ad8390cf54db37b44b3fcf1b1724dc4fb850e9656e352218f"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48311.json",
+      "bytes": 2398,
+      "sha256": "0549b475a90dcca97720a610b73069d3251c39828a328e7efd6301d094f1b696"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48345.json",
+      "bytes": 977,
+      "sha256": "ef2dc3a2fd87cfd3ef6b60d95af8460a013ba90e1d4d061418245bbff58e4b0d"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48355.body.gz",
+      "bytes": 321,
+      "sha256": "d0b581a173d763ddf51ee72993ec8a724f56b96ec80786cb6c74d9814b514322"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48355.json",
+      "bytes": 1835,
+      "sha256": "043e2c3e70c4c9af6c08266fc6b97005cd963f81d532d785db2e88e268e29283"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48383.body.gz",
+      "bytes": 16769,
+      "sha256": "1cfe13d114e80452b0442ffc8312c465f90d2439c71d3a6f60ca72de699848ff"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48383.json",
+      "bytes": 2489,
+      "sha256": "9cc62e45d7fef5310d385f944e9b24121236a0677bfc8ec50a6d4f5b74b610e1"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48393.body.gz",
+      "bytes": 10725,
+      "sha256": "53b280e52b41c0bd44250cac00c40a7bf27d66d471a03b0c712210259daf6843"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48393.json",
+      "bytes": 1791,
+      "sha256": "a75037cd4bfa7a565589e45e83fc7d5d7604825ce9a5cc8aa4faef6f001439e8"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48397.json",
+      "bytes": 1873,
+      "sha256": "b1f2faea3687531b46af45ed6d7eb65212c92bc0028c19683c6893d3d459a57c"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48413.body.gz",
+      "bytes": 25794,
+      "sha256": "9f5cf77ddc6cc8abc6dd5ad6086646eb1c91a5d8ef42d11dc1bee40dcb97c6eb"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48413.json",
+      "bytes": 2517,
+      "sha256": "6092e8c9246544e92eb562666a229ee865277fe702872b180871f352d4f36bf6"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48417.body.gz",
+      "bytes": 8877,
+      "sha256": "1fbd1001eeb1848c63939d0aefed422bc48e25bf52556bb7e33bd91d3e120b9b"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48417.json",
+      "bytes": 1807,
+      "sha256": "82b8e500f58b57dea8b44ac61e2b57f4e53a9179555fb8fd4a9b0989271cbb7d"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48447.body.gz",
+      "bytes": 7904,
+      "sha256": "495b6dfbfea1f0b0dd8faa0d92b70c46494fdbca9007b15a3d6e6c580a5e11ba"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48447.json",
+      "bytes": 1825,
+      "sha256": "f0fe0c1699c1496381cf150f604999a619f29956c52718e47ed43a7585546ba4"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48491.body.gz",
+      "bytes": 2098,
+      "sha256": "70e7d29dbce75396edfe7d5644476a5c8ac1c7f8b792409aa45a5c468a8d9d5e"
+    },
+    {
+      "path": "data/results-sources/raw/discovery-48491.json",
+      "bytes": 2049,
+      "sha256": "295f473ee3fbd32a0857cfb9b0a9c3d8e9afa553fe71d2ba8b5eb94da766ce0f"
+    },
+    {
+      "path": "data/results-sources/raw/harris-ballot-repeat.json",
+      "bytes": 2237,
+      "sha256": "02f6f1c6a1208ff408d5bb363e8042f7d63b45e4d05689db63493d358b0292c5"
+    },
+    {
+      "path": "data/results-sources/raw/harris-ballot.body.gz",
+      "bytes": 7741,
+      "sha256": "505f58aa07fead6a58ea6d9456fc00c876a829337cf360cf0c6dfdcc94face8a"
+    },
+    {
+      "path": "data/results-sources/raw/harris-ballot.json",
+      "bytes": 2140,
+      "sha256": "022c3b00a8097a382a5bd0357c39b82a8859453c8d1b98f5bde73f3ef3dc808e"
+    },
+    {
+      "path": "data/results-sources/raw/harris-live.body.gz",
+      "bytes": 9612,
+      "sha256": "51486de4825794f5c2d0e514d50b12c9fe6a79b45ed9dfc399379545c48818ee"
+    },
+    {
+      "path": "data/results-sources/raw/harris-live.json",
+      "bytes": 1801,
+      "sha256": "9ff6ffd9f863603add1fd381ad10d9d8ee9137f6fe572963627791a3056749b2"
+    },
+    {
+      "path": "data/results-sources/raw/harris-reporting.body.gz",
+      "bytes": 2514,
+      "sha256": "b3e872d9e58f7d3092213cda60b73721e435f8675457e21bcb9afdfa19a09404"
+    },
+    {
+      "path": "data/results-sources/raw/harris-reporting.json",
+      "bytes": 2115,
+      "sha256": "37f02a29a9dc0e7153e53a5175ed7f184747435332831ae411f918c50568179b"
+    },
+    {
+      "path": "data/results-sources/raw/harris-senate-precinct.body.gz",
+      "bytes": 2899,
+      "sha256": "5f26b51e21391f46bbc47804338425ec90d988ac8551cf8332d787b3318f9332"
+    },
+    {
+      "path": "data/results-sources/raw/harris-senate-precinct.json",
+      "bytes": 2152,
+      "sha256": "c43921a10e9a7761501c3adc4cce1c171a1207086148983753a35824cd06e4a6"
+    },
+    {
+      "path": "data/results-sources/raw/hays-office.body.gz",
+      "bytes": 2097,
+      "sha256": "31b26e1bd1bd73a4bf4cc2c965fff002cb6bd6ac5e8d25ce41051d93674aa865"
+    },
+    {
+      "path": "data/results-sources/raw/hays-office.json",
+      "bytes": 1986,
+      "sha256": "167793faf58f9f841ddfeac9667c9352343c57da0f7378386927bec2d68dc7cc"
+    },
+    {
+      "path": "data/results-sources/raw/hidalg-results.body.gz",
+      "bytes": 19883,
+      "sha256": "15e5dbddd7be7b55e3f41852029bf0f18d2485f002ae1a685d11aab5f2fb978e"
+    },
+    {
+      "path": "data/results-sources/raw/hidalg-results.json",
+      "bytes": 2619,
+      "sha256": "22772b8ce430890ba226b060769de5f963f26b20f1dd1f6e8ec4993b9df812d0"
+    },
+    {
+      "path": "data/results-sources/raw/jefferson-current.body.gz",
+      "bytes": 285,
+      "sha256": "2fc9dc7f0044a9c735b54a9b03782ba92a91ba1116fc6c7aa8c9b0c160d0ce5e"
+    },
+    {
+      "path": "data/results-sources/raw/jefferson-current.json",
+      "bytes": 1710,
+      "sha256": "0b223ad8b27f885aae1edf7fe107e719eb3f0ddb67245051865aaa68c297cc84"
+    },
+    {
+      "path": "data/results-sources/raw/law-EL-101.body.gz",
+      "bytes": 28013,
+      "sha256": "d00c5838b0e0a12c86e6b4de70fc2b942ff2ee7fd8a53b3db2bafdb142439079"
+    },
+    {
+      "path": "data/results-sources/raw/law-EL-101.json",
+      "bytes": 1841,
+      "sha256": "68ed8a8d8a0d54a6513c86a44cd1c04e7e6dafab1518e5cfc746d6d9297c4c3d"
+    },
+    {
+      "path": "data/results-sources/raw/law-EL-127.json",
+      "bytes": 1885,
+      "sha256": "17e8e20113c6d7f536637057a2179120e4a80422792a99ace2fa137a8ce44edb"
+    },
+    {
+      "path": "data/results-sources/raw/law-EL-2.json",
+      "bytes": 1879,
+      "sha256": "080229d7fd14a6375314788c5cbbcce085a19d51751a5077c156131ea29cb0f4"
+    },
+    {
+      "path": "data/results-sources/raw/law-EL-212.json",
+      "bytes": 1885,
+      "sha256": "d1d47c1b2f406b4df55c8200022c3fb37da914c363aa0eb914e4742480a44738"
+    },
+    {
+      "path": "data/results-sources/raw/law-EL-213.json",
+      "bytes": 1885,
+      "sha256": "716089e2a387d0f85360603292782d112c65c41385a8a65974cbf6fd081ba9cd"
+    },
+    {
+      "path": "data/results-sources/raw/law-EL-214.json",
+      "bytes": 1885,
+      "sha256": "3a192f32e3b3b22249dbd5d1a2747e6893562bea51e44f0a68f75bc09df10686"
+    },
+    {
+      "path": "data/results-sources/raw/law-EL-41.json",
+      "bytes": 1882,
+      "sha256": "f6d374fffa9f1088d71a6d61b14b4eb44814951275333d6722a78adb009aac41"
+    },
+    {
+      "path": "data/results-sources/raw/law-EL-67.json",
+      "bytes": 1882,
+      "sha256": "d749be35a9c76cc3317b65fca8c3f5d45faeceec0cab9fdd32541f764de6a2ef"
+    },
+    {
+      "path": "data/results-sources/raw/law-EL-86.json",
+      "bytes": 1882,
+      "sha256": "502a0f31fd0ce002b5658a23a5bd61eb1279ab4848be0d644b13c7c715eea15f"
+    },
+    {
+      "path": "data/results-sources/raw/law-EL-87.json",
+      "bytes": 1882,
+      "sha256": "ca51c6e21a8f0b7c5d2c7ff91071849a7905ba14e0ce626a2ba95243eafd58eb"
+    },
+    {
+      "path": "data/results-sources/raw/law-app-main.body.gz",
+      "bytes": 8719,
+      "sha256": "350cb3008b7f94df6a3958f944ed1dfa98b154ee5d0f7442298f22547c2ae069"
+    },
+    {
+      "path": "data/results-sources/raw/law-app-main.json",
+      "bytes": 1813,
+      "sha256": "7e73cd3b50ead8d01a76759b7821f40b43d26132bb78e7749ed429ca79d6fb4a"
+    },
+    {
+      "path": "data/results-sources/raw/law-complete-pdf.json",
+      "bytes": 1914,
+      "sha256": "d928ab979d10c9b3f7150144f23c03d6d92badf82b2043f29ea44b1cf7eb184f"
+    },
+    {
+      "path": "data/results-sources/raw/law-current-101.json",
+      "bytes": 1929,
+      "sha256": "a8968b9430770b4ccb2da095c377ca6010d6e536db0e921ee45a65c6a3325859"
+    },
+    {
+      "path": "data/results-sources/raw/law-current-127.json",
+      "bytes": 1929,
+      "sha256": "79afa9ed0fb82d415479a6dded3e1a8a183d6caa6c9cfb9e9f91c24dde3e6276"
+    },
+    {
+      "path": "data/results-sources/raw/law-current-2.json",
+      "bytes": 1921,
+      "sha256": "efd90a46dc4fbd0fbc82cbe0ad188a5e563548cc66016b6d71e45c0be062e240"
+    },
+    {
+      "path": "data/results-sources/raw/law-current-212.json",
+      "bytes": 1929,
+      "sha256": "72b9c5be7e37458fbc221be733d18b000bab779e437b614e9b81942b51046044"
+    },
+    {
+      "path": "data/results-sources/raw/law-current-214.json",
+      "bytes": 1929,
+      "sha256": "d9cb21bb49c059d114d7dac30ea4b3b03bd161d35022518484e16848691f3d0f"
+    },
+    {
+      "path": "data/results-sources/raw/law-current-41.json",
+      "bytes": 1925,
+      "sha256": "a38aa5972d5c685eebde9229710656482a1589788f29a0c3bb63b5f19d1ffcf1"
+    },
+    {
+      "path": "data/results-sources/raw/law-current-67.json",
+      "bytes": 1925,
+      "sha256": "8d4a9ca37c0e0e9db77a14cd33ea9c87a0dcec4c15f51a1471f6a71252eff3f1"
+    },
+    {
+      "path": "data/results-sources/raw/law-current-86.json",
+      "bytes": 1925,
+      "sha256": "3854e4c6fcb41cd5ee8d2939350e89747cab9e7f43003e357da3244138690a1e"
+    },
+    {
+      "path": "data/results-sources/raw/law-current-87.json",
+      "bytes": 1925,
+      "sha256": "de260c45f6af9132b2414b76b4a88b680994780c65e9c25bfb056decda495fcb"
+    },
+    {
+      "path": "data/results-sources/raw/law-environment.body.gz",
+      "bytes": 33911,
+      "sha256": "2d1b9eda01d00e8cda59876ecdf29edd5bf4bff2da532265c87b7d72a657bf58"
+    },
+    {
+      "path": "data/results-sources/raw/law-environment.json",
+      "bytes": 1837,
+      "sha256": "30f84eac59888f13718ade0d21aca996042bd1c2052a34246edeb6fc567b2fc9"
+    },
+    {
+      "path": "data/results-sources/raw/law-query-101.json",
+      "bytes": 1937,
+      "sha256": "62a672eb7a136eb5a5b24432a9c7cc30af62160389438d98e7eb5cf2e0827fca"
+    },
+    {
+      "path": "data/results-sources/raw/law-query-127.json",
+      "bytes": 1937,
+      "sha256": "bcfcfb0ae222fbc3e8cffb39b672a214ae88357610c7b33633d209226f6b60c4"
+    },
+    {
+      "path": "data/results-sources/raw/law-query-2.json",
+      "bytes": 1929,
+      "sha256": "d808f5c42439ce013853bcb66257506176f428c5ba18f8cf50102b39f874a13b"
+    },
+    {
+      "path": "data/results-sources/raw/law-query-212.json",
+      "bytes": 1937,
+      "sha256": "b0d51d4af97be1942850467e5d1e376d74d318c987bf54fc035ed0325d47b782"
+    },
+    {
+      "path": "data/results-sources/raw/law-query-214.json",
+      "bytes": 1937,
+      "sha256": "a628dd21c09081f69c825604d4d459d932e2827a684272d3cf28ea4f5d5b4300"
+    },
+    {
+      "path": "data/results-sources/raw/law-query-41.json",
+      "bytes": 1933,
+      "sha256": "c9dcc79b445a0fc1b39d67528ffc00b5479d0bb83c3fd48d0e4385cebd9292be"
+    },
+    {
+      "path": "data/results-sources/raw/law-query-67.json",
+      "bytes": 1933,
+      "sha256": "30d17f8e19a540093096729efa971eb24806a3167f68b9935012b4bfda09fafa"
+    },
+    {
+      "path": "data/results-sources/raw/law-query-86.json",
+      "bytes": 1933,
+      "sha256": "0df554b9d2704c8bdae68eaf8a384f6637547775f0ae7ec25efeb28776827de9"
+    },
+    {
+      "path": "data/results-sources/raw/law-query-87.json",
+      "bytes": 1933,
+      "sha256": "a6bc264028fd1e75dba3a25597162fc801eab8539dde0e30e2886c17f4191d58"
+    },
+    {
+      "path": "data/results-sources/raw/law-reader-base.body.gz",
+      "bytes": 858,
+      "sha256": "6e8383866e893e3f7a2dff338cf30451d7838b46872f2e3a0d5e6b1696b9ad77"
+    },
+    {
+      "path": "data/results-sources/raw/law-reader-base.json",
+      "bytes": 1820,
+      "sha256": "46dbdec826c3d2aa9a208186c726dbe5c81621d97cfe069dd476e9312fcd233c"
+    },
+    {
+      "path": "data/results-sources/raw/law-reader-chunk.body.gz",
+      "bytes": 1808,
+      "sha256": "d6e8ce7dce196159598a7f076cb069954965c5d963e0c11e1c7b9e483f710ddf"
+    },
+    {
+      "path": "data/results-sources/raw/law-reader-chunk.json",
+      "bytes": 1828,
+      "sha256": "8a8cd7e4a160a8b586a9aeae10b49b6603f7f183409fcaca614cbadf35a9e38b"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-101.body.gz",
+      "bytes": 171,
+      "sha256": "beabbb822867cb39661840e9dd46c7a5841a53c26bab78839b8e52ecf199662f"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-101.json",
+      "bytes": 1552,
+      "sha256": "e220600f7e4b8bc1a9ac293f7bcfe507e30ebf166c2ff3f0ca94be77a854159f"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-127.body.gz",
+      "bytes": 165,
+      "sha256": "5da0c944fd6fe6dd1a1ac05f2e0cd15792465f8d936442c8a03b819f554423db"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-127.json",
+      "bytes": 1552,
+      "sha256": "1f1aed7b3fafa8c0d2c7b4189d0878be939f445098bba98d3e5fe92f3ac5687a"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-145.body.gz",
+      "bytes": 170,
+      "sha256": "366b803b3c3a7fae24e143ec4d66c513de92c52487ce2fb295b91432e2a8bcca"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-145.json",
+      "bytes": 1505,
+      "sha256": "58a1b417d154e01f4e9ebd34957741df7f0d098cc9c81b46b8d5127e5984d72e"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-146.body.gz",
+      "bytes": 145,
+      "sha256": "7ba9b46e5cf72835516bc58ca2e86c5480842c521d06562eb958bc1412d55e5a"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-146.json",
+      "bytes": 1505,
+      "sha256": "be8203c24efd116c84d13dbe427b008034197ea875da921943a31b4e3fdbaac6"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-172.body.gz",
+      "bytes": 144,
+      "sha256": "c46fd97f1d1dff2fa24e14a3dcb0e6fe0e7d3b96bf3ae620d53c36658e239278"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-172.json",
+      "bytes": 1505,
+      "sha256": "98b46140b332863247ef9f118a076e1aa27fea0e54dd3493d8afdf2844ea6293"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-2.body.gz",
+      "bytes": 157,
+      "sha256": "e1cce2d6de0e7e2e86f675d11a88b13432fb8272032144a1d27a1a023a0a3b96"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-2.json",
+      "bytes": 1542,
+      "sha256": "7412225b935a5ae3339fee15528d22f361e8337e4aa48ade4ebab9824716f929"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-212.body.gz",
+      "bytes": 144,
+      "sha256": "75ad458153f2bd603df96e88de2db2c275833a09efa564c7a7292d7a1a83715c"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-212.json",
+      "bytes": 1552,
+      "sha256": "1e8e3b9a53130e713aadb7afc2b31e4c6759b12203e3bec05992f09bfaaf187d"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-214.body.gz",
+      "bytes": 146,
+      "sha256": "1ca076a8c5b9654d3374b317c06f3e2b51f81d67c09ac1d0fcd36f08ce9ef023"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-214.json",
+      "bytes": 1552,
+      "sha256": "90280e543e1a9dbdd62d322a355713f7f03c99c3141aab94efe68d63abe6609d"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-216.body.gz",
+      "bytes": 144,
+      "sha256": "588c9e8e93eb3c9d9b5b184f2b364c284f4ce124c569891bc784589aa4ef6bb5"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-216.json",
+      "bytes": 1505,
+      "sha256": "b2f0f725e73735d21b5c22b8f685831342c9b24293cd238451992383cf106168"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-41.body.gz",
+      "bytes": 160,
+      "sha256": "1ad0bd10cc17dcbe5547eaa3544bcd5ee39e471a45f53c226207a88242b8920d"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-41.json",
+      "bytes": 1547,
+      "sha256": "312404ae29e034a15e044c1638ea8bb6df1bdee1a91f347b3151e81f5c9b60ac"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-63.body.gz",
+      "bytes": 140,
+      "sha256": "53b8e3a11b0ad0453a2c55a9b1722f6040babca37d3fe0fcf4b144c288d79e52"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-63.json",
+      "bytes": 1501,
+      "sha256": "0a77580710b18121ca5a9130232163597c698b40349f7256c73fc5e2ac7ae5d9"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-65.body.gz",
+      "bytes": 160,
+      "sha256": "37137b160dd39d73661e0f8d618054d126525f6c43f7acbd88e3b930921f5f41"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-65.json",
+      "bytes": 1501,
+      "sha256": "048086d36915704fa927857dd3c1b96b063ef10e2ad156da164f824d018732df"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-67.body.gz",
+      "bytes": 146,
+      "sha256": "4cfbd3e7fa5f7b79c240dba55ed69d92387c7dff0e83e00ea18c8045d1ece2cb"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-67.json",
+      "bytes": 1547,
+      "sha256": "8ccba495835435d217bff0afaa59fe7ff0a83b1756ee98e26a2901849af40076"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-86.body.gz",
+      "bytes": 151,
+      "sha256": "1fff201708e34e2d38a46474045b5924467902c73354f302b2a8aad0f72b32e3"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-86.json",
+      "bytes": 1547,
+      "sha256": "1dce1476a9e6a301c48930f7a64729015a3dc134ad64b0a793c7d5adc81ce141"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-87.body.gz",
+      "bytes": 155,
+      "sha256": "f23513a8e2387caf3a38c65b751821674f2c2cbe81d9656539f27ebdc8596f4b"
+    },
+    {
+      "path": "data/results-sources/raw/law-resolve-87.json",
+      "bytes": 1547,
+      "sha256": "f698384eb0dbe47f5240ea21a9fbdac83e16fb4e919a610b2a7dc63ef6b31b18"
+    },
+    {
+      "path": "data/results-sources/raw/law-service-api.body.gz",
+      "bytes": 385,
+      "sha256": "ca405cb42b8bbc229165d9e6c65922295b4a363085e8748cb2575627b0d2c30d"
+    },
+    {
+      "path": "data/results-sources/raw/law-service-api.json",
+      "bytes": 1829,
+      "sha256": "a25af0f1d33806563d9c8580b48d49a8451267a0360cccdf4f5fcf5760465c6d"
+    },
+    {
+      "path": "data/results-sources/raw/law-service-chunk.body.gz",
+      "bytes": 2227,
+      "sha256": "0c3cd1da55c644a03d728e7a960b57ce1a8bed252180465999dc5fc9c29f807e"
+    },
+    {
+      "path": "data/results-sources/raw/law-service-chunk.json",
+      "bytes": 1827,
+      "sha256": "0627e90629fba7ac9c400d03f2120fbffc21cb9c436e47219f95cce7c1e98fe9"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-101.body.gz",
+      "bytes": 7853,
+      "sha256": "5849be75107e479c0a24f7c69a332b10b8480e9b46a3b4f763831bc50329c10e"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-101.json",
+      "bytes": 1565,
+      "sha256": "e572b605022b1bf11f01d8e94c9f9e9a316c7f06ddc41ca40ab060e23744d238"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-127.body.gz",
+      "bytes": 17444,
+      "sha256": "1e68e9820ec36f5d79e80cae11e584d54deae39c8616a0ef326e202aeb58abc3"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-127.json",
+      "bytes": 1568,
+      "sha256": "d4453f15dc60689d2d0ca6fa0d2fcf7e71ddd042d6d9c6f9aaeca35316016f9f"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-145.body.gz",
+      "bytes": 6928,
+      "sha256": "278a2e8e7ef2100a834a775fcf160bd0ebc6733eef8aab264c70ddc0d212f88c"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-145.json",
+      "bytes": 1555,
+      "sha256": "972707dc350028980560b67d090bfd45615767b99da287f0688b27927be90d48"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-146.body.gz",
+      "bytes": 4658,
+      "sha256": "ec289e1e17617c39f30ed00468bfe6bf5b54f1bd65671856352295d8d10747dd"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-146.json",
+      "bytes": 1555,
+      "sha256": "6d6015ef8b18b8f77e34f6ce029d126ee023c0bc89f3db0edfeb61a3098e8751"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-172.body.gz",
+      "bytes": 20622,
+      "sha256": "0484d7fd5323ebb6d3d8723905d2fbd3be17504d124dd5ad1007caffc5479cb5"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-172.json",
+      "bytes": 1558,
+      "sha256": "c0ed8146daf4243ffe213f16a4a93e1985737bed397c0ec19c046fe18bbdd8b0"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-2.body.gz",
+      "bytes": 6204,
+      "sha256": "8c193af813b29ff4ffac43ef8f73b857243411f05c6e14dff87ab5150e41022b"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-2.json",
+      "bytes": 1551,
+      "sha256": "2fdc6eaf5e0d225a965e207cdc2a35e605827f61b022f661e6c7084cb72b22d0"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-212.body.gz",
+      "bytes": 11276,
+      "sha256": "ae5b308cc2477b525bd420c97264d41b430e21192ba4d4c9ec97804ad088f231"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-212.json",
+      "bytes": 1567,
+      "sha256": "63beb0b8eb15a6ed96aefcb1e15e59515cdea31ce4a675a4461ba65bc3a97480"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-214.body.gz",
+      "bytes": 5579,
+      "sha256": "b14358a5c4945c0575e4a75c720de7e69b775bdc2b94cf919aa3e395487ec200"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-214.json",
+      "bytes": 1565,
+      "sha256": "292421642c559b12e5e96f58aeea81bc346fc5715bb4ac6134fb983c25268853"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-216.body.gz",
+      "bytes": 1669,
+      "sha256": "a19d0c2703199c47c68fd6089b8ebe8fcbcf2d5e155ad28b1405aab7c35a0ccb"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-216.json",
+      "bytes": 1554,
+      "sha256": "51bbc840cc108dbe6225abc153ae35fb16a08a735768e8d803fd1cd048c1fa27"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-41.body.gz",
+      "bytes": 5360,
+      "sha256": "5099f34cd00bd82b239a4437b3255fb9a85924f8f95836af48450cd436222558"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-41.json",
+      "bytes": 1558,
+      "sha256": "0adc178f4bd95eb75093ca4f50fa9d2734b0e19bf9b5adbf46f802de321852fb"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-63.body.gz",
+      "bytes": 8144,
+      "sha256": "be0519af47889c60e94ef413367ec3b7e2d2e31ce476960838109917e21c35ac"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-63.json",
+      "bytes": 1548,
+      "sha256": "efe431a90071d9e1526c604bf37788b06bf6fc5fa4e999c466c4bd08c061c351"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-65.body.gz",
+      "bytes": 8124,
+      "sha256": "4825a9d2dd8c63b0901fbf43e43987652aa3486d3f2c9eec837780a42f84dc02"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-65.json",
+      "bytes": 1548,
+      "sha256": "3c171331d492b0239a5a338bf32f5d240a0d88b3f9eda3ecbb978793c7ce6998"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-67.body.gz",
+      "bytes": 6105,
+      "sha256": "adfb1d96230bcd49fcfccb62c534f5290b84e78eb30b3a3420501ab3c04e3814"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-67.json",
+      "bytes": 1558,
+      "sha256": "dcd9d81b24034e211ed633fa5846f9bbd115dfb1986855ff924d1bcee4d9b7ca"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-86.body.gz",
+      "bytes": 14158,
+      "sha256": "fdcccce14dd8e6c31f297cbdb23088f8379479dd566b28bf58dc61e6e8a6cfc8"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-86.json",
+      "bytes": 1560,
+      "sha256": "df0d34e60840f13ba7f0631ffedf83afda77f444cca4210c72aa7305f049f64b"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-87.body.gz",
+      "bytes": 16464,
+      "sha256": "8675ab61dd75a1ca64f9cc798841a2a5441f3444e8787cf36e2abe0be894374c"
+    },
+    {
+      "path": "data/results-sources/raw/law-text-87.json",
+      "bytes": 1561,
+      "sha256": "cc67a0e8cae636a146b20cd397c6a9a3e1ebfdcd5a96c20136e50d770d49d37d"
+    },
+    {
+      "path": "data/results-sources/raw/lubbock-current.json",
+      "bytes": 1719,
+      "sha256": "a06211cb0f77d47319785bd381f70d649d7769294708350ac43eb0e2041be899"
+    },
+    {
+      "path": "data/results-sources/raw/nueces-history.body.gz",
+      "bytes": 319,
+      "sha256": "896c2c37503c3b2485bbdacbb023f08630aaa3e019cfff9cb103189f73e0f013"
+    },
+    {
+      "path": "data/results-sources/raw/nueces-history.json",
+      "bytes": 1761,
+      "sha256": "c9f6024309ab7176f5d440094ec350f9ac0f419607a20f2e9e1a959857b4c22f"
+    },
+    {
+      "path": "data/results-sources/raw/randall-results-sample.body.gz",
+      "bytes": 102056,
+      "sha256": "e5abcea105fa44b6ff63a9abe770bc3662394be44cbbcdb4bbbe55bc6fb6c69f"
+    },
+    {
+      "path": "data/results-sources/raw/randall-results-sample.json",
+      "bytes": 2359,
+      "sha256": "20f28d86b9827aa6e6b8ada8f18894048e01e5145f89059dd3101007a233ff52"
+    },
+    {
+      "path": "data/results-sources/raw/randall-results.body.gz",
+      "bytes": 24333,
+      "sha256": "30d8c28daf42cfcdb99d464c5e1f68e076c147cfdf375d9ee5719c4409d60593"
+    },
+    {
+      "path": "data/results-sources/raw/randall-results.json",
+      "bytes": 2231,
+      "sha256": "27ab9e584d3c7f956817e77e43b9377924199d5655c1a3b3639cfad2d4d132bb"
+    },
+    {
+      "path": "data/results-sources/raw/recount-guide.body.gz",
+      "bytes": 18164,
+      "sha256": "a9c67356142df97d44aac156b126b01e7868fc7c6c245fb8b86acb756dddf91b"
+    },
+    {
+      "path": "data/results-sources/raw/recount-guide.json",
+      "bytes": 1954,
+      "sha256": "3f51d7d3f794a531f29e990c640fe9c4894460b8d7d1bc6fa4d12bb0a7567d13"
+    },
+    {
+      "path": "data/results-sources/raw/sos-advisories.body.gz",
+      "bytes": 6146,
+      "sha256": "2adbaeb48d4977689bd7ec26e70f58a0d5e014038794da17f37876c3f74c7587"
+    },
+    {
+      "path": "data/results-sources/raw/sos-advisories.json",
+      "bytes": 2180,
+      "sha256": "4dd560b5392b2192cb1a5b9b2c9d50770c29e10672c870738944bff2f04d2832"
+    },
+    {
+      "path": "data/results-sources/raw/sos-advisory-2025-14.body.gz",
+      "bytes": 12060,
+      "sha256": "9ad88bb6a91a13b1d274da0a31ddcc64366ba21d7c06b70d2c8590b2db757672"
+    },
+    {
+      "path": "data/results-sources/raw/sos-advisory-2025-14.json",
+      "bytes": 1963,
+      "sha256": "565b0752defd002faa61e960b8f3db6ee1eecd8e5f71ef580f269f475831fdcf"
+    },
+    {
+      "path": "data/results-sources/raw/sos-advisory-2026-22.body.gz",
+      "bytes": 8098,
+      "sha256": "7ad7b525b84dae8d8225874e2c9f83385da705bfd19a284ed49f27d614113c8a"
+    },
+    {
+      "path": "data/results-sources/raw/sos-advisory-2026-22.json",
+      "bytes": 1967,
+      "sha256": "56667c6954f15a2585db0c243d9c58c39bcbb291b88d3e2a7afdd762068d9811"
+    },
+    {
+      "path": "data/results-sources/raw/sos-advisory-2026-23.body.gz",
+      "bytes": 8047,
+      "sha256": "ea0543c4ebd50ad7afa0b81d637194170d467773ab6fd27d4ef1b3d6e1482992"
+    },
+    {
+      "path": "data/results-sources/raw/sos-advisory-2026-23.json",
+      "bytes": 1961,
+      "sha256": "779a16c328bff004ab94753619e029d5a45c95eba90bb82d5d66ce31b036551f"
+    },
+    {
+      "path": "data/results-sources/raw/sos-advisory-index.body.gz",
+      "bytes": 17699,
+      "sha256": "d55926bdbc391de090a007f9492e2088feed2a53665feb7beebf8bd9f2cc464c"
+    },
+    {
+      "path": "data/results-sources/raw/sos-advisory-index.json",
+      "bytes": 1995,
+      "sha256": "a6cb608b27c57ed9c444a308c8f7c63d50dd53dfbc5d44321d7943ed787e546d"
+    },
+    {
+      "path": "data/results-sources/raw/sos-calendar.body.gz",
+      "bytes": 58563,
+      "sha256": "c718de02ae2a1aaa584afddd32cdd4d79a23dbd0f165e45713d7a1e74b46decb"
+    },
+    {
+      "path": "data/results-sources/raw/sos-calendar.json",
+      "bytes": 2021,
+      "sha256": "c2ff988870cce10950c1792a4e6493114c666461d8ec0f0163d918dd36004074"
+    },
+    {
+      "path": "data/results-sources/raw/sos-candidate-guide.body.gz",
+      "bytes": 6403,
+      "sha256": "9c59af4e6f3ae533bfc872722ec8cbe350666ad313852ae5d0e418a7807eac44"
+    },
+    {
+      "path": "data/results-sources/raw/sos-candidate-guide.json",
+      "bytes": 1975,
+      "sha256": "b9e613f1350c50499649958bf7deb7a60b621708d3ff1163f50d4dc4cafd228c"
+    },
+    {
+      "path": "data/results-sources/raw/sos-candidates.body.gz",
+      "bytes": 5886,
+      "sha256": "a53ee4a4e141fea5700666e0ad7e22655a209fb536557b51694931578a9f8975"
+    },
+    {
+      "path": "data/results-sources/raw/sos-candidates.json",
+      "bytes": 1936,
+      "sha256": "499958a08b316dbfeabb52440dd9fc3f046625503273e4469227b8659d24239f"
+    },
+    {
+      "path": "data/results-sources/raw/sos-certification.body.gz",
+      "bytes": 4908718,
+      "sha256": "aa297a949a62c0b7b49af2b51c6aec84016a2d94e4d563cd95c4bef76d8c8401"
+    },
+    {
+      "path": "data/results-sources/raw/sos-certification.json",
+      "bytes": 2195,
+      "sha256": "28ea8c31f68d209aad71278b40c14e00bd0577de6df70fd72f615a487824c937"
+    },
+    {
+      "path": "data/results-sources/raw/sos-county-links.body.gz",
+      "bytes": 10003,
+      "sha256": "790c275908005627f433c72e87f0bbc2a59af415ca286aa33afbfa72db17a126"
+    },
+    {
+      "path": "data/results-sources/raw/sos-county-links.json",
+      "bytes": 1939,
+      "sha256": "7057163aff53ca4581c8a49b0c44e5c1083b5206e8ca89fdf0f913d4a2361b27"
+    },
+    {
+      "path": "data/results-sources/raw/sos-county-officials.body.gz",
+      "bytes": 29744,
+      "sha256": "ee2c79d5c77f29239da3f711600aee307a5381690f3bbcf1fbfa062465834c48"
+    },
+    {
+      "path": "data/results-sources/raw/sos-county-officials.json",
+      "bytes": 1952,
+      "sha256": "f326991c297489737000011c6da3ee1aa9f8ea467ba255dd9eab36199f443dc8"
+    },
+    {
+      "path": "data/results-sources/raw/sos-current-candidates-main.body.gz",
+      "bytes": 609936,
+      "sha256": "e8e9974fffa770cbc623041af7bdca8aa7ab6455a6e5f569ff916c0cdaf73b9a"
+    },
+    {
+      "path": "data/results-sources/raw/sos-current-candidates-main.json",
+      "bytes": 2158,
+      "sha256": "2b81be33925cbf6fcfcca0c17aff625726ac033364b7b0a68e8e54d5d9b32533"
+    },
+    {
+      "path": "data/results-sources/raw/sos-current-candidates.body.gz",
+      "bytes": 3139,
+      "sha256": "6f8ea55095f3659cdbc784293cefb3116e06d7e1b79fcb4ebde16ff24d3f8284"
+    },
+    {
+      "path": "data/results-sources/raw/sos-current-candidates.json",
+      "bytes": 1918,
+      "sha256": "af643b2757a533181496c70a4a3cd75d66ca2771aea3516c076bdc75b7ff2884"
+    },
+    {
+      "path": "data/results-sources/raw/sos-current-results-main.body.gz",
+      "bytes": 716285,
+      "sha256": "058048f9df661a7bfcc2609ff89be96ecef18a29e6017506bf679e8a6cf0a17e"
+    },
+    {
+      "path": "data/results-sources/raw/sos-current-results-main.json",
+      "bytes": 2150,
+      "sha256": "38943fbcdf712efde45712dd7168ce3fb8f453e8fa8e25d13281b4088619e7b8"
+    },
+    {
+      "path": "data/results-sources/raw/sos-current-results.body.gz",
+      "bytes": 4703,
+      "sha256": "19e2b6c4067b719572aea0be589208a7a58a2d85d5d29246c5d586aa395fc643"
+    },
+    {
+      "path": "data/results-sources/raw/sos-current-results.json",
+      "bytes": 1880,
+      "sha256": "4408e4dd1354e60fef4615e8fa3581c390cb21474d3350419243a0011fe5cbdb"
+    },
+    {
+      "path": "data/results-sources/raw/sos-current-turnout-main.body.gz",
+      "bytes": 467687,
+      "sha256": "73d23a4c834aeeee43cb572580476683d7faa19a2138d3eaf92ac3a408647d23"
+    },
+    {
+      "path": "data/results-sources/raw/sos-current-turnout-main.json",
+      "bytes": 2149,
+      "sha256": "8032650ab32687194e7443da1ad7eb1ad1768654821e977f4ba7d545c1a2838b"
+    },
+    {
+      "path": "data/results-sources/raw/sos-current-turnout.body.gz",
+      "bytes": 3145,
+      "sha256": "d14c27fa9ba7acd5f19cc9395db5a036098407aa8700475cb85b8f179f403ea7"
+    },
+    {
+      "path": "data/results-sources/raw/sos-current-turnout.json",
+      "bytes": 1886,
+      "sha256": "ee125f4384845d7d0d4e7a4d511444598eade6626cb38b113c293fd10f64f5f6"
+    },
+    {
+      "path": "data/results-sources/raw/sos-election-constants.body.gz",
+      "bytes": 1015,
+      "sha256": "74d759b8b155b196848ffe58d21399428a21603a6d886c17fefae5ab2cc00806"
+    },
+    {
+      "path": "data/results-sources/raw/sos-election-constants.json",
+      "bytes": 2624,
+      "sha256": "a207dea37b63ae8576bf7e9e49f0c8ee81c72887ff315340cd44d6eb2a744774"
+    },
+    {
+      "path": "data/results-sources/raw/sos-elections.body.gz",
+      "bytes": 6161,
+      "sha256": "d3854f34fad6d0ddcdc8ee2504ad2d094018ed6d7097a382a8dbf861601c7189"
+    },
+    {
+      "path": "data/results-sources/raw/sos-elections.json",
+      "bytes": 1904,
+      "sha256": "ec19fcf4e87f30ef6c1ebfbaa3f1bf0eb5e0562fa1ae875c60f74d491607421b"
+    },
+    {
+      "path": "data/results-sources/raw/sos-evr-election-index.body.gz",
+      "bytes": 15916,
+      "sha256": "3235f877b82f2e68223c1961c314e68aa876a619651f7444e481e5b0dbcef3ac"
+    },
+    {
+      "path": "data/results-sources/raw/sos-evr-election-index.json",
+      "bytes": 2642,
+      "sha256": "204869fcaafb487f5e97afa3b823b2a81d896b1148c24bd81189f5be9895e971"
+    },
+    {
+      "path": "data/results-sources/raw/sos-november-counties-repeat.json",
+      "bytes": 2748,
+      "sha256": "222723bd897e8f38b8ae12ccca3468bc0f645a4ed8b4ade1e1f3e04dd8130823"
+    },
+    {
+      "path": "data/results-sources/raw/sos-november-counties.body.gz",
+      "bytes": 482981,
+      "sha256": "fbc8ee02926b49da8beeb62e9b53137cdd54d0393c927b4b5b39d8189a7c0e4e"
+    },
+    {
+      "path": "data/results-sources/raw/sos-november-counties.json",
+      "bytes": 2643,
+      "sha256": "e5b736e47b3ef552333db6b37dbe090705abedb1735149d9c804fccabc7b394e"
+    },
+    {
+      "path": "data/results-sources/raw/sos-november-data-repeat.json",
+      "bytes": 2709,
+      "sha256": "10f0daa36a2eb75f0225d39301df2959a58a3805bbbf5ef209b08e61ca3ce38c"
+    },
+    {
+      "path": "data/results-sources/raw/sos-november-data.body.gz",
+      "bytes": 246354,
+      "sha256": "e815607c508bc11ed0071b32f2a44dd0e25d37c9988f1f088ca7b541cf80d5f9"
+    },
+    {
+      "path": "data/results-sources/raw/sos-november-data.json",
+      "bytes": 2637,
+      "sha256": "adad5dd199f5287b885034563584c68218e035327fce3343a7c808987268af13"
+    },
+    {
+      "path": "data/results-sources/raw/sos-november-evr-sample.body.gz",
+      "bytes": 5249,
+      "sha256": "9d2b5d3824981f40bb1ef7d61c1e2e6a7d875c37c61317ba5eb60dec57bd3c73"
+    },
+    {
+      "path": "data/results-sources/raw/sos-november-evr-sample.json",
+      "bytes": 2787,
+      "sha256": "da8b995bc0d4de968026146f42b28e2c7847ef5c8bf610bdd151f8d7e11571df"
+    },
+    {
+      "path": "data/results-sources/raw/sos-november-history.json",
+      "bytes": 2584,
+      "sha256": "95d00175889306215abcd38ed117d258232bfd9137ebd40ba801f6bb9f1b0d3d"
+    },
+    {
+      "path": "data/results-sources/raw/sos-november.body.gz",
+      "bytes": 5557,
+      "sha256": "5798528b3ddf3ec62a0828df4fbd170e212af7de644b7d0f66d402abd0bc5e3d"
+    },
+    {
+      "path": "data/results-sources/raw/sos-november.json",
+      "bytes": 1977,
+      "sha256": "b69efc27ae70e5c9d1983e205ebf2980c41ab0254b8f875babfd7715d15ec9d5"
+    },
+    {
+      "path": "data/results-sources/raw/sos-results-archive.body.gz",
+      "bytes": 5273,
+      "sha256": "2e58b14e2c9ea5a81a0e95359f358a7d88e91d2e1379b711d701819074291126"
+    },
+    {
+      "path": "data/results-sources/raw/sos-results-archive.json",
+      "bytes": 1984,
+      "sha256": "d0a14577274ffe99eca5d942224a863ce8f98e20bf0b5ae0ea2e55d8b0a7e232"
+    },
+    {
+      "path": "data/results-sources/raw/sos-results-index.body.gz",
+      "bytes": 5475,
+      "sha256": "0315b5897d66652a85e2f27648509be2faac408cdc3ccb4d169f46d3377904a9"
+    },
+    {
+      "path": "data/results-sources/raw/sos-results-index.json",
+      "bytes": 1942,
+      "sha256": "16d01c9853dc7a75a5a4fb48f7a1364092d2eaad5301cdb0f89d2722c5133806"
+    },
+    {
+      "path": "data/results-sources/raw/sos-sample-ballot.body.gz",
+      "bytes": 188226,
+      "sha256": "172c04c1045c845b1da7d469a4d828b393ba0377d9d767267acf034976def4d0"
+    },
+    {
+      "path": "data/results-sources/raw/sos-sample-ballot.json",
+      "bytes": 2184,
+      "sha256": "2dce3ef159f3d8fddf73b7d8f35a2bd3c093473cd78bbda3ad55e4c6b5f96c98"
+    },
+    {
+      "path": "data/results-sources/raw/sos-sb2753-advisory.body.gz",
+      "bytes": 20229,
+      "sha256": "d96918dca9220d295406a49f6cba77e796ce04a973f5c238cb5072f76d459789"
+    },
+    {
+      "path": "data/results-sources/raw/sos-sb2753-advisory.json",
+      "bytes": 1992,
+      "sha256": "6e814e58484ec9b344c40f0d41397f995b26c1f40d14d3753f0adeb6a36a5455"
+    },
+    {
+      "path": "data/results-sources/raw/sos-sb2753.body.gz",
+      "bytes": 2930157,
+      "sha256": "66fcb7af800f386f19634cf86c19f234a9d5541f330c7dc3581b51168b12104d"
+    },
+    {
+      "path": "data/results-sources/raw/sos-sb2753.json",
+      "bytes": 2223,
+      "sha256": "cfea8e2efe413d1711c81e4cb2ea4b1333da3022c87d4af3f20a1319c28d43f2"
+    },
+    {
+      "path": "data/results-sources/raw/sos-writeins.body.gz",
+      "bytes": 813706,
+      "sha256": "6b78683b01885c99ed98b5bd62d4b472fe3d27494d4849bcd671dcdedcb66a89"
+    },
+    {
+      "path": "data/results-sources/raw/sos-writeins.json",
+      "bytes": 2249,
+      "sha256": "9b943906910edbb6ee4e7d239eca5350f08a6118eefb9957541acf70b6adf39e"
+    },
+    {
+      "path": "data/results-sources/raw/tarrant-clarity-main.body.gz",
+      "bytes": 1824958,
+      "sha256": "7a807e1bb1ba091658397fad2317467f22b815c776e18982b37ee17388bae389"
+    },
+    {
+      "path": "data/results-sources/raw/tarrant-clarity-main.json",
+      "bytes": 2232,
+      "sha256": "d0ac4b5565d3fe997bd5f929e4e54d862e8a5f25e85d5ac4d344c1f50e7d4dec"
+    },
+    {
+      "path": "data/results-sources/raw/tarrant-clarity-shell.body.gz",
+      "bytes": 4794,
+      "sha256": "22a3f85fb29f7cf2fb8fa71e117c17a6197b8080ef1c922bfcf9f18b4a561adb"
+    },
+    {
+      "path": "data/results-sources/raw/tarrant-clarity-shell.json",
+      "bytes": 2167,
+      "sha256": "1aa6b3ba468d201caf034f034477b22221e8f079ecbffe0b6cb86b2d24c56818"
+    },
+    {
+      "path": "data/results-sources/raw/tarrant-versions.json",
+      "bytes": 1869,
+      "sha256": "c53ea24fce7cba2e4fe52e66309d75aa183c7160c356386c71dab1eb79d5ba3f"
+    },
+    {
+      "path": "data/results-sources/raw/timezone-law.body.gz",
+      "bytes": 3179,
+      "sha256": "809685df7615181c8e0c9a3e81e63dd444df78f52bc2943d1612dc90902b031c"
+    },
+    {
+      "path": "data/results-sources/raw/timezone-law.json",
+      "bytes": 2976,
+      "sha256": "ff80ea27651f23166411f4d7278e82b9e6c137dd11b2163b5fea5bba06ffd420"
+    },
+    {
+      "path": "data/results-sources/raw/votetexas-faq.body.gz",
+      "bytes": 16349,
+      "sha256": "a007a464a6f101dd9f7e5452d00f46e0a540b9acb016e3ca161c96636bb96329"
+    },
+    {
+      "path": "data/results-sources/raw/votetexas-faq.json",
+      "bytes": 2105,
+      "sha256": "ad17dd37a197f1faab4955e4e9ffe72c616dba49085a4a14c842bb3c7f5332bc"
+    },
+    {
+      "path": "data/results-sources/raw/wilco-office.body.gz",
+      "bytes": 2097,
+      "sha256": "6700f56a229cca54b2a4c19c4884df20f84faeb9fdc73d3f3c5467ed56c3d345"
+    },
+    {
+      "path": "data/results-sources/raw/wilco-office.json",
+      "bytes": 1998,
+      "sha256": "4c58f8f202ec83232954f2130b02e453ae4e6e4d75738e7db42f8888947ad1c7"
+    },
+    {
+      "path": "data/results-sources/setup-inspection.json",
+      "bytes": 1328,
+      "sha256": "6113f915d34830fd0b14c11880a5d19e55c231f4212989ecc88d6f2d79221b52"
+    },
+    {
+      "path": "data/results-sources/shared-evidence.json",
+      "bytes": 73684,
+      "sha256": "a61149c85a541ea943a3425172b40f45c8298626ccb31b5378338a457630805e"
+    },
+    {
+      "path": "data/results-sources/sos-calendar.txt",
+      "bytes": 194057,
+      "sha256": "29e16f602130580db1a306e9ed6001f3ec5c9325131ca1f3732aa3e9bc7cdec2"
+    },
+    {
+      "path": "data/results-sources/sos-certification-preview.png",
+      "bytes": 110023,
+      "sha256": "a7d268b1c966cc06c2d2081b430f9642f3451494a1a9af83687763056a0c848a"
+    },
+    {
+      "path": "data/results-sources/sos-certification.txt",
+      "bytes": 1893115,
+      "sha256": "8e38852156f402dd402a412accb594313a0e59aa3113b6057c9b593b20e2fcde"
+    },
+    {
+      "path": "data/results-sources/sos-election-constants.decoded.json",
+      "bytes": 3843,
+      "sha256": "7ebf8436065ca243c0fdc22203b8842c462819e3ee6ef28b4162c1bfce0c0445"
+    },
+    {
+      "path": "data/results-sources/sos-evr-election-index.decoded.json",
+      "bytes": 172550,
+      "sha256": "c81780e49aa81dbda2a64ddcd059e879206b560d8877326cd3cf120628b42314"
+    },
+    {
+      "path": "data/results-sources/sos-evr-election-index.decoded.json.gz",
+      "bytes": 4954,
+      "sha256": "7c2aa893d2355d0d4c5d4550fcd59c57cb6c85168980e25a35db2e6ebf11b337"
+    },
+    {
+      "path": "data/results-sources/sos-november-counties.decoded.json.gz",
+      "bytes": 229725,
+      "sha256": "5f2f89841225995f31e9ba7605377d1e5ad3252c0ba6ae186b9bc472b26258cc"
+    },
+    {
+      "path": "data/results-sources/sos-november-data.decoded.json.gz",
+      "bytes": 195384,
+      "sha256": "2c10f953993ab26c5f83b483a0066bf41586b9bd6c872e839a422684fad1ffab"
+    },
+    {
+      "path": "data/results-sources/sos-november-evr-sample.decoded.json.gz",
+      "bytes": 3863,
+      "sha256": "98e2f4f67b875897756e355ac2d9f3ccad9efe93c0560a1a78d8116ec7a214ee"
+    },
+    {
+      "path": "data/results-sources/sos-sample-ballot.txt",
+      "bytes": 5609,
+      "sha256": "c9d79650f7bb32c007c08f8215efe6a52d0a1aefd301336e876ac4bfac169f2c"
+    },
+    {
+      "path": "data/results-sources/sos-sb2753.txt",
+      "bytes": 18971,
+      "sha256": "3369549c3f568d73a523812257033bdadbe76808c2a3f153d0a28e31425185b7"
+    },
+    {
+      "path": "data/results-sources/sos-writeins-preview.png",
+      "bytes": 541034,
+      "sha256": "321dcb1e1dbc27e96691bbda22fd0b08a9bd1bb04a312001a9c15c2919ad82fc"
+    },
+    {
+      "path": "data/results-sources/sos-writeins.txt",
+      "bytes": 2240,
+      "sha256": "e0a58363394806349fc76b334f56b772a6195ae55ce14b7b7a5ea5278b6b7eb2"
+    },
+    {
+      "path": "data/results-sources/source-ledger.json",
+      "bytes": 728483,
+      "sha256": "47ba654a3b4565f3817a565382aa1ff93adf3220b231b420cfe840931c721b21"
+    },
+    {
+      "path": "data/results-sources/state-county-key-map.json",
+      "bytes": 44406,
+      "sha256": "d1137afa0fd149c9305b5703aae6d8f5bf67819f4c4c8e3b7c79944a42b24794"
+    },
+    {
+      "path": "data/results-sources/timezone-web-extract.json",
+      "bytes": 13694,
+      "sha256": "5a57a5e0143d362c9f722485a790a7af7269ece3ed213cbcc2ed1a540b667908"
+    },
+    {
+      "path": "data/results-sources/validate.py",
+      "bytes": 17507,
+      "sha256": "468f307953a8262ec7ba79c3df340ef1d4ff616a9c0a8ca5f629bd9dbce8e98c"
+    },
+    {
+      "path": "data/results-sources/validation.json",
+      "bytes": 4690,
+      "sha256": "d945fd22c4d4791c20d4729d143648bc54adc3ec04e6e1b9c9e2055a7a38babe"
+    },
+    {
+      "path": "official-results.md",
+      "bytes": 43933,
+      "sha256": "3ab0092e5e091a5d9fce0acc5620fe9b1fef22dd34ce4fb02a0e7ad47ab65f4c"
+    }
+  ]
+}

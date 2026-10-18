@@ -1,0 +1,45 @@
+{
+  "id": "county-48201-result3",
+  "request_url": "https://www.harrisvotes.com/Election-Results/Archives",
+  "parent_id": "county-48201",
+  "purpose": "Archives ",
+  "retrieval_started_utc": "2026-10-18T03:27:08.150172+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.harrisvotes.com/Election-Results/Archives",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:27:08 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=1800",
+    "x-xss-protection": "1; mode=block",
+    "vary": "Accept-Encoding",
+    "x-ua-compatible": "IE=edge",
+    "cf-cache-status": "HIT",
+    "last-modified": "Sun, 18 Oct 2026 03:27:08 GMT",
+    "expires": "Sun, 18 Oct 2026 03:57:08 GMT",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c4720cd9fd6129-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 76131,
+  "original_sha256": "1d28fd964260b212dd99d0867b65ca306db2c3ffc963f7963ce31f2cf073b062",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 15088,
+  "stored_stream_sha256": "30ade1047aef2c9b63ac9c483341c661d42021ff2f4e3958bc83fb240bc10109",
+  "stored_parts": [
+    {
+      "path": "raw/county-48201-result3.body.gz",
+      "bytes": 15088,
+      "sha256": "30ade1047aef2c9b63ac9c483341c661d42021ff2f4e3958bc83fb240bc10109"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:08.310101+00:00"
+}

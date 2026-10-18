@@ -1,0 +1,45 @@
+{
+  "id": "local-johnson-1",
+  "requested_url": "https://www.johnsoncountytx.org/home/showpublisheddocument/21253/639229143996670000",
+  "parent_source_url": "https://www.johnsoncountytx.org/departments/elections-office/precinct-maps",
+  "retrieved_utc": "2026-10-18T03:34:01.770487+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.johnsoncountytx.org/home/showpublisheddocument/21253/639229143996670000",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Length": "32464776",
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Fri, 21 Aug 2026 12:06:39 GMT",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000;",
+    "X-XSS-Protection": "1; mode=block",
+    "Expect-CT": "max-age=31536000",
+    "Edge-Cache-Tag": "C4740D84.G,C4740D84.CL3",
+    "Last-Published": "Fri, 21 Aug 2026 13:06:39 GMT",
+    "Content-Disposition": "filename=\"Johnson Precinct Ma.pdf\"",
+    "X-Robots-Tag": "noindex",
+    "Content-DocumentTitle": "Johnson Precinct Map",
+    "GranicusServer": "gasap-viscmsd1",
+    "Date": "Sun, 18 Oct 2026 03:34:02 GMT",
+    "Connection": "keep-alive",
+    "Set-Cookie": "ASP.NET_SessionId=sphfiybplvfz51pna1qog15c; path=/; secure; HttpOnly; SameSite=Lax, BIGipServer~AUTO-VISION-PROD~visionlive~www.johnsoncountytx.org_443=!mHyUsk1OvyEb07Wndi9M08NkPzUn6rwvzG4Vx3U1uLRguTqp7wxq5yRY3Pl2mY73Vr7xKAkkvS4Npw==; path=/; Httponly; Secure",
+    "Server-Timing": "cdn-cache; desc=MISS, edge; dur=30, origin; dur=352, ak_p; desc=\"1792294441929_3088984455_198258368_38289_17878_10_41_-\";dur=1"
+  },
+  "redirects": [],
+  "original_bytes": 32464776,
+  "original_sha256": "01cc2e940e922a9961e16ac9e9bff56678198f63feab70a1cb0ac74bb46c712f",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/local-johnson-1.pdf",
+      "bytes": 32464776,
+      "sha256": "01cc2e940e922a9961e16ac9e9bff56678198f63feab70a1cb0ac74bb46c712f"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Johnson",
+  "advertised_title": "Johnson County Voting District - Precinct Map"
+}

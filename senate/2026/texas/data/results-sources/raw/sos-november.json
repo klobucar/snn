@@ -1,0 +1,47 @@
+{
+  "id": "sos-november",
+  "request_url": "https://www.sos.state.tx.us/elections/laws/2026-november-general-election.shtml",
+  "parent_id": "sos-elections",
+  "purpose": "November authority and advisories",
+  "retrieval_started_utc": "2026-10-18T03:25:53.292409+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.sos.state.tx.us/elections/laws/2026-november-general-election.shtml",
+  "headers": {
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Server": "AmazonS3",
+    "Last-Modified": "Sat, 17 Oct 2026 14:48:16 GMT",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-version-id": "J8SuBvjuxg6pcglM2iLIfCNBR7Z_2s7M",
+    "Date": "Sun, 18 Oct 2026 03:25:54 GMT",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "ETag": "W/\"10712735bd3b272719f1a5252c9f4e78\"",
+    "Vary": "Accept-Encoding",
+    "X-Cache": "RefreshHit from cloudfront",
+    "Via": "1.1 396c4472f3dc9fb1f709059bea4332a4.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P6",
+    "X-Amz-Cf-Id": "n8R4rDhLqvkQpVPUrWkj08kJ60BuCkIBKrbTIkM1RrSRnbLQXH1FVg=="
+  },
+  "redirects": [],
+  "original_bytes": 19753,
+  "original_sha256": "23488f4d1d1ac5ed15c17095f6547ccf2d3e328e1824a66d77ffbd0b1f9ebe46",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 5557,
+  "stored_stream_sha256": "5798528b3ddf3ec62a0828df4fbd170e212af7de644b7d0f66d402abd0bc5e3d",
+  "stored_parts": [
+    {
+      "path": "raw/sos-november.body.gz",
+      "bytes": 5557,
+      "sha256": "5798528b3ddf3ec62a0828df4fbd170e212af7de644b7d0f66d402abd0bc5e3d"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:25:53.424312+00:00"
+}

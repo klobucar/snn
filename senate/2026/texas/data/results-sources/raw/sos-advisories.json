@@ -1,0 +1,52 @@
+{
+  "id": "sos-advisories",
+  "request_url": "https://www.sos.state.tx.us/elections/laws/advisories.shtml",
+  "parent_id": "sos-elections",
+  "purpose": "current legal advisories",
+  "retrieval_started_utc": "2026-10-18T03:25:53.292583+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 403,
+  "final_url": "https://www.sos.state.tx.us/elections/laws/advisories.shtml",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "AmazonS3",
+    "Last-Modified": "Sat, 17 Oct 2026 14:48:18 GMT",
+    "Content-Encoding": "gzip",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-version-id": "nLmzdhGPsAJPCB5p5D7SraaKeSRhiNmp",
+    "Date": "Sun, 18 Oct 2026 03:25:54 GMT",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "ETag": "W/\"534dc34fd12303b53a190367a1738fdd\"",
+    "Vary": "Accept-Encoding, Origin",
+    "X-Cache": "Error from cloudfront",
+    "Via": "1.1 b5a438ce0ef9bd741100c84c3520b1d4.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P6",
+    "X-Amz-Cf-Id": "vz2nw9kQYTl3imszdxyklkQBou-9JQmLZNgaoBYOG6oxImaypUoW7w==",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000"
+  },
+  "redirects": [],
+  "original_bytes": 21607,
+  "original_sha256": "01e1dbd3c38d45a3d7351e317853383f00636870ee4d56992e2442bf44d23bb2",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 6146,
+  "stored_stream_sha256": "2adbaeb48d4977689bd7ec26e70f58a0d5e014038794da17f37876c3f74c7587",
+  "stored_parts": [
+    {
+      "path": "raw/sos-advisories.body.gz",
+      "bytes": 6146,
+      "sha256": "2adbaeb48d4977689bd7ec26e70f58a0d5e014038794da17f37876c3f74c7587"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:25:53.513261+00:00"
+}

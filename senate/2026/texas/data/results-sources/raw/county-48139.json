@@ -1,0 +1,97 @@
+{
+  "id": "county-48139",
+  "request_url": "http://co.ellis.tx.us/index.asp?nid=312",
+  "parent_id": "sos-county-links",
+  "purpose": "Ellis official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:34.746845+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "http://www.elliscountytx.gov/312/Elections",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/, CP_IsMobile=false; path=/, ASP.NET_SessionId=effok3mmtuoh4fqpcn2v3nzc; path=/; HttpOnly; SameSite=Lax",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:26:34 GMT",
+    "Content-Length": "43763"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "http://co.ellis.tx.us/index.asp?nid=312",
+      "headers": {
+        "Cache-Control": "private, s-maxage=600,no-transform",
+        "Content-Type": "text/html; charset=utf-8",
+        "Location": "http://www.elliscountytx.gov/index.asp?nid=312",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=()",
+        "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+        "Date": "Sun, 18 Oct 2026 03:26:34 GMT",
+        "Content-Length": "163"
+      }
+    },
+    {
+      "status": 302,
+      "url": "http://www.elliscountytx.gov/index.asp?nid=312",
+      "headers": {
+        "Cache-Control": "private, s-maxage=600,no-transform",
+        "Content-Type": "text/html; charset=utf-8",
+        "Location": "/index.aspx?nid=312",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "Set-Cookie": "CP_IsMobile=false; path=/",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=()",
+        "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+        "Date": "Sun, 18 Oct 2026 03:26:34 GMT",
+        "Content-Length": "136"
+      }
+    },
+    {
+      "status": 302,
+      "url": "http://www.elliscountytx.gov/index.aspx?nid=312",
+      "headers": {
+        "Cache-Control": "private, s-maxage=600,no-transform",
+        "Content-Type": "text/html; charset=utf-8",
+        "Location": "/312/Elections",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=()",
+        "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+        "Date": "Sun, 18 Oct 2026 03:26:34 GMT",
+        "Content-Length": "131"
+      }
+    }
+  ],
+  "original_bytes": 151840,
+  "original_sha256": "3f354f76508e41469fe0da94aaf587661f0944803a0a3be3947014e7ffedb7fc",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 29996,
+  "stored_stream_sha256": "8a6867c4701a37cb414bdf37e6acc5da40277358a6e75126b7fc93bb9f672c63",
+  "stored_parts": [
+    {
+      "path": "raw/county-48139.body.gz",
+      "bytes": 29996,
+      "sha256": "8a6867c4701a37cb414bdf37e6acc5da40277358a6e75126b7fc93bb9f672c63"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:35.524128+00:00"
+}

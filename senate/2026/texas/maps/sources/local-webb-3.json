@@ -1,0 +1,55 @@
+{
+  "id": "local-webb-3",
+  "requested_url": "https://www.webbcountytx.gov/DocumentCenter/View/10784/Order-No-12-13-2021-30-VTDs---Certified?bidId=",
+  "parent_source_url": "https://www.webbcountytx.gov/",
+  "retrieved_utc": "2026-10-18T03:34:04.531329+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.webbcountytx.gov/DocumentCenter/View/10784/Order-No-12-13-2021-30-VTDs---Certified?bidId=",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:34:05 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "93017522",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "content-disposition": "inline;filename=Order%20No.%2012-13-2021-30%20VTDs%20-%20Certified.pdf",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "camera=(), microphone=()",
+    "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Accept-Ranges": "bytes",
+    "last-modified": "Sun, 18 Oct 2026 03:34:05 GMT",
+    "expires": "Sun, 18 Oct 2026 03:34:35 GMT",
+    "cf-cache-status": "EXPIRED",
+    "set-cookie": "__cf_bm=VRzbWCnXTHXJvEQsR0OCY5SP.R4DD92O46LyzJrX5oE-1792294444.7504444-1.0.1.1-K5_jXuW5JceJaPOGAN9wWX1kh312iiPVVJSWaktAMNqKzo6HFxcVSzxcKt_nLH9NjQ0bySlJdCR9Ef_uF31Lgmt5dB38Svj8JqcmTp_b8VuWxiWIJAfT1Hl7Io2HyHWI; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.webbcountytx.gov; Expires=Sun, 18 Oct 2026 04:04:05 GMT",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47c37ad43108c-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 93017522,
+  "original_sha256": "3dd7ff5f9a46340b9224d0c9ed94f383e075b0a90cdb9a2fc8b4ea133a8a4c3b",
+  "storage_encoding": "gzip",
+  "stored_parts": [
+    {
+      "path": "originals/local-webb-3.pdf.gz.part001",
+      "bytes": 32000000,
+      "sha256": "7898b80761fa8c06f84a3a99a17f9eeca479933df78d0ed224d57969b8932118"
+    },
+    {
+      "path": "originals/local-webb-3.pdf.gz.part002",
+      "bytes": 32000000,
+      "sha256": "f42ed86e8711fafa514e78506c5b8684f45970b832086e963c44e9206af3cba6"
+    },
+    {
+      "path": "originals/local-webb-3.pdf.gz.part003",
+      "bytes": 5307002,
+      "sha256": "c2a25ea3d5b056ec7194b95cf59e22a90c1a3eaf82f663f5b17e2d00adb56850"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Webb",
+  "advertised_title": "Certified County Election Precinct Order"
+}

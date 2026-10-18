@@ -1,0 +1,44 @@
+{
+  "id": "county-48257",
+  "request_url": "https://www.kaufmancounty.net/",
+  "parent_id": "sos-county-links",
+  "purpose": "Kaufman official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:35.167302+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.kaufmancounty.net/",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=pc3u1fksjkouxt4u03ooe1ek; path=/; secure; HttpOnly; SameSite=None",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:26:35 GMT",
+    "Content-Length": "34852"
+  },
+  "redirects": [],
+  "original_bytes": 121133,
+  "original_sha256": "a9dd03e1b568496e4f7c0f94b8155e36ed559418950ea0a60784760a8f96fa0d",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 25103,
+  "stored_stream_sha256": "13310ef368913f1622b10eed98563a6f9d8ee05d24c00cf8f433ea7c139526db",
+  "stored_parts": [
+    {
+      "path": "raw/county-48257.body.gz",
+      "bytes": 25103,
+      "sha256": "13310ef368913f1622b10eed98563a6f9d8ee05d24c00cf8f433ea7c139526db"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:35.717264+00:00"
+}

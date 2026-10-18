@@ -1,0 +1,51 @@
+{
+  "id": "harris-ballot-repeat",
+  "request_url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/resultsbyballot.json",
+  "parent_id": "harris-ballot",
+  "purpose": "bounded second genuine observation; stability/change is not vote-arrival cadence",
+  "retrieval_started_utc": "2026-10-18T03:33:46.322543+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/resultsbyballot.json",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:33:46 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Content-MD5": "ZeZzYgxIerACT4Y2jkPA1g==",
+    "Last-Modified": "Thu, 17 Sep 2026 19:18:39 GMT",
+    "Server": "cloudflare",
+    "x-ms-request-id": "a1c260a5-a01e-0061-76a0-4b74be000000",
+    "x-ms-version": "2009-09-19",
+    "x-ms-lease-status": "unlocked",
+    "x-ms-blob-type": "BlockBlob",
+    "Access-Control-Expose-Headers": "x-ms-request-id,Server,x-ms-version,Content-Type,ETag,Last-Modified,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+    "Access-Control-Allow-Origin": "*",
+    "Vary": "accept-encoding",
+    "expires": "Sun, 18 Oct 2026 03:34:46 GMT",
+    "Cache-Control": "public, max-age=60",
+    "cf-cache-status": "REVALIDATED",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a4c47bc56e971855-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 75846,
+  "original_sha256": "ab4df3135769e32a08084115983d51e0cd8ad873e30366d71591804ed6d8c419",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 7741,
+  "stored_stream_sha256": "505f58aa07fead6a58ea6d9456fc00c876a829337cf360cf0c6dfdcc94face8a",
+  "stored_parts": [
+    {
+      "path": "raw/harris-ballot.body.gz",
+      "bytes": 7741,
+      "sha256": "505f58aa07fead6a58ea6d9456fc00c876a829337cf360cf0c6dfdcc94face8a"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:33:46.681125+00:00",
+  "body_storage_shared_with": "harris-ballot"
+}

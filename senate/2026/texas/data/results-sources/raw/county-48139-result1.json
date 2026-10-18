@@ -1,0 +1,44 @@
+{
+  "id": "county-48139-result1",
+  "request_url": "http://www.elliscountytx.gov/403/Prior-Election-Results",
+  "parent_id": "county-48139",
+  "purpose": "Prior Election Results ",
+  "retrieval_started_utc": "2026-10-18T03:27:09.991247+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "http://www.elliscountytx.gov/403/Prior-Election-Results",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/, CP_IsMobile=false; path=/, ASP.NET_SessionId=fegitcwoi2oeg31dhm4fk3ve; path=/; HttpOnly; SameSite=Lax",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:27:09 GMT",
+    "Content-Length": "32117"
+  },
+  "redirects": [],
+  "original_bytes": 109913,
+  "original_sha256": "490f67fcc79aec6ecd101ced396f2ecf62d8db83a9e119a5bfda0195a1e0f00e",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 24193,
+  "stored_stream_sha256": "c6d5a2e05f5e494ea123f41bb9119075dbe158502197b10f9b2bdfc481a018ac",
+  "stored_parts": [
+    {
+      "path": "raw/county-48139-result1.body.gz",
+      "bytes": 24193,
+      "sha256": "c6d5a2e05f5e494ea123f41bb9119075dbe158502197b10f9b2bdfc481a018ac"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:10.394944+00:00"
+}

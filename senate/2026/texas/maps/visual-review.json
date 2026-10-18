@@ -1,0 +1,25 @@
+{
+  "review_date_utc": "2026-10-18",
+  "method": "Inspected actual retained raster images through view_image; no PDF bytes were edited.",
+  "reviewed": [
+    {
+      "paths": ["previews/priority-contact-01.jpg", "previews/priority-contact-02.jpg"],
+      "scope": "All34 actual2024 county reference previews, not outlines alone; visible internal precinct divisions and labels, correct source/vintage header and reference warning. Dense counties suppress labels; full IDs/vertices retained in ZIPs."
+    },
+    {
+      "paths": ["pdf/contact-01.jpg", "pdf/contact-02.jpg", "pdf/contact-03.jpg", "pdf/contact-04.jpg", "pdf/contact-05.jpg", "pdf/contact-06.jpg"],
+      "scope": "All six selected-page PDF contact sheets visually inspected: actual Bell/Montgomery/Webb mapbook pages, Comal notices and proposed-map attachments, Travis plan/map, Hidalgo2021 notice/map, Cameron partial53, Grayson VTD/101, Nueces, Parker, Randall, Midland, ElPaso, Tarrant, Williamson, Johnson, Collin and Guadalupe. Original complete pages remain in PDFs; contact sheets alone do not prove fine legal text."
+    },
+    {
+      "paths": ["pdf/local-collin-1-p0001.png"],
+      "scope": "Inspected full1500px render of scanned Collin map. Visible printedJanuary19,2024, commissioners approvalSeptember25,2023 / Order2023-915-09-25. Landing-page2019/2020 adoption text remains a conflicting vintage, not current approval."
+    },
+    {
+      "paths": ["pdf/local-guadalupe-1-p0001.png", "pdf/local-guadalupe-1-p0003.png", "pdf/local-guadalupe-1-p0004.png"],
+      "scope": "Actual signed order and scanned boundary attachments visible in contact04. Retained original body/text says approvedMay13,2025; source-specific evidence only, no reporting crosswalk."
+    }
+  ],
+  "coordinator_independent_review": "Coordinator separately visually inspected actual Collin map, Guadalupe signed order body and BexarGIS preview, and independently checked all136county subsets against original source record bytes. See read-only data/coordinator-map-subset-checks.json.",
+  "html_review_limit": "Static offline link/resource/structure validation is provided. Browser connector had no enabled browser provider; native fallback was interrupted by user activity, so no completed browser screenshot or interactive UI review is claimed.",
+  "approval_limit": "Visual inspection confirms actual map content and readable source text where inspected, not legal/current boundary approval, geographic equivalence, topology certification or vote allocation."
+}

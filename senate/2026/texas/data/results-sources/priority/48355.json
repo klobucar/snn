@@ -1,0 +1,226 @@
+{
+  "dispatch_key": "TX:48355",
+  "county_fips": "48355",
+  "county": "Nueces",
+  "rank": 18,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48355",
+    "county_fips": "48355",
+    "county": "Nueces",
+    "rank": 18,
+    "priority": true,
+    "directory_label": "NUECES COUNTY",
+    "authority_role": "County Clerk",
+    "authority_name": "Kara Sands",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "http://www.co.nueces.tx.us/",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48355",
+      "metadata_path": "raw/county-48355.json",
+      "request_url": "http://www.co.nueces.tx.us/",
+      "final_url": "https://www.nuecesco.com/",
+      "status": 403,
+      "original_sha256": "e61982a8291047b32e4ec5224043a25a6e46101cb3879f199c2f818ef50125e2",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "sos-county-links"
+    },
+    {
+      "source_id": "nueces-history",
+      "metadata_path": "raw/nueces-history.json",
+      "request_url": "https://www.nuecesco.com/county-services/county-clerk/elections-department/election-history/-folder-126",
+      "final_url": "https://www.nuecesco.com/county-services/county-clerk/elections-department/election-history/-folder-126",
+      "status": 403,
+      "original_sha256": "fd47b0eb62c5cd898154b568016d820f63b0de9f63adb8eaf87125ec183ea791",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48355"
+    },
+    {
+      "source_id": "discovery-48355",
+      "metadata_path": "raw/discovery-48355.json",
+      "request_url": "https://www.nuecesco.com/county-services/county-clerk/elections-department/election-history/-folder-126",
+      "final_url": "https://www.nuecesco.com/county-services/county-clerk/elections-department/election-history/-folder-126",
+      "status": 403,
+      "original_sha256": "9b484a2574d8814597123b24395bad6ca3f04281c3fd1c638d2cdb172d64c482",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": null
+    }
+  ],
+  "assessment": "SOS county route and official county election-history folder returned HTTP 403. Search-discovered March precinct results identify primary, not November; KRIS test categories in coordinator preflight remain excluded.",
+  "gaps": "November county vendor/current unit IDs inaccessible; no allocation from media categories or historical PDFs.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 178,
+    "CN": "NUECES",
+    "MID": 48178,
+    "county_fips": "48355",
+    "dispatch_key": "TX:48355",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 97.0,
+    "P": 0.0,
+    "RV": 217666.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 73.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 217666,
+    "TP": 130,
+    "TV": 0,
+    "TPR": 130
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/178",
+    "summary": "/upload/178/Summary",
+    "senate": "/upload/178/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "NUECES",
+    "id": 178,
+    "registered_voters": 217666,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 229,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48355",
+    "county_fips": "48355",
+    "county": "Nueces",
+    "rank": "18",
+    "priority": "1",
+    "state_county_id": "178",
+    "state_mid": 48178,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": null,
+    "derivative_historical_units": 341,
+    "original_historical_units": null,
+    "tlc_vtd_rows": 660,
+    "november_native_gap": "November county vendor/current unit IDs inaccessible; no allocation from media categories or historical PDFs."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

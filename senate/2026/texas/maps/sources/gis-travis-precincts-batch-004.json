@@ -1,0 +1,32 @@
+{
+  "id": "gis-travis-precincts-batch-004",
+  "requested_url": "https://taxmaps.traviscountytx.gov/arcgis/rest/services/Precincts/MapServer/0/query?f=json&where=1%3D1&objectIds=1161%2C1162%2C1163%2C1164%2C1165%2C1166%2C1167%2C1168&outFields=%2A&returnGeometry=true&returnZ=true&returnM=true&returnTrueCurves=true",
+  "parent_source_url": "https://tax-office.traviscountytx.gov/voters",
+  "retrieved_utc": "2026-10-18T03:34:40.668915+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://taxmaps.traviscountytx.gov/arcgis/rest/services/Precincts/MapServer/0/query?f=json&where=1%3D1&objectIds=1161%2C1162%2C1163%2C1164%2C1165%2C1166%2C1167%2C1168&outFields=%2A&returnGeometry=true&returnZ=true&returnM=true&returnTrueCurves=true",
+  "headers": {
+    "Cache-Control": "max-age=00:00:00",
+    "Content-Type": "application/json; charset=UTF-8",
+    "ETag": "\"79c19bc9\"",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
+    "Set-Cookie": "AGS_ROLES=\"419jqfa+uOZgYod4xPOQ8Q==\"; Version=1; Max-Age=60; Expires=Sun, 18 Oct 2026 03:35:40 GMT; Path=/arcgis/rest; Secure; HttpOnly, TS01d3e21d=017b1051130cd5afbd05ed49573c65b00ed33dff6883b6e162838cc5e1b5118f187a91d316c5b2fce9b0543110269dbdf9345be280; Path=/; Domain=.taxmaps.traviscountytx.gov, TS0127cf19=017b1051130cd5afbd05ed49573c65b00ed33dff6883b6e162838cc5e1b5118f187a91d316c5b2fce9b0543110269dbdf9345be280; path=/arcgis/rest",
+    "Date": "Sun, 18 Oct 2026 03:34:40 GMT",
+    "Transfer-Encoding": "chunked"
+  },
+  "redirects": [],
+  "original_bytes": 192819,
+  "original_sha256": "b898636f9063e66bb915e48b49cdca9b3d3e94e0cdd3efb18d2a795b46810a01",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/gis-travis-precincts-batch-004.body",
+      "bytes": 192819,
+      "sha256": "b898636f9063e66bb915e48b49cdca9b3d3e94e0cdd3efb18d2a795b46810a01"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256."
+}

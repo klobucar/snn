@@ -1,0 +1,216 @@
+{
+  "dispatch_key": "TX:48245",
+  "county_fips": "48245",
+  "county": "Jefferson",
+  "rank": 26,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48245",
+    "county_fips": "48245",
+    "county": "Jefferson",
+    "rank": 26,
+    "priority": true,
+    "directory_label": "JEFFERSON COUNTY",
+    "authority_role": "County Clerk",
+    "authority_name": "Roxanne Acosta-Hellberg",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "http://jefferson-tx.connect4.clarityelections.com/",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48245",
+      "metadata_path": "raw/county-48245.json",
+      "request_url": "http://jefferson-tx.connect4.clarityelections.com/",
+      "final_url": "http://jefferson-tx.connect4.clarityelections.com/",
+      "status": 202,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "sos-county-links"
+    },
+    {
+      "source_id": "discovery-48245",
+      "metadata_path": "raw/discovery-48245.json",
+      "request_url": "https://www.jeffersonelections.com/voter-information/previous-election-results/",
+      "final_url": "https://www.jeffersonelections.com/voter-information/previous-election-results/",
+      "status": 202,
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": null
+    }
+  ],
+  "assessment": "SOS historical connect4 county link and pinned jeffersonelections.com results route returned HTTP 202 empty. A search-discovered similarly named county-clerk domain was not accepted as Texas authority: jurisdiction unverified and response403. Exact Texas county state object retained.",
+  "gaps": "Working official November county/vendor chain and native schema require manual access; no other-state Jefferson data used.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 123,
+    "CN": "JEFFERSON",
+    "MID": 48123,
+    "county_fips": "48245",
+    "dispatch_key": "TX:48245",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 105.0,
+    "P": 0.0,
+    "RV": 148754.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 32.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 148754,
+    "TP": 105,
+    "TV": 0,
+    "TPR": 105
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/123",
+    "summary": "/upload/123/Summary",
+    "senate": "/upload/123/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "JEFFERSON",
+    "id": 123,
+    "registered_voters": 148754,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 481,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48245",
+    "county_fips": "48245",
+    "county": "Jefferson",
+    "rank": "26",
+    "priority": "1",
+    "state_county_id": "123",
+    "state_mid": 48123,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": null,
+    "derivative_historical_units": 322,
+    "original_historical_units": null,
+    "tlc_vtd_rows": 520,
+    "november_native_gap": "Working official November county/vendor chain and native schema require manual access; no other-state Jefferson data used."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

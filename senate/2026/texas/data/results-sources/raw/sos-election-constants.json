@@ -1,0 +1,53 @@
+{
+  "id": "sos-election-constants",
+  "request_url": "https://goelect.txelections.civixapps.com/api-ivis-system/api/s3/enr/electionConstants",
+  "parent_id": "sos-current-results-main",
+  "purpose": "GET path literal in public ENR bundle",
+  "retrieval_started_utc": "2026-10-18T03:27:08.149525+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://goelect.txelections.civixapps.com/api-ivis-system/api/s3/enr/electionConstants",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:27:08 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "0",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET, POST, OPTIONS, PUT, DELETE",
+    "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range",
+    "access-control-expose-headers": "Content-Length,Content-Range",
+    "access-control-allow-credentials": "true",
+    "cf-cache-status": "DYNAMIC",
+    "set-cookie": "__cf_bm=XcQGuJxsltCBXf_MIjU7V8L63PpDhgXwtJaaXPU6w0c-1792294028.291553-1.0.1.1-fmtDPha9U7f3W8el3lE.V6So.EHMB8iAMSq1Xd1yLNYdvGeOI9uBzCloZ.xu.54gJ2jSH58g2Wk4ri_yIKCjmhAG7r.CEYpZV_WSvaW5194F67N7fJkNxmV0aepmLPkL; HttpOnly; SameSite=None; Secure; Path=/; Domain=civixapps.com; Expires=Sun, 18 Oct 2026 03:57:08 GMT",
+    "Strict-Transport-Security": "max-age=0",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a4c4720cddb31aeb-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 2953,
+  "original_sha256": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 1015,
+  "stored_stream_sha256": "74d759b8b155b196848ffe58d21399428a21603a6d886c17fefae5ab2cc00806",
+  "stored_parts": [
+    {
+      "path": "raw/sos-election-constants.body.gz",
+      "bytes": 1015,
+      "sha256": "74d759b8b155b196848ffe58d21399428a21603a6d886c17fefae5ab2cc00806"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:08.557074+00:00"
+}

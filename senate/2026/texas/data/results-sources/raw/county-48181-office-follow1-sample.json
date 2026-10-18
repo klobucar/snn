@@ -1,0 +1,41 @@
+{
+  "id": "county-48181-office-follow1-sample",
+  "request_url": "https://www.co.grayson.tx.us/page/open/3828/0/Official_Dem_Party_Pct_Summ_Results_Report_2026.pdf",
+  "parent_id": "county-48181-office-follow1",
+  "purpose": "representative published older-election source: Official_Dem_Party_Pct_Summ_Results_Report_2026.pdf ",
+  "retrieval_started_utc": "2026-10-18T03:31:49.679637+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.co.grayson.tx.us/page/open/3828/0/Official_Dem_Party_Pct_Summ_Results_Report_2026.pdf",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Length": "1635554",
+    "Content-Type": "application/pdf",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:31:49 GMT"
+  },
+  "redirects": [],
+  "original_bytes": 1635554,
+  "original_sha256": "e959d1b0250dc2e1bca26dc3af5511a1cfcc98f6d14905464c597229daea0ff5",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 1345765,
+  "stored_stream_sha256": "8875c70866e1fd47a73ae5a437d5a2e81d7cf7c1981bc3f1299a1cb60fb91d15",
+  "stored_parts": [
+    {
+      "path": "raw/county-48181-office-follow1-sample.body.gz",
+      "bytes": 1345765,
+      "sha256": "8875c70866e1fd47a73ae5a437d5a2e81d7cf7c1981bc3f1299a1cb60fb91d15"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:31:50.133310+00:00"
+}

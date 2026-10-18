@@ -1,0 +1,52 @@
+{
+  "id": "votetexas-faq",
+  "request_url": "https://www.votetexas.gov/faq/index.html",
+  "parent_id": "sos-elections",
+  "purpose": "official general election voting hours and challenges",
+  "retrieval_started_utc": "2026-10-18T03:32:13.125152+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.votetexas.gov/faq/index.html",
+  "headers": {
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "AmazonS3",
+    "Last-Modified": "Fri, 16 Oct 2026 15:20:07 GMT",
+    "Content-Encoding": "gzip",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-version-id": "9fDaekhgcWVIQHOTkocKvQmMCplXjpDz",
+    "Date": "Sat, 17 Oct 2026 16:02:53 GMT",
+    "ETag": "W/\"1cbb8618e50f7009bc075f6ded948538\"",
+    "Vary": "Accept-Encoding, Origin",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 6515fe8610c049bcb187722323ec76ce.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD58-P17",
+    "X-Amz-Cf-Id": "nwit14efGBBuSNkEf-_iXyOodsnZaAkNaH3OuefFf-ALY-zNZQhiNA==",
+    "Age": "41361",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000"
+  },
+  "redirects": [],
+  "original_bytes": 100513,
+  "original_sha256": "7d381159e5a4a89bfd81979e1a110d685fe344dc97e5237826b98e3a33485153",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 16349,
+  "stored_stream_sha256": "a007a464a6f101dd9f7e5452d00f46e0a540b9acb016e3ca161c96636bb96329",
+  "stored_parts": [
+    {
+      "path": "raw/votetexas-faq.body.gz",
+      "bytes": 16349,
+      "sha256": "a007a464a6f101dd9f7e5452d00f46e0a540b9acb016e3ca161c96636bb96329"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:32:13.299647+00:00"
+}

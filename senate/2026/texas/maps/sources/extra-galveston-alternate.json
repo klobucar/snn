@@ -1,0 +1,41 @@
+{
+  "id": "extra-galveston-alternate",
+  "requested_url": "https://www.galvestoncountytx.gov/our-county/county-clerk/elections",
+  "parent_source_url": "https://www.galvestonvotes.org/",
+  "retrieved_utc": "2026-10-18T03:35:10.818502+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 404,
+  "final_url": "https://www.galvestoncountytx.gov/our-county/county-clerk/elections",
+  "headers": {
+    "Pragma": "no-cache",
+    "Content-Type": "text/html; charset=utf-8",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000;",
+    "X-XSS-Protection": "1; mode=block",
+    "Expect-CT": "max-age=31536000",
+    "GranicusServer": "gasap-viscmsf3",
+    "Cache-Control": "no-cache, no-store, must-revalidate",
+    "Expires": "Sun, 18 Oct 2026 03:35:11 GMT",
+    "Date": "Sun, 18 Oct 2026 03:35:11 GMT",
+    "Content-Length": "82208",
+    "Connection": "keep-alive",
+    "Set-Cookie": "ASP.NET_SessionId=tsbes22somxhcqdgluyyxz3n; path=/; secure; HttpOnly; SameSite=Lax, __RequestVerificationToken=ppKYcAwdgMkksK5NWmZzXIAjHkAqrFF-JWszlaQ4eBb0kzizEZJQ7Z0lh7Sof5IJ4xUEEKt-bAogIR29V-EfdBbXKuvvrHox8zDL1Yx0pvc1; path=/; secure; HttpOnly, BIGipServer~AUTO-VISION-PROD~visionlive~www.galvestoncountytx.gov_443=!nzJr607e+PrvShVPiVTtvK1FmmtANpZDA28wxYUADoe4TjZurDe1XUD2nrAScoKCQMIe/Go6JgiOYQ==; path=/; Httponly; Secure",
+    "Server-Timing": "cdn-cache; desc=MISS, edge; dur=29, origin; dur=457, ak_p; desc=\"1792294510989_3088984498_146944850_48658_11852_10_40_-\";dur=1"
+  },
+  "redirects": [],
+  "original_bytes": 82208,
+  "original_sha256": "04855ba54622a7f871cefda7f512504a70ce4c0709fe60b30dc6d7813dc11953",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/extra-galveston-alternate.body",
+      "bytes": 82208,
+      "sha256": "04855ba54622a7f871cefda7f512504a70ce4c0709fe60b30dc6d7813dc11953"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Galveston",
+  "advertised_title": "Official county alternate after vote site HTTP202 challenge"
+}

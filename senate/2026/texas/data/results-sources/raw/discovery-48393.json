@@ -1,0 +1,42 @@
+{
+  "id": "discovery-48393",
+  "request_url": "https://www.co.roberts.tx.us/page/roberts.elections",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:21.918955+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.co.roberts.tx.us/page/roberts.elections",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Set-Cookie": "ASP.NET_SessionId=gj3n5csemocwzrw5haymzvmm; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:34:22 GMT",
+    "Content-Length": "51050"
+  },
+  "redirects": [],
+  "original_bytes": 51050,
+  "original_sha256": "496187c40d9e446359f4cd5d975ff4641a6c4d45e631e55bd25645cc8e3f481e",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 10725,
+  "stored_stream_sha256": "53b280e52b41c0bd44250cac00c40a7bf27d66d471a03b0c712210259daf6843",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48393.body.gz",
+      "bytes": 10725,
+      "sha256": "53b280e52b41c0bd44250cac00c40a7bf27d66d471a03b0c712210259daf6843"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:22.594335+00:00"
+}

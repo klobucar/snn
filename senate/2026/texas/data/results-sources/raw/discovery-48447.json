@@ -1,0 +1,42 @@
+{
+  "id": "discovery-48447",
+  "request_url": "https://www.throckmortoncounty.org/page/throckmorton.electionsposting",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:21.426161+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.throckmortoncounty.org/page/throckmorton.electionsposting",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Set-Cookie": "ASP.NET_SessionId=30vw1dlylzw13rihnr4hqy0t; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:34:21 GMT",
+    "Content-Length": "33532"
+  },
+  "redirects": [],
+  "original_bytes": 33532,
+  "original_sha256": "6c7829cd7a6703d532e462f987aa67638d1592019504ed722217a0000f65ff66",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 7904,
+  "stored_stream_sha256": "495b6dfbfea1f0b0dd8faa0d92b70c46494fdbca9007b15a3d6e6c580a5e11ba",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48447.body.gz",
+      "bytes": 7904,
+      "sha256": "495b6dfbfea1f0b0dd8faa0d92b70c46494fdbca9007b15a3d6e6c580a5e11ba"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:22.476928+00:00"
+}

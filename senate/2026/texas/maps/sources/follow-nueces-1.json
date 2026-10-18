@@ -1,0 +1,43 @@
+{
+  "id": "follow-nueces-1",
+  "requested_url": "https://www.nuecesco.com/county-services/county-clerk/elections-department/election-gis-maps/-folder-192",
+  "parent_source_url": "Search-discovered official county publication; see county discovery routes",
+  "retrieved_utc": "2026-10-18T03:33:57.991994+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.nuecesco.com/county-services/county-clerk/elections-department/election-gis-maps/-folder-192",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Last-Modified": "Sat, 17 Oct 2026 19:44:02 GMT",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000;",
+    "X-XSS-Protection": "1; mode=block",
+    "Expect-CT": "max-age=31536000",
+    "Last-Published": "Sat, 17 Jan 2026 00:22:24 GMT",
+    "Edge-Cache-Tag": "613D50BB.G,613D50BB.P1389,613D50BB.CMENU,613D50BB.CL7,613D50BB.CL3",
+    "GranicusServer": "gasap-viscmsb2",
+    "X-Akamai-Transformed": "9 28484 0 pmb=mRUM,1",
+    "Vary": "Accept-Encoding",
+    "Cache-Control": "public, max-age=58204",
+    "Expires": "Sun, 18 Oct 2026 19:44:02 GMT",
+    "Date": "Sun, 18 Oct 2026 03:33:58 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive, Transfer-Encoding",
+    "Server-Timing": "cdn-cache; desc=HIT, edge; dur=71, origin; dur=0, ak_p; desc=\"1792294438174_3088984479_93938916_7142_11659_9_32_-\";dur=1"
+  },
+  "redirects": [],
+  "original_bytes": 168010,
+  "original_sha256": "9c263a10d5f1d3597ea7d1673c8b73e2958463ddd77019e1ce0588a2bc8c8f7b",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/follow-nueces-1.body",
+      "bytes": 168010,
+      "sha256": "9c263a10d5f1d3597ea7d1673c8b73e2958463ddd77019e1ce0588a2bc8c8f7b"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Nueces"
+}

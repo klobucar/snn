@@ -1,0 +1,141 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-18T03:53:44.698217+00:00",
+  "checks": {
+    "county_contract": {
+      "counties": 254,
+      "priority_count": 34,
+      "priority_order_hash": "a5d39344328ab3c0f76809439c6af42c09a59d81f76b9b756e5b538a63ac5be5",
+      "all_candidate_denominator": 11291854
+    },
+    "primary_historical_controls": {
+      "candidate_county_cells": 6604,
+      "state_controls": 26,
+      "county_contest_totals": 1016,
+      "source_scope": "read-only accepted originals; not finer-unit certification"
+    },
+    "http_entities": {
+      "requests": 297,
+      "complete_entities_hashed": 295,
+      "failed_empty_or_non200": [
+        "discovery-48167",
+        "discovery-48075",
+        "county-48039",
+        "discovery-48491",
+        "discovery-48039",
+        "county-48491",
+        "county-48167",
+        "discovery-48229",
+        "county-48479",
+        "county-48245",
+        "nueces-history",
+        "county-48309-https",
+        "discovery-48209",
+        "county-48121-office-follow1",
+        "discovery-48121",
+        "county-48423",
+        "county-48209",
+        "county-48251-https",
+        "discovery-48245",
+        "clarity-48141-pr",
+        "clarity-48029-pr",
+        "discovery-48303",
+        "county-48355",
+        "discovery-48397",
+        "county-48251",
+        "lubbock-current",
+        "wilco-office",
+        "county-48303",
+        "discovery-48355",
+        "county-48397",
+        "county-48029-result3",
+        "discovery-48251",
+        "jefferson-current",
+        "discovery-48309",
+        "sos-advisories",
+        "tarrant-versions",
+        "county-48113",
+        "clarity-48439-pr",
+        "discovery-48113",
+        "sos-november-history",
+        "county-48329",
+        "discovery-48345",
+        "clarity-48027-pr",
+        "county-48309",
+        "hays-office"
+      ],
+      "partial_truncated_entities": 0
+    },
+    "november_setup": {
+      "counties": 254,
+      "named_candidates": 7,
+      "candidate_county_cells": 1778,
+      "initial_candidate_sum": 0,
+      "MID_is_not_FIPS": true,
+      "home_PT": 5,
+      "county_Senate_TP_sum": 9900,
+      "polling_PLT": 5299,
+      "RSS_history": "empty response",
+      "live_votes_verified": false
+    },
+    "ballot_certification": {
+      "printed_county_sections": 254,
+      "printed_candidates": 3,
+      "declared_writeins": 4,
+      "current_app_roster_matches": true,
+      "certification_date": "2026-08-28",
+      "later_changes": "not established; preclose recheck remains"
+    },
+    "priority_and_native_coverage": {
+      "individual_records": 34,
+      "discovery_only": 220,
+      "county_gap_records": 254,
+      "current_approved_counts": "all unknown"
+    },
+    "native_source_positions": {
+      "observations": 170013,
+      "source_scoped_identities": 12701,
+      "every_pointer_and_row_checked": true,
+      "test_and_old_exclusions_checked": true,
+      "Grayson_PDF_labels": 42,
+      "Grayson_PDF_page_appearances": 546
+    },
+    "outstanding_and_clocks": {
+      "bounded_unchanged_repeats": 4,
+      "EVR_counties": 254,
+      "EVR_mail_statistic": 46998,
+      "remaining_valid_Senate_votes": null,
+      "measured_vote_arrival_cadence": null
+    },
+    "public_parent_provenance": {
+      "state_index_and_roster_links": true,
+      "actual_current_bundle_routes": true,
+      "November_ID_from_constants": true,
+      "county_vendor_links_checked": 4,
+      "other_discovery_routes": "honestly labeled, not automatically official-parent proof"
+    },
+    "shared_originals": {
+      "originals_hashed_in_place": 19,
+      "files_pinned": 14,
+      "news_references_hashed": 5,
+      "no_duplicate_large_PDF": true
+    },
+    "legal_sources": {
+      "primary_current_text": true,
+      "calendar": "SOS2026-21 July14,2026",
+      "SB2753_implementation_report_applicability": "not established; current dated calendar retained",
+      "actual_November_canvass_meetings": "unknown"
+    },
+    "stored_object_bounds": {
+      "strict_limit": 40000000,
+      "largest_bytes": 4908718
+    }
+  },
+  "limitations": [
+    "No verified changing November vote snapshots or measured vote-arrival cadence.",
+    "Initial/test/old source states and differing native denominators are explicitly retained.",
+    "220 local channels remain discovery/inventory scope; blocked priority county channels require manual access.",
+    "No current geographic crosswalk, legal unit-count approval, valid outstanding Senate count, deployed collector or calibrated probability.",
+    "SB2753 final implementation report/procedure applicability not established; dated November2026 calendar governs this research assumption."
+  ]
+}

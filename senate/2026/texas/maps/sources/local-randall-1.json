@@ -1,0 +1,38 @@
+{
+  "id": "local-randall-1",
+  "requested_url": "https://www.randallcounty.gov/DocumentCenter/View/100/Election-Precincts-Map-PDF",
+  "parent_source_url": "https://www.randallcounty.gov/166/Election-Administration",
+  "retrieved_utc": "2026-10-18T03:34:03.652364+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.randallcounty.gov/DocumentCenter/View/100/Election-Precincts-Map-PDF",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "application/pdf",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=uw1qluqqkkhvwtsvfs0ipsql; path=/; secure; HttpOnly; SameSite=None",
+    "Content-Disposition": "inline;filename=RandallCO_EP_JB_PlanB_Adopted121421_AllDistrictsMap_202112291713107711.pdf",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:34:03 GMT",
+    "Content-Length": "2516292"
+  },
+  "redirects": [],
+  "original_bytes": 2516292,
+  "original_sha256": "a33e86c1ff02b22e398936bf933178bc9e43e8a9874fbc678fd5f004c1bb91e1",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/local-randall-1.pdf",
+      "bytes": 2516292,
+      "sha256": "a33e86c1ff02b22e398936bf933178bc9e43e8a9874fbc678fd5f004c1bb91e1"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Randall",
+  "advertised_title": "Election Precincts Map (PDF)"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "gis-fort-bend-2022-batch-002",
+  "requested_url": "https://gisportal.fortbendcountytx.gov/arcgis/rest/services/InteractiveMap/Elections_Public/MapServer/5/query?f=json&where=1%3D1&objectIds=517%2C518%2C519%2C520%2C521%2C522%2C523%2C524%2C525%2C526%2C527%2C528%2C529%2C530%2C531%2C532%2C533%2C534%2C535%2C536%2C537%2C538%2C539%2C540%2C541%2C542%2C543%2C544%2C545%2C546%2C547%2C548%2C549%2C550%2C551%2C552%2C553%2C554%2C555%2C556%2C557%2C558%2C559%2C560%2C561%2C562%2C563%2C564%2C565%2C566%2C567%2C568%2C569%2C570%2C571%2C572%2C573%2C574%2C575%2C576%2C577%2C578%2C579%2C580%2C881%2C882%2C883%2C884%2C885%2C886%2C887%2C888%2C889%2C890%2C891&outFields=%2A&returnGeometry=true&returnZ=true&returnM=true&returnTrueCurves=true",
+  "parent_source_url": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration",
+  "retrieved_utc": "2026-10-18T03:34:28.437363+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://gisportal.fortbendcountytx.gov/arcgis/rest/services/InteractiveMap/Elections_Public/MapServer/5/query?f=json&where=1%3D1&objectIds=517%2C518%2C519%2C520%2C521%2C522%2C523%2C524%2C525%2C526%2C527%2C528%2C529%2C530%2C531%2C532%2C533%2C534%2C535%2C536%2C537%2C538%2C539%2C540%2C541%2C542%2C543%2C544%2C545%2C546%2C547%2C548%2C549%2C550%2C551%2C552%2C553%2C554%2C555%2C556%2C557%2C558%2C559%2C560%2C561%2C562%2C563%2C564%2C565%2C566%2C567%2C568%2C569%2C570%2C571%2C572%2C573%2C574%2C575%2C576%2C577%2C578%2C579%2C580%2C881%2C882%2C883%2C884%2C885%2C886%2C887%2C888%2C889%2C890%2C891&outFields=%2A&returnGeometry=true&returnZ=true&returnM=true&returnTrueCurves=true",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:34:28 GMT",
+    "Content-Type": "application/json; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "must-revalidate,max-age=0,public",
+    "ETag": "\"cbc59461\"",
+    "Vary": "Origin",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Content-Type-Options": "nosniff",
+    "Set-Cookie": "AGS_ROLES=\"419jqfa+uOZgYod4xPOQ8Q==\"; Version=1; Max-Age=60; Expires=Sun, 18 Oct 2026 03:35:28 GMT; Path=/arcgis/rest; Secure; HttpOnly"
+  },
+  "redirects": [],
+  "original_bytes": 480407,
+  "original_sha256": "e4bf5e1a26fc770cb965c5910f57146698202fdb9278d56b664944bc16620c27",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/gis-fort-bend-2022-batch-002.body",
+      "bytes": 480407,
+      "sha256": "e4bf5e1a26fc770cb965c5910f57146698202fdb9278d56b664944bc16620c27"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256."
+}

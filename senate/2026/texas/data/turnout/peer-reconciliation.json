@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "county_rows": 254,
+  "baseline_contest_rows": 1016,
+  "candidate_rows_compared": 6604,
+  "field_checks": 57404,
+  "differences": [],
+  "full_254_order_match": true,
+  "exact_minimum80_keys_match": true,
+  "scope": "Independent turnout-side comparison to read-only partisanship extraction; zero tolerance on shared integers, candidate identities, native names/codes, parties/write-ins, source IDs and ranks. Optional ballots differ in availability and are source-scoped, not substituted.",
+  "input_sha256": {
+    "county-turnout.csv": "1da814cfbdc254063fa3bd60a35fed870b5825a89f3267303e3cff3656144140",
+    "county-baselines.csv": "dd2aff196f5e04ba4da0c743a423e12bead91aac3d7a00dd8ebb1ec6380a75d6",
+    "turnout/county-candidates-2024.csv": "b9f98150dbbfb1494cda78b772d3397ff538c6b79e0abbba1afd52e51842f30c",
+    "turnout/county-candidates-comparators.csv": "4da3703ba1cf8949d70e7bc9981347adab96b6073c6a383c67fb1d07652bcfa0",
+    "baselines/county-candidates.csv": "9fffc27522a656eb91577bee0978acaac8edc0ee5840de75a7e1cd9f21e4abee"
+  }
+}

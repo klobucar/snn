@@ -1,0 +1,38 @@
+{
+  "id": "arcitem-fort-bend-22a9001aeef84acab31a4d15f37c2e2b-data",
+  "requested_url": "https://www.arcgis.com/sharing/rest/content/items/22a9001aeef84acab31a4d15f37c2e2b/data?f=pjson",
+  "parent_source_url": "Exact item ID from retained county official map link",
+  "retrieved_utc": "2026-10-18T03:35:55.429235+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.arcgis.com/sharing/rest/content/items/22a9001aeef84acab31a4d15f37c2e2b/data?f=pjson",
+  "headers": {
+    "Content-Type": "text/plain;charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:35:55 GMT",
+    "Cache-Control": "max-age=0, must-revalidate",
+    "Server": "ArcGIS Online",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000",
+    "ETag": "\"19f66308278\"",
+    "Vary": "Origin",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 f25707bc10a130b45666f8efe0d671ea.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD51-P2",
+    "X-Amz-Cf-Id": "ONv7CXw9c3uxvvADS5JAoqa6dFEx_SGrIXG2SSV30Xe6pnY8TFB6EA=="
+  },
+  "redirects": [],
+  "original_bytes": 146818,
+  "original_sha256": "8caf1825a99d51cdd36aa0b69497c1af9f5510ef9c443ce0132efe7bb0d089d6",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/arcitem-fort-bend-22a9001aeef84acab31a4d15f37c2e2b-data.body",
+      "bytes": 146818,
+      "sha256": "8caf1825a99d51cdd36aa0b69497c1af9f5510ef9c443ce0132efe7bb0d089d6"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256."
+}

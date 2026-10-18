@@ -1,0 +1,67 @@
+{
+  "id": "county-48141",
+  "request_url": "https://epcountyvotes.com/",
+  "parent_id": "sos-county-links",
+  "purpose": "El Paso official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:33.507811+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://epcountyvotestx.gov/",
+  "headers": {
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Cache-Control": "max-age=0, private, must-revalidate",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Etag": "W/\"04e65afe0e903585c54fff12ef679663\"",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Set-Cookie": "_ep_county_elections_session=dAydcMZqPNjm9iey9bsOo8YXAZRKxRwApapnlKylt1Ar9HFmHt75f1ahno%2FuyjhZSC%2Fk4rxZ8vGwGT%2B16GxOcL0kkfzGeXQ1T%2FzYbzjL5FUo0f3IOnpy%2FftsY0Jofdz7hQqBo3ZYnk8K7%2BS1k73sIaV8jeH8OuD%2B7deFwQ%2F0iCv9ZzP8kjxE6%2Fg%2FXKGE76EBNbrTf0BBi1zj4vRd3R0NV6Vdy8%2B3hMOaNKHS96bO%2FOOE8z2VIM5Bsv%2FTR3k3i6eur%2BMQmwdQjZSBWx9M1OgepchCbv9n9AWLc2JEenZCYiU9Hr1l--gto2gvwfrlt%2Fftx4--caqGy0M7lDcmzcKcw7xF6g%3D%3D; path=/; secure; HttpOnly",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Vary": "Accept-Encoding",
+    "Via": "1.1 Caddy",
+    "X-Content-Type-Options": "nosniff",
+    "X-Download-Options": "noopen",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-Request-Id": "da439533-d8b8-430f-98a1-32e6e1b5314a",
+    "X-Runtime": "0.024139",
+    "X-Xss-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:26:34 GMT",
+    "Transfer-Encoding": "chunked"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://epcountyvotes.com/",
+      "headers": {
+        "Alt-Svc": "h3=\":443\"; ma=2592000",
+        "Cache-Control": "no-cache",
+        "Content-Length": "94",
+        "Content-Type": "text/html",
+        "Location": "https://epcountyvotestx.gov/",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Via": "1.1 Caddy",
+        "X-Request-Id": "ae5bfd8f-63a8-4336-b9a7-d4589b556ff9",
+        "X-Runtime": "0.001221",
+        "Date": "Sun, 18 Oct 2026 03:26:34 GMT"
+      }
+    }
+  ],
+  "original_bytes": 42568,
+  "original_sha256": "04e65afe0e903585c54fff12ef6796633bbfe3dad23896ff0b7a5d9b81287803",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 7900,
+  "stored_stream_sha256": "aa9f22f6d543280b61f40c46441386482c274eb35e15726b39b1f1e25a7c0ead",
+  "stored_parts": [
+    {
+      "path": "raw/county-48141.body.gz",
+      "bytes": 7900,
+      "sha256": "aa9f22f6d543280b61f40c46441386482c274eb35e15726b39b1f1e25a7c0ead"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:34.417369+00:00"
+}

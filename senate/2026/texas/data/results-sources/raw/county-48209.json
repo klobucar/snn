@@ -1,0 +1,43 @@
+{
+  "id": "county-48209",
+  "request_url": "https://www.hayscountytx.gov/elections",
+  "parent_id": "sos-county-links",
+  "purpose": "Hays official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:33.997388+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 403,
+  "final_url": "https://www.hayscountytx.gov/elections",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:26:34 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "set-cookie": "__cf_bm=NMlVQmjr5ikO8XdRiy2eGduLK1pvC8rGkYLtb9f2CJw-1792293994.2103934-1.0.1.1-MSVpE2t6yk__N0XcmJrxUahJmVhoIpAXhqb1npH9yPLNkSlVEXPS1cB9qEup8Km20xt30lcveblMh4Npw5RufG8Md4El4dTXULSao87LxAatNP0QyCOTbyeSX0C5ED7H; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.hayscountytx.gov; Expires=Sun, 18 Oct 2026 03:56:34 GMT",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47137cc3f88cd-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 5484,
+  "original_sha256": "6d9e5b871418b2e029c46cbe26ff985e2c5465f4a502cdf207e4de522d2c2f19",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 2098,
+  "stored_stream_sha256": "1579817c78ae26c2825db39447dd5b0953cbe0d9ba6a2dd49d87f858ff444156",
+  "stored_parts": [
+    {
+      "path": "raw/county-48209.body.gz",
+      "bytes": 2098,
+      "sha256": "1579817c78ae26c2825db39447dd5b0953cbe0d9ba6a2dd49d87f858ff444156"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:34.140092+00:00"
+}

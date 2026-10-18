@@ -1,0 +1,39 @@
+{
+  "id": "county-48339-result1-sample",
+  "request_url": "https://elections.mctx.org/results/2026_May_Primary_Runoff_Reconciliation_Report.pdf",
+  "parent_id": "county-48339-result1",
+  "purpose": "representative published older-election source: May 26, 2026 Primary Runoff Election Reconciliation Report ",
+  "retrieval_started_utc": "2026-10-18T03:31:49.630351+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://elections.mctx.org/results/2026_May_Primary_Runoff_Reconciliation_Report.pdf",
+  "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Fri, 26 Jun 2026 14:03:21 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"b73be38b745dd1:0\"",
+    "Server": "Microsoft-IIS/8.5",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sun, 18 Oct 2026 03:31:46 GMT",
+    "Content-Length": "263146"
+  },
+  "redirects": [],
+  "original_bytes": 263146,
+  "original_sha256": "4aa52e13953ef6a2848a377843f8dc1cf722cc1e36a4ce89462b93d30ab29f36",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 260408,
+  "stored_stream_sha256": "e4fd85f5883c0eb01e48934393398b7f5acf7c3a83161c99b27b0dafcf28ac63",
+  "stored_parts": [
+    {
+      "path": "raw/county-48339-result1-sample.body.gz",
+      "bytes": 260408,
+      "sha256": "e4fd85f5883c0eb01e48934393398b7f5acf7c3a83161c99b27b0dafcf28ac63"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:31:50.115043+00:00"
+}

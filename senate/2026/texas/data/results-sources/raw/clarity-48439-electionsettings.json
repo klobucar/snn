@@ -1,0 +1,52 @@
+{
+  "id": "clarity-48439-electionsettings",
+  "request_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/en/electionsettings.json",
+  "parent_id": "clarity-48439-config",
+  "purpose": "bundle literal localized route,lang=en from config",
+  "retrieval_started_utc": "2026-10-18T03:30:49.272748+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/en/electionsettings.json",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "MISS",
+    "Last-Modified": "Wed, 07 Oct 2026 16:45:31 GMT",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "Date": "Sun, 18 Oct 2026 03:30:49 GMT",
+    "Expires": "Sat, 17 Oct 2026 01:54:25 GMT",
+    "Cache-Control": "max-age=86400",
+    "ETag": "W/\"6ac6772b-892b\"",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 eee499b48a0b5a86df8b66304af3d6c8.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "vbmhQqy84uDIjn_3weby0R6iYyWKWF67K1rSGSmDYspZOQoYn90HNg==",
+    "Age": "71067",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 35115,
+  "original_sha256": "d933453528e721cf9e3323e12c00d7f5c15d2e286a27a3f2ba2bc40d2ce5d43c",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 10054,
+  "stored_stream_sha256": "ad912db7f3448f0c90465249caf09678db67b15adf61fe079a418a31340e81ed",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48439-electionsettings.body.gz",
+      "bytes": 10054,
+      "sha256": "ad912db7f3448f0c90465249caf09678db67b15adf61fe079a418a31340e81ed"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:30:49.396885+00:00"
+}

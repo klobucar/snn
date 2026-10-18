@@ -1,0 +1,51 @@
+{
+  "id": "clarity-48367-vt",
+  "request_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/vt.json",
+  "parent_id": "clarity-48367-config",
+  "purpose": "bundle-enumerated file at actual linked county/election/version/lang",
+  "retrieval_started_utc": "2026-10-18T03:33:46.240355+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/vt.json",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:33:46 GMT",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "REVALIDATED",
+    "Last-Modified": "Tue, 10 Mar 2026 18:16:58 GMT",
+    "ETag": "W/\"69b0601a-26ba\"",
+    "Expires": "Sat, 17 Oct 2026 15:02:31 GMT",
+    "Cache-Control": "max-age=86400",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 b8e1a6025ed5585661981981a52ff59c.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "tPjqkD2ubCmbrMNWrGtZKWzRywft2YMo1xe-mJWZVAUWQBUgQx8rNg==",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 9914,
+  "original_sha256": "45501ed269c744c194b63532f5c9a1a8fac79e3d85c609ea1512d58f1c5a9d2b",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 2818,
+  "stored_stream_sha256": "21cbc51ca70ac27dce3901bf31c7d8544f24fb07191d0da73bdc96cedef370a5",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48367-vt.body.gz",
+      "bytes": 2818,
+      "sha256": "21cbc51ca70ac27dce3901bf31c7d8544f24fb07191d0da73bdc96cedef370a5"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:33:46.323416+00:00"
+}

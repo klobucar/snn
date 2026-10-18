@@ -1,0 +1,193 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-18T03:58:33.075798+00:00",
+  "checks": {
+    "county_contract": {
+      "counties": 254,
+      "priority": 34,
+      "priority_keys_sha256": "a5d39344328ab3c0f76809439c6af42c09a59d81f76b9b756e5b538a63ac5be5",
+      "primary_county_input_hashes": {
+        "county-turnout.csv": "1da814cfbdc254063fa3bd60a35fed870b5825a89f3267303e3cff3656144140",
+        "turnout/priority-set.json": "8c30e57da8010aeb34c539611a41740ec199caa2bc8f2a0285f45e5a84d56ff5",
+        "county-baselines.csv": "dd2aff196f5e04ba4da0c743a423e12bead91aac3d7a00dd8ebb1ec6380a75d6"
+      },
+      "priority_votes": 9076868,
+      "all_votes": 11291854,
+      "previous33_votes": 9018686,
+      "Midland_crossing_votes": 58182
+    },
+    "originals": {
+      "sources": 206,
+      "unique_stored_stream_parts": 183,
+      "access_failures": [
+        {
+          "source_id": "follow-brazos-1",
+          "status": 403,
+          "bytes": 1675,
+          "error": null
+        },
+        {
+          "source_id": "extra-jefferson-map-page",
+          "status": 202,
+          "bytes": 0,
+          "error": null
+        },
+        {
+          "source_id": "route-lubbock-1",
+          "status": 202,
+          "bytes": 0,
+          "error": null
+        },
+        {
+          "source_id": "route-dallas-1",
+          "status": 202,
+          "bytes": 0,
+          "error": null
+        },
+        {
+          "source_id": "route-cameron-1",
+          "status": 403,
+          "bytes": 2535,
+          "error": null
+        },
+        {
+          "source_id": "extra-cameron-alternate",
+          "status": 403,
+          "bytes": 2520,
+          "error": null
+        },
+        {
+          "source_id": "route-denton-2",
+          "status": 202,
+          "bytes": 0,
+          "error": null
+        },
+        {
+          "source_id": "route-galveston-1",
+          "status": 202,
+          "bytes": 0,
+          "error": null
+        },
+        {
+          "source_id": "extra-galveston-alternate",
+          "status": 404,
+          "bytes": 82208,
+          "error": null
+        },
+        {
+          "source_id": "route-rockwall-2",
+          "status": 202,
+          "bytes": 0,
+          "error": null
+        },
+        {
+          "source_id": "extra-jefferson-order",
+          "status": 404,
+          "bytes": 103,
+          "error": null
+        },
+        {
+          "source_id": "route-jefferson-1",
+          "status": 202,
+          "bytes": 0,
+          "error": null
+        },
+        {
+          "source_id": "extra-dallas-alternate",
+          "status": 404,
+          "bytes": 47845,
+          "error": null
+        }
+      ],
+      "all_original_and_saved_hashes_verified": true
+    },
+    "statewide_geometry": {
+      "vintages": 4,
+      "all_counties_each": 254,
+      "features": 37871,
+      "full_source_vertices": 18050402,
+      "county_subsets": 136,
+      "subset_geometry_and_attributes_byte_identical": true,
+      "invalid_preserved": 13,
+      "positive_area_pairs_in_native_square_metres": 75,
+      "limits": "Within-county/source overlap diagnostics; invalid source geometry excluded from intersection only; no repair or cross-vintage allocation."
+    },
+    "county_GIS": {
+      "layers": 9,
+      "features": 1864,
+      "vertices": 347508,
+      "actual_coordinate_dimensions": {
+        "2": 327088,
+        "3": 20420
+      },
+      "all_attributes_covered": true,
+      "all_pre_post_count_ID_sets_equal": true,
+      "all_requested_returned_batch_ID_sets_equal": true,
+      "no_transfer_limits": true,
+      "Z_M_true_curves": "Requested explicitly; Johnson XYZ retained, eight XY layers; no curves observed; support metadata preserved."
+    },
+    "reporting_compatibility": {
+      "identities": 48679,
+      "accepted_constituents": 45944,
+      "accepted_county_groups": 254,
+      "official_observation_positions": 170013,
+      "repeats_preserved": true,
+      "approved_matches": 0,
+      "status_counts": {
+        "unknown": 33462,
+        "administrative/no-polygon": 623,
+        "ambiguous": 6527,
+        "source conflict": 8067
+      },
+      "peer_reference_hashes_verified": true,
+      "final_native_pins": {
+        "native-unit-identities.csv.gz": {
+          "sha256": "425f67998803ab3e64be410739083f2deabc1995052f484252bd159f4e5c0b61",
+          "bytes": 151211
+        },
+        "native-unit-observations.csv.gz": {
+          "sha256": "81e6a8ad4fa554303d85ef59099468ae99cd806fc3cab578567e9d29c3a3ad5c",
+          "bytes": 1837859
+        },
+        "native-field-schemas.json": {
+          "sha256": "da8ca595801613076760494e89b93db0bf90c90b45805e499073c2b326fd22d2",
+          "bytes": 121688
+        },
+        "native-inventory-summary.json": {
+          "sha256": "5b0f61e3621ff0c78653d2379403b8c709e3728701920b922ada2316441cc908",
+          "bytes": 2631
+        }
+      },
+      "Grayson_PDF": {
+        "source_id": "county-48181-office-follow1-sample",
+        "county_fips": "48181",
+        "election_id": "2026-03-03",
+        "unit_kind": "pdf_precinct_label",
+        "observation_class": "older_election_excluded",
+        "identities": 42,
+        "appearances": 546
+      }
+    },
+    "PDFs": {
+      "originals": 37,
+      "pages": 311,
+      "selected_page_previews": 62,
+      "original_hashes_and_poppler_counts_verified": true,
+      "representative_visual_review": "See visual-review.json; previews are not original PDF bytes or full page coverage."
+    },
+    "offline_links": {
+      "html_pages": 35,
+      "checked_local_links": 1448,
+      "no_remote_render_resources": true,
+      "county_pages": 34,
+      "county_reference_downloads": 136,
+      "static_disk_operation": true
+    },
+    "bounds": {
+      "strict_asset_cap_bytes": 40000000,
+      "largest_retained_file_bytes": 32464776,
+      "no_dependency_or_cache_directories": true
+    }
+  },
+  "scope": "Evidence/asset/coverage/geometry/compatibility/offline validation. Not legal approval, collector admission, geographic crosswalk or calibration."
+}

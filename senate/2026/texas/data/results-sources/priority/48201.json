@@ -1,0 +1,246 @@
+{
+  "dispatch_key": "TX:48201",
+  "county_fips": "48201",
+  "county": "Harris",
+  "rank": 1,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48201",
+    "county_fips": "48201",
+    "county": "Harris",
+    "rank": 1,
+    "priority": true,
+    "directory_label": "HARRIS COUNTY",
+    "authority_role": "County Clerk",
+    "authority_name": "Teneshia E. Hudspeth",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "https://www.harrisvotes.com/",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48201-result2",
+      "metadata_path": "raw/county-48201-result2.json",
+      "request_url": "https://www.harrisvotes.com/Election-Results/Live-Results",
+      "final_url": "https://www.harrisvotes.com/Election-Results/Live-Results",
+      "status": 200,
+      "original_sha256": "a2e7400058dc2001da5dec8e321ce34182062d5f8c45f705c8230014467b33e3",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48201"
+    },
+    {
+      "source_id": "harris-live",
+      "metadata_path": "raw/harris-live.json",
+      "request_url": "https://app.harrisvotes.com/electionresults/electionday",
+      "final_url": "https://app.harrisvotes.com/electionresults/electionday",
+      "status": 200,
+      "original_sha256": "6e5cc9f6089dee8e44a377e85ec56d0e1f64277eb66b0e3bead4929a149b95bf",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48201-result2"
+    },
+    {
+      "source_id": "harris-ballot",
+      "metadata_path": "raw/harris-ballot.json",
+      "request_url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/resultsbyballot.json",
+      "final_url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/resultsbyballot.json",
+      "status": 200,
+      "original_sha256": "ab4df3135769e32a08084115983d51e0cd8ad873e30366d71591804ed6d8c419",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "harris-live"
+    },
+    {
+      "source_id": "harris-reporting",
+      "metadata_path": "raw/harris-reporting.json",
+      "request_url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/pr.json",
+      "final_url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/pr.json",
+      "status": 200,
+      "original_sha256": "d9920de30a5ccfa8d4b13f50b584fd93cf1216d8124a817fa4bc57eca9d2b125",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "harris-live"
+    },
+    {
+      "source_id": "harris-senate-precinct",
+      "metadata_path": "raw/harris-senate-precinct.json",
+      "request_url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/pv-9189.json",
+      "final_url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/pv-9189.json",
+      "status": 200,
+      "original_sha256": "1deac807a503fd426bf62ad7a95bee61a00c2790089561ab7a940cc542fcf4b2",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "harris-live"
+    }
+  ],
+  "assessment": "November 1126 initial zero state. Official county iframe and inline public JSON routes followed. Senate 9189 has named REP/DEM/LIB plus generic WRITE-IN; four named state write-ins cannot be allocated from the generic row. 1,224 literal units in current pr/pv arrays; state summary says 1,225. Historical original has 1,584 different units. No crosswalk proved.",
+  "gaps": "Initial zeros and source placeholders are not election-night counts; current named write-in detail, vote-center mapping, complete method definitions and remaining eligible Senate votes unresolved.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 101,
+    "CN": "HARRIS",
+    "MID": 48101,
+    "county_fips": "48201",
+    "dispatch_key": "TX:48201",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 1225.0,
+    "P": 0.0,
+    "RV": 2746177.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 624.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 2746177,
+    "TP": 1225,
+    "TV": 0,
+    "TPR": 1225
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/101",
+    "summary": "/upload/101/Summary",
+    "senate": "/upload/101/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "HARRIS",
+    "id": 101,
+    "registered_voters": 2746177,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 18162,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48201",
+    "county_fips": "48201",
+    "county": "Harris",
+    "rank": "1",
+    "priority": "1",
+    "state_county_id": "101",
+    "state_mid": 48101,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": 2448,
+    "derivative_historical_units": 2596,
+    "original_historical_units": 1584,
+    "tlc_vtd_rows": 5870,
+    "november_native_gap": "Initial zeros and source placeholders are not election-night counts; current named write-in detail, vote-center mapping, complete method definitions and remaining eligible Senate votes unresolved."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

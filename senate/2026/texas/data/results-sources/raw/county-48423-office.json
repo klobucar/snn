@@ -1,0 +1,50 @@
+{
+  "id": "county-48423-office",
+  "request_url": "https://www.smith-county.com/213/Elections",
+  "parent_id": "county-48423",
+  "purpose": "exact linked office route   Election Information   ",
+  "retrieval_started_utc": "2026-10-18T03:28:45.874289+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.smith-county.com/213/Elections",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:28:46 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30",
+    "set-cookie": "__cf_bm=cLZfaKfoZkA6zxYykgDHR_Y9ml_iAcVLlUl342VBMZ4-1792294126.0173845-1.0.1.1-rrKus17gZPARVj9Ys8IQ0kaYarO1LRDlKpTOyP4nAIZaRw9TomHIBDCVNGb2MDBlwRn.vDhVdye0sBo0wZBlNikzCc1KGoife5V.vSBM5n0FyD2GnnjTrmap2Q3.xUN6; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.smith-county.com; Expires=Sun, 18 Oct 2026 03:58:46 GMT",
+    "vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "camera=(), microphone=()",
+    "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "last-modified": "Sun, 18 Oct 2026 03:28:46 GMT",
+    "expires": "Sun, 18 Oct 2026 03:29:16 GMT",
+    "cf-cache-status": "EXPIRED",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c4746f98de1187-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 129988,
+  "original_sha256": "64f2eb9a31821142b0217ea52ec4335fec9b64004bfbad7819879521b1b304fe",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 27795,
+  "stored_stream_sha256": "ee89d1af21ffeb7de9deaec4d6c6bb66f99bc6806789e636a41eddccbfeb4ebf",
+  "stored_parts": [
+    {
+      "path": "raw/county-48423-office.body.gz",
+      "bytes": 27795,
+      "sha256": "ee89d1af21ffeb7de9deaec4d6c6bb66f99bc6806789e636a41eddccbfeb4ebf"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:28:46.334867+00:00"
+}

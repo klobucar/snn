@@ -1,0 +1,44 @@
+{
+  "id": "follow-cameron-1",
+  "requested_url": "https://cameroncountytx.gov/elections/wp-content/uploads/2018/03/PRECINCT-53-LS.pdf",
+  "parent_source_url": "Search-discovered official county publication; see county discovery routes",
+  "retrieved_utc": "2026-10-18T03:33:58.356541+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://cameroncountytx.gov/elections/wp-content/uploads/2018/03/PRECINCT-53-LS.pdf",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:33:58 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "127302",
+    "Connection": "keep-alive",
+    "X-Sucuri-ID": "20007",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Content-Security-Policy": "upgrade-insecure-requests;",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Last-Modified": "Thu, 30 Apr 2020 14:12:12 GMT",
+    "Accept-Ranges": "bytes",
+    "Cache-Control": "max-age=86400",
+    "Expires": "Mon, 19 Oct 2026 03:33:58 GMT",
+    "X-Endurance-Cache-Level": "0",
+    "X-nginx-cache": "WordPress",
+    "Server": "Sucuri/Cloudproxy",
+    "X-Sucuri-Cache": "MISS",
+    "Alt-Svc": "h3=\":443\"; ma=86400"
+  },
+  "redirects": [],
+  "original_bytes": 127302,
+  "original_sha256": "e985199228489f58b826811c626b04f5574acefe7747745235dd937a95c0dadf",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/follow-cameron-1.pdf",
+      "bytes": 127302,
+      "sha256": "e985199228489f58b826811c626b04f5574acefe7747745235dd937a95c0dadf"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Cameron"
+}

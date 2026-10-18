@@ -1,0 +1,41 @@
+{
+  "id": "extra-harris-zip-https",
+  "requested_url": "https://cao.harriscountytx.gov/Portals/20/Documents/Adopted-Precincts/HarrisCo_AdoptedPrecincts_20211220.zip",
+  "parent_source_url": "https://cao.harriscountytx.gov/Commissioner-Precinct-Redistricting/Adopted-Plan-for-New-Election-Precincts",
+  "retrieved_utc": "2026-10-18T03:35:08.901174+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://cao.harriscountytx.gov/Portals/20/Documents/Adopted-Precincts/HarrisCo_AdoptedPrecincts_20211220.zip",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:35:09 GMT",
+    "Content-Type": "application/x-zip-compressed",
+    "Content-Length": "1893447",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "Accept-Ranges": "bytes",
+    "Cache-Control": "public, max-age=31536000",
+    "etag": "\"3d776a8fa7d81:0\"",
+    "last-modified": "Wed, 12 Jan 2022 21:23:35 GMT",
+    "x-xss-protection": "1; mode=block",
+    "Vary": "accept-encoding",
+    "Age": "67",
+    "expires": "Mon, 18 Oct 2027 03:35:09 GMT",
+    "cf-cache-status": "HIT",
+    "CF-RAY": "a4c47dcc6b100276-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 1893447,
+  "original_sha256": "54a663e7da8754369850fa0ee132cbe92c02ff5c7cda77d3b5ee53915173176e",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/extra-harris-zip-https.zip",
+      "bytes": 1893447,
+      "sha256": "54a663e7da8754369850fa0ee132cbe92c02ff5c7cda77d3b5ee53915173176e"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Harris",
+  "advertised_title": "HTTPS repair of advertised HTTP shapefile; 2021 adopted precincts"
+}

@@ -1,0 +1,133 @@
+{
+ "currentVersion": 11.3,
+ "cimVersion": "3.3.0",
+ "serviceDescription": "",
+ "mapName": "Layers",
+ "description": "",
+ "copyrightText": "",
+ "supportsDynamicLayers": true,
+ "layers": [
+  {
+   "id": 0,
+   "name": "Bexar County Voter Precincts",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  }
+ ],
+ "tables": [],
+ "spatialReference": {
+  "wkid": 102740,
+  "latestWkid": 2278,
+  "xyTolerance": 0.003280833333333333,
+  "zTolerance": 2,
+  "mTolerance": 0.001,
+  "falseX": -126725700,
+  "falseY": -77828800,
+  "xyUnits": 3.4994581165044695E7,
+  "falseZ": 0,
+  "zUnits": 1,
+  "falseM": -100000,
+  "mUnits": 10000
+ },
+ "singleFusedMapCache": false,
+ "initialExtent": {
+  "xmin": 1958805.3806007109,
+  "ymin": 1.3585432887583151E7,
+  "xmax": 2298383.7035403824,
+  "ymax": 1.385610165816043E7,
+  "spatialReference": {
+   "wkid": 102740,
+   "latestWkid": 2278,
+   "xyTolerance": 0.003280833333333333,
+   "zTolerance": 2,
+   "mTolerance": 0.001,
+   "falseX": -126725700,
+   "falseY": -77828800,
+   "xyUnits": 3.4994581165044695E7,
+   "falseZ": 0,
+   "zUnits": 1,
+   "falseM": -100000,
+   "mUnits": 10000
+  }
+ },
+ "fullExtent": {
+  "xmin": 2029918.7612133473,
+  "ymin": 1.3589626384238258E7,
+  "xmax": 2249499.394885838,
+  "ymax": 1.3824414309346512E7,
+  "spatialReference": {
+   "wkid": 102740,
+   "latestWkid": 2278,
+   "xyTolerance": 0.003280833333333333,
+   "zTolerance": 2,
+   "mTolerance": 0.001,
+   "falseX": -126725700,
+   "falseY": -77828800,
+   "xyUnits": 3.4994581165044695E7,
+   "falseZ": 0,
+   "zUnits": 1,
+   "falseM": -100000,
+   "mUnits": 10000
+  }
+ },
+ "datesInUnknownTimezone": false,
+ "minScale": 0,
+ "maxScale": 0,
+ "units": "esriFeet",
+ "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+ "documentInfo": {
+  "Title": "Untitled.aprx",
+  "Author": "",
+  "Comments": "",
+  "Subject": "",
+  "Category": "",
+  "Version": "2.4.0",
+  "AntialiasingMode": "None",
+  "TextAntialiasingMode": "Force",
+  "Keywords": "Bexar County,Voter Precincts"
+ },
+ "supportsQueryDomains": true,
+ "capabilities": "Map,Query,Data",
+ "supportedQueryFormats": "JSON, geoJSON, PBF",
+ "exportTilesAllowed": false,
+ "referenceScale": 0.0,
+ "datumTransformations": [
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": true,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  },
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": false,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  }
+ ],
+ "supportsDatumTransformation": true,
+ "archivingInfo": {"supportsHistoricMoment": false},
+ "supportsClipping": true,
+ "supportsSpatialFilter": true,
+ "supportsTimeRelation": true,
+ "supportsQueryDataElements": true,
+ "mapUnits": {"uwkid": 9003},
+ "maxRecordCount": 1000,
+ "maxImageHeight": 4096,
+ "maxImageWidth": 4096,
+ "supportedExtensions": ""
+}

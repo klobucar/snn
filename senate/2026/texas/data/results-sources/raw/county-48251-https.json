@@ -1,0 +1,41 @@
+{
+  "id": "county-48251-https",
+  "request_url": "https://www.johnsoncountytx.org/departments/elections-office",
+  "parent_id": "county-48251",
+  "purpose": "HTTPS variant of HTTP official directory route; not an observed link",
+  "retrieval_started_utc": "2026-10-18T03:28:46.020028+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 403,
+  "final_url": "https://www.johnsoncountytx.org/departments/elections-office",
+  "headers": {
+    "Server": "AkamaiGHost",
+    "Mime-Version": "1.0",
+    "Content-Type": "text/html",
+    "Content-Length": "411",
+    "X-Reference-Error": "18.b8291eb8.1792294126.583682b",
+    "Cache-Control": "max-age=0",
+    "Expires": "Sun, 18 Oct 2026 03:28:46 GMT",
+    "Date": "Sun, 18 Oct 2026 03:28:46 GMT",
+    "Connection": "close",
+    "Server-Timing": "cdn-cache; desc=HIT, edge; dur=1, ak_p; desc=\"1792294126208_3088984504_92497963_22_12825_10_19_-\";dur=1"
+  },
+  "redirects": [],
+  "original_bytes": 411,
+  "original_sha256": "5eec540f21d3718a644bffecba7dfff0ce3dba03ec60f11be2abcc085e4d63d8",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 271,
+  "stored_stream_sha256": "12a66d8bce45085f1e3efdd1cfb1b1b9f6b6f6613374fba61acac7d18e2bda53",
+  "stored_parts": [
+    {
+      "path": "raw/county-48251-https.body.gz",
+      "bytes": 271,
+      "sha256": "12a66d8bce45085f1e3efdd1cfb1b1b9f6b6f6613374fba61acac7d18e2bda53"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:28:46.161997+00:00"
+}

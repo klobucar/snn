@@ -1,0 +1,36 @@
+{
+  "id": "law-resolve-67",
+  "request_url": "https://tcss.legis.texas.gov/api/GetStatuteArray/GetStatuteArray/EL/null/67/null/null/null/null/null/null/null/null",
+  "parent_id": "law-service-api",
+  "purpose": "literal public statute-reader GET,chapter 67, absent form fields=null as app does",
+  "retrieval_started_utc": "2026-10-18T03:32:50.125395+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://tcss.legis.texas.gov/api/GetStatuteArray/GetStatuteArray/EL/null/67/null/null/null/null/null/null/null/null",
+  "headers": {
+    "Transfer-Encoding": "chunked",
+    "Content-Type": "application/json; charset=utf-8",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sun, 18 Oct 2026 03:32:49 GMT"
+  },
+  "redirects": [],
+  "original_bytes": 139,
+  "original_sha256": "425f08177b07756115228db51ebb823b0d2cec375d835b3135bd4ed94c2a6ecb",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 146,
+  "stored_stream_sha256": "4cfbd3e7fa5f7b79c240dba55ed69d92387c7dff0e83e00ea18c8045d1ece2cb",
+  "stored_parts": [
+    {
+      "path": "raw/law-resolve-67.body.gz",
+      "bytes": 146,
+      "sha256": "4cfbd3e7fa5f7b79c240dba55ed69d92387c7dff0e83e00ea18c8045d1ece2cb"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:32:50.589143+00:00"
+}

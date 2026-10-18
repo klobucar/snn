@@ -1,0 +1,52 @@
+{
+  "id": "clarity-48029-vt",
+  "request_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/vt.json",
+  "parent_id": "tarrant-clarity-main",
+  "purpose": "literal bundle file enum and nonlocalized route; current county/version from chain",
+  "retrieval_started_utc": "2026-10-18T03:31:49.469002+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/vt.json",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "MISS",
+    "Last-Modified": "Thu, 01 Oct 2026 21:06:11 GMT",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "Date": "Sat, 17 Oct 2026 16:50:27 GMT",
+    "Expires": "Sat, 17 Oct 2026 08:27:13 GMT",
+    "Cache-Control": "max-age=86400",
+    "ETag": "W/\"6abecb43-328c\"",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 e10f0b32dbf391842a3cc42e46640810.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "sdSGmZK9Za5V-POuhdGaeQD0-UkO07OriDkjAWCb9xHLEhgePBYDDA==",
+    "Age": "38482",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 12940,
+  "original_sha256": "14f2dfeac9c8928f51732c0bd54aee3146aa420b5f0fa6e895eb83d766423ad2",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 684,
+  "stored_stream_sha256": "97b51ac89e2f53aa8d7ddc1da38ec210c4b3a7035d41223abf2b4ff61f576220",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48029-vt.body.gz",
+      "bytes": 684,
+      "sha256": "97b51ac89e2f53aa8d7ddc1da38ec210c4b3a7035d41223abf2b4ff61f576220"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:31:49.567764+00:00"
+}

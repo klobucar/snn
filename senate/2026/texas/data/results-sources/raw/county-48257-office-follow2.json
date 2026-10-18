@@ -1,0 +1,44 @@
+{
+  "id": "county-48257-office-follow2",
+  "request_url": "https://www.kaufmancounty.net/436/ELECTION-RESULTS",
+  "parent_id": "county-48257-office",
+  "purpose": "ELECTION RESULTS",
+  "retrieval_started_utc": "2026-10-18T03:29:30.024796+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.kaufmancounty.net/436/ELECTION-RESULTS",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=jdw5jw5nixui20siyvygmh1m; path=/; secure; HttpOnly; SameSite=None",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:29:30 GMT",
+    "Content-Length": "29286"
+  },
+  "redirects": [],
+  "original_bytes": 101236,
+  "original_sha256": "a15dbc4cea1a3705b15515a917b743184c2f80b4fe49d422e117cb39f4d1792d",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 21780,
+  "stored_stream_sha256": "570ef05870adc4eeb251a340e2a16eb43ffa9f9ec0c55fac23e1e8148f877191",
+  "stored_parts": [
+    {
+      "path": "raw/county-48257-office-follow2.body.gz",
+      "bytes": 21780,
+      "sha256": "570ef05870adc4eeb251a340e2a16eb43ffa9f9ec0c55fac23e1e8148f877191"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:29:30.402766+00:00"
+}

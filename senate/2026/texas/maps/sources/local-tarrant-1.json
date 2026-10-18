@@ -1,0 +1,39 @@
+{
+  "id": "local-tarrant-1",
+  "requested_url": "https://www.tarrantcountytx.gov/content/dam/main/elections/Maps/PCT/Precincts_Basemap.pdf",
+  "parent_source_url": "https://www.tarrantcountytx.gov/en/elections/interactive-maps/voting-precinct-maps.html",
+  "retrieved_utc": "2026-10-18T03:34:03.783063+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.tarrantcountytx.gov/content/dam/main/elections/Maps/PCT/Precincts_Basemap.pdf",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:34:03 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "5961678",
+    "Connection": "keep-alive",
+    "Server": "Apache",
+    "X-Dispatcher": "dispatcher1useast1-b86",
+    "X-Vhost": "publish",
+    "X-Content-Type-Options": "nosniff",
+    "Last-Modified": "Tue, 17 Mar 2026 20:58:25 GMT",
+    "ETag": "\"5af7ce-64d3e98ac3e40\"",
+    "Accept-Ranges": "bytes",
+    "Vary": "Accept-Encoding,User-Agent",
+    "X-Frame-Options": "SAMEORIGIN"
+  },
+  "redirects": [],
+  "original_bytes": 5961678,
+  "original_sha256": "7bf6f90500c800e4f9a0986f37fc8c9d33c53af261d5d4e0e6707449b2ba0438",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/local-tarrant-1.pdf",
+      "bytes": 5961678,
+      "sha256": "7bf6f90500c800e4f9a0986f37fc8c9d33c53af261d5d4e0e6707449b2ba0438"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Tarrant",
+  "advertised_title": "Voting Precincts Map All"
+}

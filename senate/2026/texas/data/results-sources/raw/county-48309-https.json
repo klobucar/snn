@@ -1,0 +1,56 @@
+{
+  "id": "county-48309-https",
+  "request_url": "https://www.co.mclennan.tx.us/337/Elections",
+  "parent_id": "county-48309",
+  "purpose": "HTTPS variant of HTTP official directory route; not an observed link",
+  "retrieval_started_utc": "2026-10-18T03:28:45.881085+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 403,
+  "final_url": "https://www.mclennan.gov/337/Elections",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:28:46 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "set-cookie": "__cf_bm=xC51fyXOseuxTJSpsZCTa5hMtrpLpztwl_yc6ccGZeA-1792294126.110118-1.0.1.1-uInlGw49j..ZzeDPXvtu18f5QV2ZJsMGqFHGqRqjdogCiIfyAunLCnYOulxn5X3KqLBDqiX4qniRiuVaZ00b6I_zCB3qp.Tx_Q2fNHVf0TQDlblqgvqSTDWFxB8FgYF.; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.mclennan.gov; Expires=Sun, 18 Oct 2026 03:58:46 GMT",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c474702b29f4ae-ORD"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://www.co.mclennan.tx.us/337/Elections",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Sun, 18 Oct 2026 03:28:46 GMT",
+        "Content-Type": "text/html",
+        "Content-Length": "162",
+        "Connection": "keep-alive",
+        "Location": "https://www.mclennan.gov/337/Elections"
+      }
+    }
+  ],
+  "original_bytes": 5484,
+  "original_sha256": "1e9b5c79f33060a40c1c798e00f54e9721252f9fed94ad35c12531aabc967244",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 2097,
+  "stored_stream_sha256": "72ca6e6e293e60494fc466b6efe31ac7aababf3bcca0ffb3523c86a9447e5198",
+  "stored_parts": [
+    {
+      "path": "raw/county-48309-https.body.gz",
+      "bytes": 2097,
+      "sha256": "72ca6e6e293e60494fc466b6efe31ac7aababf3bcca0ffb3523c86a9447e5198"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:28:46.036907+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "county-48367-result2",
+  "request_url": "https://www.parkercountytx.gov/441/Past-Election-Results",
+  "parent_id": "county-48367",
+  "purpose": "Past Election Results ",
+  "retrieval_started_utc": "2026-10-18T03:27:10.320410+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.parkercountytx.gov/441/Past-Election-Results",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=s2gx40kxqmehpfg4oyuta4ml; path=/; secure; HttpOnly; SameSite=None",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:27:10 GMT",
+    "Content-Length": "32710"
+  },
+  "redirects": [],
+  "original_bytes": 139129,
+  "original_sha256": "5badffc95f9d134319c989bb6acbb17580824f598e3a5e20edf067cd073afefb",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 23966,
+  "stored_stream_sha256": "c07e3a10074bb24d60e1857fc200a1e77358d3b320158efbbb841bce773b27d8",
+  "stored_parts": [
+    {
+      "path": "raw/county-48367-result2.body.gz",
+      "bytes": 23966,
+      "sha256": "c07e3a10074bb24d60e1857fc200a1e77358d3b320158efbbb841bce773b27d8"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:10.684364+00:00"
+}

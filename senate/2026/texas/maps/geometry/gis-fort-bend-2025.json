@@ -1,0 +1,1129 @@
+{
+  "id": "fort-bend-2025",
+  "county": "Fort Bend",
+  "county_fips": "48157",
+  "source_audit": "gis/fort-bend-2025-audit.json",
+  "features": 201,
+  "vertices": 29244,
+  "native_id_field": "NAME",
+  "duplicate_native_ids": {},
+  "geometry_issues": [],
+  "true_curve_count": 0,
+  "actual_point_dimensions": {
+    "2": 29244
+  },
+  "advertised_hasZ": null,
+  "advertised_hasM": null,
+  "requested_returnZ": true,
+  "requested_returnM": true,
+  "requested_returnTrueCurves": true,
+  "native_crs": "PROJCRS[\"NAD83(2011) / Texas South Central (ftUS)\",BASEGEOGCRS[\"NAD83(2011)\",DATUM[\"NAD83 (National Spatial Reference System 2011)\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",6318]],CONVERSION[\"SPCS83 Texas South Central zone (US survey foot)\",METHOD[\"Lambert Conic Conformal (2SP)\",ID[\"EPSG\",9802]],PARAMETER[\"Latitude of false origin\",27.8333333333333,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8821]],PARAMETER[\"Longitude of false origin\",-99,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8822]],PARAMETER[\"Latitude of 1st standard parallel\",30.2833333333333,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8823]],PARAMETER[\"Latitude of 2nd standard parallel\",28.3833333333333,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8824]],PARAMETER[\"Easting at false origin\",1968500,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8826]],PARAMETER[\"Northing at false origin\",13123333.333,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8827]]],CS[Cartesian,2],AXIS[\"easting (X)\",east,ORDER[1],LENGTHUNIT[\"US survey foot\",0.304800609601219]],AXIS[\"northing (Y)\",north,ORDER[2],LENGTHUNIT[\"US survey foot\",0.304800609601219]],USAGE[SCOPE[\"Engineering survey, topographic mapping.\"],AREA[\"United States (USA) - Texas - counties of Aransas; Atascosa; Austin; Bandera; Bee; Bexar; Brazoria; Brewster; Caldwell; Calhoun; Chambers; Colorado; Comal; De Witt; Dimmit; Edwards; Fayette; Fort Bend; Frio; Galveston; Goliad; Gonzales; Guadalupe; Harris; Hays; Jackson; Jefferson; Karnes; Kendall; Kerr; Kinney; La Salle; Lavaca; Live Oak; Matagorda; Maverick; McMullen; Medina; Presidio; Real; Refugio; Terrell; Uvalde; Val Verde; Victoria; Waller; Wharton; Wilson; Zavala.\"],BBOX[27.78,-105,30.67,-93.76]],ID[\"EPSG\",6588]]",
+  "axis_order": [
+    {
+      "name": "Easting",
+      "direction": "east",
+      "unit": "US survey foot"
+    },
+    {
+      "name": "Northing",
+      "direction": "north",
+      "unit": "US survey foot"
+    }
+  ],
+  "preview": "previews/gis-fort-bend-2025.png",
+  "preview_operation": "Native projected x/y to image pixels, all source rings drawn; Z/M ignored in display only; curves excluded and listed, source unchanged.",
+  "geographic_bounds_check": {
+    "transformer": "Inverse of SPCS83 Texas South Central zone (US survey foot) + NAD83(2011) to WGS 84 (1) + axis order change (2D)",
+    "always_xy": true,
+    "observed_lonlat_bbox": [
+      -96.08663298773304,
+      29.263284223061625,
+      -95.42368927146835,
+      29.788300255003236
+    ]
+  },
+  "overlap": {
+    "checked_valid_nonempty": 201,
+    "excluded_invalid_or_empty": 0,
+    "positive_area_pair_count": 215,
+    "pairs": [
+      {
+        "source_row_a": 1042,
+        "source_row_b": 1054,
+        "intersection_native_square_units": 59.504764584962714
+      },
+      {
+        "source_row_a": 1043,
+        "source_row_b": 1469,
+        "intersection_native_square_units": 0.002837864063565315
+      },
+      {
+        "source_row_a": 1044,
+        "source_row_b": 1465,
+        "intersection_native_square_units": 200.34493174220842
+      },
+      {
+        "source_row_a": 1044,
+        "source_row_b": 1054,
+        "intersection_native_square_units": 1.0321615376066617
+      },
+      {
+        "source_row_a": 1044,
+        "source_row_b": 1078,
+        "intersection_native_square_units": 7.019366841241151
+      },
+      {
+        "source_row_a": 1046,
+        "source_row_b": 1490,
+        "intersection_native_square_units": 1442.429951979525
+      },
+      {
+        "source_row_a": 1051,
+        "source_row_b": 1106,
+        "intersection_native_square_units": 0.00435784432947656
+      },
+      {
+        "source_row_a": 1051,
+        "source_row_b": 1070,
+        "intersection_native_square_units": 0.0001386671836425546
+      },
+      {
+        "source_row_a": 1051,
+        "source_row_b": 1112,
+        "intersection_native_square_units": 2.366193409204003
+      },
+      {
+        "source_row_a": 1051,
+        "source_row_b": 1512,
+        "intersection_native_square_units": 1.1764058975279095
+      },
+      {
+        "source_row_a": 1051,
+        "source_row_b": 1517,
+        "intersection_native_square_units": 3.584605155770987
+      },
+      {
+        "source_row_a": 1052,
+        "source_row_b": 1093,
+        "intersection_native_square_units": 0.3454897557809388
+      },
+      {
+        "source_row_a": 1052,
+        "source_row_b": 1493,
+        "intersection_native_square_units": 11996.530362214673
+      },
+      {
+        "source_row_a": 1052,
+        "source_row_b": 1508,
+        "intersection_native_square_units": 0.868692500831564
+      },
+      {
+        "source_row_a": 1052,
+        "source_row_b": 1075,
+        "intersection_native_square_units": 806.0972714741021
+      },
+      {
+        "source_row_a": 1052,
+        "source_row_b": 1107,
+        "intersection_native_square_units": 0.00400776810879222
+      },
+      {
+        "source_row_a": 1052,
+        "source_row_b": 1056,
+        "intersection_native_square_units": 0.15822377981385216
+      },
+      {
+        "source_row_a": 1052,
+        "source_row_b": 1442,
+        "intersection_native_square_units": 0.011427398639859122
+      },
+      {
+        "source_row_a": 1053,
+        "source_row_b": 1079,
+        "intersection_native_square_units": 33.268711536156616
+      },
+      {
+        "source_row_a": 1056,
+        "source_row_b": 1075,
+        "intersection_native_square_units": 6454.609361628345
+      },
+      {
+        "source_row_a": 1056,
+        "source_row_b": 1099,
+        "intersection_native_square_units": 19550.952473048434
+      },
+      {
+        "source_row_a": 1056,
+        "source_row_b": 1442,
+        "intersection_native_square_units": 0.020362092539471632
+      },
+      {
+        "source_row_a": 1058,
+        "source_row_b": 1491,
+        "intersection_native_square_units": 4490.307608860334
+      },
+      {
+        "source_row_a": 1058,
+        "source_row_b": 1093,
+        "intersection_native_square_units": 12965.53947836773
+      },
+      {
+        "source_row_a": 1058,
+        "source_row_b": 1470,
+        "intersection_native_square_units": 0.02231003302102863
+      },
+      {
+        "source_row_a": 1058,
+        "source_row_b": 1493,
+        "intersection_native_square_units": 0.008995210175485525
+      },
+      {
+        "source_row_a": 1058,
+        "source_row_b": 1459,
+        "intersection_native_square_units": 3.9725043503567576
+      },
+      {
+        "source_row_a": 1059,
+        "source_row_b": 1124,
+        "intersection_native_square_units": 0.0018174243955400016
+      },
+      {
+        "source_row_a": 1059,
+        "source_row_b": 1084,
+        "intersection_native_square_units": 0.0017254055337801166
+      },
+      {
+        "source_row_a": 1061,
+        "source_row_b": 1447,
+        "intersection_native_square_units": 1059.4664562450935
+      },
+      {
+        "source_row_a": 1061,
+        "source_row_b": 1081,
+        "intersection_native_square_units": 117.66384157392544
+      },
+      {
+        "source_row_a": 1062,
+        "source_row_b": 1103,
+        "intersection_native_square_units": 0.020946139991792734
+      },
+      {
+        "source_row_a": 1062,
+        "source_row_b": 1105,
+        "intersection_native_square_units": 0.027141671882146935
+      },
+      {
+        "source_row_a": 1063,
+        "source_row_b": 1488,
+        "intersection_native_square_units": 0.04299494451333885
+      },
+      {
+        "source_row_a": 1063,
+        "source_row_b": 1487,
+        "intersection_native_square_units": 0.23226788356073688
+      },
+      {
+        "source_row_a": 1063,
+        "source_row_b": 1535,
+        "intersection_native_square_units": 0.019955833755231328
+      },
+      {
+        "source_row_a": 1063,
+        "source_row_b": 1142,
+        "intersection_native_square_units": 7090.524864740339
+      },
+      {
+        "source_row_a": 1063,
+        "source_row_b": 1534,
+        "intersection_native_square_units": 7679.014657244148
+      },
+      {
+        "source_row_a": 1064,
+        "source_row_b": 1127,
+        "intersection_native_square_units": 0.046471491714328295
+      },
+      {
+        "source_row_a": 1064,
+        "source_row_b": 1138,
+        "intersection_native_square_units": 0.008094677878154447
+      },
+      {
+        "source_row_a": 1064,
+        "source_row_b": 1067,
+        "intersection_native_square_units": 0.015826966173115256
+      },
+      {
+        "source_row_a": 1065,
+        "source_row_b": 1104,
+        "intersection_native_square_units": 0.006157845759287128
+      },
+      {
+        "source_row_a": 1065,
+        "source_row_b": 1110,
+        "intersection_native_square_units": 411.09647286531737
+      },
+      {
+        "source_row_a": 1067,
+        "source_row_b": 1138,
+        "intersection_native_square_units": 0.1028475888808322
+      },
+      {
+        "source_row_a": 1070,
+        "source_row_b": 1106,
+        "intersection_native_square_units": 1.8530512074912964e-05
+      },
+      {
+        "source_row_a": 1070,
+        "source_row_b": 1510,
+        "intersection_native_square_units": 16.970726477201335
+      },
+      {
+        "source_row_a": 1070,
+        "source_row_b": 1524,
+        "intersection_native_square_units": 4.249809679217342e-06
+      },
+      {
+        "source_row_a": 1071,
+        "source_row_b": 1461,
+        "intersection_native_square_units": 27.888496526789993
+      },
+      {
+        "source_row_a": 1071,
+        "source_row_b": 1498,
+        "intersection_native_square_units": 176.63265809299668
+      },
+      {
+        "source_row_a": 1072,
+        "source_row_b": 1456,
+        "intersection_native_square_units": 41.670803308933046
+      },
+      {
+        "source_row_a": 1072,
+        "source_row_b": 1532,
+        "intersection_native_square_units": 0.04641759645892307
+      },
+      {
+        "source_row_a": 1073,
+        "source_row_b": 1452,
+        "intersection_native_square_units": 2885.578496074142
+      },
+      {
+        "source_row_a": 1073,
+        "source_row_b": 1118,
+        "intersection_native_square_units": 9.753552675163808
+      },
+      {
+        "source_row_a": 1073,
+        "source_row_b": 1487,
+        "intersection_native_square_units": 3307.5745150833445
+      },
+      {
+        "source_row_a": 1073,
+        "source_row_b": 1502,
+        "intersection_native_square_units": 0.05895369617610413
+      },
+      {
+        "source_row_a": 1073,
+        "source_row_b": 1120,
+        "intersection_native_square_units": 0.014703479483509918
+      },
+      {
+        "source_row_a": 1074,
+        "source_row_b": 1466,
+        "intersection_native_square_units": 3669.433455565166
+      },
+      {
+        "source_row_a": 1074,
+        "source_row_b": 1454,
+        "intersection_native_square_units": 1647.91420081849
+      },
+      {
+        "source_row_a": 1075,
+        "source_row_b": 1493,
+        "intersection_native_square_units": 0.026390271847619107
+      },
+      {
+        "source_row_a": 1079,
+        "source_row_b": 1131,
+        "intersection_native_square_units": 0.01903118108975832
+      },
+      {
+        "source_row_a": 1080,
+        "source_row_b": 1093,
+        "intersection_native_square_units": 42356.73515684101
+      },
+      {
+        "source_row_a": 1080,
+        "source_row_b": 1446,
+        "intersection_native_square_units": 12677.328889982717
+      },
+      {
+        "source_row_a": 1080,
+        "source_row_b": 1087,
+        "intersection_native_square_units": 0.14770025735697345
+      },
+      {
+        "source_row_a": 1080,
+        "source_row_b": 1457,
+        "intersection_native_square_units": 204.228116121064
+      },
+      {
+        "source_row_a": 1080,
+        "source_row_b": 1505,
+        "intersection_native_square_units": 514.7843626924964
+      },
+      {
+        "source_row_a": 1081,
+        "source_row_b": 1447,
+        "intersection_native_square_units": 115.1003384585298
+      },
+      {
+        "source_row_a": 1083,
+        "source_row_b": 1088,
+        "intersection_native_square_units": 715.3892079948262
+      },
+      {
+        "source_row_a": 1083,
+        "source_row_b": 1129,
+        "intersection_native_square_units": 401.40869304135583
+      },
+      {
+        "source_row_a": 1083,
+        "source_row_b": 1109,
+        "intersection_native_square_units": 201.87177244543193
+      },
+      {
+        "source_row_a": 1083,
+        "source_row_b": 1092,
+        "intersection_native_square_units": 0.09788499984596795
+      },
+      {
+        "source_row_a": 1083,
+        "source_row_b": 1495,
+        "intersection_native_square_units": 0.46839756884946837
+      },
+      {
+        "source_row_a": 1084,
+        "source_row_b": 1479,
+        "intersection_native_square_units": 569.1369391550834
+      },
+      {
+        "source_row_a": 1085,
+        "source_row_b": 1510,
+        "intersection_native_square_units": 0.0012971861615369562
+      },
+      {
+        "source_row_a": 1085,
+        "source_row_b": 1511,
+        "intersection_native_square_units": 0.005353791923214099
+      },
+      {
+        "source_row_a": 1085,
+        "source_row_b": 1484,
+        "intersection_native_square_units": 0.01881800979754189
+      },
+      {
+        "source_row_a": 1085,
+        "source_row_b": 1450,
+        "intersection_native_square_units": 2451.5388216885094
+      },
+      {
+        "source_row_a": 1085,
+        "source_row_b": 1514,
+        "intersection_native_square_units": 0.00580394191573216
+      },
+      {
+        "source_row_a": 1085,
+        "source_row_b": 1113,
+        "intersection_native_square_units": 0.010408346601626213
+      },
+      {
+        "source_row_a": 1085,
+        "source_row_b": 1500,
+        "intersection_native_square_units": 4.374058022269672e-05
+      },
+      {
+        "source_row_a": 1087,
+        "source_row_b": 1471,
+        "intersection_native_square_units": 0.3474633351434022
+      },
+      {
+        "source_row_a": 1088,
+        "source_row_b": 1129,
+        "intersection_native_square_units": 263.5225133516525
+      },
+      {
+        "source_row_a": 1089,
+        "source_row_b": 1129,
+        "intersection_native_square_units": 0.4911634030659029
+      },
+      {
+        "source_row_a": 1089,
+        "source_row_b": 1532,
+        "intersection_native_square_units": 0.08625365123498696
+      },
+      {
+        "source_row_a": 1090,
+        "source_row_b": 1107,
+        "intersection_native_square_units": 47.73678457120607
+      },
+      {
+        "source_row_a": 1092,
+        "source_row_b": 1483,
+        "intersection_native_square_units": 0.0010473299862923113
+      },
+      {
+        "source_row_a": 1092,
+        "source_row_b": 1482,
+        "intersection_native_square_units": 0.007556384025223364
+      },
+      {
+        "source_row_a": 1093,
+        "source_row_b": 1491,
+        "intersection_native_square_units": 6425.855844017262
+      },
+      {
+        "source_row_a": 1093,
+        "source_row_b": 1446,
+        "intersection_native_square_units": 0.16008087649649622
+      },
+      {
+        "source_row_a": 1093,
+        "source_row_b": 1493,
+        "intersection_native_square_units": 20540.790896430488
+      },
+      {
+        "source_row_a": 1093,
+        "source_row_b": 1508,
+        "intersection_native_square_units": 1.9159119114503347e-06
+      },
+      {
+        "source_row_a": 1094,
+        "source_row_b": 1117,
+        "intersection_native_square_units": 629.0018101287711
+      },
+      {
+        "source_row_a": 1095,
+        "source_row_b": 1109,
+        "intersection_native_square_units": 0.006216449378664602
+      },
+      {
+        "source_row_a": 1099,
+        "source_row_b": 1442,
+        "intersection_native_square_units": 4022.975831748503
+      },
+      {
+        "source_row_a": 1100,
+        "source_row_b": 1505,
+        "intersection_native_square_units": 0.12601913746208157
+      },
+      {
+        "source_row_a": 1100,
+        "source_row_b": 1528,
+        "intersection_native_square_units": 2.4226223224038668e-05
+      },
+      {
+        "source_row_a": 1101,
+        "source_row_b": 1535,
+        "intersection_native_square_units": 0.0061813794698366495
+      },
+      {
+        "source_row_a": 1101,
+        "source_row_b": 1534,
+        "intersection_native_square_units": 53.18973507136184
+      },
+      {
+        "source_row_a": 1104,
+        "source_row_b": 1493,
+        "intersection_native_square_units": 0.0013989830656578606
+      },
+      {
+        "source_row_a": 1104,
+        "source_row_b": 1507,
+        "intersection_native_square_units": 0.7353968615095123
+      },
+      {
+        "source_row_a": 1105,
+        "source_row_b": 1473,
+        "intersection_native_square_units": 4.371670140660093
+      },
+      {
+        "source_row_a": 1106,
+        "source_row_b": 1502,
+        "intersection_native_square_units": 0.0025641479723744545
+      },
+      {
+        "source_row_a": 1106,
+        "source_row_b": 1120,
+        "intersection_native_square_units": 0.006189670752291931
+      },
+      {
+        "source_row_a": 1106,
+        "source_row_b": 1492,
+        "intersection_native_square_units": 23958.16514865921
+      },
+      {
+        "source_row_a": 1107,
+        "source_row_b": 1130,
+        "intersection_native_square_units": 5526.422264010561
+      },
+      {
+        "source_row_a": 1108,
+        "source_row_b": 1534,
+        "intersection_native_square_units": 10264.536813763243
+      },
+      {
+        "source_row_a": 1109,
+        "source_row_b": 1533,
+        "intersection_native_square_units": 5.694584120423277
+      },
+      {
+        "source_row_a": 1109,
+        "source_row_b": 1538,
+        "intersection_native_square_units": 0.08456073045817902
+      },
+      {
+        "source_row_a": 1111,
+        "source_row_b": 1126,
+        "intersection_native_square_units": 1.8889641052621755
+      },
+      {
+        "source_row_a": 1111,
+        "source_row_b": 1477,
+        "intersection_native_square_units": 26495.343764313035
+      },
+      {
+        "source_row_a": 1112,
+        "source_row_b": 1524,
+        "intersection_native_square_units": 0.018213081923306382
+      },
+      {
+        "source_row_a": 1113,
+        "source_row_b": 1519,
+        "intersection_native_square_units": 0.04450220568739585
+      },
+      {
+        "source_row_a": 1113,
+        "source_row_b": 1503,
+        "intersection_native_square_units": 0.00958043889632297
+      },
+      {
+        "source_row_a": 1115,
+        "source_row_b": 1473,
+        "intersection_native_square_units": 60.86272421737556
+      },
+      {
+        "source_row_a": 1116,
+        "source_row_b": 1477,
+        "intersection_native_square_units": 69768.58506052199
+      },
+      {
+        "source_row_a": 1116,
+        "source_row_b": 1475,
+        "intersection_native_square_units": 30455.349255872537
+      },
+      {
+        "source_row_a": 1118,
+        "source_row_b": 1487,
+        "intersection_native_square_units": 3417.445105683557
+      },
+      {
+        "source_row_a": 1119,
+        "source_row_b": 1136,
+        "intersection_native_square_units": 0.1379433890688233
+      },
+      {
+        "source_row_a": 1122,
+        "source_row_b": 1126,
+        "intersection_native_square_units": 3.2425204663201743
+      },
+      {
+        "source_row_a": 1122,
+        "source_row_b": 1509,
+        "intersection_native_square_units": 24229.4063230031
+      },
+      {
+        "source_row_a": 1122,
+        "source_row_b": 1476,
+        "intersection_native_square_units": 2.9108115006958295
+      },
+      {
+        "source_row_a": 1123,
+        "source_row_b": 1471,
+        "intersection_native_square_units": 0.0711233414972412
+      },
+      {
+        "source_row_a": 1125,
+        "source_row_b": 1464,
+        "intersection_native_square_units": 0.002749391417957929
+      },
+      {
+        "source_row_a": 1125,
+        "source_row_b": 1496,
+        "intersection_native_square_units": 2.745924480851425e-09
+      },
+      {
+        "source_row_a": 1125,
+        "source_row_b": 1523,
+        "intersection_native_square_units": 0.1601139772971131
+      },
+      {
+        "source_row_a": 1126,
+        "source_row_b": 1529,
+        "intersection_native_square_units": 642.4469124679258
+      },
+      {
+        "source_row_a": 1127,
+        "source_row_b": 1136,
+        "intersection_native_square_units": 0.003315157103315869
+      },
+      {
+        "source_row_a": 1128,
+        "source_row_b": 1132,
+        "intersection_native_square_units": 0.05838250819284081
+      },
+      {
+        "source_row_a": 1128,
+        "source_row_b": 1527,
+        "intersection_native_square_units": 0.027601923879502513
+      },
+      {
+        "source_row_a": 1128,
+        "source_row_b": 1448,
+        "intersection_native_square_units": 0.011533022134199378
+      },
+      {
+        "source_row_a": 1128,
+        "source_row_b": 1537,
+        "intersection_native_square_units": 0.21315678232349455
+      },
+      {
+        "source_row_a": 1128,
+        "source_row_b": 1506,
+        "intersection_native_square_units": 0.19944292490617954
+      },
+      {
+        "source_row_a": 1128,
+        "source_row_b": 1459,
+        "intersection_native_square_units": 0.009985074196009691
+      },
+      {
+        "source_row_a": 1128,
+        "source_row_b": 1466,
+        "intersection_native_square_units": 369.07912623082746
+      },
+      {
+        "source_row_a": 1128,
+        "source_row_b": 1454,
+        "intersection_native_square_units": 11609.154054558836
+      },
+      {
+        "source_row_a": 1131,
+        "source_row_b": 1454,
+        "intersection_native_square_units": 43.54756000555233
+      },
+      {
+        "source_row_a": 1132,
+        "source_row_b": 1527,
+        "intersection_native_square_units": 3.5618245806622544
+      },
+      {
+        "source_row_a": 1132,
+        "source_row_b": 1448,
+        "intersection_native_square_units": 5.23899497509788
+      },
+      {
+        "source_row_a": 1133,
+        "source_row_b": 1490,
+        "intersection_native_square_units": 882.5282172164864
+      },
+      {
+        "source_row_a": 1133,
+        "source_row_b": 1441,
+        "intersection_native_square_units": 0.0291848605026084
+      },
+      {
+        "source_row_a": 1133,
+        "source_row_b": 1481,
+        "intersection_native_square_units": 0.7585432438063435
+      },
+      {
+        "source_row_a": 1133,
+        "source_row_b": 1474,
+        "intersection_native_square_units": 8474.402825325033
+      },
+      {
+        "source_row_a": 1133,
+        "source_row_b": 1450,
+        "intersection_native_square_units": 215.52630539211913
+      },
+      {
+        "source_row_a": 1136,
+        "source_row_b": 1138,
+        "intersection_native_square_units": 3.5935568812539564e-05
+      },
+      {
+        "source_row_a": 1137,
+        "source_row_b": 1490,
+        "intersection_native_square_units": 1129.4142220302886
+      },
+      {
+        "source_row_a": 1137,
+        "source_row_b": 1474,
+        "intersection_native_square_units": 372.99809370480943
+      },
+      {
+        "source_row_a": 1137,
+        "source_row_b": 1461,
+        "intersection_native_square_units": 0.02958495086527079
+      },
+      {
+        "source_row_a": 1137,
+        "source_row_b": 1504,
+        "intersection_native_square_units": 59.13353013578626
+      },
+      {
+        "source_row_a": 1141,
+        "source_row_b": 1483,
+        "intersection_native_square_units": 8058.802449538289
+      },
+      {
+        "source_row_a": 1141,
+        "source_row_b": 1518,
+        "intersection_native_square_units": 554.114144509373
+      },
+      {
+        "source_row_a": 1142,
+        "source_row_b": 1486,
+        "intersection_native_square_units": 2942.8107229535244
+      },
+      {
+        "source_row_a": 1441,
+        "source_row_b": 1531,
+        "intersection_native_square_units": 0.017112945164740642
+      },
+      {
+        "source_row_a": 1443,
+        "source_row_b": 1452,
+        "intersection_native_square_units": 0.2416853325301758
+      },
+      {
+        "source_row_a": 1444,
+        "source_row_b": 1454,
+        "intersection_native_square_units": 4513.3907520948915
+      },
+      {
+        "source_row_a": 1445,
+        "source_row_b": 1452,
+        "intersection_native_square_units": 0.07699055552075151
+      },
+      {
+        "source_row_a": 1448,
+        "source_row_b": 1529,
+        "intersection_native_square_units": 71.00100393537025
+      },
+      {
+        "source_row_a": 1450,
+        "source_row_b": 1481,
+        "intersection_native_square_units": 19.02003115490489
+      },
+      {
+        "source_row_a": 1452,
+        "source_row_b": 1536,
+        "intersection_native_square_units": 6.704024967072245e-05
+      },
+      {
+        "source_row_a": 1452,
+        "source_row_b": 1458,
+        "intersection_native_square_units": 1425.4842898720706
+      },
+      {
+        "source_row_a": 1454,
+        "source_row_b": 1466,
+        "intersection_native_square_units": 1302.0392240415579
+      },
+      {
+        "source_row_a": 1457,
+        "source_row_b": 1529,
+        "intersection_native_square_units": 540.6443964399804
+      },
+      {
+        "source_row_a": 1457,
+        "source_row_b": 1509,
+        "intersection_native_square_units": 122.14427712015123
+      },
+      {
+        "source_row_a": 1457,
+        "source_row_b": 1467,
+        "intersection_native_square_units": 1419.905751886428
+      },
+      {
+        "source_row_a": 1459,
+        "source_row_b": 1470,
+        "intersection_native_square_units": 0.05405874566079381
+      },
+      {
+        "source_row_a": 1460,
+        "source_row_b": 1521,
+        "intersection_native_square_units": 100.521530583498
+      },
+      {
+        "source_row_a": 1460,
+        "source_row_b": 1526,
+        "intersection_native_square_units": 862.6221263270361
+      },
+      {
+        "source_row_a": 1460,
+        "source_row_b": 1523,
+        "intersection_native_square_units": 11.092220292364686
+      },
+      {
+        "source_row_a": 1460,
+        "source_row_b": 1497,
+        "intersection_native_square_units": 0.014221497787730186
+      },
+      {
+        "source_row_a": 1460,
+        "source_row_b": 1515,
+        "intersection_native_square_units": 0.052375285793398854
+      },
+      {
+        "source_row_a": 1460,
+        "source_row_b": 1516,
+        "intersection_native_square_units": 0.00853122460114264
+      },
+      {
+        "source_row_a": 1461,
+        "source_row_b": 1504,
+        "intersection_native_square_units": 21.76353588099491
+      },
+      {
+        "source_row_a": 1461,
+        "source_row_b": 1498,
+        "intersection_native_square_units": 0.08316171928691482
+      },
+      {
+        "source_row_a": 1464,
+        "source_row_b": 1519,
+        "intersection_native_square_units": 0.10452680904284667
+      },
+      {
+        "source_row_a": 1464,
+        "source_row_b": 1496,
+        "intersection_native_square_units": 38.971759196589744
+      },
+      {
+        "source_row_a": 1464,
+        "source_row_b": 1523,
+        "intersection_native_square_units": 9.62529804644785e-09
+      },
+      {
+        "source_row_a": 1464,
+        "source_row_b": 1503,
+        "intersection_native_square_units": 4.915752102509913e-06
+      },
+      {
+        "source_row_a": 1465,
+        "source_row_b": 1468,
+        "intersection_native_square_units": 0.0003863689094615562
+      },
+      {
+        "source_row_a": 1465,
+        "source_row_b": 1512,
+        "intersection_native_square_units": 0.0062012411771402015
+      },
+      {
+        "source_row_a": 1467,
+        "source_row_b": 1509,
+        "intersection_native_square_units": 282.38423525019573
+      },
+      {
+        "source_row_a": 1467,
+        "source_row_b": 1528,
+        "intersection_native_square_units": 3.183759356426436
+      },
+      {
+        "source_row_a": 1468,
+        "source_row_b": 1518,
+        "intersection_native_square_units": 0.0034769966630007407
+      },
+      {
+        "source_row_a": 1468,
+        "source_row_b": 1525,
+        "intersection_native_square_units": 0.0037847438942105946
+      },
+      {
+        "source_row_a": 1469,
+        "source_row_b": 1499,
+        "intersection_native_square_units": 2.0393537534357797e-05
+      },
+      {
+        "source_row_a": 1470,
+        "source_row_b": 1507,
+        "intersection_native_square_units": 0.04130990938108433
+      },
+      {
+        "source_row_a": 1471,
+        "source_row_b": 1488,
+        "intersection_native_square_units": 0.0008151197061811132
+      },
+      {
+        "source_row_a": 1474,
+        "source_row_b": 1490,
+        "intersection_native_square_units": 91303.93940866653
+      },
+      {
+        "source_row_a": 1474,
+        "source_row_b": 1501,
+        "intersection_native_square_units": 27766.11779995349
+      },
+      {
+        "source_row_a": 1474,
+        "source_row_b": 1504,
+        "intersection_native_square_units": 46213.97806691867
+      },
+      {
+        "source_row_a": 1474,
+        "source_row_b": 1519,
+        "intersection_native_square_units": 7646.610355359449
+      },
+      {
+        "source_row_a": 1475,
+        "source_row_b": 1477,
+        "intersection_native_square_units": 8736.198896237293
+      },
+      {
+        "source_row_a": 1475,
+        "source_row_b": 1478,
+        "intersection_native_square_units": 573.6824603564191
+      },
+      {
+        "source_row_a": 1475,
+        "source_row_b": 1841,
+        "intersection_native_square_units": 4946.474466077698
+      },
+      {
+        "source_row_a": 1476,
+        "source_row_b": 1478,
+        "intersection_native_square_units": 2681.995205105598
+      },
+      {
+        "source_row_a": 1476,
+        "source_row_b": 1490,
+        "intersection_native_square_units": 2811.645884224374
+      },
+      {
+        "source_row_a": 1477,
+        "source_row_b": 1478,
+        "intersection_native_square_units": 6.352523828810263
+      },
+      {
+        "source_row_a": 1478,
+        "source_row_b": 1490,
+        "intersection_native_square_units": 27324.563017646447
+      },
+      {
+        "source_row_a": 1480,
+        "source_row_b": 1487,
+        "intersection_native_square_units": 1331.7344644241493
+      },
+      {
+        "source_row_a": 1483,
+        "source_row_b": 1534,
+        "intersection_native_square_units": 5381.259398730729
+      },
+      {
+        "source_row_a": 1484,
+        "source_row_b": 1510,
+        "intersection_native_square_units": 8.601323388199916
+      },
+      {
+        "source_row_a": 1485,
+        "source_row_b": 1486,
+        "intersection_native_square_units": 717.0624629910632
+      },
+      {
+        "source_row_a": 1485,
+        "source_row_b": 1518,
+        "intersection_native_square_units": 0.444945980412876
+      },
+      {
+        "source_row_a": 1485,
+        "source_row_b": 1525,
+        "intersection_native_square_units": 0.008015552119837389
+      },
+      {
+        "source_row_a": 1486,
+        "source_row_b": 1518,
+        "intersection_native_square_units": 1303.2691690833838
+      },
+      {
+        "source_row_a": 1486,
+        "source_row_b": 1487,
+        "intersection_native_square_units": 0.042653653137676883
+      },
+      {
+        "source_row_a": 1486,
+        "source_row_b": 1492,
+        "intersection_native_square_units": 101.0495316952683
+      },
+      {
+        "source_row_a": 1487,
+        "source_row_b": 1502,
+        "intersection_native_square_units": 3307.0651262325277
+      },
+      {
+        "source_row_a": 1488,
+        "source_row_b": 1535,
+        "intersection_native_square_units": 0.00018139752415264124
+      },
+      {
+        "source_row_a": 1490,
+        "source_row_b": 1509,
+        "intersection_native_square_units": 843.4828346442239
+      },
+      {
+        "source_row_a": 1490,
+        "source_row_b": 1531,
+        "intersection_native_square_units": 432.2376424348335
+      },
+      {
+        "source_row_a": 1491,
+        "source_row_b": 1493,
+        "intersection_native_square_units": 187.94977576652693
+      },
+      {
+        "source_row_a": 1492,
+        "source_row_b": 1502,
+        "intersection_native_square_units": 1155.3519261830797
+      },
+      {
+        "source_row_a": 1497,
+        "source_row_b": 1515,
+        "intersection_native_square_units": 696.5770253452968
+      },
+      {
+        "source_row_a": 1520,
+        "source_row_b": 1523,
+        "intersection_native_square_units": 1041.2111365099327
+      },
+      {
+        "source_row_a": 1522,
+        "source_row_b": 1529,
+        "intersection_native_square_units": 23.078733353578855
+      },
+      {
+        "source_row_a": 1528,
+        "source_row_b": 1536,
+        "intersection_native_square_units": 7.419069654349926
+      },
+      {
+        "source_row_a": 1534,
+        "source_row_b": 1535,
+        "intersection_native_square_units": 15439.067999120201
+      }
+    ],
+    "unit": "square US survey foot in native projected CRS; planar diagnostic, not geodesic/ground/legal area"
+  },
+  "approval": "Unknown for November2026; Hays VTD field remains literally VTD, no Census/TLC equivalence assumed."
+}

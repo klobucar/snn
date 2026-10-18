@@ -1,0 +1,44 @@
+{
+  "id": "route-webb-2",
+  "requested_url": "https://www.webbcountytx.gov/",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:33:16.148897+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.webbcountytx.gov/",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:33:16 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30",
+    "set-cookie": "__cf_bm=iy8qXN0kUBHTbFMXZcp_H.8jcmB1iXf8cuS7JWIfwFE-1792294396.2817285-1.0.1.1-cbacvk872_QgRn_j6oKgKdH0AdX3u9GfsDlojr1Kqj.WzOeJ5hFHy.b2McG2i.JcfBELejnFZDILuUa3_2s6ExOcBNkhebsdFD6t5FpzZiLVOZ_9mDPl.oaC3hneuuxo; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.webbcountytx.gov; Expires=Sun, 18 Oct 2026 04:03:16 GMT",
+    "vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "camera=(), microphone=()",
+    "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Age": "5",
+    "last-modified": "Sun, 18 Oct 2026 03:33:10 GMT",
+    "expires": "Sun, 18 Oct 2026 03:33:46 GMT",
+    "cf-cache-status": "HIT",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47b08b8a46881-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 143252,
+  "original_sha256": "d3befe9c959f18d1bf30510d7f09ea8527b41fcb32790a930a7d4f1ffd5a10f3",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/route-webb-2.body",
+      "bytes": 143252,
+      "sha256": "d3befe9c959f18d1bf30510d7f09ea8527b41fcb32790a930a7d4f1ffd5a10f3"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Webb"
+}

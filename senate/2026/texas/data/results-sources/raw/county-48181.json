@@ -1,0 +1,61 @@
+{
+  "id": "county-48181",
+  "request_url": "http://www.co.grayson.tx.us/default.aspx?name=elec.home",
+  "parent_id": "sos-county-links",
+  "purpose": "Grayson official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:35.357897+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.co.grayson.tx.us/default.aspx?name=elec.home",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "Set-Cookie": "ASP.NET_SessionId=aylg2p1ir5bkqntj3qxyqbak; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:26:35 GMT",
+    "Content-Length": "24016"
+  },
+  "redirects": [
+    {
+      "status": 302,
+      "url": "http://www.co.grayson.tx.us/default.aspx?name=elec.home",
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Location": "https://www.co.grayson.tx.us/default.aspx?name=elec.home",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Content-Security-Policy": "font-src *;img-src * data:;",
+        "Referrer-Policy": "strict-origin",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "Date": "Sun, 18 Oct 2026 03:26:35 GMT",
+        "Content-Length": "179"
+      }
+    }
+  ],
+  "original_bytes": 73500,
+  "original_sha256": "4c26f29c04c14f4c2186b0e7f4987ad3bb1d4be440fb1f4ae4d59d3e18c7aafa",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 18236,
+  "stored_stream_sha256": "5e0ae2be7d28fc86d1ed8ae5db964be3835d2ddb8e784fdaa86408298450eaa2",
+  "stored_parts": [
+    {
+      "path": "raw/county-48181.body.gz",
+      "bytes": 18236,
+      "sha256": "5e0ae2be7d28fc86d1ed8ae5db964be3835d2ddb8e784fdaa86408298450eaa2"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:35.879106+00:00"
+}

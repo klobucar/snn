@@ -1,0 +1,52 @@
+{
+  "id": "sos-november-history",
+  "request_url": "https://goelect.txelections.civixapps.com/api-ivis-system/api/s3/enr/electionRss/53815/history",
+  "parent_id": "sos-election-constants",
+  "purpose": "public RSS history route from bundle",
+  "retrieval_started_utc": "2026-10-18T03:27:30.433530+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://goelect.txelections.civixapps.com/api-ivis-system/api/s3/enr/electionRss/53815/history",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:27:30 GMT",
+    "Content-Length": "0",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "0",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET, POST, OPTIONS, PUT, DELETE",
+    "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range",
+    "access-control-expose-headers": "Content-Length,Content-Range",
+    "access-control-allow-credentials": "true",
+    "cf-cache-status": "DYNAMIC",
+    "set-cookie": "__cf_bm=GwdSjieYfmXznE0xuC.kLO._gn288PRDmMWeFyTdE7I-1792294050.6824534-1.0.1.1-IAU8CBICdab96w.21kcddxCpI5_K2aGYEZB2wNf.B_TJ_idGknNwq4o6TEUdPgMcMFOUj31kahS4Fck28DeAerJYzs8Y0UUTcPzUjRO6SE_21hEPLstBNmpKFElqJlYO; HttpOnly; SameSite=None; Secure; Path=/; Domain=civixapps.com; Expires=Sun, 18 Oct 2026 03:57:30 GMT",
+    "Strict-Transport-Security": "max-age=0",
+    "CF-RAY": "a4c47298cbcbf84a-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 0,
+  "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 20,
+  "stored_stream_sha256": "f1b651238a58fe290baec6c5e32f3bdb1943dd2bd582f02569231f7a757c7837",
+  "stored_parts": [
+    {
+      "path": "raw/county-48113.body.gz",
+      "bytes": 20,
+      "sha256": "f1b651238a58fe290baec6c5e32f3bdb1943dd2bd582f02569231f7a757c7837"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:30.911870+00:00",
+  "body_storage_shared_with": "county-48113"
+}

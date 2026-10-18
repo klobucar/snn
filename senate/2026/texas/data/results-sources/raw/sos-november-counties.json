@@ -1,0 +1,53 @@
+{
+  "id": "sos-november-counties",
+  "request_url": "https://goelect.txelections.civixapps.com/api-ivis-system/api/s3/enr/election/countyInfo/53815",
+  "parent_id": "sos-election-constants",
+  "purpose": "public county-info route from bundle",
+  "retrieval_started_utc": "2026-10-18T03:27:30.433366+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://goelect.txelections.civixapps.com/api-ivis-system/api/s3/enr/election/countyInfo/53815",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:27:31 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "0",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET, POST, OPTIONS, PUT, DELETE",
+    "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range",
+    "access-control-expose-headers": "Content-Length,Content-Range",
+    "access-control-allow-credentials": "true",
+    "cf-cache-status": "DYNAMIC",
+    "set-cookie": "__cf_bm=16kHTx38zgqUCm_AHWiWDSxRWGacK3Zz3wFHzqEy4gs-1792294050.6872838-1.0.1.1-xu.2HA34nqaVyeQH1pfG7r_dYad_wvv89kjZseQc7VUkMuP3lkFCaYeGnBDSXgjQ6VDjEKkaySvwTWHjp3s9GXdq7uJ7fMyoL2kwH2X8ZcHGOgQ3Y8F_WZstgg8k1ywV; HttpOnly; SameSite=None; Secure; Path=/; Domain=civixapps.com; Expires=Sun, 18 Oct 2026 03:57:31 GMT",
+    "Strict-Transport-Security": "max-age=0",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a4c47298ca990a26-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 4168929,
+  "original_sha256": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 482981,
+  "stored_stream_sha256": "fbc8ee02926b49da8beeb62e9b53137cdd54d0393c927b4b5b39d8189a7c0e4e",
+  "stored_parts": [
+    {
+      "path": "raw/sos-november-counties.body.gz",
+      "bytes": 482981,
+      "sha256": "fbc8ee02926b49da8beeb62e9b53137cdd54d0393c927b4b5b39d8189a7c0e4e"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:31.767541+00:00"
+}

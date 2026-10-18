@@ -1,0 +1,42 @@
+{
+  "id": "sos-current-turnout",
+  "request_url": "https://goelect.txelections.civixapps.com/ivis-evr-ui/evr",
+  "parent_id": "sos-results-index",
+  "purpose": "actual linked aggregate early turnout",
+  "retrieval_started_utc": "2026-10-18T03:25:53.291910+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://goelect.txelections.civixapps.com/ivis-evr-ui/evr",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:25:53 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "vary": "Accept-Encoding",
+    "Strict-Transport-Security": "max-age=0",
+    "cf-cache-status": "DYNAMIC",
+    "set-cookie": "__cf_bm=3BQHswNUxbXydKNYXg0FblQzTzOZrSK5DhHGSTZrQsg-1792293953.4924552-1.0.1.1-5uC0KXcBKHQkpjOqe2Lq1qVNGyTwgnxwj1WGzH5ZgHQkmwrStH5E8cehF5IWRoBWXP_WgW7vZ8R4eXY_zlEcIV8MbsjJQ4gp901k5D76gq.LdWh35M_Ih9J3MBlbp6.H; HttpOnly; SameSite=None; Secure; Path=/; Domain=civixapps.com; Expires=Sun, 18 Oct 2026 03:55:53 GMT",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a4c470395d3c7aad-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 17886,
+  "original_sha256": "b5f5926a18e41208b5a932a482c1cc5e2f9d9a7e8325524d283cddd1ab7c7ee4",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 3145,
+  "stored_stream_sha256": "d14c27fa9ba7acd5f19cc9395db5a036098407aa8700475cb85b8f179f403ea7",
+  "stored_parts": [
+    {
+      "path": "raw/sos-current-turnout.body.gz",
+      "bytes": 3145,
+      "sha256": "d14c27fa9ba7acd5f19cc9395db5a036098407aa8700475cb85b8f179f403ea7"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:25:53.715484+00:00"
+}

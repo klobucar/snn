@@ -1,0 +1,47 @@
+{
+  "id": "sos-current-turnout-main",
+  "request_url": "https://goelect.txelections.civixapps.com/ivis-evr-ui/main.be021da0c7f66c8b.js",
+  "parent_id": "sos-current-turnout",
+  "purpose": "public application bundle",
+  "retrieval_started_utc": "2026-10-18T03:26:32.695765+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://goelect.txelections.civixapps.com/ivis-evr-ui/main.be021da0c7f66c8b.js",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:26:32 GMT",
+    "Content-Type": "application/javascript",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "last-modified": "Wed, 14 Oct 2026 21:01:13 GMT",
+    "vary": "Accept-Encoding",
+    "etag": "W/\"6acfed99-1c2cbe\"",
+    "expires": "Tue, 17 Nov 2026 03:26:32 GMT",
+    "Cache-Control": "public, max-age=2592000",
+    "Content-Encoding": "gzip",
+    "set-cookie": "__cf_bm=8GhHQ6zFT7Ds1SMs8383iLofzahIx77AwAamYETtQYA-1792293992.845913-1.0.1.1-a17c2XckfSKX23i164Q.VYaznqATWpyXhI4SXYmMhmGYpPFx7dAXAjwodWGBfP6uZAfQ9gWGFbswpuzTzMWGcHcgiXBHV1WVbFE_LXwmi9HqT7zVvPOfqpCFAdaZTRxH; HttpOnly; SameSite=None; Secure; Path=/; Domain=civixapps.com; Expires=Sun, 18 Oct 2026 03:56:32 GMT",
+    "Age": "88998",
+    "cf-cache-status": "HIT",
+    "Strict-Transport-Security": "max-age=0",
+    "CF-RAY": "a4c4712f484edadc-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 1846462,
+  "original_sha256": "01b5215deb3a69f05f87ee75022e499b31e0f4f722e33b0539b8748c630c37c2",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 467687,
+  "stored_stream_sha256": "73d23a4c834aeeee43cb572580476683d7faa19a2138d3eaf92ac3a408647d23",
+  "stored_parts": [
+    {
+      "path": "raw/sos-current-turnout-main.body.gz",
+      "bytes": 467687,
+      "sha256": "73d23a4c834aeeee43cb572580476683d7faa19a2138d3eaf92ac3a408647d23"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:32.950723+00:00"
+}

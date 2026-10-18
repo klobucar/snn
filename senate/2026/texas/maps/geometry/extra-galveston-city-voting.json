@@ -1,0 +1,1534 @@
+{
+  "source_id": "extra-galveston-city-voting",
+  "county": "Galveston",
+  "features": 96,
+  "scope": "City-published voting precinct reference; countywide completeness and current approval unverified",
+  "fields": [
+    [
+      "OBJECTID_1",
+      "N",
+      10,
+      0
+    ],
+    [
+      "VTD",
+      "C",
+      254,
+      0
+    ],
+    [
+      "CREATED_US",
+      "C",
+      254,
+      0
+    ],
+    [
+      "CREATED_DA",
+      "D",
+      8,
+      0
+    ],
+    [
+      "LAST_EDITE",
+      "C",
+      254,
+      0
+    ],
+    [
+      "LAST_EDI_1",
+      "D",
+      8,
+      0
+    ]
+  ],
+  "native_crs": "PROJCS[\"NAD_1983_StatePlane_Texas_South_Central_FIPS_4204_Feet\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.017453292519943295]],PROJECTION[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",1968500.0],PARAMETER[\"False_Northing\",13123333.33333333],PARAMETER[\"Central_Meridian\",-99.0],PARAMETER[\"Standard_Parallel_1\",28.383333333333333],PARAMETER[\"Standard_Parallel_2\",30.283333333333335],PARAMETER[\"Latitude_Of_Origin\",27.833333333333332],UNIT[\"Foot_US\",0.30480060960121924]]",
+  "axis_order": [
+    {
+      "name": "Easting",
+      "direction": "east",
+      "unit": "US survey foot"
+    },
+    {
+      "name": "Northing",
+      "direction": "north",
+      "unit": "US survey foot"
+    }
+  ],
+  "geometry_type": 5,
+  "geometry_issues": [],
+  "overlap": {
+    "checked_valid_nonempty": 96,
+    "excluded_invalid_or_empty": 0,
+    "positive_area_pair_count": 43,
+    "pairs": [
+      {
+        "source_row_a": 1,
+        "source_row_b": 68,
+        "intersection_native_square_units": 0.03240869586261397
+      },
+      {
+        "source_row_a": 1,
+        "source_row_b": 67,
+        "intersection_native_square_units": 0.00017047264238856386
+      },
+      {
+        "source_row_a": 2,
+        "source_row_b": 69,
+        "intersection_native_square_units": 0.2755122704375368
+      },
+      {
+        "source_row_a": 4,
+        "source_row_b": 28,
+        "intersection_native_square_units": 0.03973799517916632
+      },
+      {
+        "source_row_a": 13,
+        "source_row_b": 23,
+        "intersection_native_square_units": 0.27376814506715164
+      },
+      {
+        "source_row_a": 14,
+        "source_row_b": 90,
+        "intersection_native_square_units": 0.017950589425083763
+      },
+      {
+        "source_row_a": 18,
+        "source_row_b": 72,
+        "intersection_native_square_units": 20.981082152922625
+      },
+      {
+        "source_row_a": 19,
+        "source_row_b": 70,
+        "intersection_native_square_units": 29.769921108809967
+      },
+      {
+        "source_row_a": 23,
+        "source_row_b": 25,
+        "intersection_native_square_units": 0.0002294494084959242
+      },
+      {
+        "source_row_a": 23,
+        "source_row_b": 24,
+        "intersection_native_square_units": 0.040779034980005235
+      },
+      {
+        "source_row_a": 25,
+        "source_row_b": 43,
+        "intersection_native_square_units": 0.13536363939056173
+      },
+      {
+        "source_row_a": 26,
+        "source_row_b": 27,
+        "intersection_native_square_units": 0.03391533242393052
+      },
+      {
+        "source_row_a": 27,
+        "source_row_b": 29,
+        "intersection_native_square_units": 0.09509423648705706
+      },
+      {
+        "source_row_a": 30,
+        "source_row_b": 84,
+        "intersection_native_square_units": 0.00012373184231073697
+      },
+      {
+        "source_row_a": 30,
+        "source_row_b": 85,
+        "intersection_native_square_units": 0.017628702629791746
+      },
+      {
+        "source_row_a": 30,
+        "source_row_b": 94,
+        "intersection_native_square_units": 0.018859005535781546
+      },
+      {
+        "source_row_a": 31,
+        "source_row_b": 91,
+        "intersection_native_square_units": 0.11167827143799514
+      },
+      {
+        "source_row_a": 31,
+        "source_row_b": 53,
+        "intersection_native_square_units": 0.004031944842928681
+      },
+      {
+        "source_row_a": 32,
+        "source_row_b": 33,
+        "intersection_native_square_units": 0.007287984502909239
+      },
+      {
+        "source_row_a": 32,
+        "source_row_b": 55,
+        "intersection_native_square_units": 0.003883785573040366
+      },
+      {
+        "source_row_a": 40,
+        "source_row_b": 81,
+        "intersection_native_square_units": 0.010678931416643531
+      },
+      {
+        "source_row_a": 40,
+        "source_row_b": 82,
+        "intersection_native_square_units": 0.002787434675951772
+      },
+      {
+        "source_row_a": 40,
+        "source_row_b": 71,
+        "intersection_native_square_units": 0.02404346146431635
+      },
+      {
+        "source_row_a": 44,
+        "source_row_b": 93,
+        "intersection_native_square_units": 0.19057436473667622
+      },
+      {
+        "source_row_a": 53,
+        "source_row_b": 87,
+        "intersection_native_square_units": 0.049359160009771585
+      },
+      {
+        "source_row_a": 61,
+        "source_row_b": 76,
+        "intersection_native_square_units": 0.0003352738795499022
+      },
+      {
+        "source_row_a": 61,
+        "source_row_b": 63,
+        "intersection_native_square_units": 69.59951682203973
+      },
+      {
+        "source_row_a": 62,
+        "source_row_b": 86,
+        "intersection_native_square_units": 0.03888033049694492
+      },
+      {
+        "source_row_a": 63,
+        "source_row_b": 86,
+        "intersection_native_square_units": 0.0044635758202985695
+      },
+      {
+        "source_row_a": 65,
+        "source_row_b": 88,
+        "intersection_native_square_units": 0.0002504729708112663
+      },
+      {
+        "source_row_a": 65,
+        "source_row_b": 87,
+        "intersection_native_square_units": 0.0038540760688192677
+      },
+      {
+        "source_row_a": 66,
+        "source_row_b": 67,
+        "intersection_native_square_units": 0.003899304834931172
+      },
+      {
+        "source_row_a": 71,
+        "source_row_b": 90,
+        "intersection_native_square_units": 0.01617900963719876
+      },
+      {
+        "source_row_a": 76,
+        "source_row_b": 77,
+        "intersection_native_square_units": 0.2994066657347503
+      },
+      {
+        "source_row_a": 77,
+        "source_row_b": 94,
+        "intersection_native_square_units": 0.0023431923270891275
+      },
+      {
+        "source_row_a": 79,
+        "source_row_b": 88,
+        "intersection_native_square_units": 0.0031258954802524386
+      },
+      {
+        "source_row_a": 80,
+        "source_row_b": 81,
+        "intersection_native_square_units": 0.00956134641086237
+      },
+      {
+        "source_row_a": 82,
+        "source_row_b": 83,
+        "intersection_native_square_units": 0.4931109277822543
+      },
+      {
+        "source_row_a": 82,
+        "source_row_b": 84,
+        "intersection_native_square_units": 0.050820825910022904
+      },
+      {
+        "source_row_a": 84,
+        "source_row_b": 94,
+        "intersection_native_square_units": 6.772273646799346e-05
+      },
+      {
+        "source_row_a": 86,
+        "source_row_b": 94,
+        "intersection_native_square_units": 5.930779412277598e-05
+      },
+      {
+        "source_row_a": 86,
+        "source_row_b": 95,
+        "intersection_native_square_units": 6.61666861726945e-05
+      },
+      {
+        "source_row_a": 87,
+        "source_row_b": 88,
+        "intersection_native_square_units": 0.007545894000941189
+      }
+    ],
+    "unit": "square US survey foot in native projected CRS; planar diagnostic"
+  },
+  "preview": "previews/extra-galveston-city-voting.png",
+  "attributes_and_vertices": "Complete original ZIP retained unchanged; source-specific units below, no2024 or2026 crosswalk inferred.",
+  "native_rows": [
+    {
+      "source_row": 0,
+      "attributes": {
+        "OBJECTID_1": 3660,
+        "VTD": "168",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 275,
+      "parts": 1
+    },
+    {
+      "source_row": 1,
+      "attributes": {
+        "OBJECTID_1": 3662,
+        "VTD": "370",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 58,
+      "parts": 1
+    },
+    {
+      "source_row": 2,
+      "attributes": {
+        "OBJECTID_1": 3666,
+        "VTD": "197",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 529,
+      "parts": 1
+    },
+    {
+      "source_row": 3,
+      "attributes": {
+        "OBJECTID_1": 3667,
+        "VTD": "218",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 174,
+      "parts": 1
+    },
+    {
+      "source_row": 4,
+      "attributes": {
+        "OBJECTID_1": 3668,
+        "VTD": "419",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 203,
+      "parts": 1
+    },
+    {
+      "source_row": 5,
+      "attributes": {
+        "OBJECTID_1": 3670,
+        "VTD": "221",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 460,
+      "parts": 3
+    },
+    {
+      "source_row": 6,
+      "attributes": {
+        "OBJECTID_1": 3671,
+        "VTD": "223",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 192,
+      "parts": 1
+    },
+    {
+      "source_row": 7,
+      "attributes": {
+        "OBJECTID_1": 3672,
+        "VTD": "224",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 118,
+      "parts": 1
+    },
+    {
+      "source_row": 8,
+      "attributes": {
+        "OBJECTID_1": 3673,
+        "VTD": "225",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 590,
+      "parts": 1
+    },
+    {
+      "source_row": 9,
+      "attributes": {
+        "OBJECTID_1": 3675,
+        "VTD": "226",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 720,
+      "parts": 1
+    },
+    {
+      "source_row": 10,
+      "attributes": {
+        "OBJECTID_1": 3677,
+        "VTD": "428",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 289,
+      "parts": 1
+    },
+    {
+      "source_row": 11,
+      "attributes": {
+        "OBJECTID_1": 3678,
+        "VTD": "432",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 242,
+      "parts": 1
+    },
+    {
+      "source_row": 12,
+      "attributes": {
+        "OBJECTID_1": 3646,
+        "VTD": "203",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 2346,
+      "parts": 1
+    },
+    {
+      "source_row": 13,
+      "attributes": {
+        "OBJECTID_1": 3647,
+        "VTD": "204",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 888,
+      "parts": 1
+    },
+    {
+      "source_row": 14,
+      "attributes": {
+        "OBJECTID_1": 3650,
+        "VTD": "144",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 464,
+      "parts": 1
+    },
+    {
+      "source_row": 15,
+      "attributes": {
+        "OBJECTID_1": 3651,
+        "VTD": "146",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 318,
+      "parts": 1
+    },
+    {
+      "source_row": 16,
+      "attributes": {
+        "OBJECTID_1": 3652,
+        "VTD": "148",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 146,
+      "parts": 1
+    },
+    {
+      "source_row": 17,
+      "attributes": {
+        "OBJECTID_1": 3653,
+        "VTD": "150",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 87,
+      "parts": 1
+    },
+    {
+      "source_row": 18,
+      "attributes": {
+        "OBJECTID_1": 3654,
+        "VTD": "151",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 541,
+      "parts": 1
+    },
+    {
+      "source_row": 19,
+      "attributes": {
+        "OBJECTID_1": 3656,
+        "VTD": "159",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 118,
+      "parts": 1
+    },
+    {
+      "source_row": 20,
+      "attributes": {
+        "OBJECTID_1": 3658,
+        "VTD": "166",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 373,
+      "parts": 1
+    },
+    {
+      "source_row": 21,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "216",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 179,
+      "parts": 1
+    },
+    {
+      "source_row": 22,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "214",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 105,
+      "parts": 1
+    },
+    {
+      "source_row": 23,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "211",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 225,
+      "parts": 1
+    },
+    {
+      "source_row": 24,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "202",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 70,
+      "parts": 1
+    },
+    {
+      "source_row": 25,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "206",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 158,
+      "parts": 1
+    },
+    {
+      "source_row": 26,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "458",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 133,
+      "parts": 1
+    },
+    {
+      "source_row": 27,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "278",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 173,
+      "parts": 1
+    },
+    {
+      "source_row": 28,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "419.1",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 26,
+      "parts": 1
+    },
+    {
+      "source_row": 29,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "227",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 183,
+      "parts": 1
+    },
+    {
+      "source_row": 30,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "363",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 118,
+      "parts": 1
+    },
+    {
+      "source_row": 31,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "387",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 86,
+      "parts": 1
+    },
+    {
+      "source_row": 32,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "355",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 93,
+      "parts": 1
+    },
+    {
+      "source_row": 33,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "388",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 107,
+      "parts": 1
+    },
+    {
+      "source_row": 34,
+      "attributes": {
+        "OBJECTID_1": 3681,
+        "VTD": "274",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 180,
+      "parts": 1
+    },
+    {
+      "source_row": 35,
+      "attributes": {
+        "OBJECTID_1": 3682,
+        "VTD": "275",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 120,
+      "parts": 1
+    },
+    {
+      "source_row": 36,
+      "attributes": {
+        "OBJECTID_1": 3683,
+        "VTD": "276",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 149,
+      "parts": 1
+    },
+    {
+      "source_row": 37,
+      "attributes": {
+        "OBJECTID_1": 3684,
+        "VTD": "277",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 133,
+      "parts": 1
+    },
+    {
+      "source_row": 38,
+      "attributes": {
+        "OBJECTID_1": 3686,
+        "VTD": "479",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 276,
+      "parts": 1
+    },
+    {
+      "source_row": 39,
+      "attributes": {
+        "OBJECTID_1": 3687,
+        "VTD": "480",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 91,
+      "parts": 1
+    },
+    {
+      "source_row": 40,
+      "attributes": {
+        "OBJECTID_1": 3689,
+        "VTD": "483",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 142,
+      "parts": 1
+    },
+    {
+      "source_row": 41,
+      "attributes": {
+        "OBJECTID_1": 3690,
+        "VTD": "435",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 170,
+      "parts": 1
+    },
+    {
+      "source_row": 42,
+      "attributes": {
+        "OBJECTID_1": 3694,
+        "VTD": "412",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 97,
+      "parts": 1
+    },
+    {
+      "source_row": 43,
+      "attributes": {
+        "OBJECTID_1": 3696,
+        "VTD": "215",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 133,
+      "parts": 1
+    },
+    {
+      "source_row": 44,
+      "attributes": {
+        "OBJECTID_1": 3699,
+        "VTD": "230",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 136,
+      "parts": 1
+    },
+    {
+      "source_row": 45,
+      "attributes": {
+        "OBJECTID_1": 3701,
+        "VTD": "434",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 404,
+      "parts": 1
+    },
+    {
+      "source_row": 46,
+      "attributes": {
+        "OBJECTID_1": 3703,
+        "VTD": "438",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 173,
+      "parts": 1
+    },
+    {
+      "source_row": 47,
+      "attributes": {
+        "OBJECTID_1": 3704,
+        "VTD": "340",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 73,
+      "parts": 1
+    },
+    {
+      "source_row": 48,
+      "attributes": {
+        "OBJECTID_1": 3706,
+        "VTD": "143",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 141,
+      "parts": 1
+    },
+    {
+      "source_row": 49,
+      "attributes": {
+        "OBJECTID_1": 3707,
+        "VTD": "245",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 198,
+      "parts": 1
+    },
+    {
+      "source_row": 50,
+      "attributes": {
+        "OBJECTID_1": 3709,
+        "VTD": "389",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 101,
+      "parts": 1
+    },
+    {
+      "source_row": 51,
+      "attributes": {
+        "OBJECTID_1": 3712,
+        "VTD": "398",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 79,
+      "parts": 1
+    },
+    {
+      "source_row": 52,
+      "attributes": {
+        "OBJECTID_1": 3713,
+        "VTD": "399",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 139,
+      "parts": 1
+    },
+    {
+      "source_row": 53,
+      "attributes": {
+        "OBJECTID_1": 3717,
+        "VTD": "354",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 153,
+      "parts": 1
+    },
+    {
+      "source_row": 54,
+      "attributes": {
+        "OBJECTID_1": 3720,
+        "VTD": "357",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 784,
+      "parts": 1
+    },
+    {
+      "source_row": 55,
+      "attributes": {
+        "OBJECTID_1": 3724,
+        "VTD": "364",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 226,
+      "parts": 1
+    },
+    {
+      "source_row": 56,
+      "attributes": {
+        "OBJECTID_1": 3732,
+        "VTD": "232.1",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 213,
+      "parts": 1
+    },
+    {
+      "source_row": 57,
+      "attributes": {
+        "OBJECTID_1": 3733,
+        "VTD": "432.2",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 50,
+      "parts": 1
+    },
+    {
+      "source_row": 58,
+      "attributes": {
+        "OBJECTID_1": 3735,
+        "VTD": "480.1",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 13,
+      "parts": 1
+    },
+    {
+      "source_row": 59,
+      "attributes": {
+        "OBJECTID_1": 3737,
+        "VTD": "230.1",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 75,
+      "parts": 1
+    },
+    {
+      "source_row": 60,
+      "attributes": {
+        "OBJECTID_1": 3739,
+        "VTD": "439.1",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 75,
+      "parts": 1
+    },
+    {
+      "source_row": 61,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "460",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 249,
+      "parts": 2
+    },
+    {
+      "source_row": 62,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "492",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 97,
+      "parts": 1
+    },
+    {
+      "source_row": 63,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "495",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 97,
+      "parts": 1
+    },
+    {
+      "source_row": 64,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "173",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 57,
+      "parts": 1
+    },
+    {
+      "source_row": 65,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "185",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 246,
+      "parts": 1
+    },
+    {
+      "source_row": 66,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "167",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 166,
+      "parts": 1
+    },
+    {
+      "source_row": 67,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "191",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 87,
+      "parts": 1
+    },
+    {
+      "source_row": 68,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "152",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 96,
+      "parts": 1
+    },
+    {
+      "source_row": 69,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "165",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 118,
+      "parts": 2
+    },
+    {
+      "source_row": 70,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "137",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 143,
+      "parts": 1
+    },
+    {
+      "source_row": 71,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "439",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 208,
+      "parts": 1
+    },
+    {
+      "source_row": 72,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "172",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 499,
+      "parts": 1
+    },
+    {
+      "source_row": 73,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "196",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 58,
+      "parts": 1
+    },
+    {
+      "source_row": 74,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "436",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 94,
+      "parts": 1
+    },
+    {
+      "source_row": 75,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "142",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 145,
+      "parts": 1
+    },
+    {
+      "source_row": 76,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "461",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 282,
+      "parts": 1
+    },
+    {
+      "source_row": 77,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "482",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 197,
+      "parts": 1
+    },
+    {
+      "source_row": 78,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "193",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 77,
+      "parts": 1
+    },
+    {
+      "source_row": 79,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "390",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 130,
+      "parts": 1
+    },
+    {
+      "source_row": 80,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "481",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 36,
+      "parts": 1
+    },
+    {
+      "source_row": 81,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "422",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 399,
+      "parts": 1
+    },
+    {
+      "source_row": 82,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "420",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 227,
+      "parts": 1
+    },
+    {
+      "source_row": 83,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "429",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 75,
+      "parts": 1
+    },
+    {
+      "source_row": 84,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "386",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 129,
+      "parts": 1
+    },
+    {
+      "source_row": 85,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "333",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 92,
+      "parts": 1
+    },
+    {
+      "source_row": 86,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "356",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 609,
+      "parts": 1
+    },
+    {
+      "source_row": 87,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "384",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 150,
+      "parts": 1
+    },
+    {
+      "source_row": 88,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "353",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 136,
+      "parts": 1
+    },
+    {
+      "source_row": 89,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "392",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 114,
+      "parts": 1
+    },
+    {
+      "source_row": 90,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "341",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 230,
+      "parts": 1
+    },
+    {
+      "source_row": 91,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "371",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 134,
+      "parts": 1
+    },
+    {
+      "source_row": 92,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "431",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 195,
+      "parts": 1
+    },
+    {
+      "source_row": 93,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "232.3",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 142,
+      "parts": 1
+    },
+    {
+      "source_row": 94,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "401",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 182,
+      "parts": 1
+    },
+    {
+      "source_row": 95,
+      "attributes": {
+        "OBJECTID_1": 0,
+        "VTD": "462",
+        "CREATED_US": "",
+        "CREATED_DA": null,
+        "LAST_EDITE": "",
+        "LAST_EDI_1": null
+      },
+      "vertices": 182,
+      "parts": 1
+    }
+  ]
+}

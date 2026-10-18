@@ -1,0 +1,52 @@
+{
+  "id": "clarity-48029-summary",
+  "request_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/en/summary.json",
+  "parent_id": "clarity-48029-config",
+  "purpose": "bundle literal localized route,lang=en from config",
+  "retrieval_started_utc": "2026-10-18T03:30:49.379335+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/en/summary.json",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "HIT",
+    "Last-Modified": "Thu, 01 Oct 2026 21:06:11 GMT",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "Date": "Sat, 17 Oct 2026 16:50:28 GMT",
+    "Expires": "Sat, 17 Oct 2026 01:41:16 GMT",
+    "Cache-Control": "max-age=86400",
+    "ETag": "W/\"6abecb43-241c8\"",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 eee499b48a0b5a86df8b66304af3d6c8.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "P5QFy1JnOQKosUdO2PPwh8z0Of3B1wk-CuzTlFlSIjjfYmYb4L0NEQ==",
+    "Age": "38421",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 147912,
+  "original_sha256": "d8bf1b55b4cea4b9ceda7eddb6954610eb6969342886619b3510f226d5f1f99d",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 6025,
+  "stored_stream_sha256": "dc06d16527a0c1e26fc07ace2ed68570a695359fa3b00f6813b6530ad33ada3f",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48029-summary.body.gz",
+      "bytes": 6025,
+      "sha256": "dc06d16527a0c1e26fc07ace2ed68570a695359fa3b00f6813b6530ad33ada3f"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:30:49.455829+00:00"
+}

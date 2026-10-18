@@ -1,0 +1,45 @@
+{
+  "id": "tarrant-versions",
+  "request_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/versions.txt",
+  "parent_id": "county-48439-result1",
+  "purpose": "literal redirector version request",
+  "retrieval_started_utc": "2026-10-18T03:27:30.433822+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 404,
+  "final_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/versions.txt",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:27:30 GMT",
+    "Cache-Control": "no-cache",
+    "Content-Encoding": "gzip",
+    "ETag": "W/\"55416aa4-a38\"",
+    "X-Cache": "Error from cloudfront",
+    "Via": "1.1 541c0b327bf7fa124245811c4af63dd2.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "JFKFeAzpyeHGGTFh0Z322xjpczv65dWP1BlOd006YAAMAP1AMUIZmQ==",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 2616,
+  "original_sha256": "6440c95aec584aedc40b580f591b15cb141bed997af6771a680ecedf8645f9e8",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 940,
+  "stored_stream_sha256": "83c1679681320878c9fe7775b0af323ef65df30121e21e8a2d057a61af67fa7d",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48027-pr.body.gz",
+      "bytes": 940,
+      "sha256": "83c1679681320878c9fe7775b0af323ef65df30121e21e8a2d057a61af67fa7d"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:30.513377+00:00",
+  "body_storage_shared_with": "clarity-48027-pr"
+}

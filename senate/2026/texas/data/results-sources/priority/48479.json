@@ -1,0 +1,256 @@
+{
+  "dispatch_key": "TX:48479",
+  "county_fips": "48479",
+  "county": "Webb",
+  "rank": 32,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48479",
+    "county_fips": "48479",
+    "county": "Webb",
+    "rank": 32,
+    "priority": true,
+    "directory_label": "WEBB COUNTY",
+    "authority_role": "Elections Administrator",
+    "authority_name": "Jose Luis Castillo",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "http://www.webbcountytx.gov/ElectionsAdministration/",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48479",
+      "metadata_path": "raw/county-48479.json",
+      "request_url": "http://www.webbcountytx.gov/ElectionsAdministration/",
+      "final_url": "https://www.webbcountytx.gov/ElectionsAdministration/",
+      "status": 404,
+      "original_sha256": "d263fd1f7c5a1d1f63d192431b0a59c6ce3adb861d947262a2e9a6efb0198c8f",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "sos-county-links"
+    },
+    {
+      "source_id": "county-48479-office",
+      "metadata_path": "raw/county-48479-office.json",
+      "request_url": "https://www.webbcountytx.gov/291/Elections",
+      "final_url": "https://www.webbcountytx.gov/291/Elections-Department",
+      "status": 200,
+      "original_sha256": "e8017fbd49213baf5b4f43bd02bec686816342781520a15254f4a4bf1294ba5a",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48479"
+    },
+    {
+      "source_id": "county-48479-office-follow1",
+      "metadata_path": "raw/county-48479-office-follow1.json",
+      "request_url": "https://www.webbcountytx.gov/867/Official-Results-2026",
+      "final_url": "https://www.webbcountytx.gov/867/Official-Results-2026",
+      "status": 200,
+      "original_sha256": "5c6986133f9400f445d58a4d4d8b2cc7d61c8d9dbbb75433b4551137ee0318e6",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48479-office"
+    },
+    {
+      "source_id": "county-48479-office-follow2",
+      "metadata_path": "raw/county-48479-office-follow2.json",
+      "request_url": "https://www.webbcountytx.gov/698/Unofficial-Results-2026",
+      "final_url": "https://www.webbcountytx.gov/698/Unofficial-Results-2026",
+      "status": 200,
+      "original_sha256": "d8302604c54223811225ec8f5d87b232d4d48afb59412e3bbc1ad147e1a35302",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48479-office"
+    },
+    {
+      "source_id": "county-48479-office-follow3",
+      "metadata_path": "raw/county-48479-office-follow3.json",
+      "request_url": "https://www.webbcountytx.gov/425/Precinct-By-Precinct-Results",
+      "final_url": "https://www.webbcountytx.gov/425/Precinct-By-Precinct-Results",
+      "status": 200,
+      "original_sha256": "21d298e8e1e6a8cf77913c1f6bdaf12ab566052023138cc2b78dfa532de9d080",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48479-office"
+    },
+    {
+      "source_id": "county-48479-office-follow2-sample",
+      "metadata_path": "raw/county-48479-office-follow2-sample.json",
+      "request_url": "https://www.webbcountytx.gov/DocumentCenter/View/2696/6th-Day-After-PDF",
+      "final_url": "https://www.webbcountytx.gov/DocumentCenter/View/2696/6th-Day-After-PDF",
+      "status": 200,
+      "original_sha256": "4c6f44ef1f2c19aa592ddfcfea46970f2cd90a986b1cc7ddab604f79720115fc",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48479-office-follow2"
+    }
+  ],
+  "assessment": "Old SOS path returns county404 with current Elections link. Office separates official, unofficial and precinct-by-precinct pages and has a November tab. Actual unofficial page still lists March3 primary. Retained 6th-day-after scan explicitly says unofficial until canvassed and 78/78 partially reported versus 0/78 complete; 100% participating is not finality.",
+  "gaps": "November results not yet populated; scanned March sample visual page1 only, no new November native roster or remaining valid Senate votes.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 240,
+    "CN": "WEBB",
+    "MID": 48240,
+    "county_fips": "48479",
+    "dispatch_key": "TX:48479",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 79.0,
+    "P": 0.0,
+    "RV": 150324.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 12.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 150324,
+    "TP": 79,
+    "TV": 0,
+    "TPR": 79
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/240",
+    "summary": "/upload/240/Summary",
+    "senate": "/upload/240/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "WEBB",
+    "id": 240,
+    "registered_voters": 150324,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 0,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48479",
+    "county_fips": "48479",
+    "county": "Webb",
+    "rank": "32",
+    "priority": "1",
+    "state_county_id": "240",
+    "state_mid": 48240,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": null,
+    "derivative_historical_units": 69,
+    "original_historical_units": null,
+    "tlc_vtd_rows": 410,
+    "november_native_gap": "November results not yet populated; scanned March sample visual page1 only, no new November native roster or remaining valid Senate votes."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

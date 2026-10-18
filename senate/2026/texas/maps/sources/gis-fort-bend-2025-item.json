@@ -1,0 +1,40 @@
+{
+  "id": "gis-fort-bend-2025-item",
+  "requested_url": "https://www.arcgis.com/sharing/rest/content/items/87d2392c8e22464b9a96fa68cab3b24f?f=pjson",
+  "parent_source_url": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration",
+  "retrieved_utc": "2026-10-18T03:34:27.029834+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.arcgis.com/sharing/rest/content/items/87d2392c8e22464b9a96fa68cab3b24f?f=pjson",
+  "headers": {
+    "Content-Type": "text/plain;charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:34:27 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Server": "ArcGIS Online",
+    "X-Content-Type-Options": "nosniff",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "Expires": "-1",
+    "Vary": "Origin",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 b35909f0d8c90a899749b6603124ca90.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD51-P2",
+    "X-Amz-Cf-Id": "nMS2ZHjt6QwKg-DwA7SxglszkkH5vKgI3LjUTxta0y1s60JcPuJzUw=="
+  },
+  "redirects": [],
+  "original_bytes": 1559,
+  "original_sha256": "af2a0ab93c4ad17b41e68cf9b20455002ce748febca06fe8236fc980ed1a97c9",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/gis-fort-bend-2022-item.body",
+      "bytes": 1559,
+      "sha256": "af2a0ab93c4ad17b41e68cf9b20455002ce748febca06fe8236fc980ed1a97c9"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "reused_exact_source": "gis-fort-bend-2022-item"
+}

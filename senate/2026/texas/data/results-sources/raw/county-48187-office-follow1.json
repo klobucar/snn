@@ -1,0 +1,44 @@
+{
+  "id": "county-48187-office-follow1",
+  "request_url": "https://www.guadalupetx.gov/page/elections.history",
+  "parent_id": "county-48187-office",
+  "purpose": "Elections Results History",
+  "retrieval_started_utc": "2026-10-18T03:29:30.024592+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.guadalupetx.gov/page/elections.history",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "Set-Cookie": "ASP.NET_SessionId=of2a0w122a3odq4sizpa522p; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:29:29 GMT",
+    "Content-Length": "37898"
+  },
+  "redirects": [],
+  "original_bytes": 204351,
+  "original_sha256": "c2ccafc68e14137bedffa15e60e04c377828f9a220bc560cfe406922ee936bad",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 25484,
+  "stored_stream_sha256": "11347ea78485c235518cbf9c31e685b805fc9087dc47dbe033a211ea15a6caae",
+  "stored_parts": [
+    {
+      "path": "raw/county-48187-office-follow1.body.gz",
+      "bytes": 25484,
+      "sha256": "11347ea78485c235518cbf9c31e685b805fc9087dc47dbe033a211ea15a6caae"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:29:30.219255+00:00"
+}

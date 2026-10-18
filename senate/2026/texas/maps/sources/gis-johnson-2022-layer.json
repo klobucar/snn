@@ -1,0 +1,46 @@
+{
+  "id": "gis-johnson-2022-layer",
+  "requested_url": "https://services7.arcgis.com/gVohhGAlfFScDJGs/arcgis/rest/services/Voting_Districts_2022/FeatureServer/0?f=pjson",
+  "parent_source_url": "https://www.johnsoncountytx.org/departments/elections-office/precinct-maps",
+  "retrieved_utc": "2026-10-18T03:37:43.052999+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://services7.arcgis.com/gVohhGAlfFScDJGs/arcgis/rest/services/Voting_Districts_2022/FeatureServer/0?f=pjson",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:37:43 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "14187",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30, s-maxage=30",
+    "Last-Modified": "Wed, 04 Feb 2026 21:18:30 GMT",
+    "ETag": "-2031519157",
+    "Vary": "X-Esri-Authorization",
+    "x-arcgis-upstream": "us1h07c00-services",
+    "Strict-Transport-Security": "max-age=63072000",
+    "X-ArcGIS-Trace-Id": "20261018T033743Z-r1cf8987fd5shtzjhC1CHIfuq80000000bmg000000002nbt",
+    "X-ArcGIS-Correlation-Id": "e6634b37e0d4fc18",
+    "X-ArcGIS-Instance": "lf3xzxihb000002",
+    "Request-Context": "appId=cid-v1:df0fefdc-3099-4f25-a42c-d213d1e16940",
+    "Access-Control-Expose-Headers": "Request-Context",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Esri-Authorization",
+    "Access-Control-Allow-Credentials": "true",
+    "x-azure-ref": "20261018T033743Z-r1cf8987fd5shtzjhC1CHIfuq80000000bmg000000002nbt",
+    "x-fd-int-roxy-purgeid": "0",
+    "X-Cache": "TCP_MISS",
+    "Accept-Ranges": "bytes"
+  },
+  "redirects": [],
+  "original_bytes": 14187,
+  "original_sha256": "ef521263088312ec65425153f3ec388ea70eb39f1ee8034305ac89e518035aed",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/gis-johnson-2022-layer.body",
+      "bytes": 14187,
+      "sha256": "ef521263088312ec65425153f3ec388ea70eb39f1ee8034305ac89e518035aed"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "gis-bexar-voter-batch-006",
+  "requested_url": "https://maps.bexar.org/arcgis/rest/services/EL/VoterPrecincts/MapServer/0/query?f=json&where=1%3D1&objectIds=501%2C502%2C503%2C504%2C505%2C506%2C507%2C508%2C509%2C510%2C511%2C512%2C513%2C514%2C515%2C516%2C517%2C518%2C519%2C520%2C521%2C522%2C523%2C524%2C525%2C526%2C527%2C528%2C529%2C530%2C531%2C532%2C533%2C534%2C535%2C536%2C537%2C538%2C539%2C540%2C541%2C542%2C543%2C544%2C545%2C546%2C547%2C548%2C549%2C550%2C551%2C552%2C553%2C554%2C555%2C556%2C557%2C558%2C559%2C560%2C561%2C562%2C563%2C564%2C565%2C566%2C567%2C568%2C569%2C570%2C571%2C572%2C573%2C574%2C575%2C576%2C577%2C578%2C579%2C580%2C581%2C582%2C583%2C584%2C585%2C586%2C587%2C588%2C589%2C590%2C591%2C592%2C593%2C594%2C595%2C596%2C597%2C598%2C599%2C600&outFields=%2A&returnGeometry=true&returnZ=true&returnM=true&returnTrueCurves=true",
+  "parent_source_url": "https://elections.bexar.gov/173/Voter-Precinct-Maps",
+  "retrieved_utc": "2026-10-18T03:34:33.752504+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://maps.bexar.org/arcgis/rest/services/EL/VoterPrecincts/MapServer/0/query?f=json&where=1%3D1&objectIds=501%2C502%2C503%2C504%2C505%2C506%2C507%2C508%2C509%2C510%2C511%2C512%2C513%2C514%2C515%2C516%2C517%2C518%2C519%2C520%2C521%2C522%2C523%2C524%2C525%2C526%2C527%2C528%2C529%2C530%2C531%2C532%2C533%2C534%2C535%2C536%2C537%2C538%2C539%2C540%2C541%2C542%2C543%2C544%2C545%2C546%2C547%2C548%2C549%2C550%2C551%2C552%2C553%2C554%2C555%2C556%2C557%2C558%2C559%2C560%2C561%2C562%2C563%2C564%2C565%2C566%2C567%2C568%2C569%2C570%2C571%2C572%2C573%2C574%2C575%2C576%2C577%2C578%2C579%2C580%2C581%2C582%2C583%2C584%2C585%2C586%2C587%2C588%2C589%2C590%2C591%2C592%2C593%2C594%2C595%2C596%2C597%2C598%2C599%2C600&outFields=%2A&returnGeometry=true&returnZ=true&returnM=true&returnTrueCurves=true",
+  "headers": {
+    "Cache-Control": "must-revalidate,max-age=0,public",
+    "Transfer-Encoding": "chunked",
+    "Content-Type": "application/json; charset=UTF-8",
+    "ETag": "\"2cd46201\"",
+    "Vary": "Origin",
+    "Server": "",
+    "X-Content-Type-Options": "nosniff",
+    "X-Powered-By": "",
+    "Strict-Transport-Security": "max-age={31536000}; includeSubDomains; preload",
+    "Content-Security-Policy": "frame-ancestors 'self' bexar.org *.bexar.org *.arcgis.com *.civicplus.com *.bexar.gov https://*.civicplus.com",
+    "X-ASPNET-VERSION": "",
+    "Date": "Sun, 18 Oct 2026 03:34:34 GMT"
+  },
+  "redirects": [],
+  "original_bytes": 376830,
+  "original_sha256": "0fa02174e0f5891f6289c2a57cfa1d4fa505c705b3b4f9fe1a7d78aaee9b3c1b",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/gis-bexar-voter-batch-006.body",
+      "bytes": 376830,
+      "sha256": "0fa02174e0f5891f6289c2a57cfa1d4fa505c705b3b4f9fe1a7d78aaee9b3c1b"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256."
+}

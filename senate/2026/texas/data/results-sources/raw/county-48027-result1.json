@@ -1,0 +1,41 @@
+{
+  "id": "county-48027-result1",
+  "request_url": "http://tenroc.com",
+  "parent_id": "county-48027",
+  "purpose": "Tenroc Ranch ",
+  "retrieval_started_utc": "2026-10-18T03:27:09.790166+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "http://tenroc.com/",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:27:10 GMT",
+    "Server": "Apache",
+    "Upgrade": "h2,h2c",
+    "Connection": "Upgrade, Keep-Alive",
+    "Vary": "Accept-Encoding",
+    "Content-Encoding": "gzip",
+    "host-header": "c2hhcmVkLmJsdWVob3N0LmNvbQ==",
+    "Content-Length": "2306",
+    "Keep-Alive": "timeout=5, max=75",
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "redirects": [],
+  "original_bytes": 7372,
+  "original_sha256": "b3925fac57f185f7b2c9f73aa213be47bfcb848f7150da39b8489c787ba8af78",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 2163,
+  "stored_stream_sha256": "b786bb410d01f46e513fe175031ccf2fc50621ef5c312895165f476b485bcb3a",
+  "stored_parts": [
+    {
+      "path": "raw/county-48027-result1.body.gz",
+      "bytes": 2163,
+      "sha256": "b786bb410d01f46e513fe175031ccf2fc50621ef5c312895165f476b485bcb3a"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:10.553141+00:00"
+}

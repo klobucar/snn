@@ -1,0 +1,107 @@
+{
+  "sources": [
+    {
+      "source_id": "original-angelina-2024",
+      "metadata": "../data/turnout/raw/original-angelina-2024.meta.json",
+      "requested_url": "https://www.angelinacounty.net/files/pdf/elections/pdf/2024/Offical%20Precinct%20Summary%2011052024.pdf",
+      "original_sha256": "44bd1df98178fb424de63acb3036afb6ba348cd22e7a51166895cfc0cc14b934",
+      "original_bytes": 529439,
+      "stored_parts": [
+        {
+          "path": "../data/turnout/raw/original-angelina-2024.body.gz",
+          "bytes": 436296,
+          "sha256": "bce12a895378ce6a6d6f137190cec5422600dde2be178501b79d85ab780ac5ae"
+        }
+      ],
+      "storage": "Concatenate exact ordered gzip byte parts before decompression; original full bytes/hash verified.",
+      "scope": "Read-only results original for source-native identity context; not counted as a new map acquisition."
+    },
+    {
+      "source_id": "original-bexar-2024",
+      "metadata": "../data/turnout/raw/original-bexar-2024.meta.json",
+      "requested_url": "https://www.bexar.org/DocumentCenter/View/44007/November-5-2024-Official-Precinct-Report",
+      "original_sha256": "9fef1ce4a02e0eed78e31a1d1ce81bf916bcbbd52108d22383851c42e6a704e8",
+      "original_bytes": 17824130,
+      "stored_parts": [
+        {
+          "path": "../data/turnout/raw/original-bexar-2024.body.gz",
+          "bytes": 14130077,
+          "sha256": "d639afc394362495fe8613c39a8aba3cd8809e7c564e257dd45ada80c6ff3e44"
+        }
+      ],
+      "storage": "Concatenate exact ordered gzip byte parts before decompression; original full bytes/hash verified.",
+      "scope": "Read-only results original for source-native identity context; not counted as a new map acquisition."
+    },
+    {
+      "source_id": "original-dallas-2024",
+      "metadata": "../data/turnout/raw/original-dallas-2024.meta.json",
+      "requested_url": "https://results.enr.clarityelections.com/TX/Dallas/122494/355193/reports/detailxls.zip",
+      "original_sha256": "6f212f1e50863d8f41dbd1a5cf1a7476cff5ce74ce6fc23fa366eacde5864796",
+      "original_bytes": 1794359,
+      "stored_parts": [
+        {
+          "path": "../data/turnout/raw/original-dallas-2024.body.gz",
+          "bytes": 1740641,
+          "sha256": "8e4a0bc7bd0207ca46637ec1153dfa390db06bc83249a3234716300c9553ed41"
+        }
+      ],
+      "storage": "Concatenate exact ordered gzip byte parts before decompression; original full bytes/hash verified.",
+      "scope": "Read-only results original for source-native identity context; not counted as a new map acquisition."
+    },
+    {
+      "source_id": "original-harris-2024",
+      "metadata": "../data/turnout/raw/original-harris-2024.meta.json",
+      "requested_url": "https://hctxdnnstg.blob.core.windows.net/harrisvotes/prd/docs/Reports/FINAL%20Official%20Canvass%20Results-11-14-2024%2003-12-57%20PM.pdf",
+      "original_sha256": "23a8afce2904123ac1a850d6ac8f918abb3afa5b6adeb6ca1aad064863844d70",
+      "original_bytes": 52427785,
+      "stored_parts": [
+        {
+          "path": "../data/turnout/raw/original-harris-2024.body.gz.part001",
+          "bytes": 32000000,
+          "sha256": "64befb698685b019402a415ee62f3c0067ae8d403e0cd95b8de936f218434b70"
+        },
+        {
+          "path": "../data/turnout/raw/original-harris-2024.body.gz.part002",
+          "bytes": 11773799,
+          "sha256": "284fdfcb29cd31bfd0c25409a8ff5e54095aa43e07bc84c39fb56f490bfb4c64"
+        }
+      ],
+      "storage": "Concatenate exact ordered gzip byte parts before decompression; original full bytes/hash verified.",
+      "scope": "Read-only results original for source-native identity context; not counted as a new map acquisition."
+    },
+    {
+      "source_id": "original-midland-2024",
+      "metadata": "../data/turnout/raw/original-midland-2024.meta.json",
+      "requested_url": "https://www.co.midland.tx.us/DocumentCenter/View/8563/Official-Final-Pct-x-Pct-Report",
+      "original_sha256": "773f1dbbe36d4fe69f59e4d00e08cc8f33c69d526106c9604798c161a2fdbe34",
+      "original_bytes": 320250,
+      "stored_parts": [
+        {
+          "path": "../data/turnout/raw/original-midland-2024.body.gz",
+          "bytes": 259534,
+          "sha256": "1182e042ce920c784446930943f97663913d3af22b8ddbcae566a4541c537557"
+        }
+      ],
+      "storage": "Concatenate exact ordered gzip byte parts before decompression; original full bytes/hash verified.",
+      "scope": "Read-only results original for source-native identity context; not counted as a new map acquisition."
+    },
+    {
+      "source_id": "original-travis-2024",
+      "metadata": "../data/turnout/raw/original-travis-2024.meta.json",
+      "requested_url": "https://results.enr.clarityelections.com/TX/Travis/122432/355984/reports/detailxls.zip",
+      "original_sha256": "08938a2e096b282498a0dec29a0b7fffd19a61a76253f5e1a9632c5b7cf6c159",
+      "original_bytes": 496438,
+      "stored_parts": [
+        {
+          "path": "../data/turnout/raw/original-travis-2024.body.gz",
+          "bytes": 483410,
+          "sha256": "ab12fd76a6075b5a3cc06757ae691ae096b6964edef1cc024b8c594532dcc1b2"
+        }
+      ],
+      "storage": "Concatenate exact ordered gzip byte parts before decompression; original full bytes/hash verified.",
+      "scope": "Read-only results original for source-native identity context; not counted as a new map acquisition."
+    }
+  ],
+  "all_original_hashes_verified": true,
+  "no_duplicate_originals_saved": true
+}

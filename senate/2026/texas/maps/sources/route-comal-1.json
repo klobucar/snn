@@ -1,0 +1,43 @@
+{
+  "id": "route-comal-1",
+  "requested_url": "https://www.comalcounty.gov/880/Precinct-Maps",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:33:14.149693+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.comalcounty.gov/880/Precinct-Maps",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:33:14 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30",
+    "set-cookie": "__cf_bm=iGnH7xc5caMmj_0qFqBp2.Bo8MnBqxJtmo2xJYA8jpE-1792294394.3364162-1.0.1.1-DZ5K5lhngQNqtojka2bvEmCFtOaYkabqN2NH8kLrsdGnaXqF5JwXnSRBdoefglPYpO5pme85ekYx3fDJZ2v3niaAujzAZRDt2il_vY8OIazzVGlKvEvwpytLNB2up5jm; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.comalcounty.gov; Expires=Sun, 18 Oct 2026 04:03:14 GMT",
+    "vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "camera=(), microphone=()",
+    "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "last-modified": "Sun, 18 Oct 2026 03:33:14 GMT",
+    "expires": "Sun, 18 Oct 2026 03:33:44 GMT",
+    "cf-cache-status": "EXPIRED",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47afc9c3510f5-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 114162,
+  "original_sha256": "a46ba8bcc909725238536b3cabed931104a89a6314c836a423f444bda13ea001",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/route-comal-1.body",
+      "bytes": 114162,
+      "sha256": "a46ba8bcc909725238536b3cabed931104a89a6314c836a423f444bda13ea001"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Comal"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-18T03:32:11.706162+00:00",
+  "state_scenarios": 21,
+  "county_target_rows": 5334,
+  "selected_county_requirements": 5334,
+  "counties_per_scenario": 254,
+  "preference_volume_mixes": 7,
+  "synthetic_fixed_counted_remainder_cases": 17,
+  "remainder_statuses": {
+    "feasible": 11,
+    "unknown-remaining-input": 1,
+    "no-positive-pool": 1,
+    "invalid-remaining-input": 1,
+    "already-secured": 1,
+    "impossible": 1,
+    "no-positive-final-denominator": 1
+  },
+  "base_pair_votes": 11021990,
+  "base_D_minus_R": -959492,
+  "base_tie_D_share_pp": 4.35262597770457,
+  "base_D_plus1_pair_share_pp": 4.85262597770457,
+  "input_hashes": {
+    "county-baselines.csv": "dd2aff196f5e04ba4da0c743a423e12bead91aac3d7a00dd8ebb1ec6380a75d6",
+    "baselines/state-target-scenarios.csv": "c461a3ea6c69ea327aed7b22dce31d3efcbc5d15d6586f2d7a15765d7fb14b83",
+    "baselines/county-target-scenarios.csv": "0869d1de44a7b4fdba5bbde4df661179013fb66af8fd3d9f18fe63070638ec27",
+    "baselines/live-examples.json": "44c497f04cd8f796bedfbeb68169f4e304d1f8d70867b6fb9195a53451199fa0"
+  },
+  "scope": "Historical county preference/volume weights, clipped common shifts and selected-county arithmetic independently recomputed. Other candidates/pair denominators retained; no current candidate roster, 2026 turnout forecast or calibrated probability inferred."
+}

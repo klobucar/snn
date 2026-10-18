@@ -1,0 +1,38 @@
+{
+  "id": "original-harris-2024",
+  "requested_url": "https://hctxdnnstg.blob.core.windows.net/harrisvotes/prd/docs/Reports/FINAL%20Official%20Canvass%20Results-11-14-2024%2003-12-57%20PM.pdf",
+  "final_url": "https://hctxdnnstg.blob.core.windows.net/harrisvotes/prd/docs/Reports/FINAL%20Official%20Canvass%20Results-11-14-2024%2003-12-57%20PM.pdf",
+  "retrieved_at_utc": "2026-10-18T03:10:02.108796+00:00",
+  "status": 200,
+  "headers": {
+    "Content-Length": "52427785",
+    "Content-Type": "application/pdf",
+    "Content-MD5": "OBh1y4+wSw0L3y4o8MJSJw==",
+    "Last-Modified": "Thu, 21 Nov 2024 20:05:57 GMT",
+    "ETag": "0x8DD0A67E9AB84E4",
+    "Server": "Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0",
+    "x-ms-request-id": "d25bfe39-601e-006d-12ae-5e33a5000000",
+    "x-ms-version": "2009-09-19",
+    "x-ms-lease-status": "unlocked",
+    "x-ms-blob-type": "BlockBlob",
+    "Access-Control-Allow-Origin": "*",
+    "Date": "Sun, 18 Oct 2026 03:10:02 GMT"
+  },
+  "original_bytes": 52427785,
+  "original_sha256": "23a8afce2904123ac1a850d6ac8f918abb3afa5b6adeb6ca1aad064863844d70",
+  "stored_bytes": 43773799,
+  "stored_sha256": "b2cba7149d97cdc7edbc4bea16246dbfab0b6d834dcb747ccce3d36d670f8b2c",
+  "storage": "lossless gzip of HTTP decoded original, byte-split into ordered <40000000-byte parts; concatenate part files before gzip decompression; original is not truncated",
+  "stored_parts": [
+    {
+      "path": "raw/original-harris-2024.body.gz.part001",
+      "bytes": 32000000,
+      "sha256": "64befb698685b019402a415ee62f3c0067ae8d403e0cd95b8de936f218434b70"
+    },
+    {
+      "path": "raw/original-harris-2024.body.gz.part002",
+      "bytes": 11773799,
+      "sha256": "284fdfcb29cd31bfd0c25409a8ff5e54095aa43e07bc84c39fb56f490bfb4c64"
+    }
+  ]
+}

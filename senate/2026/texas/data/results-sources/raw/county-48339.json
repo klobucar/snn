@@ -1,0 +1,40 @@
+{
+  "id": "county-48339",
+  "request_url": "https://elections.mctx.org/",
+  "parent_id": "sos-county-links",
+  "purpose": "Montgomery official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:33.282543+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://elections.mctx.org/",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "Server": "Microsoft-IIS/8.5",
+    "Set-Cookie": "ASPSESSIONIDAUDACSTC=OGNGKEJBLNODACDCKKKOIEAC; secure; path=/",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sun, 18 Oct 2026 03:26:30 GMT",
+    "Content-Length": "8231"
+  },
+  "redirects": [],
+  "original_bytes": 37044,
+  "original_sha256": "bb461dfd583e08098f7df665c8147e9e7722c4533af53225da57fc5a8666876e",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 5994,
+  "stored_stream_sha256": "c57a7a197a379b22550919c73aefafcccec52690800dd2ee6ececbe5e7228eb9",
+  "stored_parts": [
+    {
+      "path": "raw/county-48339.body.gz",
+      "bytes": 5994,
+      "sha256": "c57a7a197a379b22550919c73aefafcccec52690800dd2ee6ececbe5e7228eb9"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:33.622803+00:00"
+}

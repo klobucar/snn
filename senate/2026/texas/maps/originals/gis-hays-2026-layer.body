@@ -1,0 +1,2802 @@
+{
+  "currentVersion" : 12, 
+  "id" : 7, 
+  "name" : "HaysCountyVTDs_EffectiveJan2026", 
+  "type" : "Feature Layer", 
+  "serviceItemId" : "a11bba6595114851a5451f2a3bc5d15a", 
+  "cacheMaxAge" : 30, 
+  "displayField" : "VTD", 
+  "description" : "", 
+  "copyrightText" : "", 
+  "defaultVisibility" : true, 
+  "editingInfo" : {
+    "lastEditDate" : 1761687217226, 
+    "schemaLastEditDate" : 1761687217226, 
+    "dataLastEditDate" : 1761687217226
+  }, 
+  "relationships" : [], 
+  "isDataVersioned" : false, 
+  "hasContingentValuesDefinition" : false, 
+  "supportsAppend" : true, 
+  "supportsCalculate" : true, 
+  "supportsASyncCalculate" : true, 
+  "supportsTruncate" : true, 
+  "supportsAttachmentsByUploadId" : true, 
+  "supportsAttachmentsResizing" : true, 
+  "supportsRollbackOnFailureParameter" : true, 
+  "supportsStatistics" : true, 
+  "supportsExceedsLimitStatistics" : true, 
+  "supportsAdvancedQueries" : true, 
+  "supportsValidateSql" : true, 
+  "supportsCoordinatesQuantization" : true, 
+  "supportsLayerOverrides" : true, 
+  "supportsTilesAndBasicQueriesMode" : true, 
+  "supportsFieldDescriptionProperty" : true, 
+  "supportsQuantizationEditMode" : true, 
+  "supportsColumnStoreIndex" : true, 
+  "supportsApplyEditsWithGlobalIds" : false, 
+  "supportsMultiScaleGeometry" : true, 
+  "supportsReturningQueryGeometry" : true, 
+  "enableNullGeometry" : false, 
+  "hasGeometryProperties" : true, 
+  "geometryProperties" : 
+  {
+    "shapeAreaFieldName" : "Shape__Area", 
+    "shapeLengthFieldName" : "Shape__Length", 
+    "units" : "esriFeet"
+  }, 
+  "advancedQueryCapabilities" : {
+    "supportsPagination" : true, 
+    "supportsPaginationOnAggregatedQueries" : true, 
+    "supportsQueryRelatedPagination" : true, 
+    "supportsQueryWithDistance" : true, 
+    "supportsOutDistance" : true, 
+    "supportsReturningQueryExtent" : true, 
+    "supportsStatistics" : true, 
+    "supportsOrderBy" : true, 
+    "supportsDistinct" : true, 
+    "supportsQueryWithResultType" : true, 
+    "supportsSqlExpression" : true, 
+    "supportsTimeRelation" : true, 
+    "supportsAdvancedQueryRelated" : true, 
+    "supportsCountDistinct" : true, 
+    "supportsPercentileStatistics" : true, 
+    "supportsApproxPercentileStatistics" : true, 
+    "supportsSpatialAggregationStatistics" : true, 
+    "supportsTrueCurve" : true, 
+    "supportedSpatialAggregationStatistics" : [
+      "EnvelopeAggregate", 
+      "CentroidAggregate", 
+      "ConvexHullAggregate"
+    ], 
+    "supportsLod" : true, 
+    "supportsQueryWithLodSR" : false, 
+    "supportedLodTypes" : [
+      "geohash"
+    ], 
+    "supportsReturningGeometryCentroid" : true, 
+    "supportsReturningGeometryEnvelope" : true, 
+    "supportsReturningGeometryProperties" : true, 
+    "supportsQueryWithDatumTransformation" : true, 
+    "supportsCurrentUserQueries" : true, 
+    "supportsHavingClause" : true, 
+    "supportsOutFieldSQLExpression" : true, 
+    "supportsMaxRecordCountFactor" : true, 
+    "supportsTopFeaturesQuery" : true, 
+    "supportsDisjointSpatialRel" : true, 
+    "supportsQueryWithCacheHint" : true, 
+    "supportedOperationsWithCacheHint" : [
+      "query", 
+      "queryTopFilter", 
+      "queryAnalytics", 
+      "queryAttachments", 
+      "queryRelated", 
+      "queryBins", 
+      "queryPivot"
+    ], 
+    "supportsQueryAnalytic" : true, 
+    "supportsQueryPivot" : true, 
+    "supportsQueryBins" : true, 
+    "supportsDefaultSR" : true, 
+    "supportsTranslations" : false, 
+    "supportsAggIds" : true, 
+    "supportsQueryWithCollation" : true, 
+    "supportsISODOW" : true, 
+    "supportsISOWeek" : true, 
+    "supportsFullTextSearch" : true, 
+    "fullTextSearchCapabilities" : {
+      "supportsAccentSensitivity" : true, 
+      "supportsStopWords" : true, 
+      "supportsSearchOperator" : true, 
+      "supportsOperator" : true
+    }
+  }, 
+  "advancedQueryAnalyticCapabilities" : {
+    "supportsLinearRegression" : true, 
+    "supportsTrendlineRegression" : true, 
+    "supportsAsync" : true, 
+    "supportsPercentileAnalytic" : true
+  }, 
+  "queryBinsCapabilities" : {
+    "supportsAsync" : true, 
+    "supportsAutoIntervalBin" : true, 
+    "supportsFixedIntervalBin" : true, 
+    "supportsFixedBoundariesBin" : true, 
+    "supportsDateBin" : true, 
+    "supportsClassificationBin" : true, 
+    "supportsStackBy" : true, 
+    "supportsSplitBy" : true, 
+    "supportsFirstDayOfWeek" : true, 
+    "supportsSnapToData" : true, 
+    "supportsReturnFullIntervalBin" : true, 
+    "supportsReturnStackValueRange" : true, 
+    "supportsNormalization" : true, 
+    "supportedStatisticTypes" : [
+      "COUNT", 
+      "SUM", 
+      "AVG", 
+      "VAR", 
+      "STDDEV", 
+      "MIN", 
+      "MAX", 
+      "PERCENTILE_CONT", 
+      "PERCENTILE_DISC", 
+      "APPROX_PERCENTILE_CONT", 
+      "APPROX_PERCENTILE_DISC", 
+      "CentroidAggregate", 
+      "EnvelopeAggregate", 
+      "ConvexHullAggregate"
+    ], 
+    "supportedNormalizationTypes" : [
+      "boxCox", 
+      "field", 
+      "inverse", 
+      "log", 
+      "naturalLog", 
+      "percentOfTotal", 
+      "squareRoot"
+    ]
+  }, 
+  "supportedOperationsWithCollation" : "query,addField,updateField", 
+  "advancedEditingCapabilities" : {
+    "supportedSqlFormatsInCalculate" : [
+      "standard"
+    ], 
+    "supportsAsyncApplyEdits" : true, 
+    "supportsReturnEditResults" : true, 
+    "supportsApplyEditsbyUploadID" : true, 
+    "supportedApplyEditsUploadIDFormats" : "JSON,PBF", 
+    "supportsTranslation" : false, 
+    "supportsMaxTranslations" : 10
+  }, 
+  "infoInEstimates" : [
+    "extent", 
+    "count"
+  ], 
+  "useStandardizedQueries" : true, 
+  "geometryType" : "esriGeometryPolygon", 
+  "minScale" : 0, 
+  "maxScale" : 0, 
+  "extent" : {
+    "xmin" : 2190770.235769555, 
+    "ymin" : 13822513.478830561, 
+    "xmax" : 2377105.9188717157, 
+    "ymax" : 14041621.083265394, 
+    "spatialReference" : {
+      "wkid" : 102740, 
+      "latestWkid" : 2278
+    }
+  }, 
+  "spatialReference" : {
+    "wkid" : 102740, 
+    "latestWkid" : 2278
+  }, 
+  "drawingInfo":{"renderer":{"type":"uniqueValue","field1":"VTD","defaultSymbol":{"type":"esriSFS","style":"esriSFSSolid","color":[130,130,130,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"defaultLabel":"<all other values>","uniqueValueGroups":[{"heading":"VTD","classes":[{"label":"109","description":"109","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[199,252,230,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["109"]]},{"label":"110","description":"110","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[218,207,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["110"]]},{"label":"112","description":"112","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,197,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["112"]]},{"label":"113","description":"113","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,250,179,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["113"]]},{"label":"114","description":"114","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[182,230,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["114"]]},{"label":"115","description":"115","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,182,251,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["115"]]},{"label":"120","description":"120","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[183,252,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["120"]]},{"label":"121","description":"121","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,187,216,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["121"]]},{"label":"125","description":"125","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,229,189,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["125"]]},{"label":"128","description":"128","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[233,252,210,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["128"]]},{"label":"132","description":"132","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[179,189,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["132"]]},{"label":"134","description":"134","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,212,223,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["134"]]},{"label":"136","description":"136","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[215,182,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["136"]]},{"label":"140","description":"140","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[221,252,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["140"]]},{"label":"141","description":"141","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[182,252,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["141"]]},{"label":"142","description":"142","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[184,207,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["142"]]},{"label":"146","description":"146","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[187,252,209,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["146"]]},{"label":"147","description":"147","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,223,210,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["147"]]},{"label":"200","description":"200","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[215,250,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["200"]]},{"label":"203","description":"203","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[241,197,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["203"]]},{"label":"204","description":"204","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[205,252,199,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["204"]]},{"label":"205","description":"205","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,245,210,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["205"]]},{"label":"206","description":"206","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,212,246,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["206"]]},{"label":"216","description":"216","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,184,187,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["216"]]},{"label":"218","description":"218","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,210,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["218"]]},{"label":"219","description":"219","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,182,232,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["219"]]},{"label":"220","description":"220","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,248,194,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["220"]]},{"label":"221","description":"221","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,204,202,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["221"]]},{"label":"223","description":"223","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[202,221,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["223"]]},{"label":"225","description":"225","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[215,192,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["225"]]},{"label":"227","description":"227","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,192,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["227"]]},{"label":"228","description":"228","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[212,252,221,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["228"]]},{"label":"231","description":"231","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,187,200,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["231"]]},{"label":"237","description":"237","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[204,232,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["237"]]},{"label":"252","description":"252","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,202,242,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["252"]]},{"label":"253","description":"253","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[203,252,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["253"]]},{"label":"254","description":"254","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[239,215,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["254"]]},{"label":"314","description":"314","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[241,252,194,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["314"]]},{"label":"315","description":"315","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[194,182,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["315"]]},{"label":"316","description":"316","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,237,215,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["316"]]},{"label":"319","description":"319","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[236,182,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["319"]]},{"label":"325","description":"325","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[216,215,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["325"]]},{"label":"331","description":"331","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[198,192,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["331"]]},{"label":"332","description":"332","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,225,199,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["332"]]},{"label":"333","description":"333","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[202,252,246,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["333"]]},{"label":"335","description":"335","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,199,224,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["335"]]},{"label":"336","description":"336","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[184,252,235,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["336"]]},{"label":"337","description":"337","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[179,199,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["337"]]},{"label":"338","description":"338","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[182,241,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["338"]]},{"label":"339","description":"339","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,236,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["339"]]},{"label":"340","description":"340","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[204,240,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["340"]]},{"label":"342","description":"342","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[216,252,210,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["342"]]},{"label":"344","description":"344","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,207,189,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["344"]]},{"label":"347","description":"347","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[248,252,207,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["347"]]},{"label":"351","description":"351","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[197,205,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["351"]]},{"label":"359","description":"359","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[215,228,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["359"]]},{"label":"360","description":"360","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[182,216,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["360"]]},{"label":"371","description":"371","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[210,252,237,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["371"]]},{"label":"372","description":"372","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[228,204,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["372"]]},{"label":"374","description":"374","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,189,234,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["374"]]},{"label":"375","description":"375","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[228,252,199,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["375"]]},{"label":"376","description":"376","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,214,210,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["376"]]},{"label":"400","description":"400","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[213,197,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["400"]]},{"label":"422","description":"422","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[237,252,179,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["422"]]},{"label":"423","description":"423","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,179,218,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["423"]]},{"label":"424","description":"424","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[247,207,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["424"]]},{"label":"425","description":"425","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[232,189,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["425"]]},{"label":"426","description":"426","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,210,232,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["426"]]},{"label":"430","description":"430","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[179,252,199,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["430"]]},{"label":"432","description":"432","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[187,252,220,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["432"]]},{"label":"435","description":"435","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,194,248,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["435"]]},{"label":"436","description":"436","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[194,249,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["436"]]},{"label":"440","description":"440","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[226,197,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["440"]]},{"label":"441","description":"441","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,228,179,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["441"]]},{"label":"443","description":"443","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,194,197,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["443"]]},{"label":"444","description":"444","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[202,252,220,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["444"]]},{"label":"445","description":"445","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[194,252,192,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["445"]]},{"label":"446","description":"446","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,238,207,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["446"]]},{"label":"448","description":"448","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,217,179,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["448"]]},{"label":"449","description":"449","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,215,202,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["449"]]},{"label":"451","description":"451","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,204,236,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["451"]]},{"label":"452","description":"452","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,179,206,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["452"]]},{"label":"453","description":"453","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[179,252,243,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["453"]]},{"label":"458","description":"458","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,192,211,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["458"]]},{"label":"461","description":"461","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,244,199,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["461"]]},{"label":"462","description":"462","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,204,210,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["462"]]},{"label":"463","description":"463","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,191,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["463"]]},{"label":"464","description":"464","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,179,193,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"values":[["464"]]}]}],"uniqueValueInfos":[{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[199,252,230,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"109","label":"109"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[218,207,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"110","label":"110"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,197,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"112","label":"112"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,250,179,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"113","label":"113"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[182,230,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"114","label":"114"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,182,251,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"115","label":"115"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[183,252,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"120","label":"120"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,187,216,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"121","label":"121"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,229,189,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"125","label":"125"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[233,252,210,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"128","label":"128"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[179,189,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"132","label":"132"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,212,223,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"134","label":"134"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[215,182,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"136","label":"136"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[221,252,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"140","label":"140"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[182,252,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"141","label":"141"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[184,207,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"142","label":"142"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[187,252,209,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"146","label":"146"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,223,210,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"147","label":"147"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[215,250,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"200","label":"200"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[241,197,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"203","label":"203"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[205,252,199,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"204","label":"204"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,245,210,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"205","label":"205"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,212,246,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"206","label":"206"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,184,187,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"216","label":"216"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,210,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"218","label":"218"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,182,232,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"219","label":"219"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,248,194,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"220","label":"220"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,204,202,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"221","label":"221"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[202,221,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"223","label":"223"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[215,192,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"225","label":"225"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,192,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"227","label":"227"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[212,252,221,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"228","label":"228"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,187,200,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"231","label":"231"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[204,232,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"237","label":"237"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,202,242,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"252","label":"252"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[203,252,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"253","label":"253"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[239,215,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"254","label":"254"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[241,252,194,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"314","label":"314"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[194,182,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"315","label":"315"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,237,215,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"316","label":"316"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[236,182,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"319","label":"319"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[216,215,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"325","label":"325"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[198,192,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"331","label":"331"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,225,199,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"332","label":"332"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[202,252,246,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"333","label":"333"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,199,224,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"335","label":"335"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[184,252,235,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"336","label":"336"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[179,199,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"337","label":"337"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[182,241,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"338","label":"338"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,236,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"339","label":"339"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[204,240,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"340","label":"340"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[216,252,210,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"342","label":"342"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,207,189,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"344","label":"344"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[248,252,207,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"347","label":"347"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[197,205,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"351","label":"351"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[215,228,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"359","label":"359"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[182,216,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"360","label":"360"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[210,252,237,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"371","label":"371"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[228,204,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"372","label":"372"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,189,234,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"374","label":"374"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[228,252,199,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"375","label":"375"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,214,210,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"376","label":"376"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[213,197,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"400","label":"400"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[237,252,179,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"422","label":"422"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,179,218,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"423","label":"423"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[247,207,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"424","label":"424"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[232,189,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"425","label":"425"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,210,232,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"426","label":"426"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[179,252,199,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"430","label":"430"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[187,252,220,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"432","label":"432"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,194,248,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"435","label":"435"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[194,249,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"436","label":"436"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[226,197,252,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"440","label":"440"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,228,179,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"441","label":"441"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,194,197,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"443","label":"443"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[202,252,220,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"444","label":"444"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[194,252,192,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"445","label":"445"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,238,207,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"446","label":"446"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,217,179,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"448","label":"448"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,215,202,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"449","label":"449"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,204,236,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"451","label":"451"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,179,206,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"452","label":"452"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[179,252,243,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"453","label":"453"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,192,211,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"458","label":"458"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,244,199,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"461","label":"461"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,204,210,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"462","label":"462"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,191,182,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"463","label":"463"},{"symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[252,179,193,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.7}},"value":"464","label":"464"}],"fieldDelimiter":",","authoringInfo":{"colorRamp":{"type":"multipart","colorRamps":[{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,243,207,255],"toColor":[252,243,207,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[203,187,252,255],"toColor":[203,187,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[182,242,252,255],"toColor":[182,242,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,184,197,255],"toColor":[252,184,197,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[179,252,199,255],"toColor":[179,252,199,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[189,212,252,255],"toColor":[189,212,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[250,179,252,255],"toColor":[250,179,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[229,252,179,255],"toColor":[229,252,179,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,210,252,255],"toColor":[252,210,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,220,215,255],"toColor":[252,220,215,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[212,252,226,255],"toColor":[212,252,226,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,197,182,255],"toColor":[252,197,182,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,217,179,255],"toColor":[252,217,179,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,184,227,255],"toColor":[252,184,227,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[215,232,252,255],"toColor":[215,232,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[230,252,207,255],"toColor":[230,252,207,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[182,252,237,255],"toColor":[182,252,237,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[215,207,252,255],"toColor":[215,207,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,249,189,255],"toColor":[252,249,189,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,204,228,255],"toColor":[252,204,228,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[199,252,182,255],"toColor":[199,252,182,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[207,252,249,255],"toColor":[207,252,249,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[242,192,252,255],"toColor":[242,192,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[184,225,252,255],"toColor":[184,225,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[182,252,219,255],"toColor":[182,252,219,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,229,199,255],"toColor":[252,229,199,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[204,252,212,255],"toColor":[204,252,212,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[212,218,252,255],"toColor":[212,218,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[212,243,252,255],"toColor":[212,243,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[224,194,252,255],"toColor":[224,194,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,194,194,255],"toColor":[252,194,194,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[218,252,192,255],"toColor":[218,252,192,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[235,215,252,255],"toColor":[235,215,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[182,194,252,255],"toColor":[182,194,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,182,209,255],"toColor":[252,182,209,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[229,182,252,255],"toColor":[229,182,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,210,215,255],"toColor":[252,210,215,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,231,189,255],"toColor":[252,231,189,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[230,204,252,255],"toColor":[230,204,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[247,252,202,255],"toColor":[247,252,202,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[199,179,252,255],"toColor":[199,179,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[214,184,252,255],"toColor":[214,184,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[183,182,252,255],"toColor":[183,182,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,202,242,255],"toColor":[252,202,242,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,247,199,255],"toColor":[252,247,199,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[189,249,252,255],"toColor":[189,249,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,215,234,255],"toColor":[252,215,234,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,207,189,255],"toColor":[252,207,189,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[223,215,252,255],"toColor":[223,215,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[187,252,187,255],"toColor":[187,252,187,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[198,252,197,255],"toColor":[198,252,197,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,212,243,255],"toColor":[252,212,243,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[204,194,252,255],"toColor":[204,194,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[207,252,240,255],"toColor":[207,252,240,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[197,239,252,255],"toColor":[197,239,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[251,252,215,255],"toColor":[251,252,215,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[182,202,252,255],"toColor":[182,202,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,197,245,255],"toColor":[252,197,245,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,251,179,255],"toColor":[252,251,179,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,182,179,255],"toColor":[252,182,179,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[218,252,215,255],"toColor":[218,252,215,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[242,252,189,255],"toColor":[242,252,189,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,187,249,255],"toColor":[252,187,249,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,238,215,255],"toColor":[252,238,215,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[197,252,233,255],"toColor":[197,252,233,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[207,225,252,255],"toColor":[207,225,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,235,182,255],"toColor":[252,235,182,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,194,225,255],"toColor":[252,194,225,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[189,252,246,255],"toColor":[189,252,246,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,194,213,255],"toColor":[252,194,213,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[208,252,204,255],"toColor":[208,252,204,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[187,252,207,255],"toColor":[187,252,207,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,212,204,255],"toColor":[252,212,204,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[194,201,252,255],"toColor":[194,201,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,215,184,255],"toColor":[252,215,184,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[202,210,252,255],"toColor":[202,210,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[215,251,252,255],"toColor":[215,251,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[187,189,252,255],"toColor":[187,189,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[179,233,252,255],"toColor":[179,233,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[199,252,222,255],"toColor":[199,252,222,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,179,238,255],"toColor":[252,179,238,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[237,199,252,255],"toColor":[237,199,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,227,215,255],"toColor":[252,227,215,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[227,252,197,255],"toColor":[227,252,197,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[223,189,252,255],"toColor":[223,189,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[182,208,252,255],"toColor":[182,208,252,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[252,184,217,255],"toColor":[252,184,217,255]},{"type":"algorithmic","algorithm":"esriCIELabAlgorithm","fromColor":[199,231,252,255],"toColor":[199,231,252,255]}]}}},"scaleSymbols":true,"transparency":50,"labelingInfo":[{"labelExpressionInfo":{"expression":"$feature.VTD+textformatting.newline+text($feature.SUM_VUIDcount, \"###,###\")","title":"Custom"},"labelPlacement":"esriServerPolygonPlacementAlwaysHorizontal","multiPart":"labelLargest","allowOverrun":true,"deconflictionStrategy":"dynamic","repeatLabel":false,"useClippedGeometry":true,"stackLabel":true,"stackAlignment":"dynamic","removeDuplicates":"none","stackRowLength":24,"useCodedValues":true,"maxScale":0,"minScale":0,"name":"Class 1","priority":-1,"symbol":{"type":"esriTS","color":[0,0,0,255],"backgroundColor":null,"borderLineColor":null,"borderLineSize":null,"verticalAlignment":"bottom","horizontalAlignment":"left","rightToLeft":false,"angle":0,"xoffset":0,"yoffset":0,"kerning":true,"haloColor":null,"haloSize":null,"font":{"family":"Tahoma","size":10,"style":"normal","weight":"normal","decoration":"none"}}}]}, 
+  "allowGeometryUpdates" : true, 
+  "trueCurveSupportMode" : "OGC", 
+  "supportedCurveTypes" : [
+    "esriGeometryCircularArc"
+  ], 
+  "supportedTrueCurvePbfFeatureEncodings" : [
+    "esriCompressedShapeBuffer", 
+    "esriDefault"
+  ], 
+  "allowTrueCurvesUpdates" : true, 
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients" : false, 
+  "hasAttachments" : false, 
+  "htmlPopupType" : "esriServerHTMLPopupTypeAsHTMLText", 
+  "hasMetadata" : true, 
+  "hasM" : false, 
+  "hasZ" : false, 
+  "objectIdField" : "OBJECTID", 
+  "uniqueIdField" : 
+  {
+    "name" : "OBJECTID", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdField" : "", 
+  "typeIdField" : "VTD", 
+  "collation" : {
+    "locale" : "neutral", 
+    "caseSensitive" : false, 
+    "accentSensitive" : true
+  }, 
+  "fields" : [
+    {
+      "name" : "OBJECTID", 
+      "type" : "esriFieldTypeOID", 
+      "alias" : "OBJECTID", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : false, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "VTD", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "VTD", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 3, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Change2025", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Change2025", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 512, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "OBJECTID1", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "OBJECTID1", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "OBJECTID_1", 
+      "type" : "esriFieldTypeInteger", 
+      "alias" : "OBJECTID", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "VTD_1", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "VTD", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10485758, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Change2025_1", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Change2025", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 10485758, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "COUNT_", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "COUNT", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "SUM_VUIDcount", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "SUM_VUIDcount", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Change2025_2", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "Change2025_2", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 512, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Shape__Area", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Shape__Area", 
+      "sqlType" : "sqlTypeDouble", 
+      "nullable" : true, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Shape__Length", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Shape__Length", 
+      "sqlType" : "sqlTypeDouble", 
+      "nullable" : true, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "indexes" : [
+    {
+      "name" : "PK__HAYS_COU__F4B70D8509DA5622", 
+      "fields" : "OBJECTID", 
+      "isAscending" : true, 
+      "isUnique" : true, 
+      "description" : "", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "user_1201.HAYS_COUNTY_ELECTIONS_PRECINCTS_EFFECTIVE_JAN_2026_HAYSCOUNTYVTDS_EFFECTIVEJAN2026_Shape_sidx", 
+      "fields" : "Shape", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "", 
+      "indexType" : "Spatial"
+    }, 
+    {
+      "name" : "Shape__Area_Index", 
+      "fields" : "Shape__Area", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "", 
+      "indexType" : "Attribute"
+    }, 
+    {
+      "name" : "Shape__Length_Index", 
+      "fields" : "Shape__Length", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "", 
+      "indexType" : "Attribute"
+    }
+  ], 
+  "dateFieldsTimeReference" : {
+    "timeZone" : "UTC", 
+    "timeZoneIANA" : "Etc/UTC", 
+    "respectsDaylightSaving" : false
+  }, 
+  "preferredTimeReference" : null, 
+  "types" : [
+    {
+      "id" : "109", 
+      "name" : "109", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "109", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "109", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "110", 
+      "name" : "110", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "110", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "110", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "112", 
+      "name" : "112", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "112", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "112", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "113", 
+      "name" : "113", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "113", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "113", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "114", 
+      "name" : "114", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "114", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "114", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "115", 
+      "name" : "115", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "115", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "115", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "120", 
+      "name" : "120", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "120", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "120", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "121", 
+      "name" : "121", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "121", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "121", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "125", 
+      "name" : "125", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "125", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "125", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "128", 
+      "name" : "128", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "128", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "128", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "132", 
+      "name" : "132", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "132", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "132", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "134", 
+      "name" : "134", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "134", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "134", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "136", 
+      "name" : "136", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "136", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "136", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "140", 
+      "name" : "140", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "140", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "140", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "141", 
+      "name" : "141", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "141", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "141", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "142", 
+      "name" : "142", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "142", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "142", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "146", 
+      "name" : "146", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "146", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "146", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "147", 
+      "name" : "147", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "147", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "147", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "200", 
+      "name" : "200", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "200", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "200", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "203", 
+      "name" : "203", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "203", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "203", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "204", 
+      "name" : "204", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "204", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "204", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "205", 
+      "name" : "205", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "205", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "205", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "206", 
+      "name" : "206", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "206", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "206", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "216", 
+      "name" : "216", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "216", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "216", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "218", 
+      "name" : "218", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "218", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "218", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "219", 
+      "name" : "219", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "219", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "219", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "220", 
+      "name" : "220", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "220", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "220", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "221", 
+      "name" : "221", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "221", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "221", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "223", 
+      "name" : "223", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "223", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "223", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "225", 
+      "name" : "225", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "225", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "225", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "227", 
+      "name" : "227", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "227", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "227", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "228", 
+      "name" : "228", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "228", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "228", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "231", 
+      "name" : "231", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "231", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "231", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "237", 
+      "name" : "237", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "237", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "237", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "252", 
+      "name" : "252", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "252", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "252", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "253", 
+      "name" : "253", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "253", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "253", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "254", 
+      "name" : "254", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "254", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "254", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "314", 
+      "name" : "314", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "314", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "314", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "315", 
+      "name" : "315", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "315", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "315", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "316", 
+      "name" : "316", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "316", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "316", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "319", 
+      "name" : "319", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "319", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "319", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "325", 
+      "name" : "325", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "325", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "325", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "331", 
+      "name" : "331", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "331", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "331", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "332", 
+      "name" : "332", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "332", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "332", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "333", 
+      "name" : "333", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "333", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "333", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "335", 
+      "name" : "335", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "335", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "335", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "336", 
+      "name" : "336", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "336", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "336", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "337", 
+      "name" : "337", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "337", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "337", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "338", 
+      "name" : "338", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "338", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "338", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "339", 
+      "name" : "339", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "339", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "339", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "340", 
+      "name" : "340", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "340", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "340", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "342", 
+      "name" : "342", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "342", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "342", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "344", 
+      "name" : "344", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "344", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "344", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "347", 
+      "name" : "347", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "347", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "347", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "351", 
+      "name" : "351", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "351", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "351", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "359", 
+      "name" : "359", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "359", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "359", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "360", 
+      "name" : "360", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "360", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "360", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "371", 
+      "name" : "371", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "371", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "371", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "372", 
+      "name" : "372", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "372", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "372", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "374", 
+      "name" : "374", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "374", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "374", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "375", 
+      "name" : "375", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "375", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "375", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "376", 
+      "name" : "376", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "376", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "376", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "400", 
+      "name" : "400", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "400", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "400", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "422", 
+      "name" : "422", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "422", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "422", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "423", 
+      "name" : "423", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "423", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "423", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "424", 
+      "name" : "424", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "424", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "424", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "425", 
+      "name" : "425", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "425", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "425", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "426", 
+      "name" : "426", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "426", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "426", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "430", 
+      "name" : "430", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "430", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "430", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "432", 
+      "name" : "432", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "432", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "432", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "435", 
+      "name" : "435", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "435", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "435", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "436", 
+      "name" : "436", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "436", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "436", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "440", 
+      "name" : "440", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "440", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "440", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "441", 
+      "name" : "441", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "441", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "441", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "443", 
+      "name" : "443", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "443", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "443", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "444", 
+      "name" : "444", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "444", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "444", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "445", 
+      "name" : "445", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "445", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "445", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "446", 
+      "name" : "446", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "446", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "446", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "448", 
+      "name" : "448", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "448", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "448", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "449", 
+      "name" : "449", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "449", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "449", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "451", 
+      "name" : "451", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "451", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "451", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "452", 
+      "name" : "452", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "452", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "452", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "453", 
+      "name" : "453", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "453", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "453", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "458", 
+      "name" : "458", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "458", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "458", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "461", 
+      "name" : "461", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "461", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "461", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "462", 
+      "name" : "462", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "462", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "462", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "463", 
+      "name" : "463", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "463", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "463", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "464", 
+      "name" : "464", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "464", 
+          "description" : "", 
+          "drawingTool" : "esriFeatureEditToolPolygon", 
+          "prototype" : {
+            "attributes" : {
+              "SUM_VUIDcount" : null, 
+              "Change2025_2" : null, 
+              "VTD" : "464", 
+              "Change2025" : null, 
+              "OBJECTID1" : null, 
+              "OBJECTID_1" : null, 
+              "VTD_1" : null, 
+              "Change2025_1" : null, 
+              "COUNT_" : null
+            }
+          }
+        }
+      ]
+    }
+  ], 
+  "templates" : [], 
+  "supportedQueryFormats" : "JSON, geoJSON, PBF", 
+  "supportedAppendFormats" : "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf", 
+  "supportedAppendSourceFilterFormats" : "sqlite,geoPackage,shapefile,filegdb,featureService", 
+  "supportedExportFormats" : "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel,parquet", 
+  "supportedConvertFileFormats" : "JSON,PBF,Parquet", 
+  "supportedConvertContentFormats" : "LayerEditCollection,FeatureCollection", 
+  "supportedSpatialRelationships" : [
+    "esriSpatialRelIntersects", 
+    "esriSpatialRelContains", 
+    "esriSpatialRelCrosses", 
+    "esriSpatialRelEnvelopeIntersects", 
+    "esriSpatialRelIndexIntersects", 
+    "esriSpatialRelOverlaps", 
+    "esriSpatialRelTouches", 
+    "esriSpatialRelWithin", 
+    "esriSpatialRelDisjoint", 
+    "esriSpatialRelRelation"
+  ], 
+  "guidFormat" : "", 
+  "supportsContingentValues" : true, 
+  "supportsEditingContingentValues" : true, 
+  "supportedContingentValuesFormats" : "JSON, PBF", 
+  "supportsFieldGroups" : true, 
+  "supportedSyncDataOptions" : 260, 
+  "hasStaticData" : false, 
+  "maxRecordCount" : 2000, 
+  "standardMaxRecordCount" : 2000, 
+  "maxIdsCount" : 1000000, 
+  "standardMaxRecordCountNoGeometry" : 32000, 
+  "tileMaxRecordCount" : 4000, 
+  "maxRecordCountFactor" : 1, 
+  "capabilities" : "Query"
+}

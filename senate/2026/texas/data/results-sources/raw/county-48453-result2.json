@@ -1,0 +1,42 @@
+{
+  "id": "county-48453-result2",
+  "request_url": "https://app.powerbigov.us/view?r=eyJrIjoiNTI0MmQ2ODgtZjUxMi00NzY2LTg0NTEtNDE0NzA5MjEzZTI5IiwidCI6Ijg2ZmMyMWY0LWE1MTEtNGY4Mi1iNGQxLTM2ZjdkMWU4YTllYSJ9",
+  "parent_id": "county-48453",
+  "purpose": "embedded public result route",
+  "retrieval_started_utc": "2026-10-18T03:27:08.329300+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://app.powerbigov.us/view?r=eyJrIjoiNTI0MmQ2ODgtZjUxMi00NzY2LTg0NTEtNDE0NzA5MjEzZTI5IiwidCI6Ijg2ZmMyMWY0LWE1MTEtNGY4Mi1iNGQxLTM2ZjdkMWU4YTllYSJ9",
+  "headers": {
+    "Content-Length": "7176",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Sun, 18 Oct 2026 03:27:09 GMT",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "Content-Encoding": "gzip",
+    "Expires": "Sun, 25 Oct 2026 03:27:09 GMT",
+    "Set-Cookie": "WFESessionId=c957976a-5d98-4a52-bc1e-ef34108aa54d; path=/;Partitioned;; secure; SameSite=None; partitioned, ARRAffinity=42adf2e9a8b2ce08381c95342e7cad11c884334c6ce0f57d5c66258f258e382f;Path=/;HttpOnly;Secure;Domain=app.powerbigov.us, ARRAffinitySameSite=42adf2e9a8b2ce08381c95342e7cad11c884334c6ce0f57d5c66258f258e382f;Path=/;HttpOnly;SameSite=None;Secure;Domain=app.powerbigov.us",
+    "Vary": "Accept-Encoding",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block"
+  },
+  "redirects": [],
+  "original_bytes": 29106,
+  "original_sha256": "723ea73faf8d7345fbe3c1ab65f9b22bb6519a14efa05fdd98ce87ed4bbc40db",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 5494,
+  "stored_stream_sha256": "7c7ac0bbb6b621161bef67349fcbd071460beac70f386616deb99f3fdb8ba1f0",
+  "stored_parts": [
+    {
+      "path": "raw/county-48453-result2.body.gz",
+      "bytes": 5494,
+      "sha256": "7c7ac0bbb6b621161bef67349fcbd071460beac70f386616deb99f3fdb8ba1f0"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:09.686598+00:00"
+}

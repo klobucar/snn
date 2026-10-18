@@ -1,0 +1,48 @@
+{
+  "id": "county-48085-result1",
+  "request_url": "https://www.collincountytx.gov/elections/election-results",
+  "parent_id": "county-48085",
+  "purpose": "Election Results ",
+  "retrieval_started_utc": "2026-10-18T03:27:08.452505+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.collincountytx.gov/elections/election-results",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:27:08 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "CF-Ray": "a4c4720eab1a9675-ORD",
+    "CF-Cache-Status": "DYNAMIC",
+    "Cache-Control": "no-cache",
+    "Server": "cloudflare",
+    "Strict-Transport-Security": "max-age=31536000; preload",
+    "Cache-Tag": "ceeaac00-18fd-4162-9766-9b4dc1c1a37b|Production|www.collincountytx.gov|/elections/election-results, ceeaac00-18fd-4162-9766-9b4dc1c1a37b|Production",
+    "Content-Security-Policy": "script-src cdn.assistant.cloud.sitefinity.com https://cdn.insight.sitefinity.com https://player.vimeo.com/api/player.js https://www.youtube.com/iframe_api 'self' 'nonce-FMjOHhgGtriFLqieUdWtTg==' https://siteimproveanalytics.com https://www.googletagmanager.com https://cdn.assistant.cloud.sitefinity.com http://localhost:* https://js.arcgis.com https://cdn.jsdelivr.net; style-src cdn.assistant.cloud.sitefinity.com 'unsafe-inline' https://cdn.insight.sitefinity.com 'self' https://cdn.assistant.cloud.sitefinity.com http://localhost:* https://js.arcgis.com https://*.arcgis.com https://*.arcgisonline.com; img-src cdn.assistant.cloud.sitefinity.com data: https://cdn.insight.sitefinity.com 'self' https://*.global.r2.siteimproveanalytics.io https://www.google-analytics.com http://localhost:* data: blob: https://*.arcgis.com https://*.arcgisonline.com data: blob: https://*.petango.com; connect-src https://*.insight.sitefinity.com https://*.dec.sitefinity.com 'self' *.collincountytx.gov https://js.arcgis.com https://cdn.jsdelivr.net https://eagenda.collincountytx.gov https://siteimproveanalytics.com https://www.google-analytics.com https://region1.google-analytics.com https://cdn.assistant.cloud.sitefinity.com http://localhost:* ws://localhost:* https://js.arcgis.com https://cdn.jsdelivr.net https://*.arcgis.com https://*.arcgisonline.com; default-src  'self' *.collincountytx.gov; media-src  'self' https://cdn3.wowza.com http://localhost:* ; font-src data: 'self' http://localhost:* data: https://js.arcgis.com; frame-src  https://collincountytx.new.swagit.com https://eagenda.collincountytx.gov http://localhost:*",
+    "Request-Context": "appId=cid-v1:4f17d9f0-74d0-4a42-8f75-45e637176788",
+    "Vary": "accept-encoding",
+    "Content-Encoding": "gzip",
+    "Set-Cookie": "visid_incap_2797347=PIyctp3CROqGrWfZId7WTWg81GoAAAAAQUIPAAAAAAA4A4yDq4YeP7UNCwfkU/Aa; expires=Sun, 17 Oct 2027 06:20:53 GMT; HttpOnly; path=/; Domain=.collincountytx.gov, incap_ses_533_2797347=Y+Epa95m5xfiSwUDwJhlB4w81GoAAAAAw8Rjm+rNGr7a/l8wy34ERw==; path=/; Domain=.collincountytx.gov",
+    "X-CDN": "Imperva",
+    "X-Iinfo": "51-282077259-282077269 NNNN CT(2 8 0) RT(1792294028554 17) q(0 0 0 0) r(3 3) U24"
+  },
+  "redirects": [],
+  "original_bytes": 39870,
+  "original_sha256": "ddbbd38209217efe0fc2fe4492fee2d0b9fb8c0d7fec383a798526cef69111da",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 11575,
+  "stored_stream_sha256": "5dc2c39991e97c6ebb063f4e4762115b4e5fe7c00c315ea3164368f07917a966",
+  "stored_parts": [
+    {
+      "path": "raw/county-48085-result1.body.gz",
+      "bytes": 11575,
+      "sha256": "5dc2c39991e97c6ebb063f4e4762115b4e5fe7c00c315ea3164368f07917a966"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:08.846059+00:00"
+}

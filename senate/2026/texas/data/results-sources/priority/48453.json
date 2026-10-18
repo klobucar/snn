@@ -1,0 +1,226 @@
+{
+  "dispatch_key": "TX:48453",
+  "county_fips": "48453",
+  "county": "Travis",
+  "rank": 5,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48453",
+    "county_fips": "48453",
+    "county": "Travis",
+    "rank": 5,
+    "priority": true,
+    "directory_label": "TRAVIS COUNTY",
+    "authority_role": "County Clerk",
+    "authority_name": "Dyana Limon-Mercado",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "https://votetravis.gov",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48453",
+      "metadata_path": "raw/county-48453.json",
+      "request_url": "https://votetravis.gov",
+      "final_url": "https://votetravis.gov/",
+      "status": 200,
+      "original_sha256": "99f000c51f1596f2910b81707d9cd5c3108b90fd3a5e4f6f3555110f3a5b2c30",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "sos-county-links"
+    },
+    {
+      "source_id": "county-48453-result1",
+      "metadata_path": "raw/county-48453-result1.json",
+      "request_url": "https://votetravis.gov/current-election-information/election-results-and-reconciliation-forms/",
+      "final_url": "https://votetravis.gov/current-election-information/election-results-and-reconciliation-forms/",
+      "status": 200,
+      "original_sha256": "b9b2be0fabeefea2796b07f56fd71be9cd2396b0f52beac950d4dbf04bff90df",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48453"
+    },
+    {
+      "source_id": "county-48453-result3",
+      "metadata_path": "raw/county-48453-result3.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Travis/",
+      "final_url": "https://results.enr.clarityelections.com/TX/Travis/",
+      "status": 200,
+      "original_sha256": "681804aa6eab2ec4ceaf55eecde80202f91088b2777b1e3630a3dfe7a824b981",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48453"
+    }
+  ],
+  "assessment": "County results/reconciliation page links Clarity Travis county selector, explicitly labeling current link May 26 primary runoff and historical 2022-present. Selector is not a verified November contest. Original 2024 vendor workbook and full native identities referenced without copying.",
+  "gaps": "Actual November county election ID and current finer-unit schema not established from selector; state November object separately retained.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 227,
+    "CN": "TRAVIS",
+    "MID": 48227,
+    "county_fips": "48453",
+    "dispatch_key": "TX:48453",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 309.0,
+    "P": 0.0,
+    "RV": 945505.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 189.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 945505,
+    "TP": 309,
+    "TV": 0,
+    "TPR": 309
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/227",
+    "summary": "/upload/227/Summary",
+    "senate": "/upload/227/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "TRAVIS",
+    "id": 227,
+    "registered_voters": 945505,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 3804,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48453",
+    "county_fips": "48453",
+    "county": "Travis",
+    "rank": "5",
+    "priority": "1",
+    "state_county_id": "227",
+    "state_mid": 48227,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": null,
+    "derivative_historical_units": 821,
+    "original_historical_units": 287,
+    "tlc_vtd_rows": 1500,
+    "november_native_gap": "Actual November county election ID and current finer-unit schema not established from selector; state November object separately retained."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

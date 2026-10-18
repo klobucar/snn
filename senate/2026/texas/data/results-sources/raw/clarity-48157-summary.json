@@ -1,0 +1,51 @@
+{
+  "id": "clarity-48157-summary",
+  "request_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/en/summary.json",
+  "parent_id": "clarity-48157-config",
+  "purpose": "bundle-enumerated file at actual linked county/election/version/lang",
+  "retrieval_started_utc": "2026-10-18T03:33:46.122967+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/en/summary.json",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:33:46 GMT",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "HIT",
+    "Last-Modified": "Wed, 14 Oct 2026 19:51:31 GMT",
+    "ETag": "W/\"6acfdd43-ccf8\"",
+    "Expires": "Sat, 17 Oct 2026 04:41:54 GMT",
+    "Cache-Control": "max-age=86400",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 69b7e064c089b56071223ba15092adb8.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "KY3nANKIiZvhvCFJsnMsH-sbg6vya1L28AGoLoqro5o0oDh0QBUj5Q==",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 52472,
+  "original_sha256": "8b1a346d530c923eff58e184d398b13aa6389c2e33b70043d8cefb9130e516a7",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 3413,
+  "stored_stream_sha256": "6626193920ea965150f1ef5b2e1b6cca32f23632716aba1f1e3cb39b51a4d750",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48157-summary.body.gz",
+      "bytes": 3413,
+      "sha256": "6626193920ea965150f1ef5b2e1b6cca32f23632716aba1f1e3cb39b51a4d750"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:33:46.243338+00:00"
+}

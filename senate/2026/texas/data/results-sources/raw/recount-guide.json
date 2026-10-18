@@ -1,0 +1,47 @@
+{
+  "id": "recount-guide",
+  "request_url": "https://www.sos.state.tx.us/elections/laws/recounts.shtml",
+  "parent_id": "sos-calendar",
+  "purpose": "current SOS recount procedure, not obsolete five-day rule",
+  "retrieval_started_utc": "2026-10-18T03:29:30.676924+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.sos.state.tx.us/elections/laws/recounts.shtml",
+  "headers": {
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "AmazonS3",
+    "Date": "Sun, 18 Oct 2026 03:29:31 GMT",
+    "Last-Modified": "Sat, 17 Oct 2026 14:48:17 GMT",
+    "Content-Encoding": "gzip",
+    "x-amz-server-side-encryption": "AES256",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "x-amz-version-id": "Hbu8xg7c.hj6DrR81jHoArqqdcV6jvYM",
+    "ETag": "W/\"d7e672bf63bce4d07716c13cbac6a59d\"",
+    "Vary": "Accept-Encoding",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 592c261b9cfaf6b108698873e1d16e28.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P6",
+    "X-Amz-Cf-Id": "4TT3E8bYWEskqdfuCsktVpztgaQGeDa8d4pq6YK0snHcfWuV7cLETQ=="
+  },
+  "redirects": [],
+  "original_bytes": 66942,
+  "original_sha256": "91d96d824c408c1ed95a07a7676c1d9d355fd470379f89d307ca322766061e54",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 18164,
+  "stored_stream_sha256": "a9c67356142df97d44aac156b126b01e7868fc7c6c245fb8b86acb756dddf91b",
+  "stored_parts": [
+    {
+      "path": "raw/recount-guide.body.gz",
+      "bytes": 18164,
+      "sha256": "a9c67356142df97d44aac156b126b01e7868fc7c6c245fb8b86acb756dddf91b"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:29:30.962286+00:00"
+}

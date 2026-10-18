@@ -1,0 +1,38 @@
+{
+  "id": "local-guadalupe-2",
+  "requested_url": "https://www.guadalupetx.gov/upload/page/0063/docs/BOUNDARY CHANGE.pdf",
+  "parent_source_url": "https://www.guadalupetx.gov/page/elections.home",
+  "retrieved_utc": "2026-10-18T03:34:01.701560+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.guadalupetx.gov/upload/page/0063/docs/BOUNDARY%20CHANGE.pdf",
+  "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Fri, 16 May 2025 16:24:34 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"bb86a327fc6db1:0\"",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:34:00 GMT",
+    "Content-Length": "68938"
+  },
+  "redirects": [],
+  "original_bytes": 68938,
+  "original_sha256": "9d5fe7253299aaf8c7ad039071ebb4bb61375022ea5c160fa759cc39fc721532",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/local-guadalupe-2.pdf",
+      "bytes": 68938,
+      "sha256": "9d5fe7253299aaf8c7ad039071ebb4bb61375022ea5c160fa759cc39fc721532"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Guadalupe",
+  "advertised_title": "Notice of Boundary Change"
+}

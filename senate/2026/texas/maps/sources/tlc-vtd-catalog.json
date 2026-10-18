@@ -1,0 +1,34 @@
+{
+  "id": "tlc-vtd-catalog",
+  "requested_url": "https://data.capitol.texas.gov/dataset/vtds",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:32:01.687753+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://data.capitol.texas.gov/dataset/vtds",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:32:02 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "set-cookie": "__cf_bm=29FasUgTTLc3JktGe6W.yBgcjJ4SfiW6PwNJWWnT1XQ-1792294321.8328352-1.0.1.1-Cnn7BFL7mQ7oQYvQnbgxjrzQQEIX2_Ur0rhMvPY43Y9L0hRNG62DNk2BvXkMsFfMQvqDvlfREf7CVj87dHYX3nGWQWHwPSc34Q3q1IRilB6NiWslA9Rvth8PpEbwHOT6; HttpOnly; SameSite=None; Secure; Path=/; Domain=capitol.texas.gov; Expires=Sun, 18 Oct 2026 04:02:02 GMT",
+    "Cache-Control": "private",
+    "Vary": "Accept-Encoding",
+    "cf-cache-status": "DYNAMIC",
+    "CF-RAY": "a4c479377f99f167-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 38398,
+  "original_sha256": "b0e97b824345d6da36f491a01042354b9399e8039b1151956a5fdf0f354eb45e",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/tlc-vtd-catalog.body",
+      "bytes": 38398,
+      "sha256": "b0e97b824345d6da36f491a01042354b9399e8039b1151956a5fdf0f354eb45e"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256."
+}

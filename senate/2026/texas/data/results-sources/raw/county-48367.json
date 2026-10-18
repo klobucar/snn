@@ -1,0 +1,96 @@
+{
+  "id": "county-48367",
+  "request_url": "http://www.parkercountytx.com/index.aspx?NID=118",
+  "parent_id": "sos-county-links",
+  "purpose": "Parker official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:34.862450+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.parkercountytx.gov/118/Elections",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=5quo2kee2m1tbu42xyl53lua; path=/; secure; HttpOnly; SameSite=None",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:26:35 GMT",
+    "Content-Length": "30461"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "http://www.parkercountytx.com/index.aspx?NID=118",
+      "headers": {
+        "Cache-Control": "private, s-maxage=600,no-transform",
+        "Content-Type": "text/html; charset=utf-8",
+        "Location": "http://www.parkercountytx.gov/index.aspx?NID=118",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=()",
+        "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+        "Date": "Sun, 18 Oct 2026 03:26:35 GMT",
+        "Content-Length": "165"
+      }
+    },
+    {
+      "status": 302,
+      "url": "http://www.parkercountytx.gov/index.aspx?NID=118",
+      "headers": {
+        "Cache-Control": "private, s-maxage=600,no-transform",
+        "Content-Type": "text/html; charset=utf-8",
+        "Location": "https://www.parkercountytx.gov/index.aspx?NID=118",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=()",
+        "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+        "Date": "Sun, 18 Oct 2026 03:26:35 GMT",
+        "Content-Length": "166"
+      }
+    },
+    {
+      "status": 302,
+      "url": "https://www.parkercountytx.gov/index.aspx?NID=118",
+      "headers": {
+        "Cache-Control": "private, s-maxage=600,no-transform",
+        "Content-Type": "text/html; charset=utf-8",
+        "Location": "/118/Elections",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=()",
+        "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+        "Date": "Sun, 18 Oct 2026 03:26:35 GMT",
+        "Content-Length": "131"
+      }
+    }
+  ],
+  "original_bytes": 102592,
+  "original_sha256": "927a6c1627503d07e0ba54a272e792d3875b47846adb4d8ab823336acb8844f5",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 22632,
+  "stored_stream_sha256": "71b04e80b051ecfb22cea8749296da86703700aa7df3dedde8327a9ed2151ef7",
+  "stored_parts": [
+    {
+      "path": "raw/county-48367.body.gz",
+      "bytes": 22632,
+      "sha256": "71b04e80b051ecfb22cea8749296da86703700aa7df3dedde8327a9ed2151ef7"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:35.562106+00:00"
+}

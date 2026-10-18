@@ -1,0 +1,73 @@
+{
+  "id": "county-48091-office",
+  "request_url": "https://www.comalcounty.gov/193",
+  "parent_id": "county-48091",
+  "purpose": "exact linked office route   Voter Information   ",
+  "retrieval_started_utc": "2026-10-18T03:28:45.711598+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.comalcounty.gov/193/Elections-Voter-Registration",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:28:46 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30",
+    "vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "camera=(), microphone=()",
+    "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "last-modified": "Sun, 18 Oct 2026 03:28:46 GMT",
+    "expires": "Sun, 18 Oct 2026 03:29:16 GMT",
+    "cf-cache-status": "EXPIRED",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c4746fcc5aa2a1-ORD"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://www.comalcounty.gov/193",
+      "headers": {
+        "Date": "Sun, 18 Oct 2026 03:28:46 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=30",
+        "location": "/193/Elections-Voter-Registration",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=()",
+        "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+        "expires": "Sun, 18 Oct 2026 03:29:16 GMT",
+        "cf-cache-status": "EXPIRED",
+        "set-cookie": "__cf_bm=8M8PnNFUk7vzwUNzvs40TGf.CwlJxPA1jIq87IGR8nc-1792294125.896673-1.0.1.1-uWkxrXcwo8kAS8_J1c3b6esL1Mixw0RP_4QVuX2B2PyJ.Maiz0c_vpMPxkjP7myVVckc7NXmzaELBfcWC.Xqrgt2kR3AABGVkEUp7.qcaaJS4.leRYkpecd3vdXKOogx; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.comalcounty.gov; Expires=Sun, 18 Oct 2026 03:58:46 GMT",
+        "Server": "cloudflare",
+        "CF-RAY": "a4c4746eda3ca2a1-ORD"
+      }
+    }
+  ],
+  "original_bytes": 134113,
+  "original_sha256": "cf84a50f9e48c1c9a4cb347154108d862c7f426c230cd37140be73afc01b0653",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 25903,
+  "stored_stream_sha256": "4a6fbd86d0209a7e4f4af8a85e8a6e583ef3bf303d9d5cebc12da207f8236170",
+  "stored_parts": [
+    {
+      "path": "raw/county-48091-office.body.gz",
+      "bytes": 25903,
+      "sha256": "4a6fbd86d0209a7e4f4af8a85e8a6e583ef3bf303d9d5cebc12da207f8236170"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:28:46.377790+00:00"
+}

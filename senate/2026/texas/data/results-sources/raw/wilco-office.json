@@ -1,0 +1,43 @@
+{
+  "id": "wilco-office",
+  "request_url": "https://www.wilcotx.gov/185/Elections",
+  "parent_id": "county-48491",
+  "purpose": "official search-discovered current office URL; directory original blocked",
+  "retrieval_started_utc": "2026-10-18T03:29:30.234279+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 403,
+  "final_url": "https://www.wilcotx.gov/185/Elections",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:29:30 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "set-cookie": "__cf_bm=3PapZD8VhgiGxHGGMOVjkODTd07htV.kp25HAy0s7dw-1792294170.3692677-1.0.1.1-RmTPkZqhv9uPsq7DNoZTv8pEuV1Scs3.rKvrIWzaozpQeZhPGcVHSOrXhXBms9iQnfkqT7B0sNDqbYKqEPUf47C7T1v3v9e7q_K0ydCzzLK_7XSwxqFnO_flIG6Cu0qQ; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.wilcotx.gov; Expires=Sun, 18 Oct 2026 03:59:30 GMT",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47584cabbeb03-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 5484,
+  "original_sha256": "46ee42eec430be8b045984e0fc9c9420285c3e8fdabea0f95d234b383bea9bc5",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 2097,
+  "stored_stream_sha256": "6700f56a229cca54b2a4c19c4884df20f84faeb9fdc73d3f3c5467ed56c3d345",
+  "stored_parts": [
+    {
+      "path": "raw/wilco-office.body.gz",
+      "bytes": 2097,
+      "sha256": "6700f56a229cca54b2a4c19c4884df20f84faeb9fdc73d3f3c5467ed56c3d345"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:29:30.297816+00:00"
+}

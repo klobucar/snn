@@ -1,0 +1,63 @@
+{
+  "id": "county-48091",
+  "request_url": "https://www.co.comal.tx.us/Elections.htm",
+  "parent_id": "sos-county-links",
+  "purpose": "Comal official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:34.353895+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.comalcounty.gov",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:26:35 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30",
+    "set-cookie": "__cf_bm=TzReDFT8I0ByDm3IIjKG.DsK0oZ_PxsAthWXU2l7cBs-1792293994.9616575-1.0.1.1-uLTJqncTBCBd9tOXylLGoiY3WpvmS7.DqvSO3AIoI8jZYnZ2WcqEwcpVrf_Pm2J80mqRKZOymDnMkCw_bNQXyjDgI0jeduLEHYS8i_zGk1K8M0JvcfSDb1HDiXCGtfIt; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.comalcounty.gov; Expires=Sun, 18 Oct 2026 03:56:35 GMT",
+    "vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "camera=(), microphone=()",
+    "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "last-modified": "Sun, 18 Oct 2026 03:26:35 GMT",
+    "expires": "Sun, 18 Oct 2026 03:27:05 GMT",
+    "cf-cache-status": "EXPIRED",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c4713c7fcd8722-ORD"
+  },
+  "redirects": [
+    {
+      "status": 302,
+      "url": "https://www.co.comal.tx.us/Elections.htm",
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Location": "https://www.comalcounty.gov",
+        "Server": "Microsoft-IIS/8.5",
+        "X-Powered-By": "ASP.NET",
+        "Date": "Sun, 18 Oct 2026 03:26:33 GMT",
+        "Content-Length": "150"
+      }
+    }
+  ],
+  "original_bytes": 121996,
+  "original_sha256": "59bbc8b3be57e4be9df5a75405ecda1fc0cfe94f936e4376c0d829aaad0d039f",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 26250,
+  "stored_stream_sha256": "89a8a871a0d227da1f0f9f9a06f20931e0c2bdac2462950993faa5cd62a07cde",
+  "stored_parts": [
+    {
+      "path": "raw/county-48091.body.gz",
+      "bytes": 26250,
+      "sha256": "89a8a871a0d227da1f0f9f9a06f20931e0c2bdac2462950993faa5cd62a07cde"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:35.165987+00:00"
+}

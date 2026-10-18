@@ -1,0 +1,62 @@
+{
+  "id": "county-48027",
+  "request_url": "http://www.bellcountytx.com/departments/elections/",
+  "parent_id": "sos-county-links",
+  "purpose": "Bell official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:33.920638+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.bellcountytx.com/departments/elections/",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:26:35 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Content-Length": "86560",
+    "Connection": "keep-alive",
+    "x-revize-base": "https://www.bellcountytx.com/",
+    "Content-Security-Policy": "frame-ancestors 'self'",
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-XSS-Protection": "1; mode=block",
+    "Permissions-Policy": "accelerometer=(),autoplay=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),fullscreen=(),geolocation=(),gyroscope=(),magnetometer=(),microphone=(),midi=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),sync-xhr=(self),usb=(),web-share=(),xr-spatial-tracking=()"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "http://www.bellcountytx.com/departments/elections/",
+      "headers": {
+        "Date": "Sun, 18 Oct 2026 03:26:34 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Content-Length": "174",
+        "Connection": "keep-alive",
+        "Location": "https://www.bellcountytx.com/departments/elections/",
+        "Content-Security-Policy": "frame-ancestors 'self'",
+        "Referrer-Policy": "no-referrer-when-downgrade",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "X-XSS-Protection": "1; mode=block",
+        "Permissions-Policy": "accelerometer=(),autoplay=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),fullscreen=(),geolocation=(),gyroscope=(),magnetometer=(),microphone=(),midi=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),sync-xhr=(self),usb=(),web-share=(),xr-spatial-tracking=()"
+      }
+    }
+  ],
+  "original_bytes": 86560,
+  "original_sha256": "3306046495a9bf7b0ddce60f615909ea0ae2e390dcd95383c22fe43743673749",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 15502,
+  "stored_stream_sha256": "4e45b9dc399094309c369e6745d6390b1256f3673d13cc5356dfba3dd854ef09",
+  "stored_parts": [
+    {
+      "path": "raw/county-48027.body.gz",
+      "bytes": 15502,
+      "sha256": "4e45b9dc399094309c369e6745d6390b1256f3673d13cc5356dfba3dd854ef09"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:35.212925+00:00"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "route-guadalupe-2",
+  "requested_url": "https://www.guadalupetx.gov/page/elections.home",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:33:15.344003+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.guadalupetx.gov/page/elections.home",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Set-Cookie": "ASP.NET_SessionId=zdqfjvalkd3zwdhfjccj335w; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:33:15 GMT",
+    "Content-Length": "90563"
+  },
+  "redirects": [],
+  "original_bytes": 90563,
+  "original_sha256": "3b46391b44b34b1871de5ab346be76394e71aec6e16b8e353114c5d31d532b68",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/route-guadalupe-2.body",
+      "bytes": 90563,
+      "sha256": "3b46391b44b34b1871de5ab346be76394e71aec6e16b8e353114c5d31d532b68"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Guadalupe"
+}

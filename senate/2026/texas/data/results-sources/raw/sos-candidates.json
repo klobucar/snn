@@ -1,0 +1,47 @@
+{
+  "id": "sos-candidates",
+  "request_url": "https://www.sos.state.tx.us/elections/candidates/index.shtml",
+  "parent_id": "sos-elections",
+  "purpose": "ballot/candidate authority",
+  "retrieval_started_utc": "2026-10-18T03:25:37.586333+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.sos.state.tx.us/elections/candidates/index.shtml",
+  "headers": {
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Server": "AmazonS3",
+    "Last-Modified": "Sat, 17 Oct 2026 14:48:11 GMT",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-version-id": "kt_YMUfBTQuvDtvp7w3vcHRDod0Yqznt",
+    "Date": "Sun, 18 Oct 2026 03:25:38 GMT",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "ETag": "W/\"bdc51a379e43971e846b2c636025bd8e\"",
+    "Vary": "Accept-Encoding",
+    "X-Cache": "RefreshHit from cloudfront",
+    "Via": "1.1 3666407bd87365d79a6fc5d429816f84.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P6",
+    "X-Amz-Cf-Id": "qUom4LgfypeDpE6dN_N50V7JGkcmyeTiD3xaag49d_Vl76EQD1OWoA=="
+  },
+  "redirects": [],
+  "original_bytes": 20870,
+  "original_sha256": "13cb9aeeff22caa0c47d95b29970d8b0b7b976b79463c35d54f682d26aaf1371",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 5886,
+  "stored_stream_sha256": "a53ee4a4e141fea5700666e0ad7e22655a209fb536557b51694931578a9f8975",
+  "stored_parts": [
+    {
+      "path": "raw/sos-candidates.body.gz",
+      "bytes": 5886,
+      "sha256": "a53ee4a4e141fea5700666e0ad7e22655a209fb536557b51694931578a9f8975"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:25:37.701746+00:00"
+}

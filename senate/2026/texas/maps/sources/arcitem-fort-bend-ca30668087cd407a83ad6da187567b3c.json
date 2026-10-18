@@ -1,0 +1,39 @@
+{
+  "id": "arcitem-fort-bend-ca30668087cd407a83ad6da187567b3c",
+  "requested_url": "https://www.arcgis.com/sharing/rest/content/items/ca30668087cd407a83ad6da187567b3c?f=pjson",
+  "parent_source_url": "Exact nested item ID from retained official-linked ArcGIS item data",
+  "retrieved_utc": "2026-10-18T03:36:04.084338+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.arcgis.com/sharing/rest/content/items/ca30668087cd407a83ad6da187567b3c?f=pjson",
+  "headers": {
+    "Content-Type": "text/plain;charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:36:04 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Server": "ArcGIS Online",
+    "X-Content-Type-Options": "nosniff",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "Expires": "-1",
+    "Vary": "Origin",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 1db34f615bf8ba9e892dcce731b83f56.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD51-P2",
+    "X-Amz-Cf-Id": "922PMhaA6nV_D4bxEoDUcyfenRQ-g2LAKJ2GajgIe40CWeSqtLkZfQ=="
+  },
+  "redirects": [],
+  "original_bytes": 1541,
+  "original_sha256": "13e73acf0519a9e242ea6a6be2bab510885a12be611151d6426b8c667cd8b7ac",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/arcitem-fort-bend-ca30668087cd407a83ad6da187567b3c.body",
+      "bytes": 1541,
+      "sha256": "13e73acf0519a9e242ea6a6be2bab510885a12be611151d6426b8c667cd8b7ac"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256."
+}

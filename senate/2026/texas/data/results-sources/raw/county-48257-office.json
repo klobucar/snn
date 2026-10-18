@@ -1,0 +1,44 @@
+{
+  "id": "county-48257-office",
+  "request_url": "https://www.kaufmancounty.net/237/Elections",
+  "parent_id": "county-48257",
+  "purpose": "exact linked office route   Elections   ",
+  "retrieval_started_utc": "2026-10-18T03:28:45.711757+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.kaufmancounty.net/237/Elections",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=fnlzliybttov1w4ogatfzrsv; path=/; secure; HttpOnly; SameSite=None",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:28:45 GMT",
+    "Content-Length": "32304"
+  },
+  "redirects": [],
+  "original_bytes": 111909,
+  "original_sha256": "8859ac06b988c1990f0146361f4ed4f45db7517e14370e15629bd81a14c2446b",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 23763,
+  "stored_stream_sha256": "d24fd375d3a9addef5e5c44bbf87810f11d25e99f8ea61f73eb875ae4a700db0",
+  "stored_parts": [
+    {
+      "path": "raw/county-48257-office.body.gz",
+      "bytes": 23763,
+      "sha256": "d24fd375d3a9addef5e5c44bbf87810f11d25e99f8ea61f73eb875ae4a700db0"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:28:46.124608+00:00"
+}

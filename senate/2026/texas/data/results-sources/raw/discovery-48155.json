@@ -1,0 +1,61 @@
+{
+  "id": "discovery-48155",
+  "request_url": "https://www.foardcounty.texas.gov/page/foard.County.Clerk",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:22.012424+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.foardcounty.texas.gov/page/County.Clerk",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "Set-Cookie": "ASP.NET_SessionId=zgmpkvqzjsjt15d0jl0liowl; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:34:22 GMT",
+    "Content-Length": "29975"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://www.foardcounty.texas.gov/page/foard.County.Clerk",
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Location": "https://www.foardcounty.texas.gov/page/County.Clerk",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Content-Security-Policy": "font-src *;img-src * data:;",
+        "Referrer-Policy": "strict-origin",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "Date": "Sun, 18 Oct 2026 03:34:22 GMT",
+        "Content-Length": "174"
+      }
+    }
+  ],
+  "original_bytes": 116535,
+  "original_sha256": "3868fb006e240f8c9df0fe286181e38b8c1acaf40b320a3a1e9c934b445aca08",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 19699,
+  "stored_stream_sha256": "5a428294e6ec2d1f700300d081b8b661517d5a03a7af781ca4f73e3767e842b1",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48155.body.gz",
+      "bytes": 19699,
+      "sha256": "5a428294e6ec2d1f700300d081b8b661517d5a03a7af781ca4f73e3767e842b1"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:23.185498+00:00"
+}

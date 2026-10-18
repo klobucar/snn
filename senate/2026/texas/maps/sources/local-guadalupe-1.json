@@ -1,0 +1,38 @@
+{
+  "id": "local-guadalupe-1",
+  "requested_url": "https://www.guadalupetx.gov/upload/page/0063/docs/Signed Order to Approve the Creation and Change of Voting Precincts 2025.pdf",
+  "parent_source_url": "https://www.guadalupetx.gov/page/elections.home",
+  "retrieved_utc": "2026-10-18T03:34:01.425031+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.guadalupetx.gov/upload/page/0063/docs/Signed%20Order%20to%20Approve%20the%20Creation%20and%20Change%20of%20Voting%20Precincts%202025.pdf",
+  "headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Wed, 28 May 2025 16:47:58 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"14ba8b44f0cfdb1:0\"",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:34:00 GMT",
+    "Content-Length": "1292059"
+  },
+  "redirects": [],
+  "original_bytes": 1292059,
+  "original_sha256": "f0673cbf9b9432abe1728d2c62428ae2d3cbfbadbd7507e2a5669d8397fc652f",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/local-guadalupe-1.pdf",
+      "bytes": 1292059,
+      "sha256": "f0673cbf9b9432abe1728d2c62428ae2d3cbfbadbd7507e2a5669d8397fc652f"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Guadalupe",
+  "advertised_title": "Signed Order to Approve Change of Voting Precincts"
+}

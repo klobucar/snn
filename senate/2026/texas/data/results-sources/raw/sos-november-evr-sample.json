@@ -1,0 +1,53 @@
+{
+  "id": "sos-november-evr-sample",
+  "request_url": "https://goelect.txelections.civixapps.com/api-ivis-system/api/v1/getFile?type=EVR_EARLYVOTING&electionId=53815&electionDate=10%2F17%2F2026",
+  "parent_id": "sos-evr-election-index",
+  "purpose": "public app literal route,observed November ID and date option; aggregate not individual voters",
+  "retrieval_started_utc": "2026-10-18T03:33:04.305635+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://goelect.txelections.civixapps.com/api-ivis-system/api/v1/getFile?type=EVR_EARLYVOTING&electionId=53815&electionDate=10%2F17%2F2026",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:33:04 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "0",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "pragma": "no-cache",
+    "expires": "0",
+    "x-frame-options": "DENY",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET, POST, OPTIONS, PUT, DELETE",
+    "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range",
+    "access-control-expose-headers": "Content-Length,Content-Range",
+    "access-control-allow-credentials": "true",
+    "cf-cache-status": "DYNAMIC",
+    "set-cookie": "__cf_bm=iHeH0TTE8MkcRyf0gppH73RK1nPRbCEmeH.F0e0b2.M-1792294384.4340196-1.0.1.1-ys5Rwj3ihYVaGEoybsT_mO.t9LOoBJyDGhTlX6h4h63Ip0WqHGwMb_tpLLx4aiYtqX2i9q9rHl4yGt545YrVvY09cApaxcDjW0IE5Wn3rftnCr8nAJM.ZbE4WmLISaaD; HttpOnly; SameSite=None; Secure; Path=/; Domain=civixapps.com; Expires=Sun, 18 Oct 2026 04:03:04 GMT",
+    "Strict-Transport-Security": "max-age=0",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a4c47abebf03e5db-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 80525,
+  "original_sha256": "adba02cf3921df9d1ae65fd0ef27974dbadcd1770c6fd0a10038f6e069066957",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 5249,
+  "stored_stream_sha256": "9d2b5d3824981f40bb1ef7d61c1e2e6a7d875c37c61317ba5eb60dec57bd3c73",
+  "stored_parts": [
+    {
+      "path": "raw/sos-november-evr-sample.body.gz",
+      "bytes": 5249,
+      "sha256": "9d2b5d3824981f40bb1ef7d61c1e2e6a7d875c37c61317ba5eb60dec57bd3c73"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:33:04.719282+00:00"
+}

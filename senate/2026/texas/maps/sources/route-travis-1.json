@@ -1,0 +1,46 @@
+{
+  "id": "route-travis-1",
+  "requested_url": "https://tax-office.traviscountytx.gov/voters",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:33:12.100321+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://tax-office.traviscountytx.gov/voters",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:33:12 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "x-powered-by": "PHP/8.3.35",
+    "expires": "Wed, 17 Aug 2005 00:00:00 GMT",
+    "last-modified": "Sat, 17 Oct 2026 17:32:24 GMT",
+    "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "pragma": "no-cache",
+    "x-litespeed-cache": "hit",
+    "vary": "Accept-Encoding",
+    "Server": "cloudflare",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=63072000; includeSubDomains",
+    "content-security-policy": "default-src * data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval'; script-src * data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src * data: blob: 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src * data: blob: ; style-src * data: blob: 'unsafe-inline'; font-src * data: blob: 'unsafe-inline'; frame-ancestors * data: blob:;",
+    "x-turbo-charged-by": "LiteSpeed",
+    "Set-Cookie": "GCLB=\"9dbf09a941e9896a\"; Max-Age=86400; Path=/; HttpOnly",
+    "via": "1.1 google",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "CF-RAY": "a4c47aefbd61f97d-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 21248,
+  "original_sha256": "30e80b783c08482236c48b172d45a33f60f2c921bb24ab8e7ae397469ff499e6",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/route-travis-1.body",
+      "bytes": 21248,
+      "sha256": "30e80b783c08482236c48b172d45a33f60f2c921bb24ab8e7ae397469ff499e6"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Travis"
+}

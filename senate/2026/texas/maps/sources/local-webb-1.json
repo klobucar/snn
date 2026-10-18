@@ -1,0 +1,45 @@
+{
+  "id": "local-webb-1",
+  "requested_url": "https://www.webbcountytx.gov/DocumentCenter/View/4261/12A---ElectionVoting-Precincts---Rural-Areas-PDF",
+  "parent_source_url": "https://www.webbcountytx.gov/580/Map-Book",
+  "retrieved_utc": "2026-10-18T03:34:03.931257+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.webbcountytx.gov/DocumentCenter/View/4261/12A---ElectionVoting-Precincts---Rural-Areas-PDF",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:34:04 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "770839",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "content-disposition": "inline;filename=1.2.A%20%28PDF%29.pdf",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "camera=(), microphone=()",
+    "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Accept-Ranges": "bytes",
+    "last-modified": "Sun, 18 Oct 2026 03:34:04 GMT",
+    "expires": "Sun, 18 Oct 2026 03:34:34 GMT",
+    "cf-cache-status": "EXPIRED",
+    "set-cookie": "__cf_bm=n0D7qn5jlqQfbUkeOI2dl__Hgeq4zwt_HGfmC0j1_Cw-1792294444.0735145-1.0.1.1-MkIXXBOFP50.VEO4Z2lij57IQok9D0JCDA9CM8SXBrRrYesyhjuPXRU60CV18KjYFZab2tR1PEV.18f6kYIkDcJaUg0YxPe2tn0KqpmBQeg0.EL7ij2CBhmE3pl1QFEm; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.webbcountytx.gov; Expires=Sun, 18 Oct 2026 04:04:04 GMT",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47c3378e6f600-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 770839,
+  "original_sha256": "f86a88fcdb83c431261de47a4986d9f2a8bbebce82e07ff8e1bf281cf3c28349",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/local-webb-1.pdf",
+      "bytes": 770839,
+      "sha256": "f86a88fcdb83c431261de47a4986d9f2a8bbebce82e07ff8e1bf281cf3c28349"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Webb",
+  "advertised_title": "1.2.A - Election/Voting Precincts - Rural Areas (PDF)"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "follow-lubbock-2",
+  "requested_url": "https://assets01.aws.connect.clarityelections.com/Assets/Connect/RootPublish/lubbock-tx.connect.clarityelections.com/Maps2022/VoterPrecincts2022.pdf",
+  "parent_source_url": "Search-discovered official county publication; see county discovery routes",
+  "retrieved_utc": "2026-10-18T03:33:59.083781+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://assets01.aws.connect.clarityelections.com/Assets/Connect/RootPublish/lubbock-tx.connect.clarityelections.com/Maps2022/VoterPrecincts2022.pdf",
+  "headers": {
+    "Content-Type": "application/pdf",
+    "Content-Length": "8138825",
+    "Connection": "keep-alive",
+    "Server": "Apache",
+    "Last-Modified": "Fri, 18 Mar 2022 20:27:41 GMT",
+    "Accept-Ranges": "bytes",
+    "Date": "Sun, 18 Oct 2026 03:33:59 GMT",
+    "Cache-Control": "max-age=0",
+    "Expires": "Sun, 18 Oct 2026 03:33:59 GMT",
+    "ETag": "\"1f26758-7c3049-5da83fa7441b2\"",
+    "X-Cache": "RefreshHit from cloudfront",
+    "Via": "1.1 3b8f80fa4b6d1a664ab1c32f5f78420c.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P6",
+    "X-Amz-Cf-Id": "Av0cdJa2IL0-CVQ5rPs-8QEgWZfLVZFXxI_vUySXPnZMWeYJfiYL4A=="
+  },
+  "redirects": [],
+  "original_bytes": 8138825,
+  "original_sha256": "218aa5cfe8c3a555a9839add74524248f7c560371fca4c6c20be0672e8623b06",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/follow-lubbock-2.pdf",
+      "bytes": 8138825,
+      "sha256": "218aa5cfe8c3a555a9839add74524248f7c560371fca4c6c20be0672e8623b06"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Lubbock"
+}

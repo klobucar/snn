@@ -1,0 +1,43 @@
+{
+  "id": "randall-results-sample",
+  "request_url": "https://www.randallcounty.gov/DocumentCenter/View/4707/Final-Election-Reconciliation-Report",
+  "parent_id": "randall-results",
+  "purpose": "representative published older-election source: Final Election Reconciliation Report ",
+  "retrieval_started_utc": "2026-10-18T03:31:49.694088+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.randallcounty.gov/DocumentCenter/View/4707/Final-Election-Reconciliation-Report",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "application/pdf",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=tmhwygnv152rqq3rzb1roimu; path=/; secure; HttpOnly; SameSite=None",
+    "Content-Disposition": "inline;filename=Final%20Election%20Reconciliation%20Report.pdf",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:31:49 GMT",
+    "Content-Length": "112288"
+  },
+  "redirects": [],
+  "original_bytes": 112288,
+  "original_sha256": "1dac4d8a63d798334730cce839f1e92657cae8ad4c60d65f5962a87059df855c",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 102056,
+  "stored_stream_sha256": "e5abcea105fa44b6ff63a9abe770bc3662394be44cbbcdb4bbbe55bc6fb6c69f",
+  "stored_parts": [
+    {
+      "path": "raw/randall-results-sample.body.gz",
+      "bytes": 102056,
+      "sha256": "e5abcea105fa44b6ff63a9abe770bc3662394be44cbbcdb4bbbe55bc6fb6c69f"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:31:49.947066+00:00"
+}

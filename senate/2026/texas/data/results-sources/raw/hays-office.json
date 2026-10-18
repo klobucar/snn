@@ -1,0 +1,43 @@
+{
+  "id": "hays-office",
+  "request_url": "https://www.hayscountytx.gov/elections",
+  "parent_id": "county-48209",
+  "purpose": "official city Wimberley parent identifies current office",
+  "retrieval_started_utc": "2026-10-18T03:29:30.534353+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 403,
+  "final_url": "https://www.hayscountytx.gov/elections",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:29:30 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "set-cookie": "__cf_bm=lVK2Fdm5.Y_W1ipL8zRFqDDapf0_sExfSe8TyuzGssU-1792294170.6660705-1.0.1.1-K8dUMBbbLqoP.RD2AfoQuusMVVYOcNlA5tykC7fd20RW223slQoIasRfFsVmJTIey53Ryf3llK_N8v8p.jqy_6.9MKcv6s2a2fPBoCVA06r0UQ88nIIbJT3FO7BqGNaE; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.hayscountytx.gov; Expires=Sun, 18 Oct 2026 03:59:30 GMT",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47586af5091ef-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 5484,
+  "original_sha256": "7a4ff607214db68693f4adf065495d23165a9725ac516fd1d2b4b1d985ecf1ef",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 2097,
+  "stored_stream_sha256": "31b26e1bd1bd73a4bf4cc2c965fff002cb6bd6ac5e8d25ce41051d93674aa865",
+  "stored_parts": [
+    {
+      "path": "raw/hays-office.body.gz",
+      "bytes": 2097,
+      "sha256": "31b26e1bd1bd73a4bf4cc2c965fff002cb6bd6ac5e8d25ce41051d93674aa865"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:29:30.595928+00:00"
+}

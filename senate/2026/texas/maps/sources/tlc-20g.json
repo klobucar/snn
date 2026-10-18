@@ -1,0 +1,44 @@
+{
+  "id": "tlc-20g",
+  "requested_url": "https://data.capitol.texas.gov/dataset/d04c72b9-16c4-4ab2-8c6d-c666d41e04b7/resource/481a2062-9ec9-4547-8860-24c3c91b9afb/download/precincts20g_2020.zip",
+  "parent_source_url": "https://data.capitol.texas.gov/dataset/precincts",
+  "retrieved_utc": "2026-10-18T03:32:41.418010+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://data.capitol.texas.gov/dataset/d04c72b9-16c4-4ab2-8c6d-c666d41e04b7/resource/481a2062-9ec9-4547-8860-24c3c91b9afb/download/precincts20g_2020.zip",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:32:41 GMT",
+    "Content-Type": "application/zip",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "set-cookie": "__cf_bm=iEAz2djKVgcaD7eD97Pi2JXHBzgUIm85De7nj7YlGqI-1792294361.5521483-1.0.1.1-6meS2qfbXHIqUdRicYZcuuYbsRPEA9lAw06If.nrw1SjCpe8M9xUD7aMJES71trk_loszfyfG5iUDWvuSuNACcMBR2iZmqwh3NRQxLsF3iu1DdRa7H8Vf7us9un04wJ6; HttpOnly; SameSite=None; Secure; Path=/; Domain=capitol.texas.gov; Expires=Sun, 18 Oct 2026 04:02:41 GMT",
+    "Last-Modified": "Tue, 10 Aug 2021 22:14:18 GMT",
+    "Content-Range": "bytes 0-47065587/47065588",
+    "Pragma": "no-cache",
+    "Cache-Control": "public, max-age=14400",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"1628633658.12-47065588\"",
+    "expires": "Sun, 18 Oct 2026 07:32:41 GMT",
+    "cf-cache-status": "BYPASS",
+    "CF-RAY": "a4c47a2fbfb81413-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 47065588,
+  "original_sha256": "159469fd699cddec1aa2ed2ff7954287aaa3647c3fadecf542f6d5fc5625a982",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/tlc-20g.zip.part001",
+      "bytes": 32000000,
+      "sha256": "a11de0808eec2e2f8539073317946044dabf463f27a5e0f76241f0e12b288f7d"
+    },
+    {
+      "path": "originals/tlc-20g.zip.part002",
+      "bytes": 15065588,
+      "sha256": "0bcdc3c388eb21d96e1623d4068f4510db59e0d20a11b99e22d7d2eacf9003a5"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256."
+}

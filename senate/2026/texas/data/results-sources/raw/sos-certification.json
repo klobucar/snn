@@ -1,0 +1,53 @@
+{
+  "id": "sos-certification",
+  "request_url": "https://www.sos.state.tx.us/elections/forms/2026-ballot-cert.pdf",
+  "parent_id": "sos-november",
+  "purpose": "2026 Ballot Certification (PDF) ",
+  "retrieval_started_utc": "2026-10-18T03:26:32.696013+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.sos.state.tx.us/elections/forms/2026-ballot-cert.pdf",
+  "headers": {
+    "Content-Type": "application/pdf",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Date": "Sat, 17 Oct 2026 14:55:17 GMT",
+    "Server": "AmazonS3",
+    "Last-Modified": "Mon, 31 Aug 2026 22:32:22 GMT",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-version-id": "COVorE0FCDYjbE3xQMIAd2Q2BSvbnfMh",
+    "Cache-Control": "public, max-age=86400",
+    "ETag": "W/\"f7f16940d2ae62d26f7f0beda035924c\"",
+    "Vary": "Accept-Encoding, Origin",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 9a578030b9eecb34c8e4677bc01587c4.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P6",
+    "X-Amz-Cf-Id": "mEWVk2Jiim-f-qev0Y-eYF7ziwjIe1561oS0QmE6Ch2THC4EAyj9Ag==",
+    "Age": "45075",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000"
+  },
+  "redirects": [],
+  "original_bytes": 5919631,
+  "original_sha256": "c13ffb4ebeee389fa9818d47b31f77b4e260ea6e6f5389cb7bf0f36d9b44d87c",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 4908718,
+  "stored_stream_sha256": "aa297a949a62c0b7b49af2b51c6aec84016a2d94e4d563cd95c4bef76d8c8401",
+  "stored_parts": [
+    {
+      "path": "raw/sos-certification.body.gz",
+      "bytes": 4908718,
+      "sha256": "aa297a949a62c0b7b49af2b51c6aec84016a2d94e4d563cd95c4bef76d8c8401"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:33.115765+00:00"
+}

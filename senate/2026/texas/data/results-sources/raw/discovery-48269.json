@@ -1,0 +1,42 @@
+{
+  "id": "discovery-48269",
+  "request_url": "https://www.co.king.tx.us/page/king.County.Clerk",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:22.594941+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.co.king.tx.us/page/king.County.Clerk",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Set-Cookie": "ASP.NET_SessionId=czvgx34jcpw3v5pg24bktdkr; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:34:23 GMT",
+    "Content-Length": "131535"
+  },
+  "redirects": [],
+  "original_bytes": 131535,
+  "original_sha256": "f2d11d8cb927ecdc9bda306ad6f1a3a53fb426b2c723b7fe1ba17af4fed47871",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 22085,
+  "stored_stream_sha256": "97de8984c1f2f348d7bbce7b5cae47e55295d8d8a931f5916d39cc31d8244cc0",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48269.body.gz",
+      "bytes": 22085,
+      "sha256": "97de8984c1f2f348d7bbce7b5cae47e55295d8d8a931f5916d39cc31d8244cc0"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:24.495774+00:00"
+}

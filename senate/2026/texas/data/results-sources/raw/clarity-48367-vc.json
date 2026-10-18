@@ -1,0 +1,51 @@
+{
+  "id": "clarity-48367-vc",
+  "request_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/vc.json",
+  "parent_id": "clarity-48367-config",
+  "purpose": "bundle-enumerated file at actual linked county/election/version/lang",
+  "retrieval_started_utc": "2026-10-18T03:33:46.256199+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/vc.json",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:33:46 GMT",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "MISS",
+    "Last-Modified": "Tue, 10 Mar 2026 18:16:58 GMT",
+    "ETag": "W/\"69b0601a-1d8e\"",
+    "Expires": "Mon, 19 Oct 2026 03:33:46 GMT",
+    "Cache-Control": "max-age=86400",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 cd48a678d0f12425ad42c1b191b73e70.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "BUb3_SPLy2PfO-hT7saCSk3HQ-Q45OmbxE9iIWYJcBKG8dzcLWUCDg==",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 7566,
+  "original_sha256": "dade629be9bf1cb9eb9e7b6fc56f20cf7d7ff36189c72f25ddb0c5c4ad5fedf0",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 1955,
+  "stored_stream_sha256": "d041c45ae0aa00479782522fdf1586cc86969ea3a8838e1eb6a55838d43a1a0e",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48367-vc.body.gz",
+      "bytes": 1955,
+      "sha256": "d041c45ae0aa00479782522fdf1586cc86969ea3a8838e1eb6a55838d43a1a0e"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:33:46.377547+00:00"
+}

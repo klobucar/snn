@@ -1,0 +1,42 @@
+{
+  "id": "discovery-48105",
+  "request_url": "https://www.co.crockett.tx.us/page/crockett.Elections",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:20.244090+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.co.crockett.tx.us/page/crockett.Elections",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Set-Cookie": "ASP.NET_SessionId=i3p0q01q4zm21bory4muxr4t; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:34:20 GMT",
+    "Content-Length": "48107"
+  },
+  "redirects": [],
+  "original_bytes": 48107,
+  "original_sha256": "44e559d3d8077a4092e0672d5b2503c2a4bd633435403e80855be8c18aadb8de",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 10146,
+  "stored_stream_sha256": "b128452210105a308d930fd814a2528dabee802b9d51a7be59786d38db4c6705",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48105.body.gz",
+      "bytes": 10146,
+      "sha256": "b128452210105a308d930fd814a2528dabee802b9d51a7be59786d38db4c6705"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:21.424343+00:00"
+}

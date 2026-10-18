@@ -1,0 +1,1445 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head id="Head1"><meta charset="UTF-8" /><link href="/DefaultContent/Default/bootstrap.v3.4.1.min.css" rel="stylesheet"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" /><title>
+	
+    Election GIS Maps | Nueces County, TX
+
+</title>
+
+    
+    <script>
+         (function() {
+            window['angular_base'] = "/";
+         })();
+    </script>
+    
+
+    
+    <meta name="viewport" content="width=device-width" />
+    
+    <link href="/DefaultContent/Default/StyleBundleDesignTheme.cssbnd?v=XuSY58cYXFocrb64T0DJ7jsMaAKH1awJV9bIuGB3MuI1" rel="stylesheet"/>
+<link href="/Project/Contents/Main/StyleBundleDesignTheme.cssbnd?v=MlsiUxr84mczfF-JpDVsggbbAokSQKBlE2jjfZqAsps1" rel="stylesheet"/>
+<link href="/Areas/Admin/Content/StyleBundleFrontendExtra.cssbnd?v=nqlce7hzdo9LIG8VjJmT54anvfgjYa7U1e0fCFkn8EQ1" rel="stylesheet"/>
+<link href="/DefaultContent/Default/Print.cssbnd?v=KHE7WOKtPueyPX2uj_mtIbyWU4zUk_Vb5WjoMZ1rsuk1" rel="stylesheet" media="print" />
+<link href="/Project/Contents/Main/Print.cssbnd?v=LGyVHqg1LMwk6WgjH6ba7MJ7OZA_M0zAYWiL1qrVgrM1" rel="stylesheet" media="print" />
+<script src="/Scripts/ScriptBundleFAllInOne.jsbnd?v=JVE6npY6YF2wH7c-hT0P0TJ17hzzeczFVFrT2ygR9VY1"></script>
+
+<script>
+    function handleExternalURL() { };
+</script>
+<script>window.visionOptions = {virtualApplicationPath:'/',logOnPath:'Admin/LogOn',logOffPath:'Admin/LogOff',enableSessionTimeout:false,sessionTimeoutInMinutes:30,timeToAlertBeforeSessionTimeoutInMinutes:5,extendSessionTimeoutPath:'Admin/Account/ExtendSessionTimeout',mainFolderPath:'/Project/Contents/Main/',centerLocation:'901 Leopard Street, Corpus Christi, TX 78401', siteID:1, navigationID:843, isHomePage:false, emergencyNoticeChanged:false, loggedIn:false, showTopTips:true, currentDesignFolderPath:'/Project/Contents/Main/', useDesignThemFontSizeCss:false , clientResponsiveTableEnabled:true, imageUrl:'/Home/ShowPublishedImage/', engagementAdminEndPoint:'/Admin/Engagement/', visionLiveAdminEndPoint:'/Admin/Components/', cmsAdminEndPoint:'/Admin/', enableSplashUrl:false, eSignatureView: '/Shared/SignatureView', socialMediaInfo :{ twitter : { maxLength : 280  } }, baseImageUrl:'/Home/ShowPublishedImage' };;window.visionApps={"cms_core":{"DateFormat":"MM/dd/yyyy","TimeFormat":"h:mm TT","PhoneFormat":"(999) 999-9999","OrganizationName":"Nueces County, TX","TimeAMFormat":"AM","TimePMFormat":"PM","ProjectTimeZone":"America/Chicago","ProjectTimeZoneDiff":{"Id":"Central Standard Time","DisplayName":"(UTC-06:00) Central Time (US & Canada)","StandardName":"Central Standard Time","DaylightName":"Central Daylight Time","BaseUtcOffset":"-06:00:00","AdjustmentRules":[{"DateStart":"0001-01-01T00:00:00","DateEnd":"2006-12-31T00:00:00","DaylightDelta":"01:00:00","DaylightTransitionStart":{"TimeOfDay":"0001-01-01T02:00:00","Month":4,"Week":1,"Day":1,"DayOfWeek":0,"IsFixedDateRule":false},"DaylightTransitionEnd":{"TimeOfDay":"0001-01-01T02:00:00","Month":10,"Week":5,"Day":1,"DayOfWeek":0,"IsFixedDateRule":false},"BaseUtcOffsetDelta":"00:00:00"},{"DateStart":"2007-01-01T00:00:00","DateEnd":"9999-12-31T00:00:00","DaylightDelta":"01:00:00","DaylightTransitionStart":{"TimeOfDay":"0001-01-01T02:00:00","Month":3,"Week":2,"Day":1,"DayOfWeek":0,"IsFixedDateRule":false},"DaylightTransitionEnd":{"TimeOfDay":"0001-01-01T02:00:00","Month":11,"Week":1,"Day":1,"DayOfWeek":0,"IsFixedDateRule":false},"BaseUtcOffsetDelta":"00:00:00"}],"SupportsDaylightSavingTime":true},"ShowDefaultMarginRadEditor":true,"ContentReviewDefaultScheduleType":"0","EnableXSSCheck":true,"BasicXSSKeywords":"script|scriptscr|imagesrc","AdvancedXSSKeywords":"onload|onclick|onerror|javascript|onmouseover|eval|random|function|onload|execcommand|script|fscommand|onabort|onactivate|onafterprint|onafterupdate|onbeforeactivate|onbeforecopy|onbeforecut|onbeforedeactivate|onbeforeeditfocus|onbeforepaste|onbeforeunload|onbeforeupdate|onbegin|onblur|onbounce|oncellchange|onchange|onclick|oncontextmMenu|oncontrolselect|oncopy|oncut|ondataavailable|ondatasetchanged|ondatasetcomplete|ondblclick|ondeactivate|ondrag|ondragend|ondragleave|ondragenter|ondragover|ondragdrop|ondragstart|onend|onerror|onerrorupdate|onfilterchange|onfinish|onfocus|onfocusin|onfocusout|onhashchange|onhelp|oninput|onkeydown|onkeypress|onkeyup|onlayoutcomplete|onload|onlosecapture|onmediacomplete|onmediaerror|onmousedown|onmouseenter|onmouseleave|onmousemove|onmouseout|onmouseover|onmouseup|onmousewheel|onmove|onmoveend|onmovestart|onoffline|ononline|onoutofsync|onpaste|onpause|onpopstate|onprogress|onpropertychange|onreadystatechange|onredo|onrepeat|onreset|onresize|onresizeend|onresizestart|onresume|onreverse|onrowsenter|onrowexit|onrowdelete|onrowinserted|onscroll|onseek|onselect|onselectionchange|onselectstart|onstart|onstop|onstorage|onsyncrestored|onsubmit|ontimeerror|ontrackchange|onundo|onunload|onurlflip|seeksegmenttime|document.cookie","EnableMultipleSSO":false,"FileSignatures":"{\".jpg\":[\"FFD8FF\"],\".jpeg\":[\"FFD8FF\"],\".png\":[\"89504E470D0A1A0A\"],\".gif\":[\"474946383761\",\"474946383961\"],\".bmp\":[\"424D\"],\".tif\":[\"49492A00\",\"4D4D002A\"],\".tiff\":[\"49492A00\",\"4D4D002A\"],\".svg\":[],\".txt\":[],\".csv\":[],\".xml\":[],\".rtf\":[\"7B5C727466\"],\".doc\":[\"D0CF11E0A1B11AE1\"],\".docx\":[\"504B0304\"],\".xls\":[\"D0CF11E0A1B11AE1\"],\".xlsx\":[\"504B0304\"],\".ppt\":[\"D0CF11E0A1B11AE1\"],\".pptx\":[\"504B0304\"],\".pps\":[\"D0CF11E0A1B11AE1\"],\".pdf\":[\"25504446\"],\".zip\":[\"504B0304\",\"504B0506\",\"504B0708\"],\".rar\":[\"526172211A0700\",\"526172211A070100\"],\".7z\":[\"377ABCAF271C\"],\".dwg\":[\"41433130\"],\".eps\":[\"25215053\"],\".ai\":[\"25215053\"],\".vsd\":[\"D0CF11E0A1B11AE1\"],\".kml\":[],\".kmz\":[\"504B0304\",\"504B0506\",\"504B0708\"],\".mp3\":[\"494433\"],\".wav\":[\"52494646\"],\".mp4\":[\"00000018\",\"66747970\"],\".avi\":[\"52494646\"],\".mov\":[\"00000014\",\"66747970\"],\".ogg\":[\"4F676753\"],\".flac\":[\"664C6143\"],\".webm\":[\"1A45DFA3\"],\".mkv\":[\"1A45DFA3\"],\".json\":[],\".html\":[],\".htm\":[]}","GoogleReCaptchaPublicKey":"6LflacYZAAAAAI_guTdTbHQCZE5F-MhOTIbJoag3"}};;window.visionApps.token="eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwiayI6ImMrdUN6a0VxUzV2VUZPeFZjRjcvbGc9PSJ9.D2iywiDCUSOE4NEZi0VmzUExuLEIn-n9vspWPNvgEy4wuP2mRspIhAp7k-naDYklIhf_gLRq-Rez5_arWCxeRapCsJhoRIUv.wWEfpqnCUItIFZkrKDHDKw.sPN6ksOxrznaL6cBx8KvWJ3uk8OGkCQscpIzVQUTMJx8D9x_0Kd7btJECgIGy9b6QS4uzhF2y6UeBCNjV_2X8MdQBiMr7W86pGY78a3UgrqCx2B0OaUTWpYRkE24t_I8kAvsKhjbVSdZVlEzbmxFBwlDCFo032W_dqmzyBF76NXN8z8g8MkCcCaLgzPEceYLi_ca9qz979I7CJQrmrepCl84H5bmpDu3fVAlSt9tkfI.eZSFauNs9K6VPggiqEmByXD3hXqfEYsZ_H0CzNXgYOI";(function(window){window.cmsCoreConfig={}; (function(config){ (function(window){window.coreComponentFormConfig={"apiEndPoint":"https://form.visioninternet.com/"};})(window);; })(window.cmsCoreConfig); })(window);(function(window){window.visionLiveConfig={}; (function(config){ config.flexibleComponent={"serverURL":"https://flex.visioninternet.com/"};; })(window.visionLiveConfig); })(window);</script>
+
+    <script type="text/javascript">
+        // added the htmlEncode and htmlDecode method to fixed the js load order issue.
+        $.extend($, {
+            htmlEncode: function (html) {
+                var temp = document.createElement("div");
+                (temp.textContent != undefined) ? (temp.textContent = html) : (temp.innerText = html);
+                var output = temp.innerHTML;
+                temp = null;
+                return output;
+            },
+            htmlDecode: function (text) {
+                var temp = document.createElement("div");
+                temp.innerHTML = text;
+                var output = temp.innerText || temp.textContent;
+                temp = null;
+                return output;
+            }
+        });    
+        $(function () {
+            //script for view full site button, placed here to keep firefox for mobile devices happy
+            var viewFullElement = document.getElementById("view-full");           
+            if (viewFullElement) {
+                viewFullElement.innerHTML = "View Full Site";
+                viewFullElement.className = "mobile_only fullsite";
+            }
+        });
+    </script>
+    
+
+    <!--[if lt IE 9]>
+        <script src="/Scripts/ScriptBundleOthers.jsbnd?v=3Q7FhTQfRrKx8h7Kvdbh9bBluzlNlXKsFAERd4g8_TY1"></script>
+
+	<![endif]-->
+
+    
+    <link id="active_font" rel="stylesheet" type="text/css" href="/Project/Contents/Main/x-small.css">
+    
+    <link rel="Shortcut Icon" href="/favicon.ico" />
+
+    
+    
+<!-- Global site tag (gtag.js) - GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G7TS7X14K2"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+
+	gtag('config', 'G-G7TS7X14K2', {
+        
+            cookie_flags: 'secure;'
+        
+    });
+</script>
+<!-- End Global site tag (gtag.js) - GA4 -->
+
+    
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <!--startogsection-->
+    <meta property="og:title" content="Election GIS Maps | Nueces County, TX" />
+    <meta property="og:description" content="" />
+    <!--stopogsection-->
+    
+    
+<style>
+    body.front_end_body, .config_widget_template {
+        background-image: url('/home/showpublishedimage/312/636675032269100000');
+    }
+</style>
+
+
+    <script>
+        $(function () {
+            $.frontendSessionManager({
+                virtualApplicationPath:"/",
+                backendUserLogin: false,
+                frontendUserLogin: false,
+                sessionTimeoutInMinutes:30,
+                timeToAlertBeforeSessionTimeoutInMinutes:5,
+                extendSessionTimeoutPath:"Home/FrontEndExtendSessionTimeout"
+            }).setTimerForSessionExpiration();
+        });
+    </script>
+    
+    
+
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_1311691.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script> 
+
+
+	
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="9SL5X-X3CTZ-3SRLC-UT3WE-3RRHK",function(){function e(){if(!r){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.appendChild(e),r=!0}}function t(e){r=!0;var n,t,a,i,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",i=(a.frameElement||a).style,i.width=0,i.height=0,i.border=0,i.display="none",o.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void 0;",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=14,window.BOOMR.url=n+"9SL5X-X3CTZ-3SRLC-UT3WE-3RRHK";var i=document.currentScript||document.getElementsByTagName("script")[0],o=i.parentNode,r=!1,d=document.createElement("link");if(d.relList&&"function"==typeof d.relList.supports&&d.relList.supports("preload")&&"as"in d)window.BOOMR.snippetMethod="p",d.href=window.BOOMR.url,d.rel="preload",d.as="script",d.addEventListener("load",e),d.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!r)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.appendChild(d);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="eyaboas2ka4h6jqacqd6qaaadfvnipp2-f-1a8f1f0d0-clienttons-s.akamaihd.net",i="false"=="true"?2:1,o={"ak.v":"41","ak.cp":"798086","ak.ai":parseInt("671961",10),"ak.ol":"0","ak.cr":9,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"955a5d1","ak.r":39715,"ak.a2":n,"ak.m":"dscb","ak.n":"essl","ak.cport":57745,"ak.gh":"184.30.41.146","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1792294394","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==YouriPRZErP1z4AN9u/nxtO8h0g7meKlikzuuT/oy/vOTpTeNogkraaKF0y+KkPQ2rCpZMYCCup7gqBnZ3hIG3d6c3iAc/qnw654Sh/ERIS9V0481pIVK3Wu4Wyt6nhvLO7XjFQK3xHQ0w70/Khz0IQj2EIScoOCWszZ441AQicQMvqlLDtE/i7fO8ejVWJXt7f6D+bNmL4NBLPeK3D+hAcxewaUA3QDku96Co9WSbOu87xJ8ZARrXYmVr6QsVDtGN4kHOB3rI2hVuq2wOgoEfZYjoTbSsg76XL6MnQTMIZc+LRaXlYPcKpj8/5oiEEzbPg8P7khE7hF3CT9BaCMxkqKN/bi/CX3kBnkVPG4a9yMki30TaxmNEcCa7VDi8wUlqw0fw3xINf/VewHvHVpv73TBH8FxBI2txo6ifWfsK0=","ak.pv":"163","ak.dpoabenc":"","ak.tf":i};if(""!==t)o["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))o["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(o)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:o,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+<body class="front_end_body site_standardsitetemplate  ">    
+    <input name="__RequestVerificationToken" type="hidden" value="uzi4MgJHgoZgv6nlncI8-K4-_R5kbgZrAopRSdsw-Mbz2bYGquuUs03HjY0ROSMrZUYOGqhZYzL6AsgSSFrEFfcmYTTeoEytzxnfvq5euZ01" />
+
+    
+            <style>
+                
+            </style>
+        <link href="/DefaultContent/Default/StyleBundleAngularLib.cssbnd?v=sED2Qjf38ysQJYZW_ZvZj-7IGXKm4NOJhdA51oOtG5A1" rel="stylesheet"/>
+
+
+
+<script>
+    window.frontendCommonConfig = {
+        loginPage: 'https://www.nuecesco.com/sys/sso/login',
+        popupLoginPage: '/sys/sso/popuplogin',
+        photoBaseUrlForPeople: 'https://www.nuecesco.com/sys/sso/ShowProfilePhoto?id=',
+        photoBaseUrl: 'https://www.nuecesco.com/Home/ShowPublishedImage/',
+        token: window.visionApps ? window.visionApps.token : '',
+        cmsUserLogged: false,
+        anonymousAvatar: 'https://www.nuecesco.com/DefaultContent/Default/_gfx/anonymous.png',
+        loginUser: {
+            name: '',
+            avatar: '',
+            userID: null,
+            firstName: '',
+            lastName: '',
+            imageID: null,
+            email: '',
+        }
+    };
+</script>
+
+
+<script>
+    //It's before the AngularJSLib Loading, which might be update in the AngularJSLib bundle.
+    window.viPredefinedModules = [];
+</script>
+<script src="/Scripts/ScriptBundleAngularLib.jsbnd?v=NE32Axf8AoQJCvAhR0BrNgsJvJ2CpfeBE2zvnHeghcE1"></script>
+
+
+<script>
+    (function (window, angular) {
+
+        $("body").attr("ng-app", "vi.cms");
+        
+        window.viCurrentModule = angular.module("vi.cms", window.viPredefinedModules || []);
+    })(window, angular);
+</script>
+
+
+    <script src="/Scripts/frontendCoreBundle.jsbnd?v=B6JbwsWOd-EUHAJbvPp8WWgswnVmMSWA48MG3na2qBY1"></script>
+
+
+    
+    <!--stopindex-->
+    <noscript>
+        <div class="noscript_alert"><span>Please enable JavaScript in your browser for a better user experience.</span></div>
+    </noscript>
+    <!--startindex-->
+    <div class="vi-temp-message-container" style="display:none;"></div>
+        
+    
+    
+            <a class="menu_trigger mobile_only" href="javascript:void(0);">Menu</a>
+            
+<div class="sitewrapper  site_template mainSpan_wrapper">
+    <div class="mainSpan" id="mainSpan_wrapper_Screen">
+        <!--stopindex-->
+        <div id="skipnav">
+            <a href="#sitebody" title="Skip to page body">
+                <img alt="" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>
+            
+            <!--<a title="Home" href="/home" tabindex="-1">
+                <img alt="Home" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>-->
+            
+            <!--<a title="Commissioners Court" href="/commissioners-court" tabindex="-1">
+                <img alt="Commissioners Court" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>-->
+            
+            <!--<a title="Courts" href="/courts" tabindex="-1">
+                <img alt="Courts" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>-->
+            
+            <!--<a title="Law Enforcement" href="/law-enforcement" tabindex="-1">
+                <img alt="Law Enforcement" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>-->
+            
+            <!--<a title="Departments" href="/departments" tabindex="-1">
+                <img alt="Departments" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>-->
+            
+            <!--<a title="County Services" href="/county-services" tabindex="-1">
+                <img alt="County Services" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>-->
+            
+            <!--<a title="Quick Links" href="/quick-links" tabindex="-1">
+                <img alt="Quick Links" src="/DefaultContent/Default/_gfx/spacer.gif" /></a>-->
+            
+        </div>
+        <!--startindex-->
+
+        <header id="siteheader" class="">
+            <!--stopindex-->
+			<h1 class="wcag_only">Nueces County, TX</h1>
+            <a id="home_link" href="/home">Home</a>
+            
+            
+            <!--startindex-->
+            
+<div id="headercolumn" class="site_template_column  header_column   " >
+
+                <!--stopindex-->
+                
+<div id="top_nav">
+	    <a href="/home" target="_self">Home</a>
+	    <a href="/commissioners-court/commissioner-court-administration/accessibility-awareness" target="_self">Accessibility</a>
+	    <a href="/county-services/purchasing/bids" target="_self">Bids</a>
+	    <a href="/county-services/directory-phonebook" target="_self">County Directory</a>
+	    <a href="https://wd5.myworkday.com/nuecesco/d/home.htmld" target="_blank">Employees</a>
+	<a href="javascript:void" onclick="javascript:GoogleTranslateLink();">Translate</a>
+</div>
+<script type="text/javascript">
+	function GoogleTranslateLink()
+	{
+		if (window.location.href.indexOf("translate.google.com") == -1)
+		{
+			var url = "//translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&layout=1&eotf=1&sl=en&tl=es&u=";
+			url += escape(window.location.href);
+			window.location.href = url;
+		}
+		else
+		{
+			//do nothing
+		}
+	}
+</script>
+                <!--startindex-->
+            
+
+                <!--stopindex-->
+                
+<div id="searchbox" class="clearfix">
+	<label style="display: none;" for="search_text">Search</label>
+	<input type="text" title="Search..."  aria-label ="Search" id="search_text" placeholder="Search..."/>		
+	<a href="javascript:void(0);">Go</a>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        //$('#search_text').googleSuggest({ service: 'web' });
+        $("#search_text").focusin(function () {
+            $(this).parent('#searchbox').addClass('active');
+        });
+        $("#search_text").focusout(function () {
+            $(this).parent('#searchbox').removeClass('active');
+        });
+    });
+
+    $(function () {
+    	$("#searchbox input").keydown(function(e){
+		if(e.keyCode == 13){
+			 $("#searchbox a").click();
+		}
+	});
+        $("#searchbox a").click(function () {
+            var keyWord = $("#searchbox input#search_text").val();
+	    if(keyWord.length<=0){return false;}
+            keyWord  = encodeURIComponent(keyWord.replace("<"," ").replace(">"," ") );
+            var link = '/commissioners-court/search';
+	    if (link.indexOf("?") >= 0 )
+	    	link = link + "&q=" + keyWord;
+	     else
+	     	link = link + "?q=" + keyWord;
+            window.location.href = link;
+        });
+    });
+</script>
+                <!--startindex-->
+            
+
+
+<style>
+    body.front_end_body, .config_widget_template {
+    	background-image: url("/home/showpublishedimage/312/636675032269100000");
+    }
+</style>
+            
+
+</div>
+
+        </header>
+
+        
+<div class="standardthreecolumnlayout clearfix" id="sitebody">
+    
+<div id="ColumnUserControl1" class="column   top_col clearfix  ">
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="527"WidgetStart!!-->    
+
+                <!--stopindex-->
+                <div class=" main_menu_widget"><!--stopindex--><link href="/DefaultContent/Default/StyleBundleMegaMenuDropDown.cssbnd?v=CD_eN-fYJU8KKPigt6x-Ey-z8_WTsoZ7bqx2pLTZtXU1" rel="stylesheet"/>
+<link href="/Project/Contents/Main/StyleBundleMegaMenuDropDown.cssbnd?v=mSggswSK2KlGJS0ly9t3Ksmoo5pKZAK8oeTga4K9vk81" rel="stylesheet"/>
+<nav aria-label="Main Navigation" class="advancedmegamenu mainnav" id="menuContainer_527_0_1389"><ul class="dropdownmenu clearfix"><li class="megamenu_first" id="dropdownrootitem1"><a class="dropdownrootitem1" href="/home" aria-label="Home" data-navid="1" target="_self" >Home</a></li><li class="megamenu_first" id="dropdownrootitem2"><a class="dropdownrootitem2" link-disabled href="javascript:void(0)" tabindex="0" aria-label="Commissioners Court" data-navid="2" target="_self" >Commissioners Court</a><div class="megamenu_container widthcontainer4col fullwidthdisplay"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/commissioners-court/county-judge" aria-label="County Judge" data-navid="384" target="_self" >County Judge</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/commissioners-court/county-judge/judge-scott" aria-label="Judge Scott" data-navid="1842" target="_self" >Judge Scott</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/commissioners-court/county-judge/calendar" aria-label="Calendar" data-navid="387" target="_self" >Calendar</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/commissioners-court/commissioner-precinct-1" aria-label="Commissioner Precinct 1" data-navid="388" target="_self" >Commissioner Precinct 1</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/commissioners-court/commissioner-precinct-1/commissioner-pusley" aria-label="Commissioner Pusley" data-navid="1916" target="_self" >Commissioner Pusley</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/commissioners-court/commissioner-precinct-1/calendar" aria-label="Calendar" data-navid="389" target="_self" >Calendar</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/commissioners-court/commissioner-precinct-2" aria-label="Commissioner Precinct 2" data-navid="397" target="_self" >Commissioner Precinct 2</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/commissioners-court/commissioner-precinct-2/commissioner-gonzalez" aria-label="Commissioner Gonzalez" data-navid="400" target="_self" >Commissioner Gonzalez</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/commissioners-court/commissioner-precinct-2/calendar" aria-label="Calendar" data-navid="398" target="_self" >Calendar</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/commissioners-court/commissioner-precinct-3" aria-label="Commissioner Precinct 3" data-navid="404" target="_self" >Commissioner Precinct 3</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/commissioners-court/commissioner-precinct-3/commissioner-marez" aria-label="Commissioner Marez" data-navid="407" target="_self" >Commissioner Marez</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/commissioners-court/commissioner-precinct-3/calendar" aria-label="Calendar" data-navid="405" target="_self" >Calendar</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/commissioners-court/commissioner-precinct-4" aria-label="Commissioner Precinct 4" data-navid="411" target="_self" >Commissioner Precinct 4</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/commissioners-court/commissioner-precinct-4/commissioner-chesney" aria-label="Commissioner Chesney" data-navid="414" target="_self" >Commissioner Chesney</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/commissioners-court/commissioner-precinct-4/calendar" aria-label="Calendar" data-navid="412" target="_self" >Calendar</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/commissioners-court/budget-office" aria-label="Budget Office" data-navid="1925" target="_self" >Budget Office</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/commissioners-court/budget-office/constance-p-sanchez" aria-label="Constance P. Sanchez" data-navid="1928" target="_self" >Constance P. Sanchez</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/commissioners-court/budget-office/calendar" aria-label="Calendar" data-navid="1926" target="_self" >Calendar</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/commissioners-court/additional-information" aria-label="Additional Information" data-navid="1929" target="_self" >Additional Information</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/commissioners-court/agendas-minutes-videos" aria-label="Agendas/Minutes/Videos" data-navid="314" target="_self" >Agendas/Minutes/Videos</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/commissioners-court/commissioners-court-meeting" aria-label="Commissioners Court Meeting" data-navid="315" target="_self" rel="noopener">Commissioners Court Meeting</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/commissioners-court/list-of-calendar-events" aria-label="List of Calendar Events" data-navid="1374" target="_self" >List of Calendar Events</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/commissioners-court/texas-comptroller-economic-development-agreements" aria-label="Texas Comptroller - Economic Development Agreements" data-navid="1829" target="_blank" rel="noopener">Texas Comptroller - Economic Development Agreements</a></li></ul>
+<ul class="megamenu_column megamenu_column_content"><li class="megamenu_level1"><div class=" image_widget" id="widget_2" tabindex="0"><a href="/commissioners-court" target="_self" title="Click to view Nueces County Seal"><img alt="Nueces County Seal" class="img_item" src="/home/showpublishedimage/422/639138478169000000" /></a></div> 
+</li></ul>
+</div></div></li><li class="megamenu_first" id="dropdownrootitem3"><a class="dropdownrootitem3" link-disabled href="javascript:void(0)" tabindex="0" aria-label="Courts" data-navid="3" target="_self" >Courts</a><div class="megamenu_container widthcontainer4col fullwidthdisplay"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/courts/county-attorney" aria-label="County Attorney" data-navid="421" target="_self" >County Attorney</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/county-attorney/calendar" aria-label="Calendar" data-navid="422" target="_self" >Calendar</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/county-attorney/domestic-violence-safety-plan" aria-label="Domestic Violence Safety Plan" data-navid="1933" target="_self" >Domestic Violence Safety Plan</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/county-attorney/protective-order" aria-label="Protective Order" data-navid="1932" target="_self" >Protective Order</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/courts/county-courts-at-law" aria-label="County Courts at Law" data-navid="584" target="_self" >County Courts at Law</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/county-courts-at-law/county-court-at-law-1" aria-label="County Court at Law 1" data-navid="428" target="_self" >County Court at Law 1</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/county-courts-at-law/county-court-at-law-2" aria-label="County Court at Law 2" data-navid="429" target="_self" >County Court at Law 2</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/county-courts-at-law/county-court-at-law-3" aria-label="County Court at Law 3" data-navid="431" target="_self" >County Court at Law 3</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/county-courts-at-law/county-court-at-law-4" aria-label="County Court at Law 4" data-navid="432" target="_self" >County Court at Law 4</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/county-courts-at-law/county-court-at-law-5" aria-label="County Court at Law 5" data-navid="433" target="_self" >County Court at Law 5</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/courts/court-administrator" aria-label="Court Administrator" data-navid="519" target="_self" >Court Administrator</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/court-administrator/calendar" aria-label="Calendar" data-navid="700" target="_self" >Calendar</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/court-administrator/community-services" aria-label="Community Services" data-navid="1343" target="_self" >Community Services</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/court-administrator/additional-information" aria-label="Additional Information" data-navid="1942" target="_self" >Additional Information</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/courts/district-attorney" aria-label="District Attorney" data-navid="446" target="_self" >District Attorney</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-attorney/district-attorney-granberry" aria-label="District Attorney Granberry" data-navid="1943" target="_self" >District Attorney Granberry</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-attorney/calendar" aria-label="Calendar" data-navid="1338" target="_self" >Calendar</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-attorney/asset-forfeitures" aria-label="Asset Forfeitures" data-navid="1110" target="_self" >Asset Forfeitures</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-attorney/cite-and-release-program" aria-label="Cite and Release Program" data-navid="1337" target="_self" >Cite and Release Program</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-attorney/victims-assistance" aria-label="Victims Assistance" data-navid="673" target="_self" >Victims Assistance</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/courts/district-courts" aria-label="District Courts" data-navid="633" target="_self" >District Courts</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-courts/28th-district-court-a" aria-label="28th District Court (A)" data-navid="435" target="_self" >28th District Court (A)</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-courts/94th-district-court-c" aria-label="94th District Court (C)" data-navid="436" target="_self" >94th District Court (C)</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-courts/105th-district-court-d" aria-label="105th District Court (D)" data-navid="437" target="_self" >105th District Court (D)</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-courts/117th-district-court-b" aria-label="117th District Court (B)" data-navid="438" target="_self" >117th District Court (B)</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-courts/148th-district-court-e" aria-label="148th District Court (E)" data-navid="439" target="_self" >148th District Court (E)</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-courts/214th-district-court-f" aria-label="214th District Court (F)" data-navid="440" target="_self" >214th District Court (F)</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-courts/319th-district-court-g" aria-label="319th District Court (G)" data-navid="441" target="_self" >319th District Court (G)</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-courts/347th-district-court-h" aria-label="347th District Court (H)" data-navid="442" target="_self" >347th District Court (H)</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/courts/district-clerk" aria-label="District Clerk" data-navid="469" target="_self" >District Clerk</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-clerk/jury-duty" aria-label="Jury Duty" data-navid="854" target="_self" >Jury Duty</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-clerk/child-support" aria-label="Attorney General Cases" data-navid="78" target="_self" >Attorney General Cases</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-clerk/criminal-e-file" aria-label="Criminal Division" data-navid="1249" target="_self" >Criminal Division</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-clerk/registry-of-the-court" aria-label="Registry of the Court" data-navid="1559" target="_self" >Registry of the Court</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-clerk/reports" aria-label="Reports" data-navid="1560" target="_self" >Reports</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/district-clerk/records" aria-label="Records" data-navid="1778" target="_self" >Records</a><ul class="megamenu_level2"><li class="megamenu_level3"><a class="megamenu_level3" href="/courts/district-clerk/case-search" aria-label="Case Search" data-navid="992" target="_self" >Case Search</a></li></ul></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/courts/justices-of-the-peace" aria-label="Justices of the Peace" data-navid="634" target="_self" >Justices of the Peace</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/justices-of-the-peace/justice-of-the-peace-1-1" aria-label="Justice of the Peace 1-1" data-navid="448" target="_self" >Justice of the Peace 1-1</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/justices-of-the-peace/justice-of-the-peace-1-2" aria-label="Justice of the Peace 1-2" data-navid="449" target="_self" >Justice of the Peace 1-2</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/justices-of-the-peace/justice-of-the-peace-1-3" aria-label="Justice of the Peace 1-3" data-navid="452" target="_self" >Justice of the Peace 1-3</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/justices-of-the-peace/justice-of-the-peace-2-1" aria-label="Justice of the Peace 2-1" data-navid="473" target="_self" >Justice of the Peace 2-1</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/justices-of-the-peace/justice-of-the-peace-2-2" aria-label="Justice of the Peace 2-2" data-navid="476" target="_self" >Justice of the Peace 2-2</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/justices-of-the-peace/justice-of-the-peace-3" aria-label="Justice of the Peace 3" data-navid="477" target="_self" >Justice of the Peace 3</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/justices-of-the-peace/justice-of-the-peace-4" aria-label="Justice of the Peace 4" data-navid="478" target="_self" >Justice of the Peace 4</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/justices-of-the-peace/justice-of-the-peace-5-1" aria-label="Justice of the Peace 5-1" data-navid="479" target="_self" >Justice of the Peace 5-1</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/justices-of-the-peace/justice-of-the-peace-5-2" aria-label="Justice of the Peace 5-2" data-navid="480" target="_self" >Justice of the Peace 5-2</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/courts/juvenile-justice-center" aria-label="Juvenile Justice Center" data-navid="1117" target="_self" >Juvenile Justice Center</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/juvenile-justice-center/calendar" aria-label="Calendar" data-navid="1186" target="_self" >Calendar</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/juvenile-justice-center/juvenile-probation" aria-label="Juvenile Probation" data-navid="1203" target="_self" >Juvenile Probation</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/juvenile-justice-center/juvenile-detention" aria-label="Juvenile Detention" data-navid="1188" target="_self" >Juvenile Detention</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/juvenile-justice-center/juvenile-residential-facility" aria-label="Juvenile Residential Facility" data-navid="1189" target="_self" >Juvenile Residential Facility</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/juvenile-justice-center/juvenile-prison-rape-elimination-act" aria-label="Juvenile Prison Rape Elimination Act" data-navid="1194" target="_self" >Juvenile Prison Rape Elimination Act</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/juvenile-justice-center/wellness-policy" aria-label="Wellness Policy" data-navid="1718" target="_self" >Wellness Policy</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/juvenile-justice-center/juvenile-probation/crimevictiminformation" aria-label="Crime Victim Compensation" data-navid="1305" target="_self" >Crime Victim Compensation</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/courts/13th-court-of-appeals" aria-label="13th Court of Appeals" data-navid="697" target="_blank" rel="noopener">13th Court of Appeals</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/courts/specialty-courts" aria-label="Specialty Courts" data-navid="1481" target="_self" >Specialty Courts</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/courts/specialty-courts/veterans-court" aria-label="Veterans Treatment Court" data-navid="1483" target="_self" >Veterans Treatment Court</a></li></ul></li></ul>
+</div></div></li><li class="megamenu_first" id="dropdownrootitem4"><a class="dropdownrootitem4" link-disabled href="javascript:void(0)" tabindex="0" aria-label="Law Enforcement" data-navid="4" target="_self" >Law Enforcement</a><div class="megamenu_container widthcontainer2col fullwidthdisplay"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/law-enforcement/sheriff" aria-label="Sheriff" data-navid="488" target="_self" >Sheriff</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/sheriff/annual-reports" aria-label="Annual Reports" data-navid="1841" target="_self" >Annual Reports</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/sheriff/coronavirus-jail-visitors" aria-label="Jail Visitation" data-navid="1427" target="_self" >Jail Visitation</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/sheriff/collective-bargaining" aria-label="Collective Bargaining" data-navid="1409" target="_self" >Collective Bargaining</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/sheriff/courthouse-security" aria-label="Courthouse Security" data-navid="1719" target="_self" >Courthouse Security</a><ul class="megamenu_level2"><li class="megamenu_level3"><a class="megamenu_level3" href="/law-enforcement/sheriff/courthouse-security/badge-request" aria-label="Attorney Badge Request" data-navid="1570" target="_self" >Attorney Badge Request</a></li></ul></li><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/sheriff/estray-livestock-copy" aria-label="Estray Livestock" data-navid="1380" target="_self" >Estray Livestock</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/sheriff/game-room-application" aria-label="Game Room Application" data-navid="1838" target="_self" >Game Room Application</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/sheriff/jail-commissary" aria-label="Jail Commissary" data-navid="1122" target="_self" >Jail Commissary</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/sheriff/nueces-county-sheriff-recruitment-page" aria-label="Nueces County Sheriff Recruitment Form" data-navid="1895" target="_self" >Nueces County Sheriff Recruitment Form</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/sheriff/scam-warning" aria-label="Scam Warning" data-navid="1852" target="_self" >Scam Warning</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/sheriff/sheriffs-auctions" aria-label="Sheriffs Auctions" data-navid="1855" target="_blank" rel="noopener">Sheriffs Auctions</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/sheriff/social-services-and-mental-health-resources" aria-label="Social Services and Mental Health Resources" data-navid="1819" target="_self" >Social Services and Mental Health Resources</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/law-enforcement/constables" aria-label="Constables" data-navid="777" target="_self" >Constables</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/constables/constable-precinct-1" aria-label="Constable Precinct 1" data-navid="483" target="_self" >Constable Precinct 1</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/constables/constable-precinct-2" aria-label="Constable Precinct 2" data-navid="484" target="_self" >Constable Precinct 2</a><ul class="megamenu_level2"><li class="megamenu_level3"><a class="megamenu_level3" href="/law-enforcement/constables/constable-precinct-2/constable-precent-2-ruok-program" aria-label="Constable Precinct 2 - RUOK Program" data-navid="1694" target="_self" >Constable Precinct 2 - RUOK Program</a></li></ul></li><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/constables/constable-precinct-3" aria-label="Constable Precinct 3" data-navid="485" target="_self" >Constable Precinct 3</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/constables/constable-precinct-4" aria-label="Constable Precinct 4" data-navid="486" target="_self" >Constable Precinct 4</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/law-enforcement/constables/constable-precinct-5" aria-label="Constable Precinct 5" data-navid="487" target="_self" >Constable Precinct 5</a></li></ul></li></ul>
+</div></div></li><li class="megamenu_first" id="dropdownrootitem5"><a class="dropdownrootitem5" link-disabled href="javascript:void(0)" tabindex="0" aria-label="Departments" data-navid="5" target="_self" >Departments</a><div class="megamenu_container widthcontainer4col fullwidthdisplay"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/13th-court-of-appeals" aria-label="13th Court of Appeals" data-navid="889" target="_blank" rel="noopener">13th Court of Appeals</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/28th-district-court-a" aria-label="28th District Court (A)" data-navid="890" target="_self" >28th District Court (A)</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/94th-district-court-c" aria-label="94th District Court (C)" data-navid="891" target="_self" >94th District Court (C)</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/105th-district-court-d" aria-label="105th District Court (D)" data-navid="892" target="_self" >105th District Court (D)</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/117th-district-court-b" aria-label="117th District Court (B)" data-navid="893" target="_self" >117th District Court (B)</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/148th-district-court-e" aria-label="148th District Court (E)" data-navid="894" target="_self" >148th District Court (E)</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/214th-district-court-f" aria-label="214th District Court (F)" data-navid="895" target="_self" >214th District Court (F)</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/319th-district-court-g" aria-label="319th District Court (G)" data-navid="896" target="_self" >319th District Court (G)</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/347th-district-court-h" aria-label="347th District Court (H)" data-navid="897" target="_self" >347th District Court (H)</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/animal-services" aria-label="Animal Services" data-navid="898" target="_self" >Animal Services</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/budget-office" aria-label="Budget Office" data-navid="1962" target="_self" >Budget Office</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/county-judge" aria-label="County Judge" data-navid="900" target="_self" >County Judge</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/commissioner-precinct-1" aria-label="Commissioner Precinct 1" data-navid="901" target="_self" >Commissioner Precinct 1</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/commissioner-precinct-2" aria-label="Commissioner Precinct 2" data-navid="902" target="_self" >Commissioner Precinct 2</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/commissioner-precinct-3" aria-label="Commissioner Precinct 3" data-navid="903" target="_self" >Commissioner Precinct 3</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/commissioner-precinct-4" aria-label="Commissioner Precinct 4" data-navid="904" target="_self" >Commissioner Precinct 4</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/constable-precinct-1" aria-label="Constable Precinct 1" data-navid="906" target="_self" >Constable Precinct 1</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/constable-precinct-2" aria-label="Constable Precinct 2" data-navid="907" target="_self" >Constable Precinct 2</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/constable-precinct-3" aria-label="Constable Precinct 3" data-navid="908" target="_self" >Constable Precinct 3</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/constable-precinct-4" aria-label="Constable Precinct 4" data-navid="909" target="_self" >Constable Precinct 4</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/constable-precinct-5" aria-label="Constable Precinct 5" data-navid="910" target="_self" >Constable Precinct 5</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/county-airport" aria-label="County Airport" data-navid="911" target="_self" >County Airport</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/county-attorney" aria-label="County Attorney" data-navid="912" target="_self" >County Attorney</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/county-auditor" aria-label="County Auditor" data-navid="913" target="_self" >County Auditor</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/county-clerk" aria-label="County Clerk" data-navid="914" target="_self" >County Clerk</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/county-court-at-law-1" aria-label="County Court at Law 1" data-navid="915" target="_self" >County Court at Law 1</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/county-court-at-law-2" aria-label="County Court at Law 2" data-navid="916" target="_self" >County Court at Law 2</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/county-court-at-law-3" aria-label="County Court at Law 3" data-navid="917" target="_self" >County Court at Law 3</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/county-court-at-law-4" aria-label="County Court at Law 4" data-navid="918" target="_self" >County Court at Law 4</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/county-court-at-law-5" aria-label="County Court at Law 5" data-navid="919" target="_self" >County Court at Law 5</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/court-administrator" aria-label="Court Administrator" data-navid="920" target="_self" >Court Administrator</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/dispute-resolution-services" aria-label="Dispute Resolution Services" data-navid="921" target="_self" >Dispute Resolution Services</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/district-attorney" aria-label="District Attorney" data-navid="922" target="_self" >District Attorney</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/district-clerk" aria-label="District Clerk" data-navid="923" target="_self" >District Clerk</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/emergency-management" aria-label="Emergency Management" data-navid="924" target="_self" >Emergency Management</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/human-resources" aria-label="Human Resources" data-navid="925" target="_self" >Human Resources</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/information-technology" aria-label="Information Technology" data-navid="926" target="_self" >Information Technology</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/justice-of-the-peace-1-1" aria-label="Justice of the Peace 1-1" data-navid="928" target="_self" >Justice of the Peace 1-1</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/justice-of-the-peace-1-2" aria-label="Justice of the Peace 1-2" data-navid="929" target="_self" >Justice of the Peace 1-2</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/justice-of-the-peace-1-3" aria-label="Justice of the Peace 1-3" data-navid="930" target="_self" >Justice of the Peace 1-3</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/justice-of-the-peace-2-1" aria-label="Justice of the Peace 2-1" data-navid="931" target="_self" >Justice of the Peace 2-1</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/justice-of-the-peace-2-2" aria-label="Justice of the Peace 2-2" data-navid="932" target="_self" >Justice of the Peace 2-2</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/justice-of-the-peace-3" aria-label="Justice of the Peace 3" data-navid="933" target="_self" >Justice of the Peace 3</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/justice-of-the-peace-4" aria-label="Justice of the Peace 4" data-navid="934" target="_self" >Justice of the Peace 4</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/justice-of-the-peace-5-1" aria-label="Justice of the Peace 5-1" data-navid="935" target="_self" >Justice of the Peace 5-1</a></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/justice-of-the-peace-5-2" aria-label="Justice of the Peace 5-2" data-navid="936" target="_self" >Justice of the Peace 5-2</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/libraries" aria-label="Libraries" data-navid="937" target="_blank" rel="noopener">Libraries</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/medical-examiner" aria-label="Medical Examiner" data-navid="938" target="_self" >Medical Examiner</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/parks-coastal" aria-label="Parks, Coastal" data-navid="899" target="_blank" rel="noopener">Parks, Coastal</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/parks-inland" aria-label="Parks, Inland" data-navid="927" target="_self" >Parks, Inland</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/public-defender" aria-label="Public Defender" data-navid="943" target="_self" >Public Defender</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/public-works" aria-label="Public Works" data-navid="939" target="_self" >Public Works</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/purchasing" aria-label="Purchasing" data-navid="940" target="_self" >Purchasing</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/risk-management" aria-label="Risk Management" data-navid="941" target="_self" >Risk Management</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/sheriff" aria-label="Sheriff" data-navid="942" target="_self" >Sheriff</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/tax-assessor-collector" aria-label="Tax Assessor/Collector" data-navid="944" target="_self" >Tax Assessor/Collector</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/departments/veterans-services" aria-label="Veterans and Social Services" data-navid="945" target="_self" >Veterans and Social Services</a></li></ul>
+</div></div></li><li class="megamenu_first" id="dropdownrootitem6"><a class="dropdownrootitem6" link-disabled href="javascript:void(0)" tabindex="0" aria-label="County Services" data-navid="6" target="_self" >County Services</a><div class="megamenu_container widthcontainer4col fullwidthdisplay"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/animal-services" aria-label="Animal Services" data-navid="743" target="_self" >Animal Services</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/cafeteria" aria-label="Cafeteria" data-navid="1864" target="_self" >Cafeteria</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/cafeteria/specials-of-the-week" aria-label="Specials of the Week" data-navid="1869" target="_self" >Specials of the Week</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/county-airport" aria-label="County Airport" data-navid="741" target="_self" >County Airport</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/county-airport/airport-facilities" aria-label="Airport Facilities" data-navid="1071" target="_self" >Airport Facilities</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/county-auditor" aria-label="County Auditor" data-navid="493" target="_self" >County Auditor</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/county-auditor/financial-reports" aria-label="Financial Reports" data-navid="494" target="_self" >Financial Reports</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/county-auditor/appointed-attorney" aria-label="Appointed Attorney" data-navid="986" target="_self" >Appointed Attorney</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/county-auditor/budgets" aria-label="Budgets" data-navid="983" target="_self" >Budgets</a><ul class="megamenu_level2"><li class="megamenu_level3"><a class="megamenu_level3" href="/county-services/county-auditor/budgets/chart-of-accounts-tabular" aria-label="Chart of Accounts Tabular" data-navid="1253" target="_self" >Chart of Accounts Tabular</a></li></ul></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/county-boards" aria-label="County Boards" data-navid="630" target="_self" >County Boards</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/county-boards/child-welfare" aria-label="Child Welfare" data-navid="1274" target="_self" >Child Welfare</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/county-boards/civil-service-commission" aria-label="Civil Service Commission" data-navid="522" target="_self" >Civil Service Commission</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/county-boards/historical-commission" aria-label="Historical Commission" data-navid="520" target="_self" >Historical Commission</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/county-boards/application-1377" aria-label="Application" data-navid="1377" target="_self" >Application</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/county-clerk" aria-label="County Clerk" data-navid="497" target="_self" >County Clerk</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/county-clerk/agendas-minutes-videos" aria-label="Agendas/Minutes/Videos" data-navid="1176" target="_self" >Agendas/Minutes/Videos</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/county-clerk/collections-department" aria-label="Collections Department" data-navid="1065" target="_self" >Collections Department</a><ul class="megamenu_level2"><li class="megamenu_level3"><a class="megamenu_level3" href="/county-services/county-clerk/collections-department/court-costs-fines-and-fees-collection" aria-label="Court Costs, Fines, and Fees Collection" data-navid="1171" target="_self" >Court Costs, Fines, and Fees Collection</a></li></ul></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/county-clerk/filing-department" aria-label="Filing Department" data-navid="1066" target="_self" >Filing Department</a><ul class="megamenu_level2"><li class="megamenu_level3"><a class="megamenu_level3" href="/county-services/county-clerk/filing-department/public-records-search" aria-label="Public Records Search" data-navid="819" target="_blank" rel="noopener">Public Records Search</a></li><li class="megamenu_level3"><a class="megamenu_level3" href="/county-services/county-clerk/filing-department/marriage-license" aria-label="Marriage License" data-navid="1914" target="_self" >Marriage License</a></li></ul></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/county-clerk/elections-department" aria-label="Elections Department" data-navid="1068" target="_self" >Elections Department</a><ul class="megamenu_level2"><li class="megamenu_level3"><a class="megamenu_level3" href="/county-services/county-clerk/elections-department/frequently-asked-questions" aria-label="Frequently Asked Questions" data-navid="1492" target="_self" >Frequently Asked Questions</a></li><li class="megamenu_level3"><a class="megamenu_level3" href="/county-services/county-clerk/elections-department/notices" aria-label="Notices" data-navid="1389" target="_self" >Notices</a></li><li class="megamenu_level3"><a class="megamenu_level3" href="/county-services/county-clerk/elections-department/election-complaint-form" aria-label="Voter Complaint Form" data-navid="1363" target="_self" >Voter Complaint Form</a></li></ul></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/county-clerk/thank-a-veteran" aria-label="Thank a Veteran" data-navid="500" target="_self" >Thank a Veteran</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/county-clerk/treasury" aria-label="Treasury" data-navid="1067" target="_self" >Treasury</a><ul class="megamenu_level2"><li class="megamenu_level3"><a class="megamenu_level3" href="/county-services/county-clerk/treasury/bail-bond-information" aria-label="Bail Bond Information" data-navid="498" target="_self" >Bail Bond Information</a></li></ul></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/cscd-adult-probation" aria-label="CSCD (Adult Probation)" data-navid="762" target="_self" >CSCD (Adult Probation)</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/directory-phonebook" aria-label="Directory (Phonebook)" data-navid="735" target="_self" >Directory (Phonebook)</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/dispute-resolution-services" aria-label="Dispute Resolution Services" data-navid="636" target="_self" >Dispute Resolution Services</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/dispute-resolution-services/what-is-mediation" aria-label="What is Mediation" data-navid="702" target="_self" >What is Mediation</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/dispute-resolution-services/request-for-mediation" aria-label="Request for Mediation" data-navid="1101" target="_self" >Request for Mediation</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/emergency-management" aria-label="Emergency Management" data-navid="536" target="_self" >Emergency Management</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/hurricane-information" aria-label="Hurricane Information" data-navid="1856" target="_self" >Hurricane Information</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/emergency-management/important-information" aria-label="Important Information" data-navid="537" target="_self" >Important Information</a><ul class="megamenu_level2"><li class="megamenu_level3"><a class="megamenu_level3" href="/county-services/emergency-management/hurricane-information" aria-label="Hurricane Information" data-navid="1470" target="_self" >Hurricane Information</a></li><li class="megamenu_level3"><a class="megamenu_level3" href="/county-services/emergency-management/important-information/daily-reports" aria-label="Daily Reports" data-navid="1816" target="_self" >Daily Reports</a></li></ul></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/grants-administration" aria-label="Grants Administration" data-navid="760" target="_self" >Grants Administration</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/grants-administration/arpa" aria-label="ARPA" data-navid="1840" target="_self" >ARPA</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/grants-administration/grant-applications" aria-label="Grant Applications" data-navid="1370" target="_self" >Grant Applications</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/human-resources" aria-label="Human Resources" data-navid="453" target="_self" >Human Resources</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/human-resources/civil-service-commission" aria-label="Civil Service Commission" data-navid="1098" target="_self" >Civil Service Commission</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/human-resources/employment" aria-label="Employment" data-navid="769" target="_blank" rel="noopener">Employment</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/information-technology" aria-label="Information Technology" data-navid="638" target="_self" >Information Technology</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/information-technology/records-services" aria-label="Records Services" data-navid="1107" target="_self" >Records Services</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/libraries" aria-label="Libraries" data-navid="640" target="_blank" rel="noopener">Libraries</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/medical-examiner" aria-label="Medical Examiner" data-navid="745" target="_self" >Medical Examiner</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/medical-examiner/documents" aria-label="Documents" data-navid="1839" target="_self" >Documents</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/payments" aria-label="Payments" data-navid="1054" target="_self" >Payments</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/payments/child-support" aria-label="Child Support" data-navid="1261" target="_self" >Child Support</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/payments/court-costs-fines-and-fees-collection" aria-label="Court Costs, Fines, and Fees Collection" data-navid="1173" target="_self" >Court Costs, Fines, and Fees Collection</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/payments/jail-commissary" aria-label="Jail Commissary" data-navid="1260" target="_self" >Jail Commissary</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/parks-coastal" aria-label="Parks, Coastal" data-navid="747" target="_blank" rel="noopener">Parks, Coastal</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/parks-inland" aria-label="Parks, Inland" data-navid="752" target="_self" >Parks, Inland</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/parks-inland/senior-community-center-robstown" aria-label="Senior Community Center - Robstown" data-navid="1255" target="_self" >Senior Community Center - Robstown</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/public-defender" aria-label="Public Defender" data-navid="1129" target="_self" >Public Defender</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/public-defender/calendar" aria-label="Calendar" data-navid="1128" target="_self" >Calendar</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/public-works" aria-label="Public Works" data-navid="642" target="_self" >Public Works</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/public-works/description-of-office" aria-label="Description of Office" data-navid="1111" target="_self" >Description of Office</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/public-works/engineering" aria-label="Engineering" data-navid="709" target="_self" >Engineering</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/public-works/fema-floodplain-maps" aria-label="FEMA Floodplain Maps" data-navid="711" target="_self" >FEMA Floodplain Maps</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/public-works/floodplain-development" aria-label="Floodplain Development" data-navid="712" target="_self" >Floodplain Development</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/public-works/subdivision-and-platting-requirements" aria-label="Subdivision and Platting Requirements" data-navid="715" target="_self" >Subdivision and Platting Requirements</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/public-works/road-and-bridge" aria-label="Road and Bridge" data-navid="717" target="_self" >Road and Bridge</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/public-works/vector-control" aria-label="Vector Control" data-navid="719" target="_self" >Vector Control</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/public-works/addressing-program" aria-label="Addressing Program" data-navid="1571" target="_self" >Addressing Program</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/purchasing" aria-label="Purchasing" data-navid="528" target="_self" >Purchasing</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/purchasing/bids" aria-label="Bids" data-navid="531" target="_self" >Bids</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/risk-management" aria-label="Risk Management" data-navid="628" target="_self" >Risk Management</a></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/tax-assessor-collector" aria-label="Tax Assessor/Collector" data-navid="532" target="_self" >Tax Assessor/Collector</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/tax-assessor-collector/schedule-appointment" aria-label="Schedule Appointment" data-navid="1563" target="_self" >Schedule Appointment</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/payments/pay-property-tax" aria-label="Pay Property Tax" data-navid="1167" target="_self" >Pay Property Tax</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/tax-assessor-collector/vehicle-registration" aria-label="Vehicle Registration" data-navid="557" target="_self" >Vehicle Registration</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/tax-assessor-collector/locations" aria-label="Locations" data-navid="1164" target="_self" >Locations</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/tax-assessor-collector/documents" aria-label="Documents" data-navid="1151" target="_self" >Documents</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/tax-assessor-collector/voter-registration" aria-label="Voter Registration" data-navid="730" target="_self" >Voter Registration</a><ul class="megamenu_level2"><li class="megamenu_level3"><a class="megamenu_level3" href="/county-services/tax-assessor-collector/voter-registration/register-to-vote" aria-label="Register To Vote" data-navid="1493" target="_self" >Register To Vote</a></li><li class="megamenu_level3"><a class="megamenu_level3" href="/county-services/tax-assessor-collector/voter-registration/where-to-get-an-application" aria-label="Where To Get an Application" data-navid="1494" target="_self" >Where To Get an Application</a></li><li class="megamenu_level3"><a class="megamenu_level3" href="/county-services/tax-assessor-collector/voter-registration/useful-links" aria-label="Useful Links" data-navid="1495" target="_self" >Useful Links</a></li></ul></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/tax-assessor-collector/5-year-truth-in-taxation" aria-label="5 Year Truth in Taxation" data-navid="1408" target="_self" rel="noopener">5 Year Truth in Taxation</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/tax-assessor-collector/external-agencies" aria-label="External Agencies" data-navid="1455" target="_self" >External Agencies</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/county-services/veterans-and-social-services" aria-label="Veterans and Social Services" data-navid="647" target="_self" >Veterans and Social Services</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/veterans-and-social-services/resources" aria-label="Resources" data-navid="1000" target="_self" >Resources</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/county-services/veterans-and-social-services/fallen-heroes" aria-label="Fallen Heroes" data-navid="1466" target="_self" >Fallen Heroes</a></li></ul></li></ul>
+</div></div></li><li class="megamenu_first" id="dropdownrootitem7"><a class="dropdownrootitem7" link-disabled href="javascript:void(0)" tabindex="0" aria-label="Quick Links" data-navid="7" target="_self" >Quick Links</a><div class="megamenu_container widthcontainer4col fullwidthdisplay"><div class="inner_container"><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/quick-links/applications-forms" aria-label="Applications/Forms" data-navid="860" target="_self" >Applications/Forms</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/applications-forms/assumed-name" aria-label="Assumed Name" data-navid="951" target="_self" >Assumed Name</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/applications-forms/bids" aria-label="Bids" data-navid="952" target="_self" >Bids</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/applications-forms/birth-or-death-record" aria-label="Birth or Death Record" data-navid="976" target="_self" >Birth or Death Record</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/applications-forms/employment" aria-label="Employment" data-navid="958" target="_self" >Employment</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/applications-forms/marriage-licenses" aria-label="Marriage Licenses" data-navid="980" target="_self" >Marriage Licenses</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/quick-links/maps" aria-label="Maps" data-navid="780" target="_blank" rel="noopener">Maps</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/maps/fema-floodplain-maps" aria-label="FEMA Floodplain Maps" data-navid="948" target="_self" >FEMA Floodplain Maps</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/maps/election-gis-maps" aria-label="Election GIS Maps" data-navid="949" target="_self" >Election GIS Maps</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/maps/nueces-county-commissioners-precinct-maps" aria-label="Nueces County Commissioners Precinct Maps" data-navid="1913" target="_self" >Nueces County Commissioners Precinct Maps</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/quick-links/payments" aria-label="Payments" data-navid="784" target="_self" >Payments</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/payments/child-support" aria-label="Child Support" data-navid="1059" target="_self" >Child Support</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/payments/court-costs-fines-and-fees-collection" aria-label="Court Costs, Fines, and Fees Collection" data-navid="970" target="_self" >Court Costs, Fines, and Fees Collection</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/payments/jail-commissary" aria-label="Jail Commissary" data-navid="1006" target="_self" >Jail Commissary</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/payments/pay-property-tax" aria-label="Pay Property Tax" data-navid="1168" target="_self" >Pay Property Tax</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/quick-links/permit-information" aria-label="Permit Information" data-navid="785" target="_self" >Permit Information</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/permit-information/alcoholic-beverage-permit" aria-label="Alcoholic Beverage Permit" data-navid="971" target="_self" >Alcoholic Beverage Permit</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/permit-information/coin-operated-machine-permit" aria-label="Coin Operated Machine Permit" data-navid="972" target="_self" >Coin Operated Machine Permit</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/permit-information/driveways" aria-label="Driveways" data-navid="973" target="_self" >Driveways</a></li></ul></li><li class="megamenu_level1"><a class="megamenu_level1" href="/quick-links/reports" aria-label="Reports" data-navid="859" target="_self" >Reports</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/reports/appointed-attorney-reports" aria-label="Appointed Attorney Reports" data-navid="974" target="_self" >Appointed Attorney Reports</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/reports/financial-reports" aria-label="Financial Reports" data-navid="975" target="_self" >Financial Reports</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/quick-links/video-streaming" aria-label="Video Streaming" data-navid="1439" target="_self" >Video Streaming</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/commissioners/live-video-of-meeting" aria-label="Commissioners Court Meeting" data-navid="787" target="_self" rel="noopener">Commissioners Court Meeting</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/video-streaming/court-video-streaming" aria-label="Court Video Streaming" data-navid="1440" target="_self" >Court Video Streaming</a></li></ul></li></ul><ul class="megamenu_column"><li class="megamenu_level1"><a class="megamenu_level1" href="/quick-links/other-information" aria-label="Other Information" data-navid="783" target="_self" >Other Information</a><ul class="megamenu_level1"><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/other-information/case-search" aria-label="Case Search" data-navid="993" target="_self" >Case Search</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/other-information/commissioners-court-agenda-minutes-video" aria-label="Commissioners Court Agenda/Minutes/Video" data-navid="946" target="_self" >Commissioners Court Agenda/Minutes/Video</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/other-information/county-boards" aria-label="County Boards" data-navid="953" target="_self" >County Boards</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/other-information/elections" aria-label="Elections" data-navid="977" target="_self" >Elections</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/other-information/emergency-management" aria-label="Emergency Management" data-navid="957" target="_self" >Emergency Management</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/other-information/estray-livestock" aria-label="Estray Livestock" data-navid="959" target="_self" >Estray Livestock</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/other-information/jail-operations" aria-label="Jail Operations" data-navid="961" target="_self" >Jail Operations</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/other-information/jury-duty" aria-label="Jury Duty" data-navid="962" target="_self" >Jury Duty</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/other-information/kofile-quick-links" aria-label="Kofile Quick Links" data-navid="1617" target="_blank" rel="noopener">Kofile Quick Links</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/other-information/libraries" aria-label="Libraries" data-navid="994" target="_self" >Libraries</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/other-information/pace-program" aria-label="PACE Program" data-navid="965" target="_self" >PACE Program</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/other-information/property-tax-faq" aria-label="Property Tax FAQ" data-navid="966" target="_self" >Property Tax FAQ</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/other-information/public-records-search" aria-label="Public Records Search" data-navid="1008" target="_blank" rel="noopener">Public Records Search</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/other-information/victims-assistance" aria-label="Victims Assistance" data-navid="968" target="_self" >Victims Assistance</a></li><li class="megamenu_level2"><a class="megamenu_level2" href="/quick-links/other-information/voter-registration" aria-label="Voter Registration" data-navid="969" target="_self" >Voter Registration</a></li></ul></li></ul>
+</div></div></li></ul>
+
+<script>
+    $(function () {
+        /**load the Advance Mega Menu which is set to async load**/
+        $(".async_widget_container.custominvoke").loadAsyncContainer();
+    });
+</script>
+<script>
+$(function () {
+ var menuContainer = $('#menuContainer_527_0_1389');
+ menuContainer.find('.dropdownmenu>li>a[data-navid="6"]').closest('li').addClass('active _visionMenuSelected');
+});
+</script></nav><!--startindex--></div>
+
+
+<script>
+    /**********************************************************
+    Dropdown Menu delay disappearance on mouse out
+    *********************************************************/
+    /*javascript to delay the disappearance of the menu when the user mouses out.  Uses jquery library.*/
+    $(function () {
+        
+
+        var timer = null;
+        var delay = 800; //change this number for shorter or longer delay
+        
+        
+        //using megamenu
+        var dropdowncontainer = '>.megamenu_container';        
+        var activePage = $(".mainnav .dropdownmenu > li.active");
+        $('.mainnav > .dropdownmenu>li > a').css('overflow', 'visible');
+        $(".mainnav > .dropdownmenu > li").hoverIntent(
+        
+            //what happens on hover over
+            function () {
+                 //end timer and stop hiding if they are mousing back in.
+                 if (timer != null) {
+                     clearTimeout(timer);
+                     timer = null;
+                 }
+                 // Find the hovered menu's sub-menu
+                 var $menu = $(this);
+                 var $submenu = $(this).find(dropdowncontainer);
+
+                 // hide any other submenus that are open
+                 $('.mainnav > .dropdownmenu>li' + dropdowncontainer).not($submenu).css('display', 'none');
+                 $('.mainnav > .dropdownmenu li.active').not($menu).not(activePage).removeClass('active');
+                 $('.mainnav > .dropdownmenu li._visionMenuHovered').not($menu).removeClass('_visionMenuHovered');
+                 // show current menu
+                 $submenu.css('display', 'block');
+                 $menu.addClass('active');
+                 $menu.addClass('_visionMenuHovered');
+             },
+
+            //what happens on mouse out
+            function () {
+                var $submenu = $(this).find(dropdowncontainer);
+                var $menu = $(this);
+                // delay disappearance
+                var mouseDelay = $(this).data("mouseDelay") || delay;
+                clearTimeout(timer);
+                timer = setTimeout(function () {
+                    $submenu.css('display', 'none'); $menu.not(activePage).removeClass('active');
+                    $menu.removeClass('_visionMenuHovered');
+                    clearTimeout(timer); timer = null;
+                }, mouseDelay);
+            }
+        );
+
+        function hideRootMegaMenu($menu) {
+            $menu.children(dropdowncontainer).css('display', 'none');
+            $menu.not(activePage).removeClass('active');
+            $menu.removeClass('_visionMenuHovered');
+        }
+
+        function showRootMegaMenu($menu) {
+            var $submenu = $menu.children(dropdowncontainer);    
+            $('.mainnav > .dropdownmenu > li').not($menu).each(function () {
+                hideRootMegaMenu($(this));
+            });
+            if ($submenu.length > 0) {
+                $submenu.css('display', 'block');
+            }
+            $menu.addClass('active');
+            $menu.addClass('_visionMenuHovered');
+        }
+        
+        $('.mainnav > .dropdownmenu > li.megamenu_first > a:not([href])').on('keydown', function (event) {
+            var keyCode = event.which || event.keyCode;
+            var $menu = $(this).closest('li');
+
+            if (keyCode == 13 || keyCode == 32) {
+                event.preventDefault();
+                clearTimeout(timer);
+                if ($menu.children(dropdowncontainer).is(':visible')) {
+                    hideRootMegaMenu($menu);
+                }
+                else {
+                    showRootMegaMenu($menu);
+                }
+            }
+            else if (keyCode == 27) {
+                event.preventDefault();
+                hideRootMegaMenu($menu);
+                $(this).focus();
+            }
+        });
+
+        $('body').bind('keyup', function (event) {
+            if (event.keyCode == 9) {
+                // Find the hovered menu's sub-menu
+                var $menu = $(event.target).closest('li');                
+                 $menu.addClass("_visionMenuHovered");
+                $menu.on('focusout', function () {
+                $(this).removeClass("_visionMenuHovered");
+ });
+                let isJPanelMenuVisible = $("#jPanelMenu-menu").length > 0 ? true : false;
+                if ($menu.hasClass('megamenu_first')) {
+                    if (isJPanelMenuVisible) {
+                        HideMainMenuChild($menu.prev().find('li'));
+                    }
+                    var $submenu = $menu.find(dropdowncontainer);
+
+                    // hide any other submenus that are open
+                    $('.mainnav > .dropdownmenu>li' + dropdowncontainer).not($submenu).css('display', 'none');
+                    $('.mainnav > .dropdownmenu li.active').not($menu).not(activePage).removeClass('active');
+                    // show current menu
+                    $submenu.css('display', 'block');
+                    $menu.addClass('active');
+                }
+                else {
+                    if (isJPanelMenuVisible) {
+                        //sub-menu has children
+                        if ($menu.children('ul').length > 0) {
+                            var subMenuContainer = '>li > ul';
+                            var $submenuChild = $menu.find('>ul');
+                            $submenuChild.css('display', 'block');
+                            $menu.addClass('megamenulevelchildmenu');
+                        }
+
+                        var isSideNav = $menu.hasClass('sidenav_haschildren');
+                        if (isSideNav) {
+                            $menu.removeClass('megamenulevelchildmenu');
+                            $menu.addClass('sidenav_expanded');
+                            var $item = $menu.children('.vi-sidenav-toggle');
+                            $item.html("-");
+                            $item.attr('aria-expanded', true);
+                            $item.on('keydown', function (e) {
+                                if (e.code.toLowerCase() == "enter" || e.code.toLowerCase() == "numpadenter") {
+                                    var isSideNavExpanded = $menu.hasClass('sidenav_expanded');
+                                    if (isSideNavExpanded) {
+                                        $item.html("-");
+                                        $item.attr('aria-expanded', false);
+                                        $menu.children('ul').css('display', 'none');
+                                    }
+                                    else {
+                                        var isItemExpand = $item.html() == "-";
+                                        if (!isItemExpand) {
+                                            $item.html("+");
+                                        }
+                                        $item.attr('aria-expanded', !isItemExpand);
+                                        $menu.children('ul').css('display', isItemExpand ? 'none' : 'block');
+                                        $menu.removeClass('sidenav_expanded');
+                                    }
+                                }
+                            });
+                        }
+                        if ($menu.prev().hasClass('megamenulevelchildmenu')) {
+                            HideMainMenuChild($menu.prev());
+                        }
+                        else if ($menu.parent().prev().children('li').hasClass('megamenulevelchildmenu')) {
+                            HideMainMenuChild($menu.parent().prev().children('li'));
+                        }
+                    }
+
+                }
+            }
+        });
+
+        function HideMainMenuChild(e) {
+            $(e).each(function (index,child) {
+                
+                if ($(child).children('ul').each(function (subIndex,subChild) {
+                    HideMainMenuChild($(subChild).children('li'));
+                }));  
+            });
+            $(e).children('ul').css('display', 'none');
+            $(e).removeClass('megamenulevelchildmenu');
+        }
+
+        
+        $(document).click(function(e){
+            if($(e.target).closest('li.active').hasClass('megamenu_first') === false &&
+                $(e.target).closest(".megamenu_first>a").length <= 0){
+                $('.megamenu_first>div.megamenu_container').css('display', 'none');                
+            }               
+        });
+
+    });
+</script>
+
+<script>
+    //$(function () 
+    {
+        var menuContainerID = "menuContainer_527_0_1389";
+        var menuContainer = $("#" + menuContainerID);
+        
+        function isIE(userAgent) {
+            userAgent = userAgent || navigator.userAgent;
+            return userAgent.indexOf("MSIE ") > -1 || userAgent.indexOf("Trident/") > -1;
+        }
+
+        function isIE9(userAgent) {
+            userAgent = userAgent || navigator.userAgent;
+            return userAgent.indexOf("MSIE 9") > -1;
+        }
+
+        function isTouchScreenEvent(event) {
+            var _isTouchScreen = false;
+            if ("ontouchstart" in window) {
+                _isTouchScreen = true;
+            } else if ("onpointerdown" in window) {
+                _isTouchScreen = event.originalEvent.pointerType == "touch";
+            } else if (window.MSPointerEvent) {
+                _isTouchScreen = event.originalEvent.pointerType == event.originalEvent.MSPOINTER_TYPE_TOUCH; // 2 ; http://blogs.msdn.com/b/ie/archive/2011/09/20/touch-input-for-ie10-and-metro-style-apps.aspx
+            } else {
+            }
+            return _isTouchScreen;
+        }
+
+        var _isIE = isIE();
+        var _isIE9 = isIE9();
+        var isMegaMenu = $('.megamenu_first', menuContainer).length > 0;
+        var currentMenu = $('> ul.dropdownmenu > li.active', menuContainer);
+
+        $(function () {
+            if (currentMenu.length == 0)
+                currentMenu = $('> ul.dropdownmenu > li.active', menuContainer);
+        });
+
+        if (("ontouchstart" in window   // Chrome & Safari (IOS) && Firefox
+         || "onpointerdown" in window   // IE 11 
+         || window.MSPointerEvent       // IE 10
+         ) && ($(window).width() > 648)) {
+            var eventName = "ontouchstart" in window ? "touchstart"
+                          : "onpointerdown" in window ? "pointerdown"
+                          : window.MSPointerEvent ? "MSPointerDown"
+                          : "";
+            if (eventName.length > 0) {
+                $('> ul.dropdownmenu  li>a[data-navid]', menuContainer).bind(eventName, function (event) {
+
+                    if (isTouchScreenEvent(event) == false) {
+                        return true;
+                    }
+
+                    var currentLevelAnchor = $(this);
+                    var currentLeveLi = currentLevelAnchor.closest("li");
+                    var firstLevelLi = currentLevelAnchor.closest("li[id^='dropdownrootitem']");
+                    var firstLevelAnchor = firstLevelLi.find(">a[data-navid]");
+                    var inFirstLevel = currentLevelAnchor[0] == firstLevelAnchor[0];
+
+                    var hasSubMenu = currentLevelAnchor.next("ul,div").length > 0;
+                    if (hasSubMenu) {
+                        $(this).closest("li").data("mouseDelay", 1);
+
+                        // Menu is not selected
+                        if (!firstLevelLi.hasClass('touch-active')) {
+                            if ($(this).attr("href")) {
+                                $(this).attr("data-href", $(this).attr("href"));
+                                $(this).attr("href", "javascript:void(0);");
+                            }
+                            $(menuContainer).find('.touch-active').removeClass('touch-active').not(currentMenu).removeClass('active');
+
+                            firstLevelLi.addClass('touch-active active');
+                            currentLevelAnchor.addClass('touch-active active');
+                            currentMenu.addClass("active");
+
+                            $(' li:not(.touch-active)', menuContainer).not(firstLevelLi).removeClass('_current');
+                            $(' li:not(.touch-active) li', menuContainer).not(currentLeveLi).removeClass('_current');
+
+                            $('> ul.dropdownmenu > li:not(.touch-active) > a[data-navid]', menuContainer).next().css('display', 'none');
+                            $('> ul.dropdownmenu > li.touch-active > a[data-navid]', menuContainer).next().css('display', 'block');
+
+                            event.preventDefault();
+                        }
+                            // Menu is selected
+                        else {
+                            if (inFirstLevel) {
+                                // non clickable
+                                if (currentLevelAnchor.attr('href') == undefined) {
+                                    //has class touch-active and no link
+                                    removeClassAndHideMenu();
+                                    event.preventDefault();
+                                } else if ($(this).attr("data-href")) { //clickable, but href have been moved to data.
+                                    $(this).attr("href", $(this).attr("data-href"));
+                                }
+                            }
+                            else {
+                                if (isMegaMenu)
+                                    return true;
+
+                                if (!currentLeveLi.hasClass('touch-active')) {
+                                    if ($(this).attr("href")) {
+                                        $(this).attr("data-href", $(this).attr("href"));
+                                        $(this).attr("href", "javascript:void(0);");
+                                    }
+                                    $(firstLevelLi).find('.touch-active').removeClass('touch-active').not(currentMenu).removeClass('active');
+                                    currentLeveLi.parent().children("li._current").removeClass("_current");
+                                    currentLeveLi.addClass('touch-active active _current');
+
+                                    currentLevelAnchor.addClass('touch-active active');
+
+                                    //$(' li:not(.touch-active)', menuContainer).not(firstLevelLi).removeClass('_current');    
+                                    //$(' li:not(.touch-active) li', menuContainer).not(currentLeveLi).removeClass('_current');
+
+                                    $(' li:not(.touch-active) > a[data-navid]', currentLeveLi.parent()).next().css('display', 'none');
+                                    $('> li.touch-active > a[data-navid]', currentLeveLi.parent()).next().css('display', 'block');
+
+                                    event.preventDefault();
+                                } else {
+                                    if (currentLevelAnchor.attr('href') == undefined) {
+                                        //has class touch-active and no link
+                                        removeClassAndHideMenu();
+                                        event.preventDefault();
+                                    } else if ($(this).attr("data-href")) {
+                                        $(this).attr("href", $(this).attr("data-href"));
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                });
+            }
+        }
+
+
+
+        function removeClassAndHideMenu() {
+            $(menuContainer).find('a.touch-active, li.touch-active').removeClass('touch-active active');
+            $('> ul.dropdownmenu > li > a[data-navid]', menuContainer).next().css('display', 'none');
+            // If we don't change the menu item, we should keep the old one.
+            if ($('> ul.dropdownmenu > li.active', menuContainer).length == 0) {
+                currentMenu.addClass("active");
+            }
+        }
+
+        $('body').bind(eventName, function (event) {
+            if (isTouchScreenEvent(event) == false) {
+                return true;
+            }
+            if (!$(event.target).closest('li.touch-active').length) {
+                removeClassAndHideMenu();
+            }
+        });
+    }
+    //);
+</script>
+
+                
+                <!--startindex-->
+                <!--!!WidgetEnd-->
+
+    
+</div>
+
+
+    
+<div id="ColumnUserControl2" class="column   left_col  ">
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="531"WidgetStart!!-->    
+
+                <!--stopindex-->
+                
+
+<nav id='leftNav_531_0_1389' aria-label="Side Navigation" class='nocontent sidenav mobile_list vi-sidenav-desktop   '>
+    <!--stopindex--><h2 class="mobile_only mobile_header" role="button" tabindex="0" aria-controls="leftNav_531_0_1389" aria-label="Toggle Jump to subpage...">Jump to subpage...</h2>
+    <ul><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/animal-services' target='_self' aria-label='Animal Services'>Animal Services</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Animal Services" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Animal Services">+</a><ul><li><a href='https://www.nuecesco.com/county-services/animal-control/calendar' target='_self' aria-label='Calendar'>Calendar</a></li><li><a href='https://www.nuecesco.com/county-services/animal-services/documents' target='_self' aria-label='Documents'>Documents</a></li></ul></li><li><a href='https://www.nuecesco.com/county-services/cafeteria' target='_self' aria-label='Cafeteria'>Cafeteria</a></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/county-airport' target='_self' aria-label='County Airport'>County Airport</a><a href="javascript:void(0)" title="Expand/Collapse subpages under County Airport" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under County Airport">+</a><ul><li><a href='https://www.nuecesco.com/county-services/county-airport/calendar' target='_self' aria-label='Calendar'>Calendar</a></li><li><a href='https://www.nuecesco.com/county-services/county-airport/airport-facilities' target='_self' aria-label='Airport Facilities'>Airport Facilities</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/county-auditor' target='_self' aria-label='County Auditor'>County Auditor</a><a href="javascript:void(0)" title="Expand/Collapse subpages under County Auditor" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under County Auditor">+</a><ul><li><a href='https://www.nuecesco.com/county-services/county-auditor/calendar' target='_self' aria-label='Calendar'>Calendar</a></li><li><a href='https://www.nuecesco.com/county-services/county-auditor/financial-reports' target='_self' aria-label='Financial Reports'>Financial Reports</a></li><li><a href='https://www.nuecesco.com/county-services/county-auditor/appointed-attorney' target='_self' aria-label='Appointed Attorney'>Appointed Attorney</a></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/county-auditor/budgets' target='_self' aria-label='Budgets'>Budgets</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Budgets" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Budgets">+</a><ul><li><a href='https://www.nuecesco.com/county-services/county-auditor/budgets/chart-of-accounts-tabular' target='_self' aria-label='Chart of Accounts Tabular'>Chart of Accounts Tabular</a></li></ul></li><li><a href='https://www.nuecesco.com/county-services/county-auditor/employees' target='_blank' aria-label='Employees'>Employees</a></li><li><a href='https://www.nuecesco.com/commissioners-court/budget-office/nueces-county-budget-copy' target='_self' aria-label='Nueces County Budget'>Nueces County Budget</a></li><li><a href='https://www.nuecesco.com/county-services/county-auditor/other-forms' target='_self' aria-label='Other Forms'>Other Forms</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/county-boards' target='_self' aria-label='County Boards'>County Boards</a><a href="javascript:void(0)" title="Expand/Collapse subpages under County Boards" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under County Boards">+</a><ul><li><a href='https://www.nuecesco.com/county-services/county-boards/child-welfare' target='_self' aria-label='Child Welfare'>Child Welfare</a></li><li><a href='https://www.nuecesco.com/county-services/county-boards/civil-service-commission' target='_self' aria-label='Civil Service Commission'>Civil Service Commission</a></li><li><a href='https://www.nuecesco.com/county-services/county-boards/historical-commission' target='_self' aria-label='Historical Commission'>Historical Commission</a></li><li><a href='https://www.nuecesco.com/county-services/county-boards/application-1377' target='_self' aria-label='Application'>Application</a></li></ul></li><li class="sidenav_expanded sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/county-clerk' target='_self' aria-label='County Clerk'>County Clerk</a><a href="javascript:void(0)" title="Expand/Collapse subpages under County Clerk" class="vi-sidenav-toggle" aria-expanded=true aria-label="Expand/Collapse subpages under County Clerk">-</a><ul><li><a href='https://www.nuecesco.com/county-services/county-clerk/calendar' target='_self' aria-label='Calendar'>Calendar</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/description-of-office' target='_self' aria-label='Description of Office'>Description of Office</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/robstown-office' target='_self' aria-label='Robstown Office'>Robstown Office</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/agendas-minutes-videos' target='_self' aria-label='Agendas/Minutes/Videos'>Agendas/Minutes/Videos</a></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/county-clerk/collections-department' target='_self' aria-label='Collections Department'>Collections Department</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Collections Department" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Collections Department">+</a><ul><li><a href='https://www.nuecesco.com/county-services/county-clerk/collections-department/court-costs-fines-and-fees-collection' target='_self' aria-label='Court Costs, Fines, and Fees Collection'>Court Costs, Fines, and Fees Collection</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/county-clerk/filing-department' target='_self' aria-label='Filing Department'>Filing Department</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Filing Department" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Filing Department">+</a><ul><li><a href='https://www.nuecesco.com/county-services/county-clerk/filing-department/assumed-name' target='_self' aria-label='Assumed Name'>Assumed Name</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/filing-department/cattle-marks-and-brands' target='_self' aria-label='Cattle Marks and Brands'>Cattle Marks and Brands</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/filing-department/filing-fee-schedule' target='_self' aria-label='Filing Fee Schedule'>Filing Fee Schedule</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/filing-department/hb23-conflicts-of-interest' target='_self' aria-label='HB23 - Conflicts of Interest'>HB23 - Conflicts of Interest</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/filing-department/public-records-search' target='_blank' aria-label='Public Records Search'>Public Records Search</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/filing-department/public-notice' target='_self' aria-label='Public Notice'>Public Notice</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/filing-department/marriage-license' target='_self' aria-label='Marriage License'>Marriage License</a></li></ul></li><li class="sidenav_expanded sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/county-clerk/elections-department' target='_self' aria-label='Elections Department'>Elections Department</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Elections Department" class="vi-sidenav-toggle" aria-expanded=true aria-label="Expand/Collapse subpages under Elections Department">-</a><ul><li><a href='https://www.nuecesco.com/county-services/county-clerk/elections-department/frequently-asked-questions' target='_self' aria-label='Frequently Asked Questions'>Frequently Asked Questions</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/elections-department/ballot-by-mail' target='_self' aria-label='Ballot by Mail'>Ballot by Mail</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/elections-department/campaign-finance-reports' target='_self' aria-label='Campaign Finance Reports'>Campaign Finance Reports</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/elections-department/election-information-and-links' target='_self' aria-label='Election Information and Links'>Election Information and Links</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/elections-department/election-history' target='_self' aria-label='Election History'>Election History</a></li><li class="sidenav_current"><a href='https://www.nuecesco.com/county-services/county-clerk/elections-department/election-gis-maps' target='_self' aria-label='Election GIS Maps'>Election GIS Maps</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/elections-department/notices' target='_self' aria-label='Notices'>Notices</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/elections-department/voting-system' target='_self' aria-label='Voting System'>Voting System</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/elections-department/election-complaint-form' target='_self' aria-label='Voter Complaint Form'>Voter Complaint Form</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct' target='_self' aria-label='Sample Ballot 1126 (Precinct)'>Sample Ballot 1126 (Precinct)</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/county-clerk/thank-a-veteran' target='_self' aria-label='Thank a Veteran'>Thank a Veteran</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Thank a Veteran" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Thank a Veteran">+</a><ul><li><a href='https://www.nuecesco.com/county-services/county-clerk/thank-a-veteran/business-information' target='_self' aria-label='Business Information'>Business Information</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/thank-a-veteran/general-information' target='_self' aria-label='General Information'>General Information</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/thank-a-veteran/veteran-information' target='_self' aria-label='Veteran Information'>Veteran Information</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/thank-a-veteran/participating-businesses' target='_self' aria-label='Participating Businesses'>Participating Businesses</a></li><li><a href='https://www.nuecesco.com/county-services/county-clerk/thank-a-veteran/id-card-breakdown' target='_self' aria-label='ID Card Breakdown'>ID Card Breakdown</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/county-clerk/treasury' target='_self' aria-label='Treasury'>Treasury</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Treasury" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Treasury">+</a><ul><li><a href='https://www.nuecesco.com/county-services/county-clerk/treasury/bail-bond-information' target='_self' aria-label='Bail Bond Information'>Bail Bond Information</a></li></ul></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/cscd-adult-probation' target='_self' aria-label='CSCD (Adult Probation)'>CSCD (Adult Probation)</a><a href="javascript:void(0)" title="Expand/Collapse subpages under CSCD (Adult Probation)" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under CSCD (Adult Probation)">+</a><ul><li><a href='https://www.nuecesco.com/county-services/cscd-adult-probation/calendar' target='_self' aria-label='Calendar'>Calendar</a></li></ul></li><li><a href='https://www.nuecesco.com/county-services/directory-phonebook' target='_self' aria-label='Directory (Phonebook)'>Directory (Phonebook)</a></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/dispute-resolution-services' target='_self' aria-label='Dispute Resolution Services'>Dispute Resolution Services</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Dispute Resolution Services" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Dispute Resolution Services">+</a><ul><li><a href='https://www.nuecesco.com/county-services/dispute-resolution-services/have-a-conflict' target='_self' aria-label='Have a Conflict?'>Have a Conflict?</a></li><li><a href='https://www.nuecesco.com/county-services/dispute-resolution-services/what-is-mediation' target='_self' aria-label='What is Mediation'>What is Mediation</a></li><li><a href='https://www.nuecesco.com/county-services/dispute-resolution-services/types-of-programs' target='_self' aria-label='Types of Programs'>Types of Programs</a></li><li><a href='https://www.nuecesco.com/county-services/dispute-resolution-services/faq' target='_self' aria-label='FAQ'>FAQ</a></li><li><a href='https://www.nuecesco.com/county-services/dispute-resolution-services/request-for-mediation' target='_self' aria-label='Request for Mediation'>Request for Mediation</a></li><li><a href='https://www.nuecesco.com/county-services/dispute-resolution-services/history-of-drs' target='_self' aria-label='History of DRS'>History of DRS</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/emergency-management' target='_self' aria-label='Emergency Management'>Emergency Management</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Emergency Management" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Emergency Management">+</a><ul><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/emergency-management/important-information' target='_self' aria-label='Important Information'>Important Information</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Important Information" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Important Information">+</a><ul><li><a href='https://www.nuecesco.com/county-services/emergency-management/important-information/daily-reports' target='_self' aria-label='Daily Reports'>Daily Reports</a></li></ul></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/grants-administration' target='_self' aria-label='Grants Administration'>Grants Administration</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Grants Administration" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Grants Administration">+</a><ul><li><a href='https://www.nuecesco.com/county-services/grants-administration/calendar' target='_self' aria-label='Calendar'>Calendar</a></li><li><a href='https://www.nuecesco.com/county-services/grants-administration/arpa' target='_self' aria-label='ARPA'>ARPA</a></li><li><a href='https://www.nuecesco.com/county-services/grants-administration/documents' target='_self' aria-label='Documents'>Documents</a></li><li><a href='https://www.nuecesco.com/county-services/grants-administration/fair-housing' target='_self' aria-label='Fair Housing'>Fair Housing</a></li><li><a href='https://www.nuecesco.com/county-services/grants-administration/grant-applications' target='_self' aria-label='Grant Applications'>Grant Applications</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/human-resources' target='_self' aria-label='Human Resources'>Human Resources</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Human Resources" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Human Resources">+</a><ul><li><a href='https://www.nuecesco.com/county-services/human-resources/calendar' target='_self' aria-label='Calendar'>Calendar</a></li><li><a href='https://www.nuecesco.com/county-services/human-resources/civil-service-commission' target='_self' aria-label='Civil Service Commission'>Civil Service Commission</a></li><li><a href='https://www.nuecesco.com/county-services/human-resources/employment' target='_blank' aria-label='Employment'>Employment</a></li><li><a href='https://www.nuecesco.com/county-services/human-resources/videos' target='_self' aria-label='United Way of the Coastal Bend'>United Way of the Coastal Bend</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/information-technology' target='_self' aria-label='Information Technology'>Information Technology</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Information Technology" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Information Technology">+</a><ul><li><a href='https://www.nuecesco.com/county-services/information-technology/description-of-office' target='_self' aria-label='Description of Office'>Description of Office</a></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/information-technology/records-services' target='_self' aria-label='Records Services'>Records Services</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Records Services" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Records Services">+</a><ul><li><a href='https://www.nuecesco.com/county-services/information-technology/records-management/forms' target='_self' aria-label='Forms'>Forms</a></li></ul></li></ul></li><li><a href='https://www.nuecesco.com/county-services/libraries' target='_blank' aria-label='Libraries'>Libraries</a></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/medical-examiner' target='_self' aria-label='Medical Examiner'>Medical Examiner</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Medical Examiner" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Medical Examiner">+</a><ul><li><a href='https://www.nuecesco.com/county-services/medical-examiner/calendar' target='_self' aria-label='Calendar'>Calendar</a></li><li><a href='https://www.nuecesco.com/county-services/medical-examiner/faq' target='_self' aria-label='FAQ'>FAQ</a></li><li><a href='https://www.nuecesco.com/county-services/medical-examiner/documents' target='_self' aria-label='Documents'>Documents</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/payments' target='_self' aria-label='Payments'>Payments</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Payments" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Payments">+</a><ul><li><a href='https://www.nuecesco.com/county-services/payments/child-support' target='_self' aria-label='Child Support'>Child Support</a></li><li><a href='https://www.nuecesco.com/county-services/payments/court-costs-fines-and-fees-collection' target='_self' aria-label='Court Costs, Fines, and Fees Collection'>Court Costs, Fines, and Fees Collection</a></li><li><a href='https://www.nuecesco.com/county-services/payments/jail-commissary' target='_self' aria-label='Jail Commissary'>Jail Commissary</a></li></ul></li><li><a href='https://www.nuecesco.com/county-services/parks-coastal' target='_blank' aria-label='Parks, Coastal'>Parks, Coastal</a></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/parks-inland' target='_self' aria-label='Parks, Inland'>Parks, Inland</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Parks, Inland" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Parks, Inland">+</a><ul><li><a href='https://www.nuecesco.com/county-services/parks-inland/calendar' target='_self' aria-label='Calendar'>Calendar</a></li><li><a href='https://www.nuecesco.com/county-services/parks-inland/senior-community-center-robstown' target='_self' aria-label='Senior Community Center - Robstown'>Senior Community Center - Robstown</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/public-defender' target='_self' aria-label='Public Defender'>Public Defender</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Public Defender" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Public Defender">+</a><ul><li><a href='https://www.nuecesco.com/county-services/public-defender/calendar' target='_self' aria-label='Calendar'>Calendar</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/public-works' target='_self' aria-label='Public Works'>Public Works</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Public Works" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Public Works">+</a><ul><li><a href='https://www.nuecesco.com/county-services/public-works/calendar' target='_self' aria-label='Calendar'>Calendar</a></li><li><a href='https://www.nuecesco.com/county-services/public-works/description-of-office' target='_self' aria-label='Description of Office'>Description of Office</a></li><li><a href='https://www.nuecesco.com/county-services/public-works/driveways' target='_self' aria-label='Driveways'>Driveways</a></li><li><a href='https://www.nuecesco.com/county-services/public-works/engineering' target='_self' aria-label='Engineering'>Engineering</a></li><li><a href='https://www.nuecesco.com/county-services/public-works/fema-floodplain-maps' target='_self' aria-label='FEMA Floodplain Maps'>FEMA Floodplain Maps</a></li><li><a href='https://www.nuecesco.com/county-services/public-works/floodplain-development' target='_self' aria-label='Floodplain Development'>Floodplain Development</a></li><li><a href='https://www.nuecesco.com/county-services/public-works/subdivision-and-platting-requirements' target='_self' aria-label='Subdivision and Platting Requirements'>Subdivision and Platting Requirements</a></li><li><a href='https://www.nuecesco.com/county-services/public-works/road-and-bridge' target='_self' aria-label='Road and Bridge'>Road and Bridge</a></li><li><a href='https://www.nuecesco.com/county-services/public-works/utility-line-installation' target='_self' aria-label='Utility Line Installation'>Utility Line Installation</a></li><li><a href='https://www.nuecesco.com/county-services/public-works/vector-control' target='_self' aria-label='Vector Control'>Vector Control</a></li><li><a href='https://www.nuecesco.com/county-services/public-works/addressing-program' target='_self' aria-label='Addressing Program'>Addressing Program</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/purchasing' target='_self' aria-label='Purchasing'>Purchasing</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Purchasing" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Purchasing">+</a><ul><li><a href='https://www.nuecesco.com/county-services/purchasing/michael-robinson' target='_self' aria-label='Michael Robinson'>Michael Robinson</a></li><li><a href='https://www.nuecesco.com/county-services/purchasing/description-of-office' target='_self' aria-label='Description of Office'>Description of Office</a></li><li><a href='https://www.nuecesco.com/county-services/purchasing/documents' target='_self' aria-label='Documents'>Documents</a></li><li><a href='https://www.nuecesco.com/county-services/purchasing/bids' target='_self' aria-label='Bids'>Bids</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/risk-management' target='_self' aria-label='Risk Management'>Risk Management</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Risk Management" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Risk Management">+</a><ul><li><a href='https://www.nuecesco.com/county-services/risk-management/calendar' target='_self' aria-label='Calendar'>Calendar</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/tax-assessor-collector' target='_self' aria-label='Tax Assessor/Collector'>Tax Assessor/Collector</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Tax Assessor/Collector" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Tax Assessor/Collector">+</a><ul><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/description-of-office' target='_self' aria-label='Description of Office'>Description of Office</a></li><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/schedule-appointment' target='_self' aria-label='Schedule Appointment'>Schedule Appointment</a></li><li><a href='https://www.nuecesco.com/county-services/payments/pay-property-tax' target='_self' aria-label='Pay Property Tax'>Pay Property Tax</a></li><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/faq-property-tax' target='_self' aria-label='FAQ Property Tax'>FAQ Property Tax</a></li><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/permit-coin-operated-machine' target='_self' aria-label='Permit - Coin Operated Machine'>Permit - Coin Operated Machine</a></li><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/vehicle-registration' target='_self' aria-label='Vehicle Registration'>Vehicle Registration</a></li><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/faq-motor-vehicle' target='_self' aria-label='FAQ Motor Vehicle'>FAQ Motor Vehicle</a></li><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/locations' target='_self' aria-label='Locations'>Locations</a></li><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/documents' target='_self' aria-label='Documents'>Documents</a></li><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/tax-office-facts' target='_self' aria-label='Tax Office Facts'>Tax Office Facts</a></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/voter-registration' target='_self' aria-label='Voter Registration'>Voter Registration</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Voter Registration" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Voter Registration">+</a><ul><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/voter-registration/register-to-vote' target='_self' aria-label='Register To Vote'>Register To Vote</a></li><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/voter-registration/where-to-get-an-application' target='_self' aria-label='Where To Get an Application'>Where To Get an Application</a></li><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/voter-registration/useful-links' target='_self' aria-label='Useful Links'>Useful Links</a></li></ul></li><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/tax-rates-1402' target='_self' aria-label='Tax Rates'>Tax Rates</a></li><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/truth-in-taxation-1406' target='_self' aria-label='Tax Rate Worksheets'>Tax Rate Worksheets</a></li><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/5-year-truth-in-taxation' target='_self' aria-label='5 Year Truth in Taxation'>5 Year Truth in Taxation</a></li><li><a href='https://www.nuecesco.com/county-services/tax-assessor-collector/external-agencies' target='_self' aria-label='External Agencies'>External Agencies</a></li></ul></li><li class="sidenav_haschildren"><a href='https://www.nuecesco.com/county-services/veterans-and-social-services' target='_self' aria-label='Veterans and Social Services'>Veterans and Social Services</a><a href="javascript:void(0)" title="Expand/Collapse subpages under Veterans and Social Services" class="vi-sidenav-toggle" aria-expanded=false aria-label="Expand/Collapse subpages under Veterans and Social Services">+</a><ul><li><a href='https://www.nuecesco.com/county-services/veterans-and-social-services/calendar' target='_self' aria-label='Calendar'>Calendar</a></li><li><a href='https://www.nuecesco.com/county-services/veterans-and-social-services/description-of-office' target='_self' aria-label='Description of Office'>Description of Office</a></li><li><a href='https://www.nuecesco.com/county-services/veterans-and-social-services/resources' target='_self' aria-label='Resources'>Resources</a></li><li><a href='https://www.nuecesco.com/county-services/veterans-and-social-services/supporting-agencies-and-referral-information' target='_self' aria-label='Supporting Agencies and Referral Information'>Supporting Agencies and Referral Information</a></li><li><a href='https://www.nuecesco.com/county-services/veterans-and-social-services/fallen-heroes' target='_self' aria-label='Fallen Heroes'>Fallen Heroes</a></li><li><a href='https://www.nuecesco.com/county-services/veterans-and-social-services/wwii-heritage' target='_self' aria-label='WWII Heritage'>WWII Heritage</a></li></ul></li></ul><!--startindex-->
+</nav>
+<script>
+    $(function () {
+        //test if it is mobile view or not and add classes accordingly. Needed because different sites use different breakpoints for mobile
+        if ($('.sidenav .mobile_only').is(':visible')) {
+            $('.sidenav').addClass('vi-sidenav-mobile');
+        } else {
+            $('.sidenav').addClass('vi-sidenav-desktop');
+        }
+        //need to also check for mobile view on resize and change classes if needed
+        var sidenavResizeTimer;
+
+        $(window).on('resize', function (e) {
+
+            clearTimeout(sidenavResizeTimer);
+            sidenavResizeTimer = setTimeout(function () {
+
+                if ($('.sidenav .mobile_only').is(':visible')) {
+                    $('.vi-sidenav-desktop').addClass('vi-sidenav-mobile').removeClass('vi-sidenav-desktop');
+                } else {
+                    $('.vi-sidenav-mobile').addClass('vi-sidenav-desktop').removeClass('vi-sidenav-mobile');
+                }
+            }, 250);
+
+        });
+
+        //expand/collapse function
+        $("#leftNav_531_0_1389 .vi-sidenav-toggle").click(function () {
+            var item = $(this),
+                parent = item.parent("li");
+
+            if (parent.length) {
+                var hasSubMenu = parent.hasClass("sidenav_expanded");
+                var isMobileSideNav = parent.hasClass("megamenulevelchildmenu");
+                if (hasSubMenu) {
+                    parent.removeClass("sidenav_expanded");
+                } else {
+                    parent.addClass("sidenav_expanded");
+                }
+                item.attr("aria-expanded", hasSubMenu ? false : true);
+                if (isMobileSideNav) {
+                    item.siblings("ul").css('display', hasSubMenu ? 'none' : 'block');
+                }
+            }
+
+            if (item.html() === "+") {
+                item.html('-');
+            } else {
+                item.html('+');
+            }
+        });
+    });
+</script>
+                
+                <!--startindex-->
+                <!--!!WidgetEnd-->
+
+    
+</div>
+
+
+    <div class="column right_col">
+        
+<div id="ColumnUserControl3" class="column   banner_col clearfix  ">
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="528"WidgetStart!!-->    
+
+<header id="widget_528_0_1389" class="title_widget clearfix  " >
+    
+    <!--stopindex-->
+    <p class="breadcrumb">
+        <a href="/county-services">County Services</a> » <a href="/county-services/county-clerk">County Clerk</a> » <a href="/county-services/county-clerk/elections-department">Elections Department</a> 
+    </p>
+    <!--startindex-->
+    
+    <h1 class="titlewidget-title"><span>Election GIS Maps</span></h1>
+    
+    <!--stopindex-->
+                
+                <div class="title_right">
+                    <div class="title_row">
+                
+            <a role="button" class="printer_friendly" href="javascript:window.print();" title="Click to print this page">Print</a>
+            
+            <script type="text/javascript">
+            function shareLink(shareType) {
+                var shareUrl = "";
+                var shareTitle = document.itemTitle ? encodeURIComponent(document.itemTitle.trim()).replace(/[!'()*]/g, escape) : "Election+GIS+Maps";
+                switch (shareType) {
+                    case "facebook":
+                        shareUrl = "http://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.nuecesco.com%2fcounty-services%2fcounty-clerk%2felections-department%2felection-gis-maps&t=" + shareTitle;
+                        break;
+                    case "linkedin":
+                        shareUrl = "http://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fwww.nuecesco.com%2fcounty-services%2fcounty-clerk%2felections-department%2felection-gis-maps&title=" + shareTitle;
+                        break;
+                    case "twitter":
+                        //Below link works in iOS and other OS
+                        shareUrl = "https://twitter.com/intent/tweet?url=https%3a%2f%2fwww.nuecesco.com%2fcounty-services%2fcounty-clerk%2felections-department%2felection-gis-maps&text=Election+GIS+Maps+%7c+";
+                        break;
+                    case "delicious":
+                        shareUrl = "https://secure.delicious.com/login?noui=yes&v=4&jump=https%3a%2f%2fwww.nuecesco.com%2fcounty-services%2fcounty-clerk%2felections-department%2felection-gis-maps%26title%3D" + shareTitle + "%26notes%3D%26tags%3D%26v%3D4%26noui%3D%26share%3Dyes%26jump%3Dclose%26time%3D1239993443";
+                        break;
+                    case "myspace":
+                        shareUrl = "http://www.myspace.com/Modules/PostTo/Pages/?u=https%3a%2f%2fwww.nuecesco.com%2fcounty-services%2fcounty-clerk%2felections-department%2felection-gis-maps&t=" + shareTitle + "&c=";
+                        break;
+                    case "googlebookmark":
+                        shareUrl = "http://www.google.com/bookmarks/mark?op=add&bkmk=https%3a%2f%2fwww.nuecesco.com%2fcounty-services%2fcounty-clerk%2felections-department%2felection-gis-maps&title=" + shareTitle;
+                        break;
+                    case "stumbleupon":
+                        shareUrl = "http://www.stumbleupon.com/submit?url=https%3a%2f%2fwww.nuecesco.com%2fcounty-services%2fcounty-clerk%2felections-department%2felection-gis-maps&title=" + shareTitle;
+                        break;
+                    case "digg":
+                        shareUrl = "http://digg.com/submit/?url=https%3a%2f%2fwww.nuecesco.com%2fcounty-services%2fcounty-clerk%2felections-department%2felection-gis-maps";
+                        break;
+                    case "tumblr":
+                        shareUrl = "https://www.tumblr.com/share/link?url=https%3a%2f%2fwww.nuecesco.com%2fcounty-services%2fcounty-clerk%2felections-department%2felection-gis-maps&name=" + shareTitle;
+                        break;
+                    case "reddit":
+                        shareUrl = "http://www.reddit.com/submit?url=https%3a%2f%2fwww.nuecesco.com%2fcounty-services%2fcounty-clerk%2felections-department%2felection-gis-maps&title=" + shareTitle;
+                        break;
+                }
+                if (shareUrl.length > 0) window.open(shareUrl, "_blank", "noopener");
+            }
+            </script>
+            <div id="share">
+                <a role="button" class="sharelink" href="javascript:void(0);" title="Click to expand Share & Bookmark options" aria-haspopup="true" aria-expanded="false" aria-labelledby="share-desciption">Share & Bookmark</a>
+                <span id="share-desciption" class="wcag_only">Share & Bookmark, Press Enter to show all options, press Tab go to next option</span>
+                <ul class="no_external_url_indication">
+                    <li>
+                        <a title="Click to submit an email online" href="mailto:?subject=Social%20Share&amp;body=https%3A%2F%2Fwww.nuecesco.com%2Fcounty-services%2Fcounty-clerk%2Felections-department%2Felection-gis-maps" class="shareemail send_share_email">Email</a>
+                    </li>
+                    <li><a title="Click to share with Facebook" href="javascript:shareLink('facebook')" class="sharefacebook">Facebook</a></li>
+                    
+                    <li><a title="Click to share with LinkedIn" href="javascript:shareLink('linkedin')" class="sharelinkedin">LinkedIn</a></li>
+                    <li><a title="Click to share with Twitter" href="javascript:shareLink('twitter')" class="sharetwitter">Twitter</a></li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li><a title="Click to share with Reddit" href="javascript:shareLink('reddit')" class="sharereddit">Reddit</a></li>
+                </ul>
+            </div>
+            
+            <div class="font_size">
+                <a role="button" href="javascript:void(0);" title="default font size" class="text_size">Font Size:</a>
+                <a role="button" href="javascript:void(0);" title="larger font size" class="font_larger">+</a>
+                <a role="button" href="javascript:void(0);" title="smaller font size" class="font_smaller">-</a>
+            </div>
+            
+                </div>
+            </div>
+                       
+    <!--startindex-->
+
+    
+</header>
+<script type="text/javascript">
+    $(function () {
+        var widgetContext = "widget_528_0_1389";
+
+        //start VISPP-4466
+        var useDesignThemFontSizeCss = window.visionOptions.useDesignThemFontSizeCss;
+        var folderPath = useDesignThemFontSizeCss == true ? window.visionOptions.currentDesignFolderPath : window.visionOptions.mainFolderPath;
+        if (!folderPath)
+            folderPath = window.visionOptions.mainFolderPath;
+        var allowedFontSizes = ["xx-small.css", "x-small.css", "small.css", "medium.css", "large.css"];
+        var fontSizeStorageKey = (window.visionOptions.virtualApplicationPath || "/").replace(/\//g, "_") + "FontSize";
+        var resizeTimer;
+        var resizeFaqTabs = function () {
+            $(".faq_widget").each(function () {
+                var tabheight = $(this).find(".faq_tab_nav").height();
+                $(this).find(".faqtab_section").attr("style", "min-height: " + (tabheight - 42) + "px");
+            });
+        };
+        var SetFontSize = function (fontsize) {
+            $("#active_font").attr("href", folderPath + fontsize).attr("data-css", fontsize);
+            var url = window.location.origin + visionOptions.virtualApplicationPath + "Shared/ChangeFontSizeCookie";
+            var cookieValue = fontsize ? fontsize : "small.css";
+            var cookieInt;
+            switch(cookieValue){
+                case("xx-small.css"): cookieInt=1; break;
+                case ("x-small.css"): cookieInt = 2; break;
+                case ("small.css"): default: cookieInt = 3; break;
+                case("medium.css"): cookieInt=4; break;
+                case ("large.css"): cookieInt = 5; break;
+                }
+            $.frontendAjax({
+                url: url,
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ cookieValue: cookieInt}),
+                success: function (data, textStatus, jqXHR) {
+                    if (data && data.success) {
+                        $("#active_font").attr("href", window.visionOptions.mainFolderPath + cookieValue).attr("data-css", cookieValue);
+                        // Write localStorage only after cookie POST succeeds (allowlisted; same key shape as cookie name).
+                        if (allowedFontSizes.indexOf(cookieValue) !== -1) {
+                            try {
+                                window.localStorage.setItem(fontSizeStorageKey, cookieValue);
+                            } catch (e) { }
+                        }
+                    }
+                }
+            });
+            if ($(".faq_tab_nav").length > 0) {
+                clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(function () {
+                    resizeFaqTabs();
+                }, 200);
+            }
+        };
+
+        $(".font_larger").on("click", function () {
+            switch ($("#active_font").attr("data-css")) {
+                case "medium.css": SetFontSize("large.css"); break;
+                case "small.css": SetFontSize("medium.css"); break;
+                case "x-small.css": SetFontSize("small.css"); break;
+                case "xx-small.css": SetFontSize("x-small.css"); break;
+            }
+            return false;
+        });
+
+        $(".font_smaller").on("click", function () {
+            switch ($("#active_font").attr("data-css")) {
+                case "large.css": SetFontSize("medium.css"); break;
+                case "medium.css": SetFontSize("small.css"); break;
+                case "small.css": SetFontSize("x-small.css"); break;
+                case "x-small.css": SetFontSize("xx-small.css"); break;
+            }
+            return false;
+        });
+        $(".text_size").on("click", function () {
+            SetFontSize("x-small.css");
+            return false;
+        });
+            //end VISPP-4466
+
+        var $shareContainer = $("#" + widgetContext + " div#share");
+        var $shareMenu = $shareContainer.find("ul");
+        var $shareTrigger = $shareContainer.find("a.sharelink");
+        var shareMenuId = widgetContext + "_share_menu";
+
+        $shareMenu.attr("id", shareMenuId);
+        $shareTrigger.attr("aria-controls", shareMenuId);
+
+        var openShareMenu = function (setActiveByClick) {
+            if (setActiveByClick) {
+                $shareContainer.addClass("click-active");
+            }
+            $shareMenu.show();
+            $shareTrigger.attr("aria-expanded", "true");
+        };
+
+        var closeShareMenu = function (restoreFocusToTrigger) {
+            $shareContainer.removeClass("click-active");
+            $shareMenu.hide();
+            $shareTrigger.attr("aria-expanded", "false");
+            if (restoreFocusToTrigger) {
+                $shareTrigger.focus();
+            }
+        };
+
+        $("#" + widgetContext + " #share").click(function (e) {
+            if ($(e.target).closest("ul").length > 0) {
+                return;
+            }
+
+            if (!$shareContainer.hasClass("click-active")) {
+                openShareMenu(true);
+            } else {
+                closeShareMenu(false);
+            }
+        });
+
+        $(document).click(function (e) {
+            if (!$(e.target).closest("#share").length > 0) {
+                closeShareMenu(false);
+            }
+        });
+
+        var shareContainerTimeout = null;
+        $("#" + widgetContext + " #share").bind('mouseover', function () {
+            //If not relate to click event
+            if (shareContainerTimeout) {
+                clearTimeout(shareContainerTimeout);
+                shareContainerTimeout = null;
+            }
+            shareContainerTimeout = setTimeout(function () {
+                if (!$shareContainer.hasClass("click-active")) {
+                    openShareMenu(false);
+                }
+            }, 100);
+        });
+
+        $("#" + widgetContext + " #share").bind('mouseleave', function () {            
+            //If not relate to click event     
+            if (shareContainerTimeout) {
+                clearTimeout(shareContainerTimeout);
+                shareContainerTimeout = null;
+            }
+            shareContainerTimeout = setTimeout(function () {
+                if (!$shareContainer.hasClass("click-active")) {
+                    closeShareMenu(false);
+                }
+            }, 200);
+        });
+
+        $shareContainer.on("keydown", function (e) {
+            if (e.key === "Escape" || e.key === "Esc" || e.keyCode === 27) {
+                if ($shareMenu.is(":visible")) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    closeShareMenu(true);
+                }
+            }
+        });
+
+        $shareTrigger.on("keydown", function (e) {
+            if (e.key === " " || e.keyCode === 32) {
+                e.preventDefault();
+                if ($shareContainer.hasClass("click-active")) {
+                    closeShareMenu(false);
+                } else {
+                    openShareMenu(true);
+                }
+            }
+        });
+
+        $shareContainer.on("focusout", function (e) {
+            if (!$shareMenu.is(":visible")) {
+                return;
+            }
+
+            var relatedTarget = e.relatedTarget;
+            if (relatedTarget && ($shareContainer.is(relatedTarget) || $shareContainer.has(relatedTarget).length > 0)) {
+                return;
+            }
+
+            setTimeout(function () {
+                var activeElement = document.activeElement;
+                if (!activeElement || (!$shareContainer.is(activeElement) && $shareContainer.has(activeElement).length === 0)) {
+                    closeShareMenu(false);
+                }
+            }, 0);
+        });
+
+        $("header#" + widgetContext + " a.feedback_link").click(function () {
+            var windowHeight = 485;
+            if (window.innerWidth <= 648) {
+                windowHeight = 545;
+            }
+            var opts = {
+                title: "Feedback",
+                url: "/Template/GetFeedbackPartial?feedbackUrl=https%3a%2f%2fwww.nuecesco.com%2fcounty-services%2fcounty-clerk%2felections-department%2felection-gis-maps",
+                useFrame: true,
+                height: windowHeight,
+                onClosed: function (result) {
+                    if (result != undefined && result.IsOk == true) {
+                        $.refreshTempMessage(result.Message);
+                    }
+                    $("header#" + widgetContext + " a.feedback_link").focus();
+                },
+                skin: 'viClientDialog feedback_lightbox',
+                fixed: false
+            };
+            $.viClientDialog(opts).open();
+        });
+
+        
+        
+    });
+</script>
+
+            <!--!!WidgetEnd-->
+
+    
+</div>
+
+    
+        
+<div id="ColumnUserControl4" class="column   has_small_col  " role="main" aria-label="Election GIS Maps">
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="529"WidgetStart!!-->    
+<div id='widget_529_2364_1389' class='content_area normal_content_area clearfix  '><!--<table style="width: 75%; margin-left: 80px;">
+    <tbody style="margin-left: 80px;">
+        <tr>
+            <td style="width: 20%; text-align: right; vertical-align: top;"><a href="https://www.nuecesco.com/?navid=1036">1-10</a></td>
+            <td style="width: 20%; text-align: right; vertical-align: top;">&nbsp;</td>
+            <td style="width: 20%; text-align: right; vertical-align: top;"><a href="https://www.nuecesco.com/?navid=1041">51-60</a></td>
+            <td style="width: 20%; text-align: right; vertical-align: top;">&nbsp;</td>
+            <td style="width: 20%; text-align: right; vertical-align: top;"><a href="https://www.nuecesco.com/?navid=1046">101-110</a></td>
+        </tr>
+        <tr>
+            <td style="width: 20%; text-align: right; vertical-align: top;"><a href="https://www.nuecesco.com/?navid=1037">11-20</a></td>
+            <td style="width: 20%; text-align: right; vertical-align: top;">&nbsp;</td>
+            <td style="width: 20%; text-align: right; vertical-align: top;"><a href="https://www.nuecesco.com/?navid=1042">61-70</a></td>
+            <td style="width: 20%; text-align: right; vertical-align: top;">&nbsp;</td>
+            <td style="width: 20%; text-align: right; vertical-align: top;"><a href="https://www.nuecesco.com/?navid=1047">111-120</a></td>
+        </tr>
+        <tr>
+            <td style="width: 20%; text-align: right; vertical-align: top;"><a href="https://www.nuecesco.com/?navid=1038">21-30</a></td>
+            <td style="width: 20%; text-align: right; vertical-align: top;">&nbsp;</td>
+            <td style="width: 20%; text-align: right; vertical-align: top;"><a href="https://www.nuecesco.com/?navid=1043">71-80</a></td>
+            <td style="width: 20%; text-align: right; vertical-align: top;">&nbsp;</td>
+            <td style="width: 20%; text-align: right; vertical-align: top;"><a href="https://www.nuecesco.com/?navid=1048">121-127</a></td>
+        </tr>
+        <tr>
+            <td style="width: 20%; text-align: right; vertical-align: top;"><a href="https://www.nuecesco.com/?navid=1039">31-40</a></td>
+            <td style="width: 20%; text-align: right; vertical-align: top;">&nbsp;</td>
+            <td style="width: 20%; text-align: right; vertical-align: top;"><a href="https://www.nuecesco.com/?navid=1044">81-90</a></td>
+            <td style="width: 20%; text-align: right; vertical-align: top;">&nbsp;</td>
+            <td style="width: 20%; text-align: right; vertical-align: top;">&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="width: 20%; text-align: right; vertical-align: top;"><a href="https://www.nuecesco.com/?navid=1040">41-50</a></td>
+            <td style="width: 20%; text-align: right; vertical-align: top;">&nbsp;</td>
+            <td style="width: 20%; text-align: right; vertical-align: top;"><a href="https://www.nuecesco.com/?navid=1045">91-100</a></td>
+            <td style="width: 20%; text-align: right; vertical-align: top;">&nbsp;</td>
+            <td style="width: 20%; text-align: right; vertical-align: top;">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>-->
+<h1 style="text-align: center;"><span style="color: rgb(0, 112, 192);">This page is currently under construction.</span></h1></div>
+            <!--!!WidgetEnd-->
+
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="535"WidgetStart!!-->    
+
+
+<section class="small_box document_folder_box mobile_list" role="region" aria-label="Document Folder Box" id="docan535_2362_1389" tabindex="0">
+    <a name="docan535_2362_1389"></a>
+    <h2 class="box_title mobile_header" role="heading" aria-level="2">PDF Maps</h2>
+    <div class="box_content clearfix" data-name="docan535_2362_1389">
+        <ul><li><span class="doc_folder_img default"></span><a id="docfold_535_2362_1389_192" class="content_link" title="Click to open Precinct Maps folder" href="/county-services/county-clerk/elections-department/election-gis-maps/-folder-192">Precinct Maps</a></li></ul>
+<div class="downloadmessage no_external_url_indication">
+	<p>
+		Free viewers are required for some of the attached documents.<br />They can be downloaded by clicking on the icons below.
+	</p>
+    <a href="http://get.adobe.com/reader/" target="_blank" rel="noopener" class="acrobat_reader_downloadmessage">
+        <span>Download Acrobat Reader</span>
+        <img src="/DefaultContent/Default/_gfx/downloadmessage/acrobat.jpg" alt="" aria-hidden="true" />
+    </a>   
+    <a href="http://windows.microsoft.com/en-us/windows/windows-media-player" target="_blank" rel="noopener" class="windows_media_player_downloadmessage">
+        <span>Download Windows Media Player</span>
+        <img  src="/DefaultContent/Default/_gfx/downloadmessage/wmp.jpg" alt="" aria-hidden="true" />
+    </a>
+    <span class="line-breaker" style="display:none;"></span>
+    <a href="https://products.office.com/en-US/office-online/documents-spreadsheets-presentations-office-online" target="_blank" rel="noopener" class="word_downloadmessage">
+        <span>Download Word Viewer</span>
+        <img  src="/DefaultContent/Default/_gfx/downloadmessage/word.jpg" alt="" aria-hidden="true" />
+    </a>
+    <a href="https://products.office.com/en-US/office-online/documents-spreadsheets-presentations-office-online" target="_blank" rel="noopener" class="excel_downloadmessage">
+        <span>Download Excel Viewer</span>
+        <img  src="/DefaultContent/Default/_gfx/downloadmessage/excel.jpg" alt="" aria-hidden="true" />
+    </a>
+    <a href="https://products.office.com/en-US/office-online/documents-spreadsheets-presentations-office-online" target="_blank" rel="noopener" class="powerpoint_downloadmessage">
+        <span>Download PowerPoint Viewer</span>
+        <img  src="/DefaultContent/Default/_gfx/downloadmessage/powerpoint.jpg" alt="" aria-hidden="true" />
+    </a>
+</div>
+
+
+
+
+
+
+    </div>
+</section>
+<script>
+    $(function () {
+        $(".document_folder_box .box_content[data-name='docan535_2362_1389'] .doc_folder_img + a, .document_folder_box .box_content[data-name='docan535_2362_1389'] .document_breadcrumb a")
+            .each(function (i, n) { if (i === 0 && $(n).closest("div").hasClass("document_breadcrumb")) { $(n).attr("href", $(n).attr("href") + "#docan535_2362_1389"); } else { $(n).attr("href", $(n).attr("href") + "#" + $(n).attr("id")); } });
+    });
+</script>
+
+
+            <!--!!WidgetEnd-->
+
+    
+</div>
+
+
+        
+<aside id="ColumnUserControl5" class="column   small_col  ">
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="761"WidgetStart!!-->    
+<div id='widget_761_0_1389' class='content_area normal_content_area clearfix  '></div>
+            <!--!!WidgetEnd-->
+
+    <!--!!WidgetStart, vi-orderdata="0"  vi-hideonmobile="false" vi-widgetinstancedata="530"WidgetStart!!-->    
+     <section class="small_box staff_box mobile_list staff_widget_530_2361_1389" role="region" aria-label="Staff Directory Box">
+       <h2 class="box_title mobile_header">Directory</h2>		
+        <div class="box_content clearfix">
+<script>$(function(){$('.staff_widget_530_2361_1389').delegate('a.email_link[data-mailto-id]', 'click', function(){var windowHeight = 485;if (window.innerWidth <= 648){windowHeight = 600;}var staffID = $(this).attr('data-mailto-id');if (staffID>0){ var opts={title:'Email',url:'/Home/Components/StaffDirectory/StaffFrontEnd/SendMailToEmail?id='+ staffID +'',    useFrame:true,    height:windowHeight,    skin: 'viClientDialog send_share_email_lightbox',    trapFocus:true,    onClosed:function(data){if(data && data.IsOk===true && data.Message){$.refreshTempMessage(data.Message)}},    fixed:false,  };  $.viClientDialog(opts).open();  }  }  );});</script>
+           <ul>
+  <li>
+    <a href="/Home/Components/StaffDirectory/StaffDirectory/78/" >  Sands, Kara</a>
+                <p class='item_smalltext'> County Clerk </p>    
+<ul class="item-list">
+            </ul>
+</li>  <li>
+    <a href="/Home/Components/StaffDirectory/StaffDirectory/493/" >Main Line - Elections</a>
+<ul class="item-list">
+        <li class='item-phone'>
+<a class='phone_link' aria-label='Phone Number (361) 888-0580' href='tel:3618880580'>(361) 888-0580</a>        </li>
+            </ul>
+</li>  <li>
+    <a href="/Home/Components/StaffDirectory/StaffDirectory/175/" >Munguia, Diana</a>
+                <p class='item_smalltext'> Elections Manager </p>    
+<ul class="item-list">
+        <li class='item-phone'>
+<a class='phone_link' aria-label='Phone Number (361) 888-0580' href='tel:3618880580'>(361) 888-0580</a>        </li>
+            </ul>
+</li>	 </ul>
+            <a href="" class="box_bottomlink">More Staff</a>
+	    </div>
+</section>
+
+
+
+<script>
+    function addRoleToItemList() {
+        const widgetIdentifierClass = "staff_widget_530_2361_1389";
+        $("section." + widgetIdentifierClass + " ul.item-list").filter(function () {return !$(this).attr("role");}).attr("role", "none");
+    }
+    function wrapAllStaffListItems() {
+        const section = document.querySelector('section.staff_widget_530_2361_1389');
+        if (!section) return;
+
+        const topLevelUl = section.querySelector('ul');
+        if (!topLevelUl) return;
+
+        const listItems = topLevelUl.querySelectorAll(':scope > li');
+
+        listItems.forEach(li => {
+            const firstChild = li.firstElementChild;
+
+            const isAlreadyWrapped = (firstChild?.tagName?.toLowerCase() === 'div') || 
+                (firstChild?.getAttribute('role')?.toLowerCase() === 'group' &&
+                firstChild?.getAttribute('aria-label')?.toLowerCase() === 'staff');
+
+            if (!isAlreadyWrapped) {
+                const wrapper = document.createElement('div');
+                wrapper.setAttribute('role', 'group');
+                wrapper.setAttribute('aria-label', 'staff');
+
+                while (li.firstChild) {
+                    wrapper.appendChild(li.firstChild);
+                }
+
+                li.appendChild(wrapper);
+            }
+        });
+    }
+
+    wrapAllStaffListItems();
+    addRoleToItemList();
+</script>
+
+            <!--!!WidgetEnd-->
+
+    
+</aside>
+
+
+    </div>
+</div>
+
+
+        <footer id="page_footer" class="">
+            <!--stopindex-->
+            
+<div id="footercolumn" class="site_template_column  footer_column   " >
+
+                <!--stopindex-->
+                
+<div class="footer_nav">
+<a href="/commissioners-court">Commissioners Court</a>
+<a href="/courts">Courts</a>
+<a href="/law-enforcement">Law Enforcement</a>
+<a href="/departments">Departments</a>
+<a href="/county-services">County Services</a>
+<a href="/quick-links">Quick Links</a>
+<a href="#">Sitemap</a>&nbsp;</div>
+<div class="footer_address">
+<p>County of Nueces, TX | P: (361) 888-0111 <br>
+901 Leopard St. Corpus Christi, TX 78401</p>
+</div>
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_1311691.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script><p class="footer_copyright">
+  <a href="https://granicus.com/government-website-design?utm_source=customer&utm_medium=footer&utm_campaign=govAccesswebsite">Website Design by Granicus</a> - Connecting People and Government
+</p>
+                <!--startindex-->
+            
+
+</div>
+
+            <!--startindex-->
+        </footer>
+        <div id="view-options"><a href="javascript:void(0);" id="view-full" onclick="viewfullsite()" class="mobile_only">View Full Site</a></div>
+    </div>
+</div>
+
+<script src="/Project/Contents/Main/mobile_nav_scripts.js" type="text/javascript"></script>
+
+    
+    <script>
+        $(function () {
+            $(".reComment[comment]").removeClass("reComment")
+                                    .removeAttr("comment")
+                                    .removeAttr("author")
+                                    .removeAttr("title")
+                                    .removeAttr("timestamp");
+        })
+    </script>
+    
+
+    
+
+    <script src="/Scripts/ScriptBundleVisionFrontend.jsbnd?v=4KAxSnMrAemr6qWhC4izl3ok1edzgqrIEJjMXiq_M1E1"></script>
+
+
+    <!-- GovDelivery Subscription Overlay -->
+
+<!-- <script src="https://content.govdelivery.com/overlay/js/9053.js"></script>  -->
+
+<!-- End GovDelivery Overlay --> 
+<!-- removed from footer on case 08598724 -->
+    
+    <script>
+        try { manualRenderMobile(); } catch (err) {}
+    </script>
+    
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5T5D4CV4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'userDataLayer', 'GTM-5T5D4CV4');
+(function (window) {
+    var dataLayer = window.userDataLayer = window.userDataLayer || [];
+    dataLayer.push(
+        {"Env":"LIVE","SessionID":"zeqivr1s2stoj2qfjzhenh2x","Identity":"613d50bb91df420787c4f7ecfea7d611","OrganizationName":"Nueces County, TX","LoginUser":"","LoginUserType":"","LoginWebsiteUser":"","LoginMember":""}
+        );
+})(window)
+</script>
+<!-- End Google Tag Manager -->
+    
+    <script src="/Scripts/Components/ScriptsFEBundle.jsbnd?v=l8UTOcxy3OwKH7GrKOWKTbkwf3LhHKKLotfyojMtSYk1"></script>
+
+
+    <script>
+        $(function() {
+            var sitewrapper = $(".sitewrapper");
+            if (sitewrapper.length && !sitewrapper.hasClass("")) {
+                sitewrapper.addClass("");
+            }     
+            //VISPP-4466 - we get the cookie value and set the correct stylesheet path for pages without the Page Title widget.
+            // Prefer localStorage (same allowlist as Shared/GetFontSizeCookie); AJAX fallback seeds storage for later pageviews.
+            var useDesignThemFontSizeCss = window.visionOptions.useDesignThemFontSizeCss;
+            var folderPath = useDesignThemFontSizeCss == true ? window.visionOptions.currentDesignFolderPath : window.visionOptions.mainFolderPath;
+            if (!folderPath)
+                folderPath = window.visionOptions.mainFolderPath;
+
+            var allowedFontSizes = ["xx-small.css", "x-small.css", "small.css", "medium.css", "large.css"];
+            var fontSizeStorageKey = (window.visionOptions.virtualApplicationPath || "/").replace(/\//g, "_") + "FontSize";
+            var applyFontSize = function (fontSize) {
+                $("#active_font").attr("href", folderPath + fontSize).attr("data-css", fontSize);
+            };
+            var writeFontSizeStorage = function (fontSize) {
+                if (allowedFontSizes.indexOf(fontSize) === -1) {
+                    return;
+                }
+                try {
+                    window.localStorage.setItem(fontSizeStorageKey, fontSize);
+                } catch (e) { }
+            };
+            var readFontSizeStorage = function () {
+                try {
+                    var stored = window.localStorage.getItem(fontSizeStorageKey);
+                    if (stored && allowedFontSizes.indexOf(stored) !== -1) {
+                        return stored;
+                    }
+                } catch (e) { }
+                return null;
+            };
+            var fetchFontSizeFromCookie = function () {
+                var getFontSizeUrl = window.location.origin + window.visionOptions.virtualApplicationPath + "Shared/GetFontSizeCookie";
+                var fontSize = "x-small.css";
+                $.frontendAjax({
+                    url: getFontSizeUrl,
+                    type: 'GET',
+                    success: function (data) {
+                        if (data && data.fontSizeCookie && data.fontSizeCookie != "" && allowedFontSizes.indexOf(data.fontSizeCookie) !== -1) {
+                            fontSize = data.fontSizeCookie;
+                        }
+                        writeFontSizeStorage(fontSize);
+                        applyFontSize(fontSize);
+                    }
+                });
+            };
+
+            var storedFontSize = readFontSizeStorage();
+            if (storedFontSize) {
+                applyFontSize(storedFontSize);
+                // Skipping GetFontSizeCookie removes $.frontendAjax ExtendSession side-effect; keep-alive for logged-in FE users.
+                var sessionManager = $.frontendSessionManager && $.frontendSessionManager();
+                if (sessionManager && sessionManager.opts && sessionManager.opts.frontendUserLogin === true) {
+                    sessionManager.extendSessionTimeout(function () { });
+                }
+            } else {
+                fetchFontSizeFromCookie();
+            }
+        });
+    </script>   
+
+
+    
+</body>
+</html>

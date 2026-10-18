@@ -1,0 +1,296 @@
+{
+  "dispatch_key": "TX:48157",
+  "county_fips": "48157",
+  "county": "Fort Bend",
+  "rank": 8,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48157",
+    "county_fips": "48157",
+    "county": "Fort Bend",
+    "rank": 8,
+    "priority": true,
+    "directory_label": "FORT BEND COUNTY",
+    "authority_role": "Elections Administrator",
+    "authority_name": "Chase Wilson",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "https://www.fortbendcountytx.gov/government/departments/county-services/elections-voter-registration",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48157",
+      "metadata_path": "raw/county-48157.json",
+      "request_url": "https://www.fortbendcountytx.gov/government/departments/county-services/elections-voter-registration",
+      "final_url": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration",
+      "status": 200,
+      "original_sha256": "e62efad7d98d89cda01542aa25b555436dfd530e95b4388328240db77111dc73",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "sos-county-links"
+    },
+    {
+      "source_id": "county-48157-result2",
+      "metadata_path": "raw/county-48157-result2.json",
+      "request_url": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration/2026-election-results",
+      "final_url": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration/2026-election-results",
+      "status": 200,
+      "original_sha256": "87920adda53418302d33d36ae47c67c854de3a79169f90d7f228584b2e816a45",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48157"
+    },
+    {
+      "source_id": "county-48157-result2-linked1",
+      "metadata_path": "raw/county-48157-result2-linked1.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/",
+      "final_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/",
+      "status": 200,
+      "original_sha256": "6d00545d20ba03c07bff7c00cdba2f382db71831f49bab36a51b3ac9b7c8c1b6",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48157-result2"
+    },
+    {
+      "source_id": "clarity-48157-config",
+      "metadata_path": "raw/clarity-48157-config.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/config.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/config.json",
+      "status": 200,
+      "original_sha256": "59f9a60b495fe8bb7b476a348422748fb9b1853f981ad13be7379920dba9d89c",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48157-version"
+    },
+    {
+      "source_id": "clarity-48157-electionsettings",
+      "metadata_path": "raw/clarity-48157-electionsettings.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/en/electionsettings.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/en/electionsettings.json",
+      "status": 200,
+      "original_sha256": "f5f66e40a2c217bababbdb8fd27e6a4ed243577cd20eccb241ae12a6b82bf4ed",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48157-config"
+    },
+    {
+      "source_id": "clarity-48157-summary",
+      "metadata_path": "raw/clarity-48157-summary.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/en/summary.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/en/summary.json",
+      "status": 200,
+      "original_sha256": "8b1a346d530c923eff58e184d398b13aa6389c2e33b70043d8cefb9130e516a7",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48157-config"
+    },
+    {
+      "source_id": "clarity-48157-status",
+      "metadata_path": "raw/clarity-48157-status.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/status.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/status.json",
+      "status": 200,
+      "original_sha256": "35a365f363e963509c3f92c7e6489da6dcd7f0cc653f8671bf1f8a2f52e64da4",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48157-config"
+    },
+    {
+      "source_id": "clarity-48157-vt",
+      "metadata_path": "raw/clarity-48157-vt.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/vt.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/vt.json",
+      "status": 200,
+      "original_sha256": "36ee48cea6cca8e2311506e88413ae44ecd83bf77f4f461e089ef64cca5018e2",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48157-config"
+    },
+    {
+      "source_id": "clarity-48157-details",
+      "metadata_path": "raw/clarity-48157-details.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/details.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/details.json",
+      "status": 200,
+      "original_sha256": "9d9df56c5d2ab46363f3665786176b106433250e8cbdc5fddc4b6ba92e4e9faa",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48157-config"
+    },
+    {
+      "source_id": "clarity-48157-vc",
+      "metadata_path": "raw/clarity-48157-vc.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/vc.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/vc.json",
+      "status": 200,
+      "original_sha256": "b975f863797e71e0e4d3033cd2716322092eafc852db016363bd5f287c337690",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48157-config"
+    }
+  ],
+  "assessment": "2026 county page actually links November Clarity 127480. November date and Senate K=0004 with three printed candidates plus generic write-in; istestmode=1, all zeros. Native status/detail/method/vote-center schemas retained.",
+  "gaps": "Exclude test observation from current counts until flag clears; named write-ins, denominator approval and genuine update cadence unresolved.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 79,
+    "CN": "FORT BEND",
+    "MID": 48079,
+    "county_fips": "48157",
+    "dispatch_key": "TX:48157",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 202.0,
+    "P": 0.0,
+    "RV": 581636.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 99.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 581636,
+    "TP": 202,
+    "TV": 0,
+    "TPR": 202
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/79",
+    "summary": "/upload/79/Summary",
+    "senate": "/upload/79/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "FORT BEND",
+    "id": 79,
+    "registered_voters": 581636,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 66,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48157",
+    "county_fips": "48157",
+    "county": "Fort Bend",
+    "rank": "8",
+    "priority": "1",
+    "state_county_id": "79",
+    "state_mid": 48079,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": 503,
+    "derivative_historical_units": 350,
+    "original_historical_units": null,
+    "tlc_vtd_rows": 900,
+    "november_native_gap": "Exclude test observation from current counts until flag clears; named write-ins, denominator approval and genuine update cadence unresolved."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

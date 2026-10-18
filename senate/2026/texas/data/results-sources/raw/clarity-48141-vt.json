@@ -1,0 +1,51 @@
+{
+  "id": "clarity-48141-vt",
+  "request_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/vt.json",
+  "parent_id": "tarrant-clarity-main",
+  "purpose": "literal bundle file enum and nonlocalized route; current county/version from chain",
+  "retrieval_started_utc": "2026-10-18T03:31:49.568682+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/vt.json",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "MISS",
+    "Last-Modified": "Fri, 16 Oct 2026 17:54:16 GMT",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "Date": "Sun, 18 Oct 2026 03:31:49 GMT",
+    "Expires": "Sat, 17 Oct 2026 17:55:58 GMT",
+    "Cache-Control": "max-age=86400",
+    "ETag": "W/\"6ad264c8-17e9\"",
+    "X-Cache": "RefreshHit from cloudfront",
+    "Via": "1.1 e032fab8f0874cd22c2ccd26e9181a0c.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "CScPjuzr0KRW7z3DzrJperv5L54JLdW2YDNCgo1tYOSqAEnVZJGqdA==",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 6121,
+  "original_sha256": "d38de5a219f47d73f8f10687ffa0736ba9a8d295fbd1e1bf5fb85a77f6484b0f",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 426,
+  "stored_stream_sha256": "7b00a5ba168da597d71368ade5be159d6c7431b85080ace32db171a77779a90b",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48141-vt.body.gz",
+      "bytes": 426,
+      "sha256": "7b00a5ba168da597d71368ade5be159d6c7431b85080ace32db171a77779a90b"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:31:49.679160+00:00"
+}

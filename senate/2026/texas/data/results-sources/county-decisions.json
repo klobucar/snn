@@ -1,0 +1,348 @@
+{
+  "48201": {
+    "result_sources": [
+      "county-48201-result2",
+      "harris-live",
+      "harris-ballot",
+      "harris-reporting",
+      "harris-senate-precinct"
+    ],
+    "assessment": "November 1126 initial zero state. Official county iframe and inline public JSON routes followed. Senate 9189 has named REP/DEM/LIB plus generic WRITE-IN; four named state write-ins cannot be allocated from the generic row. 1,224 literal units in current pr/pv arrays; state summary says 1,225. Historical original has 1,584 different units. No crosswalk proved.",
+    "gap": "Initial zeros and source placeholders are not election-night counts; current named write-in detail, vote-center mapping, complete method definitions and remaining eligible Senate votes unresolved."
+  },
+  "48113": {
+    "result_sources": [
+      "county-48113",
+      "discovery-48113"
+    ],
+    "assessment": "SOS-listed county site and pinned historical result route both returned HTTP 202 with empty entities. Original 2024 vendor ZIP and its full native inventory remain read-only references, separate from the current statewide November county object.",
+    "gap": "County November parent/vendor/feed and finer current IDs inaccessible here; manual browser fallback required."
+  },
+  "48439": {
+    "result_sources": [
+      "county-48439",
+      "county-48439-result1",
+      "tarrant-clarity-shell",
+      "clarity-48439-config",
+      "clarity-48439-electionsettings",
+      "clarity-48439-summary",
+      "clarity-48439-status",
+      "clarity-48439-vt",
+      "clarity-48439-details",
+      "clarity-48439-vc",
+      "clarity-48439-vc_status"
+    ],
+    "assessment": "Actual county November link gives Clarity 127297. Bundle-derived current version/config/JSON now accessible. November date, but istestmode=1 and showtestdatawatermark=0: exclude as live counts. Senate K=1 has three printed names and no named write-ins. TP=2985 differs from state TP=708; all 2,985 literal labels, including F99/FSB suffixes, remain distinct and are not promoted to geography. Peer ENR_1126 ZIP is only a future-posting notice.",
+    "gap": "Test mode must clear and write-in coverage/denominator definitions must be verified; no measured cadence or genuine November vote snapshots."
+  },
+  "48029": {
+    "result_sources": [
+      "county-48029",
+      "county-48029-result2",
+      "clarity-48029-config",
+      "clarity-48029-electionsettings",
+      "clarity-48029-summary",
+      "clarity-48029-status",
+      "clarity-48029-vt",
+      "clarity-48029-details",
+      "clarity-48029-vc",
+      "clarity-48029-vc_status"
+    ],
+    "assessment": "Actual county link gives Clarity 127291, November 3 date, istestmode=0, all Senate zeros. Senate K=0004, three named printed candidates plus generic Write-in. Status, detail, method and vote-center identities retained separately. Initial TP=806 agrees with state aggregate, not proof of geographic compatibility.",
+    "gap": "No election-night changing snapshots, named write-in allocation, current polygon approval or outstanding-vote estimate established."
+  },
+  "48453": {
+    "result_sources": [
+      "county-48453",
+      "county-48453-result1",
+      "county-48453-result3"
+    ],
+    "assessment": "County results/reconciliation page links Clarity Travis county selector, explicitly labeling current link May 26 primary runoff and historical 2022-present. Selector is not a verified November contest. Original 2024 vendor workbook and full native identities referenced without copying.",
+    "gap": "Actual November county election ID and current finer-unit schema not established from selector; state November object separately retained."
+  },
+  "48085": {
+    "result_sources": [
+      "county-48085",
+      "county-48085-result1",
+      "county-48085-result1-sample"
+    ],
+    "assessment": "County publishes downloadable summary, precinct report, reconciliation and native CSV export. Retained actual June 13, 2026 local runoff CSV with COUNTY NUMBER/PRECINCT CODE/PRECINCT NAME, registration, ballots and repeated candidate/method header rows. Its city contests are not Senate or November.",
+    "gap": "No November Senate county export or IDs yet linked on inspected result page; source-native older CSV is only a schema example."
+  },
+  "48121": {
+    "result_sources": [
+      "county-48121",
+      "county-48121-office",
+      "county-48121-office-follow1",
+      "discovery-48121"
+    ],
+    "assessment": "SOS route reaches county site, which explicitly links Vote Denton. Linked election site and historical result route returned HTTP 202 empty bodies. County page distinguishes election-day site lookup from early voting sites.",
+    "gap": "November county vendor, candidate/native IDs and count schema inaccessible; do not infer from polling-site lookup or state denominator."
+  },
+  "48157": {
+    "result_sources": [
+      "county-48157",
+      "county-48157-result2",
+      "county-48157-result2-linked1",
+      "clarity-48157-config",
+      "clarity-48157-electionsettings",
+      "clarity-48157-summary",
+      "clarity-48157-status",
+      "clarity-48157-vt",
+      "clarity-48157-details",
+      "clarity-48157-vc"
+    ],
+    "assessment": "2026 county page actually links November Clarity 127480. November date and Senate K=0004 with three printed candidates plus generic write-in; istestmode=1, all zeros. Native status/detail/method/vote-center schemas retained.",
+    "gap": "Exclude test observation from current counts until flag clears; named write-ins, denominator approval and genuine update cadence unresolved."
+  },
+  "48339": {
+    "result_sources": [
+      "county-48339",
+      "county-48339-result1",
+      "county-48339-result1-sample"
+    ],
+    "assessment": "Official results archive supplies cumulative, canvass, precinct, consolidation, provisional and reconciliation PDFs separately. Retained May 26 primary-runoff reconciliation scan. Visual page 1 distinguishes voters, rejected ballots, counted ballots, mail sent/not-returned/surrendered and provisional categories; these are not November outstanding votes.",
+    "gap": "No November county machine feed or current finer roster established. Scanned sample has no extractable text; visual evidence is explicitly page-scoped."
+  },
+  "48491": {
+    "result_sources": [
+      "county-48491",
+      "wilco-office",
+      "discovery-48491"
+    ],
+    "assessment": "SOS directory route, official current office URL and result archive all blocked by HTTP 403. Official search identifies current November page and results archive, but rendered search discovery does not establish a working feed.",
+    "gap": "Manual browser access needed for actual November county/vendor/download schema and current units; state county object separately inspected."
+  },
+  "48141": {
+    "result_sources": [
+      "county-48141",
+      "county-48141-result1",
+      "clarity-48141-config",
+      "clarity-48141-electionsettings",
+      "clarity-48141-summary",
+      "clarity-48141-status",
+      "clarity-48141-vt",
+      "clarity-48141-details",
+      "clarity-48141-vc",
+      "clarity-48141-vc_status"
+    ],
+    "assessment": "Official county link gives Clarity 127348. November date, Senate K=0033 with generic write-in, all zeros, istestmode=1 and hidden watermark. Website clock explicitly MDT. Native TP=236 differs from state TP=237; preserve both. El Paso closes in Mountain time.",
+    "gap": "Test mode, named write-in allocation and one-unit discrepancy block production use; published initial roster does not approve 2026 geography."
+  },
+  "48215": {
+    "result_sources": [
+      "county-48215",
+      "hidalg-results"
+    ],
+    "assessment": "SOS homepage route and official county archived-results directory retained. Archive separates primary/general/city-school elections. No November download found in inspected archive. Current statewide Senate county object is complete at county/candidate level only.",
+    "gap": "November local result route, original finer IDs and method-specific outstanding information unverified."
+  },
+  "48039": {
+    "result_sources": [
+      "county-48039",
+      "discovery-48039"
+    ],
+    "assessment": "SOS county route returned HTTP 403; pinned county-clerk results route also 403. Official search exposes older primary precinct PDFs but they are not November. State November county object retained.",
+    "gap": "County November machine feed, original current finer roster, timestamp and correction behavior inaccessible here."
+  },
+  "48167": {
+    "result_sources": [
+      "county-48167",
+      "discovery-48167"
+    ],
+    "assessment": "SOS county election site and historical results route returned HTTP 202 empty entities. Official city Galveston identifies galvestonvotes.org, but that does not make an empty entity usable results.",
+    "gap": "Manual county browser fallback; no November county IDs/native-unit feed or publication cadence established."
+  },
+  "48027": {
+    "result_sources": [
+      "county-48027",
+      "county-48027-result2",
+      "clarity-48027-config",
+      "clarity-48027-electionsettings",
+      "clarity-48027-summary",
+      "clarity-48027-status",
+      "clarity-48027-vc"
+    ],
+    "assessment": "County homepage Election Results points to Clarity 126390. Actual date 5/26/2026, name 2026 Primary Runoff Election. Nonzero Cornyn/Paxton Senate votes and 71/72 units are excluded from November; October 9 website clock does not change election identity. Legacy 2016 template header also remains.",
+    "gap": "November county election route unknown; native old-election status and centers retained as separate source identities."
+  },
+  "48209": {
+    "result_sources": [
+      "county-48209",
+      "hays-office",
+      "discovery-48209"
+    ],
+    "assessment": "SOS route and official current/history county election URLs returned HTTP 403. City Wimberley identifies the county office as authority; no successful November local body retained.",
+    "gap": "Manual browser county/vendor/finer schema; no current units or release cadence proved."
+  },
+  "48303": {
+    "result_sources": [
+      "county-48303",
+      "lubbock-current",
+      "discovery-48303"
+    ],
+    "assessment": "SOS county election route, current Vote Lubbock site and historical results route returned HTTP 202 empty entities. Official City of Lubbock resolution identifies Vote Lubbock as election site; city local results cannot substitute for Senate counts.",
+    "gap": "Actual November county/vendor/native schema inaccessible; state initial county totals are the available current schema."
+  },
+  "48355": {
+    "result_sources": [
+      "county-48355",
+      "nueces-history",
+      "discovery-48355"
+    ],
+    "assessment": "SOS county route and official county election-history folder returned HTTP 403. Search-discovered March precinct results identify primary, not November; KRIS test categories in coordinator preflight remain excluded.",
+    "gap": "November county vendor/current unit IDs inaccessible; no allocation from media categories or historical PDFs."
+  },
+  "48061": {
+    "result_sources": [
+      "county-48061",
+      "county-48061-result1"
+    ],
+    "assessment": "Official county results archive retained with links grouped across multiple older elections. Current November ballot information is separate from count results. No actual November Senate result object identified on the inspected archive.",
+    "gap": "County November result/candidate/native IDs and updated method/reporting-unit semantics unresolved."
+  },
+  "48091": {
+    "result_sources": [
+      "county-48091",
+      "county-48091-office",
+      "county-48091-office-follow1"
+    ],
+    "assessment": "Old SOS elections URL now redirects to county homepage. Following actual Voter Information link reaches current office with November notices and Clarity Comal county selector. Selector retained; it does not identify November contest or certify units.",
+    "gap": "November local election ID/feed and reporting roster not verified; obsolete results.texas-election.com link also remains on office page."
+  },
+  "48423": {
+    "result_sources": [
+      "county-48423",
+      "county-48423-office",
+      "county-48423-office-follow1"
+    ],
+    "assessment": "SOS old department URL returns county 404 page with working Election Information link. Actual Current Election Results page separates official polling-place, precinct, precinct-split, reconciliation and summary reports for prior 2026 elections. November tab explicitly says Coming Soon.",
+    "gap": "No November local result URL/IDs published in inspected tab; future exports and geography unverified."
+  },
+  "48309": {
+    "result_sources": [
+      "county-48309",
+      "county-48309-https",
+      "discovery-48309"
+    ],
+    "assessment": "SOS HTTP election URL, explicit HTTPS variant and pinned modern county result archive returned HTTP 403. Requests retained as access failures, not zero results.",
+    "gap": "Manual local parent/vendor/finer roster and count field inspection required; current state object is separate evidence."
+  },
+  "48139": {
+    "result_sources": [
+      "county-48139",
+      "county-48139-result1",
+      "county-48139-result2"
+    ],
+    "assessment": "Official county election page links an actual November 3, 2026 result page. Its joint-results, summary and precinct-by-race links are all Coming Soon. Current Civix state route is linked; no county machine export yet.",
+    "gap": "Future county downloads, native IDs, timestamps and outstanding-ballot categories unverified."
+  },
+  "48041": {
+    "result_sources": [
+      "county-48041",
+      "county-48041-result1",
+      "county-48041-result1-sample"
+    ],
+    "assessment": "Official county results page offers native precinct/location reports including Mail Ballots and early-voting sites, plus cumulative/canvass and preliminary/final reconciliations. Full March 3, 2026 primary cumulative PDF retained as schema evidence; not a November Senate feed.",
+    "gap": "Current November county source identity/download absent from inspected results list; do not sum overlapping location/precinct/method views."
+  },
+  "48367": {
+    "result_sources": [
+      "county-48367",
+      "county-48367-result1",
+      "county-48367-result1-linked1",
+      "clarity-48367-config",
+      "clarity-48367-electionsettings",
+      "clarity-48367-summary",
+      "clarity-48367-status",
+      "clarity-48367-vt",
+      "clarity-48367-details",
+      "clarity-48367-vc"
+    ],
+    "assessment": "Official Election Results page links Clarity 126014. Actual election date 3/3/2026, separate Republican and Democratic primary Senate contests, both 46/46 reported. These nonzero primary votes are excluded from November; old scrolling link also remains.",
+    "gap": "November county election ID and native roster unknown; old source status/method/center identities retained without crosswalk."
+  },
+  "48245": {
+    "result_sources": [
+      "county-48245",
+      "discovery-48245"
+    ],
+    "assessment": "SOS historical connect4 county link and pinned jeffersonelections.com results route returned HTTP 202 empty. A search-discovered similarly named county-clerk domain was not accepted as Texas authority: jurisdiction unverified and response403. Exact Texas county state object retained.",
+    "gap": "Working official November county/vendor chain and native schema require manual access; no other-state Jefferson data used."
+  },
+  "48187": {
+    "result_sources": [
+      "county-48187",
+      "county-48187-office",
+      "county-48187-office-follow1",
+      "county-48187-office-follow1-sample"
+    ],
+    "assessment": "Following actual Elections Administration link reaches official result history. Retained May 26, 2026 official summary scan. Visual page1 shows Election Day/Early Voting/Absentee separately and official status; footer 06/08/2026 12:45 PM has no established zone. It is primary-runoff evidence only.",
+    "gap": "November local feed/ID and complete current native units not established. Scan text extraction empty, visual interpretation limited to inspected page."
+  },
+  "48251": {
+    "result_sources": [
+      "county-48251",
+      "county-48251-https",
+      "discovery-48251"
+    ],
+    "assessment": "SOS elections-office route, scheme retry and historical archive all HTTP403. State county totals are independently accessible but do not supply county original finer identities.",
+    "gap": "Manual November county/vendor access, native schema and correction/outstanding semantics required."
+  },
+  "48257": {
+    "result_sources": [
+      "county-48257",
+      "county-48257-office",
+      "county-48257-office-follow1",
+      "county-48257-office-follow2"
+    ],
+    "assessment": "Actual county Elections and ELECTION RESULTS pages link the Clarity Kaufman selector and distinguish 2021-current from earlier results. Selector retained without guessing a November election ID.",
+    "gap": "November contest/vendor snapshot, candidate and finer-unit IDs not verified from selector."
+  },
+  "48381": {
+    "result_sources": [
+      "county-48381",
+      "randall-results",
+      "randall-results-sample"
+    ],
+    "assessment": "SOS link is a quicklinks collection, not election results. Official result archive separately recovered. Retained final reconciliation PDF for May26 primary runoff, with explicit voters/rejected/counted/mail-sent/not-returned/surrendered fields. Native FEDERAL ONLY units occur in historical canvass evidence and must remain distinct.",
+    "gap": "No November county result/download/native roster proved; older reconciliation is not a current remainder count."
+  },
+  "48181": {
+    "result_sources": [
+      "county-48181",
+      "county-48181-office",
+      "county-48181-office-follow1",
+      "county-48181-office-follow1-sample"
+    ],
+    "assessment": "SOS route redirects to county homepage. Actual Elections link reaches history with 2026 primary/runoff reports. Full March3 official Democratic precinct PDF retained with explicit precinct, voting-method and over/undervote fields; this is not November.",
+    "gap": "November local feed/IDs absent from inspected history; historical filename conflict in OE Jeff Davis/Grayson remains separate and is never reassigned."
+  },
+  "48479": {
+    "result_sources": [
+      "county-48479",
+      "county-48479-office",
+      "county-48479-office-follow1",
+      "county-48479-office-follow2",
+      "county-48479-office-follow3",
+      "county-48479-office-follow2-sample"
+    ],
+    "assessment": "Old SOS path returns county404 with current Elections link. Office separates official, unofficial and precinct-by-precinct pages and has a November tab. Actual unofficial page still lists March3 primary. Retained 6th-day-after scan explicitly says unofficial until canvassed and 78/78 partially reported versus 0/78 complete; 100% participating is not finality.",
+    "gap": "November results not yet populated; scanned March sample visual page1 only, no new November native roster or remaining valid Senate votes."
+  },
+  "48397": {
+    "result_sources": [
+      "county-48397",
+      "discovery-48397"
+    ],
+    "assessment": "SOS county route and pinned Rockwall Votes results-in-progress URL returned HTTP202 empty. A historical vendor selector from the peer source list remains discovery only.",
+    "gap": "County November parent/vendor/candidate/native-unit schema inaccessible here; manual fallback required."
+  },
+  "48329": {
+    "result_sources": [
+      "county-48329"
+    ],
+    "assessment": "SOS official Elections Office URL returned HTTP202 empty. Exact original 2024 primary county PDF and all46 native identities remain pinned read-only. Current state November county has its own initial denominator; no equality or crosswalk assumed.",
+    "gap": "Working November county/vendor/finer source inaccessible; historical 46 units do not establish current approved geography."
+  }
+}

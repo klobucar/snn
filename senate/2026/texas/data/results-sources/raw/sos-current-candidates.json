@@ -1,0 +1,42 @@
+{
+  "id": "sos-current-candidates",
+  "request_url": "https://goelect.txelections.civixapps.com/ivis-cbp-ui/candidate-information",
+  "parent_id": "sos-candidates",
+  "purpose": "actual linked candidate lookup",
+  "retrieval_started_utc": "2026-10-18T03:25:53.292246+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://goelect.txelections.civixapps.com/ivis-cbp-ui/candidate-information",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:25:53 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "vary": "Accept-Encoding",
+    "Strict-Transport-Security": "max-age=0",
+    "cf-cache-status": "DYNAMIC",
+    "set-cookie": "__cf_bm=92R10YDmUzYAVkRKds.MzwbWeWPPDg2NDXCuJSg_Wyc-1792293953.4931955-1.0.1.1-BVHWF8sBfzuRemb.4s91e9vOwx9Fw9yPP7v85rhWHUrXj3SrFwtmmeY1ES3.iIFneeI8krqbg4crfhl_QPNe6tA20jDrmUfxAbYbsSZzy5QV227ONjkxMsC.ySmQTK2Q; HttpOnly; SameSite=None; Secure; Path=/; Domain=civixapps.com; Expires=Sun, 18 Oct 2026 03:55:53 GMT",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a4c470395981615c-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 17885,
+  "original_sha256": "ac5b9f5adc146e452e783541e42f6ccd1182098af229d843e30f2a89af9436d6",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 3139,
+  "stored_stream_sha256": "6f8ea55095f3659cdbc784293cefb3116e06d7e1b79fcb4ebde16ff24d3f8284",
+  "stored_parts": [
+    {
+      "path": "raw/sos-current-candidates.body.gz",
+      "bytes": 3139,
+      "sha256": "6f8ea55095f3659cdbc784293cefb3116e06d7e1b79fcb4ebde16ff24d3f8284"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:25:53.635255+00:00"
+}

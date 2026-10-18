@@ -1,0 +1,53 @@
+{
+  "id": "clarity-48439-config",
+  "request_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/config.json",
+  "parent_id": "clarity-48439-version",
+  "purpose": "actual version and bundle config literal",
+  "retrieval_started_utc": "2026-10-18T03:30:28.520821+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/config.json",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "MISS",
+    "Last-Modified": "Wed, 07 Oct 2026 16:45:21 GMT",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "Date": "Sun, 18 Oct 2026 03:30:28 GMT",
+    "Expires": "Sat, 17 Oct 2026 01:54:25 GMT",
+    "Cache-Control": "max-age=86400",
+    "ETag": "W/\"6ac67721-52\"",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 3b1e8b288eb1bb0e116bb28cbd27e30c.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "nZhpWkdUjIx_45zXDi6FD3F-p2EEEbwYWOOmjwH6E4KeIYKoNciadA==",
+    "Age": "71046",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 82,
+  "original_sha256": "78292ed41040455b998725bdda012ab0b0bd438c27d902795578de956bd7603d",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 92,
+  "stored_stream_sha256": "b8f3d5a33145e944444572ccb4f8aff381c84d9fbf837f5587eccf6367c68c35",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48141-config.body.gz",
+      "bytes": 92,
+      "sha256": "b8f3d5a33145e944444572ccb4f8aff381c84d9fbf837f5587eccf6367c68c35"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:30:28.589875+00:00",
+  "body_storage_shared_with": "clarity-48141-config"
+}

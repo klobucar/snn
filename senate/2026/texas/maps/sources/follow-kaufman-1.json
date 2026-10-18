@@ -1,0 +1,36 @@
+{
+  "id": "follow-kaufman-1",
+  "requested_url": "https://www.kaufmancounty.net/DocumentCenter/Index/378",
+  "parent_source_url": "Search-discovered official county publication; see county discovery routes",
+  "retrieved_utc": "2026-10-18T03:33:57.742717+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.kaufmancounty.net/DocumentCenter/Index/378",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "text/html; charset=utf-8",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=zqymxwsg1re35ex3ilczxtov; path=/; secure; HttpOnly; SameSite=None",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:33:57 GMT",
+    "Content-Length": "99495"
+  },
+  "redirects": [],
+  "original_bytes": 99495,
+  "original_sha256": "7ae5f7e23ae0581d3d0971b1d0f279ea7fb3086d7b9c9bb2e0cab66324886b50",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/follow-kaufman-1.body",
+      "bytes": 99495,
+      "sha256": "7ae5f7e23ae0581d3d0971b1d0f279ea7fb3086d7b9c9bb2e0cab66324886b50"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Kaufman"
+}

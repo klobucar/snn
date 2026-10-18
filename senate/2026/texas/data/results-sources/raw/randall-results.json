@@ -1,0 +1,44 @@
+{
+  "id": "randall-results",
+  "request_url": "https://www.randallcounty.gov/183/Election-Results",
+  "parent_id": "county-48381",
+  "purpose": "official search-discovered result route; directory quicklinks lacks result route",
+  "retrieval_started_utc": "2026-10-18T03:29:30.298537+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.randallcounty.gov/183/Election-Results",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=sydzzf11utvtnerpjdomqdor; path=/; secure; HttpOnly; SameSite=None",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:29:30 GMT",
+    "Content-Length": "32649"
+  },
+  "redirects": [],
+  "original_bytes": 135124,
+  "original_sha256": "2946a2e77a64f3251191ad74210861b20af235404bca1a892f141c99cd67ab7d",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 24333,
+  "stored_stream_sha256": "30d8c28daf42cfcdb99d464c5e1f68e076c147cfdf375d9ee5719c4409d60593",
+  "stored_parts": [
+    {
+      "path": "raw/randall-results.body.gz",
+      "bytes": 24333,
+      "sha256": "30d8c28daf42cfcdb99d464c5e1f68e076c147cfdf375d9ee5719c4409d60593"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:29:30.807502+00:00"
+}

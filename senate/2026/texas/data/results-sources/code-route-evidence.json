@@ -1,0 +1,59 @@
+{
+  "sos-current-results-main": {
+    "getElectionConstants(){": [
+      "nt:center}}\"]})}}return t})(),UT=(()=>{class t{constructor(e){this.httpClient=e}getElectionConstants(){return this.httpClient.get(`${Od.urlAPIIvisSystem}/s3/enr/electionConstants`)}getMapState(){return this.httpClient.get(`${Od.urlAPIIvisSystem}/s3/enr/stateMap`)}getElectionDataByID(e){return this.httpClient.get(`${Od.urlAPIIvisSystem}/s3/enr/election/${e}`)}getReportByElectionID(e,n,r){return this.httpClient.get(`${Od.urlAPIIvisSystem}/s3/enr/electionReports/${e}/${n}/${r}`)",
+      "this.getElectionConstants().subscribe(),this.current$.next(this.current$.value)}getElectionConstants(){return this.enrElection.getElectionConstants().pipe(yr(e=>{try{const n=atob(e.upload),r=JSON.parse(n);this.commonService.setLandingPageShowStatus(r.showLandingPage),this.constants$.next(r)}catch(n){console.error(n)}}))}getElectionData(e){return this.enrElection.getElectionDataByID(e).pipe(q(n=>Object.entries(n).reduce((r,[a,s])=>{if(\"Version\"!==a)try{const o=atob(s),l=Uint8A"
+    ],
+    "getElectionDataByID(e)": [
+      "MapState(){return this.httpClient.get(`${Od.urlAPIIvisSystem}/s3/enr/stateMap`)}getElectionDataByID(e){return this.httpClient.get(`${Od.urlAPIIvisSystem}/s3/enr/election/${e}`)}getReportByElectionID(e,n,r){return this.httpClient.get(`${Od.urlAPIIvisSystem}/s3/enr/electionReports/${e}/${n}/${r}`)}getRSSByElectionID(e){return this.httpClient.get(`${Od.urlAPIIvisSystem}/s3/enr/electionRss/${e}/history`)}getCountyDataByElectionID(e){return this.httpClient.get(`${Od.urlAPIIvisSyst",
+      "ext(r)}catch(n){console.error(n)}}))}getElectionData(e){return this.enrElection.getElectionDataByID(e).pipe(q(n=>Object.entries(n).reduce((r,[a,s])=>{if(\"Version\"!==a)try{const o=atob(s),l=Uint8Array.from(o,d=>d.charCodeAt(0));r[a]=JSON.parse((new TextDecoder).decode(l))}catch(o){console.error(o)}return r},{})))}parseElectionDate(e){if(!e)return;const n=parseInt(e.slice(0,2),10)-1,r=parseInt(e.slice(2,4),10),a=parseInt(e.slice(4),10);return new Date(a,n,r)}static{this.\\u0275f"
+    ],
+    "getCountyDataByElectionID(e)": [
+      "n this.httpClient.get(`${Od.urlAPIIvisSystem}/s3/enr/electionRss/${e}/history`)}getCountyDataByElectionID(e){return this.httpClient.get(`${Od.urlAPIIvisSystem}/s3/enr/election/countyInfo/${e}`)}static{this.\\u0275fac=function(n){return new(n||t)(et(Us))}}static{this.\\u0275prov=wt({token:t,factory:t.\\u0275fac,providedIn:\"root\"})}}return t})(),Ha=(()=>{class t{get electionConstants$(){return this.constants$.asObservable()}get currentElection$(){return this.current$.asObservable("
+    ],
+    "getRSSByElectionID(e)": [
+      ".httpClient.get(`${Od.urlAPIIvisSystem}/s3/enr/electionReports/${e}/${n}/${r}`)}getRSSByElectionID(e){return this.httpClient.get(`${Od.urlAPIIvisSystem}/s3/enr/electionRss/${e}/history`)}getCountyDataByElectionID(e){return this.httpClient.get(`${Od.urlAPIIvisSystem}/s3/enr/election/countyInfo/${e}`)}static{this.\\u0275fac=function(n){return new(n||t)(et(Us))}}static{this.\\u0275prov=wt({token:t,factory:t.\\u0275fac,providedIn:\"root\"})}}return t})(),Ha=(()=>{class t{get electionC"
+    ]
+  },
+  "tarrant-clarity-main": {
+    "getBaseUri(Bt": [
+      "ILTERS\",sn}(W||{});const ne=\"ALL\",Ae=sn=>String(sn).toUpperCase()===ne;class fe{getBaseUri(Bt,nr,qe,pt){return`/${Bt}${nr&&\"\"!==nr?`/${nr}`:\"\"}/${qe}/${pt}`}getUri(Bt,nr,qe,pt,An,$n){return`/${Bt}${nr&&\"\"!==nr?`/${nr}`:\"\"}/${qe}/${pt}/json${$n?`/${$n}`:\"\"}/${An}`}getUriReports(Bt,nr,qe,pt,An,$n){return`${Bt}/${nr}${qe&&\"\"!==qe?`/${qe}`:\"\"}/${pt}/${An}/reports/${$n}`}}var U=function(sn){return sn[sn.Certified=0]=\"Certified\",sn[sn.NotReported=1]=\"NotReported\",sn[sn.PartiallyRep"
+    ],
+    "getUri(Bt": [
+      "fe{getBaseUri(Bt,nr,qe,pt){return`/${Bt}${nr&&\"\"!==nr?`/${nr}`:\"\"}/${qe}/${pt}`}getUri(Bt,nr,qe,pt,An,$n){return`/${Bt}${nr&&\"\"!==nr?`/${nr}`:\"\"}/${qe}/${pt}/json${$n?`/${$n}`:\"\"}/${An}`}getUriReports(Bt,nr,qe,pt,An,$n){return`${Bt}/${nr}${qe&&\"\"!==qe?`/${qe}`:\"\"}/${pt}/${An}/reports/${$n}`}}var U=function(sn){return sn[sn.Certified=0]=\"Certified\",sn[sn.NotReported=1]=\"NotReported\",sn[sn.PartiallyReported=2]=\"PartiallyReported\",sn[sn.Participating=3]=\"Participating\",sn[sn.Com"
+    ],
+    "sn.Config=": [
+      "uage;return\"es\"===Bt?\"sp\":Bt}}var F=function(sn){return sn.Colors=\"colors.json\",sn.Config=\"config.json\",sn.ContestDistrictConfig=\"contestdistrictconfig.json\",sn.Details=\"details.json\",sn.ElectionSettings=\"electionsettings.json\",sn.MultiCountyContestConfig=\"multicountycontestconfig.json\",sn.Navigation=\"nav.json\",sn.ScrollingPage=\"scrollingpagesettings.json\",sn.Status=\"status.json\",sn.StraightParty=\"sp.json\",sn.Sum=\"sum.json\",sn.Summary=\"summary.json\",sn.Version=\"current_ver.tx"
+    ],
+    "F.VoterType": [
+      "\"FILE\"}).pipe((0,o.T)(Tn=>me.modelTransform(Tn,mn))),hn=this.getUri(qe,pt,An,ot,F.VoterType),En=this.apiService.get(hn,{source:\"FILE\"}).pipe((0,o.T)(Tn=>me.modelTransform(Tn,rr))),Fn=this.getUri(qe,pt,An,ot,F.Details),on=this.apiService.get(Fn,{source:\"FILE\"}).pipe((0,o.T)(Tn=>me.modelTransform(Tn,It))),Xn=this.getUri(qe,pt,An,ot,F.Colors),Ln=this.getUri(qe,pt,An,ot,F.Summary,Rt.lang),hr=this.getUri(qe,pt,An,ot,F.Sum),tn=this.apiService.get(Xn,{source:\"FILE\"}).pipe((0,l.M)(Tn",
+      "\"FILE\"}).pipe((0,o.T)(tn=>me.modelTransform(tn,mn))),nn=this.getUri(qe,\"\",pt,kt,F.VoterType),hn=this.apiService.get(nn,{source:\"FILE\"}).pipe((0,o.T)(tn=>me.modelTransform(tn,rr))),En=this.getUri(qe,\"\",pt,kt,F.Details),Fn=this.apiService.get(En,{source:\"FILE\"}).pipe((0,o.T)(tn=>me.modelTransform(tn,It))),on=this.getUri(qe,\"\",pt,kt,F.Colors),Xn=this.getUri(qe,\"\",pt,kt,F.Summary,Jn.lang),Ln=this.getUri(qe,\"\",pt,kt,F.Sum),hr=this.apiService.get(on,{source:\"FILE\"}).pipe((0,l.M)(tn"
+    ],
+    "F.Details": [
+      "e,this._details=new u.t(null)}get(qe,pt,An,$n){const Ut=this.getUri(qe,pt,An,$n,F.Details);return this.apiService.get(Ut,{source:\"FILE\"}).pipe((0,o.T)(ot=>me.modelTransform(ot,It)),(0,l.M)(ot=>this.details=ot))}static#e=sn=()=>(this.\\u0275fac=function(pt){return new(pt||Bt)(B.KVO(L))},this.\\u0275prov=B.jDH({token:Bt,factory:Bt.\\u0275fac}))}return sn(),Bt})();var ke=function(sn){return sn.Classic=\"1\",sn.Web01=\"2\",sn.Web02=\"4\",sn.Web02State=\"8\",sn.Web=\"16\",sn}(ke||{});class Q{g",
+      "\"FILE\"}).pipe((0,o.T)(Tn=>me.modelTransform(Tn,rr))),Fn=this.getUri(qe,pt,An,ot,F.Details),on=this.apiService.get(Fn,{source:\"FILE\"}).pipe((0,o.T)(Tn=>me.modelTransform(Tn,It))),Xn=this.getUri(qe,pt,An,ot,F.Colors),Ln=this.getUri(qe,pt,An,ot,F.Summary,Rt.lang),hr=this.getUri(qe,pt,An,ot,F.Sum),tn=this.apiService.get(Xn,{source:\"FILE\"}).pipe((0,l.M)(Tn=>kt=Tn),(0,a.Z)(()=>this.apiService.get(hr,{source:\"FILE\"})),(0,l.M)(Tn=>Ft=Tn),(0,a.Z)(()=>this.apiService.get(Ln,{source:\"FI"
+    ],
+    "F.VoteCenterStatus": [
+      "oteCenterStatus=new u.t(null)}get(qe,pt,An,$n){const Ut=this.getUri(qe,pt,An,$n,F.VoteCenterStatus),ot=this.getUri(qe,pt,An,$n,F.VoteCenter);return this.apiService.get(`${Ut}`,{source:\"FILE\"}).pipe((0,l.M)(Ft=>this.voteCenterStatus=Ft),(0,m.n)(()=>this.apiService.get(`${ot}`,{source:\"FILE\"})),(0,o.T)(Ft=>Ft.map(kt=>{const Un=this.voteCenterStatus.P.indexOf(kt.voteCenter.idVoteCenter);return{status:{status:this.voteCenterStatus.S[Un],name:Bn(this.voteCenterStatus.S[Un])},id:kt"
+    ],
+    "detailxml.zip": [
+      "ull==(E=e.bMT(10,12,k.strings$))?null:E.rpttittlexml)),e.Y8G(\"href\",k.baseUri+\"/detailxml.zip\",e.B4B),e.R7$(4),e.JRh((null==(I=e.bMT(13,14,k.strings$))?null:I.download)||\"Download\"),e.R7$(2),e.Y8G(\"icon\",k.faDownload)}}function ib(C,P){if(1&C&&(e.j41(0,\"div\",9)(1,\"div\")(2,\"div\")(3,\"h3\"),e.nrm(4,\"enr-editor\",24),e.k0s()(),e.j41(5,\"small\"),e.nrm(6,\"enr-editor\",25),e.k0s()(),e.j41(7,\"div\")(8,\"a\",26),e.nI1(9,\"async\"),e.nI1(10,\"async\"),e.j41(11,\"span\",13),e.EFF(12),e.nI1(13,\"async",
+      "],[\"key\",\"rptdescriptionxml\",1,\"text-dark\",3,\"editable\",\"version\"],[\"download\",\"detailxml.zip\",1,\"d-flex\",\"ps-2\",3,\"href\"],[\"key\",\"typexmlvtlabel\",1,\"text-dark\",3,\"editable\",\"version\"],[\"key\",\"xmlvtdescription\",1,\"text-dark\",3,\"editable\",\"version\"],[\"download\",\"detailwithoutvotetypesxml.zip\",1,\"d-flex\",\"ps-2\",3,\"href\"],[\"key\",\"rpttittletxt\",1,\"text-dark\",3,\"editable\",\"version\"],[\"key\",\"rptdescriptiontxt\",1,\"text-dark\",3,\"editable\",\"version\"],[\"download\",\"detailtxt.zip\",1,\"d-f"
+    ]
+  },
+  "harris-live": {
+    "var electionCode": [
+      " function (array) {\r\n        return Math.min.apply(Math, array);\r\n    };\r\n\r\n    var electionCode = '1126';\r\n    var dnnPrefix = 'https://appfiles.harrisvotes.com/harrisvotes/prd';\r\n    var cacheTime = (new Date(new Date().setSeconds(0, 0))).getTime();\r\n    angular.module(\"ElectionResultsApp\", ['ngCookies'])\r\n        .controller(\"ContestController\", ['$scope', '$http', '$timeout', '$filter', '$cookies', function ($scope, $http, $timeout, $filter, $cookies) {\r\n            var v"
+    ],
+    "var dnnPrefix": [
+      "urn Math.min.apply(Math, array);\r\n    };\r\n\r\n    var electionCode = '1126';\r\n    var dnnPrefix = 'https://appfiles.harrisvotes.com/harrisvotes/prd';\r\n    var cacheTime = (new Date(new Date().setSeconds(0, 0))).getTime();\r\n    angular.module(\"ElectionResultsApp\", ['ngCookies'])\r\n        .controller(\"ContestController\", ['$scope', '$http', '$timeout', '$filter', '$cookies', function ($scope, $http, $timeout, $filter, $cookies) {\r\n            var vm = this;\r\n            vm.faveCo"
+    ],
+    "$http.get(dnnPrefix": [
+      "isLoading = 0;\r\n            vm.innerHeight = window.outerHeight;\r\n\r\n            $http.get(dnnPrefix + '/Data/' + electionCode + '/resultsbyballot.json?nocache=' + cacheTime, { timeout: 3000 })\r\n                .then(function success(response) {\r\n                    vm.contests = response.data.contests;\r\n                    angular.forEach(vm.contests, function (contest) {\r\n                        contest.f = false;\r\n                    });\r\n\r\n                    var favorites",
+      "\n                    $scope.isLoading += 1;\r\n                });\r\n\r\n            $http.get(dnnPrefix +'/Data/' + electionCode + '/pr.json?nocache=' + cacheTime)\r\n                .then(function success(response) {\r\n                    vm.pr = response.data;\r\n                    vm.RegisteredVoters = vm.pr.rv;\r\n                    vm.BallotCast = vm.pr.bc;\r\n                    vm.TurnOut = vm.pr.to;\r\n                    $scope.isLoading += 1;\r\n                }, function error(r"
+    ],
+    "pv-": [
+      "ontestId) {\r\n                 $http.get(dnnPrefix + '/Data/' + electionCode + '/pv-' + contestId + '.json?nocache=' + cacheTime)\r\n                    .then(function success(response) {\r\n                        vm.pv = response.data;\r\n                        RenderPrecinctVoting(contestId);\r\n                        RenderVotersTurnOut(contestId);\r\n                    }, function error(response) {\r\n                        //alert('Error retrieving precinct voting data.');\r\n    "
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "county-48091-office-follow1",
+  "request_url": "https://results.enr.clarityelections.com/TX/Comal/",
+  "parent_id": "county-48091-office",
+  "purpose": "Election Results",
+  "retrieval_started_utc": "2026-10-18T03:29:30.024418+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Comal/",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:29:30 GMT",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "HIT",
+    "Last-Modified": "Thu, 10 Apr 2025 19:16:36 GMT",
+    "ETag": "W/\"67f81914-1167\"",
+    "Expires": "Sat, 17 Oct 2026 03:54:38 GMT",
+    "Cache-Control": "max-age=86400",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 cd48a678d0f12425ad42c1b191b73e70.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "LJHi8MbQjAA_yasHxIekLRgIItRwPUpWBQqAm-eQ7LeXFJ3Irt_Wgg==",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 4455,
+  "original_sha256": "b4494140b2e83e1bf5cff967830908cec403d6a24f06097c813d1a551362a64f",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 1650,
+  "stored_stream_sha256": "19ca3c7273d183d858807f0e7ee1eb12c418a8c4c1104128b8cb10394d6d1dce",
+  "stored_parts": [
+    {
+      "path": "raw/county-48091-office-follow1.body.gz",
+      "bytes": 1650,
+      "sha256": "19ca3c7273d183d858807f0e7ee1eb12c418a8c4c1104128b8cb10394d6d1dce"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:29:30.129363+00:00"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "follow-lubbock-1",
+  "requested_url": "https://www.lubbockcounty.gov/eGov/apps/document/center.egov?id=2828&view=item",
+  "parent_source_url": "Search-discovered official county publication; see county discovery routes",
+  "retrieved_utc": "2026-10-18T03:33:58.272936+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.lubbockcounty.gov/egov/documents/1584116762_96147.pdf",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:33:59 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "1810612",
+    "Connection": "keep-alive",
+    "Accept-Ranges": "bytes",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Allow-Headers": "Origin, Content-Type, Accept, Authorization",
+    "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+    "Etag": "\"5e6bb41a-1ba0b4\"",
+    "Last-Modified": "Fri, 13 Mar 2020 16:26:02 GMT",
+    "Server": "nginx",
+    "Strict-Transport-Security": "max-age=31536000; includeSubdomains;",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Xss-Protection": "1; mode=block"
+  },
+  "redirects": [
+    {
+      "status": 302,
+      "url": "https://www.lubbockcounty.gov/eGov/apps/document/center.egov?id=2828&view=item",
+      "headers": {
+        "Date": "Sun, 18 Oct 2026 03:33:59 GMT",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Origin": "*",
+        "Location": "https://www.lubbockcounty.gov/egov/documents/1584116762_96147.pdf",
+        "Server": "nginx"
+      }
+    }
+  ],
+  "original_bytes": 1810612,
+  "original_sha256": "af374701d3264861d1d804996082ac4254fb22a638256976c0f726c2c8bc625e",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/follow-lubbock-1.pdf",
+      "bytes": 1810612,
+      "sha256": "af374701d3264861d1d804996082ac4254fb22a638256976c0f726c2c8bc625e"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Lubbock"
+}

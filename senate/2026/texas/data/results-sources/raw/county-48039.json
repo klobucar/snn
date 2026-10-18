@@ -1,0 +1,41 @@
+{
+  "id": "county-48039",
+  "request_url": "https://www.brazoriacountyclerktx.gov/departments/elections",
+  "parent_id": "sos-county-links",
+  "purpose": "Brazoria official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:33.763496+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 403,
+  "final_url": "https://www.brazoriacountyclerktx.gov/departments/elections",
+  "headers": {
+    "Server": "AkamaiGHost",
+    "Mime-Version": "1.0",
+    "Content-Type": "text/html",
+    "Content-Length": "406",
+    "X-Reference-Error": "18.a7291eb8.1792293994.8e9b839",
+    "Cache-Control": "max-age=0",
+    "Expires": "Sun, 18 Oct 2026 03:26:34 GMT",
+    "Date": "Sun, 18 Oct 2026 03:26:34 GMT",
+    "Connection": "close",
+    "Server-Timing": "cdn-cache; desc=HIT, edge; dur=1, ak_p; desc=\"1792293994038_3088984487_149534777_27_16370_9_19_-\";dur=1"
+  },
+  "redirects": [],
+  "original_bytes": 406,
+  "original_sha256": "a671d4d5253bc621723aba8ce5f4f71b8734510f8cda54c0acf5f56972bcb4b9",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 271,
+  "stored_stream_sha256": "d5c00c3c671d266d6d6975cf9dff754e4cc18677c823f82817f4b99d62a088ff",
+  "stored_parts": [
+    {
+      "path": "raw/county-48039.body.gz",
+      "bytes": 271,
+      "sha256": "d5c00c3c671d266d6d6975cf9dff754e4cc18677c823f82817f4b99d62a088ff"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:33.996971+00:00"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "county-48027-result2",
+  "request_url": "https://results.enr.clarityelections.com/TX/Bell/126390/",
+  "parent_id": "county-48027",
+  "purpose": "Election Results ",
+  "retrieval_started_utc": "2026-10-18T03:27:09.792806+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Bell/126390/",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:27:09 GMT",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "REVALIDATED",
+    "Last-Modified": "Fri, 09 Oct 2026 14:37:31 GMT",
+    "ETag": "W/\"6ac8fc2b-48e\"",
+    "Cache-Control": "max-age=60, must-revalidate, proxy-revalidate",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 f10b6d7c170eb195528718b3ecde1804.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "TBxePJFXTqyjVEM6It_xoFfSkPZb9kPZNf1E0Vk73E9iynWOWwqY6Q==",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 1166,
+  "original_sha256": "6d00545d20ba03c07bff7c00cdba2f382db71831f49bab36a51b3ac9b7c8c1b6",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 522,
+  "stored_stream_sha256": "3ada7ccc6a5d44bb1c853f59712c6ffb5c0a90e9b6c1d99d6c26d0b1f41dd7da",
+  "stored_parts": [
+    {
+      "path": "raw/county-48027-result2.body.gz",
+      "bytes": 522,
+      "sha256": "3ada7ccc6a5d44bb1c853f59712c6ffb5c0a90e9b6c1d99d6c26d0b1f41dd7da"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:09.867319+00:00"
+}

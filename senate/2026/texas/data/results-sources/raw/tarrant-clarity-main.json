@@ -1,0 +1,52 @@
+{
+  "id": "tarrant-clarity-main",
+  "request_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/web.345435/main.2ea4cb41df122bbb.js",
+  "parent_id": "tarrant-clarity-shell",
+  "purpose": "actual linked public application bundle",
+  "retrieval_started_utc": "2026-10-18T03:29:30.725752+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/web.345435/main.2ea4cb41df122bbb.js",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "application/javascript; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "MISS",
+    "Last-Modified": "Fri, 02 Oct 2026 19:02:28 GMT",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "Date": "Sun, 18 Oct 2026 03:29:30 GMT",
+    "Expires": "Sat, 17 Oct 2026 01:52:27 GMT",
+    "Cache-Control": "max-age=86400",
+    "ETag": "W/\"6abfffc4-53deb1\"",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 d6e1b026ffb06ff442130924aa69934a.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "pzDcKGN9BWgYhALcdu2lT5dg40Un7v5Jz0x10dxfpYQzAXr2AahxNA==",
+    "Age": "70989",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 5496497,
+  "original_sha256": "6b3ed613774a6b38fd89068e57c96e5c1e616546f103c38cad44908105012c98",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 1824958,
+  "stored_stream_sha256": "7a807e1bb1ba091658397fad2317467f22b815c776e18982b37ee17388bae389",
+  "stored_parts": [
+    {
+      "path": "raw/tarrant-clarity-main.body.gz",
+      "bytes": 1824958,
+      "sha256": "7a807e1bb1ba091658397fad2317467f22b815c776e18982b37ee17388bae389"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:29:31.128750+00:00"
+}

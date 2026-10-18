@@ -1,0 +1,44 @@
+{
+  "id": "extra-travis-map",
+  "requested_url": "https://www.traviscountytx.gov/images/intergovernmental_relations/Doc/G1_Election_Precincts_Final_Map.pdf",
+  "parent_source_url": "https://www.traviscountytx.gov/intergovernmental-relations/redistricting",
+  "retrieved_utc": "2026-10-18T03:35:08.901524+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.traviscountytx.gov/images/intergovernmental_relations/Doc/G1_Election_Precincts_Final_Map.pdf",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:35:09 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "219207",
+    "Connection": "keep-alive",
+    "last-modified": "Wed, 22 Dec 2021 00:39:44 GMT",
+    "Accept-Ranges": "bytes",
+    "Server": "cloudflare",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=63072000; includeSubDomains",
+    "content-security-policy": "default-src * data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval'; script-src * data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src * data: blob: 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src * data: blob: ; style-src * data: blob: 'unsafe-inline'; font-src * data: blob: 'unsafe-inline'; frame-ancestors * data: blob:;",
+    "x-turbo-charged-by": "LiteSpeed",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "via": "1.1 google",
+    "etag": "",
+    "expires": "Sun, 18 Oct 2026 07:35:09 GMT",
+    "Cache-Control": "public, max-age=14400",
+    "cf-cache-status": "REVALIDATED",
+    "CF-RAY": "a4c47dcc6a67ead8-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 219207,
+  "original_sha256": "53ecce67efcdfeb19fc015f41fd2ef41eb78a09f54ccfbee5161af7a91cc8aa9",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/extra-travis-map.pdf",
+      "bytes": 219207,
+      "sha256": "53ecce67efcdfeb19fc015f41fd2ef41eb78a09f54ccfbee5161af7a91cc8aa9"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Travis",
+  "advertised_title": "New Election Precinct Map; adopted December 14 2021"
+}

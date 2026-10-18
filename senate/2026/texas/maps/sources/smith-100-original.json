@@ -1,0 +1,63 @@
+{
+  "id": "smith-100-original",
+  "requested_url": "https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=2090&repo=r-927d42fb",
+  "parent_source_url": "https://portal.laserfiche.com/Portal/app/dist/doc-viewer/main.js?v=11.0.2609.440",
+  "retrieved_utc": "2026-10-18T03:42:02.604425+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=2090&repo=r-927d42fb",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:42:03 GMT",
+    "Content-Type": "application/pdf",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private,no-transform",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"2185Thu, 15 Jan 2026 20:21:14 GMT\"",
+    "Set-Cookie": "PublicPortalSession=CgAghnu9LFvOeUClhgoGqIaU1RzdbSM75g5zThw4; path=/; secure; HttpOnly; SameSite=Lax; secure; SameSite=None, PublicPortalSession=CgAghnu9LFvOeUClhgoGqIaU1RzdbSM75g5zThw4; path=/; secure; HttpOnly; SameSite=Lax; secure; SameSite=None, MachineTag=2b4e8d57-567a-4ead-a59c-5ad8ea979413; expires=Mon, 19-Oct-2026 03:42:03 GMT; path=/; secure; HttpOnly; SameSite=None",
+    "Content-Disposition": "inline; filename*=UTF-8''2026_Election_Precinct_100.pdf; filename=\"2026_Election_Precinct_100.pdf\"",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "X-OperationID": "c9e7a1058a2192bc969f1e74db79e642",
+    "cf-cache-status": "DYNAMIC",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c487e548a9cef7-ORD"
+  },
+  "redirects": [
+    {
+      "status": 302,
+      "url": "https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=2090&repo=r-927d42fb",
+      "headers": {
+        "Date": "Sun, 18 Oct 2026 03:42:03 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Content-Length": "175",
+        "Connection": "keep-alive",
+        "Set-Cookie": "portal_impl=always; expires=Tue, 17-Nov-2026 03:42:03 GMT; path=/; secure; HttpOnly; SameSite=None, __cf_bm=tN.XO7Lib1XhtGUhTYVP9kg.I1nQNAb4_EpHfxZ8nK8-1792294922.7489522-1.0.1.1-zjsTd4m7xmyDCcnqFOUPqi6pHgO4E5t1mcTY1FAN_VqrT6s57oCKHnO03EfXpcJjX5xILngh7yjkK848uIsPZhsYAxxguaGaMOO3VAxmdbAORH87oo_IcLXDDoJj4Bdn; HttpOnly; SameSite=None; Secure; Path=/; Domain=laserfiche.com; Expires=Sun, 18 Oct 2026 04:12:03 GMT",
+        "Cache-Control": "no-cache, no-store,no-transform",
+        "Pragma": "no-cache",
+        "Expires": "-1",
+        "Location": "/Portal/ElectronicFile.aspx?docid=2090&repo=r-927d42fb",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "X-OperationID": "cc00ac1e693929c49d68d8e29018b043",
+        "cf-cache-status": "DYNAMIC",
+        "Server": "cloudflare",
+        "CF-RAY": "a4c487e32c7dcef7-ORD"
+      }
+    }
+  ],
+  "original_bytes": 3506649,
+  "original_sha256": "52932b351f159d7445fbf7303a5cefd85325e99c37d98b78900ca5be79a39207",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/smith-100-original.pdf",
+      "bytes": 3506649,
+      "sha256": "52932b351f159d7445fbf7303a5cefd85325e99c37d98b78900ca5be79a39207"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Smith",
+  "advertised_title": "2026 Election Precinct100; actual ElectronicFile route evidenced by vendor JavaScript"
+}

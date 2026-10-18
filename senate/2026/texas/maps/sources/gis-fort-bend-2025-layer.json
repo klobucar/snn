@@ -1,0 +1,34 @@
+{
+  "id": "gis-fort-bend-2025-layer",
+  "requested_url": "https://gisportal.fortbendcountytx.gov/arcgis/rest/services/InteractiveMap/Elections_Public/MapServer/1?f=pjson",
+  "parent_source_url": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration",
+  "retrieved_utc": "2026-10-18T03:34:26.613558+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://gisportal.fortbendcountytx.gov/arcgis/rest/services/InteractiveMap/Elections_Public/MapServer/1?f=pjson",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:34:26 GMT",
+    "Content-Type": "text/plain; charset=UTF-8",
+    "Content-Length": "8018",
+    "Connection": "keep-alive",
+    "Cache-Control": "must-revalidate,max-age=0,public",
+    "ETag": "\"2c4dddc8\"",
+    "Vary": "Origin",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Content-Type-Options": "nosniff",
+    "Set-Cookie": "AGS_ROLES=\"419jqfa+uOZgYod4xPOQ8Q==\"; Version=1; Max-Age=60; Expires=Sun, 18 Oct 2026 03:35:26 GMT; Path=/arcgis/rest; Secure; HttpOnly"
+  },
+  "redirects": [],
+  "original_bytes": 8018,
+  "original_sha256": "53720c1da7d6bb4b3b2868193bb7b04072017f6107c627b527168ff1b0ee52f4",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/gis-fort-bend-2025-layer.body",
+      "bytes": 8018,
+      "sha256": "53720c1da7d6bb4b3b2868193bb7b04072017f6107c627b527168ff1b0ee52f4"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256."
+}

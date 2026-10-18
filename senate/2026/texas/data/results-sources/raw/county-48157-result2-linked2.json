@@ -1,0 +1,51 @@
+{
+  "id": "county-48157-result2-linked2",
+  "request_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126522/",
+  "parent_id": "county-48157-result2",
+  "purpose": "official Results ",
+  "retrieval_started_utc": "2026-10-18T03:28:46.125104+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/126522/",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "REVALIDATED",
+    "Last-Modified": "Sun, 14 Jun 2026 01:26:17 GMT",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "Date": "Sun, 18 Oct 2026 03:28:46 GMT",
+    "Cache-Control": "max-age=60, must-revalidate, proxy-revalidate",
+    "ETag": "W/\"6a2e0339-48e\"",
+    "X-Cache": "RefreshHit from cloudfront",
+    "Via": "1.1 3b1e8b288eb1bb0e116bb28cbd27e30c.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "PaQhHmoXZjoZG5i2vbLxmUCdbq7UegpQv2lrWMotpGL49WZomXPxEQ==",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 1166,
+  "original_sha256": "6d00545d20ba03c07bff7c00cdba2f382db71831f49bab36a51b3ac9b7c8c1b6",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 522,
+  "stored_stream_sha256": "3ada7ccc6a5d44bb1c853f59712c6ffb5c0a90e9b6c1d99d6c26d0b1f41dd7da",
+  "stored_parts": [
+    {
+      "path": "raw/county-48027-result2.body.gz",
+      "bytes": 522,
+      "sha256": "3ada7ccc6a5d44bb1c853f59712c6ffb5c0a90e9b6c1d99d6c26d0b1f41dd7da"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:28:46.238097+00:00",
+  "body_storage_shared_with": "county-48027-result2"
+}

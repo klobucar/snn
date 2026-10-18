@@ -1,0 +1,56 @@
+{
+  "id": "county-48041-result1",
+  "request_url": "https://elections.brazoscountytx.gov/results/",
+  "parent_id": "county-48041",
+  "purpose": "Results ",
+  "retrieval_started_utc": "2026-10-18T03:27:10.224775+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://elections.brazoscountytx.gov/results/",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:27:10 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}",
+    "CF-Ray": "a4c47219b9c432fd-ORD",
+    "CF-Cache-Status": "HIT",
+    "Age": "2579052",
+    "Cache-Control": "public, max-age=0, s-maxage=2592000",
+    "Last-Modified": "Fri, 18 Sep 2026 07:02:57 GMT",
+    "Link": "<https://elections.brazoscountytx.gov/wp-json/>; rel=\"https://api.w.org/\", <https://elections.brazoscountytx.gov/wp-json/wp/v2/pages/883>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://elections.brazoscountytx.gov/?p=883>; rel=shortlink",
+    "Server": "cloudflare",
+    "Vary": "Accept-Encoding",
+    "Ki-CF-Cache-Status": "HIT",
+    "X-Content-Type-Options": "nosniff",
+    "X-Edge-Location-Klb": "1",
+    "ki-Cache-Tag": "0111ab0b-a027-4c2f-8c96-caa239f650f5,f630133f466c889f66c489dd5b86931e3e79f72e4aba8e5676f19e03c44711cd",
+    "ki-cache-type": "Edge",
+    "ki-edge": "v=28.5.1;mv=99.9.9",
+    "ki-origin": "g1p",
+    "x-kinsta-cache": "HIT",
+    "set-cookie": "__cf_bm=ZOkMqJF6DkNmkcx2CsVfUJjmAGxj9miYQqNXkEkhYzA-1792294030.361275-1.0.1.1-tO1dSM3i6aHzJZ.W7KfJLDAHMaNaboV7bhXF_VyveIC4yNYdAI1j7dwmNLkjJ5EqEAY0_9GhQ7cZ9rymwW7gxTZucERP1UrHKukm5tLJVjV4gOATA3hIN5.DNq9aApRn; HttpOnly; SameSite=None; Secure; Path=/; Domain=elections.brazoscountytx.gov; Expires=Sun, 18 Oct 2026 03:57:10 GMT",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=BmTz6uDYj94gPRim3FeV8WhW6ilyQ8z%2F9MYXFmxwEp%2FmFDntXbcd2vI45PyuTJ2LAH61shkKKcPIyaYA5e2GZzBYziYzWFuQUQUESMQ3xeUbgS8W7eJTs%2Fm6GGn3SrHGnKitar88LFlSl3CUrNk%3D\"}]}",
+    "Content-Encoding": "gzip",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "redirects": [],
+  "original_bytes": 147731,
+  "original_sha256": "9142ea0ec67647df2c5da1528f070f7522dbc0d6670aa38e024586d4a5f4bc95",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 23041,
+  "stored_stream_sha256": "66cd9dcb6e7e4014ad055a815733301278095b85ee9c9a5714580fa77a00eb0d",
+  "stored_parts": [
+    {
+      "path": "raw/county-48041-result1.body.gz",
+      "bytes": 23041,
+      "sha256": "66cd9dcb6e7e4014ad055a815733301278095b85ee9c9a5714580fa77a00eb0d"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:10.319698+00:00"
+}

@@ -1,0 +1,4316 @@
+{
+  "self_excluded": "Only maps/asset-hashes.json; all other owned retained files included.",
+  "strict_cap": 40000000,
+  "assets": [
+    {
+      "path": "maps/SCHEMA.md",
+      "bytes": 12150,
+      "sha256": "aad4c62acbdd81f94a72b15c2ae25340aea9df6c61b3d3c28be22622bf6d2ea9"
+    },
+    {
+      "path": "maps/acquire.py",
+      "bytes": 4754,
+      "sha256": "e574e28c5e51ae2d99a82c986db0ffadcad6f9accf1183a014c2a60e6ee940ec"
+    },
+    {
+      "path": "maps/acquire_gis.py",
+      "bytes": 5441,
+      "sha256": "b947adab423a1b4ad124da8d2835a6839428684f8e0ffd422e316c9f197c2929"
+    },
+    {
+      "path": "maps/acquire_local.py",
+      "bytes": 3824,
+      "sha256": "392f6cb42d5a90533d8cadce907ccc6dadd6991212ece5c67e2a25318ecb7cee"
+    },
+    {
+      "path": "maps/authority-chains.json",
+      "bytes": 1890,
+      "sha256": "9cae3818bc41db2c7e0ca51a6cc123bbaf5e633fe22e1cc86aece1b4a4433d7d"
+    },
+    {
+      "path": "maps/build_compatibility.py",
+      "bytes": 8255,
+      "sha256": "70ba291e0bbc084d3ba95b7e0dce097badbd535c1850d38ac763290c7cc9cc21"
+    },
+    {
+      "path": "maps/build_geometry.py",
+      "bytes": 10379,
+      "sha256": "9769ea3345c5b47df89d881bb836b96eae68698bb27e16ede5f9d66969c524ef"
+    },
+    {
+      "path": "maps/build_index.py",
+      "bytes": 17156,
+      "sha256": "2ddd58532048fe11440e22f85a3e01b318e6a75840a156574383a958f55fc164"
+    },
+    {
+      "path": "maps/build_local_geometry.py",
+      "bytes": 6861,
+      "sha256": "ecd528c1c816b236d66113854a53c20de0e6662f37824410c1bc5fe9568865c3"
+    },
+    {
+      "path": "maps/counties/48027-20g.zip",
+      "bytes": 314229,
+      "sha256": "4328f62c5023306652990438c89218ecdd296470a6c293687eef4ae2f61e8444"
+    },
+    {
+      "path": "maps/counties/48027-22g.zip",
+      "bytes": 321946,
+      "sha256": "9fe73394ef94025de7a7d9a8160111a26de9d0215d9d91234d6ead73a7d2c902"
+    },
+    {
+      "path": "maps/counties/48027-24g.zip",
+      "bytes": 321923,
+      "sha256": "823694d26d68956c73875c868d1c94399a723605c39f87c4d4d87504f025b3c4"
+    },
+    {
+      "path": "maps/counties/48027-26p.zip",
+      "bytes": 340364,
+      "sha256": "47e92c76ef3e743509f49c9fbe06fbf8ad28e6e4dc88d56041b6e38d1920a771"
+    },
+    {
+      "path": "maps/counties/48029-20g.zip",
+      "bytes": 1117483,
+      "sha256": "f3b228105edb98383febbb88d7541d9c9ea149e60e27d170b03f58a662122e18"
+    },
+    {
+      "path": "maps/counties/48029-22g.zip",
+      "bytes": 1106875,
+      "sha256": "433368c0910d7a057bb6e7b876d6a8734f49302637db741ef532e23ecebd7edb"
+    },
+    {
+      "path": "maps/counties/48029-24g.zip",
+      "bytes": 1100355,
+      "sha256": "94e27660fc8eb6125e49d33e22379853b2b9ab6d1f15f4b5ef96e972b30cb4a8"
+    },
+    {
+      "path": "maps/counties/48029-26p.zip",
+      "bytes": 1120892,
+      "sha256": "3fd66d6ad2230e0e5dfbadcc3e2ea91800ee949ca8e967c93f7555557a9dc8fb"
+    },
+    {
+      "path": "maps/counties/48039-20g.zip",
+      "bytes": 258556,
+      "sha256": "92ad301e80e041de8db32f6d5fe9dac28085a61bc1d973c2e6b501e41fb2e99c"
+    },
+    {
+      "path": "maps/counties/48039-22g.zip",
+      "bytes": 282425,
+      "sha256": "5af031dc5ddb5dee973f6d81f894189a1d336813c3b9bc1330c66f45bfc2c7cd"
+    },
+    {
+      "path": "maps/counties/48039-24g.zip",
+      "bytes": 278822,
+      "sha256": "f067d90bd3e9b9b2e6329a79b1e4f465cc5ec914acec5ebaac73f03fd07ac0fd"
+    },
+    {
+      "path": "maps/counties/48039-26p.zip",
+      "bytes": 277671,
+      "sha256": "f704048a80b7a5ce3694824ae35ae68ae3f3c5d2706c44f229010124c659920c"
+    },
+    {
+      "path": "maps/counties/48041-20g.zip",
+      "bytes": 338593,
+      "sha256": "934c0f1154befce8b9c6381e1d51d0efb54be09d83e9fd0e9d83cc1f5ef8e885"
+    },
+    {
+      "path": "maps/counties/48041-22g.zip",
+      "bytes": 348314,
+      "sha256": "bb167d88ad276a64bd2a1fb8c0d004701f2b91f37d7a37c1ae1b61e6b0834ab2"
+    },
+    {
+      "path": "maps/counties/48041-24g.zip",
+      "bytes": 346853,
+      "sha256": "ce0b847489a6f87b441d7478d1ebc79defa4656bfea55eb5f4680e85a4a80b39"
+    },
+    {
+      "path": "maps/counties/48041-26p.zip",
+      "bytes": 298886,
+      "sha256": "adf758f7ff0e3f14d8f0f79679d418955ae73f351649e54dd2dbbfa9539f3d1c"
+    },
+    {
+      "path": "maps/counties/48061-20g.zip",
+      "bytes": 240354,
+      "sha256": "dad6c7cb3c0eebcfd5b390f52a41a40282a80acd069398e5d7808ce0dbbdb8c2"
+    },
+    {
+      "path": "maps/counties/48061-22g.zip",
+      "bytes": 225374,
+      "sha256": "a51f45a70f0b2873d53cbe7c27c0dbefafcdae7819b40ca8b24a20b515e9c1d6"
+    },
+    {
+      "path": "maps/counties/48061-24g.zip",
+      "bytes": 225010,
+      "sha256": "c1edc16038f50e2cc6425a64924d7b317c824604f3b666115876203cb0d39d48"
+    },
+    {
+      "path": "maps/counties/48061-26p.zip",
+      "bytes": 218614,
+      "sha256": "8decd00d3171d36fef39c55228b614e3c7b040b12ed7070226630f7692997d92"
+    },
+    {
+      "path": "maps/counties/48085-20g.zip",
+      "bytes": 684777,
+      "sha256": "8289d659f585a45beb7bedbd11ae05577f4349463d35feb7eb7335e6c56b4780"
+    },
+    {
+      "path": "maps/counties/48085-22g.zip",
+      "bytes": 699123,
+      "sha256": "8b84aafaa0c82b32cb75456a4b82bcb6f829abb6804728b980dc3939ed91acb9"
+    },
+    {
+      "path": "maps/counties/48085-24g.zip",
+      "bytes": 707199,
+      "sha256": "94b81d985c4152fd93ade3b8436d9308d88eb50eefd7757260ca0c82af67307d"
+    },
+    {
+      "path": "maps/counties/48085-26p.zip",
+      "bytes": 710634,
+      "sha256": "23f5a6915588ca090be70ce8976f4b71eeb47a9a70d7de0cd68eaf1a73761b29"
+    },
+    {
+      "path": "maps/counties/48091-20g.zip",
+      "bytes": 153885,
+      "sha256": "e5ddf7e9fac28e9a66d14630f037ec6a425cbf4fa90a2088b7edbbf4b7a3f78f"
+    },
+    {
+      "path": "maps/counties/48091-22g.zip",
+      "bytes": 172257,
+      "sha256": "2a18b24ae3dd173fafd7e401bc48d6c8e9d5bf4b65c9f6fc5fc7f5f453aecefe"
+    },
+    {
+      "path": "maps/counties/48091-24g.zip",
+      "bytes": 167797,
+      "sha256": "fe1ae4c16e4404c97210d4e517f2a641f1fb11f30cebd9c3ca69a483d32f2d83"
+    },
+    {
+      "path": "maps/counties/48091-26p.zip",
+      "bytes": 178171,
+      "sha256": "809c7a8caffb847253f57ba1e94c169f96ed8dc678215409f9a62709b971f1a5"
+    },
+    {
+      "path": "maps/counties/48113-20g.zip",
+      "bytes": 1149305,
+      "sha256": "0b40942c3dadf9b530c64a1862c688ab8133f7ee1ad801d0f3461a94e8605717"
+    },
+    {
+      "path": "maps/counties/48113-22g.zip",
+      "bytes": 1092313,
+      "sha256": "b00e0f95d8998860be6580ca45540f46a0b7bfa60413a466e8b9faf8698dbb9a"
+    },
+    {
+      "path": "maps/counties/48113-24g.zip",
+      "bytes": 1090966,
+      "sha256": "60cb49d6c28a2c0cf294fb921e2440afeec2a7d94b8e874b7583de90ea88680a"
+    },
+    {
+      "path": "maps/counties/48113-26p.zip",
+      "bytes": 1010207,
+      "sha256": "21bb79176e7f2454fc4325437f1859831b50dca218054038083317f8dafad969"
+    },
+    {
+      "path": "maps/counties/48121-20g.zip",
+      "bytes": 614759,
+      "sha256": "897f635249b5bff89b7ddc35ec36b203a6531ca2ec77d089047dbabcb10dc58a"
+    },
+    {
+      "path": "maps/counties/48121-22g.zip",
+      "bytes": 651253,
+      "sha256": "5efca097253792d0e06178cbce7f23fd0de8503ecfbbdc645ba3b6fc12e1a7e5"
+    },
+    {
+      "path": "maps/counties/48121-24g.zip",
+      "bytes": 662012,
+      "sha256": "adec0606c9650e3a6890135d43bb3d39d5e17e744c918bbd9d364b5f35c99fe2"
+    },
+    {
+      "path": "maps/counties/48121-26p.zip",
+      "bytes": 678446,
+      "sha256": "65d5031c9312071e04312fc7dc952db298da8b0f99a4e4f6cdb25e58bed9f5b6"
+    },
+    {
+      "path": "maps/counties/48139-20g.zip",
+      "bytes": 318140,
+      "sha256": "456dcd3687ed401f31179d28113d98e5306c76fbf53f01502510de8169dfc75a"
+    },
+    {
+      "path": "maps/counties/48139-22g.zip",
+      "bytes": 262101,
+      "sha256": "58f518de9e4405c2b04299b7102a01eec5fadbcb499e2edde50743c521e57c68"
+    },
+    {
+      "path": "maps/counties/48139-24g.zip",
+      "bytes": 262305,
+      "sha256": "3b067319fb6f03b132b847ba744510ed10121de1d698eaa0c11ae9c63a9be82f"
+    },
+    {
+      "path": "maps/counties/48139-26p.zip",
+      "bytes": 266715,
+      "sha256": "2d9cf624fe6653f51b7abe0109af500628738afa63a70a7e6dbc9e3e436d2f26"
+    },
+    {
+      "path": "maps/counties/48141-20g.zip",
+      "bytes": 335539,
+      "sha256": "841986671e81ce5e987604492b5db605b844b9a98054d3f0a53b90b65cc95621"
+    },
+    {
+      "path": "maps/counties/48141-22g.zip",
+      "bytes": 330766,
+      "sha256": "9593c881c844bbff2214e7c2ddce672888f4eb75f217b810131f97380201b15e"
+    },
+    {
+      "path": "maps/counties/48141-24g.zip",
+      "bytes": 330037,
+      "sha256": "a3c585a4a4b014847d1ff372dd293c585e33d9ccd4dede3d4843f09e45d1c162"
+    },
+    {
+      "path": "maps/counties/48141-26p.zip",
+      "bytes": 336644,
+      "sha256": "63dd3cae52c385a47df864b1946b1d0799d25b1497c7fcdbb02be95ea8f6a67f"
+    },
+    {
+      "path": "maps/counties/48157-20g.zip",
+      "bytes": 458371,
+      "sha256": "2186927e20f6f24614835a195e38d27eec04bd7676976d663264ed9b385fab78"
+    },
+    {
+      "path": "maps/counties/48157-22g.zip",
+      "bytes": 462237,
+      "sha256": "9340d83748adeda6fa4406a5feedc61b4318b67e2a8c4871e062a6ff501b7c04"
+    },
+    {
+      "path": "maps/counties/48157-24g.zip",
+      "bytes": 462285,
+      "sha256": "1f9e20bb3193e37b62857e054293dbeee68d1b7052fe10d2819d92ab04b5c49a"
+    },
+    {
+      "path": "maps/counties/48157-26p.zip",
+      "bytes": 476455,
+      "sha256": "4f0c46a3a1f0947850a10ad481dc7498afb9e0fbd795659db52db064276f4204"
+    },
+    {
+      "path": "maps/counties/48167-20g.zip",
+      "bytes": 203522,
+      "sha256": "7d962b4f270d9558e65f06a2e2dcb674b56e9d66fc74bc928f9d1081159a9759"
+    },
+    {
+      "path": "maps/counties/48167-22g.zip",
+      "bytes": 205932,
+      "sha256": "f22767954602f21ce8a202b93da3f39083093d7e1624c5bf51251c1f9ebbe226"
+    },
+    {
+      "path": "maps/counties/48167-24g.zip",
+      "bytes": 205295,
+      "sha256": "bf2a773447c01d2e469864cc51053b819f02c94bf3e56b6e3d4611a1e1e00470"
+    },
+    {
+      "path": "maps/counties/48167-26p.zip",
+      "bytes": 206392,
+      "sha256": "3e8a7f3dc66efcb0eab100a3e8c57adcfc42b868d6a1e6b726f09d1a8eddb985"
+    },
+    {
+      "path": "maps/counties/48181-20g.zip",
+      "bytes": 307027,
+      "sha256": "ea77e08d6cb9ee6705eb915f6b6c425d074aa056a17d7d543c07f7708291a1d4"
+    },
+    {
+      "path": "maps/counties/48181-22g.zip",
+      "bytes": 331226,
+      "sha256": "9fb3ffd30a3c46a69edd1c5b6d26ec629f196dcdce954bf08af172932d557e4d"
+    },
+    {
+      "path": "maps/counties/48181-24g.zip",
+      "bytes": 331057,
+      "sha256": "23a580f96d25f21419e6f0bdea4417fde08e21310c184a923e9b9c85107dd898"
+    },
+    {
+      "path": "maps/counties/48181-26p.zip",
+      "bytes": 336470,
+      "sha256": "45742ee60742b9885c2cfed938d003f877343fc29bb7a7613d9042a87767ce9b"
+    },
+    {
+      "path": "maps/counties/48187-20g.zip",
+      "bytes": 255077,
+      "sha256": "b6acbfe9a219aecf1d4c246f819eb53acc9dfabaeb2492943cf8c72963588016"
+    },
+    {
+      "path": "maps/counties/48187-22g.zip",
+      "bytes": 253385,
+      "sha256": "de16957e95f8b382e48a62b35e5ffb272db4acc850829917773794e719d19077"
+    },
+    {
+      "path": "maps/counties/48187-24g.zip",
+      "bytes": 253100,
+      "sha256": "fb9cf497be55faa94a5c6785417542e1dda785dfc199b2ea7a2f3bb8c23fdee6"
+    },
+    {
+      "path": "maps/counties/48187-26p.zip",
+      "bytes": 257545,
+      "sha256": "0f51e210f852ee4385a6f1f0be4cf8be88a9e407321929c3f8ed9c210ea4d67e"
+    },
+    {
+      "path": "maps/counties/48201-20g.zip",
+      "bytes": 1664091,
+      "sha256": "40085ce64f580602ba9ed96f55c129d2e9321a191257de2918837a30779d8a54"
+    },
+    {
+      "path": "maps/counties/48201-22g.zip",
+      "bytes": 1754102,
+      "sha256": "28813bab08618ad617784e909e848ca205e278259b56f16523d886d4de34b077"
+    },
+    {
+      "path": "maps/counties/48201-24g.zip",
+      "bytes": 1759169,
+      "sha256": "99710ff7f88e97f823147c7c256629dc43e7ba4c31091432ef8586f804f786a2"
+    },
+    {
+      "path": "maps/counties/48201-26p.zip",
+      "bytes": 1829877,
+      "sha256": "a3e942d6b4a87b05fac934ac73a753b67c0837ae102777ec3ecbd60c9311b18f"
+    },
+    {
+      "path": "maps/counties/48209-20g.zip",
+      "bytes": 235077,
+      "sha256": "e20805aacc1d0e694ab33948a124f59850e8e4778ae64481b86513adf7504d5f"
+    },
+    {
+      "path": "maps/counties/48209-22g.zip",
+      "bytes": 251938,
+      "sha256": "f4e428eac718ed9bf54f0963505cb1a54c0a34c14fa3705aef8bed5940b01fa1"
+    },
+    {
+      "path": "maps/counties/48209-24g.zip",
+      "bytes": 261708,
+      "sha256": "8001d02b3d54bff3613fe12b2dadd19818c9b3f054fc2d4ece042c0af5ceae03"
+    },
+    {
+      "path": "maps/counties/48209-26p.zip",
+      "bytes": 252010,
+      "sha256": "e3bc72f2f1c937b80123659671927b1f012d970b559a165dbc00b1d27acffbf1"
+    },
+    {
+      "path": "maps/counties/48215-20g.zip",
+      "bytes": 592969,
+      "sha256": "b17e0124d44a0abb4e4e610d9581638dede7ca2d1868a28c7e36d39dca85d3d8"
+    },
+    {
+      "path": "maps/counties/48215-22g.zip",
+      "bytes": 551910,
+      "sha256": "5f33a2572264f563d6261972f4f05a9c9bc7783c5ffb23621509848f1245bbbf"
+    },
+    {
+      "path": "maps/counties/48215-24g.zip",
+      "bytes": 551086,
+      "sha256": "9145f7293a8b8a899651ab54efb73adfe8a8d0f7069cbfefb3426b2fd1979b7d"
+    },
+    {
+      "path": "maps/counties/48215-26p.zip",
+      "bytes": 535789,
+      "sha256": "090c98f33c4f4481e0613535cdcefdcf5b26a568c093955a5986a73a79d1d02c"
+    },
+    {
+      "path": "maps/counties/48245-20g.zip",
+      "bytes": 213054,
+      "sha256": "e28f14a52c88924983e820f4af11765f19fbb5a41cad5a8c896be9b1d9937a0c"
+    },
+    {
+      "path": "maps/counties/48245-22g.zip",
+      "bytes": 204119,
+      "sha256": "6a9cf288663c470e7497f11d0a4f8234599b45d44ec6e1d3376a9a6ac0702857"
+    },
+    {
+      "path": "maps/counties/48245-24g.zip",
+      "bytes": 203762,
+      "sha256": "b3eff0e5381c22a937b0d1a05559fa9d34b3121c96e7a44fd296f79a5f3b92c0"
+    },
+    {
+      "path": "maps/counties/48245-26p.zip",
+      "bytes": 193641,
+      "sha256": "7f2003b16fc38917045a13b98175df5cf62dadecd94bad211ffc6fd524720ef4"
+    },
+    {
+      "path": "maps/counties/48251-20g.zip",
+      "bytes": 176199,
+      "sha256": "d4e49eedc2025e11360825439f6166da1b09d9f325306b8df8ea37e10b1284ea"
+    },
+    {
+      "path": "maps/counties/48251-22g.zip",
+      "bytes": 185542,
+      "sha256": "14fcbadc53c72be15a0b6f1c56b20ca235abd257ab2fb516adfc4587248b7185"
+    },
+    {
+      "path": "maps/counties/48251-24g.zip",
+      "bytes": 186762,
+      "sha256": "75e8352347a36507effa9a84c07eb62742f303e52cb140521d6e74afa9000f76"
+    },
+    {
+      "path": "maps/counties/48251-26p.zip",
+      "bytes": 183124,
+      "sha256": "21e155df8bcead4e4b7ac00d4de359a1666680dbb581e6a13db37d4ea9d44dca"
+    },
+    {
+      "path": "maps/counties/48257-20g.zip",
+      "bytes": 248613,
+      "sha256": "19e182bd18b6febb59a6c0c199b47cdc0686a1a76576403426648961f2935ec1"
+    },
+    {
+      "path": "maps/counties/48257-22g.zip",
+      "bytes": 267996,
+      "sha256": "73050f9190a7d16585fd59070ad2e8f1bca0aabe6f1578bbaad27d1a579302a5"
+    },
+    {
+      "path": "maps/counties/48257-24g.zip",
+      "bytes": 267838,
+      "sha256": "bad3114b83a3acb59c08c6bce81c09e63a0c161f07516c25121cb469e7dcc299"
+    },
+    {
+      "path": "maps/counties/48257-26p.zip",
+      "bytes": 269267,
+      "sha256": "e8449001ac58b32fa4198d374dc6fbb8f65e729cb74281b792ece8e74f1df81d"
+    },
+    {
+      "path": "maps/counties/48303-20g.zip",
+      "bytes": 191166,
+      "sha256": "46643c3ef8ccc33da4c1199f6c7a4c6bcbe7b03042897addbca16873bd1716fb"
+    },
+    {
+      "path": "maps/counties/48303-22g.zip",
+      "bytes": 139692,
+      "sha256": "045fb1f06f66ac85bbff71db3da400442b01f18db08d1a3f01d0a006bfbe153c"
+    },
+    {
+      "path": "maps/counties/48303-24g.zip",
+      "bytes": 139357,
+      "sha256": "92854d54b3db4c2fe49654494f91d8da1ced0ebd39befb9ed7f85ea337e5f788"
+    },
+    {
+      "path": "maps/counties/48303-26p.zip",
+      "bytes": 139366,
+      "sha256": "75f964c581926bd73ebf8f12c03e687e23103a12bafef2a7024be268aba0f731"
+    },
+    {
+      "path": "maps/counties/48309-20g.zip",
+      "bytes": 210927,
+      "sha256": "b363b208def22a9a3ab2fb183b07884a4873bf91b5a23d2f5917091cd77820ac"
+    },
+    {
+      "path": "maps/counties/48309-22g.zip",
+      "bytes": 220066,
+      "sha256": "f83471f89128fe15c3d7b84a8041ccf47236db4de93ff7204c7ff135ed8bd8dc"
+    },
+    {
+      "path": "maps/counties/48309-24g.zip",
+      "bytes": 219729,
+      "sha256": "ed006929aff51213a20bca8caa582d81e3b8088a9e7e92985a0a45d5ef9e78af"
+    },
+    {
+      "path": "maps/counties/48309-26p.zip",
+      "bytes": 221511,
+      "sha256": "09d1fd13920e58bc9427f65c53a66e165844a99d21ff767f1b1033d869318a6c"
+    },
+    {
+      "path": "maps/counties/48329-20g.zip",
+      "bytes": 105482,
+      "sha256": "859c3493660a369ea4049f02c545565c623b47be2a35b928b0a18ae9381307e4"
+    },
+    {
+      "path": "maps/counties/48329-22g.zip",
+      "bytes": 105818,
+      "sha256": "a80b7a68f36a22df9077c97bfc39a1a27658c93a4a7df1ab74a834b3c866e7bd"
+    },
+    {
+      "path": "maps/counties/48329-24g.zip",
+      "bytes": 105649,
+      "sha256": "a4613573f9bee9a5a68c785e966bc220e3ab4eda9fa7efd6b7bed24a596e6032"
+    },
+    {
+      "path": "maps/counties/48329-26p.zip",
+      "bytes": 105471,
+      "sha256": "4b83031bf39e90880a9e8a6b93a620a1b3750a751c68efa96ec35754abcbcb9e"
+    },
+    {
+      "path": "maps/counties/48339-20g.zip",
+      "bytes": 373588,
+      "sha256": "b3715c87ce7bd893288f3e01ba089a0aa8b83846c0c6398195a7ef1733604778"
+    },
+    {
+      "path": "maps/counties/48339-22g.zip",
+      "bytes": 375521,
+      "sha256": "4efd8d1bbb1a45b7d29acaef356cf4ccb7ede70f79fbc38f00d0e1235adf2b42"
+    },
+    {
+      "path": "maps/counties/48339-24g.zip",
+      "bytes": 356079,
+      "sha256": "03651e6363d5de80386fd239af6f0a68c389e9c3d9c04d2edbbee5827bc99741"
+    },
+    {
+      "path": "maps/counties/48339-26p.zip",
+      "bytes": 387653,
+      "sha256": "173208ebe942ae2771f19b2f68d5720090492c4ec3cfc8ab6bdd79446ea02a1e"
+    },
+    {
+      "path": "maps/counties/48355-20g.zip",
+      "bytes": 461636,
+      "sha256": "5021d32bd20e3875dcb54f278066b95820161c5da02d34771eb7d92552a32948"
+    },
+    {
+      "path": "maps/counties/48355-22g.zip",
+      "bytes": 458837,
+      "sha256": "da998ad6e71eab98dd3042e79c42c8da65ea0e067d7d869cf147867f2424195d"
+    },
+    {
+      "path": "maps/counties/48355-24g.zip",
+      "bytes": 459939,
+      "sha256": "04ba132f4d996ef31335b8251ec4d3cc06027688fa64a408a2988537b47ccd76"
+    },
+    {
+      "path": "maps/counties/48355-26p.zip",
+      "bytes": 462861,
+      "sha256": "29d6e2856ac02283915c5af322bb143338de718b6ab10b9a48cf9805fec4bac9"
+    },
+    {
+      "path": "maps/counties/48367-20g.zip",
+      "bytes": 255482,
+      "sha256": "a858acd20fe128b74f2c2ecc52f2619e209919ca8404a240c6a24cdb304e1f74"
+    },
+    {
+      "path": "maps/counties/48367-22g.zip",
+      "bytes": 251938,
+      "sha256": "5d0699090d016a27ba7bb21fc97834cac827a5554e5d444a4a92354d042d9c2f"
+    },
+    {
+      "path": "maps/counties/48367-24g.zip",
+      "bytes": 251339,
+      "sha256": "41d97b3afcc28bba2f2a096b358ecfe548aab94d6fec58f76cbf4f904d41c8c0"
+    },
+    {
+      "path": "maps/counties/48367-26p.zip",
+      "bytes": 250813,
+      "sha256": "61db2debbdd2ad34be6ba8f3901d10c6dcb6356ed83952e2b1896636802f69f2"
+    },
+    {
+      "path": "maps/counties/48381-20g.zip",
+      "bytes": 52428,
+      "sha256": "2b3731edfa5e2c5967a492d60c814470f65339e044bd32590829b19921da6bde"
+    },
+    {
+      "path": "maps/counties/48381-22g.zip",
+      "bytes": 77204,
+      "sha256": "09b17c25fe84c39410d14ec522f253949c71aad4c1d9fe86bbb6049402099e4e"
+    },
+    {
+      "path": "maps/counties/48381-24g.zip",
+      "bytes": 77074,
+      "sha256": "b784e97a2b95dfc8a8a35170a0d9b04edbe19b635eec928bb8619c33c3b8856d"
+    },
+    {
+      "path": "maps/counties/48381-26p.zip",
+      "bytes": 77519,
+      "sha256": "c51e26b8c1935763199f2cc651e1ba9a4edd0b291f4e2bf7fb72f3602ee123d9"
+    },
+    {
+      "path": "maps/counties/48397-20g.zip",
+      "bytes": 79015,
+      "sha256": "16ca6d0239c3480c1cc33b6ff7f2a6dce437a93297e8389aaa25d755a88e52f0"
+    },
+    {
+      "path": "maps/counties/48397-22g.zip",
+      "bytes": 125596,
+      "sha256": "aacbe19d1a97153a77a49dce397e06b675ec8927ec461ce39e6c46a36c963d8d"
+    },
+    {
+      "path": "maps/counties/48397-24g.zip",
+      "bytes": 125481,
+      "sha256": "56c9328099d37f3ef5aba2f6206efcad7c1e5413132ce14bf22135c575bdd4f8"
+    },
+    {
+      "path": "maps/counties/48397-26p.zip",
+      "bytes": 115894,
+      "sha256": "13f59fc52e3744c6b5faef41fc3ee2a43d274624a8038fdf95307a612a3c3baa"
+    },
+    {
+      "path": "maps/counties/48423-20g.zip",
+      "bytes": 402093,
+      "sha256": "e17a645dbd5a220407c90eb4d0fc654620d6af1e7e8541a64df5e5461b0f8f01"
+    },
+    {
+      "path": "maps/counties/48423-22g.zip",
+      "bytes": 396273,
+      "sha256": "9fabcccde29ae7bc00f9ca31d1b56435d3db4855956010638229fed66e166569"
+    },
+    {
+      "path": "maps/counties/48423-24g.zip",
+      "bytes": 403518,
+      "sha256": "1f2117330baff30c83e170a0d5ec454569ff4eb7db9fcc01450bb15e4603c753"
+    },
+    {
+      "path": "maps/counties/48423-26p.zip",
+      "bytes": 402403,
+      "sha256": "2fe57cfc79b97a818056a1af37136e43881da0a79948543d79f7d1cca77baec2"
+    },
+    {
+      "path": "maps/counties/48439-20g.zip",
+      "bytes": 1214958,
+      "sha256": "537cda6ed6d22f71f44aaec2957552e65fe4de38abd1e70b151793683a105024"
+    },
+    {
+      "path": "maps/counties/48439-22g.zip",
+      "bytes": 1117778,
+      "sha256": "99d82b6a90698236c74eddf41ec70eea298186d14fa6bc8a54a3a509e8b891bf"
+    },
+    {
+      "path": "maps/counties/48439-24g.zip",
+      "bytes": 1145675,
+      "sha256": "cd299805236ca796bfb1137281520a5ee6d714e82dc65b085cffcc53831ff4b2"
+    },
+    {
+      "path": "maps/counties/48439-26p.zip",
+      "bytes": 1098526,
+      "sha256": "a548f1ae7beaa1cc096cb07f3d2c9debdb3d6db4336cfe8c0a70452258770beb"
+    },
+    {
+      "path": "maps/counties/48453-20g.zip",
+      "bytes": 712434,
+      "sha256": "2a763a096d1795b2637db24b341fdff28e604ac55a8540f0dfee4c17ccee9485"
+    },
+    {
+      "path": "maps/counties/48453-22g.zip",
+      "bytes": 653266,
+      "sha256": "c241acdfad61836092b3db57c8289ad47c56d4c521239e5bec2d4299a647a486"
+    },
+    {
+      "path": "maps/counties/48453-24g.zip",
+      "bytes": 656951,
+      "sha256": "4d64e3cd1f361e613e6998cd29be6fe13ebc4ce0ef2a972512a55bc5e2728fc1"
+    },
+    {
+      "path": "maps/counties/48453-26p.zip",
+      "bytes": 699933,
+      "sha256": "9bb2b60ba3aa57b9a2b64937f0e5434f26ca14ed7ba79f1902e706e9e3b99896"
+    },
+    {
+      "path": "maps/counties/48479-20g.zip",
+      "bytes": 299740,
+      "sha256": "b30479b46b8fb3e039de6406aa5ea87c9ae2c4cfd6e653941abd1e01d9aa0c5c"
+    },
+    {
+      "path": "maps/counties/48479-22g.zip",
+      "bytes": 302257,
+      "sha256": "9a997eeb906945a0574a16a48ad6ac535d3f0e222b374aa78cf93bf41aa6508b"
+    },
+    {
+      "path": "maps/counties/48479-24g.zip",
+      "bytes": 301983,
+      "sha256": "7af286d3d1b85f77e7c51a9fbd64afc64abf4b5d67a6a395f680bf2f2ef93608"
+    },
+    {
+      "path": "maps/counties/48479-26p.zip",
+      "bytes": 301982,
+      "sha256": "f231d35e532081d28ab58c09fd11ef3eeb0c9c727884428bd7c599186870917e"
+    },
+    {
+      "path": "maps/counties/48491-20g.zip",
+      "bytes": 306747,
+      "sha256": "66fbefedbd7e20a4b54006495a9ea62e87aa5e46161617ee224ff4ebcf64b35a"
+    },
+    {
+      "path": "maps/counties/48491-22g.zip",
+      "bytes": 468599,
+      "sha256": "5e0cd7a63e8de797987a22c2655f44e348af9c5587cd7f74c34383e30751ec2d"
+    },
+    {
+      "path": "maps/counties/48491-24g.zip",
+      "bytes": 470241,
+      "sha256": "282fff5886baf533585a458da6addec5cb77cf3797e6e7088b27174b2b3a9c22"
+    },
+    {
+      "path": "maps/counties/48491-26p.zip",
+      "bytes": 464742,
+      "sha256": "a9285069b4f99e9c0baa0ee47b869ddfcaaf96f1f414cdda016a2190aa44097e"
+    },
+    {
+      "path": "maps/county-notes.json",
+      "bytes": 10326,
+      "sha256": "9557d49ae80eecf866cbdfd68c26cb3846dceae5bb3b51dfb76e6ac5932274a9"
+    },
+    {
+      "path": "maps/county_routes.py",
+      "bytes": 3917,
+      "sha256": "e42a060fe2fde61354fa65b7fdc93ea173138aeb8a179d8e44bd67f6c15e4f9e"
+    },
+    {
+      "path": "maps/crs/tlc-20g.wkt",
+      "bytes": 531,
+      "sha256": "791165bb36ee8a86bc3acc98cd7a688e75b0d5d3f7f470f3917e944de36f8007"
+    },
+    {
+      "path": "maps/crs/tlc-22g.wkt",
+      "bytes": 531,
+      "sha256": "791165bb36ee8a86bc3acc98cd7a688e75b0d5d3f7f470f3917e944de36f8007"
+    },
+    {
+      "path": "maps/crs/tlc-24g.wkt",
+      "bytes": 531,
+      "sha256": "791165bb36ee8a86bc3acc98cd7a688e75b0d5d3f7f470f3917e944de36f8007"
+    },
+    {
+      "path": "maps/crs/tlc-26p.wkt",
+      "bytes": 531,
+      "sha256": "791165bb36ee8a86bc3acc98cd7a688e75b0d5d3f7f470f3917e944de36f8007"
+    },
+    {
+      "path": "maps/discovery/bell-follow.json",
+      "bytes": 41551,
+      "sha256": "7436f8e4999d1d8b764c6e929d849489ad6b8ed4d92d1362324f332b4b6b7fc9"
+    },
+    {
+      "path": "maps/discovery/bell.json",
+      "bytes": 51108,
+      "sha256": "e2a62a460ab4a9b674110e5b226a98be22f262c458212e6bfcfb629890869d3d"
+    },
+    {
+      "path": "maps/discovery/bexar.json",
+      "bytes": 14558,
+      "sha256": "7104ec3275c0e05add8d55d28e3cc2da5eef762f23817a5ca95f913c2e36dc8c"
+    },
+    {
+      "path": "maps/discovery/brazoria.json",
+      "bytes": 49004,
+      "sha256": "add1e5a90a26548469ff7145383da25e0fc4b53da5a5d0287d8236a5098cf419"
+    },
+    {
+      "path": "maps/discovery/brazos-follow.json",
+      "bytes": 494,
+      "sha256": "7d12bf6b8ff850144e543bf1444a04ea9d92d99ba279ea20f79d90cc68aa86c4"
+    },
+    {
+      "path": "maps/discovery/brazos.json",
+      "bytes": 11088,
+      "sha256": "b83bef829738e007831c6f1a9cd2c939e7bed3bd75f23d444728f4d718ecf961"
+    },
+    {
+      "path": "maps/discovery/cameron-follow.json",
+      "bytes": 235,
+      "sha256": "b17762fd478c103ff82f9a21398904846e45499773fc974e139161fa8d413cb7"
+    },
+    {
+      "path": "maps/discovery/cameron.json",
+      "bytes": 1475,
+      "sha256": "44dfe86a39a2e6e8fd948b194fab45219f583f1528d5e0f06de75127c37d3200"
+    },
+    {
+      "path": "maps/discovery/collin.json",
+      "bytes": 20980,
+      "sha256": "828bd58543636830e2098bc48ace5fe337556680a170e018bf043e9446fda09b"
+    },
+    {
+      "path": "maps/discovery/comal.json",
+      "bytes": 17109,
+      "sha256": "6304a1f622087bfc25196e68c59482e4a358eef6fbf666955d624fc5f970f68f"
+    },
+    {
+      "path": "maps/discovery/dallas.json",
+      "bytes": 204,
+      "sha256": "eeed0978a393cca27917e4496dc701697b48532e9f6a77290622cf44ec127683"
+    },
+    {
+      "path": "maps/discovery/denton.json",
+      "bytes": 12271,
+      "sha256": "83d246b269264ecc56259e4d5e25eb3407c82a02d2e235469c2d4847d20cd25d"
+    },
+    {
+      "path": "maps/discovery/el-paso.json",
+      "bytes": 20295,
+      "sha256": "a7a1546f3be4ff1d813ad90af1d15bca58964de996200edb5cdd1981ee418247"
+    },
+    {
+      "path": "maps/discovery/ellis.json",
+      "bytes": 16900,
+      "sha256": "c6c76eb76718a1c780b9e9c2c0f440934cefa6b815fa6c2fd6495496ee3ceb80"
+    },
+    {
+      "path": "maps/discovery/extra-cameron-alternate.json",
+      "bytes": 599,
+      "sha256": "9704acd7aad19f70198d5573fd02472c7a2e1a7f2c2a540d1a31058aa529b00f"
+    },
+    {
+      "path": "maps/discovery/extra-dallas-alternate.json",
+      "bytes": 30130,
+      "sha256": "82110057df5c53c5613158107cefc3789c58f152b98ff742f73a0e9316259296"
+    },
+    {
+      "path": "maps/discovery/extra-denton-hub.json",
+      "bytes": 192,
+      "sha256": "402429aeed2229dc1df3803c6324d08fa200c2c13b3fd5482d075c4f6321481d"
+    },
+    {
+      "path": "maps/discovery/extra-galveston-alternate.json",
+      "bytes": 19386,
+      "sha256": "4b607b30e9e389a1f43c0c68a126f47ea9698e611ebca8809185d8d89ab391d6"
+    },
+    {
+      "path": "maps/discovery/extra-galveston-city-gis.json",
+      "bytes": 6429,
+      "sha256": "87d5b185a640b697c45013c514782f56ab696d4457dc3ea648727fd70a807c5a"
+    },
+    {
+      "path": "maps/discovery/extra-hays-map-page.json",
+      "bytes": 25234,
+      "sha256": "9dbfd8cf9d04bada22c60e0d35b60a6328650eb20e6a523ccdccad3ec3b41892"
+    },
+    {
+      "path": "maps/discovery/extra-jefferson-alternate.json",
+      "bytes": 22857,
+      "sha256": "864aae79adc1927dbd8dee78cab68e4d0b4e5feda975b2aac352030888c68b53"
+    },
+    {
+      "path": "maps/discovery/extra-jefferson-map-page.json",
+      "bytes": 211,
+      "sha256": "a4dad064dbf5bdcf31f0c81f3223da9a0ad80cdb6416f21e8527f26eca92d4d2"
+    },
+    {
+      "path": "maps/discovery/extra-jefferson-order.json",
+      "bytes": 241,
+      "sha256": "1dc54158a959dba8b749f109d40b3affc826093deb0f3590528d2a85ec44120b"
+    },
+    {
+      "path": "maps/discovery/extra-smith-100-portal.json",
+      "bytes": 229,
+      "sha256": "456e85a7bad456e7830996659e97a1c6e29506feb66bcbee6811c77d9e95c709"
+    },
+    {
+      "path": "maps/discovery/fort-bend.json",
+      "bytes": 130109,
+      "sha256": "fe1356fb56ebf22e88df7a8580296a1a53b3757e33c52f4ea53907e12691bc11"
+    },
+    {
+      "path": "maps/discovery/galveston.json",
+      "bytes": 207,
+      "sha256": "c3ca48c7e441b37efb62a0be74df68f8a24fcb25d9e4c861b2e7d24e94fd2132"
+    },
+    {
+      "path": "maps/discovery/grayson-follow.json",
+      "bytes": 56223,
+      "sha256": "29102d6307e5d8cc45b32fc7923553c21293cd3e1df7165c544c5f8cce7b0525"
+    },
+    {
+      "path": "maps/discovery/grayson.json",
+      "bytes": 72247,
+      "sha256": "b8d6a1397df75302aace3c5083de6c56d3fdfaa4442aa83c8c75b62bd483fa50"
+    },
+    {
+      "path": "maps/discovery/guadalupe.json",
+      "bytes": 92652,
+      "sha256": "584338ce8c8725de5ec494c9de76fb01042f2eae981f362095ce63015d1d757e"
+    },
+    {
+      "path": "maps/discovery/harris.json",
+      "bytes": 16761,
+      "sha256": "fba0b3dc7013fa9c4e1e5359135091ef450e9ccc16d2d7c5ec50238a98e98d57"
+    },
+    {
+      "path": "maps/discovery/hays.json",
+      "bytes": 17679,
+      "sha256": "a1659d32ddc531979c62de7be0c650c9fdf9c8ccb17cca0333af9fe563ea73b5"
+    },
+    {
+      "path": "maps/discovery/hidalgo-follow.json",
+      "bytes": 206,
+      "sha256": "d624a24c53927bdc6aa282c4b6855209b9bb9a4993494d11c175618a3462ba41"
+    },
+    {
+      "path": "maps/discovery/hidalgo.json",
+      "bytes": 17773,
+      "sha256": "547dedb913bd2a7ca85cd761535ae8712cabc6a50adac6e3852efcafd1ea44f6"
+    },
+    {
+      "path": "maps/discovery/jefferson.json",
+      "bytes": 211,
+      "sha256": "90f8c0a592a25755a44ecc4b0b77f75972e859514695a439de14419bae0dfe1c"
+    },
+    {
+      "path": "maps/discovery/johnson.json",
+      "bytes": 77476,
+      "sha256": "10db03aa7557d8c6303ad1720ee62e86bc127a7784c5f96316bcc28a396ef2f3"
+    },
+    {
+      "path": "maps/discovery/kaufman-follow.json",
+      "bytes": 8010,
+      "sha256": "25d039b8d8a39fdff4440bca48a4d2f86efe0346e60823fd8cdbdd182e3fb690"
+    },
+    {
+      "path": "maps/discovery/kaufman.json",
+      "bytes": 12552,
+      "sha256": "56c3dba131287cf0e8fc0678ddabfd37504fcb9cfe5ae9ebe346cb53cc25f635"
+    },
+    {
+      "path": "maps/discovery/lubbock-follow.json",
+      "bytes": 486,
+      "sha256": "91a1a45f1c61a573bf19672d1e1cc4d6d9e288d09de24740c11d27aad203cf2b"
+    },
+    {
+      "path": "maps/discovery/lubbock.json",
+      "bytes": 200,
+      "sha256": "212b8b6a99a611341f7d5969cc85cf2866ea0b8d5147990b74de1e36ac19a800"
+    },
+    {
+      "path": "maps/discovery/mclennan.json",
+      "bytes": 30650,
+      "sha256": "e141d7eb49d1897adf89be4a000ab238bdc3b838254579e10ac63577f3f07173"
+    },
+    {
+      "path": "maps/discovery/midland.json",
+      "bytes": 26098,
+      "sha256": "8bfbdb6f8402600883715ecab3377dad512bbbc4f33a4adce56f668914d2b106"
+    },
+    {
+      "path": "maps/discovery/montgomery.json",
+      "bytes": 36134,
+      "sha256": "a409379b9088ea6f022117ea22ceceee789c5da3040bbb1d7edde42f55debf7d"
+    },
+    {
+      "path": "maps/discovery/nueces-follow.json",
+      "bytes": 87222,
+      "sha256": "1223ddcd24482bad1bc95d26fb71e7fd9b0d5da24cbbb98f81c0537c46858087"
+    },
+    {
+      "path": "maps/discovery/nueces.json",
+      "bytes": 88497,
+      "sha256": "cdc2ca1dbe5fed58ceed3798036f0ea249ef5c7909a2307f99c575f2bee688b0"
+    },
+    {
+      "path": "maps/discovery/parker.json",
+      "bytes": 12785,
+      "sha256": "5b809d7fa8c48db0c2b3e622e4f14025a053853b3679d741ea91c61942b0fbc6"
+    },
+    {
+      "path": "maps/discovery/randall.json",
+      "bytes": 14810,
+      "sha256": "b908fae922c141ea2c02bb7eba7b5e2684d86419aa5a41eb74c47e5d706dd806"
+    },
+    {
+      "path": "maps/discovery/rockwall.json",
+      "bytes": 11044,
+      "sha256": "fff3d52e00dc64065c0b06aeb7c91689f151cd64e7b636b77a484c28858966ac"
+    },
+    {
+      "path": "maps/discovery/smith.json",
+      "bytes": 56614,
+      "sha256": "cf5f9f14cc8c6765ffd769cd0db44af435bf8bab9545f621b6b73c4f45f0598b"
+    },
+    {
+      "path": "maps/discovery/tarrant-follow.json",
+      "bytes": 59449,
+      "sha256": "47309f3bf97f324de75e45f41445dcd9cf31a672421d7ef759095aa763b113c3"
+    },
+    {
+      "path": "maps/discovery/tarrant.json",
+      "bytes": 66271,
+      "sha256": "2909c1036705c8c4d88d06cb8987365b6986d33b38408dde83a026cac1bcfe30"
+    },
+    {
+      "path": "maps/discovery/travis.json",
+      "bytes": 23208,
+      "sha256": "cf469119697289d10a09c5830e771bede749ba2953c44d04e89c2e3666f68111"
+    },
+    {
+      "path": "maps/discovery/webb.json",
+      "bytes": 52929,
+      "sha256": "5fe75300ef4ee2e0365bc754c0fb9cdee4d9b3a828875632535ed31d64c4cb00"
+    },
+    {
+      "path": "maps/discovery/williamson.json",
+      "bytes": 35736,
+      "sha256": "86c14f094da00b9903ad022606b062a3696917a569074ac09c10e7061b9f9751"
+    },
+    {
+      "path": "maps/extra_sources.py",
+      "bytes": 5238,
+      "sha256": "aefe97bf3348c3c6322157c2a0583ec1758640b52c8668bcd99a92707bdff671"
+    },
+    {
+      "path": "maps/geometry/extra-galveston-city-voting.json",
+      "bytes": 33118,
+      "sha256": "116877f7cdce3f93e247d2a565f5bdf81e4a9408390c317e276d2dd5a2fcc8c1"
+    },
+    {
+      "path": "maps/geometry/extra-harris-zip-https.json",
+      "bytes": 237095,
+      "sha256": "7c855693529c1d36e86b7060092a502c936ed354095ca00dcd0b9427179580c6"
+    },
+    {
+      "path": "maps/geometry/gis-bell-2022.json",
+      "bytes": 22150,
+      "sha256": "bb2280a8f49ec7e573641f338859df20df604f147ff96b219ad91d99c1f70c1c"
+    },
+    {
+      "path": "maps/geometry/gis-bexar-voter.json",
+      "bytes": 5403,
+      "sha256": "bc0031ed7f4f22d228eb5620e0352664d44ec722d7ed41c08c1db968b339bd6b"
+    },
+    {
+      "path": "maps/geometry/gis-brazoria-2024.json",
+      "bytes": 6914,
+      "sha256": "1936a320f061cae186a3a0379fa8b64adfdcb80197819e25e127a45a31f7789a"
+    },
+    {
+      "path": "maps/geometry/gis-brazoria-2026.json",
+      "bytes": 16476,
+      "sha256": "0e63c1d96acafa358bd2793977cb46576cd42e6fbff725938fcd960c509da6d9"
+    },
+    {
+      "path": "maps/geometry/gis-fort-bend-2022.json",
+      "bytes": 23450,
+      "sha256": "d4f5eb1de3ccc8a7a3b9cceee7dc8322a89181a2fe91f808eb8893a1a56affeb"
+    },
+    {
+      "path": "maps/geometry/gis-fort-bend-2025.json",
+      "bytes": 33732,
+      "sha256": "7ffa3923a6ee5640ded6b2917f702f5d119ed33218134c0fa0db6e762b7f8ca5"
+    },
+    {
+      "path": "maps/geometry/gis-hays-2026.json",
+      "bytes": 13780,
+      "sha256": "f52fe13d8c6f7e5b04fbfdfb08366627bf4acab09a6718e7ace370d733ad1d33"
+    },
+    {
+      "path": "maps/geometry/gis-johnson-2022.json",
+      "bytes": 8795,
+      "sha256": "50bd82a694a208ce5c09ec2a798c5837507216b2be6c6a0d1d08e1bbe9663707"
+    },
+    {
+      "path": "maps/geometry/gis-travis-precincts.json",
+      "bytes": 7957,
+      "sha256": "6e48aebdef2966745fccf5a71c1ee8b0052547cdfe9cb4778559424137faeb44"
+    },
+    {
+      "path": "maps/geometry/local-summary.json",
+      "bytes": 14616,
+      "sha256": "de6bf23fd960fd38583369010798bb53758a4e3f2fc6d092db076f4dbd056038"
+    },
+    {
+      "path": "maps/geometry/summary.json",
+      "bytes": 170817,
+      "sha256": "2d67ccbef88ed1e88db6e01b94a0569c664d230943b23e140a46ae7e22716c5e"
+    },
+    {
+      "path": "maps/geometry/tlc-20g-audit.json",
+      "bytes": 1482060,
+      "sha256": "86e5e9ac366faa12bcb13043a06db95686097fd9d690da4bd5b20bdc3ef198c2"
+    },
+    {
+      "path": "maps/geometry/tlc-22g-audit.json",
+      "bytes": 1621501,
+      "sha256": "e79dd5ee48b66d5d8cf5d0293211c5f5583f8a7002c68a79674e0f4d7a2dc491"
+    },
+    {
+      "path": "maps/geometry/tlc-24g-audit.json",
+      "bytes": 1634487,
+      "sha256": "ca5d034487e1ebbdded8f3af1250ef42420024d2d31ce914f504e4482aa89a20"
+    },
+    {
+      "path": "maps/geometry/tlc-26p-audit.json",
+      "bytes": 1635705,
+      "sha256": "1585c469f80359b703e77af374613fc4f64a33eff39660f49085c2d31c940dbd"
+    },
+    {
+      "path": "maps/gis/bell-2022-audit.json",
+      "bytes": 7988,
+      "sha256": "2ca35498b4bd13d638eb18fb7da552387877fc24693b92a45606ed1feae219a5"
+    },
+    {
+      "path": "maps/gis/bexar-voter-audit.json",
+      "bytes": 40975,
+      "sha256": "80d0a192c37f86d506b039a424364349f133f16fe049dcfdaa26114a355a289e"
+    },
+    {
+      "path": "maps/gis/brazoria-2024-audit.json",
+      "bytes": 10443,
+      "sha256": "ef7d0207f840769ca6758a1a3e55e3e180b080691cf170fd783143ee94063890"
+    },
+    {
+      "path": "maps/gis/brazoria-2026-audit.json",
+      "bytes": 10604,
+      "sha256": "5be0642dff33e0d8e7fcbca3c7a835e5d26f1ea982dade3a3e2b3576ff62cb3f"
+    },
+    {
+      "path": "maps/gis/fort-bend-2022-audit.json",
+      "bytes": 13664,
+      "sha256": "392101e4ed65dcea6c887ba6c72ce16fac2e767efc8cc82a7dba5644c492398d"
+    },
+    {
+      "path": "maps/gis/fort-bend-2025-audit.json",
+      "bytes": 15978,
+      "sha256": "f0eebede4be7e949bff033296c58480bd3bcd7239451144d7869a285e19122ad"
+    },
+    {
+      "path": "maps/gis/hays-2026-audit.json",
+      "bytes": 10244,
+      "sha256": "34a1bff7e09b6dba4a128b4b606ef34dc6f0888b3e73c27b1330e616e28b88b5"
+    },
+    {
+      "path": "maps/gis/johnson-2022-audit.json",
+      "bytes": 8562,
+      "sha256": "732a7adb90a29dc9d751621f3b54449e496e0b462c6e71c712a990adfeb92348"
+    },
+    {
+      "path": "maps/gis/travis-precincts-audit.json",
+      "bytes": 19726,
+      "sha256": "4ebc45aca0f39ea46b3a8ecd5908e33fb558f75b8feed39f4d140b16dd67ba5b"
+    },
+    {
+      "path": "maps/index.html",
+      "bytes": 66651,
+      "sha256": "6bcb8314169f8bf8421418632aa12729009d4eab6c4b91309edcc6b188082736"
+    },
+    {
+      "path": "maps/inventory/accepted-constituents.csv.gz",
+      "bytes": 514881,
+      "sha256": "1cbd6f8c1eee2cb705dbdabbecfada674b52828f0aafc0514e551c7fe73e5608"
+    },
+    {
+      "path": "maps/inventory/all-counties.csv",
+      "bytes": 89710,
+      "sha256": "a5ec66eb050be58bfa3b3ddccb786ae1499cd86984026e2a4f46c99740addace"
+    },
+    {
+      "path": "maps/inventory/compatibility-summary.json",
+      "bytes": 35162,
+      "sha256": "516231c09d13426b916a0e9b7aabe558798115defee6cc6a28abaac3b6da4d77"
+    },
+    {
+      "path": "maps/inventory/county-gis-units.csv.gz",
+      "bytes": 97836,
+      "sha256": "b4d1a1aba1b6cbcdb81df6c247db086d91caf81190635532dc577eb3baf60b39"
+    },
+    {
+      "path": "maps/inventory/native-geometry-units.csv.gz",
+      "bytes": 1504046,
+      "sha256": "5df9c811303bc4b92b3d563a95574b9bbd871508b88a0184a2d74710f50d493e"
+    },
+    {
+      "path": "maps/inventory/published-map-documents.csv",
+      "bytes": 157222,
+      "sha256": "23e7b7e4d8841a849d743cd0ecb42803519dd076846ee6fc71ffe28d0487337c"
+    },
+    {
+      "path": "maps/inventory/reporting-unit-compatibility.csv.gz",
+      "bytes": 1100945,
+      "sha256": "beb5d595df486beb3af24dbbb3e02e1e18d8c35ee7d1c2371b0e8f3d9e7b3183"
+    },
+    {
+      "path": "maps/manifest.csv",
+      "bytes": 93574,
+      "sha256": "7f8bbfafbf5905677302dccd6b849a4054aded735d8b8d43dcdc083f5ddefbb8"
+    },
+    {
+      "path": "maps/manifest.json",
+      "bytes": 306144,
+      "sha256": "ae9b7ba18b7819a0e16aea8a70d80d44ce205305a0a20a2261e3be004d6f4db0"
+    },
+    {
+      "path": "maps/metadata-dates.json",
+      "bytes": 13180,
+      "sha256": "7164e0404faed7a5538dfcda1acf564f46af29f85b75cf5b103f58e86c402be3"
+    },
+    {
+      "path": "maps/metadata_audit.py",
+      "bytes": 3729,
+      "sha256": "c962916b9564a52418e6620a60b3d4d05f51e9a7e549d01b105a98b442a1db91"
+    },
+    {
+      "path": "maps/originals/arcitem-bell-d6d621015b3540c0a0a31f693d700f64-data.body",
+      "bytes": 100772,
+      "sha256": "cb90730a1a6694a48fd1b9f987fbe41e69f18e5317f425c049c97ab101de3737"
+    },
+    {
+      "path": "maps/originals/arcitem-bell-d6d621015b3540c0a0a31f693d700f64.body",
+      "bytes": 1575,
+      "sha256": "a604eb0a182bdcbfb996ede01ca1dcf75dacf46a95dae6a95ea5056d75a45800"
+    },
+    {
+      "path": "maps/originals/arcitem-fort-bend-22a9001aeef84acab31a4d15f37c2e2b-data.body",
+      "bytes": 146818,
+      "sha256": "8caf1825a99d51cdd36aa0b69497c1af9f5510ef9c443ce0132efe7bb0d089d6"
+    },
+    {
+      "path": "maps/originals/arcitem-fort-bend-22a9001aeef84acab31a4d15f37c2e2b.body",
+      "bytes": 1654,
+      "sha256": "ed29d33b758134b9bb4b7453d3b20afb9b63d0a066c95796d9742e74f46e05d6"
+    },
+    {
+      "path": "maps/originals/arcitem-fort-bend-47f2ac69730446098c0e1567efa84dac-data.body",
+      "bytes": 16843,
+      "sha256": "20cd421f7c3a590a547823b25cacf1372fb51c52c1f44c56a9f48d68c93b3fc5"
+    },
+    {
+      "path": "maps/originals/arcitem-fort-bend-47f2ac69730446098c0e1567efa84dac.body",
+      "bytes": 1412,
+      "sha256": "e85a8ce91e7d0aead06404b58de7473641ce8913d4bcdf4287c9955e15cd45b0"
+    },
+    {
+      "path": "maps/originals/arcitem-fort-bend-ca30668087cd407a83ad6da187567b3c-data.body",
+      "bytes": 150667,
+      "sha256": "783bb72af404c80ce55b4c09028fef4f5320ed870501c8496915709e0de02a1f"
+    },
+    {
+      "path": "maps/originals/arcitem-fort-bend-ca30668087cd407a83ad6da187567b3c.body",
+      "bytes": 1541,
+      "sha256": "13e73acf0519a9e242ea6a6be2bab510885a12be611151d6426b8c667cd8b7ac"
+    },
+    {
+      "path": "maps/originals/arcitem-hays-9827d03c523f424e8d210a772b1003c0-data.body",
+      "bytes": 5633,
+      "sha256": "dc3384397e71d230bcb7a7f7fa21a99271104b6643bd49b98b2e53b8d61d65e2"
+    },
+    {
+      "path": "maps/originals/arcitem-hays-9827d03c523f424e8d210a772b1003c0.body",
+      "bytes": 2465,
+      "sha256": "f6a5e374f80367ca5f6fa7f51d54b486f5f3de31be1f4e0c180ee9e039f227dd"
+    },
+    {
+      "path": "maps/originals/arcitem-hays-eeeb1e20d0dc4a7fb8d2769af2f0ccb7-data.body",
+      "bytes": 7953,
+      "sha256": "7c3b3ce9de8fe8f0a59d6780c1d5674a76758f56b9225334381f07818d0d863e"
+    },
+    {
+      "path": "maps/originals/arcitem-hays-eeeb1e20d0dc4a7fb8d2769af2f0ccb7.body",
+      "bytes": 1508,
+      "sha256": "593fb4f85491f678113e2c5459e14ad671501ca901a1a5157c6f393a69f52a6e"
+    },
+    {
+      "path": "maps/originals/arcitem-johnson-d0329206d4cd4c2a9746c8cbe26f38e7-data.body",
+      "bytes": 77054,
+      "sha256": "f132dc60011c7cfa7a58feee6e53c17eb1edb53925445cb88db71536ca3276d1"
+    },
+    {
+      "path": "maps/originals/arcitem-johnson-d0329206d4cd4c2a9746c8cbe26f38e7.body",
+      "bytes": 1722,
+      "sha256": "30e1b0e6f2e7623a9a65820b964a63bcb72470c9035ffd3494206c79d8c6061b"
+    },
+    {
+      "path": "maps/originals/arcitem-johnson-fc6c7c88e1024b8493d64a554c38db16-data.body",
+      "bytes": 11286,
+      "sha256": "2420ff80c85e9005114e818c7c080ad6a4677871d2159a5e145490aef0952825"
+    },
+    {
+      "path": "maps/originals/arcitem-johnson-fc6c7c88e1024b8493d64a554c38db16.body",
+      "bytes": 1880,
+      "sha256": "dd0991baf193878c2b8f6ef48e3b62067f84cf6139561a079f720c22e48ec116"
+    },
+    {
+      "path": "maps/originals/extra-bell-adopted-mapbook.pdf",
+      "bytes": 12243733,
+      "sha256": "5b1315750a305fb9d52e8d3633e1b619d0f83128ede2e4f531e08bd344b37aa0"
+    },
+    {
+      "path": "maps/originals/extra-cameron-alternate.body",
+      "bytes": 2520,
+      "sha256": "1a0dda44529551e2ed406281ce420d5a7afd720eb57000634f7bfdf7c8b8359e"
+    },
+    {
+      "path": "maps/originals/extra-dallas-alternate.body",
+      "bytes": 47845,
+      "sha256": "49eb8680b700f5074c659224287fc475a22d8eb619a5f72b1d5acefc24b11580"
+    },
+    {
+      "path": "maps/originals/extra-denton-hub.body",
+      "bytes": 42750,
+      "sha256": "0ff349577ea46669a00696827552ccd49a5d23e3c966cce58db28f8dd4844fbf"
+    },
+    {
+      "path": "maps/originals/extra-galveston-alternate.body",
+      "bytes": 82208,
+      "sha256": "04855ba54622a7f871cefda7f512504a70ce4c0709fe60b30dc6d7813dc11953"
+    },
+    {
+      "path": "maps/originals/extra-galveston-city-gis.body",
+      "bytes": 98495,
+      "sha256": "18ef8f08233893cf8042c5341993e04c25b8b57fd17eba8bcbbbbb8381c33660"
+    },
+    {
+      "path": "maps/originals/extra-galveston-city-voting.zip",
+      "bytes": 248284,
+      "sha256": "0b4067ef751d5d89f4f760b258dc9900323a87e714807914d380fc5b44288991"
+    },
+    {
+      "path": "maps/originals/extra-grayson-101.pdf",
+      "bytes": 2628115,
+      "sha256": "89c937462d619c88d92d1e44ffaaefe0460de95e700dd683faac73b5a5c21a97"
+    },
+    {
+      "path": "maps/originals/extra-grayson-vtd-map.pdf",
+      "bytes": 4446541,
+      "sha256": "ce1d6dc799f08c0aa1f16c73f412d4124b571092da1fbabaee32a91bc3e7535e"
+    },
+    {
+      "path": "maps/originals/extra-harris-zip-https.zip",
+      "bytes": 1893447,
+      "sha256": "54a663e7da8754369850fa0ee132cbe92c02ff5c7cda77d3b5ee53915173176e"
+    },
+    {
+      "path": "maps/originals/extra-hays-2026-map.pdf",
+      "bytes": 4099137,
+      "sha256": "5cae71b22071d2f39a52ba5a2c6a03068cceeebec945904a35f6323c582de93d"
+    },
+    {
+      "path": "maps/originals/extra-hays-map-page.body",
+      "bytes": 111457,
+      "sha256": "504fe907328e5bc10031340a9c43edf01fd1513b28b0b918aea76bcc8aea09d3"
+    },
+    {
+      "path": "maps/originals/extra-jefferson-alternate.body",
+      "bytes": 61382,
+      "sha256": "bd05ee9a217ff589346530e2cb1eb2f4c4543f5f4949368652c0ddd83d146874"
+    },
+    {
+      "path": "maps/originals/extra-jefferson-order.body",
+      "bytes": 103,
+      "sha256": "90b2d35cd5e08370ed20db81197dd9da1a4dbb421f71293fd5733ea49eb7b3e1"
+    },
+    {
+      "path": "maps/originals/extra-nueces-map.pdf",
+      "bytes": 1138492,
+      "sha256": "68f0f6b8d531d5db444403fd51eea78a30698efad215e8b8e07c29080e9e146f"
+    },
+    {
+      "path": "maps/originals/extra-rockwall-voting-boxes.pdf",
+      "bytes": 18386162,
+      "sha256": "2efe5912e5261beb8ffbb577b3182a1a5390514e8edc32abef71c1183122b775"
+    },
+    {
+      "path": "maps/originals/extra-smith-100-portal.body",
+      "bytes": 3853,
+      "sha256": "d073c4af78cc6e9fad68d34c13b22a06446152b692ef1e1e832a85e6507d39ff"
+    },
+    {
+      "path": "maps/originals/extra-smith-viewer-js.body",
+      "bytes": 1176559,
+      "sha256": "bb8cf58af5e3d72848a08f7e19aed7b8457ae2af52bf8b2b40050088be5a3c00"
+    },
+    {
+      "path": "maps/originals/extra-travis-map.pdf",
+      "bytes": 219207,
+      "sha256": "53ecce67efcdfeb19fc015f41fd2ef41eb78a09f54ccfbee5161af7a91cc8aa9"
+    },
+    {
+      "path": "maps/originals/extra-travis-plan.pdf",
+      "bytes": 1293224,
+      "sha256": "d656990a9d243d289ac0a5632674def1c90a2b3eb14f50080f94f4fa8315fe5c"
+    },
+    {
+      "path": "maps/originals/follow-bell-1.body",
+      "bytes": 68514,
+      "sha256": "8af8cbe5aa0444c3326ccfc346baf5f2bad3e390530e7d8cd445f766cd60a259"
+    },
+    {
+      "path": "maps/originals/follow-brazos-1.body",
+      "bytes": 1675,
+      "sha256": "52c4194a56ea51581c1f9fa66de45fc0222d3234985b1066458193c1c6d3f949"
+    },
+    {
+      "path": "maps/originals/follow-cameron-1.pdf",
+      "bytes": 127302,
+      "sha256": "e985199228489f58b826811c626b04f5574acefe7747745235dd937a95c0dadf"
+    },
+    {
+      "path": "maps/originals/follow-grayson-1.body",
+      "bytes": 83923,
+      "sha256": "0b66df422a3130ee573d31ebb79040a2b617591e1e9cc565bfdb4ef4f87164bb"
+    },
+    {
+      "path": "maps/originals/follow-hidalgo-1.pdf",
+      "bytes": 10023214,
+      "sha256": "6c423ae550e88b8628f743fbc91c090a9073b8eb4e545d73bdc90a339c0ae619"
+    },
+    {
+      "path": "maps/originals/follow-kaufman-1.body",
+      "bytes": 99495,
+      "sha256": "7ae5f7e23ae0581d3d0971b1d0f279ea7fb3086d7b9c9bb2e0cab66324886b50"
+    },
+    {
+      "path": "maps/originals/follow-lubbock-1.pdf",
+      "bytes": 1810612,
+      "sha256": "af374701d3264861d1d804996082ac4254fb22a638256976c0f726c2c8bc625e"
+    },
+    {
+      "path": "maps/originals/follow-lubbock-2.pdf",
+      "bytes": 8138825,
+      "sha256": "218aa5cfe8c3a555a9839add74524248f7c560371fca4c6c20be0672e8623b06"
+    },
+    {
+      "path": "maps/originals/follow-nueces-1.body",
+      "bytes": 168010,
+      "sha256": "9c263a10d5f1d3597ea7d1673c8b73e2958463ddd77019e1ce0588a2bc8c8f7b"
+    },
+    {
+      "path": "maps/originals/follow-tarrant-1.body",
+      "bytes": 340930,
+      "sha256": "0294db21ce2b6ed8ed59589d4bb4c4150acd99b052469462291cd8a19a89f0cb"
+    },
+    {
+      "path": "maps/originals/gis-bell-2022-batch-001.body",
+      "bytes": 181088,
+      "sha256": "b3f9fced98ebbc9fcc8d6488aa07cc5b61ece04e634262a465db02e4f80f408b"
+    },
+    {
+      "path": "maps/originals/gis-bell-2022-item.body",
+      "bytes": 5888,
+      "sha256": "c22a41b4b25bd71c5f202edf1c8ea47af9436e46fd604318ecd6b2c066edc2a3"
+    },
+    {
+      "path": "maps/originals/gis-bell-2022-layer.body",
+      "bytes": 12019,
+      "sha256": "8436f3932ffc54a77f07faf469064cb95fb41a477648d735d1ee4b46ca61ae61"
+    },
+    {
+      "path": "maps/originals/gis-bell-2022-pre-count.body",
+      "bytes": 68,
+      "sha256": "349bf5e2c95cc8f6ffa4a184970220e741e1a6c86e0b7880347aba7dd44582ee"
+    },
+    {
+      "path": "maps/originals/gis-bell-2022-pre-ids.body",
+      "bytes": 304,
+      "sha256": "cc7865f758afa4efb43c9c6873970eabbffc283c0e9731550ab5f1f343823f4e"
+    },
+    {
+      "path": "maps/originals/gis-bell-2022-service.body",
+      "bytes": 4915,
+      "sha256": "70c3eb968330ab572aa66256ad6f0be2b3ce8dd4fa5b802dd62e9c26970f9f9e"
+    },
+    {
+      "path": "maps/originals/gis-bexar-voter-batch-001.body",
+      "bytes": 1059822,
+      "sha256": "5ed582d01432ff297b6965075d14a49d6fa07c71ba7c950b509aaea4cdcfcbfb"
+    },
+    {
+      "path": "maps/originals/gis-bexar-voter-batch-002.body",
+      "bytes": 570135,
+      "sha256": "4c81bdebfaa40677839f789feabdc23fa112c2e17ff9674fc7c7be53f50ec56a"
+    },
+    {
+      "path": "maps/originals/gis-bexar-voter-batch-003.body",
+      "bytes": 392321,
+      "sha256": "00107173269e977444ab69b9d4dc616d8596a626ce3566214c81ca2ad9bc2f5b"
+    },
+    {
+      "path": "maps/originals/gis-bexar-voter-batch-004.body",
+      "bytes": 457879,
+      "sha256": "311a437427d7bad3af93510720f5278f9be01adc8a260e690208beeab082a5aa"
+    },
+    {
+      "path": "maps/originals/gis-bexar-voter-batch-005.body",
+      "bytes": 587919,
+      "sha256": "06d09c8d946fa03d61c7825c91457491c060e0148a11ea3e2d989826f6aa4e19"
+    },
+    {
+      "path": "maps/originals/gis-bexar-voter-batch-006.body",
+      "bytes": 376830,
+      "sha256": "0fa02174e0f5891f6289c2a57cfa1d4fa505c705b3b4f9fe1a7d78aaee9b3c1b"
+    },
+    {
+      "path": "maps/originals/gis-bexar-voter-batch-007.body",
+      "bytes": 498140,
+      "sha256": "487776bf40a6bfb46b92e1ef3fbbd21f15a604c6bbcfb1d81821acb4ede0f015"
+    },
+    {
+      "path": "maps/originals/gis-bexar-voter-batch-008.body",
+      "bytes": 586353,
+      "sha256": "573bfe8863713fa4f0ae030af7fed4d10087257d9236d5faef62fd9c51e4b5dd"
+    },
+    {
+      "path": "maps/originals/gis-bexar-voter-batch-009.body",
+      "bytes": 83319,
+      "sha256": "c66b7500919a27656fe366856c21cdf65138ffa9cf57d01d2b6dc2f3011e10b1"
+    },
+    {
+      "path": "maps/originals/gis-bexar-voter-layer.body",
+      "bytes": 5972,
+      "sha256": "14681d21368c9ee1f70912cca799cc5bda226732a756f8c94cd463bcace6b133"
+    },
+    {
+      "path": "maps/originals/gis-bexar-voter-post-count.body",
+      "bytes": 13,
+      "sha256": "fa702bfe4b1bbb4452d8d74d974adc3801ec881b7933aa8f4f63eb02f564957d"
+    },
+    {
+      "path": "maps/originals/gis-bexar-voter-post-ids.body",
+      "bytes": 3162,
+      "sha256": "0e12f2c5156be86081f56bac509fb586232445f6c9f2b0d22bbf282b2dcf4025"
+    },
+    {
+      "path": "maps/originals/gis-bexar-voter-service.body",
+      "bytes": 3046,
+      "sha256": "5516d3012245454a31eae11c6c84b3dd67d6e075cc21f6abfd48bdef074c77af"
+    },
+    {
+      "path": "maps/originals/gis-brazoria-2024-batch-001.body",
+      "bytes": 1262178,
+      "sha256": "4a611c87d3a69cb1c2bd7fd66493b62ebb2d6ceecebe33124d6222d56867ec9f"
+    },
+    {
+      "path": "maps/originals/gis-brazoria-2024-item.body",
+      "bytes": 127,
+      "sha256": "9ef7b281588428373c764295a351a81daff8cef8301ebec1961231b205d1d4f3"
+    },
+    {
+      "path": "maps/originals/gis-brazoria-2024-layer.body",
+      "bytes": 60254,
+      "sha256": "1cced7a211b72ac3143c65b5caa162c5505dcdc298d4a4f527a8308a70cf4d4b"
+    },
+    {
+      "path": "maps/originals/gis-brazoria-2024-post-count.body",
+      "bytes": 12,
+      "sha256": "5bd49ef37ce510afa1eeeb39be066abe7002d02ef8f6186efb38ab47741b28c2"
+    },
+    {
+      "path": "maps/originals/gis-brazoria-2024-post-ids.body",
+      "bytes": 271,
+      "sha256": "f21e64608745d9f41113dab91183456bc5f926454791c8747ebce70c1d42aa9a"
+    },
+    {
+      "path": "maps/originals/gis-brazoria-2024-service.body",
+      "bytes": 6744,
+      "sha256": "47fbf1b5fb670fa577e6ec0e683a63b41d340204c833075a5946a18c24fafc06"
+    },
+    {
+      "path": "maps/originals/gis-brazoria-2026-batch-001.body",
+      "bytes": 1251625,
+      "sha256": "89b5d7be044ee49c2cd4be68c16ba5908fbcd773c6ce97b007377a7621636cd7"
+    },
+    {
+      "path": "maps/originals/gis-brazoria-2026-layer.body",
+      "bytes": 62825,
+      "sha256": "734f1d43cec7cc4e21672a0b90e798bf56030c0f8cb38cfc1cbf421f5be68d05"
+    },
+    {
+      "path": "maps/originals/gis-brazoria-2026-post-count.body",
+      "bytes": 12,
+      "sha256": "fef0bd52e61e58a2f6200194bf7af5219a5d8c1f9ffd2dcbd7335fb81d92e68f"
+    },
+    {
+      "path": "maps/originals/gis-brazoria-2026-post-ids.body",
+      "bytes": 283,
+      "sha256": "0e18740f661a3f1eaa2967c1b5b33d08a1b04cac86fc547b6d4064123c84980b"
+    },
+    {
+      "path": "maps/originals/gis-fort-bend-2022-batch-001.body",
+      "bytes": 649031,
+      "sha256": "816a36ca1aa957491117e5a56d2734d9ca5a37624e057e1f1a3b09ae8cb7182a"
+    },
+    {
+      "path": "maps/originals/gis-fort-bend-2022-batch-002.body",
+      "bytes": 480407,
+      "sha256": "e4bf5e1a26fc770cb965c5910f57146698202fdb9278d56b664944bc16620c27"
+    },
+    {
+      "path": "maps/originals/gis-fort-bend-2022-item.body",
+      "bytes": 1559,
+      "sha256": "af2a0ab93c4ad17b41e68cf9b20455002ce748febca06fe8236fc980ed1a97c9"
+    },
+    {
+      "path": "maps/originals/gis-fort-bend-2022-layer.body",
+      "bytes": 6824,
+      "sha256": "81416e2dd404bd0c35ec0281c45b0a02e196b19547851dbc54bd10d649258e2d"
+    },
+    {
+      "path": "maps/originals/gis-fort-bend-2022-post-count.body",
+      "bytes": 13,
+      "sha256": "cb2a37b7afdfaa5470e2e0fa63e5137b9e671a64d20a5d010be374352944b7b2"
+    },
+    {
+      "path": "maps/originals/gis-fort-bend-2022-post-ids.body",
+      "bytes": 746,
+      "sha256": "b540f2c1fc265ca2bb6227a64ba14fef02cb9e45d3ddc54a03657582985e4a41"
+    },
+    {
+      "path": "maps/originals/gis-fort-bend-2022-service.body",
+      "bytes": 6224,
+      "sha256": "4beb1f389859d7051b9b3285a399a19f487ff8c05354f9eb3c1066f6d1572c9d"
+    },
+    {
+      "path": "maps/originals/gis-fort-bend-2025-batch-001.body",
+      "bytes": 664620,
+      "sha256": "5d5be601cea7ca9106b0754c12f5d43f9562f76670b477251cc9010063c36d22"
+    },
+    {
+      "path": "maps/originals/gis-fort-bend-2025-batch-002.body",
+      "bytes": 593207,
+      "sha256": "30d4e1151f00e4e0c2f16fb1fe9945b2a786526c18d8a04c42cddf19a4375d02"
+    },
+    {
+      "path": "maps/originals/gis-fort-bend-2025-batch-003.body",
+      "bytes": 17966,
+      "sha256": "b60fb084eed644ff929069c09271ee7ab3627295e4fdd5c52772d9f1e5db30f1"
+    },
+    {
+      "path": "maps/originals/gis-fort-bend-2025-layer.body",
+      "bytes": 8018,
+      "sha256": "53720c1da7d6bb4b3b2868193bb7b04072017f6107c627b527168ff1b0ee52f4"
+    },
+    {
+      "path": "maps/originals/gis-fort-bend-2025-post-count.body",
+      "bytes": 13,
+      "sha256": "5bdb531ef5b2b9a31e99e3debfb5f6b74fc40dd70a1a25d37e3f90f7629a5bd7"
+    },
+    {
+      "path": "maps/originals/gis-fort-bend-2025-post-ids.body",
+      "bytes": 1051,
+      "sha256": "0daa894decd5801d31b669ae52564784bab33577821d1b64715a23558fd190dc"
+    },
+    {
+      "path": "maps/originals/gis-hays-2026-batch-001.body",
+      "bytes": 984910,
+      "sha256": "7f786a3b66fd9987f89b90b8a0cfbb06f82625688d1ea77d5784f4ac227fe105"
+    },
+    {
+      "path": "maps/originals/gis-hays-2026-item.body",
+      "bytes": 1958,
+      "sha256": "f23371f7b822a6bfb08e56bc302fc168256885f1955fb621beccf4dda9989101"
+    },
+    {
+      "path": "maps/originals/gis-hays-2026-layer.body",
+      "bytes": 121092,
+      "sha256": "39f89af630080a7b5a64c5564799659b5c4b2ab19f013662cbe1748dd88cf994"
+    },
+    {
+      "path": "maps/originals/gis-hays-2026-pre-count.body",
+      "bytes": 12,
+      "sha256": "31148bc4ce5218af7ea7c2ec564bb291a8749749e260ab390b881919292f3757"
+    },
+    {
+      "path": "maps/originals/gis-hays-2026-pre-ids.body",
+      "bytes": 303,
+      "sha256": "7331667d863c0574aed73f590317264ae2129b5babdcc1ce7adb45a1d4f8ad47"
+    },
+    {
+      "path": "maps/originals/gis-hays-2026-service.body",
+      "bytes": 6370,
+      "sha256": "87df02b6c6eb1ea8a1b740932eb90a39ccbc3e090f0081ecfde7202feddee954"
+    },
+    {
+      "path": "maps/originals/gis-johnson-2022-batch-001.body",
+      "bytes": 788729,
+      "sha256": "3e8d5aac0bc4723070b86d7013b5dc08531f16d33510c71813c56e2ee4e76269"
+    },
+    {
+      "path": "maps/originals/gis-johnson-2022-item.body",
+      "bytes": 1879,
+      "sha256": "5b30abc5047d933dbe508c95b560aae7e5a2f2159f66a0363add561a29236181"
+    },
+    {
+      "path": "maps/originals/gis-johnson-2022-layer.body",
+      "bytes": 14187,
+      "sha256": "ef521263088312ec65425153f3ec388ea70eb39f1ee8034305ac89e518035aed"
+    },
+    {
+      "path": "maps/originals/gis-johnson-2022-pre-count.body",
+      "bytes": 12,
+      "sha256": "4bb1c5565a7c3b37ff5b2fe88ab755ec966e906ebfb1983b2a9f2ac5836ca4f2"
+    },
+    {
+      "path": "maps/originals/gis-johnson-2022-pre-ids.body",
+      "bytes": 246,
+      "sha256": "a134bd8468030bac658bd55da755324727dfd2a4fe2dbf428e47ebbd518a87d6"
+    },
+    {
+      "path": "maps/originals/gis-johnson-2022-service.body",
+      "bytes": 4401,
+      "sha256": "46acf7dda48eaf3f727c3a3be891e0047452a9c5131ad349a88956e5496c4e9e"
+    },
+    {
+      "path": "maps/originals/gis-travis-precincts-batch-001.body",
+      "bytes": 682605,
+      "sha256": "833ff97cf9c25f8a72e00de3a6807e0828fe2db38b4de61f84468c705cee3a4a"
+    },
+    {
+      "path": "maps/originals/gis-travis-precincts-batch-002.body",
+      "bytes": 893784,
+      "sha256": "d240f139b1e1b7dce8e1303c888e73e037d00fa186b53c44d855b70a60c8d35e"
+    },
+    {
+      "path": "maps/originals/gis-travis-precincts-batch-003.body",
+      "bytes": 941992,
+      "sha256": "9e39374a7c4661e2f898444d1f1296cd57c8ba273971ea84898bb270898d0017"
+    },
+    {
+      "path": "maps/originals/gis-travis-precincts-batch-004.body",
+      "bytes": 192819,
+      "sha256": "b898636f9063e66bb915e48b49cdca9b3d3e94e0cdd3efb18d2a795b46810a01"
+    },
+    {
+      "path": "maps/originals/gis-travis-precincts-layer.body",
+      "bytes": 6440,
+      "sha256": "0853b520701a9a9621c2852867c396fd0f8eece51e7045333c8811c4a6748234"
+    },
+    {
+      "path": "maps/originals/gis-travis-precincts-post-count.body",
+      "bytes": 13,
+      "sha256": "63bed50001d828e2e93e1c3214b558b6aaab94cd75ba45377dc5bef1842203d2"
+    },
+    {
+      "path": "maps/originals/gis-travis-precincts-post-ids.body",
+      "bytes": 1447,
+      "sha256": "a34dabb7e4a268109cd94da118398395f3ec2498b6920227dce5a4bb2230c106"
+    },
+    {
+      "path": "maps/originals/gis-travis-precincts-service.body",
+      "bytes": 3480,
+      "sha256": "bbffcaaf4c5914358465b5d7506798ac032e14a1632b74a4e1e2e6c13aae0a5f"
+    },
+    {
+      "path": "maps/originals/local-collin-1.pdf",
+      "bytes": 861414,
+      "sha256": "c37ebe386a0f1cd87ed636facdfc0e528668b779672d8ee077c1a06f6a4e080e"
+    },
+    {
+      "path": "maps/originals/local-comal-1.pdf",
+      "bytes": 1388267,
+      "sha256": "94be03ac140a1f5df94f13741dd8126dc39c5323f6f4945a40eee04c02d9046b"
+    },
+    {
+      "path": "maps/originals/local-comal-2.pdf",
+      "bytes": 1328832,
+      "sha256": "4ae65f512921d854dac602c2f86c0c8ce861aaf402772299cea404a96cee2f93"
+    },
+    {
+      "path": "maps/originals/local-comal-3.pdf",
+      "bytes": 1378955,
+      "sha256": "47548517772e1f751c4b82377a992c0dc7ddbb2958d9be646a5439504d18c882"
+    },
+    {
+      "path": "maps/originals/local-comal-4.pdf",
+      "bytes": 1287649,
+      "sha256": "93af73ba2f1e434c7e3a121494cd61ddd53d16f821805d3e798d9ccd64ea5576"
+    },
+    {
+      "path": "maps/originals/local-comal-5.pdf",
+      "bytes": 1828822,
+      "sha256": "a676249e271313a1dc1d7c5993b171973020c6bc59441bd0a5d52b6c79fe64ab"
+    },
+    {
+      "path": "maps/originals/local-comal-6.pdf",
+      "bytes": 1354632,
+      "sha256": "612f3d638d2028bc9d0d950f46ee2a8ece3e7732f60670f391cfda77e68b1761"
+    },
+    {
+      "path": "maps/originals/local-comal-7.pdf",
+      "bytes": 1270637,
+      "sha256": "12732c100444b4272dbe3eea8ecb6c9180e5dc292d4ecb51479b20efed6270ff"
+    },
+    {
+      "path": "maps/originals/local-comal-8.pdf",
+      "bytes": 1878357,
+      "sha256": "cb5a2a8d3a9d5ba5a31dc27da7dbb3ee8e3fa521fa9c97b1b7e9b481451a466c"
+    },
+    {
+      "path": "maps/originals/local-el-paso-1.pdf",
+      "bytes": 306655,
+      "sha256": "1cd23f897be31e82783bff1a8308c54ec122bb9364926586c284ccb92ffe4abd"
+    },
+    {
+      "path": "maps/originals/local-el-paso-2.pdf",
+      "bytes": 325477,
+      "sha256": "34ab0b90eaccaa0fe6bc1f6685de5d8d31ffac1dfb071824d31cff739de28125"
+    },
+    {
+      "path": "maps/originals/local-guadalupe-1.pdf",
+      "bytes": 1292059,
+      "sha256": "f0673cbf9b9432abe1728d2c62428ae2d3cbfbadbd7507e2a5669d8397fc652f"
+    },
+    {
+      "path": "maps/originals/local-guadalupe-2.pdf",
+      "bytes": 68938,
+      "sha256": "9d5fe7253299aaf8c7ad039071ebb4bb61375022ea5c160fa759cc39fc721532"
+    },
+    {
+      "path": "maps/originals/local-johnson-1.pdf",
+      "bytes": 32464776,
+      "sha256": "01cc2e940e922a9961e16ac9e9bff56678198f63feab70a1cb0ac74bb46c712f"
+    },
+    {
+      "path": "maps/originals/local-midland-1.pdf",
+      "bytes": 1622452,
+      "sha256": "9088a9cf28ce62019f25c6f13a09765b94def80f50c25df14b624d1dab114bfc"
+    },
+    {
+      "path": "maps/originals/local-montgomery-1.pdf",
+      "bytes": 5003456,
+      "sha256": "6e0bdc671c3a683706c65e55ae4b66dafa4d22f96cee6f31db296ce2c1c24aba"
+    },
+    {
+      "path": "maps/originals/local-montgomery-2.pdf.gz.part001",
+      "bytes": 32000000,
+      "sha256": "f92ddf49a29501b1d0dfc6b1a8aec92f30d5f7323bb88d0925823761818630ed"
+    },
+    {
+      "path": "maps/originals/local-montgomery-2.pdf.gz.part002",
+      "bytes": 32000000,
+      "sha256": "4578dde3f97b354dff1e3a63bf0bc97bd3f88f521b1dc86b924b97b3e8b12070"
+    },
+    {
+      "path": "maps/originals/local-montgomery-2.pdf.gz.part003",
+      "bytes": 8415873,
+      "sha256": "e4d3b5ce46cf67784ba04d226e47daffbbe8f15b25536e909ef55dce16aad8f1"
+    },
+    {
+      "path": "maps/originals/local-parker-1.pdf",
+      "bytes": 5772423,
+      "sha256": "be02d91cda6fcf69d88f2a3785e9365035072d6c53add6e29b01000555c21080"
+    },
+    {
+      "path": "maps/originals/local-randall-1.pdf",
+      "bytes": 2516292,
+      "sha256": "a33e86c1ff02b22e398936bf933178bc9e43e8a9874fbc678fd5f004c1bb91e1"
+    },
+    {
+      "path": "maps/originals/local-tarrant-1.pdf",
+      "bytes": 5961678,
+      "sha256": "7bf6f90500c800e4f9a0986f37fc8c9d33c53af261d5d4e0e6707449b2ba0438"
+    },
+    {
+      "path": "maps/originals/local-webb-1.pdf",
+      "bytes": 770839,
+      "sha256": "f86a88fcdb83c431261de47a4986d9f2a8bbebce82e07ff8e1bf281cf3c28349"
+    },
+    {
+      "path": "maps/originals/local-webb-2.pdf",
+      "bytes": 854532,
+      "sha256": "bef8ef4ba808e321785e2da0563655caa9755f0e580d6cad74d495f7cb874a48"
+    },
+    {
+      "path": "maps/originals/local-webb-3.pdf.gz.part001",
+      "bytes": 32000000,
+      "sha256": "7898b80761fa8c06f84a3a99a17f9eeca479933df78d0ed224d57969b8932118"
+    },
+    {
+      "path": "maps/originals/local-webb-3.pdf.gz.part002",
+      "bytes": 32000000,
+      "sha256": "f42ed86e8711fafa514e78506c5b8684f45970b832086e963c44e9206af3cba6"
+    },
+    {
+      "path": "maps/originals/local-webb-3.pdf.gz.part003",
+      "bytes": 5307002,
+      "sha256": "c2a25ea3d5b056ec7194b95cf59e22a90c1a3eaf82f663f5b17e2d00adb56850"
+    },
+    {
+      "path": "maps/originals/local-williamson-1.pdf",
+      "bytes": 5593598,
+      "sha256": "ca0d6d560db2ec8ac41a2106516e1d2a622c634e567eee48b29b40ec9f474e0e"
+    },
+    {
+      "path": "maps/originals/route-bell-1.body",
+      "bytes": 86560,
+      "sha256": "3306046495a9bf7b0ddce60f615909ea0ae2e390dcd95383c22fe43743673749"
+    },
+    {
+      "path": "maps/originals/route-bexar-1.body",
+      "bytes": 112537,
+      "sha256": "82db7bbe7570a5a76df902c1d64c2e844b0b726c64aaa78ab46a3a5524fb4106"
+    },
+    {
+      "path": "maps/originals/route-bexar-2.body",
+      "bytes": 3766,
+      "sha256": "3925579575f1b96e9e1545375e29d2e1cf3579a92fee0360b83a3cb04b2c2db1"
+    },
+    {
+      "path": "maps/originals/route-brazoria-1.body",
+      "bytes": 113939,
+      "sha256": "f48d47f6813c3f220939e95387f4f2921d311ac2b7a5904c43453c1c75f325fe"
+    },
+    {
+      "path": "maps/originals/route-brazos-1.body",
+      "bytes": 110018,
+      "sha256": "4a8bf88b8abc25f5be31c5cc8df24e1a13e90753050fca4cd4b5828008dbe514"
+    },
+    {
+      "path": "maps/originals/route-cameron-1.body",
+      "bytes": 2535,
+      "sha256": "c9a3f11400bb44578054baae75516e51827af78f7d97f498ff6fed38b286abee"
+    },
+    {
+      "path": "maps/originals/route-collin-1.body",
+      "bytes": 44698,
+      "sha256": "2ed76a00fdd99adb7a1adc2b5c07347943fd170d30546897b8f3ccb834fde5c3"
+    },
+    {
+      "path": "maps/originals/route-comal-1.body",
+      "bytes": 114162,
+      "sha256": "a46ba8bcc909725238536b3cabed931104a89a6314c836a423f444bda13ea001"
+    },
+    {
+      "path": "maps/originals/route-denton-1.body",
+      "bytes": 114636,
+      "sha256": "275f1fcebe91aa415109cae8729aaf0acf6e4a33ba795cc449bb64d5bf354bee"
+    },
+    {
+      "path": "maps/originals/route-el-paso-1.body",
+      "bytes": 21145,
+      "sha256": "abd3139ec3e3a560ce701545c1614bb25a20d8eb7176d6b21a26aa43d0451dc6"
+    },
+    {
+      "path": "maps/originals/route-ellis-1.body",
+      "bytes": 127667,
+      "sha256": "cde989af4c729deca50f915506ed193e1c7c56eef747c6f66a887f2e6605f4d7"
+    },
+    {
+      "path": "maps/originals/route-fort-bend-1.body",
+      "bytes": 192176,
+      "sha256": "2facb0bea938f3dbab19c5789bf1eb286da28b1638f445a2de46622871c8c78b"
+    },
+    {
+      "path": "maps/originals/route-fort-bend-2.body",
+      "bytes": 178298,
+      "sha256": "49954892ad071ae2d16a2ceea431881c731f3f3a3941ab305bed052f88eae44d"
+    },
+    {
+      "path": "maps/originals/route-grayson-1.body",
+      "bytes": 142268,
+      "sha256": "d2697417e7341072c400581e19540e0d6eb1a2d695cc2173e14e988cb60782ad"
+    },
+    {
+      "path": "maps/originals/route-guadalupe-1.body",
+      "bytes": 150743,
+      "sha256": "e28baea070bffe0fc6084f920284b1673059dbacb239bc50c11a4c27f6b520ef"
+    },
+    {
+      "path": "maps/originals/route-guadalupe-2.body",
+      "bytes": 90563,
+      "sha256": "3b46391b44b34b1871de5ab346be76394e71aec6e16b8e353114c5d31d532b68"
+    },
+    {
+      "path": "maps/originals/route-harris-1.body",
+      "bytes": 44368,
+      "sha256": "c54dd006882136ee1b8646469ccba1c8f288136b61aa1eab18658f7538bec3f9"
+    },
+    {
+      "path": "maps/originals/route-hays-1.body",
+      "bytes": 113398,
+      "sha256": "0a651f88b0d335539e5fea2e3e47176b7fe4df423307eebf38f0b2c69eb34154"
+    },
+    {
+      "path": "maps/originals/route-hidalgo-1.body",
+      "bytes": 133770,
+      "sha256": "90c415cc1b2b921ba75d1e6b7e06f0a45d63e048a50191a72234bd601802703b"
+    },
+    {
+      "path": "maps/originals/route-johnson-1.body",
+      "bytes": 143313,
+      "sha256": "9dc1e0b10db381330762cfe0290ff0e458a51a2c7c96f5453c50b37313073582"
+    },
+    {
+      "path": "maps/originals/route-kaufman-1.body",
+      "bytes": 99938,
+      "sha256": "17bda6e08356a8f878e87fb629d374eda8e624632924baedf24a2aab2aba4336"
+    },
+    {
+      "path": "maps/originals/route-mclennan-1.body",
+      "bytes": 126854,
+      "sha256": "9ceb3535a3637f98da4c0266fb94243562830c3703dba3e81ffc7f18880a6776"
+    },
+    {
+      "path": "maps/originals/route-mclennan-2.body",
+      "bytes": 98037,
+      "sha256": "cdc256496fd1530028ca4b7c6764c42efc3ecf700431a8831a493817146820aa"
+    },
+    {
+      "path": "maps/originals/route-midland-1.body",
+      "bytes": 139985,
+      "sha256": "8cc58ff7b777b9e74996dc4affcfba320d5ad906ecfce6adc6ac78b50add61b5"
+    },
+    {
+      "path": "maps/originals/route-montgomery-1.body",
+      "bytes": 147953,
+      "sha256": "17fcab7eb4275f4bc8d99a0c5d9ba262e1820e18c8fce5c6990fb54a55fefbaf"
+    },
+    {
+      "path": "maps/originals/route-nueces-1.body",
+      "bytes": 167188,
+      "sha256": "b7d88b42b0caa0d5716ee7247c37eacd1adae2de4e2f0f9c5cc25a340c6fe94e"
+    },
+    {
+      "path": "maps/originals/route-parker-1.body",
+      "bytes": 89055,
+      "sha256": "688b8de20040afe3287b6f7e43907e83a573b8ae8fc47b83f3b0fd52b964d272"
+    },
+    {
+      "path": "maps/originals/route-randall-1.body",
+      "bytes": 100649,
+      "sha256": "cad5ec6964bdc78039de56cd9bab02f99a58fb222d2912f3bfaf5f1e0b839dff"
+    },
+    {
+      "path": "maps/originals/route-rockwall-1.body",
+      "bytes": 98618,
+      "sha256": "a4beea149736decaf27f01ce83664c279327f16c6e610ced0ba490b567ce62c7"
+    },
+    {
+      "path": "maps/originals/route-smith-1.body",
+      "bytes": 166109,
+      "sha256": "c60bdd6a2639fc3face2f8a913a7651fd395cfbfb7a28c1b868af42509af4b44"
+    },
+    {
+      "path": "maps/originals/route-tarrant-1.body",
+      "bytes": 347405,
+      "sha256": "c8ab41be67af398ee07bf2ff598cd7ab8a0ae45d490cf34639582209fbee5ae9"
+    },
+    {
+      "path": "maps/originals/route-travis-1.body",
+      "bytes": 21248,
+      "sha256": "30e80b783c08482236c48b172d45a33f60f2c921bb24ab8e7ae397469ff499e6"
+    },
+    {
+      "path": "maps/originals/route-travis-2.body",
+      "bytes": 43080,
+      "sha256": "586523b67f81adf65556088a90a9a278f545a91e76a3db05af1d091e8e0d18d1"
+    },
+    {
+      "path": "maps/originals/route-webb-1.body",
+      "bytes": 133783,
+      "sha256": "d50285c712b9fafd18ca8ec783728ca8fb252efbb4993d85c8834d5bcf076b17"
+    },
+    {
+      "path": "maps/originals/route-webb-2.body",
+      "bytes": 143252,
+      "sha256": "d3befe9c959f18d1bf30510d7f09ea8527b41fcb32790a930a7d4f1ffd5a10f3"
+    },
+    {
+      "path": "maps/originals/route-williamson-1.body",
+      "bytes": 132500,
+      "sha256": "6f665cdebf3a2fd68c9ec57ad306726443083065d4eec9dc72244fd397e2d79b"
+    },
+    {
+      "path": "maps/originals/smith-100-original.pdf",
+      "bytes": 3506649,
+      "sha256": "52932b351f159d7445fbf7303a5cefd85325e99c37d98b78900ca5be79a39207"
+    },
+    {
+      "path": "maps/originals/tlc-20g.zip.part001",
+      "bytes": 32000000,
+      "sha256": "a11de0808eec2e2f8539073317946044dabf463f27a5e0f76241f0e12b288f7d"
+    },
+    {
+      "path": "maps/originals/tlc-20g.zip.part002",
+      "bytes": 15065588,
+      "sha256": "0bcdc3c388eb21d96e1623d4068f4510db59e0d20a11b99e22d7d2eacf9003a5"
+    },
+    {
+      "path": "maps/originals/tlc-22g.zip.part001",
+      "bytes": 32000000,
+      "sha256": "d7d22eb7748addcee193d26bcd1d09d95014a4d24b9ec33601cc6f6e1ad3e9d2"
+    },
+    {
+      "path": "maps/originals/tlc-22g.zip.part002",
+      "bytes": 14826193,
+      "sha256": "e2b4ce88dc69489ba167b5965e7858cd09588ceebbdadcf585cc7019f4d710d4"
+    },
+    {
+      "path": "maps/originals/tlc-24g.zip.part001",
+      "bytes": 32000000,
+      "sha256": "8ec7e2ef7ce304bb8c20d97797de2034e47777b88e886645a1f9ac4682c12e99"
+    },
+    {
+      "path": "maps/originals/tlc-24g.zip.part002",
+      "bytes": 14925672,
+      "sha256": "ef6910783c1b32e6f26a76e6ada169102e7bcbafe4e8865f901a3379cd7bf401"
+    },
+    {
+      "path": "maps/originals/tlc-26p.zip.part001",
+      "bytes": 32000000,
+      "sha256": "3120e1645274345869ba8e9ee07ca73f9fcb333a8f897163f12a67c301a99cd9"
+    },
+    {
+      "path": "maps/originals/tlc-26p.zip.part002",
+      "bytes": 13497861,
+      "sha256": "683fa8fb915e281dc99c84a065510ef7a9513b796c60a766553cc12c37f38594"
+    },
+    {
+      "path": "maps/originals/tlc-precinct-catalog.body",
+      "bytes": 31543,
+      "sha256": "ac8bc668a8b07b52bb924c802e5a0891b913b904fed3f5cb392da34579336fe0"
+    },
+    {
+      "path": "maps/originals/tlc-vtd-catalog.body",
+      "bytes": 38398,
+      "sha256": "b0e97b824345d6da36f491a01042354b9399e8039b1151956a5fdf0f354eb45e"
+    },
+    {
+      "path": "maps/pages/48027.html",
+      "bytes": 7937,
+      "sha256": "7c2cebc1c67648f34e6ba0b370226e13b03b6a096cdcf118973b7c796184b1ca"
+    },
+    {
+      "path": "maps/pages/48029.html",
+      "bytes": 7791,
+      "sha256": "ebd4129efe339853e17bc2a6f47097937aa60e76d27115f9addd52b87ae527a8"
+    },
+    {
+      "path": "maps/pages/48039.html",
+      "bytes": 6936,
+      "sha256": "7b4f85e6b12d13a495ffdcf37e2433e5c6028533331b09661eda16c712a81b5b"
+    },
+    {
+      "path": "maps/pages/48041.html",
+      "bytes": 5788,
+      "sha256": "a259cc3ccc949ca8b0c38945074a4ef3ce85e472cca645e37971e57f9a8d5807"
+    },
+    {
+      "path": "maps/pages/48061.html",
+      "bytes": 6720,
+      "sha256": "876ebf6dd0f3b976e1816f4b6d6e40edc9ffd0319721e702c663bdcfd9554510"
+    },
+    {
+      "path": "maps/pages/48085.html",
+      "bytes": 6366,
+      "sha256": "c0bf211bc4f819f3a842ce59983e85fb5492d28efefdd346d168a2e768c64eb4"
+    },
+    {
+      "path": "maps/pages/48091.html",
+      "bytes": 13278,
+      "sha256": "f2f28c3cf0f400dbdf18894ba9056e62193e955f82b0f3c87eedea1e291fda83"
+    },
+    {
+      "path": "maps/pages/48113.html",
+      "bytes": 5854,
+      "sha256": "097dcf9b66d562dddac77f9e4639a46a6a11e55f994100cc4465035b31dad198"
+    },
+    {
+      "path": "maps/pages/48121.html",
+      "bytes": 5991,
+      "sha256": "e1060ea632bb78a13a7070e90173bca13e723d7bf300c70f50514cce23923fcc"
+    },
+    {
+      "path": "maps/pages/48139.html",
+      "bytes": 5587,
+      "sha256": "650096fcf1fa5df9882d2a472928b674577319e037b69d4e882b8e92f8939e44"
+    },
+    {
+      "path": "maps/pages/48141.html",
+      "bytes": 7320,
+      "sha256": "001a03003bf0c01d73bc0191bcb814b801d288bc5946d3ae331d0c0fc502c2c4"
+    },
+    {
+      "path": "maps/pages/48157.html",
+      "bytes": 8013,
+      "sha256": "6c24fa7c4305f7873d047429c2c7cc9e73b0d79eced49b94ca7066923272ff65"
+    },
+    {
+      "path": "maps/pages/48167.html",
+      "bytes": 6977,
+      "sha256": "b924e9b1e856fb0e7e0829cdb462d2667eaf05ee5a6cbb68cabe2e6bc0f5b750"
+    },
+    {
+      "path": "maps/pages/48181.html",
+      "bytes": 8184,
+      "sha256": "63c063270395a5f9103b6db1199e3564bbd8ce99b22566d5d467ae7324819684"
+    },
+    {
+      "path": "maps/pages/48187.html",
+      "bytes": 7568,
+      "sha256": "3ba4a24b2ab900ec4683da351e95063300742e119aa7fe8a1f01bfa75ebf351e"
+    },
+    {
+      "path": "maps/pages/48201.html",
+      "bytes": 6569,
+      "sha256": "b10a443590b3b378168acd05b8dc45b6b0c807ffe2651cb1a6c75138d696880d"
+    },
+    {
+      "path": "maps/pages/48209.html",
+      "bytes": 7460,
+      "sha256": "8f13a2a492846aea9dbefb059ee4b6b1eb05cae7a1911edab21e39c5d1617a0e"
+    },
+    {
+      "path": "maps/pages/48215.html",
+      "bytes": 6441,
+      "sha256": "3c2c13d1dc585f787c5de99bc2d92625620d9f20665c1964a08748177362f596"
+    },
+    {
+      "path": "maps/pages/48245.html",
+      "bytes": 6365,
+      "sha256": "e72f8f64c686022511dba6183d5262e5600db190a1b4b472b463f329e0206d2c"
+    },
+    {
+      "path": "maps/pages/48251.html",
+      "bytes": 7061,
+      "sha256": "977c85cb59f8b0384c46de0976114129e3995ff438d34af81393fd8b37a7898a"
+    },
+    {
+      "path": "maps/pages/48257.html",
+      "bytes": 5771,
+      "sha256": "cfbcdab7daa36abca0261585d78895531d40454a0229772daedc3e9af39d7eee"
+    },
+    {
+      "path": "maps/pages/48303.html",
+      "bytes": 7846,
+      "sha256": "5100ccaa8256a618088d483d29c7eb855bf4d098ff83471745fd7a5e4d5e7d5a"
+    },
+    {
+      "path": "maps/pages/48309.html",
+      "bytes": 5775,
+      "sha256": "ac6d239bf0bdb696dea5572759a3987d3ee99c172d16f54162cc4b869a752bf0"
+    },
+    {
+      "path": "maps/pages/48329.html",
+      "bytes": 6222,
+      "sha256": "9ba889ff3013fa9679f8707e5e0ece34fe75fc609fe4cbdfe7b9f99c8fdded78"
+    },
+    {
+      "path": "maps/pages/48339.html",
+      "bytes": 7536,
+      "sha256": "185684692d784e031d34cdb8c629064c576a3660f037f5b5357506ec0cd00ee9"
+    },
+    {
+      "path": "maps/pages/48355.html",
+      "bytes": 6793,
+      "sha256": "328fc88887bad9e81983996672d446b909adfae4743d79df9a542c77a73afb58"
+    },
+    {
+      "path": "maps/pages/48367.html",
+      "bytes": 6271,
+      "sha256": "b0805551c9e43a636d84844e6ceee1e94ae9f5da3ee17bec23cacd9077a84c0f"
+    },
+    {
+      "path": "maps/pages/48381.html",
+      "bytes": 6166,
+      "sha256": "259042cecdf461068bbfde07e965c5a5dd54944e73530212178631f1893a672c"
+    },
+    {
+      "path": "maps/pages/48397.html",
+      "bytes": 6770,
+      "sha256": "3c638da3dda77cad3d659219450d11856c98658299cac338db65b3a4ee390359"
+    },
+    {
+      "path": "maps/pages/48423.html",
+      "bytes": 6950,
+      "sha256": "9956b61a0452b268ddf9eb1bb8faee82e234f48895991573a24b5002431753e6"
+    },
+    {
+      "path": "maps/pages/48439.html",
+      "bytes": 6677,
+      "sha256": "341d51dc76c544bbf050f4682a0155e0bf6b8f61aa0f9fc2d01cd68490db7206"
+    },
+    {
+      "path": "maps/pages/48453.html",
+      "bytes": 9485,
+      "sha256": "97a9e9a4d9439554e48537c75f32b6c32e6270ee7e7e35fb9d6817711a92028c"
+    },
+    {
+      "path": "maps/pages/48479.html",
+      "bytes": 8657,
+      "sha256": "d3a668bd2ae5c85ffbeaa081a4439aa1b717801b2b3d3f0bd88bdf52d3d76a70"
+    },
+    {
+      "path": "maps/pages/48491.html",
+      "bytes": 6275,
+      "sha256": "3bbb28e0cd4a665b6493b208b1bb2dc210668ff04c8221231633b47ed0c8681c"
+    },
+    {
+      "path": "maps/pdf/contact-01.jpg",
+      "bytes": 304314,
+      "sha256": "f2553e7a6178245b90acb3541ee1b86ec197c88b7b8e7ab8b18bc28adcc971cb"
+    },
+    {
+      "path": "maps/pdf/contact-02.jpg",
+      "bytes": 314347,
+      "sha256": "035337f44cceb49ddca063c667ebc0f367417c11a63ffbca570a7d988f9ece67"
+    },
+    {
+      "path": "maps/pdf/contact-03.jpg",
+      "bytes": 282698,
+      "sha256": "2dd61c7337c9eaff5ad9298a831ed85037937d1bb59bef973e89485df14c892c"
+    },
+    {
+      "path": "maps/pdf/contact-04.jpg",
+      "bytes": 266417,
+      "sha256": "269287b0cef18468c15f8ecff995b432d936577fc2111393db279ebb23866360"
+    },
+    {
+      "path": "maps/pdf/contact-05.jpg",
+      "bytes": 281264,
+      "sha256": "a1f594b7d0e760a543c9095de9827d7e29a200d4c7b4c11195735188489c765b"
+    },
+    {
+      "path": "maps/pdf/contact-06.jpg",
+      "bytes": 71650,
+      "sha256": "2d2af8a733f7ca1d87f6a19234dbb1bdeeb7cad8f8db4516228d8d140030f679"
+    },
+    {
+      "path": "maps/pdf/extra-bell-adopted-mapbook-p0001.png",
+      "bytes": 379372,
+      "sha256": "d0185835f1331feecb48984e24b524c40f1a79dc1deffcb6db29c7b9ca151fd9"
+    },
+    {
+      "path": "maps/pdf/extra-bell-adopted-mapbook-p0032.png",
+      "bytes": 421040,
+      "sha256": "f5bc9c82ba2ef27b88f0492e0a6ea42449976f59ce57770af6a31b4284d099ed"
+    },
+    {
+      "path": "maps/pdf/extra-bell-adopted-mapbook-p0062.png",
+      "bytes": 226886,
+      "sha256": "39f4ceb94f8860d63980cb8c7a6c2d7c236dda6c769e286d888cd389a1bd98fc"
+    },
+    {
+      "path": "maps/pdf/extra-bell-adopted-mapbook.txt.gz",
+      "bytes": 57861,
+      "sha256": "6083358f76d5f43472e2f81e8c127fd130fdcf0804dedaed90c6aeb03f790f2a"
+    },
+    {
+      "path": "maps/pdf/extra-grayson-101-p0001.png",
+      "bytes": 1174237,
+      "sha256": "3df60905dcd02c790f271cea6d5fc5adb1983903929f663f8c640807087ec3f2"
+    },
+    {
+      "path": "maps/pdf/extra-grayson-101.txt.gz",
+      "bytes": 1393,
+      "sha256": "de961ddd1c086651e2fe328c11160ffddbb74b62cd1e8d44f5def79de9c8bb49"
+    },
+    {
+      "path": "maps/pdf/extra-grayson-vtd-map-p0001.png",
+      "bytes": 762150,
+      "sha256": "9ac6453451a27a343111541a3bfe223786222241494988598de97c34df6e476f"
+    },
+    {
+      "path": "maps/pdf/extra-grayson-vtd-map.txt.gz",
+      "bytes": 4344,
+      "sha256": "ddc905198e9666fb55adf821c370d9d953a5caab0499224a7ec55e98af46e35d"
+    },
+    {
+      "path": "maps/pdf/extra-hays-2026-map-p0001.png",
+      "bytes": 951880,
+      "sha256": "81825fc8bc30face495a37e0835904f69a4cb15fd590d18580ac69c68d732446"
+    },
+    {
+      "path": "maps/pdf/extra-hays-2026-map.txt.gz",
+      "bytes": 10536,
+      "sha256": "59255b0dd05c8bdce1bda2f15af4d3b004d782b95018e4b1854c97bd26ef5197"
+    },
+    {
+      "path": "maps/pdf/extra-nueces-map-p0001.png",
+      "bytes": 1243573,
+      "sha256": "898fd6d865ac76d518ed036fe3b73c152e080128affe7fd4d974f9a3fd973e5d"
+    },
+    {
+      "path": "maps/pdf/extra-nueces-map.txt.gz",
+      "bytes": 78,
+      "sha256": "7c2e9342bb31d7924ced141b4f7ff2cd00d895b79da0d7e96a3b931df15fa718"
+    },
+    {
+      "path": "maps/pdf/extra-rockwall-voting-boxes-p0001.png",
+      "bytes": 764185,
+      "sha256": "33a1e0b467051abace21e1e3ba048c2d869cc3732a84292121193b0a0f06faa2"
+    },
+    {
+      "path": "maps/pdf/extra-rockwall-voting-boxes.txt.gz",
+      "bytes": 10095,
+      "sha256": "71865755b542a2b70914ee13d66dbe41c785ca1c2c13016c92a0e52372f0dc39"
+    },
+    {
+      "path": "maps/pdf/extra-travis-map-p0001.png",
+      "bytes": 358684,
+      "sha256": "03dc57c88e51f14012baf0707d556e716b11de6ab5dd546794efc25319f14fac"
+    },
+    {
+      "path": "maps/pdf/extra-travis-map.txt.gz",
+      "bytes": 536,
+      "sha256": "15a95adf185be0bff2906af838088ed970858bb6a335708b0ce9dde7dd22c2a7"
+    },
+    {
+      "path": "maps/pdf/extra-travis-plan-p0001.png",
+      "bytes": 235171,
+      "sha256": "f12d56b6b5bd8660f17362d9a313989c276496820aaab063f8ee350a73ab5731"
+    },
+    {
+      "path": "maps/pdf/extra-travis-plan-p0004.png",
+      "bytes": 247007,
+      "sha256": "2fbf111b1a43ea33e2b750cea42e42ce65456b8641cd013b51c6a843a18c345e"
+    },
+    {
+      "path": "maps/pdf/extra-travis-plan-p0007.png",
+      "bytes": 980579,
+      "sha256": "5e6829798e27aec892739717f22bb67374434fbb5fe3df586b7ffbd768a4a27f"
+    },
+    {
+      "path": "maps/pdf/extra-travis-plan.txt.gz",
+      "bytes": 4814,
+      "sha256": "59fce4430504557b2df47e087047746a82455f37bad1f57f6a27a8a2987314af"
+    },
+    {
+      "path": "maps/pdf/follow-cameron-1-p0001.png",
+      "bytes": 248395,
+      "sha256": "9f19bdd78345f4c820254cf791e0a1c18d71df49a743874f76a147b835db4f3d"
+    },
+    {
+      "path": "maps/pdf/follow-cameron-1.txt.gz",
+      "bytes": 1410,
+      "sha256": "d5ab9bb91cc0176554289a7c044f3b112413864cc55bcb595933ae0348212706"
+    },
+    {
+      "path": "maps/pdf/follow-hidalgo-1-p0001.png",
+      "bytes": 968895,
+      "sha256": "57e60752377f5d9677c356b8ef0d9fb42c54a5e4794cbcd76af46c20a10920ac"
+    },
+    {
+      "path": "maps/pdf/follow-hidalgo-1-p0002.png",
+      "bytes": 493085,
+      "sha256": "ccaa5019b1a85858dbefc1e1a271ef4944d7c6e5503784c47d059c1c61e777bf"
+    },
+    {
+      "path": "maps/pdf/follow-hidalgo-1.txt.gz",
+      "bytes": 4141,
+      "sha256": "e73f09009d0d3985a61f4e4e5622860d1f74264d9c071b5f5d1c42ab637e48eb"
+    },
+    {
+      "path": "maps/pdf/follow-lubbock-1-p0001.png",
+      "bytes": 826145,
+      "sha256": "37df26fe9fb3dcb6ee37591bc4761013bfef5541c5dfa3f21dc56cdabd2dca4f"
+    },
+    {
+      "path": "maps/pdf/follow-lubbock-1.txt.gz",
+      "bytes": 2889,
+      "sha256": "f4ebca64397797d2d9b698ff59b05413ed521e8b5285889f77a3e92d31b7fc70"
+    },
+    {
+      "path": "maps/pdf/follow-lubbock-2-p0001.png",
+      "bytes": 1008946,
+      "sha256": "5b50c7c939038b8b0177ed46ceed6f15bd4c7d2add80d38490f7b831082bbda6"
+    },
+    {
+      "path": "maps/pdf/follow-lubbock-2.txt.gz",
+      "bytes": 8226,
+      "sha256": "eb96e6b7d86b3e5696c38d6febc76351192bde6508943536d1f6e5bb798662b1"
+    },
+    {
+      "path": "maps/pdf/inspection.json",
+      "bytes": 117752,
+      "sha256": "2047ebaab307321efba0680600b33f1caba0e83dff1694308879767f11e0c642"
+    },
+    {
+      "path": "maps/pdf/local-collin-1-p0001.png",
+      "bytes": 1211387,
+      "sha256": "e6ca1b48381cc42a717f3ac00caf2d36051a87d95ea74ad755fdf19a5ce3ee5f"
+    },
+    {
+      "path": "maps/pdf/local-collin-1.txt.gz",
+      "bytes": 35,
+      "sha256": "a240e4cc04b0ddfdf90249f7c2783affa2af5e0546a08a548f2532f755ed5fbf"
+    },
+    {
+      "path": "maps/pdf/local-comal-1-p0001.png",
+      "bytes": 252140,
+      "sha256": "86dc85e9f25b78378bb549cc1d6f65ef6e8cea6adc671049f52ad200bbb37a67"
+    },
+    {
+      "path": "maps/pdf/local-comal-1-p0003.png",
+      "bytes": 889465,
+      "sha256": "c11e1fe82f1b83ea61d55ed7e7f79889ef420c67bf22cfc7db30eed6627b0003"
+    },
+    {
+      "path": "maps/pdf/local-comal-1-p0004.png",
+      "bytes": 1079956,
+      "sha256": "7c815a2bd9cb0fa909bce4dd550fc3f5a1a78dfb1014327415ae638360750ad3"
+    },
+    {
+      "path": "maps/pdf/local-comal-1.txt.gz",
+      "bytes": 67,
+      "sha256": "d9d5f51b002e1e5b1aacb58aefd7c1ffeea5d0f0693e3e5a4e626c10198050bb"
+    },
+    {
+      "path": "maps/pdf/local-comal-2-p0001.png",
+      "bytes": 251135,
+      "sha256": "9c08b03d79a7fecfe4c7b01c382d9ab37ad0ff2fe7ea7bf3f43787fdd93ee5cb"
+    },
+    {
+      "path": "maps/pdf/local-comal-2-p0003.png",
+      "bytes": 981023,
+      "sha256": "171bb90a7e0dd1c328277ae6de8b1945993c9001c2b062fd46f16aa2ef8e7e42"
+    },
+    {
+      "path": "maps/pdf/local-comal-2-p0004.png",
+      "bytes": 913338,
+      "sha256": "1dc016e7aad06943c813caeb8590ba9ba86b2df421e383c490240deb664a1a01"
+    },
+    {
+      "path": "maps/pdf/local-comal-2.txt.gz",
+      "bytes": 67,
+      "sha256": "d9d5f51b002e1e5b1aacb58aefd7c1ffeea5d0f0693e3e5a4e626c10198050bb"
+    },
+    {
+      "path": "maps/pdf/local-comal-3-p0001.png",
+      "bytes": 272059,
+      "sha256": "2017340bf530c0696b3590bdde6ec05da26972d5e3f5f2f06ce8d6719d2ad790"
+    },
+    {
+      "path": "maps/pdf/local-comal-3-p0003.png",
+      "bytes": 988255,
+      "sha256": "daa876dd82eec9f7ef717fb9e071d14e22d2bdbcd52f91dc17e2e5336ab8ba0e"
+    },
+    {
+      "path": "maps/pdf/local-comal-3-p0004.png",
+      "bytes": 953140,
+      "sha256": "dc8501a3e4cfb5a72edbfe331591b77b8a1cb0f71e6b8c89ce344ac6d91157e5"
+    },
+    {
+      "path": "maps/pdf/local-comal-3.txt.gz",
+      "bytes": 67,
+      "sha256": "d9d5f51b002e1e5b1aacb58aefd7c1ffeea5d0f0693e3e5a4e626c10198050bb"
+    },
+    {
+      "path": "maps/pdf/local-comal-4-p0001.png",
+      "bytes": 295999,
+      "sha256": "16da419ced632ea1b26a99cb5adab63d7728f0d05fbbafc696538f6cbcd38051"
+    },
+    {
+      "path": "maps/pdf/local-comal-4-p0003.png",
+      "bytes": 952975,
+      "sha256": "8acbf254a21bab697b4b0b2a1428c8e46ccac5d408aa6176d44f01fdec2139f1"
+    },
+    {
+      "path": "maps/pdf/local-comal-4-p0004.png",
+      "bytes": 845736,
+      "sha256": "4d835d5f4d47a688aa0e772ebb49b5138bf899136f51d89046816f7f26cff6c8"
+    },
+    {
+      "path": "maps/pdf/local-comal-4.txt.gz",
+      "bytes": 48,
+      "sha256": "eee446f21ac8f344d97c9a5ed0bfd69e5c18feac6e725e7c247e7ca729d13ea0"
+    },
+    {
+      "path": "maps/pdf/local-comal-5-p0001.png",
+      "bytes": 400664,
+      "sha256": "9ef5d9f4943955e14005e52424c25f7351c5d95159ca3483b1dc307b3dbf06a4"
+    },
+    {
+      "path": "maps/pdf/local-comal-5-p0003.png",
+      "bytes": 780745,
+      "sha256": "b5da21185f5b928f73e48a4ca996caade908538b1415fa06f3f9817b0c44f4ce"
+    },
+    {
+      "path": "maps/pdf/local-comal-5-p0005.png",
+      "bytes": 910142,
+      "sha256": "28ce1fdf93419236c5a6dbb5a75b0ab2bb498f096060858bd7eb488a1cf51433"
+    },
+    {
+      "path": "maps/pdf/local-comal-5.txt.gz",
+      "bytes": 70,
+      "sha256": "f101af19ea307f9f16d84a3a1ed3b621cd0daa7e6578c1efc5272ff753b41098"
+    },
+    {
+      "path": "maps/pdf/local-comal-6-p0001.png",
+      "bytes": 242821,
+      "sha256": "76ecae96a9e2f4dd6cb7f375c2e301866412724e828ad57687fe2f95e33914a9"
+    },
+    {
+      "path": "maps/pdf/local-comal-6-p0003.png",
+      "bytes": 975808,
+      "sha256": "64f982caedb3196dfe313ec7f5e1eb7950b6733d10cab8d04a0c0cb392907987"
+    },
+    {
+      "path": "maps/pdf/local-comal-6-p0004.png",
+      "bytes": 1009126,
+      "sha256": "da7fe8ccdbfcc660e00a6d1188d24294c3a5147e0cd1861b02291270df62bf8c"
+    },
+    {
+      "path": "maps/pdf/local-comal-6.txt.gz",
+      "bytes": 67,
+      "sha256": "d9d5f51b002e1e5b1aacb58aefd7c1ffeea5d0f0693e3e5a4e626c10198050bb"
+    },
+    {
+      "path": "maps/pdf/local-comal-7-p0001.png",
+      "bytes": 230881,
+      "sha256": "10c8f6ee473d20c3e6c20a80e00852e3d92878cbf69ce182a8a45e9e97364a59"
+    },
+    {
+      "path": "maps/pdf/local-comal-7-p0003.png",
+      "bytes": 833787,
+      "sha256": "12490ea1bd3159adaf8c917eb7db8668c5e485f9bf309a6af4f32d9e0156428a"
+    },
+    {
+      "path": "maps/pdf/local-comal-7-p0004.png",
+      "bytes": 970837,
+      "sha256": "01535971a4d4a1ce2950c73ea0d12ec818d0b09d1cd480eea4e0f7e0f2518c81"
+    },
+    {
+      "path": "maps/pdf/local-comal-7.txt.gz",
+      "bytes": 48,
+      "sha256": "eee446f21ac8f344d97c9a5ed0bfd69e5c18feac6e725e7c247e7ca729d13ea0"
+    },
+    {
+      "path": "maps/pdf/local-comal-8-p0001.png",
+      "bytes": 540941,
+      "sha256": "7dc3c11e3be81354bdce5cc961d5b5ff5e6589b9176e83b6d478c453eff0b49c"
+    },
+    {
+      "path": "maps/pdf/local-comal-8.txt.gz",
+      "bytes": 1272,
+      "sha256": "c1741041e8ebd135c9140debd4ec586b10d4a099ec559824623dae9a72f3e0c7"
+    },
+    {
+      "path": "maps/pdf/local-el-paso-1-p0001.png",
+      "bytes": 243389,
+      "sha256": "0ef6db700499e3aa88bd02047b92956c0a62009f7bf014128bb26bc5fdae6175"
+    },
+    {
+      "path": "maps/pdf/local-el-paso-1.txt.gz",
+      "bytes": 527,
+      "sha256": "c2df267f266316689898b5d96698e68793a0f728d35afa539f40583228d629bf"
+    },
+    {
+      "path": "maps/pdf/local-el-paso-2-p0001.png",
+      "bytes": 247668,
+      "sha256": "8f0e2a4ce3ae442c9afc1cfd9e821bc174f3d1f1a87526bd6425c71ac8f472b8"
+    },
+    {
+      "path": "maps/pdf/local-el-paso-2.txt.gz",
+      "bytes": 539,
+      "sha256": "793821e3e3fa213fe73e643984a6853b6633f1f74fa0a16ede315bb01174f5e4"
+    },
+    {
+      "path": "maps/pdf/local-guadalupe-1-p0001.png",
+      "bytes": 447089,
+      "sha256": "eaa594fbd92189c5222a17122613ef2ebb6d911e96f50a275d740d066f56ef67"
+    },
+    {
+      "path": "maps/pdf/local-guadalupe-1-p0003.png",
+      "bytes": 1346267,
+      "sha256": "6fd75393d4f95c5399c18631cbdd9788fb51513ba894c3d9d3d5f581902df2c9"
+    },
+    {
+      "path": "maps/pdf/local-guadalupe-1-p0004.png",
+      "bytes": 2356158,
+      "sha256": "fe2692cdee80430bea5abea78e2e3c0048ab2af748168ebd2276ff5aa8a9c2cf"
+    },
+    {
+      "path": "maps/pdf/local-guadalupe-1.txt.gz",
+      "bytes": 1497,
+      "sha256": "3244d35f5981fa2c25a5daae5fa41d7cae51edc0d686b026f050b9d0fa238d98"
+    },
+    {
+      "path": "maps/pdf/local-guadalupe-2-p0001.png",
+      "bytes": 201339,
+      "sha256": "47267ac2bef5fc594eb8585fe00cc2c7876a57fd3f1159fb777b4eb3b38cc090"
+    },
+    {
+      "path": "maps/pdf/local-guadalupe-2.txt.gz",
+      "bytes": 1127,
+      "sha256": "9d8f22c83e89ac632f5638f1bb6ecc3b746f840b0525ab9ffae571d3a5484888"
+    },
+    {
+      "path": "maps/pdf/local-johnson-1-p0001.png",
+      "bytes": 1574450,
+      "sha256": "02c3bd83bea3b5b811068184d9ee8e89896b48781be78092e0277b47da58aa32"
+    },
+    {
+      "path": "maps/pdf/local-johnson-1.txt.gz",
+      "bytes": 35,
+      "sha256": "a240e4cc04b0ddfdf90249f7c2783affa2af5e0546a08a548f2532f755ed5fbf"
+    },
+    {
+      "path": "maps/pdf/local-midland-1-p0001.png",
+      "bytes": 1011641,
+      "sha256": "b52fa6190cca581b3e6923a7ce4c7eb7b163fe1f424a555df42be9938b732509"
+    },
+    {
+      "path": "maps/pdf/local-midland-1.txt.gz",
+      "bytes": 3356,
+      "sha256": "5fccd26952c6afdd9cf14e44c932025c19bfb46499d82b64c4d07be1e1ba0cc9"
+    },
+    {
+      "path": "maps/pdf/local-montgomery-1-p0001.png",
+      "bytes": 477831,
+      "sha256": "ba327025ddc817d61c729e43cb8c678187019f9616c6c7f8fde911fdb9890b33"
+    },
+    {
+      "path": "maps/pdf/local-montgomery-1.txt.gz",
+      "bytes": 1957,
+      "sha256": "b70a3249201096bc7b18d04956835f537c54f59b52c2f3fc453f94899a59eb15"
+    },
+    {
+      "path": "maps/pdf/local-montgomery-2-p0001.png",
+      "bytes": 470913,
+      "sha256": "9cbde0a570f5c2250f3fc1c00a6b025f79f1463d4407bcced7fd8b908e9e24e8"
+    },
+    {
+      "path": "maps/pdf/local-montgomery-2-p0061.png",
+      "bytes": 399777,
+      "sha256": "7eedc432a4788b41ad4758007c8e29bf20a69fa875de109b49ddcb21fd6ed62b"
+    },
+    {
+      "path": "maps/pdf/local-montgomery-2-p0121.png",
+      "bytes": 347708,
+      "sha256": "690188bfa06af8565dfebaa4003bfc553112ec66c0cf42dd40f42aa981210d39"
+    },
+    {
+      "path": "maps/pdf/local-montgomery-2.txt.gz",
+      "bytes": 98996,
+      "sha256": "75cbc0c1f334e1b1dd6ab67da5450379fcf800672ce52efbc93767268ee60361"
+    },
+    {
+      "path": "maps/pdf/local-parker-1-p0001.png",
+      "bytes": 1600793,
+      "sha256": "24a1d057fcb6c9f6d0ae007a436d22e5640f76453706662b497e9dc412f6be03"
+    },
+    {
+      "path": "maps/pdf/local-parker-1.txt.gz",
+      "bytes": 35,
+      "sha256": "a240e4cc04b0ddfdf90249f7c2783affa2af5e0546a08a548f2532f755ed5fbf"
+    },
+    {
+      "path": "maps/pdf/local-randall-1-p0001.png",
+      "bytes": 343108,
+      "sha256": "789007b4ab6da2b6a1121bfea959c6582f3a2d901921f3d8f497d8af3d95f446"
+    },
+    {
+      "path": "maps/pdf/local-randall-1.txt.gz",
+      "bytes": 377,
+      "sha256": "12d8ac31158c58e30252e839e41a2271d85fbce29bf2de3fdb74507de66c83df"
+    },
+    {
+      "path": "maps/pdf/local-tarrant-1-p0001.png",
+      "bytes": 1498577,
+      "sha256": "8db22cf8f97c48c6ebe19beb418b2d878eef137d1490c2dfa1f7becedafc0158"
+    },
+    {
+      "path": "maps/pdf/local-tarrant-1.txt.gz",
+      "bytes": 15072,
+      "sha256": "5faed5aa4a200cd981848b627ab105242fd0d89828c962fe7f661c32a47f7875"
+    },
+    {
+      "path": "maps/pdf/local-webb-1-p0001.png",
+      "bytes": 261525,
+      "sha256": "99e893881aa9ac029dcb73cd2020e6cf119e5eb3f79e801a721020f04c31c436"
+    },
+    {
+      "path": "maps/pdf/local-webb-1.txt.gz",
+      "bytes": 899,
+      "sha256": "81098638219be4358198971788e49e1d27764f4bf4e4b874cc39e5531382f926"
+    },
+    {
+      "path": "maps/pdf/local-webb-2-p0001.png",
+      "bytes": 777807,
+      "sha256": "2018518ca2b9e5c6ecc13183e0cad35affe4379128680bbdcc555c8f99dbbabb"
+    },
+    {
+      "path": "maps/pdf/local-webb-2.txt.gz",
+      "bytes": 8727,
+      "sha256": "42edfee2feaf2a936f7166f06659e93c633b68f5e5a0af76b2eeb22a0b47f1f0"
+    },
+    {
+      "path": "maps/pdf/local-webb-3-p0001.png",
+      "bytes": 927641,
+      "sha256": "fc589bb31e2e288d1dfd2ef9fc5117ddaa28c34ae4bb86ebd761625b0f966700"
+    },
+    {
+      "path": "maps/pdf/local-webb-3-p0032.png",
+      "bytes": 831180,
+      "sha256": "4e467a072d555e12ae3e42721ec7297afb2c4ee118c17c8907e24a3c04017b84"
+    },
+    {
+      "path": "maps/pdf/local-webb-3-p0062.png",
+      "bytes": 744987,
+      "sha256": "603e2ce6a31b3f1ba537d13650fd8b107c1cf26821e492fe1431a109b13c4fc9"
+    },
+    {
+      "path": "maps/pdf/local-webb-3.txt.gz",
+      "bytes": 171,
+      "sha256": "74c7b7c2084bdb426e89a3003e0cb0fd8959e2a5cd69c3d3437dc331d06e0e7a"
+    },
+    {
+      "path": "maps/pdf/local-williamson-1-p0001.png",
+      "bytes": 1816528,
+      "sha256": "a980c9a677a46f25e508bc3ae95b72619267644885998c0d3e29376289cf2428"
+    },
+    {
+      "path": "maps/pdf/local-williamson-1.txt.gz",
+      "bytes": 1232,
+      "sha256": "c3d207de282fac13783435c7506a1e1f104e4fd3c0cfa25015989f315b4dbc46"
+    },
+    {
+      "path": "maps/pdf/smith-100-original-p0001.png",
+      "bytes": 1564534,
+      "sha256": "c602320823fde56c97d91d869823787f806a97afe087d3061825ae245a26213c"
+    },
+    {
+      "path": "maps/pdf/smith-100-original.txt.gz",
+      "bytes": 35,
+      "sha256": "a240e4cc04b0ddfdf90249f7c2783affa2af5e0546a08a548f2532f755ed5fbf"
+    },
+    {
+      "path": "maps/peer-original-reuse.json",
+      "bytes": 5450,
+      "sha256": "b8757a8266bc0f3bda69f34aaa0cbbe264e3937d46309b035a9bdf4389bc6e79"
+    },
+    {
+      "path": "maps/previews/48027-24g.png",
+      "bytes": 52100,
+      "sha256": "c8080b5b61f42579852e660baa93f8c18513fdc2abcd42a53f2cacaf6c656c70"
+    },
+    {
+      "path": "maps/previews/48027-26p.png",
+      "bytes": 54593,
+      "sha256": "851489d3d3c5605fd3f5cfd0ca4ec107e8cd8c1325376e639c6202b69b03e5b7"
+    },
+    {
+      "path": "maps/previews/48029-24g.png",
+      "bytes": 56220,
+      "sha256": "9491bc5e637c1a6138473ca545e50045a7433101803cace465408c877dc190d2"
+    },
+    {
+      "path": "maps/previews/48029-26p.png",
+      "bytes": 57749,
+      "sha256": "793ce43ba2c829cf0018cc53f377ae7ce74f95e2eebb2c70e147112d3cbdb36a"
+    },
+    {
+      "path": "maps/previews/48039-24g.png",
+      "bytes": 57311,
+      "sha256": "d148706a35b6b40dd18df0d6d4059812b067bac99aa7f1a9afd500c94ae8ae64"
+    },
+    {
+      "path": "maps/previews/48039-26p.png",
+      "bytes": 57910,
+      "sha256": "e0ec409b784eda66cf198c7a274fedf2cf79cdf4cedc8622561185c4ea806c58"
+    },
+    {
+      "path": "maps/previews/48041-24g.png",
+      "bytes": 62650,
+      "sha256": "9fe52eaa4f680d55ea7b88901c8367a876d3271f709088fdf092da3471f45998"
+    },
+    {
+      "path": "maps/previews/48041-26p.png",
+      "bytes": 56554,
+      "sha256": "99c3799bea9a780a1cac18bbcaebe22a6a68c376ce85cffe44a8fa08fbdaa1c4"
+    },
+    {
+      "path": "maps/previews/48061-24g.png",
+      "bytes": 63938,
+      "sha256": "9fc8d705c1b3811d9cfce342fe5e6f9bc85f6ab86954e36d50786577f8dab47b"
+    },
+    {
+      "path": "maps/previews/48061-26p.png",
+      "bytes": 65734,
+      "sha256": "26c57191f3fc17b4e6ebce435e09e91ae77ef6b90cb75941f4ba6670ac5f1c21"
+    },
+    {
+      "path": "maps/previews/48085-24g.png",
+      "bytes": 38038,
+      "sha256": "6d3d316c48fcd1242c3853f5c91624dcc58896384957a09331046a5b5f356396"
+    },
+    {
+      "path": "maps/previews/48085-26p.png",
+      "bytes": 38559,
+      "sha256": "80a6013d0eb5b483052b7334cf42887a0447a3af73c74e008f43c1f2b6552262"
+    },
+    {
+      "path": "maps/previews/48091-24g.png",
+      "bytes": 44221,
+      "sha256": "c17abb9c20c09b03b03841c4fc37beacf6a913ef50afc71d98c3907b3d7ce951"
+    },
+    {
+      "path": "maps/previews/48091-26p.png",
+      "bytes": 47319,
+      "sha256": "95060004ad2246b263e5ff3cecb370048a0e5d6fe282e58a3959b8aefe197550"
+    },
+    {
+      "path": "maps/previews/48113-24g.png",
+      "bytes": 57930,
+      "sha256": "fc9d1876b3199b108f67a365874bad876adae32ce7fa6e1aec4baf59b4e8937f"
+    },
+    {
+      "path": "maps/previews/48113-26p.png",
+      "bytes": 56814,
+      "sha256": "eddcd979a8519f93cf799b990848f44a1de7fd3fdcd4f8744db34daaf415d6bc"
+    },
+    {
+      "path": "maps/previews/48121-24g.png",
+      "bytes": 40453,
+      "sha256": "38e1abf2c9aa19f4638297c4d105d7518ca8ad90c626e286d9f56be57e987027"
+    },
+    {
+      "path": "maps/previews/48121-26p.png",
+      "bytes": 41288,
+      "sha256": "d14023daba3c74f3893132b8f635af4f12cf32eafdca792a208aceba5c96227d"
+    },
+    {
+      "path": "maps/previews/48139-24g.png",
+      "bytes": 49983,
+      "sha256": "c57bb849a3f7fca0b218a7f66d1bbdcae7c462462396d17e3276835b4e7a7ca3"
+    },
+    {
+      "path": "maps/previews/48139-26p.png",
+      "bytes": 50072,
+      "sha256": "3dd2ce2c1f42fdab74112003a1e2b010312baba5603d6907e404d285fe8a254b"
+    },
+    {
+      "path": "maps/previews/48141-24g.png",
+      "bytes": 33324,
+      "sha256": "aca69643bb39c2ed0ab2a679e10eebf822c6f4f40f0added0cb789f098dc62d2"
+    },
+    {
+      "path": "maps/previews/48141-26p.png",
+      "bytes": 34438,
+      "sha256": "a3378969198986b47641679ec1cf7aec6c5ae0cfa53f7fa0232c1975743605b5"
+    },
+    {
+      "path": "maps/previews/48157-24g.png",
+      "bytes": 41574,
+      "sha256": "574e9413c8b39a9d98c79477c95178356893e9003a37d8f91354ddae18738ab4"
+    },
+    {
+      "path": "maps/previews/48157-26p.png",
+      "bytes": 44345,
+      "sha256": "980a43f67d29c5f2f0df5296b054ba1a70d64b98f7b3a77e262bfe6ca1c61bdf"
+    },
+    {
+      "path": "maps/previews/48167-24g.png",
+      "bytes": 61239,
+      "sha256": "6d87ef1f1dd90652de246e7ecbfcaa85f2dfe9c7ecb0889c36a190b1ef0dc6d3"
+    },
+    {
+      "path": "maps/previews/48167-26p.png",
+      "bytes": 62078,
+      "sha256": "6dcafb45c5f69b9c2e51349d053123fdbc90f9796126508d028f97bca247bd9e"
+    },
+    {
+      "path": "maps/previews/48181-24g.png",
+      "bytes": 41667,
+      "sha256": "c9aaa419dc7c11f6c41e3f9946e880c4f664fee0a75f32f89f96850eaa6f6c08"
+    },
+    {
+      "path": "maps/previews/48181-26p.png",
+      "bytes": 42332,
+      "sha256": "69e4ed4bd8eb23019dfdd88b141b4d3b1f5ede4bf4923269a0f17580a7d23210"
+    },
+    {
+      "path": "maps/previews/48187-24g.png",
+      "bytes": 53872,
+      "sha256": "32f1fabab20435421ca87c5ee21e88b04694a89cd460eea2bf548a244b40566c"
+    },
+    {
+      "path": "maps/previews/48187-26p.png",
+      "bytes": 55529,
+      "sha256": "7559c93086884fd100ebd748f223df003e202072582d9ee533c18cce5c2a028e"
+    },
+    {
+      "path": "maps/previews/48201-24g.png",
+      "bytes": 64348,
+      "sha256": "55189703da9dd57683a690b7422cac177ed1ea30dc89010abf0dfe7933b88384"
+    },
+    {
+      "path": "maps/previews/48201-26p.png",
+      "bytes": 65158,
+      "sha256": "5c35b54e582da654ae9c14bb2e0d60b887a5a8ff5cf6b2b2d56b1cb546f7bf72"
+    },
+    {
+      "path": "maps/previews/48209-24g.png",
+      "bytes": 59472,
+      "sha256": "627dcf893b2742e34db0eb6a73590b4fcf435382b1abb309d939d32a07ff247c"
+    },
+    {
+      "path": "maps/previews/48209-26p.png",
+      "bytes": 61234,
+      "sha256": "2ca0d1d7f2c90a32400cf58925210bf2f428183630666bc1469529c4cd51e596"
+    },
+    {
+      "path": "maps/previews/48215-24g.png",
+      "bytes": 34463,
+      "sha256": "b59ce4c3133b53ec2884b41aa4524ff3daec886ca6d6b9a6804f699d75a28107"
+    },
+    {
+      "path": "maps/previews/48215-26p.png",
+      "bytes": 34864,
+      "sha256": "4980f3c5201a9666e65e8f5b8f015468f024833932838a227a380aa35467912f"
+    },
+    {
+      "path": "maps/previews/48245-24g.png",
+      "bytes": 57597,
+      "sha256": "77d7b344012a53b3af1a1dbe0819c2ca277dd3723e0bb5f0b8d8c455b76f1711"
+    },
+    {
+      "path": "maps/previews/48245-26p.png",
+      "bytes": 57840,
+      "sha256": "540b51905ca03b62c89ff5562f54153a2a9c85d0043db2ffc2ca64583ffc7dff"
+    },
+    {
+      "path": "maps/previews/48251-24g.png",
+      "bytes": 43868,
+      "sha256": "66d277b81dc459edb988233400cfbec37fb189fd970e23e92e1b9dd8e78eae83"
+    },
+    {
+      "path": "maps/previews/48251-26p.png",
+      "bytes": 47347,
+      "sha256": "bd83c30efaacd5e1b3d8645839bbff140c08ae49ed5133e95d45dcda56d1307d"
+    },
+    {
+      "path": "maps/previews/48257-24g.png",
+      "bytes": 42832,
+      "sha256": "0cef4970b31a106b9839cd60572dc38680ed8c2c7cd0e334f275571adeb5ead8"
+    },
+    {
+      "path": "maps/previews/48257-26p.png",
+      "bytes": 42819,
+      "sha256": "bb6d96a471c725cb7951f31b3b9d03894ca7c50de8b93ff8e271026e52f4198b"
+    },
+    {
+      "path": "maps/previews/48303-24g.png",
+      "bytes": 49634,
+      "sha256": "244413a8459f89b574ce52543e8acf418083103dc6d4d55eebb2dfeda669f66a"
+    },
+    {
+      "path": "maps/previews/48303-26p.png",
+      "bytes": 49547,
+      "sha256": "26b227a5a92bf48b7e4c3bc18ca245ff1b3d9e46ffa183355344be05c99d876a"
+    },
+    {
+      "path": "maps/previews/48309-24g.png",
+      "bytes": 62610,
+      "sha256": "6059e94c08e1ee55e75769f4defbc737985eb8e909782b7afdb5205716784521"
+    },
+    {
+      "path": "maps/previews/48309-26p.png",
+      "bytes": 64742,
+      "sha256": "ec190142756858ef7ffd310dd307b8431d844fa6bf902de2ecd78cfc97268037"
+    },
+    {
+      "path": "maps/previews/48329-24g.png",
+      "bytes": 39322,
+      "sha256": "12833b907a1b9bc2b4b7fd51bb440fdfefb653ad06be69150a1a30e71313b0b8"
+    },
+    {
+      "path": "maps/previews/48329-26p.png",
+      "bytes": 40014,
+      "sha256": "d9430141fa75e707267d8689e04f62dce13e5be8f607279e1b6ab9a6e2c12482"
+    },
+    {
+      "path": "maps/previews/48339-24g.png",
+      "bytes": 71649,
+      "sha256": "e3ef25398ba44622e4144110de94856b234b97d53554479745505230c995c43b"
+    },
+    {
+      "path": "maps/previews/48339-26p.png",
+      "bytes": 75360,
+      "sha256": "6328514f8f5055827d083e9fdb65f9b4b2493d67537e4702d135fe61d58bb902"
+    },
+    {
+      "path": "maps/previews/48355-24g.png",
+      "bytes": 61920,
+      "sha256": "e48dc80260935a6dfb84c24604a4ebd4558737560d90f354a5d1317b1beef3ae"
+    },
+    {
+      "path": "maps/previews/48355-26p.png",
+      "bytes": 63202,
+      "sha256": "84d83a3c6bb4bed3d7a4127089aadb0469f2544ceab9226a4e406c54af7e27b6"
+    },
+    {
+      "path": "maps/previews/48367-24g.png",
+      "bytes": 43429,
+      "sha256": "03c80e81d97acb7723131d89eeb24d62662cede7cb4f152bf6dc84d302ecfbc0"
+    },
+    {
+      "path": "maps/previews/48367-26p.png",
+      "bytes": 44608,
+      "sha256": "87e14d2e2de01f656ffce8fa81eb283365e275ca68fdf14f9c5145522fb6910b"
+    },
+    {
+      "path": "maps/previews/48381-24g.png",
+      "bytes": 31240,
+      "sha256": "89ba4ee4fe78e074797787d342e996d621217645dbada2b9448049b1c72a2f3a"
+    },
+    {
+      "path": "maps/previews/48381-26p.png",
+      "bytes": 31659,
+      "sha256": "3c9dba832de375be84475b49bca3f77e68d42439db73f403da16974865942efc"
+    },
+    {
+      "path": "maps/previews/48397-24g.png",
+      "bytes": 38122,
+      "sha256": "a2e059fd0711fe27e842a1cd85d3141cc3046e9db9c57150bc510950d388e24d"
+    },
+    {
+      "path": "maps/previews/48397-26p.png",
+      "bytes": 38484,
+      "sha256": "0583c122b70015cecd90eab2542b3141dd2daa6deb8a1a9c29b40bde1bd68942"
+    },
+    {
+      "path": "maps/previews/48423-24g.png",
+      "bytes": 57265,
+      "sha256": "1b4866c8ea883bf7ff9d790775073c03103f6eead8afd51cabc11988b5c033ea"
+    },
+    {
+      "path": "maps/previews/48423-26p.png",
+      "bytes": 56278,
+      "sha256": "aded47ae04eba319933a3c1fec3d3fd1e0dffb88c776a5966568901f343e6a4a"
+    },
+    {
+      "path": "maps/previews/48439-24g.png",
+      "bytes": 53060,
+      "sha256": "a230c6ea947b1df65451f043194c1fc0ac9d8bea2f3490601d2cdcd439f4516e"
+    },
+    {
+      "path": "maps/previews/48439-26p.png",
+      "bytes": 53304,
+      "sha256": "dfa79192977fc167fe393c63e94f3f6f0ae44097c82089a43581ca0cf29790fa"
+    },
+    {
+      "path": "maps/previews/48453-24g.png",
+      "bytes": 49901,
+      "sha256": "5ca99eba93d2c817905d2ff437ae2ef82fcbf32c5a745bba3c7deee353d21a5c"
+    },
+    {
+      "path": "maps/previews/48453-26p.png",
+      "bytes": 51361,
+      "sha256": "bac91f8cdaa66dd7193f1af92d4e3f8b18adebb82cc21ec528ed89c51d869684"
+    },
+    {
+      "path": "maps/previews/48479-24g.png",
+      "bytes": 43378,
+      "sha256": "6b661a175cc94efcb8f1b7fc64adbf36c0176fd5ef172652e56105851f051e43"
+    },
+    {
+      "path": "maps/previews/48479-26p.png",
+      "bytes": 43664,
+      "sha256": "1a5072867b0d556118808f34bdfd96359141bef6a6edacb7d9b3e9655d07da0f"
+    },
+    {
+      "path": "maps/previews/48491-24g.png",
+      "bytes": 41922,
+      "sha256": "ec9df47808607773c0498555cc5230a81f0f40984ff406dd4f89132801f56948"
+    },
+    {
+      "path": "maps/previews/48491-26p.png",
+      "bytes": 42001,
+      "sha256": "d765708227bc51bcf7f6465bec566a7b48ec8bbecaa6beebda2bb65538b16fd3"
+    },
+    {
+      "path": "maps/previews/extra-galveston-city-voting.png",
+      "bytes": 55071,
+      "sha256": "76ac4e52d9f3f9caa3685e388c211e6fa865e2a289183b44f4fa99050af97b23"
+    },
+    {
+      "path": "maps/previews/extra-harris-zip-https.png",
+      "bytes": 55876,
+      "sha256": "c3f5b15f1e970197d0cd47068697ab1bcaf411ee4ea948367eb2d5eb39a0ad6d"
+    },
+    {
+      "path": "maps/previews/gis-bell-2022.png",
+      "bytes": 50056,
+      "sha256": "13a9f29b6dcb8de89c97a2c08eecac46ace27b6a5a469da7b0174bf70c247e54"
+    },
+    {
+      "path": "maps/previews/gis-bexar-voter.png",
+      "bytes": 55960,
+      "sha256": "002428caf5ca2104ec48d75ddd63c31db1b27193aa2123a8d67b00ae4f0988d3"
+    },
+    {
+      "path": "maps/previews/gis-brazoria-2024.png",
+      "bytes": 55266,
+      "sha256": "5cc58de1221e2a4efdf29f00e586d550618a03163b078a7d6c9c17edfa862074"
+    },
+    {
+      "path": "maps/previews/gis-brazoria-2026.png",
+      "bytes": 56471,
+      "sha256": "37f71f6d71e7f70ea41134c4089115f42e629360c627b1dc74e7a6e7433a5c67"
+    },
+    {
+      "path": "maps/previews/gis-fort-bend-2022.png",
+      "bytes": 39551,
+      "sha256": "4ca4641cfb6440fc1013f92c9b87dd942c731a8986582d1f9d7d90a4fba6b4db"
+    },
+    {
+      "path": "maps/previews/gis-fort-bend-2025.png",
+      "bytes": 42177,
+      "sha256": "eb0c8edc81adfba0f846774527c83a9343f00fa505c9d27fe2697ab8308b6840"
+    },
+    {
+      "path": "maps/previews/gis-hays-2026.png",
+      "bytes": 55912,
+      "sha256": "71bc3a5b840bf2759688e33da3efcfd6f29358de5de5a7603b168e9441354dc8"
+    },
+    {
+      "path": "maps/previews/gis-johnson-2022.png",
+      "bytes": 39543,
+      "sha256": "f7a14de8fbc9b7837511860115eb53ffec3d420e505a968fd47e0e5bc0cfae2a"
+    },
+    {
+      "path": "maps/previews/gis-travis-precincts.png",
+      "bytes": 49781,
+      "sha256": "9ecd9a17a93ec91a67754f246f31b28cb8545b3944a083a8369a057bf8507a9d"
+    },
+    {
+      "path": "maps/previews/priority-contact-01.jpg",
+      "bytes": 346362,
+      "sha256": "ab97f70763911bf58993a7b4844c1db8f034b5410eeaf39d92f31bccd331700b"
+    },
+    {
+      "path": "maps/previews/priority-contact-02.jpg",
+      "bytes": 198027,
+      "sha256": "b59b99664f1ef7efd2f9d13ec33347cd48a87dab2ece52342d87d04f87e66353"
+    },
+    {
+      "path": "maps/read-only-references.json",
+      "bytes": 10499,
+      "sha256": "f6cc55fe89aeb9ce485faaac6de7f29be0e97e64f3b05f9434df83b5881ab295"
+    },
+    {
+      "path": "maps/reconstruct.py",
+      "bytes": 828,
+      "sha256": "c0ddd2d5bfbe691f55048d70bd9b7dba501616773f37ec33cfc082eaee08a70d"
+    },
+    {
+      "path": "maps/render_pdfs.py",
+      "bytes": 4319,
+      "sha256": "c6760a65bde22b4329d26dbac17ea77b793969906e7a57ffc524aa3c8f29e577"
+    },
+    {
+      "path": "maps/replay_acquisition.py",
+      "bytes": 998,
+      "sha256": "47c4bf2a4bedfdf0171be00cc522726e97c1f9b4e250a9a311a0b966461cd5e2"
+    },
+    {
+      "path": "maps/sources/arcitem-bell-d6d621015b3540c0a0a31f693d700f64-data.json",
+      "bytes": 1782,
+      "sha256": "9c3ff829c05d6640de08d298efd22270c80baa2022c1eea758724a5db1c45103"
+    },
+    {
+      "path": "maps/sources/arcitem-bell-d6d621015b3540c0a0a31f693d700f64.json",
+      "bytes": 1756,
+      "sha256": "2b8abfa02c65d77037e1510d6324d9d5dcc20cc491f7faea99781f678b5fb88f"
+    },
+    {
+      "path": "maps/sources/arcitem-fort-bend-22a9001aeef84acab31a4d15f37c2e2b-data.json",
+      "bytes": 1792,
+      "sha256": "d8e4513f4f7555c5113e5d42d46417c604bbce9b2baf4ac2d039df810cbe5a7e"
+    },
+    {
+      "path": "maps/sources/arcitem-fort-bend-22a9001aeef84acab31a4d15f37c2e2b.json",
+      "bytes": 1766,
+      "sha256": "ec6fd237bf3e57ff2d4515b82e2bfb5389d568d196ea8c8a8d724863cf37e878"
+    },
+    {
+      "path": "maps/sources/arcitem-fort-bend-47f2ac69730446098c0e1567efa84dac-data.json",
+      "bytes": 1793,
+      "sha256": "06eb0732a1647f229a00705415e85b46bee722505a19dd2f1d1b756685de847b"
+    },
+    {
+      "path": "maps/sources/arcitem-fort-bend-47f2ac69730446098c0e1567efa84dac.json",
+      "bytes": 1769,
+      "sha256": "3ad4d9c71a2dd3c22c950939840ddf3a62b52b38ad15c6dca87d2135666a9a6a"
+    },
+    {
+      "path": "maps/sources/arcitem-fort-bend-ca30668087cd407a83ad6da187567b3c-data.json",
+      "bytes": 1807,
+      "sha256": "c8a6cebd48ee99a7b73c45cc3f88c43e6533b227e58620e5f5866cbdb4e6439e"
+    },
+    {
+      "path": "maps/sources/arcitem-fort-bend-ca30668087cd407a83ad6da187567b3c.json",
+      "bytes": 1781,
+      "sha256": "8a42b08ab92afb75c7d0fb55f6012065731e78796ed41a9350ea8cc279ef013e"
+    },
+    {
+      "path": "maps/sources/arcitem-hays-9827d03c523f424e8d210a772b1003c0-data.json",
+      "bytes": 1778,
+      "sha256": "cb76a1939b8ef320f075c51d040d8cd412d22e05f644ed1490912f0ca959e746"
+    },
+    {
+      "path": "maps/sources/arcitem-hays-9827d03c523f424e8d210a772b1003c0.json",
+      "bytes": 1756,
+      "sha256": "55e1bc285a23a95468e36716b66164c9b96f9a76d57a4b17c6ff85b8def2dd4b"
+    },
+    {
+      "path": "maps/sources/arcitem-hays-eeeb1e20d0dc4a7fb8d2769af2f0ccb7-data.json",
+      "bytes": 1793,
+      "sha256": "189347a8f99f206ef3e09851199c1a2a498803c79e091a8993c59016d36a1d54"
+    },
+    {
+      "path": "maps/sources/arcitem-hays-eeeb1e20d0dc4a7fb8d2769af2f0ccb7.json",
+      "bytes": 1771,
+      "sha256": "3080601a55771d94390faa2d8061bef30106aabd5ce39f7fc8a9c66d6cfb87cb"
+    },
+    {
+      "path": "maps/sources/arcitem-johnson-d0329206d4cd4c2a9746c8cbe26f38e7-data.json",
+      "bytes": 1801,
+      "sha256": "4cdba6dfe535547d1b56b52092db365f95037de612a543617a9a1f334e768c27"
+    },
+    {
+      "path": "maps/sources/arcitem-johnson-d0329206d4cd4c2a9746c8cbe26f38e7.json",
+      "bytes": 1777,
+      "sha256": "037c5eb02cfa8ef11239eb6accff0e68571e70b2a814812ec3fbe824f2c6e778"
+    },
+    {
+      "path": "maps/sources/arcitem-johnson-fc6c7c88e1024b8493d64a554c38db16-data.json",
+      "bytes": 1786,
+      "sha256": "965f32dc1ca7f4e0d9f0479f561566f6b9663e2540ce98eaae5d02ed1e4f2249"
+    },
+    {
+      "path": "maps/sources/arcitem-johnson-fc6c7c88e1024b8493d64a554c38db16.json",
+      "bytes": 1762,
+      "sha256": "4fcd73cf68c45da2b72186b93abbd3a51227479bb9b959e6982c7e3505db7c66"
+    },
+    {
+      "path": "maps/sources/extra-bell-adopted-mapbook.json",
+      "bytes": 1844,
+      "sha256": "45e4219a847f4c96ef4df07498650a18dc1189d2f895826c2ac509b94e7156b3"
+    },
+    {
+      "path": "maps/sources/extra-cameron-alternate.json",
+      "bytes": 1664,
+      "sha256": "5016795d56251b1bbb15688b7f38ce9b57d8fa55512c633ca36abb534d2d04b7"
+    },
+    {
+      "path": "maps/sources/extra-dallas-alternate.json",
+      "bytes": 2467,
+      "sha256": "026282c2ae169ce0c0e7ed11d0b5942b8927d0dfe5dd9bca5cf798066bc17bad"
+    },
+    {
+      "path": "maps/sources/extra-denton-hub.json",
+      "bytes": 1485,
+      "sha256": "ed6d2cf3c46eeb37bb8bfaaec3ad020b359ca6a670ffb1fb8397df7ff614a902"
+    },
+    {
+      "path": "maps/sources/extra-galveston-alternate.json",
+      "bytes": 2283,
+      "sha256": "bc0e15dc451afa70c05ccfa887a079900c5095a60ea2af00075fefefe67c6c3b"
+    },
+    {
+      "path": "maps/sources/extra-galveston-city-gis.json",
+      "bytes": 1398,
+      "sha256": "8b540152ed350699d634ea59427f2961e74bad2349cf4d8e5031cacdd21bf3cf"
+    },
+    {
+      "path": "maps/sources/extra-galveston-city-voting.json",
+      "bytes": 1362,
+      "sha256": "cb70a80956a9bf510ba95c55ff2a8cc9c3ada50d59a09cffdb0ecd42cb3e631d"
+    },
+    {
+      "path": "maps/sources/extra-grayson-101.json",
+      "bytes": 1684,
+      "sha256": "878128d6259406ff577564a270049fbb8eb5aa1f3a156e8a7d5e203421e7f718"
+    },
+    {
+      "path": "maps/sources/extra-grayson-vtd-map.json",
+      "bytes": 1737,
+      "sha256": "e9d429c0cfa805436eca19b79f25a00ce6282bfa68d4bf80f199e936709e0f2c"
+    },
+    {
+      "path": "maps/sources/extra-harris-zip-https.json",
+      "bytes": 1864,
+      "sha256": "a5ccd7a51393e610db22545ad2699c6a1b0103b6cdf108804f1536c47f8973ae"
+    },
+    {
+      "path": "maps/sources/extra-hays-2026-map.json",
+      "bytes": 2658,
+      "sha256": "f1891030d041c7bdb561fd67fa25ab0aab5b49257c6037cd3f434b48e7957fe7"
+    },
+    {
+      "path": "maps/sources/extra-hays-map-page.json",
+      "bytes": 2431,
+      "sha256": "de545a2c4e8b88a7e402b04101ec54ccc44990f135d79727166606ed3befcb52"
+    },
+    {
+      "path": "maps/sources/extra-jefferson-alternate.json",
+      "bytes": 1330,
+      "sha256": "33395bc5cfe970b4801fee50b6c16bc20ba6faca95b8afdbcd93db409ee92c89"
+    },
+    {
+      "path": "maps/sources/extra-jefferson-map-page.json",
+      "bytes": 1906,
+      "sha256": "b65007629a7648ab88b3b741623f90962b534d7697f4a178c47af554707291c5"
+    },
+    {
+      "path": "maps/sources/extra-jefferson-order.json",
+      "bytes": 1413,
+      "sha256": "0ec2d5a85c1c2e3924eab63ea742947899b0625c74d19e3cfd194729208c00ea"
+    },
+    {
+      "path": "maps/sources/extra-nueces-map.json",
+      "bytes": 2394,
+      "sha256": "651a0acb6372ad21faae7387c58c7720819d989e5a486a7e485bc61e612d7d96"
+    },
+    {
+      "path": "maps/sources/extra-rockwall-voting-boxes.json",
+      "bytes": 3313,
+      "sha256": "9c1804a0254c319965e599c72e40e9d8fe5c21cbf9f9a2aa856241ebe4aa23ba"
+    },
+    {
+      "path": "maps/sources/extra-smith-100-portal.json",
+      "bytes": 5197,
+      "sha256": "10303313e9eeb7305104f826797103ef3fc74f15f1e8030527224debd0d91d0f"
+    },
+    {
+      "path": "maps/sources/extra-smith-viewer-js.json",
+      "bytes": 2039,
+      "sha256": "56146755cb27fda3d079428e7a2b6c86fdd9f728f3935ab4b920929a3316e481"
+    },
+    {
+      "path": "maps/sources/extra-travis-map.json",
+      "bytes": 2291,
+      "sha256": "d0294c95c849b000b2576e5bde642388a50382a10c67b4a04aa8f2802320dafe"
+    },
+    {
+      "path": "maps/sources/extra-travis-plan.json",
+      "bytes": 2267,
+      "sha256": "3aa348b3ebd0005d6a1777cb8d83f4b3343fdb189f72925aba31c8ae3cee7537"
+    },
+    {
+      "path": "maps/sources/follow-bell-1.json",
+      "bytes": 1909,
+      "sha256": "d2bb7485fa47b0ac48cb08ef099f0aa0b5cfeb64d78f12a9221b57aacfb0e7ac"
+    },
+    {
+      "path": "maps/sources/follow-brazos-1.json",
+      "bytes": 2252,
+      "sha256": "21a56b31e327cd19fc928901ef72b2d26c420e66e42dd2396bff4228c120088b"
+    },
+    {
+      "path": "maps/sources/follow-cameron-1.json",
+      "bytes": 1886,
+      "sha256": "d03254e2b470e4c01c749713285cf44566727e96a739c316222707f0bddff1b6"
+    },
+    {
+      "path": "maps/sources/follow-grayson-1.json",
+      "bytes": 1579,
+      "sha256": "05675fe6d25191464b0bf6cc963aac579b323949a4f4c464ea968fbaa1377406"
+    },
+    {
+      "path": "maps/sources/follow-hidalgo-1.json",
+      "bytes": 3778,
+      "sha256": "c43a275519fc5a20c195aaec6b4c1772883450070a30f4547f26718e5a9d8d3c"
+    },
+    {
+      "path": "maps/sources/follow-kaufman-1.json",
+      "bytes": 2005,
+      "sha256": "fe68bc08fdc1626d8229c8677bfbef5461f9cbd0f43e77502eb4e59f527d2571"
+    },
+    {
+      "path": "maps/sources/follow-lubbock-1.json",
+      "bytes": 2208,
+      "sha256": "3fb51c8b8868f1591cfa061b0388d4ba2d1494d3f9c5941adf639307f017e140"
+    },
+    {
+      "path": "maps/sources/follow-lubbock-2.json",
+      "bytes": 1869,
+      "sha256": "38f8f04b54fc907f8a8d743afff57c6187ef4bdd914d958e245f3e838aee967b"
+    },
+    {
+      "path": "maps/sources/follow-nueces-1.json",
+      "bytes": 2110,
+      "sha256": "b1e805813ce21bfc323dde63ebb75170d87f6865c98990c624a169a21a06ed04"
+    },
+    {
+      "path": "maps/sources/follow-tarrant-1.json",
+      "bytes": 1667,
+      "sha256": "b8530542e5b2d8558c5e0169ef81657e0c436a976369b1da352f42cb62b4bcc3"
+    },
+    {
+      "path": "maps/sources/gis-bell-2022-batch-001.json",
+      "bytes": 3485,
+      "sha256": "0b2b0df8ed60055502003c3974be03d4bfb00ec25dc83caf81e50feacd7817c4"
+    },
+    {
+      "path": "maps/sources/gis-bell-2022-item.json",
+      "bytes": 1701,
+      "sha256": "a6cacf26cbc4c1b4680609441f1bc3c7c3b80543bb34fbb7bd77717302b31eb3"
+    },
+    {
+      "path": "maps/sources/gis-bell-2022-layer.json",
+      "bytes": 2268,
+      "sha256": "ea8c057919c504986b20a71e65c8edc2b1b26954bc9e3162f4abaccb02cce832"
+    },
+    {
+      "path": "maps/sources/gis-bell-2022-post-count.json",
+      "bytes": 2458,
+      "sha256": "bba477468e5f1004d12e71d6d57466b9c338fff6266c3d022673630a885ddfa9"
+    },
+    {
+      "path": "maps/sources/gis-bell-2022-post-ids.json",
+      "bytes": 2421,
+      "sha256": "80998f952d3c7112e62e35e1945d84940eb351b92ccd319d1bd28763368ba4f7"
+    },
+    {
+      "path": "maps/sources/gis-bell-2022-pre-count.json",
+      "bytes": 2377,
+      "sha256": "49ce0f9e7f0cc590c092f2c321d5a9589d3f7838afb8c80518d99c7d6b287556"
+    },
+    {
+      "path": "maps/sources/gis-bell-2022-pre-ids.json",
+      "bytes": 2371,
+      "sha256": "0d9bf508bd1494e0da10bbe72e00c4a7cd38fb591359ba091cf3dbb985f2e2ff"
+    },
+    {
+      "path": "maps/sources/gis-bell-2022-service.json",
+      "bytes": 2270,
+      "sha256": "d7ba7b5379faa2d27513a195a72f5b0b25bfae3319c52998599a032a6618770b"
+    },
+    {
+      "path": "maps/sources/gis-bexar-voter-batch-001.json",
+      "bytes": 2864,
+      "sha256": "322ba1082ba8af3bd768d83790fa562c9a587a47daedcfb4209404b28b2a1703"
+    },
+    {
+      "path": "maps/sources/gis-bexar-voter-batch-002.json",
+      "bytes": 3079,
+      "sha256": "f84d91640e03cacaa7601c6b17e328117abf5fd947fe22980fbefdc8329032c7"
+    },
+    {
+      "path": "maps/sources/gis-bexar-voter-batch-003.json",
+      "bytes": 3079,
+      "sha256": "324970b1466e51c4a29c11e1bbc8c19c7298fd614c4ed63d584d3061cb0982ce"
+    },
+    {
+      "path": "maps/sources/gis-bexar-voter-batch-004.json",
+      "bytes": 3079,
+      "sha256": "55eb9431a6fb27dabb5fc173bb346f558170e963007e25349911ffb07b239c7e"
+    },
+    {
+      "path": "maps/sources/gis-bexar-voter-batch-005.json",
+      "bytes": 3079,
+      "sha256": "de6a1b8d58b8256fc31ac0daa5f84f04f45c2a61cd48af544892b5dc221a68d2"
+    },
+    {
+      "path": "maps/sources/gis-bexar-voter-batch-006.json",
+      "bytes": 3079,
+      "sha256": "5585aa6f4efd8da7e4550294bd69a3a2c848a7b7da17f7952132622a64e53b97"
+    },
+    {
+      "path": "maps/sources/gis-bexar-voter-batch-007.json",
+      "bytes": 3079,
+      "sha256": "5b80d4e910bf79e89fec67bad45183f2547888bb239eba46dea8bc085679968f"
+    },
+    {
+      "path": "maps/sources/gis-bexar-voter-batch-008.json",
+      "bytes": 3079,
+      "sha256": "1745bc3607dac8b9685bd49f012561ea49e40e5bf0e964dd410393675cc5e238"
+    },
+    {
+      "path": "maps/sources/gis-bexar-voter-batch-009.json",
+      "bytes": 1949,
+      "sha256": "1e5d36baa4c9a7d20c44677b41d7839ae398f9eae7bebf0b581966d1d76aa3a7"
+    },
+    {
+      "path": "maps/sources/gis-bexar-voter-layer.json",
+      "bytes": 1641,
+      "sha256": "7103b6c662639afdbe81dc74a7d3749427f3e2c6b8cccbde8ea933ee8a921e66"
+    },
+    {
+      "path": "maps/sources/gis-bexar-voter-post-count.json",
+      "bytes": 1727,
+      "sha256": "e90587319c22ff6d1ac715037b17c49e217518022c2519fb3eacdb42a1e0128c"
+    },
+    {
+      "path": "maps/sources/gis-bexar-voter-post-ids.json",
+      "bytes": 1725,
+      "sha256": "2606f67c01f370c756adf815442c6fd9c8aa23bb16017945d63abc933bd490f3"
+    },
+    {
+      "path": "maps/sources/gis-bexar-voter-pre-count.json",
+      "bytes": 1781,
+      "sha256": "b8cae837a28d150d220217c2fb2a5a72ff1ff6632d4d59461bbea523ec9f41a0"
+    },
+    {
+      "path": "maps/sources/gis-bexar-voter-pre-ids.json",
+      "bytes": 1777,
+      "sha256": "2940e5a87dee03e6d2d73d7b751d429d7b1c3d2dd5c9fc338e3515d67eca32a3"
+    },
+    {
+      "path": "maps/sources/gis-bexar-voter-service.json",
+      "bytes": 1641,
+      "sha256": "733c805138254e765c0c0fc3ec1f063dd61ecdb7de994ac7e775e0970a9e1849"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2024-batch-001.json",
+      "bytes": 2713,
+      "sha256": "91e495d7b826f4a9ae1cca8804c54acb1b2844af0b98b04993ec7b8591198001"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2024-item.json",
+      "bytes": 1722,
+      "sha256": "af80bd48c2dcdc3d42535784fb16f5734692d8c3b975ca3691849ecaf52a12cc"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2024-layer.json",
+      "bytes": 1699,
+      "sha256": "6a0ca35ddaa73ff03cb70918c97ef9de50c64402109ab88a79696ff5b1107678"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2024-post-count.json",
+      "bytes": 1779,
+      "sha256": "626b583504b6e86db347b2c8fa995528d6f07bc16b8c241c541367357225b43e"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2024-post-ids.json",
+      "bytes": 1774,
+      "sha256": "19952de06680902dd39c428c7bfedf70525ddb8680c37fbd58d0907096107aeb"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2024-pre-count.json",
+      "bytes": 1835,
+      "sha256": "88feecce05b3683963ad1e53c6df3f745bafb554de5d9c912498b0974d9e95f1"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2024-pre-ids.json",
+      "bytes": 1828,
+      "sha256": "ae8db850c3ec6a0fdf28c2115d90c729ee6d364fab7340453dfdb7e78a2d5cbe"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2024-service.json",
+      "bytes": 1691,
+      "sha256": "42ed8c3e8a452a58bb7f34ff92426768e5c7aebc9cfca672d94941ff947e6303"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2026-batch-001.json",
+      "bytes": 2755,
+      "sha256": "671b89e3022458a2f81ffb816bdc0c240afc394bc0a696477d95c3ab157f71b4"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2026-item.json",
+      "bytes": 1773,
+      "sha256": "23a629b6258efa8f9ecbce678e3871ebfaaa4cb8c65722275d768a0fd61c7a50"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2026-layer.json",
+      "bytes": 1701,
+      "sha256": "bd548f11b2a02b63937fcfb6ab55b9934a4d6b09546212707492247a64ca6d80"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2026-post-count.json",
+      "bytes": 1781,
+      "sha256": "80e2d1cdf132a629a60b66b42bb4230d9483c704fc3a95b7773740850eee5f6a"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2026-post-ids.json",
+      "bytes": 1776,
+      "sha256": "95d4de95b54f6f28098b84a299c1c1e8a797c8b295646e7552d6e2074f5daa23"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2026-pre-count.json",
+      "bytes": 1837,
+      "sha256": "eb259cca329c70a6e00aee5553441409717e24285db75422d4aa6bfdf0c18188"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2026-pre-ids.json",
+      "bytes": 1830,
+      "sha256": "b4d64d00f78d39e9495d173f8b5c4b5f638f2affc435073c36cf6556302babc0"
+    },
+    {
+      "path": "maps/sources/gis-brazoria-2026-service.json",
+      "bytes": 1745,
+      "sha256": "30cd91bf7cee4bde467406a81ffdefc0facf356cee45fab3edce4fefdf814925"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2022-batch-001.json",
+      "bytes": 3108,
+      "sha256": "71a3778b823de4cdadaed11e37121e52b0d72b3b872d7f5390c983169ae3c3d2"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2022-batch-002.json",
+      "bytes": 2808,
+      "sha256": "7be3fc965f400064458aa75d0cc52d8e7a5e93cb6abc70e4fcfde36a251dac74"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2022-item.json",
+      "bytes": 1744,
+      "sha256": "178429607f6f07ebc1300775cad6a8860deea9c7bc337bf7598e05f5c4711cfd"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2022-layer.json",
+      "bytes": 1670,
+      "sha256": "176a82db87ee55f71b50b4f0accff2c178ca20fac1499994769a95c23d64f183"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2022-post-count.json",
+      "bytes": 1756,
+      "sha256": "5bb32a7e66e5ad7df5c9bbbdce1b64706a5414fb2762aee829bb6050addad2e0"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2022-post-ids.json",
+      "bytes": 1751,
+      "sha256": "a0212d99a8ad44013014557a005fed37f54ef722189fe7c47dae222dac0b9d3c"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2022-pre-count.json",
+      "bytes": 1813,
+      "sha256": "e32dbac1f9c6fb949d401d32b294683728a08328f75f9c34ebcbd4ed77ea28ab"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2022-pre-ids.json",
+      "bytes": 1806,
+      "sha256": "7c5e0311ed867a4049d0bd005ded6fa5fa26c2cc6b31fac368f7fb0cea8065ea"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2022-service.json",
+      "bytes": 1670,
+      "sha256": "d1021d7d94c924827e8ddf17e88bc57b1cf3522585861298974af93f8e4ed632"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2025-batch-001.json",
+      "bytes": 3308,
+      "sha256": "603607be1cbdc80e7de24cffa4321ae6b6daa3e8c4d5c282f9acdec9f0906a75"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2025-batch-002.json",
+      "bytes": 3307,
+      "sha256": "610cec63aa0bd504b096f1a9f793e6c7b8a80d0ad883d6b69cf1dcdc829f9a12"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2025-batch-003.json",
+      "bytes": 1920,
+      "sha256": "d5a328b3c300c255d1b3c439f97b2d0d648b25ca6a39637df7cbd021086d3010"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2025-item.json",
+      "bytes": 1796,
+      "sha256": "84a134b5171c88b5fc33a97b1b242c0d33640376b81ba3c008ebdf9344043608"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2025-layer.json",
+      "bytes": 1670,
+      "sha256": "4f364030191edbcaeb3615770628c730db3ae67be68c98bd71b0b37342b2bd28"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2025-post-count.json",
+      "bytes": 1756,
+      "sha256": "f7cbbe050b65598330c1c1936ada1bdfe409ad0546eb24c3863ab59a1d3feaa5"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2025-post-ids.json",
+      "bytes": 1754,
+      "sha256": "c30d0cd89c03cb040edd2cf82142ef97b1243e8ef94fa97cae17cb2d2288df66"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2025-pre-count.json",
+      "bytes": 1813,
+      "sha256": "cf2f2221d29d5846d688b53916995cac280af1cde747ff5b417f52dafb41047e"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2025-pre-ids.json",
+      "bytes": 1809,
+      "sha256": "3087e3159d4874956b202b7e67fd351c1575a7ae14a50ea9d30a88251988bb2b"
+    },
+    {
+      "path": "maps/sources/gis-fort-bend-2025-service.json",
+      "bytes": 1725,
+      "sha256": "b4e7aa568dc193d0f380af90d72cd5c6e48a22f650a5b8944dc0cd629f3a26d9"
+    },
+    {
+      "path": "maps/sources/gis-hays-2026-batch-001.json",
+      "bytes": 3682,
+      "sha256": "3869996aff4913927afb4e2b560d255ab41c2b4e16afd78df5bb59501772be11"
+    },
+    {
+      "path": "maps/sources/gis-hays-2026-item.json",
+      "bytes": 1701,
+      "sha256": "8897773a9d7f5b86dea40bdc907b6df3b42ebf6e7f34e2bced87d7b0a28a0024"
+    },
+    {
+      "path": "maps/sources/gis-hays-2026-layer.json",
+      "bytes": 2305,
+      "sha256": "3bb5778a3cd187464ababaffe329ba414a1c24bf5ac0eea6cd69a9e59549f219"
+    },
+    {
+      "path": "maps/sources/gis-hays-2026-post-count.json",
+      "bytes": 2494,
+      "sha256": "4b23813373de0b6f3a2990145eb28d17e7549cc68b69878120de25834eae0362"
+    },
+    {
+      "path": "maps/sources/gis-hays-2026-post-ids.json",
+      "bytes": 2605,
+      "sha256": "ab2317906abee60c92b73ddbe9da157e709189300ed4d53b253d9bad8cf95eb5"
+    },
+    {
+      "path": "maps/sources/gis-hays-2026-pre-count.json",
+      "bytes": 2413,
+      "sha256": "8f9f2882f809178ace246446c9d7d1b4def9687527ce201d30eab19c54a9cf6a"
+    },
+    {
+      "path": "maps/sources/gis-hays-2026-pre-ids.json",
+      "bytes": 2526,
+      "sha256": "697d975564e7b8dbd2d0bf4e3b0b792913d62260f8c322a15f722ab05a6ad7e7"
+    },
+    {
+      "path": "maps/sources/gis-hays-2026-service.json",
+      "bytes": 2304,
+      "sha256": "e6aec65ea7fea60551ac5165ce68f616da2c2aaa88e0811d664edd31cac68777"
+    },
+    {
+      "path": "maps/sources/gis-johnson-2022-batch-001.json",
+      "bytes": 3391,
+      "sha256": "247514bf347d2a496478bffb18ee2069b0e96f19a87b594d1a23c841ffcc3759"
+    },
+    {
+      "path": "maps/sources/gis-johnson-2022-item.json",
+      "bytes": 1730,
+      "sha256": "4c54fd5ca005e6d43c013c894f2271bc025374a0d9d9040b586580941ff4e1d2"
+    },
+    {
+      "path": "maps/sources/gis-johnson-2022-layer.json",
+      "bytes": 2274,
+      "sha256": "f9f04193b0246cbedd4eff7034423e0e28075480ce1414d9a7bccf07abda0c97"
+    },
+    {
+      "path": "maps/sources/gis-johnson-2022-post-count.json",
+      "bytes": 2475,
+      "sha256": "a51ad264d9e5ebaa39eeb528c02109b04a8809bc75ad35e8f1380ebce623149c"
+    },
+    {
+      "path": "maps/sources/gis-johnson-2022-post-ids.json",
+      "bytes": 2456,
+      "sha256": "36757efd5b32b2463b93bee2d95c65301543e4b9a9b0f66c425e733d3a218b2a"
+    },
+    {
+      "path": "maps/sources/gis-johnson-2022-pre-count.json",
+      "bytes": 2391,
+      "sha256": "f478a05d231e6a547c394420cd28693801ece926843b5f2e94a771040b5025ea"
+    },
+    {
+      "path": "maps/sources/gis-johnson-2022-pre-ids.json",
+      "bytes": 2374,
+      "sha256": "2b70969c8847a82e4a3f1f992f100d01675465eac3c12a1bdfb40feb91f0737b"
+    },
+    {
+      "path": "maps/sources/gis-johnson-2022-service.json",
+      "bytes": 2273,
+      "sha256": "1da7fe9b7f9df789d5796e00af72ee1c33c6adfbf486af83db7629eafb978bfb"
+    },
+    {
+      "path": "maps/sources/gis-travis-precincts-batch-001.json",
+      "bytes": 3237,
+      "sha256": "b85dc0cc877ef16c6f4a1aac17012d89ec2eced84a808a5d8e52bd746ab01d39"
+    },
+    {
+      "path": "maps/sources/gis-travis-precincts-batch-002.json",
+      "bytes": 3358,
+      "sha256": "275c61e3e763436c0c6c97ded9a170b42e565e1cef21a73325cdded06439159a"
+    },
+    {
+      "path": "maps/sources/gis-travis-precincts-batch-003.json",
+      "bytes": 3437,
+      "sha256": "ecce5b8d9069298da6584a24d1b40af7bf80177fd5d581243dea5b288292c813"
+    },
+    {
+      "path": "maps/sources/gis-travis-precincts-batch-004.json",
+      "bytes": 2149,
+      "sha256": "dc392f81d1bf8ca7e7180b47f211d69d25e824f1ade670051e32f81c0bcb803c"
+    },
+    {
+      "path": "maps/sources/gis-travis-precincts-item.json",
+      "bytes": 1747,
+      "sha256": "f36f87f3bf24190154ca12c93f3fcfcf2fffe691e87eaaf3535d1dd08445d144"
+    },
+    {
+      "path": "maps/sources/gis-travis-precincts-layer.json",
+      "bytes": 1799,
+      "sha256": "ffe4f3e15352fcfb4f8764f7bfbd13c8a3530cc7257153f87d2b192c0bb01381"
+    },
+    {
+      "path": "maps/sources/gis-travis-precincts-post-count.json",
+      "bytes": 1885,
+      "sha256": "d9b86a48474188705baac7a453cc9c88a49bf332eb5d29a53a73bdcfce6465b5"
+    },
+    {
+      "path": "maps/sources/gis-travis-precincts-post-ids.json",
+      "bytes": 1883,
+      "sha256": "c0d5419caea8811993be3f6dd6da2dce3c532854023d685bfb2694d109829052"
+    },
+    {
+      "path": "maps/sources/gis-travis-precincts-pre-count.json",
+      "bytes": 1944,
+      "sha256": "a20ae680872b6a9e15efc2b92582b2c3d304c546873a97dfc1c9686404bca01e"
+    },
+    {
+      "path": "maps/sources/gis-travis-precincts-pre-ids.json",
+      "bytes": 1940,
+      "sha256": "77ae55779e0feb4d0a352a389aed25795397a61dcb7e3023b9c70231da0b51d8"
+    },
+    {
+      "path": "maps/sources/gis-travis-precincts-service.json",
+      "bytes": 1799,
+      "sha256": "59c1afefd25cc28baa3c6122a91a6384866c904ea92904c24d3a6c60722d0077"
+    },
+    {
+      "path": "maps/sources/local-collin-1.json",
+      "bytes": 6434,
+      "sha256": "a5a3e9e65722c5a3bc24ed81471845b7b9a2b53fe62943c263675b665452c8b1"
+    },
+    {
+      "path": "maps/sources/local-comal-1.json",
+      "bytes": 3852,
+      "sha256": "6d909dab1e67018ca69b2842289af65ad3675721a8f2fd13d5cb4a57ebf118f9"
+    },
+    {
+      "path": "maps/sources/local-comal-2.json",
+      "bytes": 3849,
+      "sha256": "bcc405145ebf9bb55bbf8d5b94dfa65162a28cd4b3d46ad5e6318fd796ba2c83"
+    },
+    {
+      "path": "maps/sources/local-comal-3.json",
+      "bytes": 3852,
+      "sha256": "3a8ac55ad7947b904d96b1331b5e50625398705a9ffe2b17dc8d1fcee2c21f03"
+    },
+    {
+      "path": "maps/sources/local-comal-4.json",
+      "bytes": 3852,
+      "sha256": "d95da006489ef67a1f4e51b3a56e61b8dddf274405c0fa26ef073376993cc6bd"
+    },
+    {
+      "path": "maps/sources/local-comal-5.json",
+      "bytes": 3852,
+      "sha256": "f7b2306dcc3d831e96a82468f8486e05da5552b6510f7e555e8e3d361fc79afb"
+    },
+    {
+      "path": "maps/sources/local-comal-6.json",
+      "bytes": 3846,
+      "sha256": "ec007665fefca27393a868847057f701b60ff6485e1764c8ed9d9573f03cd84e"
+    },
+    {
+      "path": "maps/sources/local-comal-7.json",
+      "bytes": 3851,
+      "sha256": "c5860551cdf6aa4ec7cf8a6e57747e96fd4e1917d7abcb850bb69c420cf3d97c"
+    },
+    {
+      "path": "maps/sources/local-comal-8.json",
+      "bytes": 3781,
+      "sha256": "6df20ac69909856802f0d08c43219d65e1aa2fa396b54a0cf7650794e2550515"
+    },
+    {
+      "path": "maps/sources/local-el-paso-1.json",
+      "bytes": 1804,
+      "sha256": "dbdedc562ca0f03e02db70832e8480d3c88c9eebcbc5ba0521edbe5bd5d68d4a"
+    },
+    {
+      "path": "maps/sources/local-el-paso-2.json",
+      "bytes": 1791,
+      "sha256": "2a82305d6e52e78112082aeef6936093beece3155053f9d0ef45d78772c3a721"
+    },
+    {
+      "path": "maps/sources/local-guadalupe-1.json",
+      "bytes": 1809,
+      "sha256": "e862878ecd90ce735def6baed0a5835239c178d8bf176013697479303224c4c7"
+    },
+    {
+      "path": "maps/sources/local-guadalupe-2.json",
+      "bytes": 1643,
+      "sha256": "007cbc53550e30b1e0f900df7725137bdf1d1fb78a5a39abfb61ee499c9ad521"
+    },
+    {
+      "path": "maps/sources/local-harris-1.json",
+      "bytes": 2461,
+      "sha256": "e8e496e75f13f71f51f44c64f020f52ae350c0dd8a95a7f60f2752a7cdac80e3"
+    },
+    {
+      "path": "maps/sources/local-johnson-1.json",
+      "bytes": 2363,
+      "sha256": "42b57e4e7afecd764f7d194e8e34547e685bc519ec0dd65fe8f2213ecfa9564d"
+    },
+    {
+      "path": "maps/sources/local-midland-1.json",
+      "bytes": 2169,
+      "sha256": "bb90bb69673e8d0959c307288f3a3a69bd2ccd70129f51a459f930f125c35c72"
+    },
+    {
+      "path": "maps/sources/local-montgomery-1.json",
+      "bytes": 1391,
+      "sha256": "5bdc622230eb2902b8d2fee902f954cda66ba9c7659063ef42f006ffac421344"
+    },
+    {
+      "path": "maps/sources/local-montgomery-2.json",
+      "bytes": 1790,
+      "sha256": "b348334f79335ca086f82aaf792b7e5e1cc985eb03bba5329aff6c5e10649e31"
+    },
+    {
+      "path": "maps/sources/local-parker-1.json",
+      "bytes": 3286,
+      "sha256": "db12d46a23500f9bab8580977f8da76c8af4fe86e024a5ad77af2fe72d368cc0"
+    },
+    {
+      "path": "maps/sources/local-randall-1.json",
+      "bytes": 2209,
+      "sha256": "c99a43a278baf7995685b68298505b0942fab1332a2a3a61f3d0d85558d23b31"
+    },
+    {
+      "path": "maps/sources/local-tarrant-1.json",
+      "bytes": 1679,
+      "sha256": "7e8a739c4a9d9bb1af18fc7499b9c05009e39b42effc175e30d12abc74b9998a"
+    },
+    {
+      "path": "maps/sources/local-webb-1.json",
+      "bytes": 2608,
+      "sha256": "7f7293bdd99565982fc8da1964ab8984a0385e0f48b6225746359461a76a1cc7"
+    },
+    {
+      "path": "maps/sources/local-webb-2.json",
+      "bytes": 2602,
+      "sha256": "42986609121321f6c9936bd526eb380d2224f8687c56a6ef3f2f51f7e8e13628"
+    },
+    {
+      "path": "maps/sources/local-webb-3.json",
+      "bytes": 2978,
+      "sha256": "e0c310400027e75ce79ec1e0cd8bd8ca50edc5f6cac62e85ef73314a2177889b"
+    },
+    {
+      "path": "maps/sources/local-williamson-1.json",
+      "bytes": 3750,
+      "sha256": "b6dc47c40e3d26aaa4860149a346cf4f2fe6804e944bfb665618f16b818588da"
+    },
+    {
+      "path": "maps/sources/route-bell-1.json",
+      "bytes": 1801,
+      "sha256": "cc0426491eba619b0773a436d0e2a3aa5af3132c13712b7eda5112a15551bfb0"
+    },
+    {
+      "path": "maps/sources/route-bexar-1.json",
+      "bytes": 1922,
+      "sha256": "b02aa51d456f1c3f59f86bbc8cde9e5b346b54419ba4b3a1c3807d1b4ce0a1f4"
+    },
+    {
+      "path": "maps/sources/route-bexar-2.json",
+      "bytes": 1357,
+      "sha256": "1771a8ddbfc9efa9b61db5e61f0c7b396b8fbf472168d02adcf64e45ba426a72"
+    },
+    {
+      "path": "maps/sources/route-brazoria-1.json",
+      "bytes": 2697,
+      "sha256": "488f015e92a9bf216150cd054d53d1a58d83efcabf89070250e3ccd2e1152dce"
+    },
+    {
+      "path": "maps/sources/route-brazos-1.json",
+      "bytes": 2754,
+      "sha256": "5a80169a1850289b192223108f9fed0f9da9ddfe306f2bbe0ef06be58612b971"
+    },
+    {
+      "path": "maps/sources/route-cameron-1.json",
+      "bytes": 1548,
+      "sha256": "77266d997af541cd2d3342978e3889a7c3c81da0aee7d7030299568e48f3d0d4"
+    },
+    {
+      "path": "maps/sources/route-collin-1.json",
+      "bytes": 3776,
+      "sha256": "2b43f0cbdbcc121ee0803d38e7c6fdf71463bdaa739db6cb37a367e4d316b491"
+    },
+    {
+      "path": "maps/sources/route-comal-1.json",
+      "bytes": 2325,
+      "sha256": "171a462ed0a5e00351cfb2695c2cf53d57514526419c13d5985e3a789f6de340"
+    },
+    {
+      "path": "maps/sources/route-dallas-1.json",
+      "bytes": 1304,
+      "sha256": "aa24d18bf4cf78d29abd9f64459e58c1cbff93bbb349c3b377708c02d6449fb5"
+    },
+    {
+      "path": "maps/sources/route-denton-1.json",
+      "bytes": 2497,
+      "sha256": "8df60e91dfc48ac0911fb215b8afbc28b1c72eacfffb6a5cc94d4e669774d91d"
+    },
+    {
+      "path": "maps/sources/route-denton-2.json",
+      "bytes": 1290,
+      "sha256": "2bdc57e33326084358e85b239e7b14957895697628c02aa7d8a13ff591caf394"
+    },
+    {
+      "path": "maps/sources/route-el-paso-1.json",
+      "bytes": 2146,
+      "sha256": "bf965450c8e81dd01ca025c317150a30da8bcf177254900aea69ec735fd464ca"
+    },
+    {
+      "path": "maps/sources/route-ellis-1.json",
+      "bytes": 1907,
+      "sha256": "8019f391351e7c1f56a0949f08f2dedf860204eb61b2bb9f2185fbcba36e31ee"
+    },
+    {
+      "path": "maps/sources/route-fort-bend-1.json",
+      "bytes": 2185,
+      "sha256": "77f9adcdf59854964b3af25ac8742e743bc2b18681e80530c6f1a6ba82d8324b"
+    },
+    {
+      "path": "maps/sources/route-fort-bend-2.json",
+      "bytes": 2235,
+      "sha256": "5f427a44bd7faa5ff4eb510c14a0d20e49412051b7cd94e37cd378af74cc4226"
+    },
+    {
+      "path": "maps/sources/route-galveston-1.json",
+      "bytes": 1304,
+      "sha256": "0a75e2743b6420bde69586ca0c8075bb124c61c6e23ab19b46b620ce7374fe2b"
+    },
+    {
+      "path": "maps/sources/route-grayson-1.json",
+      "bytes": 1508,
+      "sha256": "fb1deae3bd91a2842194e44d740637d9b736767bdbaed63cc0d963cf31ce6ebb"
+    },
+    {
+      "path": "maps/sources/route-guadalupe-1.json",
+      "bytes": 1540,
+      "sha256": "112c1d21b31d526cb052f26a6d2b4ac5d44a0f599ac0c6378c4a754bb0357e78"
+    },
+    {
+      "path": "maps/sources/route-guadalupe-2.json",
+      "bytes": 1519,
+      "sha256": "ff6b1fc40bbbe1e29e8613f9a0f1bf63053174f884644badf2d95736a58dd294"
+    },
+    {
+      "path": "maps/sources/route-harris-1.json",
+      "bytes": 1597,
+      "sha256": "8b94cb1c5113f0e0e28a5c31338b12327f944e59e4167434cd9df6b3c302f196"
+    },
+    {
+      "path": "maps/sources/route-hays-1.json",
+      "bytes": 3475,
+      "sha256": "becd50086a8360bb8e33ab4eb0bbe6cf80def67ff2a82c9013d9db823739754c"
+    },
+    {
+      "path": "maps/sources/route-hidalgo-1.json",
+      "bytes": 2296,
+      "sha256": "b08b002e65ecf9c6d27491d5be8693664a9fc7ac234e3f9d4dcece1e34a25bd9"
+    },
+    {
+      "path": "maps/sources/route-jefferson-1.json",
+      "bytes": 1312,
+      "sha256": "fb2b73b8382244b423d8fc1d460aff99817254ec72d0a60093b2535f2d88429a"
+    },
+    {
+      "path": "maps/sources/route-johnson-1.json",
+      "bytes": 1930,
+      "sha256": "6be74d903ef443134571839d012e133d3c4eefe2da05bff3b77fbd5c7a7a36cb"
+    },
+    {
+      "path": "maps/sources/route-kaufman-1.json",
+      "bytes": 1909,
+      "sha256": "234dfc2e73700b6642f31caf3878f77e29a6313070054ae5073b41a97495f1c0"
+    },
+    {
+      "path": "maps/sources/route-lubbock-1.json",
+      "bytes": 1294,
+      "sha256": "79b20e64d864933c5eb3ed368c1ef854b7562e0ebf32e769a5e8244082bb1404"
+    },
+    {
+      "path": "maps/sources/route-mclennan-1.json",
+      "bytes": 2317,
+      "sha256": "bc2f6c46548a4732eaec15d101004dde9efef50da2d24e77b6b45b83805670eb"
+    },
+    {
+      "path": "maps/sources/route-mclennan-2.json",
+      "bytes": 2339,
+      "sha256": "f3205dc8d4ca5db1a831bddabdaf2994da78d36f6142b63ba856c66bb8ec0c90"
+    },
+    {
+      "path": "maps/sources/route-midland-1.json",
+      "bytes": 1908,
+      "sha256": "d4b1ef4bda9702508af794e0bf9eccd2b11ba774d8509ebb5ba1c051a0939195"
+    },
+    {
+      "path": "maps/sources/route-montgomery-1.json",
+      "bytes": 1246,
+      "sha256": "7148315d5e724f908dad80b08586802fc83d986e6fa7edeb31128f15cc29edc5"
+    },
+    {
+      "path": "maps/sources/route-nueces-1.json",
+      "bytes": 4428,
+      "sha256": "531de4993f209a84f208a522e8c268b5666531705aba578b676572197ed4ab37"
+    },
+    {
+      "path": "maps/sources/route-parker-1.json",
+      "bytes": 1898,
+      "sha256": "129e061978987c97a8a2bdbf6ab99babd1fba216160bbf3e31cbbad4f56456ba"
+    },
+    {
+      "path": "maps/sources/route-randall-1.json",
+      "bytes": 1940,
+      "sha256": "382ba22e74629deeb1dd0a9f8a9463289da8ff555a0aaaea1d9a196fe977d595"
+    },
+    {
+      "path": "maps/sources/route-rockwall-1.json",
+      "bytes": 1928,
+      "sha256": "85366bea6fc6674716a45fa4869dea963ef6a6f95e86bb9b5be82057841dcf3d"
+    },
+    {
+      "path": "maps/sources/route-rockwall-2.json",
+      "bytes": 1300,
+      "sha256": "1dab012eeb12497ee1b869b5f356439251e2f06a486eedbae4bfa2d280f1315d"
+    },
+    {
+      "path": "maps/sources/route-smith-1.json",
+      "bytes": 2320,
+      "sha256": "4738414b321713dacd973fa7c48735c88097c93fcf3e85c95f6a69fc65b5442b"
+    },
+    {
+      "path": "maps/sources/route-tarrant-1.json",
+      "bytes": 1551,
+      "sha256": "e2dbe05cef08cab3c5e7a96f2e028376ec9dbe87d3172ce1ec3d72168117db3d"
+    },
+    {
+      "path": "maps/sources/route-travis-1.json",
+      "bytes": 2224,
+      "sha256": "c5ddc14761aa05e2dd1f2d9ba659946d46d1b1f07469dc2cf1393390d480d441"
+    },
+    {
+      "path": "maps/sources/route-travis-2.json",
+      "bytes": 2280,
+      "sha256": "a448c55ec3f4b1c3cd2a71168afe8933903d92608c55ce571d51bd6ba4125e88"
+    },
+    {
+      "path": "maps/sources/route-webb-1.json",
+      "bytes": 2315,
+      "sha256": "b4dff6632244b6b669a9680a30789abf651ac7937ed94557ac1aea957e1f863f"
+    },
+    {
+      "path": "maps/sources/route-webb-2.json",
+      "bytes": 2303,
+      "sha256": "fd5218a1c4e6bc69540fb99b60fab0fc9b2d3cc4bc9bb14a174ef800d1544762"
+    },
+    {
+      "path": "maps/sources/route-williamson-1.json",
+      "bytes": 2310,
+      "sha256": "810ac057ff73de68da1dee6efad549b2212439f365bbce3c1b82a5b2c109f672"
+    },
+    {
+      "path": "maps/sources/smith-100-original.json",
+      "bytes": 3571,
+      "sha256": "d9316256af5dd5273369a91e5014d06130b107ab0a951c77661fbc5a0c586155"
+    },
+    {
+      "path": "maps/sources/tlc-20g.json",
+      "bytes": 2248,
+      "sha256": "d99666d4990420372c72b1ed297d0455ae95d8178118a9a0aa4a1babd4696f12"
+    },
+    {
+      "path": "maps/sources/tlc-22g.json",
+      "bytes": 2237,
+      "sha256": "c161585e59effa41405e9ee418fcd8d40e627658e3f017b4210f48a80eab6efd"
+    },
+    {
+      "path": "maps/sources/tlc-24g.json",
+      "bytes": 2237,
+      "sha256": "3b06f7e473e739f6b48abfe01c92eb6f7eae0c784c9e930b6603ad25841baf24"
+    },
+    {
+      "path": "maps/sources/tlc-26p.json",
+      "bytes": 2238,
+      "sha256": "3997448364e5fdb3a13d48d301ea2c44147d62fe657570d924bc4f6db28e59cb"
+    },
+    {
+      "path": "maps/sources/tlc-precinct-catalog.json",
+      "bytes": 1616,
+      "sha256": "abee0b8a982027d0f9bafc712ddb7cbd318a80578c67e1c9e0180ba37a4a3fc8"
+    },
+    {
+      "path": "maps/sources/tlc-vtd-catalog.json",
+      "bytes": 1596,
+      "sha256": "24e4282c18baafe32ef112de1116ce10f7f2089595ebabf1cb6080f033b6d66a"
+    },
+    {
+      "path": "maps/validate.py",
+      "bytes": 16943,
+      "sha256": "f7fcc08ed0d053a0c0283c028d36843189fd3e49ca5910afa81d636bd627c506"
+    },
+    {
+      "path": "maps/validation.json",
+      "bytes": 6033,
+      "sha256": "dd50c85264e85916b6ab63bc959b7e6e829837c6ef22887ee5b499cb4ad45658"
+    },
+    {
+      "path": "maps/visual-review.json",
+      "bytes": 2514,
+      "sha256": "6ce3268dedc451b2e3c97f4922af62b30beb1eb611fd3ae94b50a671f30846ac"
+    },
+    {
+      "path": "precinct-maps.md",
+      "bytes": 16834,
+      "sha256": "fd7cac28217c7491e94aa98ba551acefb64d579a0508a13eb95bc528063825e4"
+    }
+  ]
+}

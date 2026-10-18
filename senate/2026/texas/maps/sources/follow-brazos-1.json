@@ -1,0 +1,39 @@
+{
+  "id": "follow-brazos-1",
+  "requested_url": "https://www.brazoscountytx.gov/DocumentCenter/View/5003/voter-precincts-map-10232024-optimized",
+  "parent_source_url": "Search-discovered official county publication; see county discovery routes",
+  "retrieved_utc": "2026-10-18T03:33:58.826753+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 403,
+  "final_url": "https://www.brazoscountytx.gov/DocumentCenter/View/5003/voter-precincts-map-10232024-optimized",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:33:59 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "1675",
+    "Connection": "keep-alive",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}",
+    "Cache-Control": "no-cache, no-store, must-revalidate",
+    "Expires": "0",
+    "Pragma": "no-cache",
+    "ki-edge": "v=28.5.1;mv=99.9.9",
+    "set-cookie": "__cf_bm=TgEBYrnQkQri8X2Sr8zKQZHCb9SoWqSgkE1EY5vJEI0-1792294439.044244-1.0.1.1-XDzM01rr_rcgjcA.OXxOYoWhtjuZyRQ5p6LfwTWI1wkfXMYh8b2.RI4VqHjIVQJQZaGWstXEyEFN1UmDWV3Fhaqwi_ncMcNn4v9ClpP2Wjz3tNB9FSVndC4YS39WBChE; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.brazoscountytx.gov; Expires=Sun, 18 Oct 2026 04:03:59 GMT",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=NADFvjmAs88afPqY0rV8nm4IuHldk6wU2m%2Bc8qhY%2BW9MpwG9%2B1H5nehrs2pTev5K7H46bNcUIOY%2ByZHTq9abBroBl5%2B0yMku%2B%2Fijo1Y0jiRozyUQrbceuyXrKn%2BI9PfYr5aXntrkxic%3D\"}]}",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47c140e64e815-ORD",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "redirects": [],
+  "original_bytes": 1675,
+  "original_sha256": "52c4194a56ea51581c1f9fa66de45fc0222d3234985b1066458193c1c6d3f949",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/follow-brazos-1.body",
+      "bytes": 1675,
+      "sha256": "52c4194a56ea51581c1f9fa66de45fc0222d3234985b1066458193c1c6d3f949"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Brazos"
+}

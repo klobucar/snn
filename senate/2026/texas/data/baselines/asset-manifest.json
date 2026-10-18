@@ -1,0 +1,487 @@
+{
+  "asset_limit_strict_less_than_bytes": 40000000,
+  "assets": [
+    {
+      "path": "county-partisanship.md",
+      "bytes": 20155,
+      "sha256": "e2f9bbb88238cb26c2d2d52c3540a880201cb810a653691a5ee3a83aeb345dee",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/SCHEMA.md",
+      "bytes": 16215,
+      "sha256": "2287568b0be5e7674bdb9c11c348269931af166174e1ee48a7476d9ba0983d78",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/build.py",
+      "bytes": 13963,
+      "sha256": "16a75dda3c716c6bb3fab5431f8c4791025a7f8cee0a8d44035d848a59a2225b",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/county-ballot-registration-controls.csv",
+      "bytes": 3455,
+      "sha256": "202fc5feeee7f1422578119e514b528c3267457c490475bb95d199281424c714",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/county-candidates.csv",
+      "bytes": 1529852,
+      "sha256": "9fffc27522a656eb91577bee0978acaac8edc0ee5840de75a7e1cd9f21e4abee",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/county-target-scenarios.csv",
+      "bytes": 2866801,
+      "sha256": "0869d1de44a7b4fdba5bbde4df661179013fb66af8fd3d9f18fe63070638ec27",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/county_controls.py",
+      "bytes": 3153,
+      "sha256": "b9fdae9a28267e981d3cc6fb58f3957a882fb905c551bdcb9bb5492284bde4ed",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/fetch.py",
+      "bytes": 1033,
+      "sha256": "4af8423ee3907f1f3d9de23612adb4e428ec7b98a0e23ce4b0f8c21ab243359b",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/harris-primary-senate-controls.json",
+      "bytes": 1220,
+      "sha256": "71b90a76ff2a5d13601fe7281c8027621877c7a7c28f255bfde65b4b460992de",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/harris-primary-senate-unit-controls.csv.gz",
+      "bytes": 108138,
+      "sha256": "2bcce63ff37673bd3ab38daae5f1d7a09326a86268bd44b892af207d4d2f82ed",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/live-examples.json",
+      "bytes": 17334,
+      "sha256": "44c497f04cd8f796bedfbeb68169f4e304d1f8d70867b6fb9195a53451199fa0",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/live_remainder.py",
+      "bytes": 4417,
+      "sha256": "397e151a2d065bd9549629c72d92d1bd8c05c02e28dfbb63b3bb5d0323e58dcd",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/native-cells-2020.jsonl.gz",
+      "bytes": 1510803,
+      "sha256": "c62470e897885bb6e0f678ce593881785645d620bb1537b96ba7123141b3a25f",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/native-cells-2022.jsonl.gz",
+      "bytes": 538700,
+      "sha256": "6d0a1ac917c27ed94f8bd9955240ec6ed87db99a2b5d6125c901f2e439e82c59",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/native-cells-2024.jsonl.gz",
+      "bytes": 2261319,
+      "sha256": "befc07138ea7a4645600e26a131d4adb52de17893abe4ab13c5c0bb5b8699014",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/native-coverage.json",
+      "bytes": 8910,
+      "sha256": "90aed8e745537e8fc6176f584abe9216b738635f5f9d64b5b94d27ccf72200ef",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/native-peer-reconciliation.json",
+      "bytes": 1001,
+      "sha256": "cf2cd3ef2a25ee76e1a738b877efd93fdec0de4cd6a8ef6389abf693a8341d2e",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/native-source-anomalies.json",
+      "bytes": 909,
+      "sha256": "d83940228924ec9c0f6af352d47c3778dcf71d502e38902be93998cb443c2bf9",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/native-source-diagnostics.json",
+      "bytes": 1558051,
+      "sha256": "cda0951f99b2caa59be20d0b85e884859945d8291ac72da8f748bf3b868bae45",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/native-units.csv.gz",
+      "bytes": 623337,
+      "sha256": "5e729e6d4f5d7aa3130db34fdd983bd69ab94dc745d211f869bfa84627be3beb",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/native_evidence.py",
+      "bytes": 11491,
+      "sha256": "b543952a1a9c3520224f8b166721927826fb6ed87cb0774168002152c5d32fd0",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/original-angelina-2024.txt.gz",
+      "bytes": 41688,
+      "sha256": "f18e183a36b3136c9b178aed326172e1c8ca52af52e32818b9b798aa2813546b",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/original-bexar-2024.txt.gz",
+      "bytes": 1546939,
+      "sha256": "44ee55b618b700216f2170355a85b09694fdc608822cda64e5b951c5a870d27b",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/original-harris-2024.txt.gz",
+      "bytes": 3821447,
+      "sha256": "4ddd3675ded3a50c18aeb4d47966552be4220dda3c14a56a0e35036f007f6f00",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/original-midland-2024.txt.gz",
+      "bytes": 21366,
+      "sha256": "2c7e3052b5bf56c52303861d471ae6dab4cbce765525ba37d2db6f36441d7128",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/peer-reconciliation.json",
+      "bytes": 3073,
+      "sha256": "8c24796015d711f81a2bab7c69d93d90c226c9a534d54c18e120673866e2f510",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/primary-extraction.json",
+      "bytes": 351448,
+      "sha256": "15f79330a17ae7a178033b68fbb27ecb067abf12d7f598ae661f56c785726d89",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/primary-pdf-unit-identities.csv",
+      "bytes": 1297539,
+      "sha256": "19957884a9ded94fbfad0e27ab4f0118216e6f805cc6574fd40ab34bb57a3899",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/primary-unit-audit.json",
+      "bytes": 4745,
+      "sha256": "b4efa258d2067a421043ed56231dc5784f701b6f0c4ceea026e57374dedcf0bd",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/primary-vendor-candidate-conflicts.csv",
+      "bytes": 2768,
+      "sha256": "b38b22c4c3daca006a53991a7f4a12de80fc5f8b45b7548d1da67aa00393787b",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/primary-vendor-inspection.json",
+      "bytes": 23593,
+      "sha256": "852b21eb35ef29880e056900461e500757e5e205990d07ac5bec33c4af1a35cb",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/primary-vendor-registration-controls.csv",
+      "bytes": 1477,
+      "sha256": "1e7428be755f7d47da041996c6000a496d0268f38c30e9e5825c24cc930a6eaf",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/primary-vendor-selected-unit-rows.csv.gz",
+      "bytes": 154974,
+      "sha256": "a077d59275b9d91e3fc7adc5bf3ddba3dda33b2c4d421fa7f13ee213e572a7c8",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/primary-vendor-table-identities.csv.gz",
+      "bytes": 1796708,
+      "sha256": "6b1de20c0c41eff8fec8acf71a4339296d69b7b6f3be5f2f2d315d6f9368a378",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/primary-vendor-xml-rows.jsonl.gz",
+      "bytes": 2796764,
+      "sha256": "3b5364efa17475bde2c674af85a1b52441da1040965545d24a01d528e416e8d8",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/primary_audit.py",
+      "bytes": 6127,
+      "sha256": "17d4e2d25b185cc368289a3e5036435ddd6d5122f042c80f7c1993ce5a21d5cf",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/priority-set.json",
+      "bytes": 4862,
+      "sha256": "fe59d1b8c68529bf7b36801b1ac97f54f5c54c2a93397d5269690d49d19c6d6c",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/provenance.py",
+      "bytes": 5928,
+      "sha256": "eacea7bfdd1a5aa9d82ca29955bd714ef5f3cccf6ff821fdef6d1b62bdb4b2a6",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/cdx-reports.body.gz",
+      "bytes": 2813,
+      "sha256": "2e276f0ae9e71a736f2c327cb3a9ea727b3125771204e570c71be0022d2984e1",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/cdx-reports.meta.json",
+      "bytes": 1593,
+      "sha256": "43739325cb1d54c36c50a1919887364228ed6d935d1d31829158a4e443a085fb",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/journal-2022-governor.body.gz",
+      "bytes": 2638,
+      "sha256": "301233efc4c30ba70473dfbee6da1363fa34020cb6b34f3b015529138a69fd02",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/journal-2022-governor.meta.json",
+      "bytes": 996,
+      "sha256": "fa4c9d908f99936045cd04325c7ebb7f417b8765404fed242c4ae8616af7b9bf",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/primary-county-preview-036.png",
+      "bytes": 114527,
+      "sha256": "0ababca99ed826a020b5c521500e0d225c80c2c5ff74b77ac43022de1599ab3e",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2020-county-20201216.body.gz",
+      "bytes": 1274319,
+      "sha256": "b0b0ab5f3bb8489bfaaa5d0c2def1fff9241e50711b8bbc80203a6d53bf06f54",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2020-county-20201216.meta.json",
+      "bytes": 3950,
+      "sha256": "583d0ba383f27e5b1b06f1ffa104d102a08672eeb3122891117094bbbf2d0942",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2020-county-20201216.pdf",
+      "bytes": 1679508,
+      "sha256": "b43d89ff952aa68ff11b49211b6655ba8c588df0d7c1d788912bd2b9f0117900",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2020-county-20241003.body.gz",
+      "bytes": 1274319,
+      "sha256": "b0b0ab5f3bb8489bfaaa5d0c2def1fff9241e50711b8bbc80203a6d53bf06f54",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2020-county-20241003.meta.json",
+      "bytes": 3807,
+      "sha256": "a9ddd90d7d173751ca8b881df771cb92cc302d643b20521e4b5777bed0f27fc0",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2020-county-20241003.pdf",
+      "bytes": 1679508,
+      "sha256": "b43d89ff952aa68ff11b49211b6655ba8c588df0d7c1d788912bd2b9f0117900",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2020-state-20210510.body.gz",
+      "bytes": 119880,
+      "sha256": "2cc4ed6d03c2d67959873785762731a6aa4ed761e2f37daf277d7db58805a55c",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2020-state-20210510.meta.json",
+      "bytes": 3918,
+      "sha256": "807382697c7b093adc39ee860cef66a878b5f463e452701c78fdaf594ea93ae7",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2020-state-20210510.pdf",
+      "bytes": 156688,
+      "sha256": "7559306c92cc58189c2111a446c940f0dee8826f7544e5dacdc9090066312924",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2020-state-20241211.body.gz",
+      "bytes": 119880,
+      "sha256": "2cc4ed6d03c2d67959873785762731a6aa4ed761e2f37daf277d7db58805a55c",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2020-state-20241211.meta.json",
+      "bytes": 3775,
+      "sha256": "5c0745ac62c68abddde9f7d805fde1e714223feedae45634d7b2c0b5e81aeb7c",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2020-state-20241211.pdf",
+      "bytes": 156688,
+      "sha256": "7559306c92cc58189c2111a446c940f0dee8826f7544e5dacdc9090066312924",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2022-county-20241003.body.gz",
+      "bytes": 1000384,
+      "sha256": "266c6306dd66a663ceef81eaa8c7ef47e65058ea98b69e89b7a0905d46de03ce",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2022-county-20241003.meta.json",
+      "bytes": 3730,
+      "sha256": "6f25546d77c2fce1d7d3345fef3c9837216fbde733649e132b6891a1471fde7f",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2022-county-20241003.pdf",
+      "bytes": 1262586,
+      "sha256": "214d9f06234da99bf70452b53329c27ae7d4b4c335f98ecd4d03704fe9ff2aae",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2022-state-20230627.body.gz",
+      "bytes": 119495,
+      "sha256": "75c796f932f745bab860f7e8140bc5cca0d7f8b768225526d1c431ac46759498",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2022-state-20230627.meta.json",
+      "bytes": 3394,
+      "sha256": "2661b7bc412e3c2aad4ad08b52883293e94c7a1eb55a9eeba6a6da3b21bd9548",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/raw/sos2022-state-20230627.pdf",
+      "bytes": 157060,
+      "sha256": "535155f65a003acd765902a0727557215c6a92527aebb01ee4d536b6f5238f52",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/reconcile_peer.py",
+      "bytes": 5905,
+      "sha256": "467b23e8fcd941f46c3ae9506deeb5e60877870d0b21ecdc3db5bcb14ebed8d9",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/registration-participation-controls.csv",
+      "bytes": 724,
+      "sha256": "0f7972eb9a08d5da21f79950bfaafe7b703c985ef91950e1ce6efd9c1e8a08f2",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/render_report.py",
+      "bytes": 20619,
+      "sha256": "58033f64dbbdd68f572e1c315add3008d588138650ff13a321e4779204551aee",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/sos2020-county-20201216.txt",
+      "bytes": 822718,
+      "sha256": "fef0a537b6123ae4d66c49f6bf1aa0cade4e7ae6e74e6ab093ca2d0a40edba69",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/sos2020-county-20241003.txt",
+      "bytes": 822718,
+      "sha256": "fef0a537b6123ae4d66c49f6bf1aa0cade4e7ae6e74e6ab093ca2d0a40edba69",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/sos2020-state-20210510.txt",
+      "bytes": 226342,
+      "sha256": "94c1b9a6bfabaf741d7fb27292be74a6687a86d7429673e1b94f88c206570846",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/sos2020-state-20241211.txt",
+      "bytes": 226342,
+      "sha256": "94c1b9a6bfabaf741d7fb27292be74a6687a86d7429673e1b94f88c206570846",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/sos2022-county-20241003.txt",
+      "bytes": 610592,
+      "sha256": "174ca5572ae9228ea0231587dd6c0aed702c6a86aaac4c21b447e3d1199af3a2",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/sos2022-state-20230627.txt",
+      "bytes": 232069,
+      "sha256": "7aaeeaf0818bf56362f7697d5c847aaaba0517c41a6074548d3a76c0cda5048e",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/source-ledger.json",
+      "bytes": 541234,
+      "sha256": "654cd3ce2091122636ba8cf808a5e3a0c682e46adea576b0fbce49ccac1eea44",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/state-candidate-controls.csv",
+      "bytes": 3728,
+      "sha256": "59316d3779acf3359dd2541f8010288be6b64322fbeeb31999c16d9f700ec89b",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/state-target-scenarios.csv",
+      "bytes": 6723,
+      "sha256": "c461a3ea6c69ea327aed7b22dce31d3efcbc5d15d6586f2d7a15765d7fb14b83",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/targets.py",
+      "bytes": 2214,
+      "sha256": "c8745d5cf7d9225fb586d0db4022c6552e0a5b4d48903446c7884dffe5002895",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/tlc-county-disagreements.csv",
+      "bytes": 509643,
+      "sha256": "c5439d1b28ef35239f691c5ce6c3d4ec450a4e12bb4d58de2bed30b814d33a7b",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/tlc-vtd-cells.csv.gz",
+      "bytes": 1199784,
+      "sha256": "5067478e5b553398afe90279cd11dcf00e676c70258ce2985bbe4014c4e402da",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/validate.py",
+      "bytes": 15241,
+      "sha256": "f35377aefdb3cff073861057c006c061abc68bad92a56e589c86a0b121704748",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/validation.json",
+      "bytes": 2180,
+      "sha256": "f188e04dbab77e2b96886e9a06907f13c71cf9f0101af9a090b02dffbbbee65c",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/baselines/vintage-comparison.json",
+      "bytes": 1036,
+      "sha256": "baeb404dc98f6c93a4cfddf63185320999c5f5a99578797e0e05cc802fbe018b",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    },
+    {
+      "path": "data/county-baselines.csv",
+      "bytes": 473501,
+      "sha256": "dd2aff196f5e04ba4da0c743a423e12bead91aac3d7a00dd8ebb1ec6380a75d6",
+      "ownership": "Texas partisanship worker exclusive writable scope"
+    }
+  ],
+  "manifest_self_excluded": "self hash would be circular; all other owned deliverables including validation.json are hashed",
+  "source_dependencies": "source-ledger.json uses hash-addressed read-only originals"
+}

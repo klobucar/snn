@@ -1,0 +1,34 @@
+{
+  "id": "route-bexar-2",
+  "requested_url": "https://home.bexar.org/electionsResources/votermaps.html",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:33:12.390183+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://home.bexar.org/electionsResources/votermaps.html",
+  "headers": {
+    "Content-Type": "text/html",
+    "Last-Modified": "Fri, 19 Dec 2025 14:33:56 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"adc29181f470dc1:0\"",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Powered-By": "ASP.NET",
+    "Strict-Transport-Security": "max-age={31536000}; includeSubDomains; preload",
+    "Date": "Sun, 18 Oct 2026 03:33:12 GMT",
+    "Content-Length": "3766"
+  },
+  "redirects": [],
+  "original_bytes": 3766,
+  "original_sha256": "3925579575f1b96e9e1545375e29d2e1cf3579a92fee0360b83a3cb04b2c2db1",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/route-bexar-2.body",
+      "bytes": 3766,
+      "sha256": "3925579575f1b96e9e1545375e29d2e1cf3579a92fee0360b83a3cb04b2c2db1"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Bexar"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "extra-jefferson-alternate",
+  "requested_url": "https://jeffersoncountytx.gov/",
+  "parent_source_url": "https://www.jeffersonelections.com/",
+  "retrieved_utc": "2026-10-18T03:35:11.088096+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://jeffersoncountytx.gov/",
+  "headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Powered-By": "PHP/8.3.33, ASP.NET",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Date": "Sun, 18 Oct 2026 03:35:10 GMT",
+    "Content-Length": "61382"
+  },
+  "redirects": [],
+  "original_bytes": 61382,
+  "original_sha256": "bd05ee9a217ff589346530e2cb1eb2f4c4543f5f4949368652c0ddd83d146874",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/extra-jefferson-alternate.body",
+      "bytes": 61382,
+      "sha256": "bd05ee9a217ff589346530e2cb1eb2f4c4543f5f4949368652c0ddd83d146874"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Jefferson",
+  "advertised_title": "Official county alternate after vote site HTTP202 challenge"
+}

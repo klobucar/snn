@@ -1,0 +1,46 @@
+{
+  "id": "gis-johnson-2022-pre-ids",
+  "requested_url": "https://services7.arcgis.com/gVohhGAlfFScDJGs/arcgis/rest/services/Voting_Districts_2022/FeatureServer/0/query?f=json&where=1%3D1&returnIdsOnly=true",
+  "parent_source_url": "https://www.johnsoncountytx.org/departments/elections-office/precinct-maps",
+  "retrieved_utc": "2026-10-18T03:37:44.017208+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://services7.arcgis.com/gVohhGAlfFScDJGs/arcgis/rest/services/Voting_Districts_2022/FeatureServer/0/query?f=json&where=1%3D1&returnIdsOnly=true",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:37:44 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30, s-maxage=30",
+    "Last-Modified": "Wed, 04 Feb 2026 21:18:30 GMT",
+    "ETag": "sd7760_-84636414",
+    "Vary": "X-Esri-Authorization",
+    "x-arcgis-upstream": "us1h07c00-services",
+    "Strict-Transport-Security": "max-age=63072000",
+    "X-ArcGIS-Trace-Id": "20261018T033744Z-r1cf8987fd57c6zhhC1CHI37rc0000000r1g000000001xf7",
+    "x-esri-cache-hint-features": "true",
+    "Request-Context": "appId=cid-v1:df0fefdc-3099-4f25-a42c-d213d1e16940",
+    "Access-Control-Expose-Headers": "Request-Context",
+    "X-ArcGIS-Correlation-Id": "5582c96cfd7d4136",
+    "X-ArcGIS-Instance": "us1h07c00_MTSDS_Web_2",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Esri-Authorization",
+    "Access-Control-Allow-Credentials": "true",
+    "x-azure-ref": "20261018T033744Z-r1cf8987fd57c6zhhC1CHI37rc0000000r1g000000001xf7",
+    "x-fd-int-roxy-purgeid": "0",
+    "X-Cache": "TCP_MISS"
+  },
+  "redirects": [],
+  "original_bytes": 246,
+  "original_sha256": "a134bd8468030bac658bd55da755324727dfd2a4fe2dbf428e47ebbd518a87d6",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/gis-johnson-2022-pre-ids.body",
+      "bytes": 246,
+      "sha256": "a134bd8468030bac658bd55da755324727dfd2a4fe2dbf428e47ebbd518a87d6"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "follow-bell-1",
+  "requested_url": "https://www.bellcountytx.com/departments/elections/precinct_maps.php",
+  "parent_source_url": "Search-discovered official county publication; see county discovery routes",
+  "retrieved_utc": "2026-10-18T03:33:57.742502+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.bellcountytx.com/departments/elections/precinct_maps.php",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:34:00 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Content-Length": "68514",
+    "Connection": "keep-alive",
+    "x-revize-base": "https://www.bellcountytx.com/",
+    "Content-Security-Policy": "frame-ancestors 'self'",
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-XSS-Protection": "1; mode=block",
+    "Permissions-Policy": "accelerometer=(),autoplay=(),camera=(),display-capture=(),document-domain=(),encrypted-media=(),fullscreen=(),geolocation=(),gyroscope=(),magnetometer=(),microphone=(),midi=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),sync-xhr=(self),usb=(),web-share=(),xr-spatial-tracking=()"
+  },
+  "redirects": [],
+  "original_bytes": 68514,
+  "original_sha256": "8af8cbe5aa0444c3326ccfc346baf5f2bad3e390530e7d8cd445f766cd60a259",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/follow-bell-1.body",
+      "bytes": 68514,
+      "sha256": "8af8cbe5aa0444c3326ccfc346baf5f2bad3e390530e7d8cd445f766cd60a259"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Bell"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "extra-hays-2026-map",
+  "requested_url": "https://www.hayscountytx.gov/DocumentCenter/View/1666/2026-Election-Precincts-High-Resolution-PDF",
+  "parent_source_url": "https://www.hayscountytx.gov/256/Precinct-Data-Maps",
+  "retrieved_utc": "2026-10-18T03:36:04.633825+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.hayscountytx.gov/DocumentCenter/View/1666/2026-Election-Precincts-High-Resolution-PDF",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:36:05 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "4099137",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "content-disposition": "inline;filename=2026%20Election%20Precincts%20High%20Resolution%20PDF%20%28PDF%29.pdf",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "camera=(), microphone=()",
+    "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Accept-Ranges": "bytes",
+    "last-modified": "Sun, 18 Oct 2026 03:36:05 GMT",
+    "expires": "Sun, 18 Oct 2026 03:36:35 GMT",
+    "cf-cache-status": "MISS",
+    "set-cookie": "__cf_bm=mik0JvS8rqkT4lNyorRIE1u7TPLkbZybEz1wLgeKYgw-1792294564.80897-1.0.1.1-ZObvXGVBAMnQd_TWGInVU69Z.juXvtOG3a3OTWa.m2Z4gzV.SJGoe3.8OJv7fzCM4V95N._vQhsiLtAdIS79ZiTcq2Z7i8Y2mehwIFk8D3OQKrqoyXdVbkUtNzwgtFFM; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.hayscountytx.gov; Expires=Sun, 18 Oct 2026 04:06:05 GMT",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47f260a5021b1-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 4099137,
+  "original_sha256": "5cae71b22071d2f39a52ba5a2c6a03068cceeebec945904a35f6323c582de93d",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/extra-hays-2026-map.pdf",
+      "bytes": 4099137,
+      "sha256": "5cae71b22071d2f39a52ba5a2c6a03068cceeebec945904a35f6323c582de93d"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Hays",
+  "advertised_title": "2026 Election Precincts High Resolution PDF"
+}

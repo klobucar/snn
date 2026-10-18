@@ -1,0 +1,226 @@
+{
+  "dispatch_key": "TX:48491",
+  "county_fips": "48491",
+  "county": "Williamson",
+  "rank": 10,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48491",
+    "county_fips": "48491",
+    "county": "Williamson",
+    "rank": 10,
+    "priority": true,
+    "directory_label": "WILLIAMSON COUNTY",
+    "authority_role": "Elections Administrator",
+    "authority_name": "Bridgette Escobedo",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "https://www.wilco.org/Departments/Elections",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48491",
+      "metadata_path": "raw/county-48491.json",
+      "request_url": "https://www.wilco.org/Departments/Elections",
+      "final_url": "https://www.wilcotx.gov/elections",
+      "status": 403,
+      "original_sha256": "c4accce4841991e438ca03a1d95b191182cbfe55df632176c1af1c51280c094a",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "sos-county-links"
+    },
+    {
+      "source_id": "wilco-office",
+      "metadata_path": "raw/wilco-office.json",
+      "request_url": "https://www.wilcotx.gov/185/Elections",
+      "final_url": "https://www.wilcotx.gov/185/Elections",
+      "status": 403,
+      "original_sha256": "46ee42eec430be8b045984e0fc9c9420285c3e8fdabea0f95d234b383bea9bc5",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48491"
+    },
+    {
+      "source_id": "discovery-48491",
+      "metadata_path": "raw/discovery-48491.json",
+      "request_url": "https://www.wilcotx.gov/292/Results-Archive",
+      "final_url": "https://www.wilcotx.gov/292/Results-Archive",
+      "status": 403,
+      "original_sha256": "d8e9e6d4774537f44c5b184b724f2e86a2647640ad3db1c1316ca3b828dac274",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": null
+    }
+  ],
+  "assessment": "SOS directory route, official current office URL and result archive all blocked by HTTP 403. Official search identifies current November page and results archive, but rendered search discovery does not establish a working feed.",
+  "gaps": "Manual browser access needed for actual November county/vendor/download schema and current units; state county object separately inspected.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 246,
+    "CN": "WILLIAMSON",
+    "MID": 48246,
+    "county_fips": "48491",
+    "dispatch_key": "TX:48491",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 178.0,
+    "P": 0.0,
+    "RV": 472191.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 76.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 472191,
+    "TP": 178,
+    "TV": 0,
+    "TPR": 178
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/246",
+    "summary": "/upload/246/Summary",
+    "senate": "/upload/246/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "WILLIAMSON",
+    "id": 246,
+    "registered_voters": 472191,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 934,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48491",
+    "county_fips": "48491",
+    "county": "Williamson",
+    "rank": "10",
+    "priority": "1",
+    "state_county_id": "246",
+    "state_mid": 48246,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": null,
+    "derivative_historical_units": 421,
+    "original_historical_units": null,
+    "tlc_vtd_rows": 830,
+    "november_native_gap": "Manual browser access needed for actual November county/vendor/download schema and current units; state county object separately inspected."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

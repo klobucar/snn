@@ -1,0 +1,50 @@
+{
+  "id": "harris-reporting",
+  "request_url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/pr.json",
+  "parent_id": "harris-live",
+  "purpose": "inline public GET reporting schema",
+  "retrieval_started_utc": "2026-10-18T03:28:46.337166+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/pr.json",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:28:46 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Content-MD5": "8FS27ob7ArpoK4IJa7OM5Q==",
+    "Last-Modified": "Thu, 17 Sep 2026 19:18:28 GMT",
+    "Server": "cloudflare",
+    "x-ms-request-id": "b39a020c-701e-0041-22ba-511872000000",
+    "x-ms-version": "2009-09-19",
+    "x-ms-lease-status": "unlocked",
+    "x-ms-blob-type": "BlockBlob",
+    "Access-Control-Expose-Headers": "x-ms-request-id,Server,x-ms-version,Content-Type,ETag,Last-Modified,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+    "Access-Control-Allow-Origin": "*",
+    "Vary": "accept-encoding",
+    "expires": "Sun, 18 Oct 2026 03:29:46 GMT",
+    "Cache-Control": "public, max-age=60",
+    "cf-cache-status": "REVALIDATED",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a4c47472ef711074-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 25765,
+  "original_sha256": "d9920de30a5ccfa8d4b13f50b584fd93cf1216d8124a817fa4bc57eca9d2b125",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 2514,
+  "stored_stream_sha256": "b3e872d9e58f7d3092213cda60b73721e435f8675457e21bcb9afdfa19a09404",
+  "stored_parts": [
+    {
+      "path": "raw/harris-reporting.body.gz",
+      "bytes": 2514,
+      "sha256": "b3e872d9e58f7d3092213cda60b73721e435f8675457e21bcb9afdfa19a09404"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:28:46.783840+00:00"
+}

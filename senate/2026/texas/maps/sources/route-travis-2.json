@@ -1,0 +1,46 @@
+{
+  "id": "route-travis-2",
+  "requested_url": "https://www.traviscountytx.gov/intergovernmental-relations/redistricting",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:33:12.262359+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.traviscountytx.gov/intergovernmental-relations/redistricting",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:33:12 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "x-powered-by": "PHP/8.3.35",
+    "expires": "Wed, 17 Aug 2005 00:00:00 GMT",
+    "last-modified": "Sat, 17 Oct 2026 13:10:42 GMT",
+    "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "pragma": "no-cache",
+    "x-litespeed-cache": "hit",
+    "vary": "Accept-Encoding",
+    "Server": "cloudflare",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=63072000; includeSubDomains",
+    "content-security-policy": "default-src * data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval'; script-src * data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src * data: blob: 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src * data: blob: ; style-src * data: blob: 'unsafe-inline'; font-src * data: blob: 'unsafe-inline'; frame-ancestors * data: blob:;",
+    "x-turbo-charged-by": "LiteSpeed",
+    "Set-Cookie": "GCLB=\"bb02e85a53719db9\"; Max-Age=86400; Path=/; HttpOnly",
+    "via": "1.1 google",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "CF-RAY": "a4c47af0a8c60011-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 43080,
+  "original_sha256": "586523b67f81adf65556088a90a9a278f545a91e76a3db05af1d091e8e0d18d1",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/route-travis-2.body",
+      "bytes": 43080,
+      "sha256": "586523b67f81adf65556088a90a9a278f545a91e76a3db05af1d091e8e0d18d1"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Travis"
+}

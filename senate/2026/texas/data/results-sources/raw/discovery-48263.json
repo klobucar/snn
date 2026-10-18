@@ -1,0 +1,42 @@
+{
+  "id": "discovery-48263",
+  "request_url": "https://www.co.kent.tx.us/page/kent.Elections",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:22.477478+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.co.kent.tx.us/page/kent.Elections",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Set-Cookie": "ASP.NET_SessionId=un1dqz3bu4xyioq4dvrzosir; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:34:23 GMT",
+    "Content-Length": "33283"
+  },
+  "redirects": [],
+  "original_bytes": 33283,
+  "original_sha256": "9244782ae330332af12cfe16d3aa3cb75ab19b1ff4ef5396b73981bc0746be36",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 8126,
+  "stored_stream_sha256": "d565ddd0d5ecac4465bebdbdf3019c1069fafe5e69cc546da2febd77ca869e40",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48263.body.gz",
+      "bytes": 8126,
+      "sha256": "d565ddd0d5ecac4465bebdbdf3019c1069fafe5e69cc546da2febd77ca869e40"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:24.494522+00:00"
+}

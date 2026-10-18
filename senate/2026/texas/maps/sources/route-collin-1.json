@@ -1,0 +1,41 @@
+{
+  "id": "route-collin-1",
+  "requested_url": "https://www.collincountytx.gov/Government/Commissioners-Court/precincts",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:33:12.329095+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.collincountytx.gov/Government/Commissioners-Court/precincts",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:33:12 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "CF-Ray": "a4c47af11ed832fd-ORD",
+    "CF-Cache-Status": "DYNAMIC",
+    "Cache-Control": "public, max-age=0, s-maxage=43200",
+    "Server": "cloudflare",
+    "Strict-Transport-Security": "max-age=31536000; preload",
+    "Cache-Tag": "ceeaac00-18fd-4162-9766-9b4dc1c1a37b|Production|www.collincountytx.gov|/government/commissioners-court/precincts, ceeaac00-18fd-4162-9766-9b4dc1c1a37b|Production",
+    "Content-Security-Policy": "script-src cdn.assistant.cloud.sitefinity.com https://cdn.insight.sitefinity.com https://player.vimeo.com/api/player.js https://www.youtube.com/iframe_api 'self' 'nonce-yrWg2zzHtPvaIZLigZnbAQ==' https://siteimproveanalytics.com https://www.googletagmanager.com https://cdn.assistant.cloud.sitefinity.com http://localhost:* https://js.arcgis.com https://cdn.jsdelivr.net; style-src cdn.assistant.cloud.sitefinity.com 'unsafe-inline' https://cdn.insight.sitefinity.com 'self' https://cdn.assistant.cloud.sitefinity.com http://localhost:* https://js.arcgis.com https://*.arcgis.com https://*.arcgisonline.com; img-src cdn.assistant.cloud.sitefinity.com data: https://cdn.insight.sitefinity.com 'self' https://*.global.r2.siteimproveanalytics.io https://www.google-analytics.com http://localhost:* data: blob: https://*.arcgis.com https://*.arcgisonline.com data: blob: https://*.petango.com; connect-src https://*.insight.sitefinity.com https://*.dec.sitefinity.com 'self' *.collincountytx.gov https://js.arcgis.com https://cdn.jsdelivr.net https://eagenda.collincountytx.gov https://siteimproveanalytics.com https://www.google-analytics.com https://region1.google-analytics.com https://cdn.assistant.cloud.sitefinity.com http://localhost:* ws://localhost:* https://js.arcgis.com https://cdn.jsdelivr.net https://*.arcgis.com https://*.arcgisonline.com; default-src  'self' *.collincountytx.gov; media-src  'self' https://cdn3.wowza.com http://localhost:* ; font-src data: 'self' http://localhost:* data: https://js.arcgis.com; frame-src  https://collincountytx.new.swagit.com https://eagenda.collincountytx.gov http://localhost:*",
+    "Request-Context": "appId=cid-v1:4f17d9f0-74d0-4a42-8f75-45e637176788",
+    "Vary": "accept-encoding",
+    "Set-Cookie": "visid_incap_2797347=PlCUI605S+mgLy/L9aeVYvg91GoAAAAAQUIPAAAAAABA8uyjuO95kh6Yi86mg5hG; expires=Sun, 17 Oct 2027 06:20:53 GMT; HttpOnly; path=/; Domain=.collincountytx.gov, incap_ses_533_2797347=/GZMbJb+SXeLGQsDwJhlB/g91GoAAAAA+yKOug/p1lJWTc/GGEDDFg==; path=/; Domain=.collincountytx.gov",
+    "X-CDN": "Imperva",
+    "X-Iinfo": "51-282143255-282143263 NNNN CT(1 5 0) RT(1792294392461 24) q(0 0 0 -1) r(3 3) U24"
+  },
+  "redirects": [],
+  "original_bytes": 44698,
+  "original_sha256": "2ed76a00fdd99adb7a1adc2b5c07347943fd170d30546897b8f3ccb834fde5c3",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/route-collin-1.body",
+      "bytes": 44698,
+      "sha256": "2ed76a00fdd99adb7a1adc2b5c07347943fd170d30546897b8f3ccb834fde5c3"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Collin"
+}

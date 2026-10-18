@@ -1,0 +1,43 @@
+{
+  "id": "route-johnson-1",
+  "requested_url": "https://www.johnsoncountytx.org/departments/elections-office/precinct-maps",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:33:15.203454+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.johnsoncountytx.org/departments/elections-office/precinct-maps",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Last-Modified": "Sat, 17 Oct 2026 15:18:42 GMT",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000;",
+    "X-XSS-Protection": "1; mode=block",
+    "Expect-CT": "max-age=31536000",
+    "Last-Published": "Tue, 25 Aug 2026 15:00:34 GMT",
+    "Edge-Cache-Tag": "C4740D84.G,C4740D84.P255,C4740D84.CMENU",
+    "GranicusServer": "gasap-viscmsd1",
+    "X-Akamai-Transformed": "9 - 0 pmb=mRUM,1",
+    "Vary": "Accept-Encoding",
+    "Cache-Control": "public, max-age=46152",
+    "Expires": "Sun, 18 Oct 2026 16:22:27 GMT",
+    "Date": "Sun, 18 Oct 2026 03:33:15 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive, Transfer-Encoding",
+    "Server-Timing": "cdn-cache; desc=HIT, edge; dur=1, ak_p; desc=\"1792294395363_3088984504_92506676_79_12100_9_19_-\";dur=1"
+  },
+  "redirects": [],
+  "original_bytes": 143313,
+  "original_sha256": "9dc1e0b10db381330762cfe0290ff0e458a51a2c7c96f5453c50b37313073582",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/route-johnson-1.body",
+      "bytes": 143313,
+      "sha256": "9dc1e0b10db381330762cfe0290ff0e458a51a2c7c96f5453c50b37313073582"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Johnson"
+}

@@ -1,0 +1,226 @@
+{
+  "dispatch_key": "TX:48041",
+  "county_fips": "48041",
+  "county": "Brazos",
+  "rank": 24,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48041",
+    "county_fips": "48041",
+    "county": "Brazos",
+    "rank": 24,
+    "priority": true,
+    "directory_label": "BRAZOS COUNTY",
+    "authority_role": "Elections Administrator",
+    "authority_name": "Trudy Hancock",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "http://www.brazosvotes.org/",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48041",
+      "metadata_path": "raw/county-48041.json",
+      "request_url": "http://www.brazosvotes.org/",
+      "final_url": "https://elections.brazoscountytx.gov/",
+      "status": 200,
+      "original_sha256": "4a8bf88b8abc25f5be31c5cc8df24e1a13e90753050fca4cd4b5828008dbe514",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "sos-county-links"
+    },
+    {
+      "source_id": "county-48041-result1",
+      "metadata_path": "raw/county-48041-result1.json",
+      "request_url": "https://elections.brazoscountytx.gov/results/",
+      "final_url": "https://elections.brazoscountytx.gov/results/",
+      "status": 200,
+      "original_sha256": "9142ea0ec67647df2c5da1528f070f7522dbc0d6670aa38e024586d4a5f4bc95",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48041"
+    },
+    {
+      "source_id": "county-48041-result1-sample",
+      "metadata_path": "raw/county-48041-result1-sample.json",
+      "request_url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-3-2026-accessible.pdf",
+      "final_url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-3-2026-accessible.pdf",
+      "status": 200,
+      "original_sha256": "56f4f8bfde9c1cb930a58f2755ec86ed25cf41119124e03cab5be457d662e4f3",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48041-result1"
+    }
+  ],
+  "assessment": "Official county results page offers native precinct/location reports including Mail Ballots and early-voting sites, plus cumulative/canvass and preliminary/final reconciliations. Full March 3, 2026 primary cumulative PDF retained as schema evidence; not a November Senate feed.",
+  "gaps": "Current November county source identity/download absent from inspected results list; do not sum overlapping location/precinct/method views.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 21,
+    "CN": "BRAZOS",
+    "MID": 48021,
+    "county_fips": "48041",
+    "dispatch_key": "TX:48041",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 78.0,
+    "P": 0.0,
+    "RV": 147077.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 29.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 147077,
+    "TP": 78,
+    "TV": 0,
+    "TPR": 78
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/21",
+    "summary": "/upload/21/Summary",
+    "senate": "/upload/21/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "BRAZOS",
+    "id": 21,
+    "registered_voters": 147077,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 1,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48041",
+    "county_fips": "48041",
+    "county": "Brazos",
+    "rank": "24",
+    "priority": "1",
+    "state_county_id": "21",
+    "state_mid": 48021,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": null,
+    "derivative_historical_units": 342,
+    "original_historical_units": null,
+    "tlc_vtd_rows": 545,
+    "november_native_gap": "Current November county source identity/download absent from inspected results list; do not sum overlapping location/precinct/method views."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

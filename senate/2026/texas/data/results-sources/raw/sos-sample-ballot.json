@@ -1,0 +1,53 @@
+{
+  "id": "sos-sample-ballot",
+  "request_url": "https://www.sos.state.tx.us/elections/forms/2026-sample-ballot.pdf",
+  "parent_id": "sos-november",
+  "purpose": "Sample Ballot (PDF) ",
+  "retrieval_started_utc": "2026-10-18T03:26:32.874198+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.sos.state.tx.us/elections/forms/2026-sample-ballot.pdf",
+  "headers": {
+    "Content-Type": "application/pdf",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "AmazonS3",
+    "Date": "Sat, 17 Oct 2026 14:55:17 GMT",
+    "Last-Modified": "Mon, 31 Aug 2026 22:32:22 GMT",
+    "Content-Encoding": "gzip",
+    "x-amz-server-side-encryption": "AES256",
+    "Cache-Control": "public, max-age=86400",
+    "x-amz-version-id": "Ax_YJ6V8cpHjuSz1lWN26BG.MOsou5WU",
+    "ETag": "W/\"4f3476305b04dbe72a63832a5e479a14\"",
+    "Vary": "Accept-Encoding, Origin",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 4db169e2924d635da444e5b8f26d65ce.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P6",
+    "X-Amz-Cf-Id": "ZZg2x1594IoUNLJwkPuz4De-sY-vLD5PstGkKiwxw2Va5_liTzOt0g==",
+    "Age": "45077",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000"
+  },
+  "redirects": [],
+  "original_bytes": 204565,
+  "original_sha256": "01ac33580fb4359f8613ada4d62e40885221291bedb8fd84a0c1cbc4d811930d",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 188226,
+  "stored_stream_sha256": "172c04c1045c845b1da7d469a4d828b393ba0377d9d767267acf034976def4d0",
+  "stored_parts": [
+    {
+      "path": "raw/sos-sample-ballot.body.gz",
+      "bytes": 188226,
+      "sha256": "172c04c1045c845b1da7d469a4d828b393ba0377d9d767267acf034976def4d0"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:33.041021+00:00"
+}

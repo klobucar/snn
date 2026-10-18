@@ -1,0 +1,778 @@
+ 
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+  <!--
+  *************************************************************************
+*
+* Travis County ITS – Application Services
+* __________________
+*
+* Copyright (c) TC-ITS
+* All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of TC-ITS and its suppliers, if any.
+* The intellectual and technical concepts contained herein
+* are proprietary to TC-ITS and its suppliers and may be
+* covered by U.S. and Foreign Patents, patents in process, and
+* are protected by trade secret or copyright law. Dissemination
+* of this information or reproduction of this material is strictly
+* forbidden unless prior written permission is obtained
+* from TC-ITS@
+*
+***************************************************************************
+  -->
+<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  	<meta charset="utf-8">
+	<meta name="description" content="Welcome to the official website of Travis County, Texas. ">
+	<title>Redistricting 2021 | Travis County, Texas</title>
+	<link href="/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+<link href="/templates/tctx_v4/css/bootstrap.min.css?ec8612" rel="stylesheet">
+	<link href="/templates/tctx_v4/css/tctx.css?ec8612" rel="stylesheet">
+	<link href="/templates/tctx_v4/css/tctx-sp-builder.css?ec8612" rel="stylesheet">
+	<link href="/media/vendor/joomla-custom-elements/css/joomla-alert.min.css?0.4.1" rel="stylesheet">
+	<link href="/components/com_sppagebuilder/assets/css/dynamic-content.css?db0eb064dd605d51126ac7a52bb9f826" rel="stylesheet">
+	<link href="https://www.traviscountytx.gov/media/mod_traviscountysearchbox/css/searchbox.css" rel="stylesheet">
+	<style>
+#accordeonck952 { padding:0;margin:0; } 
+[data-id="accordeonck952"].accordeonck-wrap { background: #D8E0E3;background-color: #D8E0E3;background: -moz-linear-gradient(top,  #D8E0E3 0%, #D8E0E3 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D8E0E3), color-stop(100%,#D8E0E3)); background: -webkit-linear-gradient(top,  #D8E0E3 0%,#D8E0E3 100%);background: -o-linear-gradient(top,  #D8E0E3 0%,#D8E0E3 100%);background: -ms-linear-gradient(top,  #D8E0E3 0%,#D8E0E3 100%);background: linear-gradient(top,  #D8E0E3 0%,#D8E0E3 100%); margin-bottom: 30px;border-top: #BEC5C7 1px solid ;border-right: #BEC5C7 1px solid ;border-left: #BEC5C7 1px solid ; } 
+#accordeonck952 li.accordeonck { list-style: none;/*overflow: hidden;*/ }
+#accordeonck952 ul[class^="content"] { margin:0;padding:0; }
+#accordeonck952 li.accordeonck > span { position: relative; display: block; }
+#accordeonck952 li.parent > span span.toggler_icon { top: 0;position: absolute; cursor: pointer; display: block; height: 100%; z-index: 10;right:0; background: url(/images/chevron_down1.png) center center no-repeat !important;width: 20px;}
+#accordeonck952 li.parent.open > span span.toggler_icon { right:0; background: url(/images/chevron_up1.png) center center no-repeat !important;}
+#accordeonck952 li.accordeonck.level2 > span { }
+#accordeonck952 li.level2 li.accordeonck > span { }
+#accordeonck952 a.accordeonck { display: block;text-decoration: none; color: #282828;font-size: 16px;font-weight: normal;}
+#accordeonck952 a.accordeonck:hover { text-decoration: none; color: #FFFFFF;}
+#accordeonck952 li.parent > span a { display: block;/*outline: none;*/ }
+#accordeonck952 li.parent.open > span a {  }
+#accordeonck952 a.accordeonck > .badge { margin: 0 0 0 5px; }
+#accordeonck952 li.level2.parent.open > span span.toggler_icon { background: url(/) center center no-repeat !important;}
+#accordeonck952 li.level3.parent.open > span span.toggler_icon { background: url(/) center center no-repeat !important;}
+#accordeonck952 li.level1 > span {  } 
+#accordeonck952 li.level1 > span a { padding-top: 10px;padding-right: 15px;padding-bottom: 10px;padding-left: 15px;color: #282828;font-size: 16px;font-weight: normal; } 
+#accordeonck952 li.level1 > span span.accordeonckdesc { font-size: 10px; } 
+#accordeonck952 li.level1:hover > span {  } 
+#accordeonck952 li.level1:hover > span a { color: #FFFFFF; } 
+#accordeonck952 li.level1.active > span {  } 
+#accordeonck952 li.level1.active > span a { color: #FFFFFF; } 
+#accordeonck952 li.level1:hover > span span.accordeonckdesc { color: #FFFFFF; } 
+#accordeonck952 li.level1.active > span span.accordeonckdesc { color: #FFFFFF; } ul#accordeonck952 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    background: #D8E0E3;
+    background-color: #D8E0E3;
+    border-top: #BEC5C7 1px solid;
+    border-right: #BEC5C7 1px solid;
+    border-left: #BEC5C7 1px solid;
+}
+
+ul#accordeonck952 li.accordeonck.level1 { 
+  text-decoration:underline!important;
+}
+ul#accordeonck952 li.accordeonck.level1:hover,
+ul#accordeonck952 li.accordeonck.level1.active {
+  background-color:#244C5A;
+  color: #FFFFFF;
+}
+
+ul#accordeonck952 li.accordeonck.level2:hover,
+ul#accordeonck952 li.accordeonck.level2.active {
+  background-color:#FFFFFF;
+  color: #000000;
+}
+
+ul#accordeonck952 li.accordeonck ul.accordeonck,  
+ul#accordeonck952 li.accordeonck ul.accordeonck a { 
+ background-color: #FFFFFF;
+ color:#244C5A;
+}
+ul#accordeonck952 ul.accordeonck li.accordeonck {padding: 10px 25px; }
+
+ul#accordeonck952 ul.accordeonck li.accordeonck.active {
+  background-color:#244C5A;
+  color: #ffffff;
+}
+
+ul#accordeonck952 a.accordeonck:focus-visible {
+    border: 2px solid black !important;
+}
+ul#accordeonck952 li.accordeonck {border-bottom: 1px solid #BEC5C7;}
+ul#accordeonck952 span.toggler_icon{right:10px!important;}
+
+
+
+/* Make sure links and spans inside submenu items are default color */
+ul#accordeonck952 ul.accordeonck li.accordeonck a,
+ul#accordeonck952 ul.accordeonck li.accordeonck span {
+  color: #282828;
+  text-decoration-color: #282828;
+  text-decoration-line: underline;
+}
+
+/* === Hover ONLY the hovered item === */
+ul#accordeonck952 ul.accordeonck li.accordeonck:has( > span > a:hover:not(.isactive)), ul#accordeonck952 ul.accordeonck li.accordeonck a:hover {
+  background-color: #244C5A;
+  color: #ffffff;
+  text-decoration-color: #ffffff;
+  text-decoration-line: underline;
+}
+
+/* === Active (selected) submenu item === */
+ul#accordeonck952 ul.accordeonck li.accordeonck.active, ul#accordeonck952 ul.accordeonck li.accordeonck.active > a{
+  background-color: #BEC5C7;
+  color: #000000;
+  text-decoration-color: #000000;
+  text-decoration-line: underline;
+}
+
+ul#accordeonck952 li.accordeonck ul.accordeonck a.isactive  {
+  background-color: #BEC5C7;
+  color: #000000;
+}
+
+ul#accordeonck952 ul.accordeonck li.accordeonck.active > a.isactive {
+  background-color: #244C5A;
+  color: #ffffff;
+  text-decoration-color: #ffffff;
+  text-decoration-line: underline;
+}
+
+ul#accordeonck967 li.open > ul {
+    border-left: 5px solid #244C5A;
+}
+
+/*
+ul#accordeonck952 ul.accordeonck li.accordeonck:hover a,
+ul#accordeonck952 ul.accordeonck li.accordeonck:hover span {
+  color: #ffffff;
+}
+
+ul#accordeonck952 ul.accordeonck li.accordeonck.active a,
+ul#accordeonck952 ul.accordeonck li.accordeonck.active span {
+  color: #ffffff;
+}
+*/accordeonck952 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    background: #D8E0E3;
+    background-color: #D8E0E3;
+    border-top: #BEC5C7 1px solid;
+    border-right: #BEC5C7 1px solid;
+    border-left: #BEC5C7 1px solid;
+}
+
+accordeonck952 li.accordeonck.level1 { 
+  text-decoration:underline!important;
+}
+accordeonck952 li.accordeonck.level1:hover,
+accordeonck952 li.accordeonck.level1.active {
+  background-color:#244C5A;
+  color: #FFFFFF;
+}
+
+accordeonck952 li.accordeonck.level2:hover,
+accordeonck952 li.accordeonck.level2.active {
+  background-color:#FFFFFF;
+  color: #000000;
+}
+
+accordeonck952 li.accordeonck ul.accordeonck,  
+accordeonck952 li.accordeonck ul.accordeonck a { 
+ background-color: #FFFFFF;
+ color:#244C5A;
+}
+accordeonck952 ul.accordeonck li.accordeonck {padding: 10px 25px; }
+
+accordeonck952 ul.accordeonck li.accordeonck.active {
+  background-color:#244C5A;
+  color: #ffffff;
+}
+
+accordeonck952 a.accordeonck:focus-visible {
+    border: 2px solid black !important;
+}
+accordeonck952 li.accordeonck {border-bottom: 1px solid #BEC5C7;}
+accordeonck952 span.toggler_icon{right:10px!important;}
+
+
+
+/* Make sure links and spans inside submenu items are default color */
+accordeonck952 ul.accordeonck li.accordeonck a,
+accordeonck952 ul.accordeonck li.accordeonck span {
+  color: #282828;
+  text-decoration-color: #282828;
+  text-decoration-line: underline;
+}
+
+/* === Hover ONLY the hovered item === */
+accordeonck952 ul.accordeonck li.accordeonck:has( > span > a:hover:not(.isactive)), accordeonck952 ul.accordeonck li.accordeonck a:hover {
+  background-color: #244C5A;
+  color: #ffffff;
+  text-decoration-color: #ffffff;
+  text-decoration-line: underline;
+}
+
+/* === Active (selected) submenu item === */
+accordeonck952 ul.accordeonck li.accordeonck.active, accordeonck952 ul.accordeonck li.accordeonck.active > a{
+  background-color: #BEC5C7;
+  color: #000000;
+  text-decoration-color: #000000;
+  text-decoration-line: underline;
+}
+
+accordeonck952 li.accordeonck ul.accordeonck a.isactive  {
+  background-color: #BEC5C7;
+  color: #000000;
+}
+
+accordeonck952 ul.accordeonck li.accordeonck.active > a.isactive {
+  background-color: #244C5A;
+  color: #ffffff;
+  text-decoration-color: #ffffff;
+  text-decoration-line: underline;
+}
+
+ul#accordeonck967 li.open > ul {
+    border-left: 5px solid #244C5A;
+}
+
+/*
+accordeonck952 ul.accordeonck li.accordeonck:hover a,
+accordeonck952 ul.accordeonck li.accordeonck:hover span {
+  color: #ffffff;
+}
+
+accordeonck952 ul.accordeonck li.accordeonck.active a,
+accordeonck952 ul.accordeonck li.accordeonck.active span {
+  color: #ffffff;
+}
+*/#accordeonck952 ul[class^="content"] {
+	display: none;
+}
+
+#accordeonck952 .toggler_icon {
+	top: 0;
+}</style>
+<script src="/templates/tctx_v4/js/accessibility.js?ec8612"></script>
+	<script src="https://docaccess.com/docbox.js?ec8612" async></script>
+	<script src="/media/vendor/jquery/js/jquery.min.js?3.7.1"></script>
+	<script src="/media/legacy/js/jquery-noconflict.min.js?504da4"></script>
+	<script type="application/json" class="joomla-script-options new">{"joomla.jtext":{"ERROR":"Error","MESSAGE":"Message","NOTICE":"Notice","WARNING":"Warning","SUCCESS":"Success","JCLOSE":"Close","JOK":"OK","JOPEN":"Open"},"system.paths":{"root":"","rootFull":"https:\/\/www.traviscountytx.gov\/","base":"","baseFull":"https:\/\/www.traviscountytx.gov\/"},"csrf.token":"ec836e600f418bbb0bb4e7e7ccdc3d6f"}</script>
+	<script src="/media/system/js/core.min.js?a3d8f8"></script>
+	<script src="/media/vendor/bootstrap/js/alert.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/button.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/carousel.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/collapse.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/dropdown.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/modal.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/offcanvas.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/popover.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/scrollspy.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/tab.min.js?5.3.8" type="module"></script>
+	<script src="/media/vendor/bootstrap/js/toast.min.js?5.3.8" type="module"></script>
+	<script src="/media/system/js/messages.min.js?9a4811" type="module"></script>
+	<script src="/components/com_sppagebuilder/assets/js/dynamic-content.js?db0eb064dd605d51126ac7a52bb9f826"></script>
+	<script src="/media/com_accordeonmenuck/assets/accordeonmenuck.js?ver=3.6.1"></script>
+	<script src="https://www.traviscountytx.gov/media/mod_traviscountysearchbox/js/searchbox.js"></script>
+	<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","@id":"https://www.traviscountytx.gov/#/schema/BreadcrumbList/17","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.traviscountytx.gov/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.traviscountytx.gov/intergovernmental-relations","name":"Intergovernmental Relations"}},{"@type":"ListItem","position":3,"item":{"@id":"https://www.traviscountytx.gov/intergovernmental-relations/redistricting","name":"Redistricting"}}]}</script>
+	<script>
+				document.addEventListener("DOMContentLoaded", () =>{
+					window.htmlAddContent = window?.htmlAddContent || "";
+					if (window.htmlAddContent) {
+        				document.body.insertAdjacentHTML("beforeend", window.htmlAddContent);
+					}
+				});
+			</script>
+	<script>jQuery(document).ready(function(jQuery){new Accordeonmenuck('#accordeonck952', {fadetransition : false,eventtype : 'click',transition : 'linear',menuID : 'accordeonck952',defaultopenedid : '',activeeffect : '',showcounter : '',showactive : '1',closeothers : '1',eventtarget : 'image',duree : 500});}); </script>
+	<script>(function () {
+	try {
+		var SPPB_TIME_ZONE = Intl.DateTimeFormat().resolvedOptions().timeZone;
+
+		if (!SPPB_TIME_ZONE){
+			return;
+		}
+
+		document.cookie =
+			'sppb_user_timezone=' + encodeURIComponent(SPPB_TIME_ZONE) +
+			'; path=/' +
+			'; max-age=43200'; // 12 hours
+	} catch (e) {}
+})();</script>
+	<script>
+			const initColorMode = () => {
+				const colorVariableData = [];
+				const sppbColorVariablePrefix = "--sppb";
+				let activeColorMode = localStorage.getItem("sppbActiveColorMode") || "";
+				activeColorMode = "";
+				const modes = [];
+
+				if(!modes?.includes(activeColorMode)) {
+					activeColorMode = "";
+					localStorage.setItem("sppbActiveColorMode", activeColorMode);
+				}
+
+				document?.body?.setAttribute("data-sppb-color-mode", activeColorMode);
+
+				if (!localStorage.getItem("sppbActiveColorMode")) {
+					localStorage.setItem("sppbActiveColorMode", activeColorMode);
+				}
+
+				if (window.sppbColorVariables) {
+					const colorVariables = typeof(window.sppbColorVariables) === "string" ? JSON.parse(window.sppbColorVariables) : window.sppbColorVariables;
+
+					for (const colorVariable of colorVariables) {
+						const { path, value } = colorVariable;
+						const variable = String(path[0]).trim().toLowerCase().replaceAll(" ", "-");
+						const mode = path[1];
+						const variableName = `${sppbColorVariablePrefix}-${variable}`;
+
+						if (activeColorMode === mode) {
+							colorVariableData.push(`${variableName}: ${value}`);
+						}
+					}
+
+					document.documentElement.style.cssText += colorVariableData.join(";");
+				}
+			};
+
+			window.sppbColorVariables = [];
+			
+			initColorMode();
+
+			document.addEventListener("DOMContentLoaded", initColorMode);
+		</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<!--[if lt IE 9]>
+		<script src="/media/jui/js/html5.js"></script>
+	<![endif]-->
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7LN5XFE935"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7LN5XFE935');
+</script>
+
+
+<!-- Google Tag Manager installed by Khoa Pham, commented out to get the GA4 to work-->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PH3K6P');</script>
+<!-- End Google Tag Manager -->
+
+
+<!--Silktide Analytic codes -->
+
+	
+<script async src="https://analytics.silktide.com/5da5ef8453b731fdb5fbf23df187fa0e.js"></script>
+<script>
+  (function (s,i,l,k,y) {
+    s[i] = s[i] || y;
+    s[l] = s[l] || [];
+    s[k] = function(e, p) { p = p || {}; p.event = e; s[l].push(p); };
+    s[k]('page_load');
+  })(window, 'stConfig', 'stEvents', 'silktide', {});
+</script>
+  
+  
+</head>
+<body>
+ 
+<!--The following Skip to main content need to be placed right after body tag and above everything else per WCAG 2.1 -->
+<a class="skip-to-main-content-link" href="#main-content">Skip to main content</a>
+<span id="top"></span>	
+
+	
+<!-- Google Tag Manager (noscript) installed by Khoa Pham -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PH3K6P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header class="sticky-top">
+	<!-- TCTX Nav -->
+		<div class="navbar navbar-expand-xl navbar-dark sticky-top px-xl-5" role="navigation" id="fixed-top-1">
+		<a class="navbar-brand" href="/"><img src="/images/Logo2025.svg" alt="Travis County, Texas" class="img-fluid"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MainTCTXNav" aria-controls="MainTCTXNav" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+		</button>
+    	<div class="collapse navbar-collapse" id="MainTCTXNav">
+			<nav class="navbar-nav mx-auto  nav-dropdown 1" id="menu-navigationtop">
+<ul class="navbar-nav">
+<li class="nav-item px-4 py-2 py-xl-1 item-5970 dropdown parent"><button class="dropdown-toggle" aria-expanded="false" id="navitem-navigationtop-5970" aria-controls="subnav-navigationtop-5970" data-toggle="dropdown" >Services<b class="caret"></b></button><ul class="dropdown-menu" id="subnav-navigationtop-5970" aria-labelledby="navitem-navigationtop-5970"><li class="nav-item px-4 py-2 py-xl-1 item-5971"><a href="/health-human-services/apply-for-assistance" >Application for Assistance</a></li><li class="nav-item px-4 py-2 py-xl-1 item-5972"><a href="/tnr/development-services/permitting-center" >Building Permits</a></li><li class="nav-item px-4 py-2 py-xl-1 item-5973"><a href="/district-clerk/case-information-records" >Court Records</a></li><li class="nav-item px-4 py-2 py-xl-1 item-5974"><a href="/courts/criminal/docket-search" >Criminal Court Dates (Dockets)</a></li><li class="nav-item px-4 py-2 py-xl-1 item-5975"><a href="/district-clerk/criminal-division/criminal-history-check" >Criminal History Check</a></li><li class="nav-item px-4 py-2 py-xl-1 item-5976"><a href="https://tax-office.traviscountytx.gov/properties/foreclosed" >Foreclosed Properties</a></li><li class="nav-item px-4 py-2 py-xl-1 item-5977"><a href="https://www.tcsheriff.org/inmate-jail-info/inmate-info/find-an-inmate#/sip" >Inmate Search</a></li><li class="nav-item px-4 py-2 py-xl-1 item-5978"><a href="https://www.traviscountytx.gov/human-resources/careers" >Job Opportunities</a></li><li class="nav-item px-4 py-2 py-xl-1 item-5979"><a href="/district-clerk/jury-duty" >Jury Duty</a></li><li class="nav-item px-4 py-2 py-xl-1 item-5980"><a href="/district-clerk/passport" >Passports</a></li><li class="nav-item px-4 py-2 py-xl-1 item-5981"><a href="https://tax-office.traviscountytx.gov/properties/taxes" >Property Taxes</a></li><li class="nav-item px-4 py-2 py-xl-1 item-5982"><a href="https://tax-office.traviscountytx.gov/vehicles/vehicle-registration" >Vehicle Registration</a></li><li class="nav-item px-4 py-2 py-xl-1 item-5983"><a href="https://www.tcsheriff.org/services/public-resources/warrant-search#/wows" >Warrant Search</a></li><li class="nav-item px-4 py-2 py-xl-1 item-4530"><a href="/service-directory" >View All Services</a></li></ul></li><li class="nav-item px-4 py-2 py-xl-1 item-129"><a href="/departments" >Departments</a></li><li class="nav-item px-4 py-2 py-xl-1 item-5984"><a href="/news" >News &amp; Events</a></li></ul>
+</nav>    
+   			<div class="form-inline ml-auto" >
+				 				   
+<div class="tc-search-box" data-search-id="tc-search-6ad373d2b719b" data-module-id="1286">
+    <form id="tc-search-6ad373d2b719b-form" class="tc-search-form" role="search" aria-label="Site search">
+        <label for="tc-search-6ad373d2b719b-input" class="sr-only">Search Travis County</label>
+
+        <div class="tc-search-combobox-wrap">
+            <div class="input-group">
+                <input
+                    id="tc-search-6ad373d2b719b-input"
+                    name="q"
+                    type="text"
+                    class="form-control"
+                    placeholder="Search"
+                    autocomplete="off"
+                    role="combobox"
+                    aria-autocomplete="list"
+                    aria-expanded="false"
+                    aria-controls="tc-search-6ad373d2b719b-listbox"
+                    aria-activedescendant="" />
+
+                <div class="input-group-append">
+                    <button
+                        id="tc-search-6ad373d2b719b-reset"
+                        type="reset"
+                        class="btn btn-outline-secondary"
+                        aria-label="Clear search"
+                        disabled
+                        aria-disabled="true">
+                        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                    </button>
+
+                    <button
+                        type="submit"
+                        class="btn btn-outline-secondary">
+                        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                        <span class="sr-only">Submit search</span>
+                    </button>
+                </div>
+            </div>
+
+            <div
+                id="tc-search-6ad373d2b719b-status"
+                class="sr-only"
+                aria-live="polite"
+                aria-atomic="true"></div>
+
+            <div
+                id="tc-search-6ad373d2b719b-suggestions"
+                class="tc-search-suggestions"
+                hidden>
+                <ul
+                    id="tc-search-6ad373d2b719b-listbox"
+                    class="tc-search-suggestions-list"
+                    role="listbox"
+                    aria-label="Search suggestions"></ul>
+            </div>
+        </div>
+    </form>
+</div> 
+				  				<div class="gtranslate_wrapper"></div>
+        	</div>
+		</div>
+	</div>
+	  	<!-- TCTX Nav 2-->
+		<!-- End TCTX Nav 2 --> 		
+</header>
+<main>
+
+<!-- 2020 Top Banner   ================================================== -->  
+	
+	
+<!-- Homepage 2015   ================================================== -->  
+
+
+<div id="precontent-tools-above" class="m-0 position-absolute">
+
+<div id="mod-custom811" class="mod-custom custom">
+    <p><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=9CH8hhGlgk-00Tb30eip6o6xlhfF08pLoI3Hy9II4m9UMVZKNVNBVFlaVzRHSjlQNFFZMUNYMk5COC4u" rel="noopener" id="btn-feedback" class="btn btn-primary btn-feedback">Feedback</a></p></div>
+
+</div>
+
+ 
+
+  
+<!-- unused? -->
+  
+<!-- unused?  -->
+   
+    
+<!-- End Homepage 2015   ================================================== --> 
+    
+
+<!-- main container -->
+<div class="container py-md-5">
+	
+  <!-- Feature Area Full Width above main content -->
+		<!--  End Feature Area Full Width -->
+    <!-- Content - left sidebar and main content area and right sidebar -->
+    <div id="main" class="row">     
+
+
+        <!-- Left -->
+                <div id="sidebar" class="d-print-none col-lg-3">
+            <div id="sidebar-accordion">
+                <div class="card">
+                    <div class="card-header">
+                        <a class="card-link section_Header" data-toggle="collapse" href="#sectionMenu">Section Menu</a>
+                    </div>
+                    <div id="sectionMenu" class="section_Menu collapse" data-parent="#sidebar-accordion">
+                        <div class="card-body"><div class="accordeonck-wrap " data-id="accordeonck952">
+<ul class="menu" id="accordeonck952">
+<li id="item-1168" class="accordeonck item1168 active first level1 " data-level="1" ><span class="accordeonck_outer "><a class="accordeonck isactive " href="/intergovernmental-relations" >IGR Office Home<span class="accordeonckdesc"></span></a></span></li><li id="item-3996" class="accordeonck item3996 level1 " data-level="1" ><span class="accordeonck_outer "><a class="accordeonck " href="/intergovernmental-relations/legislative-activities" >Legislative Activities<span class="accordeonckdesc"></span></a></span></li><li id="item-2419" class="accordeonck item2419 parent parent level1 " data-level="1" ><span class="accordeonck_outer toggler toggler_1"><a class="accordeonck " href="/intergovernmental-relations/board-appointments" >Open Board Appointments<span class="accordeonckdesc"></span></a><span class="toggler_icon" tabIndex="0" role="button" aria-label="ACCORDEONMENUCK_TOGGLER_LABEL"></span></span><ul class="content_1 accordeonck" style="display:none;"><li id="item-4001" class="accordeonck item4001 first last level2 " data-level="2" ><span class="accordeonck_outer "><a class="accordeonck " href="/intergovernmental-relations/resources-for-current-uap-appointees" >Resources for Current UAP Appointees<span class="accordeonckdesc"></span></a></span></li></ul></li><li id="item-6367" class="accordeonck item6367 level1 " data-level="1" ><span class="accordeonck_outer "><a class="accordeonck " href="/intergovernmental-relations/redistricting-2025" >Redistricting 2025<span class="accordeonckdesc"></span></a></span></li><li id="item-1171" class="accordeonck item1171 active level1 " data-level="1" ><span class="accordeonck_outer "><a class="accordeonck isactive " href="/intergovernmental-relations/redistricting" >Redistricting 2021<span class="accordeonckdesc"></span></a></span></li><li id="item-3997" class="accordeonck item3997 level1 " data-level="1" ><span class="accordeonck_outer "><a class="accordeonck " href="/intergovernmental-relations/census2020" >Census 2020<span class="accordeonckdesc"></span></a></span></li><li id="item-1169" class="accordeonck item1169 level1 " data-level="1" ><span class="accordeonck_outer "><a class="accordeonck " href="/intergovernmental-relations/staff" >Staff Biographies<span class="accordeonckdesc"></span></a></span></li><li id="item-1170" class="accordeonck item1170 last level1 " data-level="1" ><span class="accordeonck_outer "><a class="accordeonck " href="/commissioners-court" >Commissioners Court<span class="accordeonckdesc"></span></a></span></li></ul></div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+              <!-- End left -->
+
+
+
+   		<div id="container" class="col-lg-7">
+        	<!--Start Breadcrumbs-->
+                        <nav class="mod-breadcrumbs__wrapper" aria-label="Breadcrumbs">
+    <ol class="mod-breadcrumbs breadcrumb px-3 py-2">
+                    <li class="mod-breadcrumbs__here float-start">
+                You are here: &#160;
+            </li>
+        
+        <li class="mod-breadcrumbs__item breadcrumb-item"><a href="/intergovernmental-relations" class="pathway"><span>Intergovernmental Relations</span></a></li><li class="mod-breadcrumbs__item breadcrumb-item active"><a tabindex="-1" href="#" aria-current="page" >Redistricting</a></li>    </ol>
+    </nav>
+
+                        <!--  End Breadcrumbs -->
+          	<!--Content-top Module Position -->  
+                      	<!--End Content-top position-->
+			<div>
+			<span id="main-content" tabindex="-1"></span>
+            <div id="system-message-container" aria-live="polite"></div>
+                     
+        	<div class="item-page" itemscope itemtype="http://schema.org/Article">
+	<meta itemprop="inLanguage" content="en-GB" />
+	
+		
+			<div class="page-header">
+		<h1 itemprop="name">
+							Redistricting 2021					</h1>
+									<span class="label label-warning">Expired</span>
+			</div>
+					
+	
+	
+		
+								<div itemprop="articleBody">
+		<p>Travis County is divided into four commissioner court precincts. Based on the data from the United States Census Bureau that is received every 10 years, these precincts are reexamined and, if necessary, redrawn. Travis County must ensure that its precinct map complies with Section 2 of the Voting Rights Act as well as the United States Constitution.</p>
+<h2>Public Notice: Travis County Election Precinct Boundaries Proposed Plan For 2022</h2>
+<p>On December 14, 2021, the Travis County Commissioners Court, the governing body of Travis County, Texas, approved the Election Precinct Boundaries Proposed Plan for 2022 (“2022 Plan”) pursuant to Chapter 42 of the Texas Election Code. The adopted 2022 Plan will take effect on January 1, 2022.</p>
+<p>The 2022 Plan made changes to existing election precinct lines to conform with newly adopted redistricting plans for Congressional and State Legislative districts, in addition to Commissioner Court, Constable, and Justice of the Peace precincts.</p>
+<p>The number of Travis County election precincts increased to 287 from 247, in order to comply with population requirements as prescribed by Election Code 42.006. The 2022 Plan also makes changes to the existing precinct identification numbering system to accommodate the addition of new precincts and/or as a result of a realignment due to an adopted redistricting plan.</p>
+<p><a href="/images/intergovernmental_relations/Doc/Agenda_Back_Up_20211214_Memo.pdf" target="_blank">Election Precinct Boundaries Proposed Plan for 2022</a> (pdf)</p>
+<p><a href="/images/intergovernmental_relations/Doc/G1_Election_Precincts_Final_Map.pdf" target="_blank">New Election Precinct Map</a> (pdf)</p>
+<p>Location Description of Proposed Precincts 2021:</p>
+<ul>
+<li><a href="/images/intergovernmental_relations/Doc/Location_Descriptions_of_Proposed_Precincts_Pct_1.pdf" target="_blank">Commissioner Court Precinct 1</a>&nbsp;(pdf)</li>
+<li><a href="/images/intergovernmental_relations/Doc/Location_Descriptions_of_Proposed_Precincts_Pct_2.pdf" target="_blank">Commissioner Court Precinct 2</a>&nbsp;(pdf)</li>
+<li><a href="/images/intergovernmental_relations/Doc/Location_Descriptions_of_Proposed_Precincts_Pct_3.pdf" target="_blank">Commissioner Court Precinct 3</a>&nbsp;(pdf)</li>
+<li><a href="/images/intergovernmental_relations/Doc/Location_Descriptions_of_Proposed_Precincts_Pct_4.pdf" target="_blank">Commissioner Court Precinct 4</a>&nbsp;(pdf)</li>
+</ul>
+<h2>Interactive Map</h2>
+<p>Newly adopted Commissioner Court, Justice of the Peace, Constable, and Election precincts can be viewed on the <a href="https://traviscountytx.maps.arcgis.com/apps/webappviewer/index.html?id=579c45ca70714d29ade0db0012a8e60e" target="_blank" rel="noopener">interactive map</a>.</p>
+<h2>Commissioner Court Presentations &amp; Action</h2>
+<p>Below, please find some additional materials that relate to the Travis County Commissioner Precinct redistricting process:</p>
+<p><a href="/images/intergovernmental_relations/2021-redistricting-process-guidelines.pdf" target="_blank">Adopted Guidelines for the Travis County 2021 Redistricting Process</a></p>
+<ul>
+<li>September 21, 2021 – <a href="https://traviscotx.civicclerk.com/Web/Player.aspx?id=958&amp;key=-1&amp;mod=-1&amp;mk=-1&amp;nov=0" target="_blank" rel="noopener">Commissioners Court Redistricting Process</a></li>
+<li>October 21, 2021 – <a href="https://traviscotx.civicclerk.com/Web/Player.aspx?id=2666&amp;key=-1&amp;mod=-1&amp;mk=-1&amp;nov=0" target="_blank" rel="noopener">Commissioners Court Redistricting Matters</a></li>
+<li>November 4, 2021 – <a href="https://traviscotx.civicclerk.com/Web/Player.aspx?id=2669&amp;key=-1&amp;mod=-1&amp;mk=-1&amp;nov=0" target="_blank" rel="noopener">Preliminary Maps for New Commissioner Court, Justice of the Peace, and Constable Precincts</a></li>
+<li>November 10, 2021 – <a href="https://traviscotx.civicclerk.com/Web/Player.aspx?id=2671&amp;key=-1&amp;mod=-1&amp;mk=-1&amp;nov=0" target="_blank" rel="noopener">Adoption of New Commissioner Court, Justice of the Peace, and Constable Precincts</a></li>
+<li>November 30, 2021 – <a href="https://traviscotx.civicclerk.com/Web/Player.aspx?id=968&amp;key=-1&amp;mod=-1&amp;mk=-1&amp;nov=0" target="_blank" rel="noopener">Notice of Future Adoption Date for Election Precincts</a></li>
+<li>December 14, 2021 – <a href="https://traviscotx.civicclerk.com/Web/Player.aspx?id=970&amp;key=-1&amp;mod=-1&amp;mk=-1&amp;nov=0" target="_blank" rel="noopener">Adoption of Election Precincts</a></li>
+</ul>
+<p><em><strong>For a full posting of Commissioner Court agendas, minutes, transcripts, and videos for the current and past Voting Sessions please visit <a href="https://countyclerk.traviscountytx.gov/departments/commissioners-court/" target="_self">https://countyclerk.traviscountytx.gov/departments/commissioners-court/</a></strong></em></p>
+<p>&nbsp;</p> 	</div>
+
+	
+						</div>
+
+			</div>
+         	<!-- Below Content Position -->  
+                      	<!--End content-bottom position-->
+    	</div>
+        <!-- Right -->
+                <div id="sidebar2" class="d-print-none col-lg-2">
+        
+<div id="mod-custom228" class="mod-custom custom">
+    <h4>IGR Office</h4>
+<p><strong>IGR Officer</strong><br />Julie Wheeler</p>
+<p><strong>IGR&nbsp;Specialist<br /></strong>Cicely Kay</p>
+<p><a href="/intergovernmental-relations/uap-board-appointment" target="_blank" rel="noopener"><strong>Are you interested in joining our mailing list?</strong></a></p>
+<ul class="list-unstyled p-2" aria-label="Social media">
+<li class="d-inline-block" style="height: 2rem; width: 2rem;"><a href="https://www.facebook.com/pages/Travis-County-Office-of-Intergovernmental-Relations/110191442472834?hc_location=stream" target="_blank" rel="noopener noreferrer" class="position-relative d-block" aria-label="Travis County Texas Intergovernmental Relations Facebook (opens in new tab)"> <span class="fas fa-circle fa-stack-2x" style="color: #3461A1;" aria-hidden="true"></span> <span class="fab fa-facebook-f fa-stack-1x fa-inverse" aria-hidden="true"></span> </a></li>
+<li class="d-inline-block" style="height: 2rem; width: 2rem;"><a href="https://x.com/TravCo_IGR" target="_blank" rel="noopener noreferrer" class="position-relative d-block" aria-label="Travis County Texas Intergovernmental Relations X (formerly Twitter) (opens in new tab)"> <span class="fas fa-circle fa-stack-2x" style="color: #28AAE1;" aria-hidden="true"></span> <span class="fa-brands fa-x-twitter fa-stack-1x fa-inverse" aria-hidden="true"></span> </a></li>
+</ul></div>
+
+        </div>
+            </div><!--  end Content  -->
+  
+	<!-- Feature Bottom Area -->
+	  	<!--  End Feature Bottom Area  --> 	
+</div><!--  end container -->
+<div id="push"></div>
+
+ 
+
+	
+	
+	
+</main><!--closing main container-->
+
+  <!-- TCTX footer -->
+  <footer>
+    <div id="footer2015" class="mt-5 d-print-none">
+      
+<div id="mod-custom548" class="mod-custom custom">
+    <div class="mt-4 py-2" style="background-color: #347384;" data-darkreader-inline-bgcolor>
+<div class="container">
+<p class="h6 text-white font-weight-bold text-uppercase"><strong><a href="/tax-rates" target="_self" class="text-white">2026 TAX RATE:</a></strong> TRAVIS COUNTY ADOPTED A TAX RATE THAT WILL RAISE MORE TAXES FOR MAINTENANCE AND OPERATIONS THAN LAST YEAR’S TAX RATE.</p>
+</div>
+</div>
+<div class="py-4" style="background-color: #244c5a;" data-darkreader-inline-bgcolor>
+<div class="container">
+<div class="row">
+<div class="col-6 col-lg-2 mx-auto py-2"><a href="https://www.traviscountytx.gov/" target="_self"><img src="/images/homepage_icons/logo_tc_seal.png" alt="Official seal of Travis County, Texas, established 1839, featuring a lone star within a wreath and symbols of government, nature, and local industry." class="img-fluid" /></a></div>
+<nav class="col-12 col-lg-7 py-2 px-lg-3">
+<div class="row">
+<div class="col-6 col-lg-4 py-2">
+<h1 class="h5 text-white">About Website</h1>
+<ul class="list-group list-group-flush footer-links">
+<li class="list-group-item"><a href="/accessibility-statement">Accessibility Statement</a></li>
+<li class="list-group-item"><a href="/disclaimer">Disclaimers</a></li>
+<li class="list-group-item"><a href="/its/website-privacy-policy">Privacy Policy</a></li>
+<li class="list-group-item"><a href="/sitemap-html">Sitemap</a></li>
+<li class="list-group-item"><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=9CH8hhGlgk-00Tb30eip6o6xlhfF08pLoI3Hy9II4m9UMVZKNVNBVFlaVzRHSjlQNFFZMUNYMk5COC4u" rel="noopener">Give Website Feedback</a></li>
+</ul>
+</div>
+<div class="col-6 col-lg-4 py-2">
+<h1 class="h5 text-white">Staff Resources</h1>
+<ul class="list-group list-group-flush footer-links">
+<li class="list-group-item"><a href="/images/docs/County-wide-Chart-6-22-2026.pdf">Org Chart</a></li>
+<li class="list-group-item"><a href="https://traviscentral.traviscountytx.gov/" rel="noopener">Employees</a></li>
+<li class="list-group-item"><a href="/human-resources/retirees">Retirees</a></li>
+</ul>
+</div>
+<div class="col-12 col-lg-4 py-2">
+<h1 class="h5 text-white">Transparency &amp; Data</h1>
+<ul class="list-group list-group-flush footer-links">
+<li class="list-group-item"><a href="https://financialtransparency.traviscountytx.gov" rel="noopener">Financial Transparency</a></li>
+<li class="list-group-item"><a href="https://tnr-traviscountytx.hub.arcgis.com" rel="noopener">Maps &amp; GIS Data</a></li>
+<li class="list-group-item"><a href="/open-data-portal" target="_self">Open Data Portal</a></li>
+<li class="list-group-item"><a href="/pio">Press &amp; Media Inquiries</a></li>
+<li class="list-group-item"><a href="/departments/public-information-records">Public Information Records</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="col-12 col-lg-3 py-2">
+<div class="social-icons">
+<ul class="list-group list-group-horizontal justify-content-center flex-wrap" aria-label="Social media">
+<li class="list-group-item"><a href="http://www.facebook.com/TravisCountyTX" target="_blank" rel="noopener noreferrer" aria-label="Travis County Facebook (opens in new tab)"> <span class="fa-stack fa-lg" title="Facebook icon" aria-hidden="true"> <span class="fas fa-circle fa-stack-2x" aria-hidden="true"></span> <span class="fab fa-facebook-f fa-stack-1x fa-inverse" aria-hidden="true"></span> </span> </a></li>
+<li class="list-group-item"><a href="https://twitter.com/TravisCountyTX" target="_blank" rel="noopener noreferrer" aria-label="Travis County X (formerly Twitter) (opens in new tab)"> <span class="fa-stack fa-lg" title="Twitter icon" aria-hidden="true"> <span class="fas fa-circle fa-stack-2x" aria-hidden="true"></span> <span class="fa-brands fa-x-twitter fa-stack-1x fa-inverse" aria-hidden="true"></span> </span> </a></li>
+<li class="list-group-item"><a href="https://www.youtube.com/user/TravisCountyTCTV" target="_blank" rel="noopener noreferrer" aria-label="Travis County YouTube (opens in new tab)"> <span class="fa-stack fa-lg" title="Youtube icon" aria-hidden="true"> <span class="fas fa-circle fa-stack-2x" aria-hidden="true"></span> <span class="fab fa-youtube fa-stack-1x fa-inverse" aria-hidden="true"></span> </span> </a></li>
+<li class="list-group-item"><a href="https://nextdoor.com/agency-detail/tx/austin/travis-county-1/" target="_blank" rel="noopener noreferrer" aria-label="Travis County Nextdoor (opens in new tab)"> <span class="fa-stack fa-lg" title="Nextdoor icon" aria-hidden="true"> <span class="fas fa-circle fa-stack-2x" aria-hidden="true"></span> <span class="fas fa-home fa-stack-1x fa-inverse" aria-hidden="true"></span> </span> </a></li>
+<li class="list-group-item"><a href="https://www.flickr.com/photos/traviscountytx/albums" target="_blank" rel="noopener noreferrer" aria-label="Travis County Flickr (opens in new tab)"> <span class="fa-stack fa-lg" title="Flickr icon" aria-hidden="true"> <span class="fas fa-circle fa-stack-2x" aria-hidden="true"></span> <span class="fab fa-flickr fa-stack-1x fa-inverse" aria-hidden="true"></span> </span> </a></li>
+<li class="list-group-item"><a href="https://www.instagram.com/traviscountytx/" target="_blank" rel="noopener noreferrer" aria-label="Travis County Instagram (opens in new tab)"> <span class="fa-stack fa-lg" title="instagram icon" aria-hidden="true"> <span class="fas fa-circle fa-stack-2x" aria-hidden="true"></span> <span class="fab fa-instagram fa-stack-1x fa-inverse" aria-hidden="true"></span></span></a></li>
+</ul>
+</div>
+<p class="text-white text-center">©&nbsp; <span id="dateBlock"></span> Travis County. All Rights Reserved.</p>
+</div>
+</div>
+</div>
+</div></div>
+
+<div id="mod-custom1141" class="mod-custom custom">
+    <p class="d-none d-md-block"><a id="backToTopButton" class="btn btn-primary" href="#top"> ↑ <br> <span style="text-decoration: underline;"> TOP </span> </a></p></div>
+
+    </div>
+  </footer>
+  	
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>	
+
+  
+<!-- FontAwesome 6 Pro Kit -->
+<script src="https://kit.fontawesome.com/da421a8430.js" crossorigin="anonymous"></script>
+  
+<!-- Google search box code -->
+<script src="https://cse.google.com/cse.js?cx=000898642780513499755:as1vvuart2y" async=""></script>
+
+<!-- GTranslate codes snipet -->
+<script>window.gtranslateSettings = {"default_language":"en","wrapper_selector":".gtranslate_wrapper"}</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>
+
+<script type="text/javascript">
+(function($){
+$(document).ready(function(){
+
+ //checks if hash value exists
+ if ( window.location.hash != '' ) {
+        //location.reload();
+        //removes the initial hash
+        openval = window.location.hash.slice(1);
+        //opens the relavant accordion
+        $('#' + openval).addClass('show');
+        }	
+	
+});
+})(jQuery);
+</script>
+
+<script type="text/javascript">
+    
+(function($){
+	
+	$(window).scroll(() => {
+		if ($(this).scrollTop() > 300) {
+            $('#backToTopButton').fadeIn();
+        } else {
+            $('#backToTopButton').fadeOut();
+        }
+	});
+
+  
+    $('a[href*="#"]:not([href="#"])').click(function(event) {
+    
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+		  
+	
+        scrollTop: target.offset().top;
+        target.attr('tabindex', '-1');
+        target.focus();
+      	location.hash = target.hash.slice(1);
+      	return false;
+	  
+	  }
+    }
+  });
+
+})(jQuery);
+
+</script>
+	
+</body>
+</html>

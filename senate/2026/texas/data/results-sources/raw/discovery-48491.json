@@ -1,0 +1,43 @@
+{
+  "id": "discovery-48491",
+  "request_url": "https://www.wilcotx.gov/292/Results-Archive",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:19.451106+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 403,
+  "final_url": "https://www.wilcotx.gov/292/Results-Archive",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:34:19 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "set-cookie": "__cf_bm=lwaIbbduItT25I2Ruey_fOYRgabfpZjD4oFeLUluzEM-1792294459.9288752-1.0.1.1-2ak3dW4ck.gJ6mpxpntS6zQl1AsFGe4x7Jd3jOb93NoCeuPwJCazzQ4QxeVOw01H5nWPZ4ZPwfoV8d2UIFYSEoe78COWqfrhdFTtPeW2wBmUMhJ.oricHa2ZpS8eglXP; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.wilcotx.gov; Expires=Sun, 18 Oct 2026 04:04:19 GMT",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47c968f31e852-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 5484,
+  "original_sha256": "d8e9e6d4774537f44c5b184b724f2e86a2647640ad3db1c1316ca3b828dac274",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 2098,
+  "stored_stream_sha256": "70e7d29dbce75396edfe7d5644476a5c8ac1c7f8b792409aa45a5c468a8d9d5e",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48491.body.gz",
+      "bytes": 2098,
+      "sha256": "70e7d29dbce75396edfe7d5644476a5c8ac1c7f8b792409aa45a5c468a8d9d5e"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:19.856148+00:00"
+}

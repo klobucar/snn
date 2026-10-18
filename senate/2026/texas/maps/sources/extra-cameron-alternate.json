@@ -1,0 +1,40 @@
+{
+  "id": "extra-cameron-alternate",
+  "requested_url": "https://www.cameroncountytx.gov/elections/",
+  "parent_source_url": "https://www.cameroncountytx.gov/elections/index.php/maps/",
+  "retrieved_utc": "2026-10-18T03:35:11.101024+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 403,
+  "final_url": "https://www.cameroncountytx.gov/elections/",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:35:11 GMT",
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "X-Sucuri-ID": "20007",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Content-Security-Policy": "upgrade-insecure-requests;",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "X-Sucuri-Block": "BNP007",
+    "Server": "Sucuri/Cloudproxy",
+    "Alt-Svc": "h3=\":443\"; ma=86400"
+  },
+  "redirects": [],
+  "original_bytes": 2520,
+  "original_sha256": "1a0dda44529551e2ed406281ce420d5a7afd720eb57000634f7bfdf7c8b8359e",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/extra-cameron-alternate.body",
+      "bytes": 2520,
+      "sha256": "1a0dda44529551e2ed406281ce420d5a7afd720eb57000634f7bfdf7c8b8359e"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Cameron",
+  "advertised_title": "Official elections root repair after maps page403"
+}

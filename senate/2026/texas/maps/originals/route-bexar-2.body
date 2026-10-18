@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Elections Voter Precincts Maps</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+<style type="text/css">
+	html, body, h2, div, ul, li {margin: 0; padding: 0; }
+	body {font-family: 'Open Sans', sans-serif; font-size: 90%; padding: 25px; color: #003; background-color: #F7F7F7;}
+	a:link {color: #1083ff; }
+	a:visited {color: #003366; }
+	a:hover, a:active {color: #1083ff; }
+	h2 {font-size: 130%; margin-bottom: 10px; }
+	.container {overflow: auto; }
+	.topLink {background-color: #ededed; padding: 5px; text-align: center; width: 70%; }
+	.col {width: 25%; float: left; margin-bottom: 10px; }
+	@media screen and (max-width: 875px) {.col {width: 50%; } .col:nth-child(3) {clear: left; } }
+	@media screen and (max-width: 500px) {.col {width: 100%; float: none; }}
+	ul {list-style-type: none; }
+	li {margin-bottom: 10px; list-style-type: none; }
+	.jumpLinks {background-color: #EDEDED; padding: 10px; margin-bottom: 20px;}
+	.jumpLinks li {display: inline-block; width: 24%; list-style-type: none; }
+	.jumpLinks {display: none; }
+	@media screen and (max-width: 875px) {.jumpLinks {display: block; } .jumpLinks li {width: 49%; } }
+	@media screen and (max-width: 500px) {.jumpLinks li {width: 99%; } }
+	
+</style>
+</head>
+<body>
+<div class="jumpLinks">
+	<ul>
+		<li class="link1"><a href="#jump1">Jump to Precincts 1001-1171</a></li>
+		<li class="link2"><a href="#jump2">Jump to Precincts 2001-2188</a></li>
+		<li class="link3"><a href="#jump3">Jump to Precincts 3001-3212</a></li>
+		<li class="link4"><a href="#jump4">Jump to Precincts 4001-4235</a></li>
+	</ul>
+</div>
+<div class="container">
+	<div class="col">
+		<a href="" name="jump1" id="jump1"></a>
+		<h2>Precincts 1001-1171</h2>
+		<ul id="maps1000"></ul>
+		<p class="topLink"><a href="#">To Top</a></p>
+	</div>
+	<div class="col">
+		<a href="" name="jump2" id="jump2"></a>
+		<h2>Precincts 2001-2188</h2>
+		<ul id="maps2000"></ul>
+		<p class="topLink"><a href="#">To Top</a></p>
+	</div>
+	<div class="col">
+		<a href="" name="jump3" id="jump3"></a>
+		<h2>Precincts 3001-3212</h2>
+		<ul id="maps3000"></ul>
+		<p class="topLink"><a href="#">To Top</a></p>
+	</div>
+	<div class="col">
+		<a href="" name="jump4" id="jump4"></a>
+		<h2>Precincts 4001-4235</h2>
+		<ul id="maps4000"></ul>
+		<p class="topLink"><a href="#">To Top</a></p>
+	</div>
+</div>
+
+<script type="text/javascript">
+
+	var atext = '';
+	for(var a = 1001; a < 1172; a++) {
+		atext += '<li><a href="precincts/vp_' + a + '.pdf" target="_blank">Voter Precinct ' + a + ' Map</a></li>';
+		document.getElementById("maps1000").innerHTML = atext;
+	}
+	var btext = '';
+	for(var b = 2001; b < 2189; b++) {
+		btext += '<li><a href="precincts/vp_' + b + '.pdf" target="_blank">Voter Precinct ' + b + ' Map</a></li>';
+		document.getElementById("maps2000").innerHTML = btext;
+	}
+	var ctext = '';
+	for(var c = 3001; c < 3213; c++) {
+		ctext += '<li><a href="precincts/vp_' + c + '.pdf" target="_blank">Voter Precinct ' + c + ' Map</a></li>';
+		document.getElementById("maps3000").innerHTML = ctext;
+	}
+	var dtext = '';
+	for(var d = 4001; d < 4236; d++) {
+		dtext += '<li><a href="precincts/vp_' + d + '.pdf" target="_blank">Voter Precinct ' + d + ' Map</a></li>';
+		document.getElementById("maps4000").innerHTML = dtext;
+	}
+
+// 1001-1139 (138)
+// 2001-2162 (161)
+// 3001-3191 (190)
+// 4001-4220 (219)
+
+</script>
+</body>
+</html>

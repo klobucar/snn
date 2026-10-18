@@ -1,0 +1,226 @@
+{
+  "dispatch_key": "TX:48309",
+  "county_fips": "48309",
+  "county": "Mclennan",
+  "rank": 22,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48309",
+    "county_fips": "48309",
+    "county": "Mclennan",
+    "rank": 22,
+    "priority": true,
+    "directory_label": "MCLENNAN COUNTY",
+    "authority_role": "Elections Administrator",
+    "authority_name": "Jared Goldsmith",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "http://www.co.mclennan.tx.us/337/Elections",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48309",
+      "metadata_path": "raw/county-48309.json",
+      "request_url": "http://www.co.mclennan.tx.us/337/Elections",
+      "final_url": "https://www.mclennan.gov/337/Elections",
+      "status": 403,
+      "original_sha256": "9b9ec4e2716affa45748f419b948a5722e9248e180f0076b46a50d25b0f2dc40",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "sos-county-links"
+    },
+    {
+      "source_id": "county-48309-https",
+      "metadata_path": "raw/county-48309-https.json",
+      "request_url": "https://www.co.mclennan.tx.us/337/Elections",
+      "final_url": "https://www.mclennan.gov/337/Elections",
+      "status": 403,
+      "original_sha256": "1e9b5c79f33060a40c1c798e00f54e9721252f9fed94ad35c12531aabc967244",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48309"
+    },
+    {
+      "source_id": "discovery-48309",
+      "metadata_path": "raw/discovery-48309.json",
+      "request_url": "https://www.mclennan.gov/406/Past-Elections-Results",
+      "final_url": "https://www.mclennan.gov/406/Past-Elections-Results",
+      "status": 403,
+      "original_sha256": "82b6399adab529d61669165678a723d6e05cf95bfa3f561d190081e16901b0f3",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": null
+    }
+  ],
+  "assessment": "SOS HTTP election URL, explicit HTTPS variant and pinned modern county result archive returned HTTP 403. Requests retained as access failures, not zero results.",
+  "gaps": "Manual local parent/vendor/finer roster and count field inspection required; current state object is separate evidence.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 161,
+    "CN": "MCLENNAN",
+    "MID": 48161,
+    "county_fips": "48309",
+    "dispatch_key": "TX:48309",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 96.0,
+    "P": 0.0,
+    "RV": 161164.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 40.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 161164,
+    "TP": 96,
+    "TV": 0,
+    "TPR": 96
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/161",
+    "summary": "/upload/161/Summary",
+    "senate": "/upload/161/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "MCLENNAN",
+    "id": 161,
+    "registered_voters": 161164,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 462,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48309",
+    "county_fips": "48309",
+    "county": "Mclennan",
+    "rank": "22",
+    "priority": "1",
+    "state_county_id": "161",
+    "state_mid": 48161,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": null,
+    "derivative_historical_units": 299,
+    "original_historical_units": null,
+    "tlc_vtd_rows": 465,
+    "november_native_gap": "Manual local parent/vendor/finer roster and count field inspection required; current state object is separate evidence."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

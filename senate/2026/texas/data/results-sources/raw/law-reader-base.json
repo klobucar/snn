@@ -1,0 +1,46 @@
+{
+  "id": "law-reader-base",
+  "request_url": "https://statutes.capitol.texas.gov/chunk-W3PI3EJX.js",
+  "parent_id": "law-app-main",
+  "purpose": "actual imported service component",
+  "retrieval_started_utc": "2026-10-18T03:32:13.124940+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://statutes.capitol.texas.gov/chunk-W3PI3EJX.js",
+  "headers": {
+    "Content-Type": "application/javascript",
+    "Content-Encoding": "gzip",
+    "Last-Modified": "Tue, 12 May 2026 15:11:35 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"59ca09f21e2dc1:0\"",
+    "Vary": "Accept-Encoding",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Powered-By": "ASP.NET",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Allow-Methods": "GET,POST,PUT,DELETE,OPTIONS",
+    "Access-Control-Allow-Credentials": "true",
+    "Date": "Sun, 18 Oct 2026 03:32:12 GMT",
+    "Content-Length": "1076",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains"
+  },
+  "redirects": [],
+  "original_bytes": 1684,
+  "original_sha256": "531c6e1203cf25c26b0b751f67c7caa74b69960bcad9cd3243bf943a9d7281b6",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 858,
+  "stored_stream_sha256": "6e8383866e893e3f7a2dff338cf30451d7838b46872f2e3a0d5e6b1696b9ad77",
+  "stored_parts": [
+    {
+      "path": "raw/law-reader-base.body.gz",
+      "bytes": 858,
+      "sha256": "6e8383866e893e3f7a2dff338cf30451d7838b46872f2e3a0d5e6b1696b9ad77"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:32:13.277694+00:00"
+}

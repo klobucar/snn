@@ -1,0 +1,31 @@
+{
+  "id": "route-denton-2",
+  "requested_url": "https://www.votedenton.gov/",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:33:12.816498+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 202,
+  "final_url": "https://www.votedenton.gov/",
+  "headers": {
+    "Server": "awselb/2.0",
+    "Date": "Sun, 18 Oct 2026 03:33:13 GMT",
+    "Content-Length": "0",
+    "Connection": "keep-alive",
+    "x-amzn-waf-action": "challenge",
+    "Cache-Control": "no-store, max-age=0",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Max-Age": "86400",
+    "Access-Control-Allow-Methods": "OPTIONS,GET,POST",
+    "Access-Control-Expose-Headers": "x-amzn-waf-action",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 0,
+  "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "storage_encoding": "identity",
+  "stored_parts": [],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Denton"
+}

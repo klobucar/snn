@@ -1,0 +1,43 @@
+{
+  "id": "discovery-48209",
+  "request_url": "https://www.hayscountytx.gov/election-results",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:19.451489+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 403,
+  "final_url": "https://www.hayscountytx.gov/election-results",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:34:19 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "set-cookie": "__cf_bm=rj_nOgqH5GKeKWtG3DkZSprSEELMkjXm2_aPgAj3FLA-1792294459.9294877-1.0.1.1-8jlyrP9nY9vqk.7wZDCa9irHE8F.PUzQGZVv4JUdyrO7wEKuUwvG5ddAePqGq4wkJOgy1iRIBYPViyf6yGck2G9HqwAgzn6SQjTDt.d8p22YcLutomIQNvFZmtGXde3B; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.hayscountytx.gov; Expires=Sun, 18 Oct 2026 04:04:19 GMT",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47c968dd2c9f2-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 5484,
+  "original_sha256": "ccde1898b833d2b70e586ba47dba2c178634b7ed5e0d3ed4cc82765ed3536b15",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 2097,
+  "stored_stream_sha256": "77a11cb10781b2f6c925dcecf1e16c57a211783f783c98a2e8d86c4bf9dc26c6",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48209.body.gz",
+      "bytes": 2097,
+      "sha256": "77a11cb10781b2f6c925dcecf1e16c57a211783f783c98a2e8d86c4bf9dc26c6"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:19.858083+00:00"
+}

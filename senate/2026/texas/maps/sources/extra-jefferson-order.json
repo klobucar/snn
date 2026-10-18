@@ -1,0 +1,32 @@
+{
+  "id": "extra-jefferson-order",
+  "requested_url": "https://jeffersoncountytx.gov/Documents/Notices/Signed_Order_with_updated_maps.pdf",
+  "parent_source_url": "https://jeffersoncountytx.gov/",
+  "retrieved_utc": "2026-10-18T03:41:21.000240+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 404,
+  "final_url": "https://jeffersoncountytx.gov/Documents/Notices/Signed_Order_with_updated_maps.pdf",
+  "headers": {
+    "Content-Type": "text/html",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Powered-By": "ASP.NET",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Date": "Sun, 18 Oct 2026 03:41:20 GMT",
+    "Content-Length": "103"
+  },
+  "redirects": [],
+  "original_bytes": 103,
+  "original_sha256": "90b2d35cd5e08370ed20db81197dd9da1a4dbb421f71293fd5733ea49eb7b3e1",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/extra-jefferson-order.body",
+      "bytes": 103,
+      "sha256": "90b2d35cd5e08370ed20db81197dd9da1a4dbb421f71293fd5733ea49eb7b3e1"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Jefferson",
+  "advertised_title": "Search-discovered final order with updated maps; inspect effective scope in original"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "county-48041-result1-sample",
+  "request_url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-3-2026-accessible.pdf",
+  "parent_id": "county-48041-result1",
+  "purpose": "representative published older-election source: March 3, 2026 Primary Election \u2013 Cumulative Results (Unofficial) ",
+  "retrieval_started_utc": "2026-10-18T03:31:49.719715+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-3-2026-accessible.pdf",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:31:49 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "1145566",
+    "Connection": "keep-alive",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.01,\"max_age\":604800}",
+    "CF-Ray": "a4c478ec8f1feaf0-ORD",
+    "CF-Cache-Status": "HIT",
+    "Accept-Ranges": "bytes",
+    "Age": "1338964",
+    "ETag": "\"69d42506-117ade\"",
+    "Last-Modified": "Mon, 06 Apr 2026 21:26:30 GMT",
+    "Server": "cloudflare",
+    "Ki-CF-Cache-Status": "HIT",
+    "ki-edge": "v=28.5.1;mv=99.9.9",
+    "ki-origin": "g1p",
+    "set-cookie": "__cf_bm=ir3m3bcuW5Q8cHmqzp9j40ecEDjWWf6M_Kwjf5x_cOk-1792294309.8472462-1.0.1.1-7P3ZaIHgZlGKGeoeVQj2CqrVDgwpHrms2wY1nwqRR7n.nmW35KsDua6GdG4rAopnyCLfdCeo8yJcdVfllSdWPoO1oRNARF3XSegv0iEGHray4_YdO4n7rLvPhwppN1_V; HttpOnly; SameSite=None; Secure; Path=/; Domain=elections.brazoscountytx.gov; Expires=Sun, 18 Oct 2026 04:01:49 GMT",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=oIgj%2B%2Fphzv3WKpPfDCowjp31t7U8Ufe80gwrBKU%2Bau6bf32wie%2Buw8yRL2osRL%2FAcCxmYmmvJOK7XOnoVXw2SvHIIDIGDTJchnBI%2FXMS7sNjSPfgi%2FszjK%2Bsirb7Zsw58D1uj3XWf951NjMKAn4%3D\"}]}",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "redirects": [],
+  "original_bytes": 1145566,
+  "original_sha256": "56f4f8bfde9c1cb930a58f2755ec86ed25cf41119124e03cab5be457d662e4f3",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 1059422,
+  "stored_stream_sha256": "639d1e49546d23b4a98c8c5848784f40373d96225b2e78df6897c69d810e9c8e",
+  "stored_parts": [
+    {
+      "path": "raw/county-48041-result1-sample.body.gz",
+      "bytes": 1059422,
+      "sha256": "639d1e49546d23b4a98c8c5848784f40373d96225b2e78df6897c69d810e9c8e"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:31:49.892882+00:00"
+}

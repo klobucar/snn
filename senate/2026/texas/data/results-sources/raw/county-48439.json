@@ -1,0 +1,57 @@
+{
+  "id": "county-48439",
+  "request_url": "http://www.tarrantcounty.com/en/elections.html",
+  "parent_id": "sos-county-links",
+  "purpose": "Tarrant official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:32.947705+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.tarrantcountytx.gov/en/elections.html",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:26:33 GMT",
+    "Content-Type": "text/html;charset=utf-8",
+    "Content-Length": "31937",
+    "Connection": "keep-alive",
+    "Server": "Apache",
+    "X-Dispatcher": "dispatcher1useast1-b86",
+    "X-Vhost": "publish",
+    "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "X-Content-Type-Options": "nosniff",
+    "Last-Modified": "Sat, 17 Oct 2026 21:31:59 GMT",
+    "ETag": "\"5c978-65e1002ca08a4-gzip\"",
+    "Accept-Ranges": "bytes",
+    "Vary": "Accept-Encoding,User-Agent",
+    "Content-Encoding": "gzip",
+    "X-Frame-Options": "SAMEORIGIN"
+  },
+  "redirects": [
+    {
+      "status": 302,
+      "url": "http://www.tarrantcounty.com/en/elections.html",
+      "headers": {
+        "Location": "https://www.tarrantcountytx.gov/en/elections.html",
+        "Server": "BigIP",
+        "Connection": "Keep-Alive",
+        "Content-Length": "0"
+      }
+    }
+  ],
+  "original_bytes": 379256,
+  "original_sha256": "7c9ebe0ab0242a31817632f0dfbf9310545a7e8a22b28e2990d0cb8575f89a63",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 30531,
+  "stored_stream_sha256": "c80ec9039373f139cffe16864c7f242536988f2d2184507ff93f8ed8a0ac1baa",
+  "stored_parts": [
+    {
+      "path": "raw/county-48439.body.gz",
+      "bytes": 30531,
+      "sha256": "c80ec9039373f139cffe16864c7f242536988f2d2184507ff93f8ed8a0ac1baa"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:33.323189+00:00"
+}

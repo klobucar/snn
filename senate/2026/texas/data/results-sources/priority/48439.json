@@ -1,0 +1,306 @@
+{
+  "dispatch_key": "TX:48439",
+  "county_fips": "48439",
+  "county": "Tarrant",
+  "rank": 3,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48439",
+    "county_fips": "48439",
+    "county": "Tarrant",
+    "rank": 3,
+    "priority": true,
+    "directory_label": "TARRANT COUNTY",
+    "authority_role": "Elections Administrator",
+    "authority_name": "Clint A. Ludwig",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "http://www.tarrantcounty.com/en/elections.html",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48439",
+      "metadata_path": "raw/county-48439.json",
+      "request_url": "http://www.tarrantcounty.com/en/elections.html",
+      "final_url": "https://www.tarrantcountytx.gov/en/elections.html",
+      "status": 200,
+      "original_sha256": "7c9ebe0ab0242a31817632f0dfbf9310545a7e8a22b28e2990d0cb8575f89a63",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "sos-county-links"
+    },
+    {
+      "source_id": "county-48439-result1",
+      "metadata_path": "raw/county-48439-result1.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/",
+      "final_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/",
+      "status": 200,
+      "original_sha256": "6d00545d20ba03c07bff7c00cdba2f382db71831f49bab36a51b3ac9b7c8c1b6",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48439"
+    },
+    {
+      "source_id": "tarrant-clarity-shell",
+      "metadata_path": "raw/tarrant-clarity-shell.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/web.345435/",
+      "final_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/web.345435/",
+      "status": 200,
+      "original_sha256": "849501bd5d7b48cc56f0f087149d89876335f8a9f9a0ab74ee26891d4be39fa8",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48439-result1"
+    },
+    {
+      "source_id": "clarity-48439-config",
+      "metadata_path": "raw/clarity-48439-config.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/config.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/config.json",
+      "status": 200,
+      "original_sha256": "78292ed41040455b998725bdda012ab0b0bd438c27d902795578de956bd7603d",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48439-version"
+    },
+    {
+      "source_id": "clarity-48439-electionsettings",
+      "metadata_path": "raw/clarity-48439-electionsettings.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/en/electionsettings.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/en/electionsettings.json",
+      "status": 200,
+      "original_sha256": "d933453528e721cf9e3323e12c00d7f5c15d2e286a27a3f2ba2bc40d2ce5d43c",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48439-config"
+    },
+    {
+      "source_id": "clarity-48439-summary",
+      "metadata_path": "raw/clarity-48439-summary.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/en/summary.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/en/summary.json",
+      "status": 200,
+      "original_sha256": "81791dd44722185155ab53b99c3bf3a0bbb3255667a347a9c33f130a72ca4462",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48439-config"
+    },
+    {
+      "source_id": "clarity-48439-status",
+      "metadata_path": "raw/clarity-48439-status.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/status.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/status.json",
+      "status": 200,
+      "original_sha256": "e077587c5f97eb2171a3e64c90689487a8e3d2cdd2650e90fce3fe881df6883f",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48439-config"
+    },
+    {
+      "source_id": "clarity-48439-vt",
+      "metadata_path": "raw/clarity-48439-vt.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/vt.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/vt.json",
+      "status": 200,
+      "original_sha256": "44ec2b5d23e3fad6aef22d126ea3ab23758d4512b4f88ac8d10df43c7fbec016",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "tarrant-clarity-main"
+    },
+    {
+      "source_id": "clarity-48439-details",
+      "metadata_path": "raw/clarity-48439-details.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/details.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/details.json",
+      "status": 200,
+      "original_sha256": "b0e78964600bbb402cafd1080b6f2fc81b43a1680fb039bf3267dcb3b65698cb",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "tarrant-clarity-main"
+    },
+    {
+      "source_id": "clarity-48439-vc",
+      "metadata_path": "raw/clarity-48439-vc.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/vc.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/vc.json",
+      "status": 200,
+      "original_sha256": "8bbbd7e8873f006f8a13f5bf03e9dff1d408f3a9fc3eeb90c02bdaeafa33916a",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48439-config"
+    },
+    {
+      "source_id": "clarity-48439-vc_status",
+      "metadata_path": "raw/clarity-48439-vc_status.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/vc_status.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Tarrant/127297/379881/json/vc_status.json",
+      "status": 200,
+      "original_sha256": "fe4bd70f47b4e5b5fb2f93b63e751d4ce2eca17ea9fcb20169427f31d34dea26",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "tarrant-clarity-main"
+    }
+  ],
+  "assessment": "Actual county November link gives Clarity 127297. Bundle-derived current version/config/JSON now accessible. November date, but istestmode=1 and showtestdatawatermark=0: exclude as live counts. Senate K=1 has three printed names and no named write-ins. TP=2985 differs from state TP=708; all 2,985 literal labels, including F99/FSB suffixes, remain distinct and are not promoted to geography. Peer ENR_1126 ZIP is only a future-posting notice.",
+  "gaps": "Test mode must clear and write-in coverage/denominator definitions must be verified; no measured cadence or genuine November vote snapshots.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 220,
+    "CN": "TARRANT",
+    "MID": 48220,
+    "county_fips": "48439",
+    "dispatch_key": "TX:48439",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 708.0,
+    "P": 0.0,
+    "RV": 1228367.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 224.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 1228367,
+    "TP": 708,
+    "TV": 0,
+    "TPR": 708
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/220",
+    "summary": "/upload/220/Summary",
+    "senate": "/upload/220/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "TARRANT",
+    "id": 220,
+    "registered_voters": 1228367,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 4315,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48439",
+    "county_fips": "48439",
+    "county": "Tarrant",
+    "rank": "3",
+    "priority": "1",
+    "state_county_id": "220",
+    "state_mid": 48220,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": 6416,
+    "derivative_historical_units": 6664,
+    "original_historical_units": null,
+    "tlc_vtd_rows": 3910,
+    "november_native_gap": "Test mode must clear and write-in coverage/denominator definitions must be verified; no measured cadence or genuine November vote snapshots."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

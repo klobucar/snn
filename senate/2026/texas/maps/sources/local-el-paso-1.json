@@ -1,0 +1,37 @@
+{
+  "id": "local-el-paso-1",
+  "requested_url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/002/029/original/2025_PCT_BNDS_LINES_1_236.pdf?1769721032",
+  "parent_source_url": "https://epcountyvotestx.gov/maps/el-paso-county-map",
+  "retrieved_utc": "2026-10-18T03:34:01.348589+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/002/029/original/2025_PCT_BNDS_LINES_1_236.pdf?1769721032",
+  "headers": {
+    "x-amz-id-2": "sVZ6TPf5Tk7zeCMu04LO8aE2o5TWrs9CGZvJJ4WzeaEhSNDkKkK72G2kinlBLkRL66mn1P09fdb4QEJEfWd9eeq3Kkw6IZ1u",
+    "x-amz-request-id": "T6Z2R1925QZRGRP1",
+    "Server": "AmazonS3",
+    "Date": "Sun, 18 Oct 2026 03:34:02 GMT",
+    "Last-Modified": "Thu, 29 Jan 2026 21:10:33 GMT",
+    "ETag": "\"c5429e0c0e45f7f0ecb76994f63a6903\"",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-version-id": "tll8HtF57VwhnX8tEXOYb8M2zVBiLoKF",
+    "Accept-Ranges": "bytes",
+    "Content-Type": "application/pdf",
+    "Content-Length": "306655"
+  },
+  "redirects": [],
+  "original_bytes": 306655,
+  "original_sha256": "1cd23f897be31e82783bff1a8308c54ec122bb9364926586c284ccb92ffe4abd",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/local-el-paso-1.pdf",
+      "bytes": 306655,
+      "sha256": "1cd23f897be31e82783bff1a8308c54ec122bb9364926586c284ccb92ffe4abd"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "El Paso",
+  "advertised_title": "El Paso County Precinct Boundary Lines Map"
+}

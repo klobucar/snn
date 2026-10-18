@@ -1,0 +1,39 @@
+{
+  "id": "extra-dallas-alternate",
+  "requested_url": "https://www.dallascounty.org/departments/elections/",
+  "parent_source_url": "https://www.dallascountyvotes.org/",
+  "retrieved_utc": "2026-10-18T03:35:10.793887+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 404,
+  "final_url": "https://www.dallascounty.org/departments/elections/",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:42:52 GMT",
+    "Server": "Apache",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin",
+    "Permissions-Policy": "geolocation=(self ), microphone=()",
+    "Content-Security-Policy": "default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline' 'unsafe-eval'; img-src 'self' data: www.dallascounty.org https://chatjs.ankobiagroup.com https://vhss-d.oddcast.com *.twimg.com *.twitter.com seal.geotrust.com fonts.gstatic.com www.gstatic.com www.google-analytics.com pagead2.googlesyndication.com www.googletagmanager.com content.govdelivery.com www.cdc.gov cdn.acsbapp.com https://ep1.adtrafficquality.google https://dialogflow.cloud.google.com; connect-src 'self' www.google-analytics.com translate.googleapis.com https://chatjs.ankobiagroup.com https://vhss-d.oddcast.com https://data.oddcast.com https://content.oddcast.com https://dcc-chatbot.ankobiagroup.com https://cdn.acsbapp.com https://ep1.adtrafficquality.google https://dialogflow.cloud.google.com;",
+    "Strict-Transport-Security": "max-age=31536000; includeSubdomains;",
+    "Vary": "Accept-Encoding",
+    "Keep-Alive": "timeout=5, max=100",
+    "Connection": "Keep-Alive",
+    "Transfer-Encoding": "chunked",
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "redirects": [],
+  "original_bytes": 47845,
+  "original_sha256": "49eb8680b700f5074c659224287fc475a22d8eb619a5f72b1d5acefc24b11580",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/extra-dallas-alternate.body",
+      "bytes": 47845,
+      "sha256": "49eb8680b700f5074c659224287fc475a22d8eb619a5f72b1d5acefc24b11580"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Dallas",
+  "advertised_title": "Official county alternate after vote site HTTP202 challenge"
+}

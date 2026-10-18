@@ -1,0 +1,47 @@
+{
+  "id": "sos-results-index",
+  "request_url": "https://www.sos.state.tx.us/elections/historical/index.shtml",
+  "parent_id": "sos-elections",
+  "purpose": "results publication parent",
+  "retrieval_started_utc": "2026-10-18T03:25:37.319214+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.sos.state.tx.us/elections/historical/index.shtml",
+  "headers": {
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Server": "AmazonS3",
+    "Last-Modified": "Sat, 17 Oct 2026 14:48:15 GMT",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-version-id": "mq_l3yRJWCLPXV6zbc2b..YBbpB6blnK",
+    "Date": "Sun, 18 Oct 2026 03:25:38 GMT",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "ETag": "W/\"072607d5bd2f2f794644cd2b1aba3a5c\"",
+    "Vary": "Accept-Encoding",
+    "X-Cache": "RefreshHit from cloudfront",
+    "Via": "1.1 b90806651a118b36ba53c2be6c347c46.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P6",
+    "X-Amz-Cf-Id": "TvbjDCkS59suNf8Tf1ogrZzglgJsy3nL24NAXyINrDjUZ-6SXisX8g=="
+  },
+  "redirects": [],
+  "original_bytes": 19393,
+  "original_sha256": "47bd486553ee314355fc241f696ac445b7b8a3c6dddd73562eecfb51e59c4e38",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 5475,
+  "stored_stream_sha256": "0315b5897d66652a85e2f27648509be2faac408cdc3ccb4d169f46d3377904a9",
+  "stored_parts": [
+    {
+      "path": "raw/sos-results-index.body.gz",
+      "bytes": 5475,
+      "sha256": "0315b5897d66652a85e2f27648509be2faac408cdc3ccb4d169f46d3377904a9"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:25:37.589072+00:00"
+}

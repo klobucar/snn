@@ -1,0 +1,57 @@
+{
+  "id": "local-parker-1",
+  "requested_url": "https://www.parkercountytx.gov/DocumentCenter/View/13204",
+  "parent_source_url": "https://www.parkercountytx.gov/521/Maps",
+  "retrieved_utc": "2026-10-18T03:34:02.416564+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.parkercountytx.gov/DocumentCenter/View/13204/ParkerCounty2026Map?bidId=",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "application/pdf",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure",
+    "Content-Disposition": "inline;filename=VOTERS%20FLATTENED%20030926_202607200911348561.pdf",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:34:02 GMT",
+    "Content-Length": "5772423"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://www.parkercountytx.gov/DocumentCenter/View/13204",
+      "headers": {
+        "Cache-Control": "private, s-maxage=600,no-transform",
+        "Content-Type": "text/html; charset=utf-8",
+        "Location": "/DocumentCenter/View/13204/ParkerCounty2026Map?bidId=",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=czspcg5e2ofodildrxhtd2cw; path=/; secure; HttpOnly; SameSite=None",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=()",
+        "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+        "Date": "Sun, 18 Oct 2026 03:34:02 GMT",
+        "Content-Length": "170"
+      }
+    }
+  ],
+  "original_bytes": 5772423,
+  "original_sha256": "be02d91cda6fcf69d88f2a3785e9365035072d6c53add6e29b01000555c21080",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/local-parker-1.pdf",
+      "bytes": 5772423,
+      "sha256": "be02d91cda6fcf69d88f2a3785e9365035072d6c53add6e29b01000555c21080"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Parker",
+  "advertised_title": "Complete updated county map with all voting precincts"
+}

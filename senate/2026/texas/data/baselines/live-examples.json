@@ -1,0 +1,660 @@
+{
+  "scope": "SYNTHETIC fixed counted votes, not observed2026 results or a remaining-vote estimate; A=historical Democratic pair scenario,B=Republican; other stays separate",
+  "cases": [
+    {
+      "input": {
+        "counted": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        },
+        "remaining": [
+          {
+            "unit": "Harris illustrative unmatched remainder",
+            "pair_votes": 1000000,
+            "other_votes": 25000,
+            "A_share": 0.53
+          },
+          {
+            "unit": "Other253 counties illustrative remainder",
+            "pair_votes": 3000000,
+            "other_votes": 75000,
+            "A_share": 0.54
+          }
+        ],
+        "target_margin": 0,
+        "denominator": "pair",
+        "selected": null
+      },
+      "result": {
+        "status": "feasible",
+        "required_share": 0.5375,
+        "selected": null,
+        "pair_remaining": 4000000,
+        "solved_pool": 4000000,
+        "other_units_net": 0,
+        "counted_net": -300000,
+        "final_denominator": 10300000,
+        "denominator": "pair",
+        "target_margin": 0,
+        "target_net": 0,
+        "achieved_bounded_net": -1.7462298274040222e-10,
+        "achieved_bounded_margin": -1.6953687644699244e-17,
+        "counted_unchanged": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        },
+        "remaining": [
+          {
+            "unit": "Harris illustrative unmatched remainder",
+            "pair_votes": 1000000,
+            "other_votes": 25000,
+            "A_share": 0.53
+          },
+          {
+            "unit": "Other253 counties illustrative remainder",
+            "pair_votes": 3000000,
+            "other_votes": 75000,
+            "A_share": 0.54
+          }
+        ],
+        "target_margin": 0,
+        "denominator": "pair",
+        "selected": "Harris illustrative unmatched remainder"
+      },
+      "result": {
+        "status": "feasible",
+        "required_share": 0.5299999999999999,
+        "selected": "Harris illustrative unmatched remainder",
+        "pair_remaining": 4000000,
+        "solved_pool": 1000000,
+        "other_units_net": 240000.0000000002,
+        "counted_net": -300000,
+        "final_denominator": 10300000,
+        "denominator": "pair",
+        "target_margin": 0,
+        "target_net": 0,
+        "achieved_bounded_net": 3.637978807091713e-11,
+        "achieved_bounded_margin": 3.532018259312343e-18,
+        "counted_unchanged": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        },
+        "remaining": [
+          {
+            "unit": "Harris illustrative unmatched remainder",
+            "pair_votes": 1000000,
+            "other_votes": 25000,
+            "A_share": 0.53
+          },
+          {
+            "unit": "Other253 counties illustrative remainder",
+            "pair_votes": 3000000,
+            "other_votes": 75000,
+            "A_share": 0.54
+          }
+        ],
+        "target_margin": 0.01,
+        "denominator": "pair",
+        "selected": null
+      },
+      "result": {
+        "status": "feasible",
+        "required_share": 0.550375,
+        "selected": null,
+        "pair_remaining": 4000000,
+        "solved_pool": 4000000,
+        "other_units_net": 0,
+        "counted_net": -300000,
+        "final_denominator": 10300000,
+        "denominator": "pair",
+        "target_margin": 0.01,
+        "target_net": 103000.0,
+        "achieved_bounded_net": 102999.99999999959,
+        "achieved_bounded_margin": 0.00999999999999996,
+        "counted_unchanged": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        },
+        "remaining": [
+          {
+            "unit": "Harris illustrative unmatched remainder",
+            "pair_votes": 1000000,
+            "other_votes": 25000,
+            "A_share": 0.53
+          },
+          {
+            "unit": "Other253 counties illustrative remainder",
+            "pair_votes": 3000000,
+            "other_votes": 75000,
+            "A_share": 0.54
+          }
+        ],
+        "target_margin": 0.01,
+        "denominator": "pair",
+        "selected": "Harris illustrative unmatched remainder"
+      },
+      "result": {
+        "status": "feasible",
+        "required_share": 0.5814999999999999,
+        "selected": "Harris illustrative unmatched remainder",
+        "pair_remaining": 4000000,
+        "solved_pool": 1000000,
+        "other_units_net": 240000.0000000002,
+        "counted_net": -300000,
+        "final_denominator": 10300000,
+        "denominator": "pair",
+        "target_margin": 0.01,
+        "target_net": 103000.0,
+        "achieved_bounded_net": 103000.00000000003,
+        "achieved_bounded_margin": 0.010000000000000004,
+        "counted_unchanged": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        },
+        "remaining": [
+          {
+            "unit": "Harris illustrative unmatched remainder",
+            "pair_votes": 1000000,
+            "other_votes": 25000,
+            "A_share": 0.53
+          },
+          {
+            "unit": "Other253 counties illustrative remainder",
+            "pair_votes": 3000000,
+            "other_votes": 75000,
+            "A_share": 0.54
+          }
+        ],
+        "target_margin": 0,
+        "denominator": "all-candidate",
+        "selected": null
+      },
+      "result": {
+        "status": "feasible",
+        "required_share": 0.5375,
+        "selected": null,
+        "pair_remaining": 4000000,
+        "solved_pool": 4000000,
+        "other_units_net": 0,
+        "counted_net": -300000,
+        "final_denominator": 10500000,
+        "denominator": "all-candidate",
+        "target_margin": 0,
+        "target_net": 0,
+        "achieved_bounded_net": -1.7462298274040222e-10,
+        "achieved_bounded_margin": -1.6630760260990687e-17,
+        "counted_unchanged": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        },
+        "remaining": [
+          {
+            "unit": "Harris illustrative unmatched remainder",
+            "pair_votes": 1000000,
+            "other_votes": 25000,
+            "A_share": 0.53
+          },
+          {
+            "unit": "Other253 counties illustrative remainder",
+            "pair_votes": 3000000,
+            "other_votes": 75000,
+            "A_share": 0.54
+          }
+        ],
+        "target_margin": 0,
+        "denominator": "all-candidate",
+        "selected": "Harris illustrative unmatched remainder"
+      },
+      "result": {
+        "status": "feasible",
+        "required_share": 0.5299999999999999,
+        "selected": "Harris illustrative unmatched remainder",
+        "pair_remaining": 4000000,
+        "solved_pool": 1000000,
+        "other_units_net": 240000.0000000002,
+        "counted_net": -300000,
+        "final_denominator": 10500000,
+        "denominator": "all-candidate",
+        "target_margin": 0,
+        "target_net": 0,
+        "achieved_bounded_net": 3.637978807091713e-11,
+        "achieved_bounded_margin": 3.4647417210397265e-18,
+        "counted_unchanged": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        },
+        "remaining": [
+          {
+            "unit": "Harris illustrative unmatched remainder",
+            "pair_votes": 1000000,
+            "other_votes": 25000,
+            "A_share": 0.53
+          },
+          {
+            "unit": "Other253 counties illustrative remainder",
+            "pair_votes": 3000000,
+            "other_votes": 75000,
+            "A_share": 0.54
+          }
+        ],
+        "target_margin": 0.01,
+        "denominator": "all-candidate",
+        "selected": null
+      },
+      "result": {
+        "status": "feasible",
+        "required_share": 0.550625,
+        "selected": null,
+        "pair_remaining": 4000000,
+        "solved_pool": 4000000,
+        "other_units_net": 0,
+        "counted_net": -300000,
+        "final_denominator": 10500000,
+        "denominator": "all-candidate",
+        "target_margin": 0.01,
+        "target_net": 105000.0,
+        "achieved_bounded_net": 105000.00000000023,
+        "achieved_bounded_margin": 0.010000000000000023,
+        "counted_unchanged": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        },
+        "remaining": [
+          {
+            "unit": "Harris illustrative unmatched remainder",
+            "pair_votes": 1000000,
+            "other_votes": 25000,
+            "A_share": 0.53
+          },
+          {
+            "unit": "Other253 counties illustrative remainder",
+            "pair_votes": 3000000,
+            "other_votes": 75000,
+            "A_share": 0.54
+          }
+        ],
+        "target_margin": 0.01,
+        "denominator": "all-candidate",
+        "selected": "Harris illustrative unmatched remainder"
+      },
+      "result": {
+        "status": "feasible",
+        "required_share": 0.5824999999999999,
+        "selected": "Harris illustrative unmatched remainder",
+        "pair_remaining": 4000000,
+        "solved_pool": 1000000,
+        "other_units_net": 240000.0000000002,
+        "counted_net": -300000,
+        "final_denominator": 10500000,
+        "denominator": "all-candidate",
+        "target_margin": 0.01,
+        "target_net": 105000.0,
+        "achieved_bounded_net": 105000.00000000003,
+        "achieved_bounded_margin": 0.010000000000000002,
+        "counted_unchanged": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        },
+        "remaining": [
+          {
+            "unit": "all-state",
+            "pair_votes": 2000000,
+            "other_votes": 100000
+          }
+        ],
+        "target_margin": 0.01,
+        "denominator": "all-candidate"
+      },
+      "result": {
+        "status": "feasible",
+        "required_share": 0.59625,
+        "selected": null,
+        "pair_remaining": 2000000,
+        "solved_pool": 2000000,
+        "other_units_net": 0,
+        "counted_net": -300000,
+        "final_denominator": 8500000,
+        "denominator": "all-candidate",
+        "target_margin": 0.01,
+        "target_net": 85000.0,
+        "achieved_bounded_net": 84999.99999999977,
+        "achieved_bounded_margin": 0.009999999999999972,
+        "counted_unchanged": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        },
+        "remaining": [
+          {
+            "unit": "all-state",
+            "pair_votes": 4000000,
+            "other_votes": 100000
+          }
+        ],
+        "target_margin": 0.01,
+        "denominator": "all-candidate"
+      },
+      "result": {
+        "status": "feasible",
+        "required_share": 0.550625,
+        "selected": null,
+        "pair_remaining": 4000000,
+        "solved_pool": 4000000,
+        "other_units_net": 0,
+        "counted_net": -300000,
+        "final_denominator": 10500000,
+        "denominator": "all-candidate",
+        "target_margin": 0.01,
+        "target_net": 105000.0,
+        "achieved_bounded_net": 105000.00000000023,
+        "achieved_bounded_margin": 0.010000000000000023,
+        "counted_unchanged": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        },
+        "remaining": [
+          {
+            "unit": "all-state",
+            "pair_votes": 6000000,
+            "other_votes": 100000
+          }
+        ],
+        "target_margin": 0.01,
+        "denominator": "all-candidate"
+      },
+      "result": {
+        "status": "feasible",
+        "required_share": 0.5354166666666667,
+        "selected": null,
+        "pair_remaining": 6000000,
+        "solved_pool": 6000000,
+        "other_units_net": 0,
+        "counted_net": -300000,
+        "final_denominator": 12500000,
+        "denominator": "all-candidate",
+        "target_margin": 0.01,
+        "target_net": 125000.0,
+        "achieved_bounded_net": 124999.99999999983,
+        "achieved_bounded_margin": 0.009999999999999986,
+        "counted_unchanged": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        },
+        "remaining": [
+          {
+            "unit": "all-state",
+            "pair_votes": null,
+            "other_votes": 100000
+          }
+        ],
+        "target_margin": 0.01,
+        "denominator": "all-candidate"
+      },
+      "result": {
+        "status": "unknown-remaining-input",
+        "counted_unchanged": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        },
+        "remaining": [
+          {
+            "unit": "all-state",
+            "pair_votes": 0,
+            "other_votes": 100000
+          }
+        ],
+        "target_margin": 0.01,
+        "denominator": "all-candidate"
+      },
+      "result": {
+        "status": "no-positive-pool",
+        "target_status": "impossible",
+        "required_share": null,
+        "fixed_net": -300000,
+        "final_denominator": 6500000,
+        "counted_unchanged": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        },
+        "remaining": [
+          {
+            "unit": "all-state",
+            "pair_votes": -1,
+            "other_votes": 100000
+          }
+        ],
+        "target_margin": 0.01,
+        "denominator": "all-candidate"
+      },
+      "result": {
+        "status": "invalid-remaining-input",
+        "counted_unchanged": {
+          "A": 3000000,
+          "B": 3300000,
+          "other": 100000
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 100,
+          "B": 0,
+          "other": 0
+        },
+        "remaining": [
+          {
+            "unit": "selected",
+            "pair_votes": 10,
+            "other_votes": 0
+          }
+        ]
+      },
+      "result": {
+        "status": "already-secured",
+        "required_share": -4.5,
+        "selected": null,
+        "pair_remaining": 10,
+        "solved_pool": 10,
+        "other_units_net": 0,
+        "counted_net": 100,
+        "final_denominator": 110,
+        "denominator": "pair",
+        "target_margin": 0.0,
+        "target_net": 0.0,
+        "achieved_bounded_net": 90,
+        "achieved_bounded_margin": 0.8181818181818182,
+        "counted_unchanged": {
+          "A": 100,
+          "B": 0,
+          "other": 0
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 0,
+          "B": 100,
+          "other": 0
+        },
+        "remaining": [
+          {
+            "unit": "selected",
+            "pair_votes": 10,
+            "other_votes": 0
+          }
+        ]
+      },
+      "result": {
+        "status": "impossible",
+        "required_share": 5.5,
+        "selected": null,
+        "pair_remaining": 10,
+        "solved_pool": 10,
+        "other_units_net": 0,
+        "counted_net": -100,
+        "final_denominator": 110,
+        "denominator": "pair",
+        "target_margin": 0.0,
+        "target_net": 0.0,
+        "achieved_bounded_net": -90,
+        "achieved_bounded_margin": -0.8181818181818182,
+        "counted_unchanged": {
+          "A": 0,
+          "B": 100,
+          "other": 0
+        }
+      }
+    },
+    {
+      "input": {
+        "counted": {
+          "A": 0,
+          "B": 0,
+          "other": 0
+        },
+        "remaining": []
+      },
+      "result": {
+        "status": "no-positive-final-denominator",
+        "required_share": null,
+        "counted_unchanged": {
+          "A": 0,
+          "B": 0,
+          "other": 0
+        }
+      }
+    }
+  ]
+}

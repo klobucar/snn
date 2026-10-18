@@ -1,0 +1,58 @@
+{
+  "id": "discovery-48229",
+  "request_url": "https://www.co.hudspeth.tx.us/page/hudspeth.Elections",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:20.863806+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 403,
+  "final_url": "https://www.co.hudspeth.tx.us/page/Elections",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:34:21 GMT",
+    "Content-Length": "2376"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://www.co.hudspeth.tx.us/page/hudspeth.Elections",
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Location": "https://www.co.hudspeth.tx.us/page/Elections",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Content-Security-Policy": "font-src *;img-src * data:;",
+        "Referrer-Policy": "strict-origin",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "Date": "Sun, 18 Oct 2026 03:34:21 GMT",
+        "Content-Length": "167"
+      }
+    }
+  ],
+  "original_bytes": 2376,
+  "original_sha256": "bce8db87db659571c4c03bbeefad0863f81cd80b525ac916f85573f54806338f",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 1028,
+  "stored_stream_sha256": "9643fe69fbb36bef699e89c7235d89b9ec43221504bb6b8d1571df2e826a4536",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48229.body.gz",
+      "bytes": 1028,
+      "sha256": "9643fe69fbb36bef699e89c7235d89b9ec43221504bb6b8d1571df2e826a4536"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:22.058357+00:00"
+}

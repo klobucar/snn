@@ -1,0 +1,61 @@
+{
+  "id": "discovery-48413",
+  "request_url": "https://www.schleichercounty.gov/page/schleicher.Elections",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:20.246233+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.schleichercounty.gov/page/Elections",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "Set-Cookie": "ASP.NET_SessionId=jtetlujlrg4z0mvp3lb2bnfq; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:34:21 GMT",
+    "Content-Length": "34171"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://www.schleichercounty.gov/page/schleicher.Elections",
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Location": "https://www.schleichercounty.gov/page/Elections",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Content-Security-Policy": "font-src *;img-src * data:;",
+        "Referrer-Policy": "strict-origin",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "Date": "Sun, 18 Oct 2026 03:34:20 GMT",
+        "Content-Length": "170"
+      }
+    }
+  ],
+  "original_bytes": 101031,
+  "original_sha256": "7b3a6ff474457472920ac02e61a8e7a99d8e6e08b875f6b1930282ba24de4d1f",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 25794,
+  "stored_stream_sha256": "9f5cf77ddc6cc8abc6dd5ad6086646eb1c91a5d8ef42d11dc1bee40dcb97c6eb",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48413.body.gz",
+      "bytes": 25794,
+      "sha256": "9f5cf77ddc6cc8abc6dd5ad6086646eb1c91a5d8ef42d11dc1bee40dcb97c6eb"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:21.918364+00:00"
+}

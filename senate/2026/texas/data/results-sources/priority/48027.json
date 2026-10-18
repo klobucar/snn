@@ -1,0 +1,266 @@
+{
+  "dispatch_key": "TX:48027",
+  "county_fips": "48027",
+  "county": "Bell",
+  "rank": 15,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48027",
+    "county_fips": "48027",
+    "county": "Bell",
+    "rank": 15,
+    "priority": true,
+    "directory_label": "BELL COUNTY",
+    "authority_role": "Elections Administrator",
+    "authority_name": "Desi Roberts 550 East 2nd Ave. Belton, TX 76513 P.O. Box 1629 Belton 76513",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "http://www.bellcountytx.com/departments/elections/",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48027",
+      "metadata_path": "raw/county-48027.json",
+      "request_url": "http://www.bellcountytx.com/departments/elections/",
+      "final_url": "https://www.bellcountytx.com/departments/elections/",
+      "status": 200,
+      "original_sha256": "3306046495a9bf7b0ddce60f615909ea0ae2e390dcd95383c22fe43743673749",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "sos-county-links"
+    },
+    {
+      "source_id": "county-48027-result2",
+      "metadata_path": "raw/county-48027-result2.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Bell/126390/",
+      "final_url": "https://results.enr.clarityelections.com/TX/Bell/126390/",
+      "status": 200,
+      "original_sha256": "6d00545d20ba03c07bff7c00cdba2f382db71831f49bab36a51b3ac9b7c8c1b6",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48027"
+    },
+    {
+      "source_id": "clarity-48027-config",
+      "metadata_path": "raw/clarity-48027-config.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Bell/126390/380070/json/config.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Bell/126390/380070/json/config.json",
+      "status": 200,
+      "original_sha256": "59f9a60b495fe8bb7b476a348422748fb9b1853f981ad13be7379920dba9d89c",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48027-version"
+    },
+    {
+      "source_id": "clarity-48027-electionsettings",
+      "metadata_path": "raw/clarity-48027-electionsettings.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Bell/126390/380070/json/en/electionsettings.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Bell/126390/380070/json/en/electionsettings.json",
+      "status": 200,
+      "original_sha256": "4bb4287b6c48a2643daae70d1572a8abd8702ad859943da800193c59385ab538",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48027-config"
+    },
+    {
+      "source_id": "clarity-48027-summary",
+      "metadata_path": "raw/clarity-48027-summary.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Bell/126390/380070/json/en/summary.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Bell/126390/380070/json/en/summary.json",
+      "status": 200,
+      "original_sha256": "cb17d0ea7ec313af24bacdab7a5a7b79e08188bf02b9c2e592f3ac6a6f1a282b",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48027-config"
+    },
+    {
+      "source_id": "clarity-48027-status",
+      "metadata_path": "raw/clarity-48027-status.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Bell/126390/380070/json/status.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Bell/126390/380070/json/status.json",
+      "status": 200,
+      "original_sha256": "34a81265a5d1ac975440f8d6ad884f2165de021ea947b4de324f07f21f08e5bf",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48027-config"
+    },
+    {
+      "source_id": "clarity-48027-vc",
+      "metadata_path": "raw/clarity-48027-vc.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Bell/126390/380070/json/vc.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Bell/126390/380070/json/vc.json",
+      "status": 200,
+      "original_sha256": "1dd91a46a8d589f5c52cf19354431e4e0d3a4753100c7f41841aa9cb3425ef7b",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48027-config"
+    }
+  ],
+  "assessment": "County homepage Election Results points to Clarity 126390. Actual date 5/26/2026, name 2026 Primary Runoff Election. Nonzero Cornyn/Paxton Senate votes and 71/72 units are excluded from November; October 9 website clock does not change election identity. Legacy 2016 template header also remains.",
+  "gaps": "November county election route unknown; native old-election status and centers retained as separate source identities.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 14,
+    "CN": "BELL",
+    "MID": 48014,
+    "county_fips": "48027",
+    "dispatch_key": "TX:48027",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 73.0,
+    "P": 0.0,
+    "RV": 246817.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 42.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 246817,
+    "TP": 73,
+    "TV": 0,
+    "TPR": 73
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/14",
+    "summary": "/upload/14/Summary",
+    "senate": "/upload/14/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "BELL",
+    "id": 14,
+    "registered_voters": 246817,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 640,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48027",
+    "county_fips": "48027",
+    "county": "Bell",
+    "rank": "15",
+    "priority": "1",
+    "state_county_id": "14",
+    "state_mid": 48014,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": 114,
+    "derivative_historical_units": 113,
+    "original_historical_units": null,
+    "tlc_vtd_rows": 325,
+    "november_native_gap": "November county election route unknown; native old-election status and centers retained as separate source identities."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

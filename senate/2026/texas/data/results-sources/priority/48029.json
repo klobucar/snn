@@ -1,0 +1,296 @@
+{
+  "dispatch_key": "TX:48029",
+  "county_fips": "48029",
+  "county": "Bexar",
+  "rank": 4,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48029",
+    "county_fips": "48029",
+    "county": "Bexar",
+    "rank": 4,
+    "priority": true,
+    "directory_label": "BEXAR COUNTY",
+    "authority_role": "Elections Administrator",
+    "authority_name": "Michele Carew",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "http://www.bexar.org/elections/index.html",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48029",
+      "metadata_path": "raw/county-48029.json",
+      "request_url": "http://www.bexar.org/elections/index.html",
+      "final_url": "https://elections.bexar.gov",
+      "status": 200,
+      "original_sha256": "32b9b55d5b80c0425891d015a3c53f1b46032d61b8000dd655dc2999da4ec734",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "sos-county-links"
+    },
+    {
+      "source_id": "county-48029-result2",
+      "metadata_path": "raw/county-48029-result2.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/",
+      "final_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/",
+      "status": 200,
+      "original_sha256": "6d00545d20ba03c07bff7c00cdba2f382db71831f49bab36a51b3ac9b7c8c1b6",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48029"
+    },
+    {
+      "source_id": "clarity-48029-config",
+      "metadata_path": "raw/clarity-48029-config.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/config.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/config.json",
+      "status": 200,
+      "original_sha256": "59f9a60b495fe8bb7b476a348422748fb9b1853f981ad13be7379920dba9d89c",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48029-version"
+    },
+    {
+      "source_id": "clarity-48029-electionsettings",
+      "metadata_path": "raw/clarity-48029-electionsettings.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/en/electionsettings.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/en/electionsettings.json",
+      "status": 200,
+      "original_sha256": "14748e0dd3475c03ccc05c38e5bccf26e20610aeb7a1144dd2f80a66b4c272ff",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48029-config"
+    },
+    {
+      "source_id": "clarity-48029-summary",
+      "metadata_path": "raw/clarity-48029-summary.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/en/summary.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/en/summary.json",
+      "status": 200,
+      "original_sha256": "d8bf1b55b4cea4b9ceda7eddb6954610eb6969342886619b3510f226d5f1f99d",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48029-config"
+    },
+    {
+      "source_id": "clarity-48029-status",
+      "metadata_path": "raw/clarity-48029-status.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/status.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/status.json",
+      "status": 200,
+      "original_sha256": "85f5e132247d3e4a6aa74d5a44d7afe31e86d2ee4852242a3b5803a312d160f8",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48029-config"
+    },
+    {
+      "source_id": "clarity-48029-vt",
+      "metadata_path": "raw/clarity-48029-vt.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/vt.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/vt.json",
+      "status": 200,
+      "original_sha256": "14f2dfeac9c8928f51732c0bd54aee3146aa420b5f0fa6e895eb83d766423ad2",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "tarrant-clarity-main"
+    },
+    {
+      "source_id": "clarity-48029-details",
+      "metadata_path": "raw/clarity-48029-details.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/details.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/details.json",
+      "status": 200,
+      "original_sha256": "1fcbc47d0eeb6179194b2422000a4b8e27f509b003a5af77c58b55067ec28cbd",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "tarrant-clarity-main"
+    },
+    {
+      "source_id": "clarity-48029-vc",
+      "metadata_path": "raw/clarity-48029-vc.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/vc.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/vc.json",
+      "status": 200,
+      "original_sha256": "348bb50f48037cc2d9e7f1635478ca720a952a5e867318683d653c9d2d2ccaf8",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48029-config"
+    },
+    {
+      "source_id": "clarity-48029-vc_status",
+      "metadata_path": "raw/clarity-48029-vc_status.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/vc_status.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/vc_status.json",
+      "status": 200,
+      "original_sha256": "b9f2bea9cfe85da99fd01864447912fc13c8abeb110b847609b3799c4a70b7c2",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "tarrant-clarity-main"
+    }
+  ],
+  "assessment": "Actual county link gives Clarity 127291, November 3 date, istestmode=0, all Senate zeros. Senate K=0004, three named printed candidates plus generic Write-in. Status, detail, method and vote-center identities retained separately. Initial TP=806 agrees with state aggregate, not proof of geographic compatibility.",
+  "gaps": "No election-night changing snapshots, named write-in allocation, current polygon approval or outstanding-vote estimate established.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 15,
+    "CN": "BEXAR",
+    "MID": 48015,
+    "county_fips": "48029",
+    "dispatch_key": "TX:48029",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 807.0,
+    "P": 0.0,
+    "RV": 1325780.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 300.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 1325780,
+    "TP": 807,
+    "TV": 0,
+    "TPR": 807
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/15",
+    "summary": "/upload/15/Summary",
+    "senate": "/upload/15/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "BEXAR",
+    "id": 15,
+    "registered_voters": 1325780,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 10,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48029",
+    "county_fips": "48029",
+    "county": "Bexar",
+    "rank": "4",
+    "priority": "1",
+    "state_county_id": "15",
+    "state_mid": 48015,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": 2216,
+    "derivative_historical_units": 1542,
+    "original_historical_units": 776,
+    "tlc_vtd_rows": 3955,
+    "november_native_gap": "No election-night changing snapshots, named write-in allocation, current polygon approval or outstanding-vote estimate established."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

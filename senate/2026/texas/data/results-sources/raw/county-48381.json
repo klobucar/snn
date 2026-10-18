@@ -1,0 +1,79 @@
+{
+  "id": "county-48381",
+  "request_url": "https://www.randallcounty.com/QuickLinks.aspx?CID=19",
+  "parent_id": "sos-county-links",
+  "purpose": "Randall official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:35.213673+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.randallcounty.gov/QuickLinks.aspx?CID=19",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=bubzqfp5zpmiy0xvla3dysuh; path=/; secure; HttpOnly; SameSite=None",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:26:35 GMT",
+    "Content-Length": "29440"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://www.randallcounty.com/QuickLinks.aspx?CID=19",
+      "headers": {
+        "Cache-Control": "private, s-maxage=600,no-transform",
+        "Content-Type": "text/html; charset=utf-8",
+        "Location": "http://www.randallcounty.gov/QuickLinks.aspx?CID=19",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=()",
+        "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+        "Date": "Sun, 18 Oct 2026 03:26:35 GMT",
+        "Content-Length": "168"
+      }
+    },
+    {
+      "status": 302,
+      "url": "http://www.randallcounty.gov/QuickLinks.aspx?CID=19",
+      "headers": {
+        "Cache-Control": "private, s-maxage=600,no-transform",
+        "Content-Type": "text/html; charset=utf-8",
+        "Location": "https://www.randallcounty.gov/QuickLinks.aspx?CID=19",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=()",
+        "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+        "Date": "Sun, 18 Oct 2026 03:26:35 GMT",
+        "Content-Length": "169"
+      }
+    }
+  ],
+  "original_bytes": 87416,
+  "original_sha256": "abf5a31475d7af40f3f5047dec804eddccc512c9865c43488fd766f7759d7e3a",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 22600,
+  "stored_stream_sha256": "85faed3b7c3f74e6bc3930769462755c2e00f7a87ad1a20f88efeb9820cc5bb1",
+  "stored_parts": [
+    {
+      "path": "raw/county-48381.body.gz",
+      "bytes": 22600,
+      "sha256": "85faed3b7c3f74e6bc3930769462755c2e00f7a87ad1a20f88efeb9820cc5bb1"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:36.169236+00:00"
+}

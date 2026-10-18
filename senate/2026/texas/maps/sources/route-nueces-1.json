@@ -1,0 +1,86 @@
+{
+  "id": "route-nueces-1",
+  "requested_url": "https://www.nuecesco.com/quick-links/maps/election-gis-maps",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:33:13.850407+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.nuecesco.com/county-services/county-clerk/elections-department/election-gis-maps",
+  "headers": {
+    "Content-Type": "text/html; charset=utf-8",
+    "Last-Modified": "Sat, 17 Oct 2026 19:42:38 GMT",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Strict-Transport-Security": "max-age=31536000;",
+    "X-XSS-Protection": "1; mode=block",
+    "Expect-CT": "max-age=31536000",
+    "Last-Published": "Sat, 17 Jan 2026 00:22:24 GMT",
+    "Edge-Cache-Tag": "613D50BB.G,613D50BB.P1389,613D50BB.CMENU,613D50BB.CL7,613D50BB.CL3",
+    "GranicusServer": "gasap-viscmsb2",
+    "X-Akamai-Transformed": "9 28310 0 pmb=mRUM,1",
+    "Vary": "Accept-Encoding",
+    "Cache-Control": "public, max-age=58164",
+    "Expires": "Sun, 18 Oct 2026 19:42:38 GMT",
+    "Date": "Sun, 18 Oct 2026 03:33:14 GMT",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive, Transfer-Encoding",
+    "Server-Timing": "cdn-cache; desc=HIT, edge; dur=41, origin; dur=0, ak_p; desc=\"1792294394672_3088984466_156607953_4056_15648_9_0_-\";dur=1"
+  },
+  "redirects": [
+    {
+      "status": 302,
+      "url": "https://www.nuecesco.com/quick-links/maps/election-gis-maps",
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8",
+        "Last-Modified": "Sun, 18 Oct 2026 03:33:14 GMT",
+        "Location": "https://www.nuecesco.com/?navid=843",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000;",
+        "X-XSS-Protection": "1; mode=block",
+        "Expect-CT": "max-age=31536000",
+        "Last-Published": "Tue, 30 Jan 2024 22:16:26 GMT",
+        "Edge-Cache-Tag": "613D50BB.G,613D50BB.P1583,613D50BB.CMENU,613D50BB.CL4",
+        "GranicusServer": "gasap-viscmsb1",
+        "Cache-Control": "public, max-age=86400",
+        "Expires": "Mon, 19 Oct 2026 03:33:14 GMT",
+        "Date": "Sun, 18 Oct 2026 03:33:14 GMT",
+        "Connection": "close",
+        "Set-Cookie": "ASP.NET_SessionId=sdib5me4ubhzktfnmwpijm0j; path=/; secure; HttpOnly; SameSite=Lax, ASP.NET_SessionId=sdib5me4ubhzktfnmwpijm0j; path=/; secure; HttpOnly; SameSite=Lax, __RequestVerificationToken=BgnVaE1lf2kELXMVXC97SX0wT_Do8-wSsa0CTrXG-xxD7Xgw3Fn40gdg1oKnqdE-_v0rLemODc3aR3fmLIn46DrVFBO5H-arYK6tKya8jmA1; path=/; secure; HttpOnly, BIGipServer~AUTO-VISION-PROD~visionlive~www.nuecesco.com_443=!IUKam1Uca6gj+Jindi9M08NkPzUn6k6O3BLEl3xMYvBugP50+4Wj/aLAFznPi0QsFgBpp6cJ7RQjSw==; path=/; Httponly; Secure",
+        "Server-Timing": "cdn-cache; desc=MISS, edge; dur=48, origin; dur=376, ak_p; desc=\"1792294394006_3088984466_156607845_42422_12643_11_22_-\";dur=1"
+      }
+    },
+    {
+      "status": 302,
+      "url": "https://www.nuecesco.com/?navid=843",
+      "headers": {
+        "Cache-Control": "private",
+        "Content-Type": "text/html; charset=utf-8",
+        "Location": "https://www.nuecesco.com/county-services/county-clerk/elections-department/election-gis-maps",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000;",
+        "X-XSS-Protection": "1; mode=block",
+        "Expect-CT": "max-age=31536000",
+        "GranicusServer": "gasap-viscmsb1",
+        "Content-Length": "209",
+        "Date": "Sun, 18 Oct 2026 03:33:14 GMT",
+        "Connection": "keep-alive",
+        "Server-Timing": "cdn-cache; desc=MISS, edge; dur=31, origin; dur=64, ak_p; desc=\"1792294394531_3088984466_156607933_9449_12397_9_23_-\";dur=1"
+      }
+    }
+  ],
+  "original_bytes": 167188,
+  "original_sha256": "b7d88b42b0caa0d5716ee7247c37eacd1adae2de4e2f0f9c5cc25a340c6fe94e",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/route-nueces-1.body",
+      "bytes": 167188,
+      "sha256": "b7d88b42b0caa0d5716ee7247c37eacd1adae2de4e2f0f9c5cc25a340c6fe94e"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Nueces"
+}

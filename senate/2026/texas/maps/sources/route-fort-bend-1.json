@@ -1,0 +1,47 @@
+{
+  "id": "route-fort-bend-1",
+  "requested_url": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration",
+  "parent_source_url": null,
+  "retrieved_utc": "2026-10-18T03:33:12.579124+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:33:13 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "cloudflare",
+    "Cache-Control": "must-revalidate, no-cache, private",
+    "x-drupal-dynamic-cache": "UNCACHEABLE",
+    "x-ua-compatible": "IE=edge",
+    "content-language": "en",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "expires": "Sun, 19 Nov 1978 05:00:00 GMT",
+    "x-generator": "Drupal 9 (https://www.drupal.org)",
+    "vary": "Accept-Encoding",
+    "set-cookie": "__cf_bm=UTVpXsUirm_D52oZ1PmCDDRbS6qDczspuJysm0QBPpY-1792294392.7500608-1.0.1.1-Nut0_sEHJX0L1UyT03WViHG81dE_A.ThigfhrG5N3.BdIHi_dxOi5MjFls3nUtiniDXn6uj71MsaKuhxenHD_li8e9089ZKMlb5S9d1khmBO2AQuUbPWd1Yca1Sz4o7s; HttpOnly; SameSite=None; Secure; Path=/; Domain=fortbendcountytx.gov; Expires=Sun, 18 Oct 2026 04:03:13 GMT",
+    "x-request-id": "v-a5bfe372-caa4-11f1-bfa6-1bf933b0b63a",
+    "x-ah-environment": "prod",
+    "Age": "0",
+    "via": "varnish",
+    "x-cache": "MISS",
+    "cf-cache-status": "DYNAMIC",
+    "CF-RAY": "a4c47af2aa64e1b4-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 192176,
+  "original_sha256": "2facb0bea938f3dbab19c5789bf1eb286da28b1638f445a2de46622871c8c78b",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/route-fort-bend-1.body",
+      "bytes": 192176,
+      "sha256": "2facb0bea938f3dbab19c5789bf1eb286da28b1638f445a2de46622871c8c78b"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Fort Bend"
+}

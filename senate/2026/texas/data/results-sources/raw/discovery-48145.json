@@ -1,0 +1,61 @@
+{
+  "id": "discovery-48145",
+  "request_url": "https://www.co.falls.tx.us/page/falls.Elections",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:20.210441+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.co.falls.tx.us/page/Elections",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "Set-Cookie": "ASP.NET_SessionId=busncvyjg5objajmf2twu2ih; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:34:20 GMT",
+    "Content-Length": "36889"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://www.co.falls.tx.us/page/falls.Elections",
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Location": "https://www.co.falls.tx.us/page/Elections",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Content-Security-Policy": "font-src *;img-src * data:;",
+        "Referrer-Policy": "strict-origin",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "Date": "Sun, 18 Oct 2026 03:34:20 GMT",
+        "Content-Length": "164"
+      }
+    }
+  ],
+  "original_bytes": 257791,
+  "original_sha256": "bd679f4d954f0db9c535130e8e46c3a42ff99f4f7200e175f213ea1a7eafa770",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 20690,
+  "stored_stream_sha256": "1d650b3a4b8330bd3a485212270eef8aec4135ea1f1848472000ae9daf835288",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48145.body.gz",
+      "bytes": 20690,
+      "sha256": "1d650b3a4b8330bd3a485212270eef8aec4135ea1f1848472000ae9daf835288"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:21.425697+00:00"
+}

@@ -1,0 +1,106 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-18T03:46:49.920823+00:00",
+  "scope": "Independent identity/hash/zero-setup and hidden-test checks only; no genuine vote release or geographic compatibility established.",
+  "state_election": 53815,
+  "state_Senate_contest": 5075,
+  "complete_named_counties": 254,
+  "county_candidate_cells": 1778,
+  "primary_ballot_certification_county_blocks": 254,
+  "certified_declared_Senate_writeins": [
+    "Avery Ayers",
+    "Bradford \"Brad\" Hall",
+    "Zul Mohamed",
+    "Jade Simmons"
+  ],
+  "PDF_review": "Coordinator visually inspected certification cover/first county block, full one-page write-in certification and sample Senate page. Full254 county nominee blocks match; source originals retained in results-sources.",
+  "PDF_preview_hashes": {
+    "coordinator-pdf-review/sos-certification.png": "40e408f325c6cece17b65ddff4a79ae45a83cdffe449c516e955750fc485072c",
+    "coordinator-pdf-review/sos-certification-p2.png": "a7d268b1c966cc06c2d2081b430f9642f3451494a1a9af83687763056a0c848a",
+    "coordinator-pdf-review/sos-writeins.png": "321dcb1e1dbc27e96691bbda22fd0b08a9bd1bb04a312001a9c15c2919ad82fc",
+    "coordinator-pdf-review/sos-sample-ballot.png": "548755b1708e9bf3940501c457c6267373e40c55088440047a4e17c7b2734a8d"
+  },
+  "MID_semantics": "48000 plus native alphabetical ordinal, not FIPS; complete published names used for the join",
+  "accidental_MID_FIPS_matches": 1,
+  "state_Home_precincts": {
+    "PR": 0,
+    "PT": 5
+  },
+  "state_county_Senate_TP_sum": 9900,
+  "state_Home_polling_reporting": {
+    "PLR": 0,
+    "PLT": 5299
+  },
+  "Harris_Senate_literal_units": 1224,
+  "Harris_state_Senate_TP": 1225,
+  "Clarity_observations": [
+    {
+      "county_fips": "48439",
+      "electiondate": "11/3/2026",
+      "istestmode": "1",
+      "showtestdatawatermark": "0",
+      "observed_Senate_TP": 2985,
+      "admission": "excluded test"
+    },
+    {
+      "county_fips": "48141",
+      "electiondate": "11/3/2026",
+      "istestmode": "1",
+      "showtestdatawatermark": "0",
+      "observed_Senate_TP": 236,
+      "admission": "excluded test"
+    },
+    {
+      "county_fips": "48029",
+      "electiondate": "11/3/2026",
+      "istestmode": "0",
+      "showtestdatawatermark": "0",
+      "observed_Senate_TP": 806,
+      "admission": "November zero setup only"
+    },
+    {
+      "county_fips": "48027",
+      "electiondate": "5/26/2026",
+      "istestmode": "0",
+      "showtestdatawatermark": "0",
+      "observed_Senate_TP": null,
+      "admission": "excluded wrong election"
+    }
+  ],
+  "dependencies": {
+    "results-sources/raw/sos-november-data.body.gz": "e815607c508bc11ed0071b32f2a44dd0e25d37c9988f1f088ca7b541cf80d5f9",
+    "results-sources/raw/sos-november-data.json": "adad5dd199f5287b885034563584c68218e035327fce3343a7c808987268af13",
+    "results-sources/raw/sos-november-counties.body.gz": "fbc8ee02926b49da8beeb62e9b53137cdd54d0393c927b4b5b39d8189a7c0e4e",
+    "results-sources/raw/sos-november-counties.json": "e5b736e47b3ef552333db6b37dbe090705abedb1735149d9c804fccabc7b394e",
+    "results-sources/raw/sos-certification.body.gz": "aa297a949a62c0b7b49af2b51c6aec84016a2d94e4d563cd95c4bef76d8c8401",
+    "results-sources/raw/sos-certification.json": "28ea8c31f68d209aad71278b40c14e00bd0577de6df70fd72f615a487824c937",
+    "results-sources/raw/sos-writeins.body.gz": "6b78683b01885c99ed98b5bd62d4b472fe3d27494d4849bcd671dcdedcb66a89",
+    "results-sources/raw/sos-writeins.json": "9b943906910edbb6ee4e7d239eca5350f08a6118eefb9957541acf70b6adf39e",
+    "results-sources/raw/sos-sample-ballot.body.gz": "172c04c1045c845b1da7d469a4d828b393ba0377d9d767267acf034976def4d0",
+    "results-sources/raw/sos-sample-ballot.json": "2dce3ef159f3d8fddf73b7d8f35a2bd3c093473cd78bbda3ad55e4c6b5f96c98",
+    "results-sources/raw/harris-senate-precinct.body.gz": "5f26b51e21391f46bbc47804338425ec90d988ac8551cf8332d787b3318f9332",
+    "results-sources/raw/harris-senate-precinct.json": "c43921a10e9a7761501c3adc4cce1c171a1207086148983753a35824cd06e4a6",
+    "results-sources/raw/harris-reporting.body.gz": "b3e872d9e58f7d3092213cda60b73721e435f8675457e21bcb9afdfa19a09404",
+    "results-sources/raw/harris-reporting.json": "37f02a29a9dc0e7153e53a5175ed7f184747435332831ae411f918c50568179b",
+    "results-sources/raw/clarity-48439-electionsettings.body.gz": "ad912db7f3448f0c90465249caf09678db67b15adf61fe079a418a31340e81ed",
+    "results-sources/raw/clarity-48439-electionsettings.json": "f28f409af2e69e1cff88bcb6dd4d5630533f45190869da394e9e3e84741c2b0e",
+    "results-sources/raw/clarity-48439-summary.body.gz": "85e67aa57aa3f9d0fbb31bc70d1e84db92e06c627ff223f535bca8e14d54f740",
+    "results-sources/raw/clarity-48439-summary.json": "69cc37d24899d5f6b31961ffac01414628e579dedccc2a001f5bce42e6ac97d9",
+    "results-sources/raw/clarity-48141-electionsettings.body.gz": "124993893dff053dbba8c3ca449c92dbfe1a18ca4bbd337272abbf511fc9ed91",
+    "results-sources/raw/clarity-48141-electionsettings.json": "594d24696c621aca2fff7c15a71a36d9eb2ce3e0566a138ae8555f426077949b",
+    "results-sources/raw/clarity-48141-summary.body.gz": "1980d886aef93edf9acd5d4e493ac0de8e10f46bff582fec56676b906843061c",
+    "results-sources/raw/clarity-48141-summary.json": "a03bccdb17efc98fa37eeacefb15fc3557f4c36e8803d9fc6fe5e21bf8297bba",
+    "results-sources/raw/clarity-48029-electionsettings.body.gz": "bc105b7571030c836c77d856ade5c543c9efccb4b26c97bd85f6ef0743fc686a",
+    "results-sources/raw/clarity-48029-electionsettings.json": "69db1d3b36dfcca38007511dc8f2d08383efd818a300eaa67e35510b0f6c89c2",
+    "results-sources/raw/clarity-48029-summary.body.gz": "dc06d16527a0c1e26fc07ace2ed68570a695359fa3b00f6813b6530ad33ada3f",
+    "results-sources/raw/clarity-48029-summary.json": "c1d41c43f0d1c43c8140394ca8896d051be26036b005a315d040ebdcc68f008f",
+    "results-sources/raw/clarity-48027-electionsettings.body.gz": "a90419c0a3292adf75f2db2c26378716a04d582bf418e648d40172cf7b095829",
+    "results-sources/raw/clarity-48027-electionsettings.json": "d843c025d7bbae1e54f07eb7d34ed58bb636ee885e0974a9cd1beaee41a375da"
+  },
+  "limitations": [
+    "Home and county completion denominators have different unexplained scopes; neither measures votes remaining.",
+    "Harris has four vendor candidate columns versus seven named statewide candidates; write-in scope/crosswalk unestablished.",
+    "Test flags override November labels and hidden watermark; client refresh and page clocks do not establish count cadence.",
+    "No collector, votes allocated, approved 2026 boundary crosswalk or calibrated probability."
+  ]
+}

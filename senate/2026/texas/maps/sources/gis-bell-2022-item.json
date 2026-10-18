@@ -1,0 +1,39 @@
+{
+  "id": "gis-bell-2022-item",
+  "requested_url": "https://www.arcgis.com/sharing/rest/content/items/250ca2cd5f6d4717814ff9dcfb65ad97?f=pjson",
+  "parent_source_url": "https://www.bellcountytx.com/departments/elections/",
+  "retrieved_utc": "2026-10-18T03:37:43.451659+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.arcgis.com/sharing/rest/content/items/250ca2cd5f6d4717814ff9dcfb65ad97?f=pjson",
+  "headers": {
+    "Content-Type": "text/plain;charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:37:43 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Server": "ArcGIS Online",
+    "X-Content-Type-Options": "nosniff",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "Expires": "-1",
+    "Vary": "Origin",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 33b192d45ee9750732dc09754b79e122.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD51-P2",
+    "X-Amz-Cf-Id": "jyiszZw7tI22p4wSIGpMAPga9QJr4OYxubBL-mZ8SQzhtjtMRdIECw=="
+  },
+  "redirects": [],
+  "original_bytes": 5888,
+  "original_sha256": "c22a41b4b25bd71c5f202edf1c8ea47af9436e46fd604318ecd6b2c066edc2a3",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/gis-bell-2022-item.body",
+      "bytes": 5888,
+      "sha256": "c22a41b4b25bd71c5f202edf1c8ea47af9436e46fd604318ecd6b2c066edc2a3"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256."
+}

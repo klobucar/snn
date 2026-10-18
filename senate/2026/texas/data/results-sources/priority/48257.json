@@ -1,0 +1,236 @@
+{
+  "dispatch_key": "TX:48257",
+  "county_fips": "48257",
+  "county": "Kaufman",
+  "rank": 29,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48257",
+    "county_fips": "48257",
+    "county": "Kaufman",
+    "rank": 29,
+    "priority": true,
+    "directory_label": "KAUFMAN COUNTY",
+    "authority_role": "Elections Administrator",
+    "authority_name": "Tandi Smith",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "https://www.kaufmancounty.net/",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48257",
+      "metadata_path": "raw/county-48257.json",
+      "request_url": "https://www.kaufmancounty.net/",
+      "final_url": "https://www.kaufmancounty.net/",
+      "status": 200,
+      "original_sha256": "a9dd03e1b568496e4f7c0f94b8155e36ed559418950ea0a60784760a8f96fa0d",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "sos-county-links"
+    },
+    {
+      "source_id": "county-48257-office",
+      "metadata_path": "raw/county-48257-office.json",
+      "request_url": "https://www.kaufmancounty.net/237/Elections",
+      "final_url": "https://www.kaufmancounty.net/237/Elections",
+      "status": 200,
+      "original_sha256": "8859ac06b988c1990f0146361f4ed4f45db7517e14370e15629bd81a14c2446b",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48257"
+    },
+    {
+      "source_id": "county-48257-office-follow1",
+      "metadata_path": "raw/county-48257-office-follow1.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Kaufman/",
+      "final_url": "https://results.enr.clarityelections.com/TX/Kaufman/",
+      "status": 200,
+      "original_sha256": "01c8659dd92643a34505866f52a3c04e0ff8a35da25e9337a6b664bdd5d3bb6e",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48257-office"
+    },
+    {
+      "source_id": "county-48257-office-follow2",
+      "metadata_path": "raw/county-48257-office-follow2.json",
+      "request_url": "https://www.kaufmancounty.net/436/ELECTION-RESULTS",
+      "final_url": "https://www.kaufmancounty.net/436/ELECTION-RESULTS",
+      "status": 200,
+      "original_sha256": "a15dbc4cea1a3705b15515a917b743184c2f80b4fe49d422e117cb39f4d1792d",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48257-office"
+    }
+  ],
+  "assessment": "Actual county Elections and ELECTION RESULTS pages link the Clarity Kaufman selector and distinguish 2021-current from earlier results. Selector retained without guessing a November election ID.",
+  "gaps": "November contest/vendor snapshot, candidate and finer-unit IDs not verified from selector.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 129,
+    "CN": "KAUFMAN",
+    "MID": 48129,
+    "county_fips": "48257",
+    "dispatch_key": "TX:48257",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 38.0,
+    "P": 0.0,
+    "RV": 119211.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 24.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 119211,
+    "TP": 38,
+    "TV": 0,
+    "TPR": 38
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/129",
+    "summary": "/upload/129/Summary",
+    "senate": "/upload/129/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "KAUFMAN",
+    "id": 129,
+    "registered_voters": 119211,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 1,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48257",
+    "county_fips": "48257",
+    "county": "Kaufman",
+    "rank": "29",
+    "priority": "1",
+    "state_county_id": "129",
+    "state_mid": 48129,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": null,
+    "derivative_historical_units": 104,
+    "original_historical_units": null,
+    "tlc_vtd_rows": 185,
+    "november_native_gap": "November contest/vendor snapshot, candidate and finer-unit IDs not verified from selector."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

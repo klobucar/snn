@@ -1,0 +1,51 @@
+{
+  "id": "clarity-48367-summary",
+  "request_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/en/summary.json",
+  "parent_id": "clarity-48367-config",
+  "purpose": "bundle-enumerated file at actual linked county/election/version/lang",
+  "retrieval_started_utc": "2026-10-18T03:33:46.213870+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/en/summary.json",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:33:46 GMT",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "HIT",
+    "Last-Modified": "Tue, 10 Mar 2026 18:16:58 GMT",
+    "ETag": "W/\"69b0601a-f949\"",
+    "Expires": "Sat, 17 Oct 2026 01:45:02 GMT",
+    "Cache-Control": "max-age=86400",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 af315b6ef3c266f73baf65f36a381a24.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "DqXzMA1R-Vg9lCCLYicd7aOkTEokSVf4p4J9MuH5dDtQMF1RdpFwTQ==",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 63817,
+  "original_sha256": "ac27fb49c27c935d871c4219e6fc6671ac1661d8f7d5b3f658951b3424d08bb6",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 6320,
+  "stored_stream_sha256": "1037d06a8489471eac04260c1c06c2a42e2224ecee53c1ac8c3e7cd0dadad5a8",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48367-summary.body.gz",
+      "bytes": 6320,
+      "sha256": "1037d06a8489471eac04260c1c06c2a42e2224ecee53c1ac8c3e7cd0dadad5a8"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:33:46.294910+00:00"
+}

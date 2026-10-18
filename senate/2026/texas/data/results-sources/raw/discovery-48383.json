@@ -1,0 +1,61 @@
+{
+  "id": "discovery-48383",
+  "request_url": "https://www.co.reagan.tx.us/page/reagan.Elections",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:21.424893+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.co.reagan.tx.us/page/Elections",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "Set-Cookie": "ASP.NET_SessionId=lizzktoccd1m4wbnt2tsejba; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:34:22 GMT",
+    "Content-Length": "24739"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://www.co.reagan.tx.us/page/reagan.Elections",
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Location": "https://www.co.reagan.tx.us/page/Elections",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "Content-Security-Policy": "font-src *;img-src * data:;",
+        "Referrer-Policy": "strict-origin",
+        "X-Content-Type-Options": "nosniff",
+        "X-XSS-Protection": "1; mode=block",
+        "Date": "Sun, 18 Oct 2026 03:34:22 GMT",
+        "Content-Length": "165"
+      }
+    }
+  ],
+  "original_bytes": 134619,
+  "original_sha256": "2d94023ec6afea9263f223cb1d28daca4f1ad8fbed4fd413ba8d701099ca1fb3",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 16769,
+  "stored_stream_sha256": "1cfe13d114e80452b0442ffc8312c465f90d2439c71d3a6f60ca72de699848ff",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48383.body.gz",
+      "bytes": 16769,
+      "sha256": "1cfe13d114e80452b0442ffc8312c465f90d2439c71d3a6f60ca72de699848ff"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:22.625231+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "extra-denton-hub",
+  "requested_url": "https://data-dentoncounty.hub.arcgis.com/",
+  "parent_source_url": "https://www.dentoncounty.gov/1147/Geographic-Information-Systems-GIS",
+  "retrieved_utc": "2026-10-18T03:41:21.000701+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://data-dentoncounty.hub.arcgis.com/",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:41:21 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "42750",
+    "Connection": "keep-alive",
+    "Strict-Transport-Security": "max-age=31536000, max-age=31536000",
+    "ETag": "W/\"a6fe-w2ANxruYCM39sy4VYwev/rD2ZWY\"",
+    "X-Content-Type-Options": "nosniff",
+    "Content-Security-Policy": "upgrade-insecure-requests"
+  },
+  "redirects": [],
+  "original_bytes": 42750,
+  "original_sha256": "0ff349577ea46669a00696827552ccd49a5d23e3c966cce58db28f8dd4844fbf",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/extra-denton-hub.body",
+      "bytes": 42750,
+      "sha256": "0ff349577ea46669a00696827552ccd49a5d23e3c966cce58db28f8dd4844fbf"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Denton",
+  "advertised_title": "Official linked data hub; JavaScript catalog discovery"
+}

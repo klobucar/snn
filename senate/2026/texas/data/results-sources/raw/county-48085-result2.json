@@ -1,0 +1,49 @@
+{
+  "id": "county-48085-result2",
+  "request_url": "https://www.collincountytx.gov/elections/election-results-archive",
+  "parent_id": "county-48085",
+  "purpose": "Election Results Archive ",
+  "retrieval_started_utc": "2026-10-18T03:27:08.558009+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.collincountytx.gov/elections/election-results-archive",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:27:08 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "CF-Ray": "a4c4720f4b9e5810-ORD",
+    "CF-Cache-Status": "HIT",
+    "Age": "33308",
+    "Cache-Control": "public, max-age=0, s-maxage=43200",
+    "Last-Modified": "Sat, 17 Oct 2026 18:11:59 GMT",
+    "Server": "cloudflare",
+    "Strict-Transport-Security": "max-age=31536000; preload",
+    "Content-Security-Policy": "script-src cdn.assistant.cloud.sitefinity.com https://cdn.insight.sitefinity.com https://player.vimeo.com/api/player.js https://www.youtube.com/iframe_api 'self' 'nonce-NYTV0uSvKN0nl+GZgHq18w==' https://siteimproveanalytics.com https://www.googletagmanager.com https://cdn.assistant.cloud.sitefinity.com http://localhost:* https://js.arcgis.com https://cdn.jsdelivr.net; style-src cdn.assistant.cloud.sitefinity.com 'unsafe-inline' https://cdn.insight.sitefinity.com 'self' https://cdn.assistant.cloud.sitefinity.com http://localhost:* https://js.arcgis.com https://*.arcgis.com https://*.arcgisonline.com; img-src cdn.assistant.cloud.sitefinity.com data: https://cdn.insight.sitefinity.com 'self' https://*.global.r2.siteimproveanalytics.io https://www.google-analytics.com http://localhost:* data: blob: https://*.arcgis.com https://*.arcgisonline.com data: blob: https://*.petango.com; connect-src https://*.insight.sitefinity.com https://*.dec.sitefinity.com 'self' *.collincountytx.gov https://js.arcgis.com https://cdn.jsdelivr.net https://eagenda.collincountytx.gov https://siteimproveanalytics.com https://www.google-analytics.com https://region1.google-analytics.com https://cdn.assistant.cloud.sitefinity.com http://localhost:* ws://localhost:* https://js.arcgis.com https://cdn.jsdelivr.net https://*.arcgis.com https://*.arcgisonline.com; default-src  'self' *.collincountytx.gov; media-src  'self' https://cdn3.wowza.com http://localhost:* ; font-src data: 'self' http://localhost:* data: https://js.arcgis.com; frame-src  https://collincountytx.new.swagit.com https://eagenda.collincountytx.gov http://localhost:*",
+    "Request-Context": "appId=cid-v1:4f17d9f0-74d0-4a42-8f75-45e637176788",
+    "Vary": "accept-encoding",
+    "Content-Encoding": "gzip",
+    "Set-Cookie": "visid_incap_2797347=MGRhNLMISV2EoxxB04dHJIw81GoAAAAAQUIPAAAAAADNiaYpTp8c7B6PDcdy23Mc; expires=Sun, 17 Oct 2027 06:20:53 GMT; HttpOnly; path=/; Domain=.collincountytx.gov, incap_ses_533_2797347=Ntd8fJB2808StwUDwJhlB4w81GoAAAAAm/ch5pb8yaro59ixTCwKHw==; path=/; Domain=.collincountytx.gov",
+    "X-CDN": "Imperva",
+    "X-Iinfo": "49-228823199-228823204 NNNY CT(3 5 0) RT(1792294028659 24) q(0 0 0 -1) r(0 0) U24"
+  },
+  "redirects": [],
+  "original_bytes": 512388,
+  "original_sha256": "0cdc9421f7a218ebb854b1f002907f0f067c4d7a8ca60a891044886415d8fbfe",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 34533,
+  "stored_stream_sha256": "bc6136a2e6b0525d3f429493914520b9e1c2c8c921df83557093cb3caff431f6",
+  "stored_parts": [
+    {
+      "path": "raw/county-48085-result2.body.gz",
+      "bytes": 34533,
+      "sha256": "bc6136a2e6b0525d3f429493914520b9e1c2c8c921df83557093cb3caff431f6"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:08.664917+00:00"
+}

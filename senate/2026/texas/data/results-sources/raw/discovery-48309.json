@@ -1,0 +1,43 @@
+{
+  "id": "discovery-48309",
+  "request_url": "https://www.mclennan.gov/406/Past-Elections-Results",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:19.872559+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 403,
+  "final_url": "https://www.mclennan.gov/406/Past-Elections-Results",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:34:20 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "set-cookie": "__cf_bm=Fe5EmXvcjSSiuF.WBYpb2YcB2ClJJdV0wWh__35zuYU-1792294460.1303976-1.0.1.1-mSAt3YW5SlS.rLMHicUPPOQwszdMkJO4xEyDRp5SEhqzupYxl6OXCtrBcMYseetYknLMxveHEm7TYl29iu_wwRm0PCRUnN.fGpRMhLRbNZmkcILvBmkJHEcfX3YA3zVj; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.mclennan.gov; Expires=Sun, 18 Oct 2026 04:04:20 GMT",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47c97ce0f10f4-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 5484,
+  "original_sha256": "82b6399adab529d61669165678a723d6e05cf95bfa3f561d190081e16901b0f3",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 2097,
+  "stored_stream_sha256": "a87028e77a55d172d5e57320dfa4de335598d4df3d2957d0a8a672321f8cfdfa",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48309.body.gz",
+      "bytes": 2097,
+      "sha256": "a87028e77a55d172d5e57320dfa4de335598d4df3d2957d0a8a672321f8cfdfa"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:20.210594+00:00"
+}

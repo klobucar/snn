@@ -1,0 +1,49 @@
+{
+  "id": "county-48121-office",
+  "request_url": "https://www.dentoncounty.gov/1021/Elections",
+  "parent_id": "county-48121",
+  "purpose": "exact linked office route   Elections   ",
+  "retrieval_started_utc": "2026-10-18T03:28:45.711239+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.dentoncounty.gov/1021/Elections",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:28:46 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "28382",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Strict-Transport-Security": "max-age=15552000",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "camera=(), microphone=()",
+    "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "cf-cache-status": "DYNAMIC",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=04ggq0bjomr0vhithkj2mvxb; path=/; secure; HttpOnly; SameSite=None, __cf_bm=fUMoWG_vbPzSWPN2y9EdaPetoRVNz4PgELAKvAAwXtM-1792294125.8582227-1.0.1.1-5Wi_7XMnBPxw.xf9GgPHBuw0Z7G5qiI1G.WRNW.Ua9qyDwMa4XVWIvllFK60w2w1crSMRFcNlH99HHMNaG.PtbOfKYYevytZNy95bOBR39dVHLF.VGanQ2EGXtHvtw9r; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.dentoncounty.gov; Expires=Sun, 18 Oct 2026 03:58:46 GMT",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c4746e9c8727e1-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 103141,
+  "original_sha256": "81d36961b7ec312df3df333e117a6d91a3abfae46f43628dc268bbe75d0a85b4",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 20589,
+  "stored_stream_sha256": "14836c37c939e35fccdf3eac293a875cedface64082dea9a7e401543892b5a7d",
+  "stored_parts": [
+    {
+      "path": "raw/county-48121-office.body.gz",
+      "bytes": 20589,
+      "sha256": "14836c37c939e35fccdf3eac293a875cedface64082dea9a7e401543892b5a7d"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:28:46.019432+00:00"
+}

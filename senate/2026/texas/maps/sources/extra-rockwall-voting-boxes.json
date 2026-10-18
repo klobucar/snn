@@ -1,0 +1,57 @@
+{
+  "id": "extra-rockwall-voting-boxes",
+  "requested_url": "https://www.rockwallcountytexas.com/DocumentCenter/View/14413",
+  "parent_source_url": "https://www.rockwallcountytexas.com/889/County-Maps",
+  "retrieved_utc": "2026-10-18T03:35:10.374852+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.rockwallcountytexas.com/DocumentCenter/View/14413/VotingBoxes_48x36?bidId=",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "application/pdf",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure",
+    "Content-Disposition": "inline;filename=SubPrecinctMap_48x36.pdf",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 03:35:10 GMT",
+    "Content-Length": "18386162"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://www.rockwallcountytexas.com/DocumentCenter/View/14413",
+      "headers": {
+        "Cache-Control": "private, s-maxage=600,no-transform",
+        "Content-Type": "text/html; charset=utf-8",
+        "Location": "/DocumentCenter/View/14413/VotingBoxes_48x36?bidId=",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=hdymhjni2ljilmaztefm1aah; path=/; secure; HttpOnly; SameSite=None",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=()",
+        "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+        "Date": "Sun, 18 Oct 2026 03:35:09 GMT",
+        "Content-Length": "168"
+      }
+    }
+  ],
+  "original_bytes": 18386162,
+  "original_sha256": "2efe5912e5261beb8ffbb577b3182a1a5390514e8edc32abef71c1183122b775",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/extra-rockwall-voting-boxes.pdf",
+      "bytes": 18386162,
+      "sha256": "2efe5912e5261beb8ffbb577b3182a1a5390514e8edc32abef71c1183122b775"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Rockwall",
+  "advertised_title": "Updated Voting Boxes; inspect actual title and scope"
+}

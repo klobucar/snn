@@ -1,0 +1,47 @@
+{
+  "id": "sos-county-officials",
+  "request_url": "https://www.sos.state.tx.us/elections/voter/county.shtml",
+  "parent_id": "sos-elections",
+  "purpose": "county election officials directory",
+  "retrieval_started_utc": "2026-10-18T03:25:37.319050+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.sos.state.tx.us/elections/voter/county.shtml",
+  "headers": {
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "AmazonS3",
+    "Last-Modified": "Sat, 17 Oct 2026 14:48:17 GMT",
+    "Content-Encoding": "gzip",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-version-id": ".kK734YXDTAW2BIwuwMwH2mo2YsS0qCY",
+    "Date": "Sun, 18 Oct 2026 03:25:38 GMT",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "ETag": "W/\"1b4dede768e54f1e50c005f0ab2e848e\"",
+    "Vary": "Accept-Encoding",
+    "X-Cache": "RefreshHit from cloudfront",
+    "Via": "1.1 bdf9f191cc49914972d9617c16f6ae64.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P6",
+    "X-Amz-Cf-Id": "DXKj5DWwccG8u8Kd2N6d7_aoawC-fUaAmTIZ1ofBnvGiLBm7rBGO1Q=="
+  },
+  "redirects": [],
+  "original_bytes": 182736,
+  "original_sha256": "b82003972bdf918516a0d93defad047f87a00acc77fac6a930e5a77927db9222",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 29744,
+  "stored_stream_sha256": "ee2c79d5c77f29239da3f711600aee307a5381690f3bbcf1fbfa062465834c48",
+  "stored_parts": [
+    {
+      "path": "raw/sos-county-officials.body.gz",
+      "bytes": 29744,
+      "sha256": "ee2c79d5c77f29239da3f711600aee307a5381690f3bbcf1fbfa062465834c48"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:25:37.601129+00:00"
+}

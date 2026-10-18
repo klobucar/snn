@@ -1,0 +1,53 @@
+{
+  "id": "county-48355",
+  "request_url": "http://www.co.nueces.tx.us/",
+  "parent_id": "sos-county-links",
+  "purpose": "Nueces official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:34.198732+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 403,
+  "final_url": "https://www.nuecesco.com/",
+  "headers": {
+    "Server": "AkamaiGHost",
+    "Mime-Version": "1.0",
+    "Content-Type": "text/html",
+    "Content-Length": "406",
+    "X-Reference-Error": "18.9f291eb8.1792293994.598a802",
+    "Cache-Control": "max-age=0, max-age=0, no-cache, no-store",
+    "Expires": "Sun, 18 Oct 2026 03:26:34 GMT",
+    "Date": "Sun, 18 Oct 2026 03:26:34 GMT",
+    "Connection": "close",
+    "Server-Timing": "cdn-cache; desc=HIT, edge; dur=1, ak_p; desc=\"1792293994812_3088984479_93890562_19_13051_8_0_-\";dur=1"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "http://www.co.nueces.tx.us/",
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Location": "https://www.nuecesco.com/",
+        "Server": "Microsoft-IIS/10.0",
+        "Date": "Sun, 18 Oct 2026 03:26:33 GMT",
+        "Content-Length": "148"
+      }
+    }
+  ],
+  "original_bytes": 406,
+  "original_sha256": "e61982a8291047b32e4ec5224043a25a6e46101cb3879f199c2f818ef50125e2",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 265,
+  "stored_stream_sha256": "ee25a975d780c234e477b4c7270f50c339c09513763b6b71ef5d64a06c89f08a",
+  "stored_parts": [
+    {
+      "path": "raw/county-48355.body.gz",
+      "bytes": 265,
+      "sha256": "ee25a975d780c234e477b4c7270f50c339c09513763b6b71ef5d64a06c89f08a"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:34.749174+00:00"
+}

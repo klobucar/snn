@@ -1,0 +1,68 @@
+{
+  "id": "local-williamson-1",
+  "requested_url": "https://www.wilcotx.gov/DocumentCenter/View/17903",
+  "parent_source_url": "https://www.wilcotx.gov/190/Maps",
+  "retrieved_utc": "2026-10-18T03:34:04.549650+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.wilcotx.gov/DocumentCenter/View/17903/2026-Voting-Precinct-Map-PDF?bidId=",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:34:04 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "5593598",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "content-disposition": "inline;filename=36x48_VP_01012026.pdf",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "camera=(), microphone=()",
+    "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Accept-Ranges": "bytes",
+    "last-modified": "Sun, 18 Oct 2026 03:34:04 GMT",
+    "expires": "Sun, 18 Oct 2026 03:34:34 GMT",
+    "cf-cache-status": "MISS",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47c382e1f60b1-ORD"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://www.wilcotx.gov/DocumentCenter/View/17903",
+      "headers": {
+        "Date": "Sun, 18 Oct 2026 03:34:04 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=30",
+        "location": "/DocumentCenter/View/17903/2026-Voting-Precinct-Map-PDF?bidId=",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "permissions-policy": "camera=(), microphone=()",
+        "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+        "expires": "Sun, 18 Oct 2026 03:34:34 GMT",
+        "cf-cache-status": "MISS",
+        "set-cookie": "__cf_bm=37vSLf1uUCy9BT4r1wHUzbfM652hq_kwRATE9fwoYNQ-1792294444.7516563-1.0.1.1-pj_6nltzn8bQU9Sw6oqGzYDvlv.S6QlADU6AVUFLG7pAO7rcXACwDiHWiHws1DY.5McjpCZgu1GD3ZxqZbHl53fZy89wMkM7V0VJpuValqnJpSCJnjSfhvd2195g5Y1g; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.wilcotx.gov; Expires=Sun, 18 Oct 2026 04:04:04 GMT",
+        "Server": "cloudflare",
+        "CF-RAY": "a4c47c37ad9d60b1-ORD"
+      }
+    }
+  ],
+  "original_bytes": 5593598,
+  "original_sha256": "ca0d6d560db2ec8ac41a2106516e1d2a622c634e567eee48b29b40ec9f474e0e",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/local-williamson-1.pdf",
+      "bytes": 5593598,
+      "sha256": "ca0d6d560db2ec8ac41a2106516e1d2a622c634e567eee48b29b40ec9f474e0e"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Williamson",
+  "advertised_title": "Voter Precincts for Williamson County (PDF)"
+}

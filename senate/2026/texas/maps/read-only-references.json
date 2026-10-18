@@ -1,0 +1,196 @@
+{
+  "references": [
+    {
+      "path": "../data/county-turnout.csv",
+      "bytes": 88255,
+      "sha256": "1da814cfbdc254063fa3bd60a35fed870b5825a89f3267303e3cff3656144140",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/coordinator-priority-keys.txt",
+      "bytes": 306,
+      "sha256": "a5d39344328ab3c0f76809439c6af42c09a59d81f76b9b756e5b538a63ac5be5",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/coordinator-baseline-reconciliation.json",
+      "bytes": 2264,
+      "sha256": "223eac00a57541fd246e5ab0637e6901c5bc23878ac77dd22dd16f7541e350fe",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/coordinator-map-subset-checks.json",
+      "bytes": 17676,
+      "sha256": "4c3cf405a05345f305813cf5b0ef2735e5e38cd88e6a60a3e3e33e90f520c3d7",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/priority-set.json",
+      "bytes": 15630313,
+      "sha256": "8c30e57da8010aeb34c539611a41740ec199caa2bc8f2a0285f45e5a84d56ff5",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/native-reporting-units.csv.gz",
+      "bytes": 642660,
+      "sha256": "e0277aec3c9bba09a351a209350cff3dae972e8330f9f5b66160ec20f40aa870",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/primary-native-units.csv.gz",
+      "bytes": 30102,
+      "sha256": "dbc3194594d2de0b21ee66b710ee6f92845191ca360a17038b59eb8d559027f5",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/primary-native-records.csv.gz",
+      "bytes": 183554,
+      "sha256": "1756d6a0caa14733bbadc11b20f45dc276ed79c5b0904f7dc385a16b486fdba5",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/primary-native-diagnostics.json",
+      "bytes": 53946,
+      "sha256": "747ab3858ac83accc48856dd6a291cfb6a1567f751b1aac394896bd8ff8531a3",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/baselines/native-units.csv.gz",
+      "bytes": 623337,
+      "sha256": "5e729e6d4f5d7aa3130db34fdd983bd69ab94dc745d211f869bfa84627be3beb",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/baselines/native-source-anomalies.json",
+      "bytes": 909,
+      "sha256": "d83940228924ec9c0f6af352d47c3778dcf71d502e38902be93998cb443c2bf9",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/baselines/native-source-diagnostics.json",
+      "bytes": 1558051,
+      "sha256": "cda0951f99b2caa59be20d0b85e884859945d8291ac72da8f748bf3b868bae45",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/baselines/native-cells-2024.jsonl.gz",
+      "bytes": 2261319,
+      "sha256": "befc07138ea7a4645600e26a131d4adb52de17893abe4ab13c5c0bb5b8699014",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/baselines/native-cells-2022.jsonl.gz",
+      "bytes": 538700,
+      "sha256": "6d0a1ac917c27ed94f8bd9955240ec6ed87db99a2b5d6125c901f2e439e82c59",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/baselines/native-cells-2020.jsonl.gz",
+      "bytes": 1510803,
+      "sha256": "c62470e897885bb6e0f678ce593881785645d620bb1537b96ba7123141b3a25f",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/results-sources/native-unit-identities.csv.gz",
+      "bytes": 151211,
+      "sha256": "425f67998803ab3e64be410739083f2deabc1995052f484252bd159f4e5c0b61",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/results-sources/native-unit-observations.csv.gz",
+      "bytes": 1837859,
+      "sha256": "81e6a8ad4fa554303d85ef59099468ae99cd806fc3cab578567e9d29c3a3ad5c",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/results-sources/native-field-schemas.json",
+      "bytes": 121688,
+      "sha256": "da8ca595801613076760494e89b93db0bf90c90b45805e499073c2b326fd22d2",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/results-sources/native-inventory-summary.json",
+      "bytes": 2631,
+      "sha256": "5b0f61e3621ff0c78653d2379403b8c709e3728701920b922ada2316441cc908",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/raw/original-angelina-2024.meta.json",
+      "bytes": 1074,
+      "sha256": "eb3c8b4262de400995b638fdf886c907735b14e8f3af3a3cbe5c962dc1953c15",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/raw/original-angelina-2024.body.gz",
+      "bytes": 436296,
+      "sha256": "bce12a895378ce6a6d6f137190cec5422600dde2be178501b79d85ab780ac5ae",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/raw/original-bexar-2024.meta.json",
+      "bytes": 2145,
+      "sha256": "470393201469ff652bf0a6ce77327d1b574da9757522e36abdb9b5ed1979875a",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/raw/original-bexar-2024.body.gz",
+      "bytes": 14130077,
+      "sha256": "d639afc394362495fe8613c39a8aba3cd8809e7c564e257dd45ada80c6ff3e44",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/raw/original-dallas-2024.meta.json",
+      "bytes": 1615,
+      "sha256": "bd6ab4c6e961d3856d196fd5073d042b14fb52a76408ca0059f03b7fa03274cb",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/raw/original-dallas-2024.body.gz",
+      "bytes": 1740641,
+      "sha256": "8e4a0bc7bd0207ca46637ec1153dfa390db06bc83249a3234716300c9553ed41",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/raw/original-harris-2024.meta.json",
+      "bytes": 1762,
+      "sha256": "9f9a41cc40a6f4a28be390517502f8b36e816e4828671229c1b70a9b7f816d23",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/raw/original-harris-2024.body.gz.part001",
+      "bytes": 32000000,
+      "sha256": "64befb698685b019402a415ee62f3c0067ae8d403e0cd95b8de936f218434b70",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/raw/original-harris-2024.body.gz.part002",
+      "bytes": 11773799,
+      "sha256": "284fdfcb29cd31bfd0c25409a8ff5e54095aa43e07bc84c39fb56f490bfb4c64",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/raw/original-midland-2024.meta.json",
+      "bytes": 1753,
+      "sha256": "f8a44635894a7f9ad4c3d4304e9a186674788d83b6075065f7e99b7390a35e3a",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/raw/original-midland-2024.body.gz",
+      "bytes": 259534,
+      "sha256": "1182e042ce920c784446930943f97663913d3af22b8ddbcae566a4541c537557",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/raw/original-travis-2024.meta.json",
+      "bytes": 1611,
+      "sha256": "9f0e9b1fdded2e7211e933e461c9c91bcc9e4b614336f7345eef959519c20914",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    },
+    {
+      "path": "../data/turnout/raw/original-travis-2024.body.gz",
+      "bytes": 483410,
+      "sha256": "ab12fd76a6075b5a3cc06757ae691ae096b6964edef1cc024b8c594532dcc1b2",
+      "role": "read-only exact source or peer artifact; duplicate observations/candidate rows preserved in original, no geographic allocation"
+    }
+  ]
+}

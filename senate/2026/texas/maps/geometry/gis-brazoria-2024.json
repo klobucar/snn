@@ -1,0 +1,205 @@
+{
+  "id": "brazoria-2024",
+  "county": "Brazoria",
+  "county_fips": "48039",
+  "source_audit": "gis/brazoria-2024-audit.json",
+  "features": 80,
+  "vertices": 29477,
+  "native_id_field": "PRECINCT",
+  "duplicate_native_ids": {},
+  "geometry_issues": [
+    {
+      "object_id": 23,
+      "native_id": "24.0",
+      "reason": "Ring Self-intersection[-10618978.5105397 3380804.21335621]"
+    }
+  ],
+  "true_curve_count": 0,
+  "actual_point_dimensions": {
+    "2": 29477
+  },
+  "advertised_hasZ": null,
+  "advertised_hasM": null,
+  "requested_returnZ": true,
+  "requested_returnM": true,
+  "requested_returnTrueCurves": true,
+  "native_crs": "PROJCRS[\"Popular Visualisation CRS / Mercator\",BASEGEOGCRS[\"Popular Visualisation CRS\",DATUM[\"Popular Visualisation Datum\",ELLIPSOID[\"Popular Visualisation Sphere\",6378137,0,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4055]],CONVERSION[\"Popular Visualisation Mercator\",METHOD[\"Mercator (1SP) (Spherical)\",ID[\"EPSG\",9841]],PARAMETER[\"Latitude of natural origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"Scale factor at natural origin\",1,SCALEUNIT[\"unity\",1],ID[\"EPSG\",8805]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"easting (X)\",east,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"northing (Y)\",north,ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Web mapping and visualisation.\"],AREA[\"World between 85.06°S and 85.06°N.\"],BBOX[-85.06,-180,85.06,180]],ID[\"EPSG\",3785]]",
+  "axis_order": [
+    {
+      "name": "Easting",
+      "direction": "east",
+      "unit": "metre"
+    },
+    {
+      "name": "Northing",
+      "direction": "north",
+      "unit": "metre"
+    }
+  ],
+  "preview": "previews/gis-brazoria-2024.png",
+  "preview_operation": "Native projected x/y to image pixels, all source rings drawn; Z/M ignored in display only; curves excluded and listed, source unchanged.",
+  "geographic_bounds_check": {
+    "transformer": "Inverse of Popular Visualisation Mercator + Ballpark geographic offset from Popular Visualisation CRS to WGS 84 + axis order change (2D)",
+    "always_xy": true,
+    "observed_lonlat_bbox": [
+      -95.87403510845604,
+      28.824297999744193,
+      -95.05650589826854,
+      29.59912116562396
+    ]
+  },
+  "overlap": {
+    "checked_valid_nonempty": 79,
+    "excluded_invalid_or_empty": 1,
+    "positive_area_pair_count": 29,
+    "pairs": [
+      {
+        "source_row_a": 5,
+        "source_row_b": 6,
+        "intersection_native_square_units": 2.021762845235255e-05
+      },
+      {
+        "source_row_a": 5,
+        "source_row_b": 34,
+        "intersection_native_square_units": 0.03908058929332002
+      },
+      {
+        "source_row_a": 6,
+        "source_row_b": 16,
+        "intersection_native_square_units": 6.556407612744782e-06
+      },
+      {
+        "source_row_a": 6,
+        "source_row_b": 18,
+        "intersection_native_square_units": 6.335404524851658e-06
+      },
+      {
+        "source_row_a": 6,
+        "source_row_b": 46,
+        "intersection_native_square_units": 1.0932197830583901e-05
+      },
+      {
+        "source_row_a": 6,
+        "source_row_b": 36,
+        "intersection_native_square_units": 0.00010966703814265346
+      },
+      {
+        "source_row_a": 6,
+        "source_row_b": 34,
+        "intersection_native_square_units": 360.2095231302932
+      },
+      {
+        "source_row_a": 8,
+        "source_row_b": 20,
+        "intersection_native_square_units": 2.359509256562222e-06
+      },
+      {
+        "source_row_a": 10,
+        "source_row_b": 33,
+        "intersection_native_square_units": 1.2155954178253141e-05
+      },
+      {
+        "source_row_a": 10,
+        "source_row_b": 20,
+        "intersection_native_square_units": 9.144486854311112e-05
+      },
+      {
+        "source_row_a": 10,
+        "source_row_b": 78,
+        "intersection_native_square_units": 7.307449042324391e-06
+      },
+      {
+        "source_row_a": 10,
+        "source_row_b": 62,
+        "intersection_native_square_units": 4.303418492470484e-06
+      },
+      {
+        "source_row_a": 12,
+        "source_row_b": 77,
+        "intersection_native_square_units": 7.622650250273862e-06
+      },
+      {
+        "source_row_a": 15,
+        "source_row_b": 34,
+        "intersection_native_square_units": 1.7739402881750653e-06
+      },
+      {
+        "source_row_a": 20,
+        "source_row_b": 71,
+        "intersection_native_square_units": 3.8608072592845235e-05
+      },
+      {
+        "source_row_a": 24,
+        "source_row_b": 34,
+        "intersection_native_square_units": 1.943842280518939e-05
+      },
+      {
+        "source_row_a": 33,
+        "source_row_b": 38,
+        "intersection_native_square_units": 4.24080145136653e-05
+      },
+      {
+        "source_row_a": 33,
+        "source_row_b": 37,
+        "intersection_native_square_units": 4.8990472210882e-05
+      },
+      {
+        "source_row_a": 34,
+        "source_row_b": 74,
+        "intersection_native_square_units": 9.232437861894822e-06
+      },
+      {
+        "source_row_a": 35,
+        "source_row_b": 77,
+        "intersection_native_square_units": 3.436847820510042e-05
+      },
+      {
+        "source_row_a": 37,
+        "source_row_b": 79,
+        "intersection_native_square_units": 7.087151369587546e-05
+      },
+      {
+        "source_row_a": 37,
+        "source_row_b": 77,
+        "intersection_native_square_units": 2.9232518550127446e-05
+      },
+      {
+        "source_row_a": 38,
+        "source_row_b": 79,
+        "intersection_native_square_units": 1.5003743525023212e-06
+      },
+      {
+        "source_row_a": 38,
+        "source_row_b": 77,
+        "intersection_native_square_units": 1.1256565640741997e-06
+      },
+      {
+        "source_row_a": 51,
+        "source_row_b": 62,
+        "intersection_native_square_units": 2.3930508948116855e-05
+      },
+      {
+        "source_row_a": 61,
+        "source_row_b": 62,
+        "intersection_native_square_units": 2.600688650860293e-05
+      },
+      {
+        "source_row_a": 62,
+        "source_row_b": 78,
+        "intersection_native_square_units": 0.0010038470055212037
+      },
+      {
+        "source_row_a": 71,
+        "source_row_b": 78,
+        "intersection_native_square_units": 3.823320491286135e-05
+      },
+      {
+        "source_row_a": 77,
+        "source_row_b": 79,
+        "intersection_native_square_units": 1.4510708288709498e-05
+      }
+    ],
+    "unit": "square metre in native projected CRS; planar diagnostic, not geodesic/ground/legal area"
+  },
+  "approval": "Unknown for November2026; Hays VTD field remains literally VTD, no Census/TLC equivalence assumed."
+}

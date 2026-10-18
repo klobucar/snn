@@ -1,0 +1,33 @@
+{
+  "id": "extra-galveston-city-voting",
+  "requested_url": "https://gis.galvestontx.gov/GISdata/VotingPrecincts.zip",
+  "parent_source_url": "https://gis.galvestontx.gov/GISdata/",
+  "retrieved_utc": "2026-10-18T03:41:53.326102+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://gis.galvestontx.gov/GISdata/VotingPrecincts.zip",
+  "headers": {
+    "Content-Type": "application/x-zip-compressed",
+    "Last-Modified": "Thu, 05 Mar 2026 17:49:25 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"23c31e68c8acdc1:0\"",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sun, 18 Oct 2026 03:41:53 GMT",
+    "Content-Length": "248284"
+  },
+  "redirects": [],
+  "original_bytes": 248284,
+  "original_sha256": "0b4067ef751d5d89f4f760b258dc9900323a87e714807914d380fc5b44288991",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/extra-galveston-city-voting.zip",
+      "bytes": 248284,
+      "sha256": "0b4067ef751d5d89f4f760b258dc9900323a87e714807914d380fc5b44288991"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Galveston"
+}

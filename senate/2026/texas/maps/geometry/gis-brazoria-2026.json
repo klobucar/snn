@@ -1,0 +1,550 @@
+{
+  "id": "brazoria-2026",
+  "county": "Brazoria",
+  "county_fips": "48039",
+  "source_audit": "gis/brazoria-2026-audit.json",
+  "features": 84,
+  "vertices": 29156,
+  "native_id_field": "PRECINCT",
+  "duplicate_native_ids": {},
+  "geometry_issues": [
+    {
+      "object_id": 22,
+      "native_id": "24.0",
+      "reason": "Ring Self-intersection[-10618978.5105397 3380804.21335621]"
+    }
+  ],
+  "true_curve_count": 0,
+  "actual_point_dimensions": {
+    "2": 29156
+  },
+  "advertised_hasZ": null,
+  "advertised_hasM": null,
+  "requested_returnZ": true,
+  "requested_returnM": true,
+  "requested_returnTrueCurves": true,
+  "native_crs": "PROJCRS[\"Popular Visualisation CRS / Mercator\",BASEGEOGCRS[\"Popular Visualisation CRS\",DATUM[\"Popular Visualisation Datum\",ELLIPSOID[\"Popular Visualisation Sphere\",6378137,0,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4055]],CONVERSION[\"Popular Visualisation Mercator\",METHOD[\"Mercator (1SP) (Spherical)\",ID[\"EPSG\",9841]],PARAMETER[\"Latitude of natural origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"Scale factor at natural origin\",1,SCALEUNIT[\"unity\",1],ID[\"EPSG\",8805]],PARAMETER[\"False easting\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"easting (X)\",east,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"northing (Y)\",north,ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Web mapping and visualisation.\"],AREA[\"World between 85.06°S and 85.06°N.\"],BBOX[-85.06,-180,85.06,180]],ID[\"EPSG\",3785]]",
+  "axis_order": [
+    {
+      "name": "Easting",
+      "direction": "east",
+      "unit": "metre"
+    },
+    {
+      "name": "Northing",
+      "direction": "north",
+      "unit": "metre"
+    }
+  ],
+  "preview": "previews/gis-brazoria-2026.png",
+  "preview_operation": "Native projected x/y to image pixels, all source rings drawn; Z/M ignored in display only; curves excluded and listed, source unchanged.",
+  "geographic_bounds_check": {
+    "transformer": "Inverse of Popular Visualisation Mercator + Ballpark geographic offset from Popular Visualisation CRS to WGS 84 + axis order change (2D)",
+    "always_xy": true,
+    "observed_lonlat_bbox": [
+      -95.87403510845604,
+      28.824297999744193,
+      -95.05650589826854,
+      29.59912116562396
+    ]
+  },
+  "overlap": {
+    "checked_valid_nonempty": 83,
+    "excluded_invalid_or_empty": 1,
+    "positive_area_pair_count": 98,
+    "pairs": [
+      {
+        "source_row_a": 0,
+        "source_row_b": 39,
+        "intersection_native_square_units": 0.15404002521983437
+      },
+      {
+        "source_row_a": 0,
+        "source_row_b": 53,
+        "intersection_native_square_units": 1.2332146897514433e-06
+      },
+      {
+        "source_row_a": 1,
+        "source_row_b": 12,
+        "intersection_native_square_units": 5.1457546630922796e-05
+      },
+      {
+        "source_row_a": 2,
+        "source_row_b": 12,
+        "intersection_native_square_units": 4.014588680493342e-05
+      },
+      {
+        "source_row_a": 3,
+        "source_row_b": 75,
+        "intersection_native_square_units": 8.013535571821558e-07
+      },
+      {
+        "source_row_a": 4,
+        "source_row_b": 5,
+        "intersection_native_square_units": 2.021762845235255e-05
+      },
+      {
+        "source_row_a": 4,
+        "source_row_b": 33,
+        "intersection_native_square_units": 0.03904376858500079
+      },
+      {
+        "source_row_a": 4,
+        "source_row_b": 54,
+        "intersection_native_square_units": 2.9423211502106836e-05
+      },
+      {
+        "source_row_a": 5,
+        "source_row_b": 35,
+        "intersection_native_square_units": 0.00010966703814265346
+      },
+      {
+        "source_row_a": 5,
+        "source_row_b": 33,
+        "intersection_native_square_units": 360.20951482991904
+      },
+      {
+        "source_row_a": 5,
+        "source_row_b": 15,
+        "intersection_native_square_units": 6.556407612744782e-06
+      },
+      {
+        "source_row_a": 5,
+        "source_row_b": 17,
+        "intersection_native_square_units": 6.335404524851658e-06
+      },
+      {
+        "source_row_a": 5,
+        "source_row_b": 45,
+        "intersection_native_square_units": 1.0932197830583901e-05
+      },
+      {
+        "source_row_a": 7,
+        "source_row_b": 75,
+        "intersection_native_square_units": 447.44719475421414
+      },
+      {
+        "source_row_a": 7,
+        "source_row_b": 19,
+        "intersection_native_square_units": 2.1373707424208067e-05
+      },
+      {
+        "source_row_a": 8,
+        "source_row_b": 75,
+        "intersection_native_square_units": 2.5965561159447658e-05
+      },
+      {
+        "source_row_a": 9,
+        "source_row_b": 73,
+        "intersection_native_square_units": 3.0704605524789486e-16
+      },
+      {
+        "source_row_a": 9,
+        "source_row_b": 54,
+        "intersection_native_square_units": 3.551260992797154e-05
+      },
+      {
+        "source_row_a": 9,
+        "source_row_b": 37,
+        "intersection_native_square_units": 0.000129605097112199
+      },
+      {
+        "source_row_a": 9,
+        "source_row_b": 75,
+        "intersection_native_square_units": 6.867323584791585e-10
+      },
+      {
+        "source_row_a": 9,
+        "source_row_b": 19,
+        "intersection_native_square_units": 1.045190606728183e-06
+      },
+      {
+        "source_row_a": 9,
+        "source_row_b": 70,
+        "intersection_native_square_units": 2.1411086478906327e-05
+      },
+      {
+        "source_row_a": 9,
+        "source_row_b": 32,
+        "intersection_native_square_units": 3.649198561522489e-05
+      },
+      {
+        "source_row_a": 10,
+        "source_row_b": 59,
+        "intersection_native_square_units": 2.42865600848588e-06
+      },
+      {
+        "source_row_a": 10,
+        "source_row_b": 44,
+        "intersection_native_square_units": 8.671531373600962e-06
+      },
+      {
+        "source_row_a": 11,
+        "source_row_b": 76,
+        "intersection_native_square_units": 2.9610389216229785e-06
+      },
+      {
+        "source_row_a": 11,
+        "source_row_b": 34,
+        "intersection_native_square_units": 2.487461410048946e-05
+      },
+      {
+        "source_row_a": 11,
+        "source_row_b": 59,
+        "intersection_native_square_units": 10.554247240627786
+      },
+      {
+        "source_row_a": 11,
+        "source_row_b": 44,
+        "intersection_native_square_units": 2.757144160082676e-06
+      },
+      {
+        "source_row_a": 12,
+        "source_row_b": 31,
+        "intersection_native_square_units": 2.3629999952528603e-05
+      },
+      {
+        "source_row_a": 13,
+        "source_row_b": 39,
+        "intersection_native_square_units": 3.355651916451055e-05
+      },
+      {
+        "source_row_a": 13,
+        "source_row_b": 54,
+        "intersection_native_square_units": 5.42735627295397e-06
+      },
+      {
+        "source_row_a": 13,
+        "source_row_b": 75,
+        "intersection_native_square_units": 7.470227958021125e-05
+      },
+      {
+        "source_row_a": 14,
+        "source_row_b": 23,
+        "intersection_native_square_units": 2.7393979608850323e-05
+      },
+      {
+        "source_row_a": 14,
+        "source_row_b": 74,
+        "intersection_native_square_units": 0.0013237346660410058
+      },
+      {
+        "source_row_a": 14,
+        "source_row_b": 36,
+        "intersection_native_square_units": 2.2980788746858327e-06
+      },
+      {
+        "source_row_a": 14,
+        "source_row_b": 58,
+        "intersection_native_square_units": 2.395258215929629e-06
+      },
+      {
+        "source_row_a": 19,
+        "source_row_b": 70,
+        "intersection_native_square_units": 3.8608072592845235e-05
+      },
+      {
+        "source_row_a": 23,
+        "source_row_b": 33,
+        "intersection_native_square_units": 6.127127463700791e-05
+      },
+      {
+        "source_row_a": 23,
+        "source_row_b": 71,
+        "intersection_native_square_units": 3.089668114898431e-05
+      },
+      {
+        "source_row_a": 23,
+        "source_row_b": 81,
+        "intersection_native_square_units": 5.722393274708044e-06
+      },
+      {
+        "source_row_a": 23,
+        "source_row_b": 74,
+        "intersection_native_square_units": 2.6601844631589724e-06
+      },
+      {
+        "source_row_a": 24,
+        "source_row_b": 38,
+        "intersection_native_square_units": 2.155067701688218e-07
+      },
+      {
+        "source_row_a": 24,
+        "source_row_b": 59,
+        "intersection_native_square_units": 3.4689634125804765
+      },
+      {
+        "source_row_a": 26,
+        "source_row_b": 44,
+        "intersection_native_square_units": 2.0816681711721685e-17
+      },
+      {
+        "source_row_a": 27,
+        "source_row_b": 38,
+        "intersection_native_square_units": 8.898362387917656e-06
+      },
+      {
+        "source_row_a": 27,
+        "source_row_b": 41,
+        "intersection_native_square_units": 7.529345238405181e-06
+      },
+      {
+        "source_row_a": 29,
+        "source_row_b": 30,
+        "intersection_native_square_units": 4.1037007770240025e-05
+      },
+      {
+        "source_row_a": 32,
+        "source_row_b": 81,
+        "intersection_native_square_units": 0.029513785360051552
+      },
+      {
+        "source_row_a": 32,
+        "source_row_b": 37,
+        "intersection_native_square_units": 7.700384701084381e-05
+      },
+      {
+        "source_row_a": 32,
+        "source_row_b": 36,
+        "intersection_native_square_units": 0.00011559521253527239
+      },
+      {
+        "source_row_a": 32,
+        "source_row_b": 78,
+        "intersection_native_square_units": 3.3378281401182444e-05
+      },
+      {
+        "source_row_a": 33,
+        "source_row_b": 73,
+        "intersection_native_square_units": 7.804919707753242e-06
+      },
+      {
+        "source_row_a": 34,
+        "source_row_b": 76,
+        "intersection_native_square_units": 3.436847820510042e-05
+      },
+      {
+        "source_row_a": 34,
+        "source_row_b": 44,
+        "intersection_native_square_units": 2.4011213297010694e-05
+      },
+      {
+        "source_row_a": 36,
+        "source_row_b": 79,
+        "intersection_native_square_units": 1.704089368304365e-06
+      },
+      {
+        "source_row_a": 36,
+        "source_row_b": 78,
+        "intersection_native_square_units": 7.087151369587546e-05
+      },
+      {
+        "source_row_a": 36,
+        "source_row_b": 76,
+        "intersection_native_square_units": 2.9232518550127446e-05
+      },
+      {
+        "source_row_a": 37,
+        "source_row_b": 70,
+        "intersection_native_square_units": 5.142904871318146e-07
+      },
+      {
+        "source_row_a": 37,
+        "source_row_b": 77,
+        "intersection_native_square_units": 7.533462113693771e-06
+      },
+      {
+        "source_row_a": 37,
+        "source_row_b": 61,
+        "intersection_native_square_units": 437.52793302515204
+      },
+      {
+        "source_row_a": 37,
+        "source_row_b": 78,
+        "intersection_native_square_units": 7.12494713174007e-06
+      },
+      {
+        "source_row_a": 37,
+        "source_row_b": 76,
+        "intersection_native_square_units": 3.618113961335531e-06
+      },
+      {
+        "source_row_a": 37,
+        "source_row_b": 62,
+        "intersection_native_square_units": 2.6623796845358285e-05
+      },
+      {
+        "source_row_a": 37,
+        "source_row_b": 50,
+        "intersection_native_square_units": 3.055528412939344e-07
+      },
+      {
+        "source_row_a": 37,
+        "source_row_b": 57,
+        "intersection_native_square_units": 3.7204076802129643e-06
+      },
+      {
+        "source_row_a": 38,
+        "source_row_b": 57,
+        "intersection_native_square_units": 4.464351280994774e-06
+      },
+      {
+        "source_row_a": 38,
+        "source_row_b": 41,
+        "intersection_native_square_units": 0.1285460932414922
+      },
+      {
+        "source_row_a": 38,
+        "source_row_b": 59,
+        "intersection_native_square_units": 159.6766808672489
+      },
+      {
+        "source_row_a": 39,
+        "source_row_b": 52,
+        "intersection_native_square_units": 1.338773126465579
+      },
+      {
+        "source_row_a": 41,
+        "source_row_b": 55,
+        "intersection_native_square_units": 4.8085200636798636e-08
+      },
+      {
+        "source_row_a": 43,
+        "source_row_b": 44,
+        "intersection_native_square_units": 5.431495104346595e-06
+      },
+      {
+        "source_row_a": 50,
+        "source_row_b": 61,
+        "intersection_native_square_units": 2.3930508948116855e-05
+      },
+      {
+        "source_row_a": 50,
+        "source_row_b": 65,
+        "intersection_native_square_units": 1.2590461251696383e-09
+      },
+      {
+        "source_row_a": 50,
+        "source_row_b": 67,
+        "intersection_native_square_units": 9.627848546536755e-08
+      },
+      {
+        "source_row_a": 52,
+        "source_row_b": 53,
+        "intersection_native_square_units": 0.14824684562452328
+      },
+      {
+        "source_row_a": 52,
+        "source_row_b": 75,
+        "intersection_native_square_units": 2.5306338992218957e-08
+      },
+      {
+        "source_row_a": 54,
+        "source_row_b": 73,
+        "intersection_native_square_units": 1.7705803877004697e-07
+      },
+      {
+        "source_row_a": 54,
+        "source_row_b": 75,
+        "intersection_native_square_units": 7.799772126595474e-07
+      },
+      {
+        "source_row_a": 55,
+        "source_row_b": 67,
+        "intersection_native_square_units": 2.0739100788222907e-05
+      },
+      {
+        "source_row_a": 57,
+        "source_row_b": 76,
+        "intersection_native_square_units": 9.455717250651027e-06
+      },
+      {
+        "source_row_a": 57,
+        "source_row_b": 62,
+        "intersection_native_square_units": 4.3931742130850354e-08
+      },
+      {
+        "source_row_a": 57,
+        "source_row_b": 59,
+        "intersection_native_square_units": 10.485162136602376
+      },
+      {
+        "source_row_a": 60,
+        "source_row_b": 61,
+        "intersection_native_square_units": 2.600688650860293e-05
+      },
+      {
+        "source_row_a": 60,
+        "source_row_b": 65,
+        "intersection_native_square_units": 6.424684911936727e-07
+      },
+      {
+        "source_row_a": 61,
+        "source_row_b": 77,
+        "intersection_native_square_units": 0.0010038470055212037
+      },
+      {
+        "source_row_a": 63,
+        "source_row_b": 65,
+        "intersection_native_square_units": 1.055576849788055e-05
+      },
+      {
+        "source_row_a": 63,
+        "source_row_b": 68,
+        "intersection_native_square_units": 2.3661647034463676e-07
+      },
+      {
+        "source_row_a": 64,
+        "source_row_b": 68,
+        "intersection_native_square_units": 3.410899141234689e-06
+      },
+      {
+        "source_row_a": 70,
+        "source_row_b": 77,
+        "intersection_native_square_units": 3.823320491286135e-05
+      },
+      {
+        "source_row_a": 71,
+        "source_row_b": 81,
+        "intersection_native_square_units": 2.5295828160648397e-05
+      },
+      {
+        "source_row_a": 71,
+        "source_row_b": 74,
+        "intersection_native_square_units": 16.722425524562574
+      },
+      {
+        "source_row_a": 73,
+        "source_row_b": 82,
+        "intersection_native_square_units": 4.162423027480827
+      },
+      {
+        "source_row_a": 73,
+        "source_row_b": 81,
+        "intersection_native_square_units": 0.0004949897719895933
+      },
+      {
+        "source_row_a": 74,
+        "source_row_b": 81,
+        "intersection_native_square_units": 7.903164645642682e-07
+      },
+      {
+        "source_row_a": 74,
+        "source_row_b": 80,
+        "intersection_native_square_units": 7.390630134985338e-07
+      },
+      {
+        "source_row_a": 76,
+        "source_row_b": 78,
+        "intersection_native_square_units": 1.4510708288709498e-05
+      },
+      {
+        "source_row_a": 81,
+        "source_row_b": 82,
+        "intersection_native_square_units": 4.1576052456464285e-05
+      }
+    ],
+    "unit": "square metre in native projected CRS; planar diagnostic, not geodesic/ground/legal area"
+  },
+  "approval": "Unknown for November2026; Hays VTD field remains literally VTD, no Census/TLC equivalence assumed."
+}

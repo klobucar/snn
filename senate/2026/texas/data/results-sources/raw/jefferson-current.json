@@ -1,0 +1,40 @@
+{
+  "id": "jefferson-current",
+  "request_url": "https://www.jeffersoncountyclerk.org/Voter-Info/Election-Results/Past-Election-Results",
+  "parent_id": "county-48245",
+  "purpose": "search-discovered page; jurisdiction must be checked, no Kentucky allocation",
+  "retrieval_started_utc": "2026-10-18T03:30:10.482755+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 403,
+  "final_url": "https://www.jeffersoncountyclerk.org/Voter-Info/Election-Results/Past-Election-Results",
+  "headers": {
+    "Mime-Version": "1.0",
+    "Content-Type": "text/html",
+    "Content-Length": "455",
+    "X-Reference-Error": "18.88291eb8.1792294210.1d6e8aaf",
+    "Cache-Control": "max-age=0",
+    "Date": "Sun, 18 Oct 2026 03:30:10 GMT",
+    "Connection": "close",
+    "Server-Timing": "cdn-cache; desc=HIT, edge; dur=1, ak_p; desc=\"1792294210935_3088984456_493783727_17_11258_11_22_-\";dur=1",
+    "Alt-Svc": "h3=\":443\"; ma=93600"
+  },
+  "redirects": [],
+  "original_bytes": 455,
+  "original_sha256": "14ba9bf257ad3f3dd3124ac93c753dac6b4713b23100c344c9bb15eccf83d8a9",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 285,
+  "stored_stream_sha256": "2fc9dc7f0044a9c735b54a9b03782ba92a91ba1116fc6c7aa8c9b0c160d0ce5e",
+  "stored_parts": [
+    {
+      "path": "raw/jefferson-current.body.gz",
+      "bytes": 285,
+      "sha256": "2fc9dc7f0044a9c735b54a9b03782ba92a91ba1116fc6c7aa8c9b0c160d0ce5e"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:30:10.890769+00:00"
+}

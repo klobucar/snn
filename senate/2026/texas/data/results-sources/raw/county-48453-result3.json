@@ -1,0 +1,52 @@
+{
+  "id": "county-48453-result3",
+  "request_url": "https://results.enr.clarityelections.com/TX/Travis/",
+  "parent_id": "county-48453",
+  "purpose": "    Election Results  ",
+  "retrieval_started_utc": "2026-10-18T03:27:08.399119+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Travis/",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sat, 17 Oct 2026 10:11:52 GMT",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "HIT",
+    "Last-Modified": "Thu, 28 May 2026 21:37:13 GMT",
+    "ETag": "W/\"6a18b589-1158\"",
+    "Expires": "Sat, 17 Oct 2026 02:37:07 GMT",
+    "Cache-Control": "max-age=86400",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 4a0551ae94e22ed7f1bb37c1e336e606.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "T2c-fN3El27HOHMhaVp1oRwZwxjCmgzcY292MwIxtiO6vuVTMkvWOw==",
+    "Age": "62116",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 4440,
+  "original_sha256": "681804aa6eab2ec4ceaf55eecde80202f91088b2777b1e3630a3dfe7a824b981",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 1642,
+  "stored_stream_sha256": "d6b42097ecddb396ec44ee7ca4ed2b336f94343702ab5bd4dfeb464f2103c473",
+  "stored_parts": [
+    {
+      "path": "raw/county-48453-result3.body.gz",
+      "bytes": 1642,
+      "sha256": "d6b42097ecddb396ec44ee7ca4ed2b336f94343702ab5bd4dfeb464f2103c473"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:08.451741+00:00"
+}

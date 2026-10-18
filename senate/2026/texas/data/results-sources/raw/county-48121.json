@@ -1,0 +1,49 @@
+{
+  "id": "county-48121",
+  "request_url": "https://www.dentoncounty.gov/",
+  "parent_id": "sos-county-links",
+  "purpose": "Denton official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:33.116292+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.dentoncounty.gov/",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:26:33 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "63898",
+    "Connection": "keep-alive",
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Encoding": "gzip",
+    "vary": "Accept-Encoding",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Strict-Transport-Security": "max-age=15552000",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "camera=(), microphone=()",
+    "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "cf-cache-status": "DYNAMIC",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=cvblougmvjmujm2vmmyfvbko; path=/; secure; HttpOnly; SameSite=None, __cf_bm=BqqgzVB3ykWB_o20PBwe_cTtPTWoO2CT_HLW12YAVjM-1792293993.2948048-1.0.1.1-IsT5VurAKT6LppqHhUbBacnJIdPkvHRJAPUpbDioSZ04xOm0j8TgFBNVqWnHWPu_yZWCxUcKoceNAsEFJfRJJyTUKf9cOm2hYpXgOBfP0MotwhXDMNP12Fp5xSg9H6Z1; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.dentoncounty.gov; Expires=Sun, 18 Oct 2026 03:56:33 GMT",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c471321b791855-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 269877,
+  "original_sha256": "d67be35252027ba653be383595b314511c6c9c4d38c8231f6abd9cfad5b140fa",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 40510,
+  "stored_stream_sha256": "7d72622fb47d26a0b9c4470b0d3496641ff3da0e7711ef2b57c8b190611732b1",
+  "stored_parts": [
+    {
+      "path": "raw/county-48121.body.gz",
+      "bytes": 40510,
+      "sha256": "7d72622fb47d26a0b9c4470b0d3496641ff3da0e7711ef2b57c8b190611732b1"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:33.920063+00:00"
+}

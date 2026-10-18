@@ -1,0 +1,41 @@
+{
+  "id": "discovery-48355",
+  "request_url": "https://www.nuecesco.com/county-services/county-clerk/elections-department/election-history/-folder-126",
+  "parent_id": null,
+  "purpose": "exact source URL from pinned turnout county-source-links.json; historical discovery route, not official-parent proof",
+  "retrieval_started_utc": "2026-10-18T03:34:19.858689+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 403,
+  "final_url": "https://www.nuecesco.com/county-services/county-clerk/elections-department/election-history/-folder-126",
+  "headers": {
+    "Server": "AkamaiGHost",
+    "Mime-Version": "1.0",
+    "Content-Type": "text/html",
+    "Content-Length": "524",
+    "X-Reference-Error": "18.9f291eb8.1792294460.5996ca6",
+    "Cache-Control": "max-age=0, max-age=0, no-cache, no-store",
+    "Expires": "Sun, 18 Oct 2026 03:34:20 GMT",
+    "Date": "Sun, 18 Oct 2026 03:34:20 GMT",
+    "Connection": "close",
+    "Server-Timing": "cdn-cache; desc=HIT, edge; dur=1, ak_p; desc=\"1792294460312_3088984479_93940902_16_13694_28_0_-\";dur=1"
+  },
+  "redirects": [],
+  "original_bytes": 524,
+  "original_sha256": "9b484a2574d8814597123b24395bad6ca3f04281c3fd1c638d2cdb172d64c482",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 321,
+  "stored_stream_sha256": "d0b581a173d763ddf51ee72993ec8a724f56b96ec80786cb6c74d9814b514322",
+  "stored_parts": [
+    {
+      "path": "raw/discovery-48355.body.gz",
+      "bytes": 321,
+      "sha256": "d0b581a173d763ddf51ee72993ec8a724f56b96ec80786cb6c74d9814b514322"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:34:20.245347+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "arcitem-johnson-fc6c7c88e1024b8493d64a554c38db16",
+  "requested_url": "https://www.arcgis.com/sharing/rest/content/items/fc6c7c88e1024b8493d64a554c38db16?f=pjson",
+  "parent_source_url": "Exact item ID from retained county official map link",
+  "retrieved_utc": "2026-10-18T03:35:55.246168+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.arcgis.com/sharing/rest/content/items/fc6c7c88e1024b8493d64a554c38db16?f=pjson",
+  "headers": {
+    "Content-Type": "text/plain;charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:35:55 GMT",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Server": "ArcGIS Online",
+    "X-Content-Type-Options": "nosniff",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+    "Expires": "-1",
+    "Vary": "Origin",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 b35909f0d8c90a899749b6603124ca90.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD51-P2",
+    "X-Amz-Cf-Id": "5uSiGKFhcZShT2tAzzrl2-dNoMEioJ2pc24g0wnfKVHvYLDwNqeavg=="
+  },
+  "redirects": [],
+  "original_bytes": 1880,
+  "original_sha256": "dd0991baf193878c2b8f6ef48e3b62067f84cf6139561a079f720c22e48ec116",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/arcitem-johnson-fc6c7c88e1024b8493d64a554c38db16.body",
+      "bytes": 1880,
+      "sha256": "dd0991baf193878c2b8f6ef48e3b62067f84cf6139561a079f720c22e48ec116"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256."
+}

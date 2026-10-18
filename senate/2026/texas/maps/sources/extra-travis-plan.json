@@ -1,0 +1,43 @@
+{
+  "id": "extra-travis-plan",
+  "requested_url": "https://www.traviscountytx.gov/images/intergovernmental_relations/Doc/Agenda_Back_Up_20211214_Memo.pdf",
+  "parent_source_url": "https://www.traviscountytx.gov/intergovernmental-relations/redistricting",
+  "retrieved_utc": "2026-10-18T03:35:08.901645+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://www.traviscountytx.gov/images/intergovernmental_relations/Doc/Agenda_Back_Up_20211214_Memo.pdf",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:35:09 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "1293224",
+    "Connection": "keep-alive",
+    "last-modified": "Wed, 22 Dec 2021 00:37:35 GMT",
+    "Accept-Ranges": "bytes",
+    "Server": "cloudflare",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=63072000; includeSubDomains",
+    "content-security-policy": "default-src * data: blob: filesystem: about: ws: wss: 'unsafe-inline' 'unsafe-eval'; script-src * data: blob: 'unsafe-inline' 'unsafe-eval'; connect-src * data: blob: 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src * data: blob: ; style-src * data: blob: 'unsafe-inline'; font-src * data: blob: 'unsafe-inline'; frame-ancestors * data: blob:;",
+    "x-turbo-charged-by": "LiteSpeed",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "via": "1.1 google",
+    "expires": "Sun, 18 Oct 2026 07:35:09 GMT",
+    "Cache-Control": "public, max-age=14400",
+    "cf-cache-status": "MISS",
+    "CF-RAY": "a4c47dcc69b061d9-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 1293224,
+  "original_sha256": "d656990a9d243d289ac0a5632674def1c90a2b3eb14f50080f94f4fa8315fe5c",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/extra-travis-plan.pdf",
+      "bytes": 1293224,
+      "sha256": "d656990a9d243d289ac0a5632674def1c90a2b3eb14f50080f94f4fa8315fe5c"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "county": "Travis",
+  "advertised_title": "Election Precinct Boundaries Proposed Plan for 2022"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "county-48187",
+  "request_url": "https://www.guadalupetx.gov/",
+  "parent_id": "sos-county-links",
+  "purpose": "Guadalupe official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:35.111710+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.guadalupetx.gov/",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "Set-Cookie": "ASP.NET_SessionId=pl4c5cydy3ifvgah5jadgheh; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:26:34 GMT",
+    "Content-Length": "30125"
+  },
+  "redirects": [],
+  "original_bytes": 100728,
+  "original_sha256": "2a8795aefebab3c772fa095b8cdc71a37c86d0d9730204040786497b12754c5d",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 22940,
+  "stored_stream_sha256": "e82ac96b2d087ce1fc95d5866a8fc8830deedd546df32f3224977adb9d839c87",
+  "stored_parts": [
+    {
+      "path": "raw/county-48187.body.gz",
+      "bytes": 22940,
+      "sha256": "e82ac96b2d087ce1fc95d5866a8fc8830deedd546df32f3224977adb9d839c87"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:35.356274+00:00"
+}

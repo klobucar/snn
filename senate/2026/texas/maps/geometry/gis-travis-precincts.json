@@ -1,0 +1,204 @@
+{
+  "id": "travis-precincts",
+  "county": "Travis",
+  "county_fips": "48453",
+  "source_audit": "gis/travis-precincts-audit.json",
+  "features": 308,
+  "vertices": 65699,
+  "native_id_field": "Precinct",
+  "duplicate_native_ids": {},
+  "geometry_issues": [],
+  "true_curve_count": 0,
+  "actual_point_dimensions": {
+    "2": 65699
+  },
+  "advertised_hasZ": null,
+  "advertised_hasM": null,
+  "requested_returnZ": true,
+  "requested_returnM": true,
+  "requested_returnTrueCurves": true,
+  "native_crs": "PROJCRS[\"NAD83 / Texas Central (ftUS)\",BASEGEOGCRS[\"NAD83\",DATUM[\"North American Datum 1983\",ELLIPSOID[\"GRS 1980\",6378137,298.257222101,LENGTHUNIT[\"metre\",1]]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4269]],CONVERSION[\"SPCS83 Texas Central zone (US survey foot)\",METHOD[\"Lambert Conic Conformal (2SP)\",ID[\"EPSG\",9802]],PARAMETER[\"Latitude of false origin\",29.6666666666667,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8821]],PARAMETER[\"Longitude of false origin\",-100.333333333333,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8822]],PARAMETER[\"Latitude of 1st standard parallel\",31.8833333333333,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8823]],PARAMETER[\"Latitude of 2nd standard parallel\",30.1166666666667,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8824]],PARAMETER[\"Easting at false origin\",2296583.333,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8826]],PARAMETER[\"Northing at false origin\",9842500,LENGTHUNIT[\"US survey foot\",0.304800609601219],ID[\"EPSG\",8827]]],CS[Cartesian,2],AXIS[\"easting (X)\",east,ORDER[1],LENGTHUNIT[\"US survey foot\",0.304800609601219]],AXIS[\"northing (Y)\",north,ORDER[2],LENGTHUNIT[\"US survey foot\",0.304800609601219]],USAGE[SCOPE[\"Engineering survey, topographic mapping.\"],AREA[\"United States (USA) - Texas - counties of Anderson; Angelina; Bastrop; Bell; Blanco; Bosque; Brazos; Brown; Burleson; Burnet; Cherokee; Coke; Coleman; Comanche; Concho; Coryell; Crane; Crockett; Culberson; Ector; El Paso; Falls; Freestone; Gillespie; Glasscock; Grimes; Hamilton; Hardin; Houston; Hudspeth; Irion; Jasper; Jeff Davis; Kimble; Lampasas; Lee; Leon; Liberty; Limestone; Llano; Loving; Madison; Mason; McCulloch; McLennan; Menard; Midland; Milam; Mills; Montgomery; Nacogdoches; Newton; Orange; Pecos; Polk; Reagan; Reeves; Robertson; Runnels; Sabine; San Augustine; San Jacinto; San Saba; Schleicher; Shelby; Sterling; Sutton; Tom Green; Travis; Trinity; Tyler; Upton; Walker; Ward; Washington; Williamson; Winkler.\"],BBOX[29.78,-106.66,32.27,-93.5]],ID[\"EPSG\",2277]]",
+  "axis_order": [
+    {
+      "name": "Easting",
+      "direction": "east",
+      "unit": "US survey foot"
+    },
+    {
+      "name": "Northing",
+      "direction": "north",
+      "unit": "US survey foot"
+    }
+  ],
+  "preview": "previews/gis-travis-precincts.png",
+  "preview_operation": "Native projected x/y to image pixels, all source rings drawn; Z/M ignored in display only; curves excluded and listed, source unchanged.",
+  "geographic_bounds_check": {
+    "transformer": "Inverse of SPCS83 Texas Central zone (US survey foot) + NAD83 to WGS 84 (1) + axis order change (2D)",
+    "always_xy": true,
+    "observed_lonlat_bbox": [
+      -98.1737096431878,
+      30.025992755779395,
+      -97.3682303668991,
+      30.62690302335877
+    ]
+  },
+  "overlap": {
+    "checked_valid_nonempty": 308,
+    "excluded_invalid_or_empty": 0,
+    "positive_area_pair_count": 30,
+    "pairs": [
+      {
+        "source_row_a": 861,
+        "source_row_b": 862,
+        "intersection_native_square_units": 0.020787308283025108
+      },
+      {
+        "source_row_a": 861,
+        "source_row_b": 1015,
+        "intersection_native_square_units": 0.013587880026549962
+      },
+      {
+        "source_row_a": 862,
+        "source_row_b": 869,
+        "intersection_native_square_units": 0.0005312925074063691
+      },
+      {
+        "source_row_a": 869,
+        "source_row_b": 1015,
+        "intersection_native_square_units": 8.611059138212852e-05
+      },
+      {
+        "source_row_a": 883,
+        "source_row_b": 898,
+        "intersection_native_square_units": 5.563523675155462e-05
+      },
+      {
+        "source_row_a": 891,
+        "source_row_b": 986,
+        "intersection_native_square_units": 1.2643150294703611
+      },
+      {
+        "source_row_a": 891,
+        "source_row_b": 981,
+        "intersection_native_square_units": 0.06257942514287151
+      },
+      {
+        "source_row_a": 895,
+        "source_row_b": 897,
+        "intersection_native_square_units": 5.445387714505841
+      },
+      {
+        "source_row_a": 897,
+        "source_row_b": 902,
+        "intersection_native_square_units": 3.1488423227729623
+      },
+      {
+        "source_row_a": 898,
+        "source_row_b": 899,
+        "intersection_native_square_units": 0.014334145498436313
+      },
+      {
+        "source_row_a": 922,
+        "source_row_b": 927,
+        "intersection_native_square_units": 0.00931730471020839
+      },
+      {
+        "source_row_a": 922,
+        "source_row_b": 931,
+        "intersection_native_square_units": 0.5584668627707288
+      },
+      {
+        "source_row_a": 926,
+        "source_row_b": 930,
+        "intersection_native_square_units": 0.0015733436839013848
+      },
+      {
+        "source_row_a": 932,
+        "source_row_b": 933,
+        "intersection_native_square_units": 0.002764802779637421
+      },
+      {
+        "source_row_a": 932,
+        "source_row_b": 936,
+        "intersection_native_square_units": 0.0007768726037346418
+      },
+      {
+        "source_row_a": 935,
+        "source_row_b": 985,
+        "intersection_native_square_units": 0.018308673500960073
+      },
+      {
+        "source_row_a": 935,
+        "source_row_b": 996,
+        "intersection_native_square_units": 0.3397752882447094
+      },
+      {
+        "source_row_a": 938,
+        "source_row_b": 961,
+        "intersection_native_square_units": 0.09744367997700465
+      },
+      {
+        "source_row_a": 962,
+        "source_row_b": 1010,
+        "intersection_native_square_units": 0.0005246649407668613
+      },
+      {
+        "source_row_a": 983,
+        "source_row_b": 984,
+        "intersection_native_square_units": 0.0528407185023525
+      },
+      {
+        "source_row_a": 985,
+        "source_row_b": 992,
+        "intersection_native_square_units": 0.0031890284458363197
+      },
+      {
+        "source_row_a": 992,
+        "source_row_b": 1003,
+        "intersection_native_square_units": 6.278771831791374e-05
+      },
+      {
+        "source_row_a": 1008,
+        "source_row_b": 1085,
+        "intersection_native_square_units": 0.1756819395141065
+      },
+      {
+        "source_row_a": 1046,
+        "source_row_b": 1132,
+        "intersection_native_square_units": 0.04669471673355474
+      },
+      {
+        "source_row_a": 1046,
+        "source_row_b": 1143,
+        "intersection_native_square_units": 0.028952295365948885
+      },
+      {
+        "source_row_a": 1051,
+        "source_row_b": 1052,
+        "intersection_native_square_units": 0.002192352462699887
+      },
+      {
+        "source_row_a": 1093,
+        "source_row_b": 1096,
+        "intersection_native_square_units": 1.562016226509323
+      },
+      {
+        "source_row_a": 1094,
+        "source_row_b": 1095,
+        "intersection_native_square_units": 0.04830747465526164
+      },
+      {
+        "source_row_a": 1095,
+        "source_row_b": 1096,
+        "intersection_native_square_units": 1.4475494906305217
+      },
+      {
+        "source_row_a": 1153,
+        "source_row_b": 1165,
+        "intersection_native_square_units": 0.008052618922647525
+      }
+    ],
+    "unit": "square US survey foot in native projected CRS; planar diagnostic, not geodesic/ground/legal area"
+  },
+  "approval": "Unknown for November2026; Hays VTD field remains literally VTD, no Census/TLC equivalence assumed."
+}

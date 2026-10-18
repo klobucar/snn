@@ -1,0 +1,17 @@
+{
+  "id": "county-48029-result3",
+  "request_url": "https://www.bexar.org/openrecords",
+  "parent_id": "county-48029",
+  "purpose": "GovQA ",
+  "retrieval_started_utc": "2026-10-18T03:27:08.309994+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": null,
+  "final_url": null,
+  "body_complete": false,
+  "error": "ReadTimeout: HTTPSConnectionPool(host='bexarcountytx.govqa.us', port=443): Read timed out. (read timeout=50)",
+  "retrieval_finished_utc": "2026-10-18T03:27:58.625368+00:00"
+}

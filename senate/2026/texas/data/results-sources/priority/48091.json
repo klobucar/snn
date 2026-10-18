@@ -1,0 +1,226 @@
+{
+  "dispatch_key": "TX:48091",
+  "county_fips": "48091",
+  "county": "Comal",
+  "rank": 20,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48091",
+    "county_fips": "48091",
+    "county": "Comal",
+    "rank": 20,
+    "priority": true,
+    "directory_label": "COMAL COUNTY",
+    "authority_role": "County Clerk",
+    "authority_name": "Bobbie Koepp",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "https://www.co.comal.tx.us/Elections.htm",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48091",
+      "metadata_path": "raw/county-48091.json",
+      "request_url": "https://www.co.comal.tx.us/Elections.htm",
+      "final_url": "https://www.comalcounty.gov",
+      "status": 200,
+      "original_sha256": "59bbc8b3be57e4be9df5a75405ecda1fc0cfe94f936e4376c0d829aaad0d039f",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "sos-county-links"
+    },
+    {
+      "source_id": "county-48091-office",
+      "metadata_path": "raw/county-48091-office.json",
+      "request_url": "https://www.comalcounty.gov/193",
+      "final_url": "https://www.comalcounty.gov/193/Elections-Voter-Registration",
+      "status": 200,
+      "original_sha256": "cf84a50f9e48c1c9a4cb347154108d862c7f426c230cd37140be73afc01b0653",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48091"
+    },
+    {
+      "source_id": "county-48091-office-follow1",
+      "metadata_path": "raw/county-48091-office-follow1.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/Comal/",
+      "final_url": "https://results.enr.clarityelections.com/TX/Comal/",
+      "status": 200,
+      "original_sha256": "b4494140b2e83e1bf5cff967830908cec403d6a24f06097c813d1a551362a64f",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48091-office"
+    }
+  ],
+  "assessment": "Old SOS elections URL now redirects to county homepage. Following actual Voter Information link reaches current office with November notices and Clarity Comal county selector. Selector retained; it does not identify November contest or certify units.",
+  "gaps": "November local election ID/feed and reporting roster not verified; obsolete results.texas-election.com link also remains on office page.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 46,
+    "CN": "COMAL",
+    "MID": 48046,
+    "county_fips": "48091",
+    "dispatch_key": "TX:48091",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 42.0,
+    "P": 0.0,
+    "RV": 151987.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 27.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 151987,
+    "TP": 42,
+    "TV": 0,
+    "TPR": 42
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/46",
+    "summary": "/upload/46/Summary",
+    "senate": "/upload/46/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "COMAL",
+    "id": 46,
+    "registered_voters": 151987,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 562,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48091",
+    "county_fips": "48091",
+    "county": "Comal",
+    "rank": "20",
+    "priority": "1",
+    "state_county_id": "46",
+    "state_mid": 48046,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": null,
+    "derivative_historical_units": 127,
+    "original_historical_units": null,
+    "tlc_vtd_rows": 210,
+    "november_native_gap": "November local election ID/feed and reporting roster not verified; obsolete results.texas-election.com link also remains on office page."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

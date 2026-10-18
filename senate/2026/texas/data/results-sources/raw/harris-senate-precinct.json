@@ -1,0 +1,50 @@
+{
+  "id": "harris-senate-precinct",
+  "request_url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/pv-9189.json",
+  "parent_id": "harris-live",
+  "purpose": "inline public contest route,9189 actual Senate ID",
+  "retrieval_started_utc": "2026-10-18T03:29:30.597337+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/pv-9189.json",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:29:31 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Content-MD5": "3LRSTIS3GtxA4ELiwWNdqQ==",
+    "Last-Modified": "Thu, 17 Sep 2026 19:18:28 GMT",
+    "Server": "cloudflare",
+    "x-ms-request-id": "7dce0ed5-b01e-007e-76ef-52afae000000",
+    "x-ms-version": "2009-09-19",
+    "x-ms-lease-status": "unlocked",
+    "x-ms-blob-type": "BlockBlob",
+    "Access-Control-Expose-Headers": "x-ms-request-id,Server,x-ms-version,Content-Type,ETag,Last-Modified,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding",
+    "Access-Control-Allow-Origin": "*",
+    "Vary": "accept-encoding",
+    "expires": "Sun, 18 Oct 2026 03:30:31 GMT",
+    "Cache-Control": "public, max-age=60",
+    "cf-cache-status": "REVALIDATED",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a4c475870bcdf861-ORD"
+  },
+  "redirects": [],
+  "original_bytes": 82236,
+  "original_sha256": "1deac807a503fd426bf62ad7a95bee61a00c2790089561ab7a940cc542fcf4b2",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 2899,
+  "stored_stream_sha256": "5f26b51e21391f46bbc47804338425ec90d988ac8551cf8332d787b3318f9332",
+  "stored_parts": [
+    {
+      "path": "raw/harris-senate-precinct.body.gz",
+      "bytes": 2899,
+      "sha256": "5f26b51e21391f46bbc47804338425ec90d988ac8551cf8332d787b3318f9332"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:29:30.929994+00:00"
+}

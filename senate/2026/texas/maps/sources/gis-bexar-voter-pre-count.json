@@ -1,0 +1,37 @@
+{
+  "id": "gis-bexar-voter-pre-count",
+  "requested_url": "https://maps.bexar.org/arcgis/rest/services/EL/VoterPrecincts/MapServer/0/query?f=json&where=1%3D1&returnCountOnly=true",
+  "parent_source_url": "https://elections.bexar.gov/173/Voter-Precinct-Maps",
+  "retrieved_utc": "2026-10-18T03:34:27.331721+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://maps.bexar.org/arcgis/rest/services/EL/VoterPrecincts/MapServer/0/query?f=json&where=1%3D1&returnCountOnly=true",
+  "headers": {
+    "Cache-Control": "must-revalidate,max-age=0,public",
+    "Content-Length": "13",
+    "Content-Type": "application/json; charset=UTF-8",
+    "ETag": "\"9c5e325e\"",
+    "Vary": "Origin",
+    "Server": "",
+    "X-Content-Type-Options": "nosniff",
+    "X-Powered-By": "",
+    "Strict-Transport-Security": "max-age={31536000}; includeSubDomains; preload",
+    "Content-Security-Policy": "frame-ancestors 'self' bexar.org *.bexar.org *.arcgis.com *.civicplus.com *.bexar.gov https://*.civicplus.com",
+    "X-ASPNET-VERSION": "",
+    "Date": "Sun, 18 Oct 2026 03:34:27 GMT"
+  },
+  "redirects": [],
+  "original_bytes": 13,
+  "original_sha256": "fa702bfe4b1bbb4452d8d74d974adc3801ec881b7933aa8f4f63eb02f564957d",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/gis-bexar-voter-post-count.body",
+      "bytes": 13,
+      "sha256": "fa702bfe4b1bbb4452d8d74d974adc3801ec881b7933aa8f4f63eb02f564957d"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256.",
+  "reused_exact_source": "gis-bexar-voter-post-count"
+}

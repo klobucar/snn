@@ -1,0 +1,47 @@
+{
+  "id": "sos-candidate-guide",
+  "request_url": "https://www.sos.state.tx.us/elections/candidates/guide/2026/index.shtml",
+  "parent_id": "sos-candidates",
+  "purpose": "2026 ballot qualification stages",
+  "retrieval_started_utc": "2026-10-18T03:25:53.292493+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.sos.state.tx.us/elections/candidates/guide/2026/index.shtml",
+  "headers": {
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "AmazonS3",
+    "Last-Modified": "Sat, 17 Oct 2026 14:48:11 GMT",
+    "Content-Encoding": "gzip",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-version-id": "5P8Jw2c4GcF791hAxDe48go9Y8MeBE.J",
+    "Date": "Sun, 18 Oct 2026 03:25:54 GMT",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "ETag": "W/\"6fc3c97cdcb179413d10bcee495165b8\"",
+    "Vary": "Accept-Encoding",
+    "X-Cache": "RefreshHit from cloudfront",
+    "Via": "1.1 7f35b8e8cbe36bbbc16adf14a62d278a.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P6",
+    "X-Amz-Cf-Id": "hoMu8Zoh-t0t16kcnVvxvIKGGJyao7ipX2en7kCpwetTaL0H0CsvmQ=="
+  },
+  "redirects": [],
+  "original_bytes": 22220,
+  "original_sha256": "8407cc72b42c75b2e0f42c6db13e89ba93884d1fc2345073db4b674db7de7a0d",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 6403,
+  "stored_stream_sha256": "9c59af4e6f3ae533bfc872722ec8cbe350666ad313852ae5d0e418a7807eac44",
+  "stored_parts": [
+    {
+      "path": "raw/sos-candidate-guide.body.gz",
+      "bytes": 6403,
+      "sha256": "9c59af4e6f3ae533bfc872722ec8cbe350666ad313852ae5d0e418a7807eac44"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:25:53.431558+00:00"
+}

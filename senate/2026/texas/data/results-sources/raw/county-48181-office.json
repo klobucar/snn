@@ -1,0 +1,44 @@
+{
+  "id": "county-48181-office",
+  "request_url": "https://www.co.grayson.tx.us/page/elec.home",
+  "parent_id": "county-48181",
+  "purpose": "exact linked office route Elections ",
+  "retrieval_started_utc": "2026-10-18T03:28:45.712173+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.co.grayson.tx.us/page/elec.home",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "Set-Cookie": "ASP.NET_SessionId=optlwj00caalbr4eozo3efgh; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:28:45 GMT",
+    "Content-Length": "39679"
+  },
+  "redirects": [],
+  "original_bytes": 143351,
+  "original_sha256": "b4e6d503e6c0b9a930f9535146ad25c9ffc698a44ee89fc9f6b4c604e446d684",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 28434,
+  "stored_stream_sha256": "4b1c1ae55e1f67932bdf9e920a60cf7e6cb2cf6be1bd2b06f0b99c48a7a26a1c",
+  "stored_parts": [
+    {
+      "path": "raw/county-48181-office.body.gz",
+      "bytes": 28434,
+      "sha256": "4b1c1ae55e1f67932bdf9e920a60cf7e6cb2cf6be1bd2b06f0b99c48a7a26a1c"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:28:45.880611+00:00"
+}

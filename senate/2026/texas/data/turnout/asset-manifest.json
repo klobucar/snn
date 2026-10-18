@@ -1,0 +1,2437 @@
+{
+  "ownership": "turnout.md; data/county-turnout.csv; data/turnout/** only",
+  "asset_limit_bytes_strictly_less_than": 40000000,
+  "self_excluded": "asset-manifest.json cannot hash itself; all other retained owned files included; interpreter __pycache__ is not a retained asset",
+  "assets": [
+    {
+      "path": "data/county-turnout.csv",
+      "bytes": 88255,
+      "sha256": "1da814cfbdc254063fa3bd60a35fed870b5825a89f3267303e3cff3656144140"
+    },
+    {
+      "path": "data/turnout/SCHEMA.md",
+      "bytes": 7009,
+      "sha256": "3fe8666148863da2165056efc3f5ba3b23861922113960e87130c1e3cb42d456"
+    },
+    {
+      "path": "data/turnout/build_turnout.py",
+      "bytes": 10726,
+      "sha256": "c401e198d546b1a56506f6af6e59d01947d96abccf9a238898e0e5de9c3bdd34"
+    },
+    {
+      "path": "data/turnout/check_primary_controls.py",
+      "bytes": 5439,
+      "sha256": "b6df8d86c3a70a28bdf88f196574a749b4ca22681d174e802f822e279def0b1e"
+    },
+    {
+      "path": "data/turnout/comparator-controls.json",
+      "bytes": 757,
+      "sha256": "930f2271f16018df6e06774ea690dd9bc33b37a8ab5550d35525e36324bc0d8b"
+    },
+    {
+      "path": "data/turnout/county-build-controls.json",
+      "bytes": 1118,
+      "sha256": "886079f578bd3ad7400eca343d650ed8f1af55fba98c14a4029bc6a2f26b8293"
+    },
+    {
+      "path": "data/turnout/county-candidates-2024.csv",
+      "bytes": 450399,
+      "sha256": "b9f98150dbbfb1494cda78b772d3397ff538c6b79e0abbba1afd52e51842f30c"
+    },
+    {
+      "path": "data/turnout/county-candidates-comparators.csv",
+      "bytes": 278166,
+      "sha256": "4da3703ba1cf8949d70e7bc9981347adab96b6073c6a383c67fb1d07652bcfa0"
+    },
+    {
+      "path": "data/turnout/county-source-links.json",
+      "bytes": 113499,
+      "sha256": "e72826c4e67766cf14a9340295d1e5e1c10274a36ef2098641a1f211a4b7ed0c"
+    },
+    {
+      "path": "data/turnout/extend_turnout.py",
+      "bytes": 14926,
+      "sha256": "b8b6b4a4f37510384958af34ef966d6087657f3b2d7ef4b61f7301f263565b23"
+    },
+    {
+      "path": "data/turnout/fetch_evidence.py",
+      "bytes": 1829,
+      "sha256": "6894d4f417acb7d237b1e3b540088bc28f01da5a6b0ce90ac6c0708a3cd8db0a"
+    },
+    {
+      "path": "data/turnout/finalize_artifacts.py",
+      "bytes": 3229,
+      "sha256": "3f000a6bdff98c77677c6976f767ddf10b1d4df1681914707be2156d7e0324ca"
+    },
+    {
+      "path": "data/turnout/inspect_primary_units.py",
+      "bytes": 6845,
+      "sha256": "ba61b9983d13da6d3cfe37f7f2bb43b8c05cb294634818565a325e5d749d8bdf"
+    },
+    {
+      "path": "data/turnout/medsl-2024-senate-county.csv",
+      "bytes": 153645,
+      "sha256": "703e947ff0fc4b00ebad96cb5a7b37d3d33e77c2b6a3b05ec23870c9029b7fe6"
+    },
+    {
+      "path": "data/turnout/native-coverage-summary.json",
+      "bytes": 9934,
+      "sha256": "5f6a22d39a2f0c82f26db338c7de1d6c4cbfb7f11669d74d1b26d84d4b5f7441"
+    },
+    {
+      "path": "data/turnout/native-records-2020.csv.gz",
+      "bytes": 2075361,
+      "sha256": "0d9825875d7db46cc667f652bacf2dd3de3978d6ab8557a44436b760181fade0"
+    },
+    {
+      "path": "data/turnout/native-records-2022.csv.gz",
+      "bytes": 695907,
+      "sha256": "0e75eae406f264f439add57c2a66f7fcc04846d58f4c53ddbb060b2401f3e344"
+    },
+    {
+      "path": "data/turnout/native-records-2024.csv.gz",
+      "bytes": 2922548,
+      "sha256": "88214251501fad5d22b5a81e6b4f0ee8f71de0964a6908a5ea9fa64889a411f5"
+    },
+    {
+      "path": "data/turnout/native-reporting-units.csv.gz",
+      "bytes": 642660,
+      "sha256": "e0277aec3c9bba09a351a209350cff3dae972e8330f9f5b66160ec20f40aa870"
+    },
+    {
+      "path": "data/turnout/native-source-diagnostics.json",
+      "bytes": 1624627,
+      "sha256": "0139200d475f89f2b7806f4383cfe6c73db30d0f6d6908a82e3f1f80374652db"
+    },
+    {
+      "path": "data/turnout/original-angelina-2024.txt",
+      "bytes": 700915,
+      "sha256": "a829fa847cdb36bf8610e0e5e4142a89ce6d3de1dff14dc6ab8e37c4e6bf0a35"
+    },
+    {
+      "path": "data/turnout/original-angelina-2024.txt.gz",
+      "bytes": 41688,
+      "sha256": "f18e183a36b3136c9b178aed326172e1c8ca52af52e32818b9b798aa2813546b"
+    },
+    {
+      "path": "data/turnout/original-bexar-2024.txt.gz",
+      "bytes": 1546939,
+      "sha256": "44ee55b618b700216f2170355a85b09694fdc608822cda64e5b951c5a870d27b"
+    },
+    {
+      "path": "data/turnout/original-harris-2024.txt.gz",
+      "bytes": 3821447,
+      "sha256": "4ddd3675ded3a50c18aeb4d47966552be4220dda3c14a56a0e35036f007f6f00"
+    },
+    {
+      "path": "data/turnout/original-midland-2024.txt",
+      "bytes": 225489,
+      "sha256": "e1c076bf8e9f960e40e0a6d9407c0522d932437c1525647f2ce4318ecf7238b5"
+    },
+    {
+      "path": "data/turnout/original-midland-2024.txt.gz",
+      "bytes": 21366,
+      "sha256": "2c7e3052b5bf56c52303861d471ae6dab4cbce765525ba37d2db6f36441d7128"
+    },
+    {
+      "path": "data/turnout/original-vendor-county-comparison.csv",
+      "bytes": 1400,
+      "sha256": "4f07bd2c0dafcaa371b1975375d9418d0b1e1e738299d06c824a8ecf1e07f670"
+    },
+    {
+      "path": "data/turnout/peer-reconciliation.json",
+      "bytes": 1063,
+      "sha256": "c0158ea3013b268dd5e7a80a84869a8fdf2cdbcd76007244aaf765f740b7389b"
+    },
+    {
+      "path": "data/turnout/primary-county-extraction.json",
+      "bytes": 608421,
+      "sha256": "5422f3f6a44063489767ff46d40cf2bfb0c5741cbf6310b98cac1eb1d9f520f1"
+    },
+    {
+      "path": "data/turnout/primary-harris-senate-units.csv.gz",
+      "bytes": 56872,
+      "sha256": "05c18900356a06692098c75ddd121ebfe312146f7d140a37907ccb107e1bc5da"
+    },
+    {
+      "path": "data/turnout/primary-native-diagnostics.json",
+      "bytes": 53946,
+      "sha256": "747ab3858ac83accc48856dd6a291cfb6a1567f751b1aac394896bd8ff8531a3"
+    },
+    {
+      "path": "data/turnout/primary-native-records.csv.gz",
+      "bytes": 183554,
+      "sha256": "1756d6a0caa14733bbadc11b20f45dc276ed79c5b0904f7dc385a16b486fdba5"
+    },
+    {
+      "path": "data/turnout/primary-native-units.csv.gz",
+      "bytes": 30102,
+      "sha256": "dbc3194594d2de0b21ee66b710ee6f92845191ca360a17038b59eb8d559027f5"
+    },
+    {
+      "path": "data/turnout/primary-unit-controls.json",
+      "bytes": 902,
+      "sha256": "83cf24430319cc7d7b7e28876cf60fc8af0de29b9b764111903f18c42d6758cd"
+    },
+    {
+      "path": "data/turnout/priority-set.json",
+      "bytes": 15630313,
+      "sha256": "8c30e57da8010aeb34c539611a41740ec199caa2bc8f2a0285f45e5a84d56ff5"
+    },
+    {
+      "path": "data/turnout/raw/archive-cdx49664.body.gz",
+      "bytes": 531,
+      "sha256": "0b1d0b8919016e669c5e240b17c956b300e2fcc42b2e0eb25e8cd8d3158b7db2"
+    },
+    {
+      "path": "data/turnout/raw/archive-cdx49664.meta.json",
+      "bytes": 1589,
+      "sha256": "0f187d0dfd606e046401c91e72a8fc34f18ef892fe261104780c612aafbf7d32"
+    },
+    {
+      "path": "data/turnout/raw/medsl-readme.body.gz",
+      "bytes": 5435,
+      "sha256": "32aaf1e969ddf95f19f679c64a4f8cba8a64347789425b634c3a5d853c375a2b"
+    },
+    {
+      "path": "data/turnout/raw/medsl-readme.meta.json",
+      "bytes": 1898,
+      "sha256": "1e28038cb33b49a5ceeb538981fa288a1bac6e3e8d016d703b9515dcc3358779"
+    },
+    {
+      "path": "data/turnout/raw/medsl-senate-county.body.gz",
+      "bytes": 79786,
+      "sha256": "80f4387be677491322b91c12028711bc68019aedefe955d4dcf85fe5718a5b44"
+    },
+    {
+      "path": "data/turnout/raw/medsl-senate-county.meta.json",
+      "bytes": 1944,
+      "sha256": "35f080bdaab36f1c8a163ec4c7b700955cf56b61315403aaae25ee44107b08f5"
+    },
+    {
+      "path": "data/turnout/raw/medsl-tree.body.gz",
+      "bytes": 2696,
+      "sha256": "a8c911303cf0c784d34c09651d6aeb6b37200fed8c09b7288a14898fb6a307fc"
+    },
+    {
+      "path": "data/turnout/raw/medsl-tree.meta.json",
+      "bytes": 2321,
+      "sha256": "40805dcb6b3b2a7c2109dd47e769c91d618400ba410e78162e827a65232d1e6f"
+    },
+    {
+      "path": "data/turnout/raw/medsl-tx2024.body.gz",
+      "bytes": 3810912,
+      "sha256": "407d50c402d2e583e25973150c83cb018bb38f06109fb6e3b973f5ac11b9bd94"
+    },
+    {
+      "path": "data/turnout/raw/medsl-tx2024.meta.json",
+      "bytes": 1900,
+      "sha256": "c4586328d005eaeb28c07f8378a229c893a15b63d09205cca2c271f8cd29373d"
+    },
+    {
+      "path": "data/turnout/raw/oe-data-tree.body.gz",
+      "bytes": 102071,
+      "sha256": "3533d3af7fac2a52a922b50d21b74ee74102e094d35e151cc3b1a70b5833e911"
+    },
+    {
+      "path": "data/turnout/raw/oe-data-tree.meta.json",
+      "bytes": 2343,
+      "sha256": "7fe6fc277898827fd7f545e674a91a3977cae8bb7c4b1ec5300c4f76cb0ed192"
+    },
+    {
+      "path": "data/turnout/raw/oe-source-links-2024.body.gz",
+      "bytes": 72889,
+      "sha256": "4c2315e790501173ea540ee7ce49d701f0c8108414a47fe430052ec96affed8b"
+    },
+    {
+      "path": "data/turnout/raw/oe-source-links-2024.meta.json",
+      "bytes": 1915,
+      "sha256": "2377242443377fa5d6b70e4046e002285ca181092040d831437abcf286821d2c"
+    },
+    {
+      "path": "data/turnout/raw/oe-source-notes-2024.body.gz",
+      "bytes": 14587,
+      "sha256": "0a68bfaf084407b914a07f6fa86cf0457900db4c13b6bd6bc719866ac197631f"
+    },
+    {
+      "path": "data/turnout/raw/oe-source-notes-2024.meta.json",
+      "bytes": 1946,
+      "sha256": "2276510ec5468bd1ad4ab45a24c3f4c3930ade102b5aa7a75c7ec706ff9f87fb"
+    },
+    {
+      "path": "data/turnout/raw/oe-sources-tree.body.gz",
+      "bytes": 376578,
+      "sha256": "ce75cc671bf9e2d30242f90d0a4d384d62687888b6a99d9edc581807b38497c5"
+    },
+    {
+      "path": "data/turnout/raw/oe-sources-tree.meta.json",
+      "bytes": 2281,
+      "sha256": "9a9f545262a7ec70f090f46468698c5b86304e2e132a86f971a05e3ebe212759"
+    },
+    {
+      "path": "data/turnout/raw/oe-tx-harris-2024.body.gz",
+      "bytes": 1772737,
+      "sha256": "8875f844f25c8a40d35be135d8c98d0b14dad1a4185b22b5d4321fc2fed09f23"
+    },
+    {
+      "path": "data/turnout/raw/oe-tx-harris-2024.meta.json",
+      "bytes": 2026,
+      "sha256": "13302c082ca83e70b3f963883b3148fd9cc05afaad1ec4279c75c9aa7084a76b"
+    },
+    {
+      "path": "data/turnout/raw/oe-tx-readme.body.gz",
+      "bytes": 935,
+      "sha256": "8f6165f0b6db9a897aee6ce4dd69dcabae23f41aeda4457802cfee6e2ad086ed"
+    },
+    {
+      "path": "data/turnout/raw/oe-tx-readme.meta.json",
+      "bytes": 1908,
+      "sha256": "513492de86bd63ad05eee6655a58843d0ae41a24cc28a70e10da0deb79d65697"
+    },
+    {
+      "path": "data/turnout/raw/oe-tx2020.body.gz",
+      "bytes": 6546011,
+      "sha256": "f41dc3a58064dc8ce5046e1410f4e7ed1499d3a6896699729a03db4a59a965f5"
+    },
+    {
+      "path": "data/turnout/raw/oe-tx2020.meta.json",
+      "bytes": 1978,
+      "sha256": "3c994dbaaff9f4ea690549cefe776cfc850ed1c6558e1f049309ecf1b771464d"
+    },
+    {
+      "path": "data/turnout/raw/oe-tx2022.body.gz",
+      "bytes": 3219127,
+      "sha256": "a1748335a67d402decde4e680636177852b78d55621cc0bd243e5197349fff08"
+    },
+    {
+      "path": "data/turnout/raw/oe-tx2022.meta.json",
+      "bytes": 1978,
+      "sha256": "fc4d2852db33c56b70379cf5c095ff9c4bda2a65e6c4c35e82ec9b861609e681"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-anderson.body.gz",
+      "bytes": 10671,
+      "sha256": "c7f7b3efa183e15f23b8e0e791c7f3e919b5a7e4f73f71aac9b87051e5b75398"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-anderson.meta.json",
+      "bytes": 2019,
+      "sha256": "79a2395bf1ac1eb8965a58c1af9cbd692d475c8e4c8335037824d4774d0dad0f"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-andrews.body.gz",
+      "bytes": 1870,
+      "sha256": "51ef66ba083c2632857a89773672e12ee3c6e77006771fa5ebe9d6014d302baf"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-andrews.meta.json",
+      "bytes": 2014,
+      "sha256": "f90f9777a84423023b78ee4f97c5fd3156cc704c83675845b7dab8788a5afdef"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-angelina.body.gz",
+      "bytes": 33081,
+      "sha256": "559aaef5b800bc322caa20ec68d09ffd1746bfc79a2faf0a48846ba11160dc7f"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-angelina.meta.json",
+      "bytes": 2021,
+      "sha256": "09aae9f9deb85e9f6637227a0b786bfb79355a06331705027f621a66bc92ce57"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-aransas.body.gz",
+      "bytes": 5295,
+      "sha256": "c4e55c7642e88ae853163ec61d47872c978e5d31b5a088f75fec22671a188d4d"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-aransas.meta.json",
+      "bytes": 2014,
+      "sha256": "864ea0a6751ced6bd33e9993acc57dc240131261df63d650d979a28286097efb"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-archer.body.gz",
+      "bytes": 6742,
+      "sha256": "e73279cba28f2617b24a5d79ff246450c78e0ec15e6482e55504faab7cc2e476"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-archer.meta.json",
+      "bytes": 2008,
+      "sha256": "8d3d252ca30f58d9b4bc7767d29d149b7f690ee5f90a56928ba049f42ed16612"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-armstrong.body.gz",
+      "bytes": 5280,
+      "sha256": "a11f9b91a272d0cb0e992d5824419b9e17df2f1c640e35cf634893e118a055fb"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-armstrong.meta.json",
+      "bytes": 2021,
+      "sha256": "b2a2898e21acc331a50b6d25502be5ac7b78ed7216b782ee18492011d3b3f913"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-atascosa.body.gz",
+      "bytes": 11154,
+      "sha256": "48dbfe19caf44710fd3c30541becb31f7df282ea6e7d19b539c04ac635fafda0"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-atascosa.meta.json",
+      "bytes": 2019,
+      "sha256": "d6e411ed56af680fa3892a38bc6ce0fb71f2966793d4eaeab282edb5460519e2"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-austin.body.gz",
+      "bytes": 9859,
+      "sha256": "9aa7e30998e2dcf51760200cae06e93e85e6d05d747649f69b38bf2fa3baf7fe"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-austin.meta.json",
+      "bytes": 2008,
+      "sha256": "667aba4c24ae540320c8cdec7216f0674d3cc3db644317e8a4c400bff95e3963"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-bandera.body.gz",
+      "bytes": 10667,
+      "sha256": "c426ced6996673f1a72babd8b63ae335601eab04b1602c7f7b6514588ef7b2fd"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-bandera.meta.json",
+      "bytes": 2014,
+      "sha256": "3372825275a9122f3d65edbe4f53f8c8f28506413d5bb05bd29825d570c44e2c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-bastrop.body.gz",
+      "bytes": 17483,
+      "sha256": "133c133fd1f9488139e654246d47de89aff66f88ee2d6b628111378f3dc0884c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-bastrop.meta.json",
+      "bytes": 2015,
+      "sha256": "9a203867831ba2286a4204a4d26d12a33eed84a9122f742bdeb2afa8d79984f1"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-baylor.body.gz",
+      "bytes": 2306,
+      "sha256": "f37ad9c5b388fc8e62e112fc108fc4c5f7435fc7e180ff4b85fe631f85cd62cd"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-baylor.meta.json",
+      "bytes": 2009,
+      "sha256": "83227713a3b8130c27773b4c2ae016e51613e22c08611291c276fc872d1ad315"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-bell.body.gz",
+      "bytes": 42800,
+      "sha256": "dcd87195cc3f5937da3d2502fb24723f8ba1323f7fb27c94a6ae6476766ac890"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-bell.meta.json",
+      "bytes": 2004,
+      "sha256": "9881ab8275b602b591aecefe161b293c0e2317dae3549f03f7e6b07cffabbffb"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-bexar.body.gz",
+      "bytes": 937974,
+      "sha256": "0f881c37977d20c834e64c8e6a6ac64f425305b992d0194b76e9b06ef499cc8c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-bexar.meta.json",
+      "bytes": 2012,
+      "sha256": "7c6c58e06149f88029ef08301dcf02b73ae94e80e81ebb18d14ff93e2d6ab523"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-borden.body.gz",
+      "bytes": 2056,
+      "sha256": "7df86926af6ca72b4523fe3a0d800233e33d6165a713ce23f58774c55e83a8b1"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-borden.meta.json",
+      "bytes": 2009,
+      "sha256": "50415dd5898403660d384ca1c887ea93df7f161faa3bd336f7aebac77d23abe8"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-bosque.body.gz",
+      "bytes": 8039,
+      "sha256": "40d4bc2fe9d3569214726880b4f656ea2b0f0f42eb781267525254e4face4d97"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-bosque.meta.json",
+      "bytes": 2010,
+      "sha256": "d9f4547e62c7f773042c0d4dc21c065e4e2d0026026170f902f5761533c53990"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-bowie.body.gz",
+      "bytes": 34772,
+      "sha256": "f90d953d3039bcb6c305ec0d097db74457e15583031eca1d2054e2d2ba7aac97"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-bowie.meta.json",
+      "bytes": 2009,
+      "sha256": "c3223a07cbba0bf2ceb22787b28f633019b84e9d04355653b8640f9739658ef1"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-brazoria.body.gz",
+      "bytes": 82424,
+      "sha256": "0e0944402359cb72afcb8264e0ac71dd56425ef944a5ebd43edeeea39346d404"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-brazoria.meta.json",
+      "bytes": 2021,
+      "sha256": "d3f0d6cba8874110807668d5570a6ab5dec835967658fe14dfe2f46cbbaf4d28"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-brazos.body.gz",
+      "bytes": 66672,
+      "sha256": "5ee8221872fc21bf756a03d7f7bde4f09699e37fb9ad3882db7f1e2595118a3d"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-brazos.meta.json",
+      "bytes": 2013,
+      "sha256": "85ac3418eb38b1f5793c940a195a214cfbb781c5a6382298d129320212b16709"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-brewster.body.gz",
+      "bytes": 4107,
+      "sha256": "a0777229a1383c0fb02d47bd94c32af1297414a07bda46c7c30d9de6bfb86163"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-brewster.meta.json",
+      "bytes": 2016,
+      "sha256": "390d3fb36f875913bbd4b793cf0f7df1144313504fc796564d629597336fb251"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-brooks.body.gz",
+      "bytes": 5094,
+      "sha256": "6f7a83b7fcefdc395593deef69e86e901db2d5453f74466aa91a3af512d707b0"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-brooks.meta.json",
+      "bytes": 2010,
+      "sha256": "05fcec8e811e768a5e41a48a8166ab2a476cc15ec314f07c2d90c91f29d8e5a9"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-brown.body.gz",
+      "bytes": 13254,
+      "sha256": "b59dffb68edec693b8befcad17755cfa95063b33508829b6a337893928e80f6f"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-brown.meta.json",
+      "bytes": 2009,
+      "sha256": "64a593a5e79f03e0fbc0c338c1bc56651cea1a0f25a52164cd93b69724ced221"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-burleson.body.gz",
+      "bytes": 10288,
+      "sha256": "7e7730511cafc6c0abf91bc3753117a77194d8eec9ac25f6fef10b6443f3eeb1"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-burleson.meta.json",
+      "bytes": 2020,
+      "sha256": "6743d51700a62d4fe81c2a37c6f69c578015966de41c859a4159e8e4460804a3"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-burnet.body.gz",
+      "bytes": 19465,
+      "sha256": "0defadbecb4e5ea18361fb48622cd78ed2057c0b46ab11af1615258ceba92cf9"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-burnet.meta.json",
+      "bytes": 2012,
+      "sha256": "908acaac6617a40f026bc85d04e16a81c2689751ce028b6f9969fd9e6d0ebbec"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-caldwell.body.gz",
+      "bytes": 11832,
+      "sha256": "9f398a42d21bf8daa030ac70b1bda55f21af79c92e5e443094ce87ee3dbc9be0"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-caldwell.meta.json",
+      "bytes": 2020,
+      "sha256": "7fc639d7d2d1a45c51331a6622f0fe91933105e8b57fd6e7dd57d4814855b550"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-calhoun.body.gz",
+      "bytes": 5630,
+      "sha256": "af5cd0fd0ece8d34582951012b30c2ca47c4886509ff0c0ffeaa852282941d46"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-calhoun.meta.json",
+      "bytes": 2012,
+      "sha256": "8881419924c7e754907249a0c73ab840cbf903b0ef495c68f87bda31275b8f5c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-callahan.body.gz",
+      "bytes": 9487,
+      "sha256": "ec01ecc397e4983e4f49776563cc738e2480802d4d6078f49783cdf931fb2e67"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-callahan.meta.json",
+      "bytes": 2017,
+      "sha256": "fa4b00380b6b09945819e757668530e3840ad7d8db02f319665268a5805f1837"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-cameron.body.gz",
+      "bytes": 102428,
+      "sha256": "fecc5f05aff2e07820e8a99a727918aa4b20456c6f69876081bc8e99a0cf8ca1"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-cameron.meta.json",
+      "bytes": 2019,
+      "sha256": "1414ec7ee5a708a1711435f84368112123d00663919005031a5c02e2bc3ae3fc"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-camp.body.gz",
+      "bytes": 3785,
+      "sha256": "ca7dc7dc5c318472d2c5eefa9f63420d8c937ef9a61f9d9e0ff30fc5d59d6154"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-camp.meta.json",
+      "bytes": 2001,
+      "sha256": "51bd0ef02b02ecdf7bb7b6a058724e9351e6db69786d6da2e2ca567d2a10dbad"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-carson.body.gz",
+      "bytes": 2698,
+      "sha256": "31411eb534eb8f2e6ce0a8be9a58b98f7c706dbc1ed70ddb23591f09121cb99f"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-carson.meta.json",
+      "bytes": 2010,
+      "sha256": "3d471898b38e7a3989434adc00035c0d0c10d70d802daa6c65ff0546d2d8babc"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-cass.body.gz",
+      "bytes": 10247,
+      "sha256": "a14f385ad1324f7a08d615b71cb6fe24beda5bfe9d3533fdd2d402b90cdc03cb"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-cass.meta.json",
+      "bytes": 2004,
+      "sha256": "240eed8dac24ac02e906b4d2534a7cafc6fc61074ebce5bc13419439c0dad697"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-chambers.body.gz",
+      "bytes": 23012,
+      "sha256": "4f22e3b21625f4586c8ae73b351c5ec93567c2abd68c27070e2e17d824626296"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-chambers.meta.json",
+      "bytes": 2021,
+      "sha256": "dac6f8ce628fa361b4d1e0244d59e0bc9e450aa713e50393da796f54c56cbe29"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-cherokee.body.gz",
+      "bytes": 16566,
+      "sha256": "2a6606914605b226aae4bd3a7902c667f1cb0b118eda82781579864f56062050"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-cherokee.meta.json",
+      "bytes": 2020,
+      "sha256": "cfae49e0649e3b114d079a54bc858e676414c6bb644e9782fbb21606b4ccad23"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-coke.body.gz",
+      "bytes": 7802,
+      "sha256": "5017193b335cf54c3b5460982f13136fe2f69db23f02157b50309bf736f0e86a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-coke.meta.json",
+      "bytes": 2002,
+      "sha256": "9d055495da0ffb15798709161472ed82da5cf85de3cc73ae29ff8965c476b872"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-coleman.body.gz",
+      "bytes": 4156,
+      "sha256": "63ee5fe803f6ec7049776ab32c68741ab4d53adc47425353033039a18c361338"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-coleman.meta.json",
+      "bytes": 2013,
+      "sha256": "1a9a7a1897d013abfe5f562cf0fab09faf19b07498fb14e2f47c7e510dfb67e4"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-collin.body.gz",
+      "bytes": 337919,
+      "sha256": "cbdc1269d8f426e233ec21f439ac6c2e09b4705c002f06db4743d1cd1bbc2c9d"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-collin.meta.json",
+      "bytes": 2016,
+      "sha256": "c606c9dbd149c104180c64cf63f50978de20743e6aeaf3fd61b7e665f59127e9"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-collingsworth.body.gz",
+      "bytes": 2863,
+      "sha256": "4b33824a4c697b328a57bafa712af85032cc3151af4202e758b654719bb08f1a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-collingsworth.meta.json",
+      "bytes": 2037,
+      "sha256": "e95d6e1a71c7ed04454abfaf30876413547a239e9efa1ca25a11e985a91b35db"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-colorado.body.gz",
+      "bytes": 12554,
+      "sha256": "3ab7c040170a27a2c65ab5cb68491646db28fd18d2b454d1f2c1c5a48d7c3a69"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-colorado.meta.json",
+      "bytes": 2020,
+      "sha256": "5445c3960e4023ab323bf65966da7d105b09d647fe2a3cc50af6e9fb6dc90c6e"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-comal.body.gz",
+      "bytes": 30690,
+      "sha256": "aeea2399bea9edba519768af3eea72eb705b501b034e943406639d3c502e091c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-comal.meta.json",
+      "bytes": 2009,
+      "sha256": "c3158c66ec2cf570df3d85c24ba97f6f0f9bae7697e2fb3b2adf9a91660462a4"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-comanche.body.gz",
+      "bytes": 13176,
+      "sha256": "0ff62beed1000fce59099e18a986c58fe0ad219f0622559e1bcfbac02a865fe9"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-comanche.meta.json",
+      "bytes": 2019,
+      "sha256": "03ed15b33f9757cb9a357409f519200e42d1f94746dcb457b0f233dbbb17e3f4"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-concho.body.gz",
+      "bytes": 5220,
+      "sha256": "63e75c1c41b4eadfb502b50b99c32f1b7de7f982ebb4b81c3d210219acfc0a19"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-concho.meta.json",
+      "bytes": 2007,
+      "sha256": "cca88807c021939b9882e13b199c438c7059a595e971000fefa665dabe322471"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-cooke.body.gz",
+      "bytes": 14902,
+      "sha256": "186426abb01173821fa2b523942ba2adbb71e260f914508262cbec2474f93505"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-cooke.meta.json",
+      "bytes": 2008,
+      "sha256": "32878c9e5c533b159f253e547b22454c28c4d8880b0726ecbdccd04aeccd464b"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-coryell.body.gz",
+      "bytes": 12491,
+      "sha256": "98bd1dd7da05f64eaa0f754258799059cec39eba19e7d4e8a78022f5d3db5d5a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-coryell.meta.json",
+      "bytes": 2017,
+      "sha256": "fb28e2b4e5973c015f3c8ae3bd6b5dce46ac79c86109d516674c7c31e17f955a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-cottle.body.gz",
+      "bytes": 2030,
+      "sha256": "95a839a291392ac9a61d5d689f7de9592ad8e95d0afa9d814842437544f940f9"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-cottle.meta.json",
+      "bytes": 2009,
+      "sha256": "6da31ded6bbd58e1115367719ab41af246bdfda610534c57c266890577e822c9"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-dallas.body.gz",
+      "bytes": 1002433,
+      "sha256": "54a0e85f46c38e820b39a2263ed2316650af68a006cf191c852d8af4e715e148"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-dallas.meta.json",
+      "bytes": 2018,
+      "sha256": "6e01c1f7931c95905dc2b92f9025d3c2b372abd855c5863403d6b1579739b01c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-dawson.body.gz",
+      "bytes": 6552,
+      "sha256": "37817346b8ae77e710d7b8c6c41d7956bb4b1dc38037fe86a3ef9f98b5d6b59a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-dawson.meta.json",
+      "bytes": 2010,
+      "sha256": "bbb0e65f54cf1e738fc78c7c412ba68885b1db2225a28bb370c5e7406387b3d2"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-delta.body.gz",
+      "bytes": 5177,
+      "sha256": "0975f70df2845c3c91386b91ad8df1ec87051060306c34ef877e8a6b9ca77348"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-delta.meta.json",
+      "bytes": 2004,
+      "sha256": "4ad9278a66c8da5dd2511f91582b37dbccfb651745123c08af689e0a513ff10b"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-denton.body.gz",
+      "bytes": 205460,
+      "sha256": "ea255d47c4f54a4dba7aae2c755b482da955fd5809920d885790a8d3802367fd"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-denton.meta.json",
+      "bytes": 2016,
+      "sha256": "a08f12b5c7aaef5df2961442195df9e598504ea165b8291121ae5fbe89f90a5d"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-dewitt.body.gz",
+      "bytes": 10508,
+      "sha256": "8346cebb5c7abe95bef402c16c88278403f4d5c48268e6cd198dd02490f60674"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-dewitt.meta.json",
+      "bytes": 2009,
+      "sha256": "7c945996c492bed6141c19ffefd029cdf464ec8623d49d772a31f375f9c24e2a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-dimmit.body.gz",
+      "bytes": 3156,
+      "sha256": "f3a9059d3ab62c3c48150643600bd63c790d03c86909a25a57040f73a099858e"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-dimmit.meta.json",
+      "bytes": 2010,
+      "sha256": "d65b83a6d0e0b3a3aaa5a6e3131dface64fb04219ab27167d3c8822f555a3017"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-duval.body.gz",
+      "bytes": 20320,
+      "sha256": "bf80d1089a94963ac7c83763e8fcc88f71508b04d0f17b6c1137f852eafa5573"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-duval.meta.json",
+      "bytes": 2008,
+      "sha256": "eaa020603523361c2e9f083a2af7404c8b949de19056769b6df684f802cab469"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-eastland.body.gz",
+      "bytes": 9563,
+      "sha256": "a757e7c54d27846ab3e4dbf7dd90ca21c865f4a7883f5841e2c33981d99bec79"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-eastland.meta.json",
+      "bytes": 2017,
+      "sha256": "1ffabceb7a8685a46584a10826fc80cb5d2131991cc7e79f2219583c9c46bc20"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-ector.body.gz",
+      "bytes": 30709,
+      "sha256": "09dd365e67404fe935522d2fc8c1fea3682ba991c42ac4e534bb2f7f9cfe5a71"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-ector.meta.json",
+      "bytes": 2008,
+      "sha256": "db078f2bf01d89da2630919eed23bd2463ec27b211b10b9be7017d5a8e7e5f7f"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-el_paso.body.gz",
+      "bytes": 186814,
+      "sha256": "d648961dd14fa242e59c4a19410e000c7853b62d441a2ff159382997b972096f"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-el_paso.meta.json",
+      "bytes": 2020,
+      "sha256": "542a672e7cd73aeb985c97d736f13252d90b150ab3bd198eff1f635a74bef288"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-ellis.body.gz",
+      "bytes": 24468,
+      "sha256": "7c43923227d3903b43e7a5f8d8134e78571a338669dc4b8e9c1f4d2f6bc3f57d"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-ellis.meta.json",
+      "bytes": 2009,
+      "sha256": "e741ddd3fb5e37d2e578589e8a59ce5c7fd2c3e7a5fb7a7667242dfbd0a7c39c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-falls.body.gz",
+      "bytes": 7798,
+      "sha256": "4078742dc91a614433fb2045764ede8eaac533fff388e643dd1b844d9ce88155"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-falls.meta.json",
+      "bytes": 2005,
+      "sha256": "95acd48adf772502c0d0f639be731adf6bd1b9098238dd1b84f856b4cb97d541"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-fannin.body.gz",
+      "bytes": 12481,
+      "sha256": "084258a87af53fa7e5b4183c02323b584b50c188e450fba75b496a1b60b93e07"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-fannin.meta.json",
+      "bytes": 2012,
+      "sha256": "f426effb342412ce208ee65812d7fe292f876b5e94954d629943137055744f1c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-fayette.body.gz",
+      "bytes": 10220,
+      "sha256": "05c409564bbe46fbaca062bbb4666ac50269474e3c9b95ad8b04275f3e9bc70f"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-fayette.meta.json",
+      "bytes": 2016,
+      "sha256": "367099e3fb2614f7fb4d8f806602cde5e7c15a732d6bdf4fc2a9414df17128c7"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-floyd.body.gz",
+      "bytes": 3703,
+      "sha256": "119f428705febdd9b1d3d02522386ffb23e435f97bfeaf0c00c58d31066adf4c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-floyd.meta.json",
+      "bytes": 2005,
+      "sha256": "14bcabceea204681599f092e354a473a188b9762a676305d729d78327aaaa91d"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-foard.body.gz",
+      "bytes": 2796,
+      "sha256": "c945d592827fb58d832354c906dfbaf5c212de271497f520a4b50cf8cd80bc16"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-foard.meta.json",
+      "bytes": 2003,
+      "sha256": "4e74e2d82ae060e336de332055aa966a44ece9a8282fb9f08b0f35f33812d5f9"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-fort_bend.body.gz",
+      "bytes": 205826,
+      "sha256": "a23f80b833dccf7a7543857f2fd20423265ffb7bd872f227053c7be7617fc585"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-fort_bend.meta.json",
+      "bytes": 2028,
+      "sha256": "dfb262fb86a1defe639bbf4e728251d0c1e8fc21fd5b58a0f67e4081ec7c6a7d"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-franklin.body.gz",
+      "bytes": 3795,
+      "sha256": "a6525fd41a622f23661835a80fe7bed33dade86800d0281e474b322d645dcbe4"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-franklin.meta.json",
+      "bytes": 2018,
+      "sha256": "8e956da74267ef80bd838dbd1adacb8c2186a1ceccf5af52c1800078ded229c5"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-freestone.body.gz",
+      "bytes": 4557,
+      "sha256": "b1ea6afaa9577a18a46b459ec6885e1b698727fd4046252361c6eaae56f8d41e"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-freestone.meta.json",
+      "bytes": 2021,
+      "sha256": "c603910842a9651d968aadb737d2c55a7851f944e0b33fcb124b14781de27019"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-gaines.body.gz",
+      "bytes": 5647,
+      "sha256": "8b6590aa9a0c95797189a98637c95934175e4fb63a9dcc959c4b12d43bdc5f71"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-gaines.meta.json",
+      "bytes": 2010,
+      "sha256": "aec7868195f30d3f3850652d4401671d0bfb8dc04f45ea3a949a4867d28f8b2c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-galveston.body.gz",
+      "bytes": 69390,
+      "sha256": "2ae3dc1b95c89d4cb81bdb9fa415cd99d070afd56b2cf45e02b94f3fcdab476d"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-galveston.meta.json",
+      "bytes": 2025,
+      "sha256": "b3146d9d55b85a93d74da109b26bd5b55514fd0df2e2dece01ca00c830206e46"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-garza.body.gz",
+      "bytes": 2674,
+      "sha256": "c84af90ee1be7c31f65a4a30b7745ba23215d95a58de736c800b3a330d504592"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-garza.meta.json",
+      "bytes": 2005,
+      "sha256": "a28882dd7108879617a5b6ad58f8224ebe56cc3d8c3fa464c161ed2a4b75f084"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-gillespie.body.gz",
+      "bytes": 13860,
+      "sha256": "6663488a95df8a862e6757e399f3f474840452fd8791df6dca20377f0dcbe74b"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-gillespie.meta.json",
+      "bytes": 2024,
+      "sha256": "98fb1674d951966d055b6bc5e04700abc868ce685a7cd7c8a0a7761b48725f7b"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-glasscock.body.gz",
+      "bytes": 2362,
+      "sha256": "d3bd99f9574ee17f2e11b69db64827414e6de0f8c64a10fdaccee283bd0e5b58"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-glasscock.meta.json",
+      "bytes": 2020,
+      "sha256": "b18f275295eabfa4836971ac2d1693d36a8a727b03dae5f60f930141c6b56d59"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-goliad.body.gz",
+      "bytes": 7754,
+      "sha256": "ddcb7f8f87bcb95ce2467b5fccb87409623bea1afcccfe5d514032a6e9e620c8"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-goliad.meta.json",
+      "bytes": 2010,
+      "sha256": "2f319abd6a331b41d995987bd5479576ee5b49a38e90c7e0678d06d712b57a8a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-gonzales.body.gz",
+      "bytes": 11798,
+      "sha256": "666c0ff576267fd85bd0d133423a87360f29268cda48c26c7f91c581690cc9d8"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-gonzales.meta.json",
+      "bytes": 2018,
+      "sha256": "248c66f0650b29250e4a9ba3d27e38db862ec9516668e2dffd944ec489b195e0"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-gray.body.gz",
+      "bytes": 3952,
+      "sha256": "fb0e19a76fab13e6ac18549e00975d8ffde0194e0e06dbad05e052cbfc574860"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-gray.meta.json",
+      "bytes": 2002,
+      "sha256": "b28757cfb3f7416628f81046fbbd853bb985c1bd5a295b03750c0edbf8a98708"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-grayson.body.gz",
+      "bytes": 26794,
+      "sha256": "735d7d12e50faf23c0f3bc239dfdbb4be48b8395ec17427aff05fdb363b1090c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-grayson.meta.json",
+      "bytes": 2017,
+      "sha256": "15793af08d66ab80293da9a033be8426544c0ec4c204e3684770d6d6055adbe7"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-gregg.body.gz",
+      "bytes": 10579,
+      "sha256": "74be71a6c2df9cb65fe03f992a40565efc513a91679eef8721ac0e10e7ce8051"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-gregg.meta.json",
+      "bytes": 2007,
+      "sha256": "3b75920e9926e54f6e6b8f7f3d20f042c69c615286eab02451d08a1421402ef0"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-grimes.body.gz",
+      "bytes": 11956,
+      "sha256": "5390f3c512a170b6f88046c25c3cdb8b2e63aab2a42f6d6e36bded69dbd692fa"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-grimes.meta.json",
+      "bytes": 2013,
+      "sha256": "f486e3b8eb635215ddb99426840d151401275262395d2070a6cb55b12f5d4d66"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-guadalupe.body.gz",
+      "bytes": 58259,
+      "sha256": "5f32cf1c7f9119cb36bd9458f42c8325a014d13d2826906005ffbb9dc36dfc07"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-guadalupe.meta.json",
+      "bytes": 2025,
+      "sha256": "7a0bd1917bdf7f46e65defe017db71393f68cff110b1210fde1de1b9f4a2efd7"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hale.body.gz",
+      "bytes": 18399,
+      "sha256": "9df4a396924a1b3297b4d58c73c2b3363c99774eb6d5dbdefcdfd8af319776a3"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hale.meta.json",
+      "bytes": 2004,
+      "sha256": "13629198f966b40e6e9bfbb4c5a16443d6e71f34b748f6a9c78370a9898af41d"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hall.body.gz",
+      "bytes": 3082,
+      "sha256": "43a7346e14c3da571e6d8f4861b8ba61d1aec3b5f473150e8b457973f2dc7e01"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hall.meta.json",
+      "bytes": 2001,
+      "sha256": "a3754c74583d819b184bc880ddb511cfb0f660d65835043382268096edba570d"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hamilton.body.gz",
+      "bytes": 6395,
+      "sha256": "2fb997632b4e23972c53e404bade267b887a9b919d1741bc2bb936a11d89cf58"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hamilton.meta.json",
+      "bytes": 2015,
+      "sha256": "75c38ed191d050d6420e0f69df79f0a6e45c64b26dbbd80f7543437eaa1fed06"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hardeman.body.gz",
+      "bytes": 2428,
+      "sha256": "3ff13f54d67a37c41d92c24d563ce51cd9c1f429893d141594ed1b18a8180742"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hardeman.meta.json",
+      "bytes": 2018,
+      "sha256": "8230a5e9ee47697e31f814a08bb5437062aa38806c3e20b4a869b94600c2c8e1"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hardin.body.gz",
+      "bytes": 12105,
+      "sha256": "7a73d4d21f05755da89b1c7dc36cfa1a08f93b7ca94e33154a5213a8d120ef6a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hardin.meta.json",
+      "bytes": 2011,
+      "sha256": "c28f35da0ddf86709eb9bd2687923f6d6712a6966cd7df791ab4dac03c1a5751"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-harris.body.gz",
+      "bytes": 1772737,
+      "sha256": "8875f844f25c8a40d35be135d8c98d0b14dad1a4185b22b5d4321fc2fed09f23"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-harris.meta.json",
+      "bytes": 2016,
+      "sha256": "ccf4078ca75789f2b42694bd95b19f8beb73503b542cbf293cbe2a3ab79dfe6a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-harrison.body.gz",
+      "bytes": 27501,
+      "sha256": "d86319e86c57c5515bcf861e26ca7771de283eb39119e3a3d90e55478facf0d2"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-harrison.meta.json",
+      "bytes": 2021,
+      "sha256": "20c2f4287654ad4244400f60fc910ef58133086d8a6333c793d9aca3664d1d67"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hays.body.gz",
+      "bytes": 34725,
+      "sha256": "541d974b3267256446be2612961e922a9c3e1c40b6f92728f424cb33867bc27d"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hays.meta.json",
+      "bytes": 2005,
+      "sha256": "a274d448c3abbdb7b1587b24a892abf57ffdd344b606dfbb6483e7e8dd035c2a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hemphill.body.gz",
+      "bytes": 3192,
+      "sha256": "3835fc6e3335061d7f642391f1ba53d73b653e281d0b8c6fb0c9fb664ed296b1"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hemphill.meta.json",
+      "bytes": 2017,
+      "sha256": "ab25aab4ac641c533edb24830e352371b1684e290b001fca6d7111b827c36071"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-henderson.body.gz",
+      "bytes": 24870,
+      "sha256": "a6d4e4ab0a8f9e1e2c5b4c28e2ed5a0b36f75b5996a760e8a6acf195592cd3ee"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-henderson.meta.json",
+      "bytes": 2024,
+      "sha256": "a2ee6d9f2c34b8a41c856bd3eb79fd72bfcb01031bd0f8e172dd50707a7c782f"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hidalgo.body.gz",
+      "bytes": 185925,
+      "sha256": "435636a10d3dca82ccbd809d9e60c7c66c8813a7319b144ca0be1593a1bb2826"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hidalgo.meta.json",
+      "bytes": 2020,
+      "sha256": "4949eeb9403705c6a6528de383b2ebc62c50bcc15d83cdbef6964b46da56eb76"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hockley.body.gz",
+      "bytes": 4013,
+      "sha256": "30b6305dcf71305e86aacc6173d8f6002ff399491a2120c786b0c854c9739cb6"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hockley.meta.json",
+      "bytes": 2014,
+      "sha256": "f9172d03ca442f2cab6da6ed32b1869d7d888b4d992bd2790bb1a17cf81fa374"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hood.body.gz",
+      "bytes": 6771,
+      "sha256": "32abaeba84cded7fce15e55963197ab1fb12fd09c82e1a907f5cca28c132aa83"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hood.meta.json",
+      "bytes": 2000,
+      "sha256": "a1edcc427adc59c9cf235e10b50e7651ab1e025be358dbe756f565f30ae09631"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hopkins.body.gz",
+      "bytes": 23104,
+      "sha256": "658f836916d0eb0143f124463a32068e1dec1e377dd6d4509f752eafe20c8461"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hopkins.meta.json",
+      "bytes": 2017,
+      "sha256": "bf1aa1f6534c89ecdc270dae5ac93760fec0dba8ccc0626f6648f6ca73434bec"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-houston.body.gz",
+      "bytes": 8442,
+      "sha256": "885d7ed2f5aa940ccd044c43e14298d78b495e57fb86d59c887e8980d0b06e6d"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-houston.meta.json",
+      "bytes": 2013,
+      "sha256": "908b868ad357df5ffcd70851244469775a2b0bf6583e37f1585f2121987ea74a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hunt.body.gz",
+      "bytes": 40330,
+      "sha256": "463627806bc586f3f63fafe84c58013a10341386d757549dced9bdd1d2c43543"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hunt.meta.json",
+      "bytes": 2005,
+      "sha256": "888561e00f580210a1243ea767eaae12106667c412723a3994a122ccb812ab58"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hutchinson.body.gz",
+      "bytes": 6894,
+      "sha256": "8ab07b538b9f72d9c88289e81ab17a1ae21bceef4f74ce0b9418c3b1c3cff5af"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-hutchinson.meta.json",
+      "bytes": 2026,
+      "sha256": "db408d2847ea215ca25815194a3de75fbd972cc07b50d99553daa0d9de816031"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-jack.body.gz",
+      "bytes": 5180,
+      "sha256": "908cf6de061ce659b4ab7db667f926fcc41b4395b2f376d96e2c55d303563593"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-jack.meta.json",
+      "bytes": 2001,
+      "sha256": "da453c8b1c117591ccd18e7978845bd4127cbf3a0aa8fbf2915bd3eac9c6c9a6"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-jasper.body.gz",
+      "bytes": 12726,
+      "sha256": "68339b226ccf07b5cea23709a14681e7895fc77c38c56616549816c125f12422"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-jasper.meta.json",
+      "bytes": 2013,
+      "sha256": "26872e15b0159bfbd1bc29cf1bc46d1ef964dc29448dc28912e83a44459360ee"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-jeff_davis.body.gz",
+      "bytes": 2715,
+      "sha256": "cc814dac4868639cc15ed248b7083cda89eeb234fb55bdf509cd1e9eb6b10d5b"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-jeff_davis.meta.json",
+      "bytes": 2025,
+      "sha256": "3f5a6340262b71bef2884fd6dab574102e840b188ddded0375928a865ffc9325"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-jefferson.body.gz",
+      "bytes": 43460,
+      "sha256": "dd9b216e3ef60e58ebcdd9543174101a4ed0841f9b60399e7e03cd83b9759754"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-jefferson.meta.json",
+      "bytes": 2025,
+      "sha256": "2063fec7a467800c6506a1dae678255d5b87a5a121aa77df159bea8539cbd6e5"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-jim_hogg.body.gz",
+      "bytes": 4516,
+      "sha256": "65fc8fa5e2ed101abc8a5c677bfe5d2ac2bc2180c363aa50411f9d01b4220922"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-jim_hogg.meta.json",
+      "bytes": 2017,
+      "sha256": "7f0881bce443204bbc1fed1907b12023f2236af30aaa3c73ca25117452d7252e"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-jim_wells.body.gz",
+      "bytes": 23411,
+      "sha256": "1443f766543848fec40f61f80c9b52c7a06f08f5f9b724394e980006e517e581"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-jim_wells.meta.json",
+      "bytes": 2025,
+      "sha256": "1c162de264fc9675a9516a379ee1f8f87b0f183c87a2d8fab8e46f1ccdff5b4e"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-johnson.body.gz",
+      "bytes": 11441,
+      "sha256": "ccc836b9fd8ccbfa574c02b2ef6cc80abd1c203e6af87e56dd09cdc33f909762"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-johnson.meta.json",
+      "bytes": 2016,
+      "sha256": "951b5a9ef8dd22cf7a6c898498750549ab6c4b8d531d12753f129e9ba8050d8c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-jones.body.gz",
+      "bytes": 4117,
+      "sha256": "86a77ac5506b05813e065bf48ef4e51e03338913a429e835f660515a85413567"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-jones.meta.json",
+      "bytes": 2006,
+      "sha256": "9b2187f7763452c95e9f38fe8c8f47ed88ef97d1779a18fcb8158be226e67db2"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-kaufman.body.gz",
+      "bytes": 23851,
+      "sha256": "5c2478901b77e8bf80ec4e90e875a9ff6bf276632f6b895d558f8c1411c798be"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-kaufman.meta.json",
+      "bytes": 2017,
+      "sha256": "03eb10381bedf41a82d6c6436bf0a7e3afeec23c681766c6d2faa2546c15cb27"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-kendall.body.gz",
+      "bytes": 9856,
+      "sha256": "54c86ec8942972660ccacaa31fddd42944b3c064fb6ad17de4fd125a895ee330"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-kendall.meta.json",
+      "bytes": 2014,
+      "sha256": "8bedaeeda355e2b3b2e39f9b15302c78ceaf41ad673f37ae7e3589f69c6413ab"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-kenedy.body.gz",
+      "bytes": 3948,
+      "sha256": "336c3b3bc61eab7e35ddd5cefb4746613d085ed88f3b0282f1c983d7202bbd32"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-kenedy.meta.json",
+      "bytes": 2009,
+      "sha256": "05f9f457402b53a378424469464e18745b0d7bac6da0723d8bbb2a8a11fa37db"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-kerr.body.gz",
+      "bytes": 21979,
+      "sha256": "99b17249b5640d8a552fa4bb42ed70cbe0893f1b8168cb2bc663376af5055d2a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-kerr.meta.json",
+      "bytes": 2005,
+      "sha256": "823feb223890101ea75595ed332574dc31dc6bd6c7e2646fabe21584df6356d2"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-kimble.body.gz",
+      "bytes": 4961,
+      "sha256": "dc0a03ccea4f1cfaebd8c45788d5f60dea8b8554b85743f6104af44fb3dd3f61"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-kimble.meta.json",
+      "bytes": 2010,
+      "sha256": "2201593f01904608d0fd880d497b74a913ee5bff960fbe9d176c4025db5b0ffa"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-la_salle.body.gz",
+      "bytes": 5891,
+      "sha256": "54044b2f4e7cdb29f68b5fc9ce9b877153e0cdc2bb982cab1e403dbfcd8dcc08"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-la_salle.meta.json",
+      "bytes": 2017,
+      "sha256": "368bfd4996b6bbd6c51a6ea1656da95f776b668907668c3a1bccbcfa8527b40f"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-lamar.body.gz",
+      "bytes": 10945,
+      "sha256": "682045aeb5f8d4cb7b176f05d4ac3fb643646799e68a43e1f1ce79f92f876557"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-lamar.meta.json",
+      "bytes": 2007,
+      "sha256": "7b04d88a05a098ea74e91a69f645c86850f4f10fa300faf704a17d8c04f67e0d"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-lamb.body.gz",
+      "bytes": 3433,
+      "sha256": "336a5419e408a52db828887393d27e8664c722be40efb98e2dd3814fcb5a3f69"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-lamb.meta.json",
+      "bytes": 2001,
+      "sha256": "0ca58495a95d56cc78ecb9cb891f6919d631943064f135bd0bd7bad615ff2c88"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-lampasas.body.gz",
+      "bytes": 5462,
+      "sha256": "a59c01eb2224d2a466853bc9de3817bea07bae0a47a106f433d5290babdbb72e"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-lampasas.meta.json",
+      "bytes": 2018,
+      "sha256": "44a2ebdfab62f40ee7352c42d3c3ff87dc1a8b00d3dca74cfb17d05c9ac5625a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-lee.body.gz",
+      "bytes": 12202,
+      "sha256": "4d6bf077ce4cf29e18a369baf03ac0af670e924d056c42f3669f48bbd291b615"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-lee.meta.json",
+      "bytes": 1999,
+      "sha256": "d74e5f9419bf99f75a48a73a1e0c68274f95f719cf441817e9df28a2bc1aaeb4"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-leon.body.gz",
+      "bytes": 6826,
+      "sha256": "695f3831781e27e698ef54d8f4524f4145f3a91a5739dff0b0a34786440b419b"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-leon.meta.json",
+      "bytes": 2000,
+      "sha256": "54773f5a6b5b73a0868f96fa1c8f19e2d729c3ec115317c78036e54c2a5323eb"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-liberty.body.gz",
+      "bytes": 18352,
+      "sha256": "51ed254eb724c39c2aff12874824768172e5ace5878f57fe3ad7f35521ce2177"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-liberty.meta.json",
+      "bytes": 2016,
+      "sha256": "19cdf47208b61ba2e0b7f6ad60924d06b5de94904b7ca94943a6d7299b54d122"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-limestone.body.gz",
+      "bytes": 5614,
+      "sha256": "1a30d6661cda81d725ba66f16d3cb19905d98dffbe14816941f028c99f49dc98"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-limestone.meta.json",
+      "bytes": 2022,
+      "sha256": "7e3cf8f31050f91ced943e3905e49784fd24e6cd6e6850446110311a3ea4684e"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-live_oak.body.gz",
+      "bytes": 10467,
+      "sha256": "298ead6d0157763e62fba8b67bfc874cf9bd8ae2fcd3446a6dd37a2b936790f4"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-live_oak.meta.json",
+      "bytes": 2021,
+      "sha256": "7a8832e5fb4367e4627629df7bae7a5a4674edc7afe340a12207ebcec6bec4bd"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-llano.body.gz",
+      "bytes": 8954,
+      "sha256": "e9391cb0fbbde9e541dd04659d830154cdcb4e649cdce4e4188215864cd6a695"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-llano.meta.json",
+      "bytes": 2005,
+      "sha256": "8802eafa6dfbd2407b362b31882bfb1a4403d2debd3d2a4eb029eddc90752111"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-lubbock.body.gz",
+      "bytes": 49840,
+      "sha256": "051cb411fda25982214a01bdbd478fde530d7540253449dd49f0cd46772aa7ae"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-lubbock.meta.json",
+      "bytes": 2017,
+      "sha256": "f41da39be82b8ce7935e035375c9b00e0b14e07d1f8cd0b712df57585e37a29c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-lynn.body.gz",
+      "bytes": 5414,
+      "sha256": "2171ee8f6197f0641fc9050becefb14cccf68f1798030e24656d9da89a83d103"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-lynn.meta.json",
+      "bytes": 2002,
+      "sha256": "2db98924a80c0ed561cfb8eee94d5751daeaea4f89df5394baab8e46cc6ba961"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-madison.body.gz",
+      "bytes": 3821,
+      "sha256": "3723c6cc5f6e5fba95baee63b09c8674d6c57f204a2666676606447119984855"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-madison.meta.json",
+      "bytes": 2014,
+      "sha256": "c7b05d26b8b95f7aef797b51b7bbb05ef45197120d3fff7fd43d394dc98da1e9"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-martin.body.gz",
+      "bytes": 4982,
+      "sha256": "cd82969a85c521267a53c8a93809dbbae736a524496a5f4dab8e8e3c5b1f1df8"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-martin.meta.json",
+      "bytes": 2009,
+      "sha256": "e65764fc15ae782c7d91dc7ebf30c5e9a577f5ed5d23f6af438e039a452a73ae"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-matagorda.body.gz",
+      "bytes": 17371,
+      "sha256": "031366b7fae57d5e83865603ca58008635000836a80c05beb564a2cceaf027e4"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-matagorda.meta.json",
+      "bytes": 2022,
+      "sha256": "f38fad4396f94858f9a06a43241abb7b850e185bb561b504f2fdc17a87976705"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-mcculloch.body.gz",
+      "bytes": 6582,
+      "sha256": "1485c4edb2da0538591a53a03b5e15382ee6f98dce959eb0ddc9501a0a89482a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-mcculloch.meta.json",
+      "bytes": 2022,
+      "sha256": "ecfee6c66e7e9fb98f1c4b14c55a7fbd755471ea0ca0fbce91539d1c4869c8bb"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-mclennan.body.gz",
+      "bytes": 77304,
+      "sha256": "3a6cc04cca000f9bbcbc1274eae409e454a586663629395cfed36ef8a07b6a89"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-mclennan.meta.json",
+      "bytes": 2021,
+      "sha256": "3cc53013058b28e9691067a794d9357710aa38f7debd169d3f7edca6a439b5a8"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-medina.body.gz",
+      "bytes": 23618,
+      "sha256": "fd7302033670477cbca96a0a1737ee511812820909ae026c2f6c0b47a0952ecb"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-medina.meta.json",
+      "bytes": 2013,
+      "sha256": "fd4c966887a393d84590375205eb3aa3bffa141996f32d84858252d7bc6f1dc9"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-menard.body.gz",
+      "bytes": 3274,
+      "sha256": "ef9fc43884e51a59110b12882c59cd435125b32dd46c94211d23225beca4a290"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-menard.meta.json",
+      "bytes": 2008,
+      "sha256": "6ca7c747ea0ca296b1486fedb5a480f8d0f33c07f8b5283ab88815b376ba364f"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-midland.body.gz",
+      "bytes": 23762,
+      "sha256": "aff12714759322a7ba468d260eb4d0eee2a33829429452068cbfc48e1156e75b"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-midland.meta.json",
+      "bytes": 2017,
+      "sha256": "c8bbc0ed6bd56142bc492b31a14dad32cf1632dd6a808dce525747e388a8a223"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-milam.body.gz",
+      "bytes": 6657,
+      "sha256": "77655128b2b1824218be2c3cd07255d25b876950c53ab9aa2938621d0aac04a5"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-milam.meta.json",
+      "bytes": 2004,
+      "sha256": "5c0c31ba20dfa75758b34c29e4e64dbca5d242211d55a3e4f67da96832e223c4"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-mills.body.gz",
+      "bytes": 4559,
+      "sha256": "daf1a72027373e5b418a4a1a23063c562d11e132994d67b9c88db0fc7d7e89e2"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-mills.meta.json",
+      "bytes": 2003,
+      "sha256": "de032a99c76a1ab15a18b8f2857ebf78fd27f60a023a612d854e024586fa4473"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-mitchell.body.gz",
+      "bytes": 2687,
+      "sha256": "168db3db4d54bbd2042842a004844029a4bce24dbde5f706ed9bace903b024bb"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-mitchell.meta.json",
+      "bytes": 2017,
+      "sha256": "2d3118241b51a58c70edb9bae3753d8cd4a59e974eb8ba2e3a7355c7428f2f7c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-montague.body.gz",
+      "bytes": 8577,
+      "sha256": "56abb204efdef9fa0f9901cdb947d5be01ecf1323268f7749a1d8721c9bfe67c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-montague.meta.json",
+      "bytes": 2018,
+      "sha256": "5d15cfad8192e9d59570a2d24db9049e6abbf92da51bc8a28db9a985f9394bea"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-montgomery.body.gz",
+      "bytes": 103425,
+      "sha256": "527f716ab4f7c70814ee653eba2f59ebde564a37a42407b18d01424613acc0f8"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-montgomery.meta.json",
+      "bytes": 2030,
+      "sha256": "25ed3c72aeafce57514842823cc7a72691915af50e19ce0e00c0944925e13a73"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-moore.body.gz",
+      "bytes": 3641,
+      "sha256": "ad876d6af66c1911131e29d52379a53c27983fcb22ac4366375904ae4036f5be"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-moore.meta.json",
+      "bytes": 2005,
+      "sha256": "874ed5a82c17d6f2a7ab99748f893f6b540d43fe95e0c5309d0fd85ce14cfa39"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-motley.body.gz",
+      "bytes": 3705,
+      "sha256": "b416f4e7bdc5ac117ca6ef5755cb00053f445b11d0e7ad1b272d69ec106bc66f"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-motley.meta.json",
+      "bytes": 2009,
+      "sha256": "9a106f260aa4cfdfd116f67281d1eadaf17b0b980e74eb30e9fa0daef3fdcff1"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-nacogdoches.body.gz",
+      "bytes": 9097,
+      "sha256": "4858319b28d684400d39ec74cea4ef1053e9ab2fc6682d490d6672106603169a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-nacogdoches.meta.json",
+      "bytes": 2029,
+      "sha256": "8a9884abd4d5669dd512eb9c494cc3763725d7c5d06e53307576fc649ed62e6b"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-nolan.body.gz",
+      "bytes": 4584,
+      "sha256": "22b18a466c63697ae7a121c236f6192a6cc8386f07ff643b7723b2c86b87c421"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-nolan.meta.json",
+      "bytes": 2005,
+      "sha256": "c95c358258606ef4cd116a3f3c0a70cb816aad9e24523e4cc1a8e043f5685634"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-nueces.body.gz",
+      "bytes": 133046,
+      "sha256": "fedac329e053bb81771904736362b834d7384e19af77a0133ec9eb62d0a71b22"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-nueces.meta.json",
+      "bytes": 2016,
+      "sha256": "a5e9f003601b155ba2b0434670bd443776ba0a0aa2007d098be61b06936553c8"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-ochiltree.body.gz",
+      "bytes": 3769,
+      "sha256": "e65add0c2189fb627ba2081c96e92dbb6199d012161364f3f181c7451211cdd9"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-ochiltree.meta.json",
+      "bytes": 2021,
+      "sha256": "2e3b00fb3e32760b8c5e4092a42c41ba5fac24bea66e4ffe85ea61840f3d2643"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-oldham.body.gz",
+      "bytes": 4071,
+      "sha256": "26a24f3d1773937ef4f44ff50f70037ad11281c34afb7872c208d9648d8857ee"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-oldham.meta.json",
+      "bytes": 2009,
+      "sha256": "850a4c6b874810fc66a2dfac8b084ff40613da6dc9c2a9ccb43639473337d301"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-orange.body.gz",
+      "bytes": 8897,
+      "sha256": "19d2f9e06cce9c73d7aa8fc81a5f066a926dba800d74d41b9ab0f9012aa431ba"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-orange.meta.json",
+      "bytes": 2009,
+      "sha256": "c6fb5d4788625c0db4eb48dec7eea166e2fdbfac6106812b976b8e9dd422cc56"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-palo_pinto.body.gz",
+      "bytes": 17346,
+      "sha256": "4b18a93e120ec6f93cdfb957d39668e8c9ed0523fe1806564212a60cf105f487"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-palo_pinto.meta.json",
+      "bytes": 2027,
+      "sha256": "bbbadeb71e60a4eb9b7108a4fdf91beb4148abebf7ae49c1d2f0678c85975ce4"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-panola.body.gz",
+      "bytes": 7245,
+      "sha256": "fb31a051c6f0f0d47bb3b6c4f20a3f72b30daf8d055463dda9eeacbb7e04107e"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-panola.meta.json",
+      "bytes": 2007,
+      "sha256": "49d876ae8453af59750819c3e5a8afcf0d0951ef6dfaa68661ad8bc6e434d28a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-parker.body.gz",
+      "bytes": 46544,
+      "sha256": "afbd13fc0064f66ca9552ada3b60aff5aa1d94069fb608a6418b2abd86a51f08"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-parker.meta.json",
+      "bytes": 2012,
+      "sha256": "ee9a11f1341524e071b8e1f827ae8726378af936b116513f9a6873ff270a11ce"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-parmer.body.gz",
+      "bytes": 4833,
+      "sha256": "b2dc60eb5ac0a14836f6a04c0d306d513229641350c6c50eb68b76b56955b840"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-parmer.meta.json",
+      "bytes": 2009,
+      "sha256": "cfd95141f854305ca04e81c166d9ed1ccfbc371b7508fe2b9095b18de69e2467"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-potter.body.gz",
+      "bytes": 27712,
+      "sha256": "073b77e846c9af99d6b37a2d52c6cceb5c6b8b01076b65ccf608bb53f64abacd"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-potter.meta.json",
+      "bytes": 2011,
+      "sha256": "35a2586a1f2fc3b4b0cf08fcac65e3181ae39ff917b9830b694e9dad3259d0fa"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-randall.body.gz",
+      "bytes": 17246,
+      "sha256": "ad143ef40a58b3f1312bf3705967cee51e045ac0322ec162df71e57ae29caf91"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-randall.meta.json",
+      "bytes": 2017,
+      "sha256": "c9d844b9142983e34a3d1ccfb819fc81ac2337a1ca72a48162a83a0e2685e1b3"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-reagan.body.gz",
+      "bytes": 6389,
+      "sha256": "adc4865f15088ef38984a32600ffc4db2fff4fe89c1bc7f362f709a8840e6d74"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-reagan.meta.json",
+      "bytes": 2009,
+      "sha256": "13bff09e4ed5a178405753462a94803c4d09510c688afc3555ccc70cf819489c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-red_river.body.gz",
+      "bytes": 5992,
+      "sha256": "b27fe06c6db5113ddf5a17863c00edfda7708108584421836e93ae2b65f5397b"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-red_river.meta.json",
+      "bytes": 2022,
+      "sha256": "e4d873860819396c8774147d1a965836e6e2859d7f6b732e6f69d05e33e5591b"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-reeves.body.gz",
+      "bytes": 5080,
+      "sha256": "db09c444886c8165ee0499bb8ca1cbf7970fb3fccc71c2e4c0faf3aa0bc441df"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-reeves.meta.json",
+      "bytes": 2010,
+      "sha256": "621ce5a449c5439c65b7afbf59633b4bd8b36f3912cc41e5109de9242e11c354"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-refugio.body.gz",
+      "bytes": 7930,
+      "sha256": "3260150311d43f374a6dc10ea941f86605109de25f2d512032cf572420ccc0cf"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-refugio.meta.json",
+      "bytes": 2013,
+      "sha256": "b54dcd7d6b83564b79f03d3cfcd2fe9ee803fc32bfb30bcd5db4467fec042e18"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-robertson.body.gz",
+      "bytes": 6154,
+      "sha256": "c210fc0ab9f12255fda6f2116ae39e6d3832ba9639bd5813c9a8ef3d406a1dac"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-robertson.meta.json",
+      "bytes": 2021,
+      "sha256": "880ddc668207fc93127b4db90cefced1781eebc102953bff97e7e7b83694cd6e"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-rockwall.body.gz",
+      "bytes": 19281,
+      "sha256": "1fa64f64e47651ccbe79f7fdf7286d2a6b46bea2f035ce283ed60d80345931d2"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-rockwall.meta.json",
+      "bytes": 2020,
+      "sha256": "7cd1d66cb76e1ef56db3804f6ffc0a39aba06a03799964aef1ac4cb7f938b6cf"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-rusk.body.gz",
+      "bytes": 11517,
+      "sha256": "93e6f41af33fa95b7a89fde543ed85540ff51c5b5e3c2e2c98b9f950491475aa"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-rusk.meta.json",
+      "bytes": 2003,
+      "sha256": "9fbfb2d31f176885935fedc882e849dd89061c04f2c9316c4d980a9bf9e98da0"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-sabine.body.gz",
+      "bytes": 5329,
+      "sha256": "b5bb34725729df7f1ded8d14d49823ebbc0890128fe2b05b12b5925728fba106"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-sabine.meta.json",
+      "bytes": 2009,
+      "sha256": "aefc8529c0b8288a5c9dad43b3f517f0cef08c2b5ba8afa6fd6fe94275104786"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-san_augustine.body.gz",
+      "bytes": 7159,
+      "sha256": "71dfd7040c221dd541bb444e2fe4cc17ff4d8fac64d35176d6dcd00fdfb046a7"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-san_augustine.meta.json",
+      "bytes": 2037,
+      "sha256": "5f8d89614f63610e3d0a42c28d9f8d9879d43765c18792cdcdaccc44c5bd3311"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-san_jacinto.body.gz",
+      "bytes": 9970,
+      "sha256": "924fcc3c706fcc55dc1112553aeb7d241a8c611ab74e1dacf5fea4bb1b4b36fb"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-san_jacinto.meta.json",
+      "bytes": 2030,
+      "sha256": "c20edb02381232b02eec1a83edd7f8f96b3a3e64db13b409a82c33131372b2c6"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-san_patricio.body.gz",
+      "bytes": 23513,
+      "sha256": "7882e64a720bbe1d1fb0e5d89202d98482901baa0a12fdddf775b8658e490d9f"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-san_patricio.meta.json",
+      "bytes": 2037,
+      "sha256": "46e119130bd485b561e6fa3d83bc9eee820742ab037f269bed1585bc7ad4fcdd"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-san_saba.body.gz",
+      "bytes": 3360,
+      "sha256": "a60d5da91fd8bcab4cdf3ae780692fb1cf89e2cd7bd947dc633dee0b6828b001"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-san_saba.meta.json",
+      "bytes": 2015,
+      "sha256": "d453a3cee32482e728298ecd248398a89404aacc13d1c268a3c1b127edcb4f3e"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-scurry.body.gz",
+      "bytes": 5814,
+      "sha256": "7068fac462274a1b35c5032caa80c2a8137b6ddd8861dc890bf4911765c46071"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-scurry.meta.json",
+      "bytes": 2007,
+      "sha256": "e509559a1bfc83959e134ac2e9f351094b8707a869b8242190ece26715820fda"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-smith.body.gz",
+      "bytes": 30081,
+      "sha256": "6b4118392d82693536307ab6278935f903155ccdb2cf3e82840e6d32a5a4534a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-smith.meta.json",
+      "bytes": 2009,
+      "sha256": "3ebd7ab9aa1658ab62568eaebb24c9efca32382fe04879d9d42564ade6c339e6"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-starr.body.gz",
+      "bytes": 8225,
+      "sha256": "fe65e8a25153d1a5beca2782d294b6d54ced0dd8120e755194428c7a2e293ced"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-starr.meta.json",
+      "bytes": 2004,
+      "sha256": "47230c204790a9620f37de24ab18f462b786ec28800c99e9332379f064ae8b47"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-stephens.body.gz",
+      "bytes": 4443,
+      "sha256": "a2844ac9d2ec08ba56153f47c5e5d991ad7d09f23f1d51798e84d5f2a09d4bbd"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-stephens.meta.json",
+      "bytes": 2018,
+      "sha256": "ecdcf71aeb8edb872605ed165d2e3c019ab5af5a67018de4fe3f65cb9bfc8310"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-stonewall.body.gz",
+      "bytes": 2777,
+      "sha256": "e906c69eb43b3dbfbddb45a88442b466cadeccb226cbc24ae3c7dad76f97785c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-stonewall.meta.json",
+      "bytes": 2021,
+      "sha256": "e271a50014f771d497988548ce32f56fdb64e01f3c3b64e5466a0b1f064224b4"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-sutton.body.gz",
+      "bytes": 2595,
+      "sha256": "8e2e5b51cf2e882b2b2e8672580ca9fc5e5c79ad7bb2caf368bb1d42a9981334"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-sutton.meta.json",
+      "bytes": 2007,
+      "sha256": "4383775bcdc2ea11a8fd2acd9efc517e562612acc6d1696c62dc2eb33c3165bb"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-swisher.body.gz",
+      "bytes": 5246,
+      "sha256": "60a8f8b8474f42abb47cb10e393ff29eef561eaa90c50ad4b19e46ce1f20c81a"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-swisher.meta.json",
+      "bytes": 2013,
+      "sha256": "3060f3f9a02dd71157ff4f4e012a039fb3a8fb22da68ccf1b9d665b8033ebf25"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-tarrant.body.gz",
+      "bytes": 483621,
+      "sha256": "b868e343589c5dd73c7228bd774a2b18a79ad493224830e8f6bffbab55c4b395"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-tarrant.meta.json",
+      "bytes": 2020,
+      "sha256": "e4dd5041bfc46e713d26045b262da66d49ae161d0ecc652b88eeaaf726e42308"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-taylor.body.gz",
+      "bytes": 26753,
+      "sha256": "8a7acd0f06ae90623b4d3dad23b1123f480996c2a5609e7fa01188279e3ac8ce"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-taylor.meta.json",
+      "bytes": 2013,
+      "sha256": "471d9e2a1f3353d666dac72fab224c150561884e5d98db261d0be92d47fa8c62"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-terry.body.gz",
+      "bytes": 4712,
+      "sha256": "670bf918c262698e977333de532028e96369200422f2991d4939c96e61620ecb"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-terry.meta.json",
+      "bytes": 2004,
+      "sha256": "ac089d11f73e59f42922d9c0b290d0845d2ae4194fb11489d842890bf3535fe9"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-throckmorton.body.gz",
+      "bytes": 3126,
+      "sha256": "7e2719944bd45f9aa5d3c7db03954b50775a3981ed1c498339eb890a3331e6d5"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-throckmorton.meta.json",
+      "bytes": 2033,
+      "sha256": "194d1bfb2170b966b5c051fe58bc7e38aa6ec79e13df2dcef19d9c733a26a425"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-titus.body.gz",
+      "bytes": 14107,
+      "sha256": "237477a01ff7d70b6276248e2b72a37119b04cf55c27c4f351846936199ea6ec"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-titus.meta.json",
+      "bytes": 2009,
+      "sha256": "5095de7b14b372ff1bf59b2f2cd655fc990b387ecbb3e215bf9672517ce73e8f"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-tom_green.body.gz",
+      "bytes": 41390,
+      "sha256": "bfe5871cca1e837ab3d4197faa590a58d7da9da314559d125d510743e330a1e8"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-tom_green.meta.json",
+      "bytes": 2025,
+      "sha256": "e5648bca14160d9431a071d8804ad0490fe99e4e0d47a28c2d191be0cca74532"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-travis.body.gz",
+      "bytes": 263869,
+      "sha256": "eccafc4a2a4b3f63898c47bbfa8254a88c8d77e24ace61a44a0d0fe94ab1e407"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-travis.meta.json",
+      "bytes": 2016,
+      "sha256": "c774248740953a8cda86d39b8d4d238094e2c682389e2741d2552b6ffa3cd4f1"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-tyler.body.gz",
+      "bytes": 12962,
+      "sha256": "785dbfacda0fb15012b7c7e6dc798f27479eafbd7b69b638b9f5bf8d8b9f7861"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-tyler.meta.json",
+      "bytes": 2007,
+      "sha256": "4d7a33720bc243e91051d1fa5f114fe48b649408f0cdceac2f37cf5b47c7cb9b"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-upshur.body.gz",
+      "bytes": 13502,
+      "sha256": "a7c7edf6cff9816e1543f7aae5dffabfb854024fa4d874583ddb8dec9503c015"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-upshur.meta.json",
+      "bytes": 2013,
+      "sha256": "9a45ec20ddcdc96e1ac396a5fbf417087abed6c2d8b3bc1c31915477a4c9c3f1"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-val_verde.body.gz",
+      "bytes": 14518,
+      "sha256": "2d4e5183ab707597a962e0cf2ef7ae4b5f86e64db6a8c7ab22f273e7037bb847"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-val_verde.meta.json",
+      "bytes": 2024,
+      "sha256": "fa66b7d41199b340b99373de1d366b1548106546bfb678aeee66f14fab9ae461"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-van_zandt.body.gz",
+      "bytes": 8708,
+      "sha256": "f6ff8af6d4af783c904887da22fea3607ca7c5816d4b556ba9bc5d4642b0b86d"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-van_zandt.meta.json",
+      "bytes": 2023,
+      "sha256": "4a21d3ac6e43c32ac11ee4e4d05eb255aa5507812f722db808f14f86438ef419"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-victoria.body.gz",
+      "bytes": 17504,
+      "sha256": "2a71c50e9991b71b28270034e9898cfec56380b017a7196549b6e9f53689a760"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-victoria.meta.json",
+      "bytes": 2019,
+      "sha256": "edb994f95849b4e98a257a39a71eac3654d6e52008775cde8338be8f0fae5aad"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-walker.body.gz",
+      "bytes": 5050,
+      "sha256": "c719407e06f7e91cf9ce5a37ab8d3149bf9bd8e0ef1e5c115c6e451bcdb38229"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-walker.meta.json",
+      "bytes": 2009,
+      "sha256": "d84199e5b30c36233d6aeac19cf593dadf1bddbcb705ff6e699871eac2f1e111"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-waller.body.gz",
+      "bytes": 26821,
+      "sha256": "66928568a4c5ee97333ce43f3ff344e0e43678c5bebafa76271742cbb94ada0f"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-waller.meta.json",
+      "bytes": 2012,
+      "sha256": "d227a3391a1818f2acb585adbdfbea053b0d6870afddb756363fd5c5c53b4760"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-ward.body.gz",
+      "bytes": 6836,
+      "sha256": "fcd4a17f5961e6be2ce4a8ce8b73fead5b30fbb9d60fb368754bce99ada78185"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-ward.meta.json",
+      "bytes": 1999,
+      "sha256": "79bd9334990cd7f484565d204afd8d676318526e071672974ef7dedb33ec860e"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-washington.body.gz",
+      "bytes": 19945,
+      "sha256": "140a4f7f5f1ce8b2ac5091c6ab9293fa4bdf12c0ca3167dd043325be742f9618"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-washington.meta.json",
+      "bytes": 2029,
+      "sha256": "fbdaddddf8f7cb737de2d4f9b1f95f637535c79c276185ab5b0ddcb7a4800349"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-wharton.body.gz",
+      "bytes": 7882,
+      "sha256": "50e832d962e6577475a82eb3f520634be8bbbb7cf2a525bf697c0313a6d5cc0d"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-wharton.meta.json",
+      "bytes": 2012,
+      "sha256": "f4aa1feed8fd493a44293a4679c308d8db47f92138f8bab81075370c546b148b"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-williamson.body.gz",
+      "bytes": 174317,
+      "sha256": "0ee4a379aee481230a82874114264ac01cbe89858c49244ec2f72eda4124129e"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-williamson.meta.json",
+      "bytes": 2030,
+      "sha256": "d1b4b6a6f7de75719774ceb5ab29cf88c590584bbbe21731e24529ecbdd20b73"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-winkler.body.gz",
+      "bytes": 4317,
+      "sha256": "fa42eec39b6fb8e12165a613e496ad8f0bf4215d26bede516c674f3658da4a8c"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-winkler.meta.json",
+      "bytes": 2011,
+      "sha256": "f87f5cbed8b6d947a55968bcca59068f91c96719c489827cf23742b418a8ef11"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-wise.body.gz",
+      "bytes": 16764,
+      "sha256": "6136397783620eee106dbb9539ec904c3224693ab357e158a41e04519a13d904"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-wise.meta.json",
+      "bytes": 2004,
+      "sha256": "30ee7d4ee8a094b0b75f655294a1a2ad198d68e93cd6843761436998ed1d3d42"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-wood.body.gz",
+      "bytes": 7419,
+      "sha256": "5e7350917746aa7e6f75500de7522a6c8401ff1fac0c38c82416f731e9bfd300"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-wood.meta.json",
+      "bytes": 2001,
+      "sha256": "d5f2c6b0b84ac2ebe8eeef8d47836699d0e1a3234d24704d8e73ee8376aa2645"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-zavala.body.gz",
+      "bytes": 4513,
+      "sha256": "2eff8f0ccf3b4693f349afb13ac94d14ab6b939dc6e52363d0f37e096194de13"
+    },
+    {
+      "path": "data/turnout/raw/oe2024-zavala.meta.json",
+      "bytes": 2010,
+      "sha256": "a99a28cd1dbe0dce84a6ee1ee915f50706e27adc5a078e7cc0ed4aa3fe57d228"
+    },
+    {
+      "path": "data/turnout/raw/original-angelina-2024.body.gz",
+      "bytes": 436296,
+      "sha256": "bce12a895378ce6a6d6f137190cec5422600dde2be178501b79d85ab780ac5ae"
+    },
+    {
+      "path": "data/turnout/raw/original-angelina-2024.meta.json",
+      "bytes": 1074,
+      "sha256": "eb3c8b4262de400995b638fdf886c907735b14e8f3af3a3cbe5c962dc1953c15"
+    },
+    {
+      "path": "data/turnout/raw/original-angelina-2024.pdf",
+      "bytes": 529439,
+      "sha256": "44bd1df98178fb424de63acb3036afb6ba348cd22e7a51166895cfc0cc14b934"
+    },
+    {
+      "path": "data/turnout/raw/original-bexar-2024.body.gz",
+      "bytes": 14130077,
+      "sha256": "d639afc394362495fe8613c39a8aba3cd8809e7c564e257dd45ada80c6ff3e44"
+    },
+    {
+      "path": "data/turnout/raw/original-bexar-2024.meta.json",
+      "bytes": 2145,
+      "sha256": "470393201469ff652bf0a6ce77327d1b574da9757522e36abdb9b5ed1979875a"
+    },
+    {
+      "path": "data/turnout/raw/original-dallas-2024.body.gz",
+      "bytes": 1740641,
+      "sha256": "8e4a0bc7bd0207ca46637ec1153dfa390db06bc83249a3234716300c9553ed41"
+    },
+    {
+      "path": "data/turnout/raw/original-dallas-2024.meta.json",
+      "bytes": 1615,
+      "sha256": "bd6ab4c6e961d3856d196fd5073d042b14fb52a76408ca0059f03b7fa03274cb"
+    },
+    {
+      "path": "data/turnout/raw/original-harris-2024.body.gz.part001",
+      "bytes": 32000000,
+      "sha256": "64befb698685b019402a415ee62f3c0067ae8d403e0cd95b8de936f218434b70"
+    },
+    {
+      "path": "data/turnout/raw/original-harris-2024.body.gz.part002",
+      "bytes": 11773799,
+      "sha256": "284fdfcb29cd31bfd0c25409a8ff5e54095aa43e07bc84c39fb56f490bfb4c64"
+    },
+    {
+      "path": "data/turnout/raw/original-harris-2024.meta.json",
+      "bytes": 1762,
+      "sha256": "9f9a41cc40a6f4a28be390517502f8b36e816e4828671229c1b70a9b7f816d23"
+    },
+    {
+      "path": "data/turnout/raw/original-midland-2024.body.gz",
+      "bytes": 259534,
+      "sha256": "1182e042ce920c784446930943f97663913d3af22b8ddbcae566a4541c537557"
+    },
+    {
+      "path": "data/turnout/raw/original-midland-2024.meta.json",
+      "bytes": 1753,
+      "sha256": "f8a44635894a7f9ad4c3d4304e9a186674788d83b6075065f7e99b7390a35e3a"
+    },
+    {
+      "path": "data/turnout/raw/original-midland-2024.pdf",
+      "bytes": 320250,
+      "sha256": "773f1dbbe36d4fe69f59e4d00e08cc8f33c69d526106c9604798c161a2fdbe34"
+    },
+    {
+      "path": "data/turnout/raw/original-travis-2024.body.gz",
+      "bytes": 483410,
+      "sha256": "ab12fd76a6075b5a3cc06757ae691ae096b6964edef1cc024b8c594532dcc1b2"
+    },
+    {
+      "path": "data/turnout/raw/original-travis-2024.meta.json",
+      "bytes": 1611,
+      "sha256": "9f0e9b1fdded2e7211e933e461c9c91bcc9e4b614336f7345eef959519c20914"
+    },
+    {
+      "path": "data/turnout/raw/sos-2022-canvass-archive.body.gz",
+      "bytes": 119495,
+      "sha256": "75c796f932f745bab860f7e8140bc5cca0d7f8b768225526d1c431ac46759498"
+    },
+    {
+      "path": "data/turnout/raw/sos-2022-canvass-archive.meta.json",
+      "bytes": 3438,
+      "sha256": "febc751973af6072affda24330f768830dd02ba30bb833ba42222fe28283b0a8"
+    },
+    {
+      "path": "data/turnout/raw/sos-2022-canvass.body.gz",
+      "bytes": 3309,
+      "sha256": "c55426f2e84d5e8e29a363f70a3ee5b04fd4394673bfaa6188b28444835f0be9"
+    },
+    {
+      "path": "data/turnout/raw/sos-2022-canvass.meta.json",
+      "bytes": 3128,
+      "sha256": "052e2a0483989b17799d82a01422cb1978b5f317b8dfd90470f103a138727194"
+    },
+    {
+      "path": "data/turnout/raw/sos-2024-app.body.gz",
+      "bytes": 3237,
+      "sha256": "34e9d465833547011e6340c09aa1410b5120d5303f0cdc2b517f5c84382f68e0"
+    },
+    {
+      "path": "data/turnout/raw/sos-2024-app.meta.json",
+      "bytes": 3029,
+      "sha256": "cabfb6e907a249b4b4cf1c150a769ed8273997b97717fe610621ec5195c01135"
+    },
+    {
+      "path": "data/turnout/raw/sos-2024-canvass-archive.body.gz",
+      "bytes": 118790,
+      "sha256": "b380410646f0c8bd79acf1f418f223bc3bf02a51ba4baf327859677fb21f8e5f"
+    },
+    {
+      "path": "data/turnout/raw/sos-2024-canvass-archive.meta.json",
+      "bytes": 3854,
+      "sha256": "77d10a63180e6b879648045f10badd0b5438bbc9b98ef1be6ebad42282619cba"
+    },
+    {
+      "path": "data/turnout/raw/sos-2024-canvass-archive.pdf",
+      "bytes": 156405,
+      "sha256": "65dfb268bc87c673c30dd9e62022af29a97cdc90a1d33a20e8ff236875234383"
+    },
+    {
+      "path": "data/turnout/raw/sos-2024-canvass-page1.png",
+      "bytes": 186765,
+      "sha256": "0e38ea9d034d657cf3fb794d82b2e5245b98d4f119422b5b8295804b6e8b4cba"
+    },
+    {
+      "path": "data/turnout/raw/sos-2024-canvass.body.gz",
+      "bytes": 3356,
+      "sha256": "dc16afe5d48bd2ce5372b5041167534333517feb521e19bc02fcea69ae10ec55"
+    },
+    {
+      "path": "data/turnout/raw/sos-2024-canvass.meta.json",
+      "bytes": 3161,
+      "sha256": "696a2739b81bb6c879750366e3e1042bde04862e761c1e2cdca2c58fa74a126c"
+    },
+    {
+      "path": "data/turnout/raw/sos-2024-results-root.body.gz",
+      "bytes": 3231,
+      "sha256": "d4aa6df3dcac6d428cfc4933ab0a1ae384f6e778e96dc755eea4d8ab2c30dadf"
+    },
+    {
+      "path": "data/turnout/raw/sos-2024-results-root.meta.json",
+      "bytes": 3037,
+      "sha256": "969c77d6d08fb4b15192211912124dc64cb4dddfc30cb0f2c218bfda297a75e0"
+    },
+    {
+      "path": "data/turnout/raw/sos2024-app-archive.body.gz",
+      "bytes": 1310,
+      "sha256": "f7b137848e1739c3219076a4b941e7d7314d457dac672287c6e9ddf4b6fff053"
+    },
+    {
+      "path": "data/turnout/raw/sos2024-app-archive.meta.json",
+      "bytes": 3040,
+      "sha256": "1e4702597905ad990c12f9a289ccdfeecbf17e897c6597efcf8097db69ee9c7f"
+    },
+    {
+      "path": "data/turnout/raw/sos2024-county-archive-20241215142552.body.gz",
+      "bytes": 1228403,
+      "sha256": "add8f41c82d3048a8afb7ad065864f728e074f07ffe9faa6aae9d021a2d9c336"
+    },
+    {
+      "path": "data/turnout/raw/sos2024-county-archive-20241215142552.meta.json",
+      "bytes": 3877,
+      "sha256": "82b8cdd78b260dd496a74405f718afbb310c60aae414a7ee86228930bcaa8b5e"
+    },
+    {
+      "path": "data/turnout/raw/sos2024-county-archive-20241215142552.pdf",
+      "bytes": 1644817,
+      "sha256": "b343f210cfc87206bfa49ab0c68324d2105188d3e431bb01967d918ca90d008f"
+    },
+    {
+      "path": "data/turnout/raw/sos2024-county-archive-20241215150002.body.gz",
+      "bytes": 1228403,
+      "sha256": "add8f41c82d3048a8afb7ad065864f728e074f07ffe9faa6aae9d021a2d9c336"
+    },
+    {
+      "path": "data/turnout/raw/sos2024-county-archive-20241215150002.meta.json",
+      "bytes": 3798,
+      "sha256": "510d4380daf0d677b886b981e76e2cedcd73a116239aa5f9184cce28d14b5595"
+    },
+    {
+      "path": "data/turnout/raw/sos2024-county-archive-20241215150002.pdf",
+      "bytes": 1644817,
+      "sha256": "b343f210cfc87206bfa49ab0c68324d2105188d3e431bb01967d918ca90d008f"
+    },
+    {
+      "path": "data/turnout/raw/sos2024-county-archive-20250422200023.body.gz",
+      "bytes": 1231469,
+      "sha256": "3c269580fb4bbcc02bec28a60f9f8e911f8037c254ffd9d8403a964223654ff7"
+    },
+    {
+      "path": "data/turnout/raw/sos2024-county-archive-20250422200023.meta.json",
+      "bytes": 3904,
+      "sha256": "f59bb21334bd61257184e0c35c85f37a357e27aeabf214f821d289368ea49014"
+    },
+    {
+      "path": "data/turnout/raw/sos2024-county-archive-20250422200023.pdf",
+      "bytes": 1645260,
+      "sha256": "3cf854060bd617d9e47f93b853a42efcf3abd30114caf5d827d62639956f9d7d"
+    },
+    {
+      "path": "data/turnout/raw/sos2024-county-page1.png",
+      "bytes": 143666,
+      "sha256": "9638c31efbafe3540cfee98f0b2909fbfd910e6285ccb7328db889bedc759437"
+    },
+    {
+      "path": "data/turnout/raw/sos2024-main-archive.body.gz",
+      "bytes": 435948,
+      "sha256": "bb3b35d17ee94b36a77c7a2e192ff1b80b776a479556e18cb8ac3556fe83f350"
+    },
+    {
+      "path": "data/turnout/raw/sos2024-main-archive.meta.json",
+      "bytes": 3312,
+      "sha256": "752ebf109d0f49b20789ecaff4b0d1e715b62bf62f39431a13198ace3175aaa6"
+    },
+    {
+      "path": "data/turnout/reconcile_peer.py",
+      "bytes": 3725,
+      "sha256": "488c9c7aef53edc7e325dd269911db767ca68ea7f1c419cac5f292f8a008e405"
+    },
+    {
+      "path": "data/turnout/senate2020-vintage-check.json",
+      "bytes": 276,
+      "sha256": "906c58be256f16c67817b7b6d1c46ca3de5bfd9c0f21fde2e5a7d2eb2128c308"
+    },
+    {
+      "path": "data/turnout/sos-2024-canvass-archive.txt",
+      "bytes": 228296,
+      "sha256": "40fea433c31700fec203889b9901082578caf39a9831d1d932a5519141ba75f3"
+    },
+    {
+      "path": "data/turnout/sos2024-county-archive-20241215142552.txt",
+      "bytes": 799194,
+      "sha256": "abc23dc2efd752f5ec286471d98f876b0c5a39f7f2928916a5892ace4e016cef"
+    },
+    {
+      "path": "data/turnout/sos2024-county-archive-20241215150002.txt",
+      "bytes": 799194,
+      "sha256": "abc23dc2efd752f5ec286471d98f876b0c5a39f7f2928916a5892ace4e016cef"
+    },
+    {
+      "path": "data/turnout/sos2024-county-archive-20250422200023.txt",
+      "bytes": 810304,
+      "sha256": "13221ab8df7a0cb93053bd28326b365505164a79be0680775274743f6a8e06b8"
+    },
+    {
+      "path": "data/turnout/source-ledger.json",
+      "bytes": 539666,
+      "sha256": "9323557fe6eac815dd540c9ee5d4041068957817334754b139fc3b459957a3c5"
+    },
+    {
+      "path": "data/turnout/source-row-anomalies.json",
+      "bytes": 979,
+      "sha256": "6483ab771ec2d4875775d72d4f6a1018a0c91e37e68450aa649e80f36b28ae06"
+    },
+    {
+      "path": "data/turnout/tlc-county-reconciliation.csv",
+      "bytes": 534474,
+      "sha256": "880a176a5f203f2deac4edeb3742f020380450990c34530c63ad5ac056d5efaf"
+    },
+    {
+      "path": "data/turnout/tlc-derived-vtd-units.csv.gz",
+      "bytes": 1194973,
+      "sha256": "3f137483ba1b0ae308c6a9f218537173f7227f149d8badf5635d4973421e430d"
+    },
+    {
+      "path": "data/turnout/validate_turnout.py",
+      "bytes": 14000,
+      "sha256": "104a00af933bac1236ad1599e7d9af58612b0ad0e4878e800403c27b0bededb7"
+    },
+    {
+      "path": "data/turnout/validation.json",
+      "bytes": 3099,
+      "sha256": "9162c482aa00134512a1a7c009638fb7447bd93e2632d50c2ef92fc325794505"
+    },
+    {
+      "path": "data/turnout/write_report.py",
+      "bytes": 20788,
+      "sha256": "ec60b25520510d1ee1844dcb46136a0113fdd7ff259d5927a4012622f3147f1b"
+    },
+    {
+      "path": "turnout.md",
+      "bytes": 40650,
+      "sha256": "cd046c2908dd60baaf2481f5244e2537974d173ab80a5ff946a1341fe36bea80"
+    }
+  ]
+}

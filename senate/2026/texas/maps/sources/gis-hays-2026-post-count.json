@@ -1,0 +1,48 @@
+{
+  "id": "gis-hays-2026-post-count",
+  "requested_url": "https://services5.arcgis.com/bVphnK8rPe5MHUSr/arcgis/rest/services/Hays_County_Elections_Precincts_Effective_Jan_2026/FeatureServer/7/query?f=json&where=1%3D1&returnCountOnly=true",
+  "parent_source_url": "https://www.hayscountytx.gov/256/Precinct-Data-Maps",
+  "retrieved_utc": "2026-10-18T03:37:44.957455+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://services5.arcgis.com/bVphnK8rPe5MHUSr/arcgis/rest/services/Hays_County_Elections_Precincts_Effective_Jan_2026/FeatureServer/7/query?f=json&where=1%3D1&returnCountOnly=true",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:37:45 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30, s-maxage=30",
+    "Last-Modified": "Tue, 28 Oct 2025 21:33:37 GMT",
+    "ETag": "sd10138_-1354162999",
+    "Vary": "X-Esri-Authorization",
+    "x-arcgis-upstream": "us1h05c00-services",
+    "Strict-Transport-Security": "max-age=63072000",
+    "X-ArcGIS-Trace-Id": "20261018T033744Z-r1cf8987fd5ftlxphC1CHIk8d80000000bvg000000002zy0",
+    "x-esri-cache-hint-features": "true",
+    "Request-Context": "appId=cid-v1:0417f13c-b584-444e-a4b8-f1bb647662a4",
+    "Access-Control-Expose-Headers": "Request-Context",
+    "X-ArcGIS-Correlation-Id": "39e7e257fdecf503",
+    "X-ArcGIS-Instance": "us1h05c00_MTSDS_Web_19",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Esri-Authorization",
+    "Access-Control-Allow-Credentials": "true",
+    "x-azure-ref": "20261018T033745Z-r1cf8987fd585xgthC1CHI8qws0000000dgg000000003k5u",
+    "x-fd-int-roxy-purgeid": "0",
+    "X-Cache": "TCP_HIT",
+    "X-Cache-Info": "L1_T2"
+  },
+  "redirects": [],
+  "original_bytes": 12,
+  "original_sha256": "31148bc4ce5218af7ea7c2ec564bb291a8749749e260ab390b881919292f3757",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/gis-hays-2026-pre-count.body",
+      "bytes": 12,
+      "sha256": "31148bc4ce5218af7ea7c2ec564bb291a8749749e260ab390b881919292f3757"
+    }
+  ],
+  "reused_exact_source": "gis-hays-2026-pre-count",
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256."
+}

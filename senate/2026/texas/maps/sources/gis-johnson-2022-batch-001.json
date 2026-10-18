@@ -1,0 +1,52 @@
+{
+  "id": "gis-johnson-2022-batch-001",
+  "requested_url": "https://services7.arcgis.com/gVohhGAlfFScDJGs/arcgis/rest/services/Voting_Districts_2022/FeatureServer/0/query?f=json&where=1%3D1&objectIds=413%2C414%2C415%2C416%2C417%2C418%2C419%2C420%2C421%2C422%2C423%2C424%2C425%2C426%2C427%2C428%2C429%2C430%2C431%2C432%2C433%2C434%2C435%2C436%2C437%2C438%2C439%2C440%2C441%2C443%2C444%2C445%2C446%2C447%2C448%2C449%2C450%2C451%2C452%2C453%2C454%2C455%2C456%2C457%2C464%2C468%2C469%2C473%2C476%2C478&outFields=%2A&returnGeometry=true&returnZ=true&returnM=true&returnTrueCurves=true",
+  "parent_source_url": "https://www.johnsoncountytx.org/departments/elections-office/precinct-maps",
+  "retrieved_utc": "2026-10-18T03:37:44.266083+00:00",
+  "byte_definition": "HTTP response entity bytes after Content-Encoding decoding; requests Accept-Encoding: identity",
+  "cap_bytes": 600000000,
+  "status": 200,
+  "final_url": "https://services7.arcgis.com/gVohhGAlfFScDJGs/arcgis/rest/services/Voting_Districts_2022/FeatureServer/0/query?f=json&where=1%3D1&objectIds=413%2C414%2C415%2C416%2C417%2C418%2C419%2C420%2C421%2C422%2C423%2C424%2C425%2C426%2C427%2C428%2C429%2C430%2C431%2C432%2C433%2C434%2C435%2C436%2C437%2C438%2C439%2C440%2C441%2C443%2C444%2C445%2C446%2C447%2C448%2C449%2C450%2C451%2C452%2C453%2C454%2C455%2C456%2C457%2C464%2C468%2C469%2C473%2C476%2C478&outFields=%2A&returnGeometry=true&returnZ=true&returnM=true&returnTrueCurves=true",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:37:44 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "788729",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30, s-maxage=30",
+    "Last-Modified": "Wed, 04 Feb 2026 21:18:30 GMT",
+    "ETag": "sd7760_-84636414",
+    "Vary": "X-Esri-Authorization",
+    "x-arcgis-upstream": "us1h07c00-services",
+    "Strict-Transport-Security": "max-age=63072000",
+    "X-ArcGIS-Trace-Id": "20261018T033744Z-r1cf8987fd5jhn8hhC1CHI5p5c0000000d6g0000000015kx",
+    "x-esri-query-request-units": "2",
+    "x-esri-tiles-basic-query-mode": "true",
+    "x-esri-tiles-basic-query-type": "Basic",
+    "x-esri-org-request-units-per-min": "usage=1884;max=6000",
+    "x-esri-query-max-vertex-count": "1237",
+    "x-esri-query-geometry-field-name": "Shape",
+    "X-ArcGIS-Correlation-Id": "cf9bd71ddf2cff83",
+    "X-ArcGIS-Instance": "lf3xzxihb000005",
+    "Request-Context": "appId=cid-v1:df0fefdc-3099-4f25-a42c-d213d1e16940",
+    "Access-Control-Expose-Headers": "Request-Context",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "Content-Type, Authorization, X-Esri-Authorization",
+    "Access-Control-Allow-Credentials": "true",
+    "x-azure-ref": "20261018T033744Z-r1cf8987fd5jhn8hhC1CHI5p5c0000000d6g0000000015kx",
+    "x-fd-int-roxy-purgeid": "0",
+    "X-Cache": "TCP_MISS",
+    "Accept-Ranges": "bytes"
+  },
+  "redirects": [],
+  "original_bytes": 788729,
+  "original_sha256": "3e8d5aac0bc4723070b86d7013b5dc08531f16d33510c71813c56e2ee4e76269",
+  "storage_encoding": "identity",
+  "stored_parts": [
+    {
+      "path": "originals/gis-johnson-2022-batch-001.body",
+      "bytes": 788729,
+      "sha256": "3e8d5aac0bc4723070b86d7013b5dc08531f16d33510c71813c56e2ee4e76269"
+    }
+  ],
+  "reconstruction": "Concatenate stored_parts in listed order; gzip-decompress only if storage_encoding=gzip; verify original_bytes and original_sha256."
+}

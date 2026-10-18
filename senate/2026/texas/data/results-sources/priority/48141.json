@@ -1,0 +1,296 @@
+{
+  "dispatch_key": "TX:48141",
+  "county_fips": "48141",
+  "county": "El Paso",
+  "rank": 11,
+  "scope": "individual priority inspection",
+  "authority_directory": {
+    "dispatch_key": "TX:48141",
+    "county_fips": "48141",
+    "county": "El Paso",
+    "rank": 11,
+    "priority": true,
+    "directory_label": "EL PASO COUNTY",
+    "authority_role": "Elections Administrator",
+    "authority_name": "Lisa Renee Wise",
+    "directory_source": "sos-county-officials",
+    "publication_directory_source": "sos-county-links",
+    "official_directory_url": "https://epcountyvotes.com/",
+    "scope": "priority_authority_inventory; see individual priority record",
+    "gap": "Directory identifies office/site, not current November county/vendor or native-unit completeness."
+  },
+  "local_route_evidence": [
+    {
+      "source_id": "county-48141",
+      "metadata_path": "raw/county-48141.json",
+      "request_url": "https://epcountyvotes.com/",
+      "final_url": "https://epcountyvotestx.gov/",
+      "status": 200,
+      "original_sha256": "04e65afe0e903585c54fff12ef6796633bbfe3dad23896ff0b7a5d9b81287803",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "sos-county-links"
+    },
+    {
+      "source_id": "county-48141-result1",
+      "metadata_path": "raw/county-48141-result1.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/",
+      "final_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/",
+      "status": 200,
+      "original_sha256": "6d00545d20ba03c07bff7c00cdba2f382db71831f49bab36a51b3ac9b7c8c1b6",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "county-48141"
+    },
+    {
+      "source_id": "clarity-48141-config",
+      "metadata_path": "raw/clarity-48141-config.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/config.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/config.json",
+      "status": 200,
+      "original_sha256": "78292ed41040455b998725bdda012ab0b0bd438c27d902795578de956bd7603d",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48141-version"
+    },
+    {
+      "source_id": "clarity-48141-electionsettings",
+      "metadata_path": "raw/clarity-48141-electionsettings.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/en/electionsettings.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/en/electionsettings.json",
+      "status": 200,
+      "original_sha256": "b962f239cfebfdaab0f44e0c1bc7fad17ff0c8a2ae9e96207d5721e836d57458",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48141-config"
+    },
+    {
+      "source_id": "clarity-48141-summary",
+      "metadata_path": "raw/clarity-48141-summary.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/en/summary.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/en/summary.json",
+      "status": 200,
+      "original_sha256": "d1791c3f942ec67d1b94f804b4bb4357b40ce69550c072ae4b0827d453f1a9c8",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48141-config"
+    },
+    {
+      "source_id": "clarity-48141-status",
+      "metadata_path": "raw/clarity-48141-status.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/status.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/status.json",
+      "status": 200,
+      "original_sha256": "0d1abe02da63f9a04398edb5321df1d69da27d01915932ec6249fd2fcefa22e0",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48141-config"
+    },
+    {
+      "source_id": "clarity-48141-vt",
+      "metadata_path": "raw/clarity-48141-vt.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/vt.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/vt.json",
+      "status": 200,
+      "original_sha256": "d38de5a219f47d73f8f10687ffa0736ba9a8d295fbd1e1bf5fb85a77f6484b0f",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "tarrant-clarity-main"
+    },
+    {
+      "source_id": "clarity-48141-details",
+      "metadata_path": "raw/clarity-48141-details.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/details.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/details.json",
+      "status": 200,
+      "original_sha256": "0e8057a248577ef8fda5f057287d47c0f7b85505c690cad31bc467e39321c8a8",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "tarrant-clarity-main"
+    },
+    {
+      "source_id": "clarity-48141-vc",
+      "metadata_path": "raw/clarity-48141-vc.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/vc.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/vc.json",
+      "status": 200,
+      "original_sha256": "31875558b00fd2091f7583e156934a5d36dcabcd08f901fadff7bf97a1150608",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "clarity-48141-config"
+    },
+    {
+      "source_id": "clarity-48141-vc_status",
+      "metadata_path": "raw/clarity-48141-vc_status.json",
+      "request_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/vc_status.json",
+      "final_url": "https://results.enr.clarityelections.com/TX/El_Paso/127348/381310/json/vc_status.json",
+      "status": 200,
+      "original_sha256": "7437df283767c3f09e643cf91dace14e0dceba736a7c0a35f327afb2e48c5bf1",
+      "body_scope": "complete response entity; not a claim of complete election coverage",
+      "parent_id": "tarrant-clarity-main"
+    }
+  ],
+  "assessment": "Official county link gives Clarity 127348. November date, Senate K=0033 with generic write-in, all zeros, istestmode=1 and hidden watermark. Website clock explicitly MDT. Native TP=236 differs from state TP=237; preserve both. El Paso closes in Mountain time.",
+  "gaps": "Test mode, named write-in allocation and one-unit discrepancy block production use; published initial roster does not approve 2026 geography.",
+  "state_election_id": 53815,
+  "state_contest_id": 5075,
+  "state_lookup_verbatim": {
+    "ID": 71,
+    "CN": "EL PASO",
+    "MID": 48071,
+    "county_fips": "48141",
+    "dispatch_key": "TX:48141",
+    "mapping_basis": "complete name equality"
+  },
+  "state_county_summary_verbatim": {
+    "PRR": 0.0,
+    "PRP": 237.0,
+    "P": 0.0,
+    "RV": 530978.0,
+    "VC": 0.0,
+    "VT": 0.0,
+    "NPL": 122.0,
+    "PLR": 0.0,
+    "PLP": 0.0
+  },
+  "state_senate_verbatim": {
+    "OID": 5075,
+    "N": "U. S. SENATOR ",
+    "T": 0,
+    "C": {
+      "41261": {
+        "id": 41261,
+        "N": "JAMES TALARICO",
+        "P": "DEM",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#007BBD",
+        "O": 2,
+        "EV": 0,
+        "LN": "TALARICO",
+        "FN": "JAMES"
+      },
+      "42424": {
+        "id": 42424,
+        "N": "KEN PAXTON",
+        "P": "REP",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#E30202",
+        "O": 1,
+        "EV": 0,
+        "LN": "PAXTON",
+        "FN": "KEN"
+      },
+      "44430": {
+        "id": 44430,
+        "N": "AVERY AYERS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 4,
+        "EV": 0,
+        "LN": "AYERS",
+        "FN": "AVERY"
+      },
+      "44432": {
+        "id": 44432,
+        "N": "BRADFORD \"BRAD\" HALL",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 5,
+        "EV": 0,
+        "LN": "HALL",
+        "FN": "BRADFORD \"BRAD\""
+      },
+      "44434": {
+        "id": 44434,
+        "N": "ZUL MOHAMED",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 6,
+        "EV": 0,
+        "LN": "MOHAMED",
+        "FN": "ZUL"
+      },
+      "44534": {
+        "id": 44534,
+        "N": "JADE SIMMONS",
+        "P": "W",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 7,
+        "EV": 0,
+        "LN": "SIMMONS",
+        "FN": "JADE"
+      },
+      "33528": {
+        "id": 33528,
+        "N": "TED BROWN",
+        "P": "L",
+        "V": 0,
+        "PE": 0.0,
+        "C": "#e0b30e",
+        "O": 3,
+        "EV": 0,
+        "LN": "BROWN",
+        "FN": "TED"
+      }
+    },
+    "OT": "FD",
+    "O": 3,
+    "SO": 3,
+    "OR": 3,
+    "PR": 0,
+    "OTRV": 530978,
+    "TP": 237,
+    "TV": 0,
+    "TPR": 237
+  },
+  "source_pointers": {
+    "lookup": "Lookups/County item with complete CN",
+    "county": "/upload/71",
+    "summary": "/upload/71/Summary",
+    "senate": "/upload/71/Races/5075"
+  },
+  "state_sources": [
+    "sos-election-constants",
+    "sos-november-data",
+    "sos-november-counties"
+  ],
+  "source_original_hashes": {
+    "sos-election-constants": "a61fdb6672a6e673f673afb46d02181bb45e7b7edddf468286406cd77f9c7d33",
+    "sos-november-data": "0f20843cab934833eb3e61237a67d75a839b8aef89bbe6aa34544fef91957037",
+    "sos-november-counties": "fcdc3e2eb41088d3708f10f1074476f50a17bc2b0c8bece81de5407b5c32ddec"
+  },
+  "evr_verbatim": {
+    "name": "EL PASO",
+    "id": 71,
+    "registered_voters": 530978,
+    "in_person_votes_on_date": 0,
+    "total_in_person_votes_for_election": 0,
+    "total_mail_votes_for_election": 0,
+    "voter_details_report": "EarlyVotingTurnoutByDate/2026-10-17/EVR_EarlyVotingByDate"
+  },
+  "evr_source": "sos-november-evr-sample",
+  "native_coverage": {
+    "dispatch_key": "TX:48141",
+    "county_fips": "48141",
+    "county": "El Paso",
+    "rank": "11",
+    "priority": "1",
+    "state_county_id": "71",
+    "state_mid": 48071,
+    "native_roster_scope": "source-specific observed identities; neither completeness of physical units nor November approval established",
+    "november_approved_native_unit_count": null,
+    "observed_native_identity_rows": 794,
+    "derivative_historical_units": 650,
+    "original_historical_units": null,
+    "tlc_vtd_rows": 1115,
+    "november_native_gap": "Test mode, named write-in allocation and one-unit discrepancy block production use; published initial roster does not approve 2026 geography."
+  },
+  "unsupported": {
+    "remaining_valid_senate_votes": null,
+    "measured_vote_arrival_seconds": null,
+    "approved_november_crosswalk": null,
+    "actual_canvass_meeting_utc": null,
+    "source_clock_timezone": null
+  }
+}

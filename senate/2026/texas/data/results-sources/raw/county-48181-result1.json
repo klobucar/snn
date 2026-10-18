@@ -1,0 +1,44 @@
+{
+  "id": "county-48181-result1",
+  "request_url": "https://www.co.grayson.tx.us/page/search.results",
+  "parent_id": "county-48181",
+  "purpose": "Search ",
+  "retrieval_started_utc": "2026-10-18T03:27:10.553655+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.co.grayson.tx.us/page/search.results",
+  "headers": {
+    "Cache-Control": "private",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "Set-Cookie": "ASP.NET_SessionId=ow2pfhbzc5ervhqqftebhsle; path=/; HttpOnly; SameSite=Lax",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Content-Security-Policy": "font-src *;img-src * data:;",
+    "Referrer-Policy": "strict-origin",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Date": "Sun, 18 Oct 2026 03:27:09 GMT",
+    "Content-Length": "16868"
+  },
+  "redirects": [],
+  "original_bytes": 48140,
+  "original_sha256": "fa720579b47e9e3bf340e95ef9622a1fe99a889a975f183a1774abb4fef1cb48",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 12930,
+  "stored_stream_sha256": "09447c8b70fb5720da3750ea8372c4234f515c821f0683e843a4b498c1f1e616",
+  "stored_parts": [
+    {
+      "path": "raw/county-48181-result1.body.gz",
+      "bytes": 12930,
+      "sha256": "09447c8b70fb5720da3750ea8372c4234f515c821f0683e843a4b498c1f1e616"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:27:10.725850+00:00"
+}

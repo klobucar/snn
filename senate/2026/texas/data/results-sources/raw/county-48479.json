@@ -1,0 +1,71 @@
+{
+  "id": "county-48479",
+  "request_url": "http://www.webbcountytx.gov/ElectionsAdministration/",
+  "parent_id": "sos-county-links",
+  "purpose": "Webb official directory route",
+  "retrieval_started_utc": "2026-10-18T03:26:35.378721+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 404,
+  "final_url": "https://www.webbcountytx.gov/ElectionsAdministration/",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 03:26:35 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "public, max-age=30",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "permissions-policy": "camera=(), microphone=()",
+    "content-security-policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "expires": "Sun, 18 Oct 2026 03:27:05 GMT",
+    "cf-cache-status": "EXPIRED",
+    "Content-Encoding": "gzip",
+    "Server": "cloudflare",
+    "CF-RAY": "a4c47140ed70fc38-ORD"
+  },
+  "redirects": [
+    {
+      "status": 302,
+      "url": "http://www.webbcountytx.gov/ElectionsAdministration/",
+      "headers": {
+        "Date": "Sun, 18 Oct 2026 03:26:35 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "public, max-age=30",
+        "Location": "https://www.webbcountytx.gov/ElectionsAdministration/",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=()",
+        "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+        "expires": "Sun, 18 Oct 2026 03:27:05 GMT",
+        "cf-cache-status": "MISS",
+        "set-cookie": "__cf_bm=W7K.JbPTreJmM23dEZKxTGjK_63G91tciw.WQgdk1TU-1792293995.5432-1.0.1.1-HiOZCg1OIwILW9YXNaPF_SYkHMc6bfgMkecfBG7p_ailMx2VOlKTvSj2UNND20BjipLZBlex_jttUVc.2K6DjyX7lyhp6xp998kr_Frf8qzL26EcUlbh5EaTpklwU63p; HttpOnly; Path=/; Domain=www.webbcountytx.gov; Expires=Sun, 18 Oct 2026 03:56:35 GMT",
+        "Server": "cloudflare",
+        "CF-RAY": "a4c471402ff70105-ORD"
+      }
+    }
+  ],
+  "original_bytes": 89645,
+  "original_sha256": "d263fd1f7c5a1d1f63d192431b0a59c6ce3adb861d947262a2e9a6efb0198c8f",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 19646,
+  "stored_stream_sha256": "947e18662b3a6cc0c3b14b20a43e69b0718a36e9d948b341c3eaa391c0b67968",
+  "stored_parts": [
+    {
+      "path": "raw/county-48479.body.gz",
+      "bytes": 19646,
+      "sha256": "947e18662b3a6cc0c3b14b20a43e69b0718a36e9d948b341c3eaa391c0b67968"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:26:35.807337+00:00"
+}

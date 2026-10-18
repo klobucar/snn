@@ -1,0 +1,41 @@
+{
+  "id": "law-text-2",
+  "request_url": "https://tcss.legis.texas.gov/resources/EL/htm/EL.2.htm#2",
+  "parent_id": "law-resolve-2",
+  "purpose": "official resolved current statutory chapter bytes",
+  "retrieval_started_utc": "2026-10-18T03:33:03.925460+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://tcss.legis.texas.gov/resources/EL/htm/EL.2.htm#2",
+  "headers": {
+    "Transfer-Encoding": "chunked",
+    "Content-Type": "text/html",
+    "Content-Encoding": "gzip",
+    "Last-Modified": "Thu, 09 Apr 2026 17:26:25 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"1dcc845fdc3b7a4\"",
+    "Vary": "Accept-Encoding",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sun, 18 Oct 2026 03:33:04 GMT"
+  },
+  "redirects": [],
+  "original_bytes": 33060,
+  "original_sha256": "6d66f47e81e1610ee25d873bca8c3cd178e6cdf629a6ea901288a922b362bd9d",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 6204,
+  "stored_stream_sha256": "8c193af813b29ff4ffac43ef8f73b857243411f05c6e14dff87ab5150e41022b",
+  "stored_parts": [
+    {
+      "path": "raw/law-text-2.body.gz",
+      "bytes": 6204,
+      "sha256": "8c193af813b29ff4ffac43ef8f73b857243411f05c6e14dff87ab5150e41022b"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:33:04.199285+00:00"
+}

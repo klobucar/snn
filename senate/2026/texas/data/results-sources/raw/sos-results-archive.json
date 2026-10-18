@@ -1,0 +1,47 @@
+{
+  "id": "sos-results-archive",
+  "request_url": "https://www.sos.state.tx.us/elections/historical/elections-results-archive.shtml",
+  "parent_id": "sos-results-index",
+  "purpose": "current vendor chain",
+  "retrieval_started_utc": "2026-10-18T03:25:37.319292+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://www.sos.state.tx.us/elections/historical/elections-results-archive.shtml",
+  "headers": {
+    "Content-Type": "text/html",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Server": "AmazonS3",
+    "Last-Modified": "Sat, 17 Oct 2026 14:48:15 GMT",
+    "Content-Encoding": "gzip",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-version-id": "Mit9btqJo9czyHCuaV_M.qDjW7aq5l9J",
+    "Date": "Sun, 18 Oct 2026 03:25:38 GMT",
+    "Cache-Control": "no-cache, no-store, must-revalidate, max-age=0",
+    "ETag": "W/\"f4d1dfe8dcdcae7de9823081176213b5\"",
+    "Vary": "Accept-Encoding",
+    "X-Cache": "RefreshHit from cloudfront",
+    "Via": "1.1 980a93b7b3ab04fa4e420e9bd003b66a.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P6",
+    "X-Amz-Cf-Id": "HEyixNK7IBQEIxK9Worf2JYt47a-nruUkKrnsb8OjxWdohRjhDtqug=="
+  },
+  "redirects": [],
+  "original_bytes": 18488,
+  "original_sha256": "4dca31ffb04a804f247d81270836d230b2612cbd77238263d6c228904b4dcae7",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 5273,
+  "stored_stream_sha256": "2e58b14e2c9ea5a81a0e95359f358a7d88e91d2e1379b711d701819074291126",
+  "stored_parts": [
+    {
+      "path": "raw/sos-results-archive.body.gz",
+      "bytes": 5273,
+      "sha256": "2e58b14e2c9ea5a81a0e95359f358a7d88e91d2e1379b711d701819074291126"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:25:37.591742+00:00"
+}

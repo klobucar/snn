@@ -1,0 +1,61 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-18T03:27:24.596208+00:00",
+  "checks": {
+    "hash_checked_original_responses_and_references": 223,
+    "primary_candidate_county_cells": 6604,
+    "primary_county_contest_rows": 1016,
+    "independent_state_controls": 26,
+    "independent_primary_publications": "Clerk2020+2024 Senate; legislative2022 governor party candidates+combined namedwriteins",
+    "priority": {
+      "denominator": 11291854,
+      "counties": 34,
+      "votes": 9076868,
+      "exact_integer_threshold": 9033484,
+      "full_order_checked": 254
+    },
+    "scenario_county_rows": 5334,
+    "state_targets": 21,
+    "live_edge_cases": {
+      "feasible": 11,
+      "unknown-remaining-input": 1,
+      "no-positive-pool": 1,
+      "invalid-remaining-input": 1,
+      "already-secured": 1,
+      "impossible": 1,
+      "no-positive-final-denominator": 1
+    },
+    "clipping_zero_pool_already_winning_stress": "pass",
+    "native_original_retention": {
+      "2024": {
+        "units": 10786,
+        "selected_rows": 157929
+      },
+      "2020": {
+        "units": 15861,
+        "selected_rows": 108309
+      },
+      "2022": {
+        "units": 5055,
+        "selected_rows": 35995
+      }
+    },
+    "tlc_derived_rows_preserved": 48560,
+    "primary_unit_audit": {
+      "vendor_shared_rows": 5493,
+      "pdf_unit_labels": 2447,
+      "scope": "Primary originals remain conflicting observations; no residual allocation or newer-vintage inference"
+    },
+    "primary_harris_all_unit_candidate_ballot_method_controls": 1584,
+    "peer_candidate_county_checks": 57410,
+    "local_relative_links": 26,
+    "largest_owned_asset_bytes": 3821447,
+    "report_settings_and_live_examples": "pass"
+  },
+  "limitations": [
+    "Historical scenario arithmetic, not2026 forecast or probabilities.",
+    "All254 primary county baselines reconcile; incomplete native precinct originals, duplicatekeys/methodnonadditivity and sourcecounty conflicts remain unaccepted.",
+    "Genericwritein vendor/TLC universes are not silently replaced by named validwriteins.",
+    "No cross-year/2026 geography approval, candidate roster mapping or feedcadence established."
+  ]
+}

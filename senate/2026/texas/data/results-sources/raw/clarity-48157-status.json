@@ -1,0 +1,51 @@
+{
+  "id": "clarity-48157-status",
+  "request_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/status.json",
+  "parent_id": "clarity-48157-config",
+  "purpose": "bundle-enumerated file at actual linked county/election/version/lang",
+  "retrieval_started_utc": "2026-10-18T03:33:46.123039+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Fort_Bend/127480/381059/json/status.json",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:33:46 GMT",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "HIT",
+    "Last-Modified": "Wed, 14 Oct 2026 19:51:31 GMT",
+    "ETag": "W/\"6acfdd43-dc0\"",
+    "Expires": "Sun, 18 Oct 2026 18:39:03 GMT",
+    "Cache-Control": "max-age=86400",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 31b07ab1af7698333aadbed7d89cde9a.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "Nd__jazp52GB4UTUgnAKQ6wTrMtLXyqIAsjhcazWRiEuy3qXjBJ1yA==",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 3520,
+  "original_sha256": "35a365f363e963509c3f92c7e6489da6dcd7f0cc653f8671bf1f8a2f52e64da4",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 513,
+  "stored_stream_sha256": "d2a541b1f19528b4441d0b8bc24fdd442a38ecacc4e01e070192c9a698e0e2f5",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48157-status.body.gz",
+      "bytes": 513,
+      "sha256": "d2a541b1f19528b4441d0b8bc24fdd442a38ecacc4e01e070192c9a698e0e2f5"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:33:46.239850+00:00"
+}

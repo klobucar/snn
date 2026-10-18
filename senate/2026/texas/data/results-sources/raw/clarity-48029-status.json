@@ -1,0 +1,52 @@
+{
+  "id": "clarity-48029-status",
+  "request_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/status.json",
+  "parent_id": "clarity-48029-config",
+  "purpose": "bundle literal nonlocalized schema route",
+  "retrieval_started_utc": "2026-10-18T03:30:49.382415+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Bexar/127291/379718/json/status.json",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "HIT",
+    "Last-Modified": "Thu, 01 Oct 2026 21:06:11 GMT",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "Date": "Sat, 17 Oct 2026 16:50:27 GMT",
+    "Expires": "Sat, 17 Oct 2026 08:27:13 GMT",
+    "Cache-Control": "max-age=86400",
+    "ETag": "W/\"6abecb43-35ed\"",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 bc67ae605ab6a447a8fd79da79d5b270.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "-oz04sZwpJWwxp4OfwdeDl_wiKKno8rpCj1yG6ZecLTqFm6JwWCrOg==",
+    "Age": "38422",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 13805,
+  "original_sha256": "85f5e132247d3e4a6aa74d5a44d7afe31e86d2ee4852242a3b5803a312d160f8",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 1637,
+  "stored_stream_sha256": "b722d092f24c2d866fd4354dda95f3815f4ffe906bbc5f79b4de19970b6f5c07",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48029-status.body.gz",
+      "bytes": 1637,
+      "sha256": "b722d092f24c2d866fd4354dda95f3815f4ffe906bbc5f79b4de19970b6f5c07"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:30:49.485867+00:00"
+}

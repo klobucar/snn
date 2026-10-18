@@ -1,0 +1,520 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-18T02:53:37.969201+00:00",
+  "snapshots": 51,
+  "verified": [
+    {
+      "id": "tribune-primary",
+      "status": 200,
+      "bytes": 85594,
+      "sha256": "f9a4ccd274468e16e88353afc81199c27a20230fd24c78cbb2001c4b1b3f7622"
+    },
+    {
+      "id": "ksat-statewide-primary",
+      "status": 200,
+      "bytes": 903911,
+      "sha256": "e0df4a46c965268674420114386a2731bdace763e2c2acaa69ae2de9fc103f4f"
+    },
+    {
+      "id": "kvia-results",
+      "status": 200,
+      "bytes": 320350,
+      "sha256": "bf89e282e6b6722e8b06e472c351fbfb84ef0f32d28b3ebb8b7324a36a8ff51e"
+    },
+    {
+      "id": "kcbd-results",
+      "status": 200,
+      "bytes": 71614,
+      "sha256": "6c518447a6ddf534675dd47a4fc5caf625e2cecab5499975f477f7ca10ebdde8"
+    },
+    {
+      "id": "wfaa-home",
+      "status": 200,
+      "bytes": 430059,
+      "sha256": "5542d00c71ea89f13956c176e0c3761a66f0b638d9c4c96833b3ef12ecadc9e4"
+    },
+    {
+      "id": "khou-home",
+      "status": 200,
+      "bytes": 403152,
+      "sha256": "d4784b47d0e012ef1c7efd44de235615685724f1c2c358f730d234c9f023734c"
+    },
+    {
+      "id": "krgv-home",
+      "status": 200,
+      "bytes": 189352,
+      "sha256": "b4513c1eb592326444aa323c09727d5b01a83bf2172f1644134fe35fd7df4012"
+    },
+    {
+      "id": "nyt-elections",
+      "status": 403,
+      "bytes": 771,
+      "sha256": "6bf93fe8d001c3644ee227c93c30c433bec3379539b2eed693d4b8d5ba01bcd4"
+    },
+    {
+      "id": "krgv-elections",
+      "status": 200,
+      "bytes": 183075,
+      "sha256": "f360a79d8b222473da08da06ec2bc7a2cc8b959de0368bf283cb939b7acd374f"
+    },
+    {
+      "id": "khou-midterms-guide",
+      "status": 403,
+      "bytes": 532,
+      "sha256": "30dba8470e88bdb2d7ad846169c87ea268c276671270197dd84bda1d431bd013"
+    },
+    {
+      "id": "wfaa-midterms-guide",
+      "status": 403,
+      "bytes": 601,
+      "sha256": "2bb0425d482d114323e1477bcc83349d9b10dc547bb84609cc76c2c89a2886c9"
+    },
+    {
+      "id": "sos-dates",
+      "status": 200,
+      "bytes": 62097,
+      "sha256": "22f9544567bc1494f505f72ad6a3de47fad8c25fe825ee9108af40d7292b2236"
+    },
+    {
+      "id": "sos-2026-calendar",
+      "status": 200,
+      "bytes": 252345,
+      "sha256": "22ab430f2d0b4cd8ce93a4c3827d56c711b833cea16c641e48ef6129040a1a83"
+    },
+    {
+      "id": "tarrant-november",
+      "status": 200,
+      "bytes": 351221,
+      "sha256": "c6d4a0a18fe5f872c1d12cab94571613fb162533b7717c371e5dd045c27599a3"
+    },
+    {
+      "id": "tarrant-clarity-november",
+      "status": 403,
+      "bytes": 919,
+      "sha256": "1a89caccfd3a10e6068d730b272289a79dd5112a7ff2e3a3e1d1dcf4e4c3f660"
+    },
+    {
+      "id": "tarrant-civix-results",
+      "status": 403,
+      "bytes": 5510,
+      "sha256": "c0e1e5be1ac3b46a7425f32cc905aeb3b35cc93555ec51c3530ecfc5d3685515"
+    },
+    {
+      "id": "tarrant-november-download",
+      "status": 200,
+      "bytes": 409,
+      "sha256": "c8e3a5dcfcbef5bed05c8646467afd5e517840a47a9d3560bbd6101c19a8709a"
+    },
+    {
+      "id": "kltv-results",
+      "status": 200,
+      "bytes": 270423,
+      "sha256": "c431add62c2bacd069fa907ee5bf626f9096573cf91bd93d18d0ba5a1a90a925"
+    },
+    {
+      "id": "kltv-state-panel",
+      "status": 200,
+      "bytes": 65152,
+      "sha256": "c3b999a3cf22cf93bfef73f216112ae0c250a4733931e8a60239c0625e679485"
+    },
+    {
+      "id": "kfda-results",
+      "status": 200,
+      "bytes": 80270,
+      "sha256": "d13ed6e2f87060439fe5c76bb1a39fc81588b82213c5944289dd0ffcc9fa5e60"
+    },
+    {
+      "id": "kfda-runoff",
+      "status": 200,
+      "bytes": 199295,
+      "sha256": "b629de0ae4cb99c512512d8c4aa892f600eefe336c69d72594ad638e98117029"
+    },
+    {
+      "id": "kristv-home",
+      "status": 200,
+      "bytes": 215349,
+      "sha256": "d0776e5c6d4fe08a9fe90055dcf61d00ddfb474171de05875e3554e93040c501"
+    },
+    {
+      "id": "kxan-home",
+      "status": 403,
+      "bytes": 6516,
+      "sha256": "2b176233dc474a7afca19c25eecb54ffb60fee36179c254ef10c710b1d03e3e6"
+    },
+    {
+      "id": "kltv-ap-national",
+      "status": 403,
+      "bytes": 919,
+      "sha256": "df5448df170404c5d219f2d341ff002ec3862d9a389cba218ebd32ed0f94139d"
+    },
+    {
+      "id": "kltv-ap-state",
+      "status": 403,
+      "bytes": 919,
+      "sha256": "221bee2d3725d84bb1bacb925e38fcfd87d9ccb9d0f9e96f59422dbdda9881a3"
+    },
+    {
+      "id": "kristv-local-results",
+      "status": 200,
+      "bytes": 75679,
+      "sha256": "89e2872190812bb91d2dc28d042a5b048fe159ee92cd55e72657515c591b18dd"
+    },
+    {
+      "id": "kristv-primary-blog",
+      "status": 200,
+      "bytes": 102007,
+      "sha256": "48e7a9d4697a82263f5610b791e747245ef790018f5818d464575d1c7ef293ad"
+    },
+    {
+      "id": "kristv-close-runoff",
+      "status": 200,
+      "bytes": 87566,
+      "sha256": "f2409b8d561bcdae93007e6edf81cbd2e3001861916a80f56e0e3047af6ca3da"
+    },
+    {
+      "id": "kristv-nueces-vendor",
+      "status": 403,
+      "bytes": 919,
+      "sha256": "1e284dd1e58b6b03d1ce9d0dbb58c7c38f8b3d5d79dee90109ff15560a8a9940"
+    },
+    {
+      "id": "kristv-local-elections",
+      "status": 200,
+      "bytes": 81704,
+      "sha256": "c3d6f89f9c94c1b3863dd3bef6f2694ea171b284122c09411b91f5fdb5d42fa5"
+    },
+    {
+      "id": "sos-history-index",
+      "status": 200,
+      "bytes": 19393,
+      "sha256": "47bd486553ee314355fc241f696ac445b7b8a3c6dddd73562eecfb51e59c4e38"
+    },
+    {
+      "id": "sos-historical-results",
+      "status": 200,
+      "bytes": 49518,
+      "sha256": "59f6b0089cca04007206226f5f22c644928fc870591e2e6ce36ad7428c02c4f8"
+    },
+    {
+      "id": "sos-results-app",
+      "status": 403,
+      "bytes": 5515,
+      "sha256": "52239ada07c35acc1cd45c247ef6ba0e3de4a5884ddbb77b82a7c794232c8b13"
+    },
+    {
+      "id": "sos-results-archive",
+      "status": 200,
+      "bytes": 18488,
+      "sha256": "4dca31ffb04a804f247d81270836d230b2612cbd77238263d6c228904b4dcae7"
+    },
+    {
+      "id": "sos-turnout-controls",
+      "status": 200,
+      "bytes": 169029,
+      "sha256": "ce7de3511e94c4b06eb0e12d9389af37462cd0ddd4e594eababfc6312f00d4ca"
+    },
+    {
+      "id": "sos-registration-index",
+      "status": 200,
+      "bytes": 21363,
+      "sha256": "ba9415c1a74839ac36ce00466d5fcceac848b888afb2429afa6c5f1be90390f8"
+    },
+    {
+      "id": "tlc-precincts-index",
+      "status": 200,
+      "bytes": 31543,
+      "sha256": "0513c3e446214b364e68725ce723e1441dd88a94fdaf829eb64e122e0846eae0"
+    },
+    {
+      "id": "tlc-vtd-index",
+      "status": 200,
+      "bytes": 38398,
+      "sha256": "abfb99899863c0a1467e762e547e41fd1b726ea80614c21d6538247f0b6a512c"
+    },
+    {
+      "id": "tlc-election-about",
+      "status": 200,
+      "bytes": 11567,
+      "sha256": "429203da399cbd838b96a5a226cb0baf3b0157845a806e0079dfb0cb6d828122"
+    },
+    {
+      "id": "tlc-election-index",
+      "status": 200,
+      "bytes": 28674,
+      "sha256": "0400029af67667b2ce6b0673e25a173f7b3075e94b836254b2b297786100cdce"
+    },
+    {
+      "id": "tlc-2024-general",
+      "status": 200,
+      "bytes": 391680,
+      "sha256": "9c90ef32432e80f8d9a2fd32fd699ebf2d4071f3fc572720cc02ea2758e31535"
+    },
+    {
+      "id": "tlc-2022-general",
+      "status": 200,
+      "bytes": 548310,
+      "sha256": "b129780bef5ae8a7bfc7c1221ae0aaea684e75b548081304b47a5446e45a4826"
+    },
+    {
+      "id": "tlc-2024-senate-vtd",
+      "status": 200,
+      "bytes": 295700,
+      "sha256": "03464ba753587d2e4008b144a2f388bcf69882fb6147eac908c90ed56fc01937"
+    },
+    {
+      "id": "tlc-2024-president-vtd",
+      "status": 200,
+      "bytes": 295118,
+      "sha256": "cd48dac7c363f1cd66fcd30ffc81ce06923dd313bf908f6626bc485481257b88"
+    },
+    {
+      "id": "tlc-2024-voterdata-vtd",
+      "status": 200,
+      "bytes": 443045,
+      "sha256": "7ad5e530ac404d0d98eef7ec0314ae5c25de4f48b942fc4fedfbe6ee20058a2e"
+    },
+    {
+      "id": "tlc-2022-governor-vtd",
+      "status": 200,
+      "bytes": 289176,
+      "sha256": "5ddd0f1162c99a9187564bf9348a26b55022b58388255cd0dc9a03dbc7a98a94"
+    },
+    {
+      "id": "tlc-2022-voterdata-vtd",
+      "status": 200,
+      "bytes": 439425,
+      "sha256": "372f20389bed2074950dc25c03a760f9844ca713d69611e329c4423ffcf2fb48"
+    },
+    {
+      "id": "tribune-main-module",
+      "status": 200,
+      "bytes": 1798005,
+      "sha256": "8ee996c8e75543ccd6c9c7d17c20bbe0dc345d857d8908a70302b9d5d255add7"
+    },
+    {
+      "id": "tribune-vendor-module",
+      "status": 200,
+      "bytes": 43034,
+      "sha256": "1b5e249a5bbd6382cd3fecb7edf8b4dcd1a716b8bcb52b9f2246f0a60eceeb54"
+    },
+    {
+      "id": "tribune-page-module",
+      "status": 200,
+      "bytes": 43999,
+      "sha256": "9a85b644989a519c475edafe9e3041128ff4ee5f5f8487e67593fceb9413832e"
+    },
+    {
+      "id": "tribune-primary-public-json",
+      "status": 200,
+      "bytes": 935549,
+      "sha256": "d11c0d4aab23237c50e5972a0a1046bfe7f2c058cb9e81d27c72b78d714a50ed"
+    }
+  ],
+  "newsroom_gsync": {
+    "kltv-results": {
+      "samples": [
+        {
+          "selected": {
+            "id": "2668",
+            "isActive": false,
+            "name": "2026 November election",
+            "totalResults": 64,
+            "hasRecentUpdates": false,
+            "updatedDate": null,
+            "dataTransformedAt": "2026-10-18T02:24:15.065Z"
+          },
+          "races": 64,
+          "candidate_votes": 0,
+          "senate_race_names": []
+        }
+      ],
+      "test_display_enabled": true
+    },
+    "kfda-results": {
+      "samples": [
+        {
+          "selected": {
+            "id": null
+          },
+          "races": 0,
+          "candidate_votes": 0,
+          "senate_race_names": []
+        }
+      ],
+      "test_display_enabled": true
+    },
+    "kcbd-results": {
+      "samples": [
+        {
+          "selected": {
+            "id": "2593",
+            "isActive": false,
+            "name": "City of Lubbock Special Election Runoff",
+            "totalResults": 1,
+            "hasRecentUpdates": false,
+            "updatedDate": "2026-08-02T01:30:18.000000Z",
+            "dataTransformedAt": "2026-10-18T00:29:56.200Z"
+          },
+          "races": 1,
+          "candidate_votes": 3094,
+          "senate_race_names": []
+        }
+      ],
+      "test_display_enabled": true
+    }
+  },
+  "Tribune_primary": {
+    "race_records": 435,
+    "election_date": "2026-03-03",
+    "senate_controls": [
+      {
+        "race_id": "d938adb2-003c-495c-b240-2e73c327379c",
+        "party": "Democrat",
+        "county_rows": 254,
+        "candidate_rows": 3,
+        "total_votes": 2319187,
+        "precincts_reporting": 10006,
+        "candidate_county_totals_match": true,
+        "source": "Associated Press",
+        "contest_result": "winner",
+        "estimated_votes_high_mid_low": [
+          0,
+          0,
+          0
+        ],
+        "county_code_schema": "Three-digit county suffix, not full five-digit FIPS; no precinct rows exposed here",
+        "scope": "March primary; no publisher count timestamp in these race records; zero estimate/method/registration fields do not establish zero remaining ballots or a method split"
+      },
+      {
+        "race_id": "bd479905-9049-47a1-ad21-180b94ba1475",
+        "party": "Republican",
+        "county_rows": 254,
+        "candidate_rows": 8,
+        "total_votes": 2166910,
+        "precincts_reporting": 10006,
+        "candidate_county_totals_match": true,
+        "source": "Associated Press",
+        "contest_result": "runoff",
+        "estimated_votes_high_mid_low": [
+          0,
+          0,
+          0
+        ],
+        "county_code_schema": "Three-digit county suffix, not full five-digit FIPS; no precinct rows exposed here",
+        "scope": "March primary; no publisher count timestamp in these race records; zero estimate/method/registration fields do not establish zero remaining ballots or a method split"
+      }
+    ]
+  },
+  "Tarrant_download_contents": {
+    "ENR_1126.txt": "Tally Export formatted in comma-delimited text for this election will be posted as soon as it becomes available.\r\n\r\n\r\nTally Export formateado en texto delimitado por comas para esta elecci\u00f3n se publicar\u00e1 tan pronto como est\u00e9 disponible.\r\n\r\n\r\nXu\u1ea5t ki\u1ec3m phi\u1ebfu \u0111\u01b0\u1ee3c \u0111\u1ecbnh d\u1ea1ng b\u1eb1ng v\u0103n b\u1ea3n \u0111\u01b0\u1ee3c ph\u00e2n c\u00e1ch b\u1eb1ng d\u1ea5u ph\u1ea9y cho cu\u1ed9c b\u1ea7u c\u1eed n\u00e0y s\u1ebd \u0111\u01b0\u1ee3c \u0111\u0103ng ngay khi c\u00f3 s\u1eb5n."
+  },
+  "TLC_derived_samples": {
+    "tlc-2024-senate-vtd": {
+      "rows": 9712,
+      "county_prefixes": 254,
+      "totals": {
+        "AllredD_24G_U.S. Sen": 5031142,
+        "AndrusW_24G_U.S. Sen": 534,
+        "BrownL_24G_U.S. Sen": 266944,
+        "CruzR_24G_U.S. Sen": 5990637,
+        "RocheW_24G_U.S. Sen": 976
+      }
+    },
+    "tlc-2024-president-vtd": {
+      "rows": 9712,
+      "county_prefixes": 254,
+      "totals": {
+        "HarrisD_24G_President": 4835134,
+        "OliverL_24G_President": 68563,
+        "SteinG_24G_President": 82698,
+        "TrumpR_24G_President": 6393403,
+        "Write-InW_24G_President": 24730
+      }
+    },
+    "tlc-2024-voterdata-vtd": {
+      "rows": 9712,
+      "county_prefixes": 254,
+      "totals": {
+        "Voter_Registration": 18686517,
+        "Turnout": 11460798
+      }
+    },
+    "tlc-2022-governor-vtd": {
+      "rows": 9712,
+      "county_prefixes": 254,
+      "totals": {
+        "AbbottR_22G_Governor": 4437097,
+        "BarriosG_22G_Governor": 28590,
+        "O'RourkeD_22G_Governor": 3554772,
+        "TippettsL_22G_Governor": 81942,
+        "Write-InW_22G_Governor": 4367
+      }
+    },
+    "tlc-2022-voterdata-vtd": {
+      "rows": 9712,
+      "county_prefixes": 254,
+      "totals": {
+        "Voter_Registration": 17713365,
+        "Turnout": 8143047
+      }
+    }
+  },
+  "Clerk_text_sha256": "4fa7f4e40b263e28cdb527c424ad2739ec87c0f038762eb4ad6b31a32914b7c9",
+  "derived_minus_primary": {
+    "tlc-2024-senate-vtd": {
+      "AllredD_24G_U.S. Sen": {
+        "TLC_derived": 5031142,
+        "Clerk": 5031249,
+        "TLC_minus_Clerk": -107
+      },
+      "AndrusW_24G_U.S. Sen": {
+        "TLC_derived": 534,
+        "Clerk": 919,
+        "TLC_minus_Clerk": -385
+      },
+      "BrownL_24G_U.S. Sen": {
+        "TLC_derived": 266944,
+        "Clerk": 267039,
+        "TLC_minus_Clerk": -95
+      },
+      "CruzR_24G_U.S. Sen": {
+        "TLC_derived": 5990637,
+        "Clerk": 5990741,
+        "TLC_minus_Clerk": -104
+      },
+      "RocheW_24G_U.S. Sen": {
+        "TLC_derived": 976,
+        "Clerk": 1906,
+        "TLC_minus_Clerk": -930
+      }
+    },
+    "tlc-2024-president-vtd": {
+      "HarrisD_24G_President": {
+        "TLC_derived": 4835134,
+        "Clerk": 4835250,
+        "TLC_minus_Clerk": -116
+      },
+      "OliverL_24G_President": {
+        "TLC_derived": 68563,
+        "Clerk": 68557,
+        "TLC_minus_Clerk": 6
+      },
+      "SteinG_24G_President": {
+        "TLC_derived": 82698,
+        "Clerk": 82701,
+        "TLC_minus_Clerk": -3
+      },
+      "TrumpR_24G_President": {
+        "TLC_derived": 6393403,
+        "Clerk": 6393597,
+        "TLC_minus_Clerk": -194
+      },
+      "Write-InW_24G_President": {
+        "TLC_derived": 24730,
+        "Clerk": 8569,
+        "TLC_minus_Clerk": 16161
+      }
+    }
+  },
+  "scope": "Preparation diagnostics only. Differing derived VTD counts are not accepted certified/native precinct baselines. No November Senate feed or cadence verified; no rescaling or residual allocation."
+}

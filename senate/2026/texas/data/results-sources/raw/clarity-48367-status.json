@@ -1,0 +1,51 @@
+{
+  "id": "clarity-48367-status",
+  "request_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/status.json",
+  "parent_id": "clarity-48367-config",
+  "purpose": "bundle-enumerated file at actual linked county/election/version/lang",
+  "retrieval_started_utc": "2026-10-18T03:33:46.215554+00:00",
+  "method": "GET",
+  "request_headers": {
+    "User-Agent": "Mozilla/5.0 (public election research)"
+  },
+  "body_scope": "complete response entity; not a claim of complete election coverage",
+  "status": 200,
+  "final_url": "https://results.enr.clarityelections.com/TX/Parker/126014/368728/json/status.json",
+  "headers": {
+    "Server": "CloudFront",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Sun, 18 Oct 2026 03:33:46 GMT",
+    "Content-Encoding": "gzip",
+    "X-GG-Cache-Status": "HIT",
+    "Last-Modified": "Tue, 10 Mar 2026 18:16:58 GMT",
+    "ETag": "W/\"69b0601a-455\"",
+    "Expires": "Sun, 18 Oct 2026 08:24:42 GMT",
+    "Cache-Control": "max-age=86400",
+    "X-UA-Compatible": "IE=EmulateIE7, Edge",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Content-Type-Options": "nosniff",
+    "Access-Control-Allow-Origin": "*",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 3b1e8b288eb1bb0e116bb28cbd27e30c.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "ORD56-P13",
+    "X-Amz-Cf-Id": "CwnN8_28F3kbwMf_2t8On-6GXKlpeTvusYkUI1gMCEfiof8hZXObIQ==",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload"
+  },
+  "redirects": [],
+  "original_bytes": 1109,
+  "original_sha256": "1795837aba958159035e24257b7f21f442087d34527ad8dc90634163079c3e40",
+  "body_complete": true,
+  "entity_definition": "content/transfer-decoded response bytes, no character conversion",
+  "stored_stream_bytes": 429,
+  "stored_stream_sha256": "8f109b84febda9d37f75245c70cbd14bf420cee8a5d2d11cadf73ee2a9237f9c",
+  "stored_parts": [
+    {
+      "path": "raw/clarity-48367-status.body.gz",
+      "bytes": 429,
+      "sha256": "8f109b84febda9d37f75245c70cbd14bf420cee8a5d2d11cadf73ee2a9237f9c"
+    }
+  ],
+  "retrieval_finished_utc": "2026-10-18T03:33:46.315840+00:00"
+}
