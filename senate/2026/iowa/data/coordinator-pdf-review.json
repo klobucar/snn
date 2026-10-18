@@ -1,0 +1,38 @@
+{
+  "reviewed_utc": "2026-10-18T04:20:45.227716+00:00",
+  "scope": "Coordinator visual inspection of retained original-PDF render derivatives; no authored PDF or new primary source.",
+  "previews": [
+    {
+      "path": "data/baselines/review/sos-2024-canvass-page2.png",
+      "bytes": 249626,
+      "sha256": "c02a95e6696e74a96d7e46c6add5aba6be7f1ff5bb045a5b4d54c36aab2d6513"
+    },
+    {
+      "path": "data/turnout/qa/sos-2020-canvass.png",
+      "bytes": 262002,
+      "sha256": "a3189c8351031d3e2a7be67c5f764aff7a1fac4fffaf8d2169de7fbbb63e1601"
+    },
+    {
+      "path": "data/turnout/qa/sos-2022-canvass.png",
+      "bytes": 237424,
+      "sha256": "ad2bd27dc57c3e42c654dc0ef4d79d3a18d1adcd630fdb9488c3da8303e6f78b"
+    },
+    {
+      "path": "data/turnout/qa/sos-2020-statestats-p2.png",
+      "bytes": 267263,
+      "sha256": "31bfba867f16756e1fc4d21b007943bf45b2f45966afe6669f4d7702d8b462e2"
+    },
+    {
+      "path": "data/baselines/review/cass-page1.png",
+      "bytes": 177815,
+      "sha256": "4327984f7c62b2cf1289d047b15fef4bf359653f6724c2c7052180e2c12189f9"
+    }
+  ],
+  "findings": [
+    "2024 presidential header retains seven complete named tickets, source party labels, generic Write-in and separate under/over/Total columns.",
+    "2020 Senate header leaves Herzog party blank, with separate named candidates and generic Write-in.",
+    "2022 Senate candidate and two-method/Total table visibly contains embedded source pagination as well as outer pagination; physical page/section-line scope retained.",
+    "2020 statistics age bins259047+373114+499110+536991+534994 sum2203256 versus printed Grand Totals REGISTERED2203254; source disagreement preserved.",
+    "Cass scan explicitly says Unofficial Final Results, Election Day,11/12/2024 1:04:10PM CST; registered9661,ballots7292,12/12reporting,candidate/generic7217,under62,over13. This heading does not establish an Election Day method-only universe."
+  ]
+}

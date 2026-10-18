@@ -1,0 +1,265 @@
+{
+  "county": "Delaware",
+  "county_fips": "19055",
+  "rank_2024": 36,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Delaware",
+    "county_fips": "19055",
+    "rank_2024": 36,
+    "priority": true,
+    "anchor": "DelawareCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#DelawareCountyAuditor",
+    "auditor_url": "https://delawarecountyelections.iowa.gov",
+    "phone": "563-927-4701",
+    "directory_source_id": "sos-auditors",
+    "source_position": 28
+  },
+  "current_key_publication": {
+    "source_id": "county-19055-linked1",
+    "url": "https://delawarecountyelections.iowa.gov/elections/info/2026_general_election_2026_11_02/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:24:50.616633+00:00",
+    "original_sha256": "0bd8e261824ed082f32a1ad4e1aa1459cec84b3fa2f69f53a1ee5cd54535724d"
+  },
+  "finding": "The official current event's native slug ends2026_11_02 while its title/content say November3. Current combined sample publications and separate July special/June primary result channels were recovered. The View Live Results primary link uses EID126110 and is not reused as November's identity.",
+  "gap": "No current November vote payload. Do not repair the source slug or derive an election date solely from it.",
+  "tested_routes": [
+    {
+      "source_id": "county-19055-seed",
+      "url": "https://delawarecountyelections.iowa.gov",
+      "parent_url": "https://sos.iowa.gov/auditors#DelawareCountyAuditor",
+      "final_url": "https://delawarecountyelections.iowa.gov/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19055-seed.json",
+      "source_identity_inventory_key": "county-19055-seed"
+    },
+    {
+      "source_id": "county-19055-linked1",
+      "url": "https://delawarecountyelections.iowa.gov/elections/info/2026_general_election_2026_11_02/",
+      "parent_url": "https://delawarecountyelections.iowa.gov/",
+      "final_url": "https://delawarecountyelections.iowa.gov/elections/info/2026_general_election_2026_11_02/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19055-linked1.json",
+      "source_identity_inventory_key": "county-19055-linked1"
+    },
+    {
+      "source_id": "county-19055-linked2",
+      "url": "https://delawarecountyelections.iowa.gov/files/election_results/2026_lake_delhi_trustee_election_2026_07_21_96433.pdf",
+      "parent_url": "https://delawarecountyelections.iowa.gov/",
+      "final_url": "https://delawarecountyelections.iowa.gov/files/election_results/2026_lake_delhi_trustee_election_2026_07_21_96433.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19055-linked2"
+    },
+    {
+      "source_id": "county-19055-linked3",
+      "url": "https://delawarecountyelections.iowa.gov/elections/info/2026_lake_delhi_trustee_election_2026_07_21/",
+      "parent_url": "https://delawarecountyelections.iowa.gov/",
+      "final_url": "https://delawarecountyelections.iowa.gov/elections/info/2026_lake_delhi_trustee_election_2026_07_21/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19055-linked3.json",
+      "source_identity_inventory_key": "county-19055-linked3"
+    },
+    {
+      "source_id": "county-19055-linked4",
+      "url": "https://delawarecountyelections.iowa.gov/elections/info/2026_primary_election_2026_06_02/",
+      "parent_url": "https://delawarecountyelections.iowa.gov/",
+      "final_url": "https://delawarecountyelections.iowa.gov/elections/info/2026_primary_election_2026_06_02/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19055-linked4.json",
+      "source_identity_inventory_key": "county-19055-linked4"
+    },
+    {
+      "source_id": "county-19055-linked5",
+      "url": "https://delawarecountyelections.iowa.gov/files/sample_ballots/20260721_sample_ballot_89423.pdf",
+      "parent_url": "https://delawarecountyelections.iowa.gov/elections/info/2026_lake_delhi_trustee_election_2026_07_21/",
+      "final_url": "https://delawarecountyelections.iowa.gov/files/sample_ballots/20260721_sample_ballot_89423.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19055-linked5"
+    },
+    {
+      "source_id": "county-19055-linked6",
+      "url": "https://delawarecountyelections.iowa.gov/files/sample_ballots/20260602_republican_sample_ballots_90280.pdf",
+      "parent_url": "https://delawarecountyelections.iowa.gov/elections/info/2026_primary_election_2026_06_02/",
+      "final_url": "https://delawarecountyelections.iowa.gov/files/sample_ballots/20260602_republican_sample_ballots_90280.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19055-linked6"
+    },
+    {
+      "source_id": "county-19055-linked7",
+      "url": "https://delawarecountyelections.iowa.gov/files/sample_ballots/20260602_democrat_sample_ballots_16257.pdf",
+      "parent_url": "https://delawarecountyelections.iowa.gov/elections/info/2026_primary_election_2026_06_02/",
+      "final_url": "https://delawarecountyelections.iowa.gov/files/sample_ballots/20260602_democrat_sample_ballots_16257.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19055-linked7"
+    },
+    {
+      "source_id": "county-19055-linked8",
+      "url": "https://electionresults.iowa.gov/IA/Delaware/126110/",
+      "parent_url": "https://delawarecountyelections.iowa.gov/elections/info/2026_primary_election_2026_06_02/",
+      "final_url": "https://electionresults.iowa.gov/IA/Delaware/126110/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19055-linked8.json",
+      "source_identity_inventory_key": "county-19055-linked8"
+    },
+    {
+      "source_id": "county-19055-linked9",
+      "url": "https://delawarecountyelections.iowa.gov/elections/ballots/",
+      "parent_url": "https://delawarecountyelections.iowa.gov/",
+      "final_url": "https://delawarecountyelections.iowa.gov/elections/ballots/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19055-linked9.json",
+      "source_identity_inventory_key": "county-19055-linked9"
+    },
+    {
+      "source_id": "county-19055-linked10",
+      "url": "https://delawarecountyelections.iowa.gov/elections/past/2026/",
+      "parent_url": "https://delawarecountyelections.iowa.gov/elections/info/2026_general_election_2026_11_02/",
+      "final_url": "https://delawarecountyelections.iowa.gov/elections/past/2026/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19055-linked10.json",
+      "source_identity_inventory_key": "county-19055-linked10"
+    },
+    {
+      "source_id": "county-19055-linked11",
+      "url": "https://delawarecountyelections.iowa.gov/files/sample_ballots/20261103_adams_hazel_green_kirkwood_89985.pdf",
+      "parent_url": "https://delawarecountyelections.iowa.gov/elections/info/2026_general_election_2026_11_02/",
+      "final_url": "https://delawarecountyelections.iowa.gov/files/sample_ballots/20261103_adams_hazel_green_kirkwood_89985.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19055-linked11"
+    },
+    {
+      "source_id": "county-19055-linked12",
+      "url": "https://delawarecountyelections.iowa.gov/files/sample_ballots/20261103_colony_80631.pdf",
+      "parent_url": "https://delawarecountyelections.iowa.gov/elections/info/2026_general_election_2026_11_02/",
+      "final_url": "https://delawarecountyelections.iowa.gov/files/sample_ballots/20261103_colony_80631.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19055-linked12"
+    },
+    {
+      "source_id": "county-19055-specific0",
+      "url": "https://delawarecountyelections.iowa.gov/files/sample_ballots/20261103_delhi_delaware_corp_lake_47158.pdf",
+      "parent_url": "https://delawarecountyelections.iowa.gov/elections/info/2026_general_election_2026_11_02/",
+      "final_url": "https://delawarecountyelections.iowa.gov/files/sample_ballots/20261103_delhi_delaware_corp_lake_47158.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19055-specific0"
+    },
+    {
+      "source_id": "county-19055-specific1",
+      "url": "https://delawarecountyelections.iowa.gov/files/sample_ballots/20261103_delhi_delaware_corp_20574.pdf",
+      "parent_url": "https://delawarecountyelections.iowa.gov/elections/info/2026_general_election_2026_11_02/",
+      "final_url": "https://delawarecountyelections.iowa.gov/files/sample_ballots/20261103_delhi_delaware_corp_20574.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19055-specific1"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Delaware",
+    "county_fips": "19055",
+    "native_election_id": "122350",
+    "native_version": "354907",
+    "native_contest_key": "0004",
+    "xml_clock": "11/14/2024 1:49:47 PM CST",
+    "roster_clock": "11/14/2024 2:00:30 PM CST",
+    "xml_member_sha256": "a24b5ccdd219ce2880d072085fbc3c41ea01e52300db11e436fde6fd2828d6c6",
+    "xml_member_bytes": 131793,
+    "candidate_units": 12,
+    "root_turnout_units": 12,
+    "status_units": 12,
+    "candidate_method_cells": 192,
+    "candidate_generic_votes": 10138,
+    "root_turnout_attributes": {
+      "totalVoters": "12486",
+      "ballotsCast": "10211",
+      "voterTurnout": "81.78"
+    },
+    "root_turnout_ballot_sum": 10211,
+    "root_turnout_registration_sum": 12423,
+    "status_ballot_sum": 10211,
+    "status_codes": {
+      "4": 12
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "001",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "002",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "003",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "004",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "005",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SPU"
+      },
+      {
+        "choice_key": "006",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "007",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "008",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19055"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19055",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19055-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#DelawareCountyAuditor",
+    "publication_url": "https://delawarecountyelections.iowa.gov/elections/info/2026_general_election_2026_11_02/",
+    "telephone_from_directory": "563-927-4701",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

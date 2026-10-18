@@ -1,0 +1,267 @@
+{
+  "source_id": "sos-county-adams-county-precinct-boundaries",
+  "source_path": "raw/sos-county-adams-county-precinct-boundaries.zip",
+  "source_sha256": "64d2c97ec7702f43e2b022cb3e1c0ec81a5c0f44f786163c0a8a1712d445f6cd",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "Adams_County_Plan_Amended_1-10-22.shp",
+      "bytes": 51324,
+      "compressed_bytes": 28928,
+      "crc32": "37bb4cfe",
+      "sha256": "2db890856b5ca9e256b6f12e611f85ad5a3a08e6c9ecd06120ab1ea6d25e4597"
+    },
+    {
+      "name": "Adams_County_Plan_Amended_1-10-22.shx",
+      "bytes": 140,
+      "compressed_bytes": 86,
+      "crc32": "fdfb8921",
+      "sha256": "a41aa8db7a1a14fa97e9f9bcaaea7b648430ffd5b541ea962d08ca8a67b5e5c1"
+    },
+    {
+      "name": "Adams_County_Plan_Amended_1-10-22.dbf",
+      "bytes": 986,
+      "compressed_bytes": 228,
+      "crc32": "d44a5e70",
+      "sha256": "caeddd18cb234c37cc86be2c6d5840687fa8905e46390e33f7071985227bae41"
+    },
+    {
+      "name": "Adams_County_Plan_Amended_1-10-22.prj",
+      "bytes": 145,
+      "compressed_bytes": 121,
+      "crc32": "af437f55",
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-county-adams-county-precinct-boundaries--1",
+      "shp_member": "Adams_County_Plan_Amended_1-10-22.shp",
+      "dbf_fields": [
+        [
+          "LONGNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "SHORTNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "DISTRICT",
+          "N",
+          5,
+          0
+        ],
+        [
+          "COLOR",
+          "N",
+          10,
+          0
+        ],
+        [
+          "TOTAL",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "N",
+          18,
+          0
+        ]
+      ],
+      "dbf_encoding": "utf-8",
+      "cpg_present": false,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 5,
+      "shp_record_header_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "dbf_declared_records": 5,
+      "shx_records": 5,
+      "parsed_records": 5,
+      "vertices": 3184,
+      "parts": 5,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -94.92861171193685,
+        40.8993382831275,
+        -94.47044259280298,
+        41.15851530020347
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 448,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.012683481569865762
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 1",
+            "SHORTNAME": "P1",
+            "DISTRICT": 1
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 717,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.010223265239119428
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 2",
+            "SHORTNAME": "P2",
+            "DISTRICT": 2
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 3,
+          "vertices": 618,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.012068337601021994
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 3",
+            "SHORTNAME": "P3",
+            "DISTRICT": 3
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 4,
+          "vertices": 704,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.04680513130324471
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 4",
+            "SHORTNAME": "P4",
+            "DISTRICT": 4
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 5,
+          "vertices": 697,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.03621927375229461
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 5",
+            "SHORTNAME": "P5",
+            "DISTRICT": 5
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-county-adams-county-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-county-adams-county-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          89283.55908277945,
+          1988371.809474554,
+          127782.64135563787,
+          2017658.4416106418
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

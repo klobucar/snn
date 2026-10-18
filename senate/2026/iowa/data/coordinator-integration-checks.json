@@ -1,0 +1,86 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-18T15:03:06.710416+00:00",
+  "scope": "Complete four-question research package with explicit source defects and unapproved geographic crosswalks.",
+  "counties": 99,
+  "primary_county_contests": 297,
+  "candidate_method_cells": 7484,
+  "priority_counties": 41,
+  "constituent_objects_exactly_conserved": 13558,
+  "historical_county_HTTP_entities": 297,
+  "native2024_candidate_method_cells": 26448,
+  "state_scenarios": 36,
+  "county_targets": 3564,
+  "selected_county_targets": 3564,
+  "separate_other_candidate_rows": 3960,
+  "synthetic_fixed_counted_remainder_cases": 3,
+  "worker_asset_hashes": {
+    "turnout": 625,
+    "baselines": 275,
+    "official_results": 1292,
+    "maps": 3254
+  },
+  "worker_asset_hashes_total": 5446,
+  "priority_contract_sha256": "579b22b8d4f35f12d085ef8402a1bcab14e135a1577daf3ddc4f7d3f66460822",
+  "turnout_validation_status": "completed_with_retained_discrepancies",
+  "source_discrepancies": "Retained explicitly; numerical candidate controls match.",
+  "implemented_collector": false,
+  "calibrated_forecast": false,
+  "source_validation_status": "completed_with_retained_source_gaps_and_discrepancies",
+  "map_validation_status": "pass_with_retained_source_defects_and_unapproved_crosswalks",
+  "complete_package_relative_links": 297,
+  "maps": {
+    "status": "pass_with_retained_source_defects",
+    "checked_utc": "2026-10-18T15:03:06.671967+00:00",
+    "owned_asset_hashes": {
+      "maps": 3254,
+      "results-sources": 1292
+    },
+    "exact_constituent_objects": 13558,
+    "county_rosters": 99,
+    "priority_assets": 41,
+    "map_HTTP_entities": 653,
+    "original_ZIP_members_hashed": 1064,
+    "original_binary_polygon_layers": 253,
+    "original_binary_polygon_records": 2615,
+    "original_binary_vertices": 803565,
+    "original_binary_parts": 2771,
+    "official_HTTP_entities": 624,
+    "official_requests": 626,
+    "independent_primary_candidate_method_county_cells": 1188,
+    "primary_candidate_totals": [
+      [
+        "Jim Carlin",
+        53196
+      ],
+      [
+        "Ashley Hinson",
+        153059
+      ],
+      [
+        "Write-in",
+        531
+      ],
+      [
+        "Josh Turek",
+        120287
+      ],
+      [
+        "Zach Wahls",
+        71663
+      ],
+      [
+        "Write-in",
+        186
+      ]
+    ],
+    "map_diagnostic_statuses": {
+      "unknown": 11427,
+      "administrative-no-polygon": 297,
+      "ambiguous": 1834
+    },
+    "approved_crosswalks": 0,
+    "implemented_collector": false,
+    "calibrated_forecast": false
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "source_id": "sos-county-iowa-county-precinct-boundaries",
+  "source_path": "raw/sos-county-iowa-county-precinct-boundaries.zip",
+  "source_sha256": "777d315affecfb7556b11c58849b0e6a0910e497dda7ab8eef2fadc22555c7f5",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "Iowa_County_Precinct_Map.shp",
+      "bytes": 72876,
+      "compressed_bytes": 39327,
+      "crc32": "4823b8d7",
+      "sha256": "c844387d42e5ea156f33c6f0e5ea707726ef127bf81517493c1a9bd3ab75a131"
+    },
+    {
+      "name": "Iowa_County_Precinct_Map.shx",
+      "bytes": 188,
+      "compressed_bytes": 130,
+      "crc32": "c0fe23ca",
+      "sha256": "dd0f86bb8ac3f2661ca8d1a4dbe1458b766b060b42aed2225ec555fc58d523bb"
+    },
+    {
+      "name": "Iowa_County_Precinct_Map.dbf",
+      "bytes": 1898,
+      "compressed_bytes": 358,
+      "crc32": "1cc4acd6",
+      "sha256": "c09663550f2b0e299beed3db50f27ba73a89dcb3f03438b37679744e444c2125"
+    },
+    {
+      "name": "Iowa_County_Precinct_Map.prj",
+      "bytes": 145,
+      "compressed_bytes": 121,
+      "crc32": "af437f55",
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-county-iowa-county-precinct-boundaries--1",
+      "shp_member": "Iowa_County_Precinct_Map.shp",
+      "dbf_fields": [
+        [
+          "LONGNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "SHORTNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "DISTRICT",
+          "N",
+          5,
+          0
+        ],
+        [
+          "COLOR",
+          "N",
+          10,
+          0
+        ],
+        [
+          "TOTAL",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "N",
+          18,
+          0
+        ]
+      ],
+      "dbf_encoding": "utf-8",
+      "cpg_present": false,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 11,
+      "shp_record_header_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "dbf_declared_records": 11,
+      "shx_records": 11,
+      "parsed_records": 11,
+      "vertices": 4510,
+      "parts": 11,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -92.30013207079138,
+        41.509793519956595,
+        -91.82706693111675,
+        41.86306458103823
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 417,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.015934086415654747
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 1",
+            "SHORTNAME": "D1",
+            "DISTRICT": 1
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 252,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.00521234675420601
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 2",
+            "SHORTNAME": "D2",
+            "DISTRICT": 2
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 3,
+          "vertices": 446,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.02130761012790572
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 3",
+            "SHORTNAME": "D3",
+            "DISTRICT": 3
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 4,
+          "vertices": 502,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.015234191811941855
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 4",
+            "SHORTNAME": "D4",
+            "DISTRICT": 4
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 5,
+          "vertices": 700,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.02952803338121157
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 5",
+            "SHORTNAME": "D5",
+            "DISTRICT": 5
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 6,
+          "vertices": 199,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0009463606961617188
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 6",
+            "SHORTNAME": "D6",
+            "DISTRICT": 6
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 7,
+          "vertices": 377,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.015385761849529445
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 7",
+            "SHORTNAME": "D7",
+            "DISTRICT": 7
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 8,
+          "vertices": 460,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0200267903906024
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 8",
+            "SHORTNAME": "D8",
+            "DISTRICT": 8
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 9,
+          "vertices": 214,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0006105087579726387
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 9",
+            "SHORTNAME": "D9",
+            "DISTRICT": 9
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 10,
+          "vertices": 488,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.02006733906023328
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 10",
+            "SHORTNAME": "D10",
+            "DISTRICT": 10
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 11,
+          "vertices": 455,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.020296817053576888
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 11",
+            "SHORTNAME": "D11",
+            "DISTRICT": 11
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-county-iowa-county-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-county-iowa-county-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          305056.34682129207,
+          2062036.4440532792,
+          345401.08188284445,
+          2102993.388512594
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

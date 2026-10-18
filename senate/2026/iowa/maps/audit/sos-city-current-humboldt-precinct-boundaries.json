@@ -1,0 +1,225 @@
+{
+  "source_id": "sos-city-current-humboldt-precinct-boundaries",
+  "source_path": "raw/sos-city-current-humboldt-precinct-boundaries.zip",
+  "source_sha256": "7300135eaf456cb184f419e4e2f1508ac02f8875db912d3a1bdc3cd270b4877e",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "City_of_Humboldt_-_FINAL.shp",
+      "bytes": 7980,
+      "compressed_bytes": 4799,
+      "crc32": "188a6ba0",
+      "sha256": "611cd8414cf01f5bdee38e9842cfeac774fa6e14541641afcec9ac8b135cb552"
+    },
+    {
+      "name": "City_of_Humboldt_-_FINAL.shx",
+      "bytes": 124,
+      "compressed_bytes": 72,
+      "crc32": "5f050387",
+      "sha256": "96720523ce178f3e8369be37215b327e4f3ba000f375b1ff22bf59001ab8e29b"
+    },
+    {
+      "name": "City_of_Humboldt_-_FINAL.dbf",
+      "bytes": 768,
+      "compressed_bytes": 195,
+      "crc32": "5440ccdb",
+      "sha256": "b9a43b739d273ec4d6787c5ac3f5d593a2ba8c617577686ce591cd746cd05a8c"
+    },
+    {
+      "name": "City_of_Humboldt_-_FINAL.prj",
+      "bytes": 145,
+      "compressed_bytes": 121,
+      "crc32": "af437f55",
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-humboldt-precinct-boundaries--1",
+      "shp_member": "City_of_Humboldt_-_FINAL.shp",
+      "dbf_fields": [
+        [
+          "LONGNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "SHORTNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "DISTRICT",
+          "N",
+          5,
+          0
+        ],
+        [
+          "COLOR",
+          "N",
+          10,
+          0
+        ],
+        [
+          "TOTAL",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TOTAL18",
+          "N",
+          18,
+          0
+        ]
+      ],
+      "dbf_encoding": "utf-8",
+      "cpg_present": false,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 3,
+      "shp_record_header_numbers": [
+        1,
+        2,
+        3
+      ],
+      "dbf_declared_records": 3,
+      "shx_records": 3,
+      "parsed_records": 3,
+      "vertices": 482,
+      "parts": 3,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -94.24752173687156,
+        42.6987155874211,
+        -94.2071097212605,
+        42.74620059326011
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 111,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0004231784332660027
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Ward 1",
+            "SHORTNAME": "1",
+            "DISTRICT": 1
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 136,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.00031481421933676756
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Ward 2",
+            "SHORTNAME": "2",
+            "DISTRICT": 2
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 3,
+          "vertices": 235,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0005949653343577666
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Ward 3",
+            "SHORTNAME": "3",
+            "DISTRICT": 3
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-humboldt-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-humboldt-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          142637.9486611405,
+          2190403.916886608,
+          146009.28646996702,
+          2195691.7104905923
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

@@ -1,0 +1,197 @@
+{
+  "source_id": "sos-city-current-camanche-precinct-boundaries",
+  "source_path": "raw/sos-city-current-camanche-precinct-boundaries.zip",
+  "source_sha256": "19a3ff8843dac2d44710b4a6ce84eb20cd3eef70becde8c739d76a11d75cf9e4",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "City_of_Camanche.shp",
+      "bytes": 11260,
+      "compressed_bytes": 6762,
+      "crc32": "c823be7b",
+      "sha256": "804822f27c711810f8aa19a6c0b963eaa2b7b01870082410eead62412b6facb9"
+    },
+    {
+      "name": "City_of_Camanche.shx",
+      "bytes": 116,
+      "compressed_bytes": 66,
+      "crc32": "eb113745",
+      "sha256": "002d09ef9386e8eca3ff9e4911a4729fde59d130486763f96fc30a31155430d6"
+    },
+    {
+      "name": "City_of_Camanche.dbf",
+      "bytes": 530,
+      "compressed_bytes": 157,
+      "crc32": "e61265b1",
+      "sha256": "baf80435797b1b94f15d07496fcafc41d3380e62040980b61234db2a698b4cfa"
+    },
+    {
+      "name": "City_of_Camanche.prj",
+      "bytes": 145,
+      "compressed_bytes": 121,
+      "crc32": "af437f55",
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-camanche-precinct-boundaries--1",
+      "shp_member": "City_of_Camanche.shp",
+      "dbf_fields": [
+        [
+          "LONGNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "SHORTNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "DISTRICT",
+          "N",
+          5,
+          0
+        ],
+        [
+          "COLOR",
+          "N",
+          10,
+          0
+        ],
+        [
+          "TOTAL",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "N",
+          18,
+          0
+        ]
+      ],
+      "dbf_encoding": "utf-8",
+      "cpg_present": false,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 2,
+      "shp_record_header_numbers": [
+        1,
+        2
+      ],
+      "dbf_declared_records": 2,
+      "shx_records": 2,
+      "parsed_records": 2,
+      "vertices": 690,
+      "parts": 4,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -90.33054852515515,
+        41.76662668310157,
+        -90.23224549980812,
+        41.815288690228144
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 377,
+          "parts": 3,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0017575145870978304,
+            -2.022850821958855e-06,
+            8.834283562464407e-06
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 2,
+          "native_ccw_holes": 1,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 1",
+            "SHORTNAME": "D1",
+            "DISTRICT": 1
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "MultiPolygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 313,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0009595441813416983
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 2",
+            "SHORTNAME": "D2",
+            "DISTRICT": 2
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-camanche-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-camanche-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          467504.4277277048,
+          2099008.9327626457,
+          475510.77776860615,
+          2104553.5596439736
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

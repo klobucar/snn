@@ -1,0 +1,95 @@
+{
+  "status": "pass_with_retained_source_defects_and_unapproved_crosswalks",
+  "checks": {
+    "final_contract_exact_hash_and_bytes": {
+      "pass_": true,
+      "details": null
+    },
+    "exact41_ordered_key_bytes": {
+      "pass_": true,
+      "details": null
+    },
+    "all99_order_and_fips": {
+      "pass_": true,
+      "details": null
+    },
+    "all99_county_turnout_order_and_marks": {
+      "pass_": true,
+      "details": null
+    },
+    "all13558_exact_objects_keys_scopes_order": {
+      "pass_": true,
+      "details": null
+    },
+    "all99_exact_native_rosters": {
+      "pass_": true,
+      "details": null
+    },
+    "administrative_exceptions": {
+      "pass_": true,
+      "details": null
+    },
+    "lucas_7_candidate_5_turnout_7_status": {
+      "pass_": true,
+      "details": null
+    },
+    "root_turnout_blank_contest_keys": {
+      "pass_": true,
+      "details": null
+    },
+    "no_approved_crosswalk_or_allocation": {
+      "pass_": true,
+      "details": null
+    },
+    "priority41_has_actual_reference_assets": {
+      "pass_": true,
+      "details": null
+    },
+    "dependency_hashes_read-only-pins.json": {
+      "pass_": true,
+      "details": []
+    },
+    "dependency_hashes_peer-dependencies.json": {
+      "pass_": true,
+      "details": []
+    },
+    "all_original_bytes_headers_split_reconstruction": {
+      "pass_": true,
+      "details": []
+    },
+    "all_zip_crc_native_attributes_vertices_parts_z_m": {
+      "pass_": true,
+      "details": []
+    },
+    "all_pdf_original_member_hashes_pages_renders": {
+      "pass_": true,
+      "details": []
+    },
+    "all_offline_html_and_report_markdown_links": {
+      "pass_": true,
+      "details": []
+    },
+    "strict_all_objects_below40000000": {
+      "pass_": true,
+      "details": []
+    },
+    "no_dependency_or_cache_directories": {
+      "pass_": true,
+      "details": null
+    }
+  },
+  "counts": {
+    "read-only-pins.json": 8,
+    "peer-dependencies.json": 138,
+    "responses_verified": 653,
+    "split_parts": 5,
+    "native_features_verified": 2615,
+    "native_vertices_verified": 803565,
+    "layers": 253,
+    "zip_archives": 252,
+    "pdf_documents": 314,
+    "pdf_pages": 329
+  },
+  "errors": [],
+  "scope": "Research assets only; no approved current crosswalk, allocation, live collection or forecast claim."
+}

@@ -1,0 +1,60 @@
+{
+  "source_id": "local-19183-map-page-1",
+  "requested_url": "https://washingtoncounty.iowa.gov/DocumentCenter/View/2094",
+  "parent_authority_url": "https://sos.iowa.gov/auditors#WashingtonCountyAuditor",
+  "kind": "county-authority",
+  "retrieval_utc": "2026-10-18T04:28:26.798874+00:00",
+  "county": "Washington",
+  "link_label": "Map of Precincts",
+  "final_url": "https://washingtoncounty.iowa.gov/DocumentCenter/View/2094/Map-of-Voting-Precincts-Final?bidId=",
+  "status": 200,
+  "reason": "OK",
+  "headers": {
+    "Cache-Control": "private, s-maxage=600,no-transform",
+    "Content-Type": "application/pdf",
+    "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+    "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure",
+    "Content-Disposition": "inline;filename=Map%20of%20Voting%20Precincts-final.pdf",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=()",
+    "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+    "Date": "Sun, 18 Oct 2026 04:28:26 GMT",
+    "Content-Length": "333609"
+  },
+  "request_headers": {
+    "User-Agent": "Iowa-public-map-research/1.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Cookie": "CP_IsMobile=false; ASP.NET_SessionId=l4gcmcpok31n2cupflkzvg2a"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://washingtoncounty.iowa.gov/DocumentCenter/View/2094",
+      "headers": {
+        "Cache-Control": "private, s-maxage=600,no-transform",
+        "Content-Type": "text/html; charset=utf-8",
+        "Location": "/DocumentCenter/View/2094/Map-of-Voting-Precincts-Final?bidId=",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "Set-Cookie": "CP_IsMobile=false; path=/; secure, CP_IsMobile=false; path=/; secure, ASP.NET_SessionId=l4gcmcpok31n2cupflkzvg2a; path=/; secure; HttpOnly; SameSite=None",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Permissions-Policy": "camera=(), microphone=()",
+        "Content-Security-Policy": "frame-ancestors 'self' https://*.granicus.com https://*.civicplus.com; img-src * data: blob:; worker-src * data: blob: 'unsafe-eval' 'unsafe-inline'; script-src * about: 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline'; media-src * blob:; font-src * data:; default-src *",
+        "Date": "Sun, 18 Oct 2026 04:28:26 GMT",
+        "Content-Length": "179"
+      }
+    }
+  ],
+  "entity_bytes": 333609,
+  "entity_sha256": "5b0c02a8786a184f1bb8babd1707a09e5ee167b19002d91a38305162c65815c0",
+  "transport_decoding": "requests HTTP content decoding; no other modification",
+  "path": "raw/local-19183-map-page-1.pdf",
+  "stored_encoding": "identity",
+  "stored_bytes": 333609,
+  "stored_sha256": "5b0c02a8786a184f1bb8babd1707a09e5ee167b19002d91a38305162c65815c0"
+}

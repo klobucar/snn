@@ -1,0 +1,295 @@
+{
+  "county": "Henry",
+  "county_fips": "19087",
+  "rank_2024": 41,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Henry",
+    "county_fips": "19087",
+    "rank_2024": 41,
+    "priority": true,
+    "anchor": "HenryCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#HenryCountyAuditor",
+    "auditor_url": "https://www.henrycountyiowa.us",
+    "phone": "319-385-0756",
+    "directory_source_id": "sos-auditors",
+    "source_position": 44
+  },
+  "current_key_publication": {
+    "source_id": "county-19087-linked1",
+    "url": "https://henrycounty.iowa.gov/election/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:24:51.280678+00:00",
+    "original_sha256": "258cbff095a1015587dcfa683eee109c8725386086ef07c73cd84b1118c436fa"
+  },
+  "finding": "The SOS-listed .us home redirects to henrycounty.iowa.gov. Its actual election page links the2026 general notice, ballot and calendar through GMD, and a Clarity routeEID126126 which is the June primary. GMD viewers returned200 but the observed actual file URLs returned403/zero bodies. Henry is the exact41st research-priority county, contributing9600 baseline marks.",
+  "gap": "No current November payload or acquired GMD general document. The priority crossing has no bearing on source approval or remaining votes.",
+  "tested_routes": [
+    {
+      "source_id": "county-19087-seed",
+      "url": "https://www.henrycountyiowa.us",
+      "parent_url": "https://sos.iowa.gov/auditors#HenryCountyAuditor",
+      "final_url": "https://henrycounty.iowa.gov",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19087-seed.json",
+      "source_identity_inventory_key": "county-19087-seed"
+    },
+    {
+      "source_id": "county-19087-linked1",
+      "url": "https://henrycounty.iowa.gov/election/",
+      "parent_url": "https://henrycounty.iowa.gov",
+      "final_url": "https://henrycounty.iowa.gov/election/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19087-linked1.json",
+      "source_identity_inventory_key": "county-19087-linked1"
+    },
+    {
+      "source_id": "county-19087-linked2",
+      "url": "https://electionresults.iowa.gov/IA/Henry/126126/web.345435/",
+      "parent_url": "https://henrycounty.iowa.gov",
+      "final_url": "https://electionresults.iowa.gov/IA/Henry/126126/web.345435/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19087-linked2.json",
+      "source_identity_inventory_key": "county-19087-linked2"
+    },
+    {
+      "source_id": "county-19087-linked3",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=B3741CD4B05F4C2996E797733DE430E2&dir=Objects",
+      "parent_url": "https://henrycounty.iowa.gov",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/a2113706-3cf3-4f4a-8af6-d586f4dc408a/B3741CD4B05F4C2996E797733DE430E2",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19087-linked3.json",
+      "source_identity_inventory_key": "county-19087-linked3"
+    },
+    {
+      "source_id": "county-19087-linked4",
+      "url": "https://henrycounty.iowa.gov",
+      "parent_url": "https://henrycounty.iowa.gov",
+      "final_url": "https://henrycounty.iowa.gov/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19087-linked4.json",
+      "source_identity_inventory_key": "county-19087-linked4"
+    },
+    {
+      "source_id": "county-19087-linked5",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=4F05B4DEE3C748FD96DB87C1F3EE6E&dir=Objects",
+      "parent_url": "https://henrycounty.iowa.gov/election/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/919dabd9-abbc-475a-b66a-bf8b8838f8b9/4F05B4DEE3C748FD96DB87C1F3EE6E",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19087-linked5.json",
+      "source_identity_inventory_key": "county-19087-linked5"
+    },
+    {
+      "source_id": "county-19087-linked6",
+      "url": "https://henrycounty.iowa.gov/",
+      "parent_url": "https://henrycounty.iowa.gov/",
+      "final_url": "https://henrycounty.iowa.gov/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19087-linked6.json",
+      "source_identity_inventory_key": "county-19087-linked6"
+    },
+    {
+      "source_id": "county-19087-linked7",
+      "url": "https://hhs.iowa.gov/programs/vital-records/how-request-certified-record",
+      "parent_url": "https://henrycounty.iowa.gov",
+      "final_url": "https://hhs.iowa.gov/family-community/vital-records/how-request-certified-record",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19087-linked7.json",
+      "source_identity_inventory_key": "county-19087-linked7"
+    },
+    {
+      "source_id": "county-19087-linked8",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=58CC9BF357494FD2B2B91C512294B2D4&dir=Objects",
+      "parent_url": "https://henrycounty.iowa.gov/election/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/741973d2-2c3a-49b7-a6c4-9e74e4220d80/58CC9BF357494FD2B2B91C512294B2D4",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19087-linked8.json",
+      "source_identity_inventory_key": "county-19087-linked8"
+    },
+    {
+      "source_id": "county-19087-linked9",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=03B82594C8834044BF00BBD662791449&dir=Objects",
+      "parent_url": "https://henrycounty.iowa.gov/election/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/e8be9aeb-fc51-45e4-8454-6fb5c8d4ebaa/03B82594C8834044BF00BBD662791449",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19087-linked9.json",
+      "source_identity_inventory_key": "county-19087-linked9"
+    },
+    {
+      "source_id": "county-19087-linked10",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=D57213D0E671459388EAB115936C2525&dir=Objects",
+      "parent_url": "https://henrycounty.iowa.gov/election/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/4ef14989-eebb-404e-8418-0fd57cf4adad/D57213D0E671459388EAB115936C2525",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19087-linked10.json",
+      "source_identity_inventory_key": "county-19087-linked10"
+    },
+    {
+      "source_id": "county-19087-linked11",
+      "url": "https://sos.iowa.gov/elections/maps/index.html",
+      "parent_url": "https://henrycounty.iowa.gov",
+      "final_url": "https://sos.iowa.gov/research-and-data",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19087-linked11.json",
+      "source_identity_inventory_key": "county-19087-linked11"
+    },
+    {
+      "source_id": "county-19087-linked12",
+      "url": "https://sos.iowa.gov/elections/voterinformation/restorerights.html",
+      "parent_url": "https://henrycounty.iowa.gov/election/",
+      "final_url": "https://restoreyourvote.iowa.gov/",
+      "status": 403,
+      "error": null,
+      "view_path": "extracts/county-19087-linked12.json",
+      "source_identity_inventory_key": "county-19087-linked12"
+    },
+    {
+      "source_id": "county-19087-linked3-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/a2113706-3cf3-4f4a-8af6-d586f4dc408a/B3741CD4B05F4C2996E797733DE430E2",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/a2113706-3cf3-4f4a-8af6-d586f4dc408a/B3741CD4B05F4C2996E797733DE430E2",
+      "final_url": "https://cap.gmdsolutions.com/api/files/a2113706-3cf3-4f4a-8af6-d586f4dc408a/B3741CD4B05F4C2996E797733DE430E2",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19087-linked3-payload"
+    },
+    {
+      "source_id": "county-19087-linked5-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/919dabd9-abbc-475a-b66a-bf8b8838f8b9/4F05B4DEE3C748FD96DB87C1F3EE6E",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/919dabd9-abbc-475a-b66a-bf8b8838f8b9/4F05B4DEE3C748FD96DB87C1F3EE6E",
+      "final_url": "https://cap.gmdsolutions.com/api/files/919dabd9-abbc-475a-b66a-bf8b8838f8b9/4F05B4DEE3C748FD96DB87C1F3EE6E",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19087-linked5-payload"
+    },
+    {
+      "source_id": "county-19087-linked8-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/741973d2-2c3a-49b7-a6c4-9e74e4220d80/58CC9BF357494FD2B2B91C512294B2D4",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/741973d2-2c3a-49b7-a6c4-9e74e4220d80/58CC9BF357494FD2B2B91C512294B2D4",
+      "final_url": "https://cap.gmdsolutions.com/api/files/741973d2-2c3a-49b7-a6c4-9e74e4220d80/58CC9BF357494FD2B2B91C512294B2D4",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19087-linked8-payload"
+    },
+    {
+      "source_id": "county-19087-linked9-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/e8be9aeb-fc51-45e4-8454-6fb5c8d4ebaa/03B82594C8834044BF00BBD662791449",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/e8be9aeb-fc51-45e4-8454-6fb5c8d4ebaa/03B82594C8834044BF00BBD662791449",
+      "final_url": "https://cap.gmdsolutions.com/api/files/e8be9aeb-fc51-45e4-8454-6fb5c8d4ebaa/03B82594C8834044BF00BBD662791449",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19087-linked9-payload"
+    },
+    {
+      "source_id": "county-19087-linked10-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/4ef14989-eebb-404e-8418-0fd57cf4adad/D57213D0E671459388EAB115936C2525",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/4ef14989-eebb-404e-8418-0fd57cf4adad/D57213D0E671459388EAB115936C2525",
+      "final_url": "https://cap.gmdsolutions.com/api/files/4ef14989-eebb-404e-8418-0fd57cf4adad/D57213D0E671459388EAB115936C2525",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19087-linked10-payload"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Henry",
+    "county_fips": "19087",
+    "native_election_id": "122366",
+    "native_version": "355758",
+    "native_contest_key": "190",
+    "xml_clock": "11/25/2024 12:02:41 PM CST",
+    "roster_clock": "11/25/2024 12:22:25 PM CST",
+    "xml_member_sha256": "e0d4322e4a9a9c8e53365925e4822ad760a2cc4413000b6b942da4330ec880c6",
+    "xml_member_bytes": 125854,
+    "candidate_units": 9,
+    "root_turnout_units": 9,
+    "status_units": 9,
+    "candidate_method_cells": 144,
+    "candidate_generic_votes": 9600,
+    "root_turnout_attributes": {
+      "totalVoters": "13551",
+      "ballotsCast": "9673",
+      "voterTurnout": "71.38"
+    },
+    "root_turnout_ballot_sum": 9673,
+    "root_turnout_registration_sum": 13404,
+    "status_ballot_sum": 9673,
+    "status_codes": {
+      "4": 9
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "125",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "126",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "127",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "128",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "129",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "130",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "131",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "0",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19087"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19087",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19087-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#HenryCountyAuditor",
+    "publication_url": "https://henrycounty.iowa.gov/election/",
+    "telephone_from_directory": "319-385-0756",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

@@ -1,0 +1,55 @@
+{
+  "source_id": "polk-all-precincts-dsm-wdm",
+  "requested_url": "https://www.polkcountyiowa.gov/media/4fobodot/all-precincts-dsm-wdm.zip",
+  "parent_authority_url": "https://www.polkcountyiowa.gov/county-auditor/election/election-maps/",
+  "kind": "county-authority",
+  "retrieval_utc": "2026-10-18T04:28:38.782682+00:00",
+  "county": "Polk",
+  "link_label": "All precincts Des Moines & West Des Moines",
+  "final_url": "https://www.polkcountyiowa.gov/media/4fobodot/all-precincts-dsm-wdm.zip",
+  "status": 200,
+  "reason": "OK",
+  "headers": {
+    "Content-Length": "72599152",
+    "Content-Type": "application/x-zip-compressed",
+    "Last-Modified": "Tue, 28 Jul 2026 16:15:05 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"1dd1eac444c4cf0\"",
+    "Content-Security-Policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval' https:; img-src 'self' https: data: blob:; font-src 'self' https: data: ; object-src 'none' ; worker-src 'self' https: blob: ; media-src 'self' https: blob:",
+    "X-Content-Type-Options": "NOSNIFF",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Permitted-Cross-Domain-Policies": "master-only",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "max-age=0",
+    "Date": "Sun, 18 Oct 2026 04:28:38 GMT",
+    "Connection": "keep-alive",
+    "Server-Timing": "cdn-cache; desc=MISS, edge; dur=30, origin; dur=55, ak_p; desc=\"1792297718882_3088984477_131521835_8520_7903_8_20_-\";dur=1",
+    "Alt-Svc": "h3=\":443\"; ma=93600",
+    "Strict-Transport-Security": "max-age=31536000"
+  },
+  "request_headers": {
+    "User-Agent": "Iowa-public-map-research/1.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive"
+  },
+  "redirects": [],
+  "entity_bytes": 72599152,
+  "entity_sha256": "540136dbd339859daaee99a3962bf94586e2f8669e37b5bacad003a6d47eb96f",
+  "transport_decoding": "requests HTTP content decoding; no other modification",
+  "parts": [
+    {
+      "path": "raw/polk-all-precincts-dsm-wdm.zip.part000",
+      "bytes": 39000000,
+      "sha256": "4d68134134c54aa7486b2a5ec62c3bdf96525b779da57de06ca15534b6ca63db"
+    },
+    {
+      "path": "raw/polk-all-precincts-dsm-wdm.zip.part001",
+      "bytes": 33599152,
+      "sha256": "82ff62d44ee8f7901b2684ce01584306d11aa654dfd35dea3c6db864dc77b636"
+    }
+  ],
+  "stored_encoding": "ordered byte concatenation; identity",
+  "stored_sha256": "540136dbd339859daaee99a3962bf94586e2f8669e37b5bacad003a6d47eb96f",
+  "stored_bytes": 72599152
+}

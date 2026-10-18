@@ -1,0 +1,219 @@
+{
+  "source_id": "sos-city-current-ida-grove-precinct-boundaries",
+  "source_path": "raw/sos-city-current-ida-grove-precinct-boundaries.zip",
+  "source_sha256": "ad5173d129a9447aa8db3bca878d5ffd84010b6dad56d551f384ba866d05dcf1",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "City_of_Ida_Grove_-_Precinct_Map.shp",
+      "bytes": 5052,
+      "compressed_bytes": 2916,
+      "crc32": "4b55cf51",
+      "sha256": "9e9cf4b6d8f76891e6c8b44e9edb4fb3dd0245e035f8912dfe46cad2167d6559"
+    },
+    {
+      "name": "City_of_Ida_Grove_-_Precinct_Map.shx",
+      "bytes": 124,
+      "compressed_bytes": 72,
+      "crc32": "0e023091",
+      "sha256": "a7e62cabb170032186c20e3bbd3e97750384cf6f377f77d9ab37e722bee4be81"
+    },
+    {
+      "name": "City_of_Ida_Grove_-_Precinct_Map.dbf",
+      "bytes": 682,
+      "compressed_bytes": 187,
+      "crc32": "cc6adb72",
+      "sha256": "e79dcf1c5e57cf73d5b680fe1bd17bddfc6f3a68ec24171bec5f7a1393944efe"
+    },
+    {
+      "name": "City_of_Ida_Grove_-_Precinct_Map.prj",
+      "bytes": 145,
+      "compressed_bytes": 121,
+      "crc32": "af437f55",
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-ida-grove-precinct-boundaries--1",
+      "shp_member": "City_of_Ida_Grove_-_Precinct_Map.shp",
+      "dbf_fields": [
+        [
+          "LONGNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "SHORTNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "DISTRICT",
+          "N",
+          5,
+          0
+        ],
+        [
+          "COLOR",
+          "N",
+          10,
+          0
+        ],
+        [
+          "TOTAL",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "N",
+          18,
+          0
+        ]
+      ],
+      "dbf_encoding": "utf-8",
+      "cpg_present": false,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 3,
+      "shp_record_header_numbers": [
+        1,
+        2,
+        3
+      ],
+      "dbf_declared_records": 3,
+      "shx_records": 3,
+      "parsed_records": 3,
+      "vertices": 299,
+      "parts": 3,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -95.49789603123685,
+        42.326908447369746,
+        -95.45511001904033,
+        42.35601245118999
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 92,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.00012251051134626323
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 1",
+            "SHORTNAME": "P1",
+            "DISTRICT": 1
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 70,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.00015043898088151764
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 2",
+            "SHORTNAME": "P2",
+            "DISTRICT": 2
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 3,
+          "vertices": 137,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0003505393829073
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 3",
+            "SHORTNAME": "P3",
+            "DISTRICT": 3
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-ida-grove-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-ida-grove-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          41103.98960221774,
+          2147595.1376978136,
+          44609.92119851709,
+          2150845.4367096
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

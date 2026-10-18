@@ -1,0 +1,195 @@
+{
+  "source_id": "sos-city-current-de-witt-precinct-boundaries",
+  "source_path": "raw/sos-city-current-de-witt-precinct-boundaries.zip",
+  "source_sha256": "691bd8ba566a93fd59813412e3480cc1abb7c9fc4fea3805503190d56085cd64",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "DeWitt_3.shp",
+      "bytes": 10852,
+      "compressed_bytes": 6711,
+      "crc32": "7d11fe4c",
+      "sha256": "cfd292f90753853f6135a42d37afe65823c6309472d02cb1ddd57d893fd274d2"
+    },
+    {
+      "name": "DeWitt_3.shx",
+      "bytes": 116,
+      "compressed_bytes": 64,
+      "crc32": "cf9f6394",
+      "sha256": "5dc9484ef7b47c219f85266ff8880c4f626081cda4743f3d7b4d4cc535c7de91"
+    },
+    {
+      "name": "DeWitt_3.dbf",
+      "bytes": 530,
+      "compressed_bytes": 153,
+      "crc32": "5c85855e",
+      "sha256": "db9d6cedc1fdf6f62c9ee82903079f9db93a57b0deea86c532cbd67279114b79"
+    },
+    {
+      "name": "DeWitt_3.prj",
+      "bytes": 145,
+      "compressed_bytes": 121,
+      "crc32": "af437f55",
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-de-witt-precinct-boundaries--1",
+      "shp_member": "DeWitt_3.shp",
+      "dbf_fields": [
+        [
+          "LONGNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "SHORTNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "DISTRICT",
+          "N",
+          5,
+          0
+        ],
+        [
+          "COLOR",
+          "N",
+          10,
+          0
+        ],
+        [
+          "TOTAL",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "N",
+          18,
+          0
+        ]
+      ],
+      "dbf_encoding": "utf-8",
+      "cpg_present": false,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 2,
+      "shp_record_header_numbers": [
+        1,
+        2
+      ],
+      "dbf_declared_records": 2,
+      "shx_records": 2,
+      "parsed_records": 2,
+      "vertices": 665,
+      "parts": 2,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -90.58762160331072,
+        41.80033867175066,
+        -90.51003957995076,
+        41.85106868096671
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 238,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0007410577998143708
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "1st Ward",
+            "SHORTNAME": "W1",
+            "DISTRICT": 1
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 427,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0010062379085411521
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "2nd Ward",
+            "SHORTNAME": "W2",
+            "DISTRICT": 2
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-de-witt-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-de-witt-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          446123.26898431295,
+          2101379.9578371914,
+          452629.17305179226,
+          2107114.6770958765
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

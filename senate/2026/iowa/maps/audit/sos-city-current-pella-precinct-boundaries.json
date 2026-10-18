@@ -1,0 +1,268 @@
+{
+  "source_id": "sos-city-current-pella-precinct-boundaries",
+  "source_path": "raw/sos-city-current-pella-precinct-boundaries.zip",
+  "source_sha256": "3867dc67c8bd84353e8b4a946e8b639b4deb51186474c07a4e78d40a97f053dd",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "Pella_Precinct_Final.shp",
+      "bytes": 45568,
+      "compressed_bytes": 25808,
+      "crc32": "af1074fa",
+      "sha256": "22a8c0083332e1cbeb8c76bc755b37d52f80c1db39d1a0d8fc324f973d20e798"
+    },
+    {
+      "name": "Pella_Precinct_Final.shx",
+      "bytes": 140,
+      "compressed_bytes": 84,
+      "crc32": "6859fb11",
+      "sha256": "be6a5f01cce5da120628c6ad223b7f42dd3bd49abe6f62846e2eac245b6ad3e5"
+    },
+    {
+      "name": "Pella_Precinct_Final.dbf",
+      "bytes": 986,
+      "compressed_bytes": 250,
+      "crc32": "d740b399",
+      "sha256": "1fb825993d59a8217f7dcb62f5f610ef782190e8abdb05171f27ee5c76cb33b5"
+    },
+    {
+      "name": "Pella_Precinct_Final.prj",
+      "bytes": 145,
+      "compressed_bytes": 121,
+      "crc32": "af437f55",
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-pella-precinct-boundaries--1",
+      "shp_member": "Pella_Precinct_Final.shp",
+      "dbf_fields": [
+        [
+          "LONGNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "SHORTNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "DISTRICT",
+          "N",
+          5,
+          0
+        ],
+        [
+          "COLOR",
+          "N",
+          10,
+          0
+        ],
+        [
+          "TOTAL",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "N",
+          18,
+          0
+        ]
+      ],
+      "dbf_encoding": "utf-8",
+      "cpg_present": false,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 5,
+      "shp_record_header_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "dbf_declared_records": 5,
+      "shx_records": 5,
+      "parsed_records": 5,
+      "vertices": 2824,
+      "parts": 6,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -93.32862134042176,
+        41.1606664000382,
+        -92.86977817577663,
+        41.5085294846376
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 1728,
+          "parts": 2,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.1553462826334453,
+            -6.34953289591067e-06
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 2,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Unassigned",
+            "SHORTNAME": "Unassigned",
+            "DISTRICT": 0
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "MultiPolygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 257,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.001434881876775762
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 1",
+            "SHORTNAME": "P1",
+            "DISTRICT": 1
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 3,
+          "vertices": 157,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0002885700473598263
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 2",
+            "SHORTNAME": "P2",
+            "DISTRICT": 2
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 4,
+          "vertices": 367,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0010686646121484955
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 3",
+            "SHORTNAME": "P3",
+            "DISTRICT": 3
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 5,
+          "vertices": 315,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0007946375180836185
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 4",
+            "SHORTNAME": "P4",
+            "DISTRICT": 4
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-pella-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-pella-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          221283.17271195792,
+          2020107.5417212853,
+          260556.93552442826,
+          2060186.142832978
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

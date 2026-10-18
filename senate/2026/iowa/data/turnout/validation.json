@@ -1,0 +1,331 @@
+{
+  "sources": {
+    "count": 534,
+    "all_hashes_and_sizes_verified": true,
+    "http_status_counts": {
+      "200": 529,
+      "403": 4,
+      "404": 1
+    },
+    "fresh_reused_request_payloads_verified": 8
+  },
+  "pdf_text_derivatives": {
+    "fresh_primary_extractions_verified": 17,
+    "all_exact": true
+  },
+  "county_controls": {
+    "counties_per_election": 99,
+    "county_contests": 297,
+    "numeric_county_columns": 2475,
+    "county_method_candidate_numeric_cells": 7425,
+    "published_state_cells": 59,
+    "all_county_candidate_column_sums_and_method_balances_exact": true
+  },
+  "priority": {
+    "denominator": 1663506,
+    "top15_votes": 991869,
+    "minimum_count": 41,
+    "preceding_count": 40,
+    "preceding_votes": 1322507,
+    "votes": 1332107,
+    "crossing_county": "Henry",
+    "crossing_county_fips": "19087",
+    "crossing_contribution": 9600,
+    "integer_inequality": "6612535 < 6654024 <= 6660535"
+  },
+  "native_candidate_scope": {
+    "unit_rows": 3512,
+    "candidate_metric_cells": 42728,
+    "constituents_by_year": {
+      "2022": 1653,
+      "2020": 1661
+    },
+    "administrative_total_rows": {
+      "2022": 99,
+      "2020": 99
+    },
+    "missing_vote_cells": 0,
+    "unique_source_cell_keys": true,
+    "unique_unit_keys": true,
+    "per_unit_method_imbalances": 0,
+    "available_county_candidate_method_comparisons": 2385,
+    "source_differences": 0,
+    "unavailable_metric_comparisons": 1773,
+    "source_differences_retained": []
+  },
+  "statistics": {
+    "rows": 327516,
+    "native_label_counts": {
+      "2024": 1658,
+      "2022": 1651,
+      "2020": 1681
+    },
+    "unit_age_metric_comparisons": 7128,
+    "unit_control_status": {
+      "exact": 7128
+    },
+    "age_row_imbalances": 1,
+    "unit_keys_unique": true,
+    "county_coverage_by_year": {
+      "2024": 99,
+      "2022": 99,
+      "2020": 99
+    },
+    "state_reconciliation_total_columns": [
+      {
+        "year": "2024",
+        "metric": "REGISTERED",
+        "age_scope": "total",
+        "precinct_county_coverage": 99,
+        "precinct_county_grand_total_sum": 2133615,
+        "county_report_coverage": 99,
+        "county_report_county_total_sum": 2178596,
+        "county_report_state_footer": 2178596,
+        "state_report_footer": 2142338,
+        "county_report_own_footer_difference": 0,
+        "precinct_sum_minus_state_report": -8723
+      },
+      {
+        "year": "2024",
+        "metric": "TOTAL VOTED",
+        "age_scope": "total",
+        "precinct_county_coverage": 99,
+        "precinct_county_grand_total_sum": 1668812,
+        "county_report_coverage": 99,
+        "county_report_county_total_sum": 1668806,
+        "county_report_state_footer": 1668806,
+        "state_report_footer": 1668751,
+        "county_report_own_footer_difference": 0,
+        "precinct_sum_minus_state_report": 61
+      },
+      {
+        "year": "2024",
+        "metric": "ABSENTEE",
+        "age_scope": "total",
+        "precinct_county_coverage": 99,
+        "precinct_county_grand_total_sum": 678348,
+        "county_report_coverage": 99,
+        "county_report_county_total_sum": 678381,
+        "county_report_state_footer": 678381,
+        "state_report_footer": 678352,
+        "county_report_own_footer_difference": 0,
+        "precinct_sum_minus_state_report": -4
+      },
+      {
+        "year": "2022",
+        "metric": "REGISTERED",
+        "age_scope": "total",
+        "precinct_county_coverage": 99,
+        "precinct_county_grand_total_sum": 2247663,
+        "county_report_coverage": 99,
+        "county_report_county_total_sum": 2247613,
+        "county_report_state_footer": 2247613,
+        "state_report_footer": 2247606,
+        "county_report_own_footer_difference": 0,
+        "precinct_sum_minus_state_report": 57
+      },
+      {
+        "year": "2022",
+        "metric": "TOTAL VOTED",
+        "age_scope": "total",
+        "precinct_county_coverage": 99,
+        "precinct_county_grand_total_sum": 1228633,
+        "county_report_coverage": 99,
+        "county_report_county_total_sum": 1228598,
+        "county_report_state_footer": 1228598,
+        "state_report_footer": 1228597,
+        "county_report_own_footer_difference": 0,
+        "precinct_sum_minus_state_report": 36
+      },
+      {
+        "year": "2022",
+        "metric": "ABSENTEE",
+        "age_scope": "total",
+        "precinct_county_coverage": 99,
+        "precinct_county_grand_total_sum": 369043,
+        "county_report_coverage": 99,
+        "county_report_county_total_sum": 369041,
+        "county_report_state_footer": 369041,
+        "state_report_footer": 369041,
+        "county_report_own_footer_difference": 0,
+        "precinct_sum_minus_state_report": 2
+      },
+      {
+        "year": "2020",
+        "metric": "REGISTERED",
+        "age_scope": "total",
+        "precinct_county_coverage": 99,
+        "precinct_county_grand_total_sum": 2266930,
+        "county_report_coverage": 97,
+        "county_report_county_total_sum": 2119708,
+        "county_report_state_footer": 2119708,
+        "state_report_footer": 2203254,
+        "county_report_own_footer_difference": 0,
+        "precinct_sum_minus_state_report": 63676
+      },
+      {
+        "year": "2020",
+        "metric": "TOTAL VOTED",
+        "age_scope": "total",
+        "precinct_county_coverage": 99,
+        "precinct_county_grand_total_sum": 1693735,
+        "county_report_coverage": 97,
+        "county_report_county_total_sum": 1631542,
+        "county_report_state_footer": 1631542,
+        "state_report_footer": 1692415,
+        "county_report_own_footer_difference": 0,
+        "precinct_sum_minus_state_report": 1320
+      },
+      {
+        "year": "2020",
+        "metric": "ABSENTEE",
+        "age_scope": "total",
+        "precinct_county_coverage": 99,
+        "precinct_county_grand_total_sum": 997121,
+        "county_report_coverage": 97,
+        "county_report_county_total_sum": 959587,
+        "county_report_state_footer": 959587,
+        "state_report_footer": 996225,
+        "county_report_own_footer_difference": 0,
+        "precinct_sum_minus_state_report": 896
+      }
+    ]
+  },
+  "cass_summary": {
+    "candidate_columns_and_under_over_total_match_state_canvass": true,
+    "source_status": "Unofficial Final Results",
+    "source_clock": "11/12/2024 1:04:10 PM CST",
+    "method_header_not_used_as_method_scope": true
+  },
+  "peer": {
+    "status": "pass",
+    "rows_compared": 7484,
+    "county_numeric_cells": 7425,
+    "state_numeric_cells": 59,
+    "county_order_rows": 99,
+    "explicit_aliases": {
+      "state_FIPS": "Turnout state code19 maps to peer blank only for original statewide footer rows",
+      "candidate_label": "Peer name + comma + printed party header compared to turnout full label"
+    },
+    "differences": [],
+    "peer_inputs": [
+      {
+        "path": "../baselines/canvass-candidate-method.csv",
+        "sha256": "4e392aa2653a8abf8d2cf802f7fece0302fdaf08a2ceecbb49ea2efaf8a32e0a",
+        "bytes": 1835577
+      },
+      {
+        "path": "../baselines/priority-order.csv",
+        "sha256": "0625b7fdbc27cdc5e8249173a7ae6833ad4e408ccbb00c46a4ff644f4c5876d9",
+        "bytes": 3691
+      },
+      {
+        "path": "../baselines/priority.json",
+        "sha256": "d4a052ea9e53ff46598e511aaaee11453b15c9ab98bc2b7f2c40af083f9b46f1",
+        "bytes": 2554
+      },
+      {
+        "path": "../baselines/state-controls.csv",
+        "sha256": "3fe73e0b2aeccbdc6b7ab5a04484c44076bb530ff867aa2d037cc6eb0b8a607b",
+        "bytes": 6501
+      },
+      {
+        "path": "../baselines/county-contests.csv",
+        "sha256": "561f3bc81aac45cf6abf576730b967643e60828ba4c9d063caf25be836d86089",
+        "bytes": 73102
+      }
+    ]
+  },
+  "full_peer_source_fields": {
+    "status": "pass",
+    "path": "full-peer-reconciliation.json",
+    "groups": {
+      "legacy_candidate_method": {
+        "rows": 42728,
+        "status": "pass"
+      },
+      "legacy_unit_rows": {
+        "rows": 3512,
+        "status": "pass"
+      },
+      "legacy_registration_ballots": {
+        "rows": 12694,
+        "status": "pass"
+      },
+      "legacy_candidate_sheet_context": {
+        "rows": 6896,
+        "status": "pass"
+      },
+      "clarity-2024-native-candidate-method": {
+        "rows": 26448,
+        "status": "pass"
+      },
+      "clarity-2024-county-candidate-method": {
+        "rows": 2376,
+        "status": "pass"
+      },
+      "clarity-2024-native-units": {
+        "rows": 3304,
+        "status": "pass"
+      },
+      "clarity-2024-registration-ballots": {
+        "rows": 1750,
+        "status": "pass"
+      },
+      "clarity-2024-status-units": {
+        "rows": 1653,
+        "status": "pass"
+      }
+    }
+  },
+  "clarity_2024": {
+    "status": "counts_pass_with_retained_context_and_party_scope_differences",
+    "counties": 99,
+    "candidate_units": 1653,
+    "turnout_units": 1651,
+    "status_units": 1653,
+    "candidate_method_cells": 26448,
+    "county_candidate_method_controls": 2376,
+    "all_unit_and_county_candidate_sums_exact": true,
+    "state_XML_county_candidate_method_cells": 1584,
+    "state_JSON_all_candidates_exact": true,
+    "state_reporting_attributes": {
+      "key": "1000",
+      "text": "President and Vice President",
+      "voteFor": "1",
+      "isQuestion": "false",
+      "countiesParticipating": "99",
+      "countiesReported": "99",
+      "precinctsParticipating": "1653",
+      "precinctsReported": "1653",
+      "precinctsReportingPercent": "100.00"
+    },
+    "county_XML_party_label_differences": 42,
+    "party_difference_counties": 14,
+    "under_over_finer_unit_scope": "not present in downloaded candidate XML; never inferred from residual",
+    "source_status": "historical tabulation-system snapshot, counts validated to state canvass; completeness flags are not current November approval or votes-counted probabilities"
+  },
+  "peer_native_reverse_audit": {
+    "path": "../baselines/peer-reconciliation.json",
+    "sha256": "81fb3a7750c25b803e30a07856841ff0062e0f872fb93c02189e9ad9da37fb60",
+    "status": "pass",
+    "scope": "independently extracted raw originals compared read-only; no cross-year/2026 crosswalk approval"
+  },
+  "artifacts": {
+    "count": 625,
+    "max_stored_bytes": 11982850,
+    "all_strictly_below_40000000": true,
+    "local_links_valid": true
+  },
+  "checked_utc": "2026-10-18T04:24:59.391326+00:00",
+  "status": "completed_with_retained_discrepancies",
+  "gaps": [
+    "2024 actual app initial403 recovered via later200; both observations retained",
+    "generic write-in scope is not named-valid allocation",
+    "2024 Lucas turnoutXML omits2 candidate/statusunits; ballots gap1943 retained, not allocated",
+    "2024 county XML partylabels differ from state for Stodden in14counties; all numericvotesmatch",
+    "2024 93county registration unit sums differ from county controls; literalzero contexts not treated as meaningful registry completeness",
+    "report/source statistical snapshots differ from canvass/turnout scopes;2020state agebin+2 retained",
+    "no approved2026 physical/reporting/polling-place/cross-year crosswalk"
+  ]
+}

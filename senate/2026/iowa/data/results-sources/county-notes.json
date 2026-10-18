@@ -1,0 +1,207 @@
+{
+  "Polk": {
+    "source": "county-19153-linked2",
+    "finding": "The auditor has a dedicated November 3 voter-information publication. Its historical-results page links the June 2026 statewide Clarity app, not a November result. The recovered June app is EID126082/version377216; do not carry its Senate primary choice IDs into the general election.",
+    "gap": "No November Senate count payload, upload specification, publication cadence or outstanding-vote estimate observed."
+  },
+  "Linn": {
+    "source": "county-19113-observed0",
+    "finding": "The SOS-listed auditor route and Election Services route returned403. The official Election Services page was readable through the web retrieval tool and linked an actual GIS-hosted October7 candidate-list PDF, recovered200. It names Hinson, Laehn and Turek with literal Republican Party, Libertarian Party and Democratic Party labels. The address lookup shell also returned200, while its linked elections home returned403.",
+    "gap": "Current candidate publication recovered; no November results payload recovered through the tested routes. Web-rendered observations are separately labeled and are not represented as original HTTP entities."
+  },
+  "Scott": {
+    "source": "county-19163-specific0",
+    "finding": "The county auditor's November announcement links the separate official elections subdomain and the event titled 2026 Gubernatorial General Election. The title describes a general election containing Senate, not a gubernatorial-only count. County posts give7am–8pm November3 hours. The event has its own precinct/style publication context.",
+    "gap": "Current event publication exists; November Senate choice IDs, method totals and release-completion definitions remain unobserved."
+  },
+  "Johnson": {
+    "source": "county-19103-linked1",
+    "finding": "A dedicated November3 general-election page links the GIS polling-place/sample-ballot lookup and the separate polling-places list. Those are voter geography and ballot-style publications. The retained historical candidate/reporting and turnout rosters remain separate from the current lookup.",
+    "gap": "No demonstrated current results feed, approved reporting-unit crosswalk, batch-completion rule or remaining-vote count."
+  },
+  "Dallas": {
+    "source": "county-19049-linked5",
+    "finding": "The county Elections Office links its local electionresults.dallascountyiowa.gov home. The recovered listing mixes downloadable recent special-election PDFs and separate results-detail pages. The county sample-ballot page is current2026 despite one native route ending Sample-Ballots-None-Active. Route wording alone is unreliable.",
+    "gap": "The tested local results listing does not establish November Senate payload IDs, export schema or upload cadence."
+  },
+  "Black Hawk": {
+    "source": "county-19013-review2",
+    "finding": "The SOS directory uses a literal Outlook SafeLinks URL that redirects to the county root. Its October13 current election announcement links blackhawkcountyelections.iowa.gov; the November event and September1 candidate list are actual recovered publications. Primary result links are separate summary and precinct PDFs, with internal status controlling over link text.",
+    "gap": "No current November count/upload schema. The county's new supervisor-district election context does not by itself change or approve Senate reporting precincts."
+  },
+  "Dubuque": {
+    "source": "county-19061-item-election-results",
+    "finding": "The old /468/Elections route redirects to the official ArcGIS Hub. Shell HTML embeds __SITE and thirteen exact page IDs; documented public item-data requests recover the actual results, upcoming-election and sample-ballot page JSON. The results page says midday turnout and unofficial results will appear when available. Commented historical LiveVoterTurnout and2024 links remain in the raw site data and are not promoted to current live links.",
+    "gap": "No November result file/vendor election ID observed. Sample-ballot item data retains both an unapproved-next-ballot message and a lookup description; visibility and approval require review of the actual current app, not text/name matching."
+  },
+  "Story": {
+    "source": "county-19169-linked10",
+    "finding": "The September18 county alert leads to a dedicated November3 general-election information page. The separate2026 results archive lists earlier2026 events, including the Kelley special election and June primary. The archive and current voter-information page have different purposes and clocks.",
+    "gap": "No November Senate file or exact outstanding-ballot estimate in the tested current publications."
+  },
+  "Pottawattamie": {
+    "source": "county-19155-linked5",
+    "finding": "The SOS-listed elections subdomain redirects into the county auditor site. Its November3 event, sample-ballot listing and election-results archive were separately fetched. The county archive also links statewide results, so these are overlapping official channels, not independent counts to add together.",
+    "gap": "Current ballot/event pages recovered; no demonstrated November method split, native Senate choice IDs or release cadence."
+  },
+  "Woodbury": {
+    "source": "county-19193-linked7",
+    "finding": "The official county root links elections.woodburycountyiowa.gov. The actual November3 event and October satellite-voting notice were recovered, together with individual sample PDFs. Sample-ballot styles and places are not a complete reporting-unit schema.",
+    "gap": "No current Senate result payload or reliable method-completion/remaining-vote field observed."
+  },
+  "Warren": {
+    "source": "county-19181-target-view-election-information",
+    "finding": "The auditor links a county election-information page containing signed canvass PDFs and older Clarity channels. The link labeled Election Night Reporting points to the2025 city/school electionEID124287. A2024 general link is another historical channel. Neither label is proof of November2026 readiness.",
+    "gap": "Current November Senate endpoint was not established; use the auditor publication as the manual discovery route and verify election identity before entry."
+  },
+  "Clinton": {
+    "source": "county-19045-official-alternate",
+    "finding": "The SOS-listed elections.clintoncounty-ia.gov returned403. An official county auditor alternative returned200 and itself links the elections site, which again returned403. The authority chain is confirmed, but the content block remains an access gap rather than a zero or a missing election.",
+    "gap": "November vendor/download schema and native IDs remain blocked; the pinned historical2024 county XML is available for historical comparison only."
+  },
+  "Cerro Gordo": {
+    "source": "county-19033-linked5",
+    "finding": "The SOS-listed cerrogordoauditor.gov route leads into the new cerrogordo.gov auditor election pages. The current November3 event, archive, and sample-ballot downloads were inspected separately. A tested legacy SOS results link failed while the present results directory worked.",
+    "gap": "Current publication chain is usable for discovery/manual backup; no November Senate payload or demonstrated cadence."
+  },
+  "Jasper": {
+    "source": "county-19099-linked1",
+    "finding": "The county elections site has a dedicated November3 event and current sample-ballot publications. Its homepage's Unofficial Results link is the June2 primary PDF, which was actually downloaded and inspected. The primary PDF and current general event must not share a count status.",
+    "gap": "No current general-election vote payload or complete outstanding-ballot inventory observed."
+  },
+  "Muscatine": {
+    "source": "county-19139-linked8",
+    "finding": "The actual linked general-election slug ends1969_12_31, but its visible title, official public notice and content identify November3,2026. The event says results will be posted on election night. The notice/sample evidence names the Senate ballot candidates. The source-native slug is preserved without repairing the URL.",
+    "gap": "A future-publication statement is not a tested November count or cadence. No remaining-vote field observed."
+  },
+  "Marion": {
+    "source": "county-19125-linked1",
+    "finding": "The auditor's November event links key dates, the public notice and precinct/style PDFs. Actual sample ballots show Ashley HinsonREP, Josh TurekDEM and Thomas LaehnLIB plus a separate write-in line. The historical official-canvass archive is a separate backup publication.",
+    "gap": "No November result file or source-native candidate IDs yet; ballot rows do not establish machine keys."
+  },
+  "Des Moines": {
+    "source": "county-19057-linked5",
+    "finding": "The county root links dmcountyelections.iowa.gov. The current event, candidate list, public sample PDFs and satellite notices were recovered. Candidate list and ballot rows corroborate all three Senate names. The historical canvass/turnout discrepancy localizes here: ED+7/absentee−7 in canvass versus turnout report, same total; cause is not established.",
+    "gap": "No current count or outstanding-Senate-vote estimate. Keep the historical method discrepancy separate from2026 timing and comparisons."
+  },
+  "Sioux": {
+    "source": "county-19167-observed0",
+    "finding": "The auditor and elections HTML routes returned403 here, while the web retrieval tool could inspect the official current page. That page contains November sample links and older result links. Its actual linked June primary summary PDF was recovered200 directly. The page's May2025 registration widget shows zero party subcounts alongside a nonzero total, a stale/unsupported administrative display rather than Senate completion.",
+    "gap": "No November numeric payload recovered. Blocked HTML and successful historical PDF have distinct statuses; no zero-setup inference."
+  },
+  "Marshall": {
+    "source": "county-19127-linked1",
+    "finding": "The official elections subdomain publishes a November3 event, Election Center absentee-voting information and a combined sample-ballot download. Actual sample content contains the three Senate candidates and a write-in category. The primary result archive remains separate.",
+    "gap": "No November count IDs or machine upload format. A combined ballot PDF is not a one-to-one roster of geographic precincts."
+  },
+  "Webster": {
+    "source": "county-19187-results",
+    "finding": "The auditor uses a Revize site with an explicit root <base> element. Correct base resolution leads through Voter Information to Election Return Results and actual recent result assets. Earlier incorrectly resolved404 routes are retained as acquisition errors and superseded by the corrected observed-base links. Older ClarityEID113090 remains historical.",
+    "gap": "No current November Senate payload or cadence. Do not derive county IDs from directory or source row numbers."
+  },
+  "Lee": {
+    "source": "county-19111-final-review0",
+    "finding": "The auditor publishes separate general-election information, a historical results archive and a linked2026 primary results document. Actual current notice29753, press release29752 and general sample ballot29749 were downloaded and fully extracted. The ballot corroborates the three Senate names. The auditor also links precinct/polling-location document29751 and an ArcGIS lookup. Native pview/docview and municipalcms IDs are publication identifiers, never FIPS.",
+    "gap": "No November count export schema observed. The maps peer separately found the linked ArcGIS item-data permission error; no geometry or current crosswalk is inferred from a working app shell."
+  },
+  "Boone": {
+    "source": "county-19015-linked6",
+    "finding": "The auditor's upcoming-election page links the literal repeated-date November event slug. Its results page offers local files and a separate1966–2023 archival service. The actual current event and sample links were inspected, rather than guessing a general results endpoint.",
+    "gap": "No November candidate keys/method totals or demonstrated release cadence; archival search and statewide result links overlap county publications."
+  },
+  "Bremer": {
+    "source": "county-19017-linked4",
+    "finding": "The county root links bremercountyelections.iowa.gov and its November3 event, candidate list and combined ballot PDFs. The event promises election-night results. A header literally says Contact Benton County Elections on the Bremer site; that template discrepancy remains recorded rather than changing the authority chain or FIPS. Its linked ClarityEID126091 is the primary.",
+    "gap": "No November result payload/cadence. Preserve the copied contact label and verify county/election from the complete official chain."
+  },
+  "Wapello": {
+    "source": "county-19179-general",
+    "finding": "The SOS-listed www.wapellocountyelections.org failed with connection refused. The actual official county home www.wapellocounty.org links wapellocounty.iowa.gov, where the current elections home and November event were recovered200. The old domain failure therefore does not mean county coverage is absent. Its March27 registration widget is administrative context.",
+    "gap": "Current publication replacement established; no November result totals or outstanding-vote estimate observed."
+  },
+  "Benton": {
+    "source": "county-19011-linked5",
+    "finding": "The auditor links elections.bentoncountyia.gov. Its November event, actual public notice, combined sample ballots and separate primary result PDFs were recovered. The public notice says eighteen precincts for this election; that statement is retained with its vintage and does not prove one-to-one equivalence with historical candidate/turnout/statistical units.",
+    "gap": "No demonstrated November numeric feed or current reporting-precinct completion semantics."
+  },
+  "Plymouth": {
+    "source": "county-19149-official-alternate",
+    "finding": "Both the SOS-listed site and the directly observed September10 November-election page returned403. The web retrieval tool reads that official page and its November9 noon provisional cure/November10 canvass schedule. Its actually linked October Notice.pdf also returned403 here; it is not represented as acquired ballot evidence.",
+    "gap": "Current dates are source-scoped web observations; original notice bytes, current result feed and upload format remain blocked."
+  },
+  "Winneshiek": {
+    "source": "county-19191-target-general-election",
+    "finding": "The auditor's link labeled General Election11-03-26 points to a reused2018-special-school-consolidation-election slug. The returned page title is current. Election-information and voting-map routes have additional relative-path traps; preserve native hrefs and actual content instead of assigning a vintage from the slug.",
+    "gap": "No current November result payload or geographic approval from the recycled route name."
+  },
+  "Washington": {
+    "source": "county-19183-linked2",
+    "finding": "The auditor links /344/Elections, which publishes November3 candidate/sample-ballot links alongside actual recent canvass PDFs and an Archive.aspx archive. The current Ainsworth ballot was downloaded, as were the June2 primary and September8 Riverside special canvasses. These are distinct PDF publication contexts; the page explicitly labels local poll hours7am–8pmCST.",
+    "gap": "No November Senate payload, update schedule or remaining-vote field in the tested routes."
+  },
+  "Dickinson": {
+    "source": "county-19059-observed0",
+    "finding": "The SOS-listed .org auditor route returned403. The official page was readable through the web tool and linked the current .gov auditor route; that actual replacement was also tested and returned403. A Kansas Dickinson search result was explicitly excluded as wrong state.",
+    "gap": "Current Iowa result channel content remains blocked; historical pinned county XML retains a useful schema but does not approve a November route."
+  },
+  "Carroll": {
+    "source": "county-19027-linked1",
+    "finding": "Multiple native pview IDs20994/20988 and category variants expose the local result archive. The actual linked2026 primary document31973 was recovered. A generic Link points to ClarityEID106293/web264614, an older election; its200 app shell is not evidence for November2026.",
+    "gap": "No tested current November result or upload format. pview/docview and EID numbers remain publication/election identities, never FIPS."
+  },
+  "Jones": {
+    "source": "county-19105-specific0",
+    "finding": "The auditor links jonescountyiowaelections.gov and its current November3 event. The October15 preparation notice is a separate publication clock. Interactive-results links in the archive include primaryEID126135 and olderEID124249; current sample PDFs were inspected independently.",
+    "gap": "No November count payload or native choice IDs; an October news update is not a vote timestamp."
+  },
+  "Mahaska": {
+    "source": "county-19123-linked1",
+    "finding": "The current event and actual November ballot PDFs were recovered. The homepage's Google Sheets result link opens a document titled2026 Primary Election UNOFFICIAL RESULTS, while the official PDF link has a slug2026_04_10 despite the visible June2 primary date. These native dates/labels remain literal. Neither channel is assigned to November.",
+    "gap": "No November Sheet/export approval, machine choice IDs, or guaranteed refresh cadence."
+  },
+  "Jackson": {
+    "source": "county-19097-linked6",
+    "finding": "The auditor/elections route and current November event are usable; the event promises election-night results. Its archive includes primaryEID126131 and older interactive elections. The maps peer found the official auditor/maps replacement precinct PDF after the SOS county ZIP proved to be supervisor districts; that source conflict cannot be used as a reporting crosswalk.",
+    "gap": "No actual November numeric payload, method-completion rule or remaining-vote estimate."
+  },
+  "Buchanan": {
+    "source": "county-19019-target-election-results",
+    "finding": "The auditor HTML has a root <base href>. Respecting it recovers /departments/election_results.php and /departments/auditor/commissioner_of_elections.php; early wrong-relative404 attempts remain recorded. The archive has actual local canvass PDFs. The maps peer independently recovered root/GIS precinct-map targets using the same base.",
+    "gap": "No November result schema or approved unit crosswalk. Native query timestamps on PDFs are not votes-as-of clocks."
+  },
+  "Cedar": {
+    "source": "county-19031-linked3",
+    "finding": "The official current event contains a literal zero setup:0/12 Precincts Counted and Results Available on Election Night. It states provisional cure November9 noon, canvass November10 at10am and recount November12 at5pm. That county statement supports holiday handling locally, while the SOS guide's November13/third-day wording conflicts with current statute.",
+    "gap": "Setup is not a counted snapshot or zero outstanding ballots. Reporting denominator12 is source-scoped; exact Senate remaining votes and completion semantics are absent."
+  },
+  "Delaware": {
+    "source": "county-19055-linked1",
+    "finding": "The official current event's native slug ends2026_11_02 while its title/content say November3. Current combined sample publications and separate July special/June primary result channels were recovered. The View Live Results primary link uses EID126110 and is not reused as November's identity.",
+    "gap": "No current November vote payload. Do not repair the source slug or derive an election date solely from it."
+  },
+  "Madison": {
+    "source": "county-19121-linked5",
+    "finding": "The official county home/elections page links a current final-races list, precinct locations, general-election release and historical canvass through GMD. Those viewfile URLs return200 after redirects into PDF.js with literal file query paths. Every tested actual /api/files/UUID/ID payload returned403 with a zero-byte body. The wrapper does not establish document contents.",
+    "gap": "Current source documents remain access gaps; no claim that a final certificate, ballot or map was acquired from the viewer. Use the county's retained authority page and pinned historical source as manual backup."
+  },
+  "Poweshiek": {
+    "source": "county-19157-linked1",
+    "finding": "The elections site has a November3 event and an actual general-election candidate PDF, plus individual ballot PDFs corroborating HinsonREP/TurekDEM/LaehnLIB and a write-in line. Earlier primary and special canvasses are separately published PDF links.",
+    "gap": "Current ballot identities established; no November machine choice IDs, count feed or source-supported remaining-vote field."
+  },
+  "Fayette": {
+    "source": "county-19065-linked1",
+    "finding": "The auditor's election-information page links the actual2026 primary ClarityEID126115 and2025 city/schoolEID124229. GMD sample/archival links return PDF.js shells, and their observed file-query payloads returned403/zero bodies. Neither a working primary app nor a viewer shell proves November data.",
+    "gap": "No current general-election count schema or acquired GMD sample. Preserve blocked payloads and historical source identities separately."
+  },
+  "Iowa": {
+    "source": "county-19095-linked7",
+    "finding": "The official current November event and archive were recovered after the county home linked auditor/elections. The archive's Official Results routes include statewide primaryEID126082 and historical Iowa countyEIDs124244/122370. Here Iowa is the county name, while IA is the statewide region; they must not be joined by an unscoped label.",
+    "gap": "No November count or choice IDs; state/county channels overlap and must not be summed."
+  },
+  "Henry": {
+    "source": "county-19087-linked1",
+    "finding": "The SOS-listed .us home redirects to henrycounty.iowa.gov. Its actual election page links the2026 general notice, ballot and calendar through GMD, and a Clarity routeEID126126 which is the June primary. GMD viewers returned200 but the observed actual file URLs returned403/zero bodies. Henry is the exact41st research-priority county, contributing9600 baseline marks.",
+    "gap": "No current November payload or acquired GMD general document. The priority crossing has no bearing on source approval or remaining votes."
+  }
+}

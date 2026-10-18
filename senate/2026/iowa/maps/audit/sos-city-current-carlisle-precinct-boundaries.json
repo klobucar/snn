@@ -1,0 +1,247 @@
+{
+  "source_id": "sos-city-current-carlisle-precinct-boundaries",
+  "source_path": "raw/sos-city-current-carlisle-precinct-boundaries.zip",
+  "source_sha256": "e7e7ea25fa49cd9941006106556865d71303b3861c6d60661fe3779b7a425a34",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "Carlisle_Precincts.shp",
+      "bytes": 9708,
+      "compressed_bytes": 6403,
+      "crc32": "3c2d67ec",
+      "sha256": "bbac980c78fd683814f7ad8aaede8c28617229eb8d1e0bd4b7f48ff1dc570ab1"
+    },
+    {
+      "name": "Carlisle_Precincts.shx",
+      "bytes": 132,
+      "compressed_bytes": 78,
+      "crc32": "5ac892ca",
+      "sha256": "91f7515d5886618f07989b4146374b8420479a3a03621896071ff5244ab41452"
+    },
+    {
+      "name": "Carlisle_Precincts.dbf",
+      "bytes": 834,
+      "compressed_bytes": 220,
+      "crc32": "774adfc5",
+      "sha256": "ec222a3f99d6247660fcd391ca9bf04519b1d4021f5b931f4f00b23de8d0c8b6"
+    },
+    {
+      "name": "Carlisle_Precincts.prj",
+      "bytes": 145,
+      "compressed_bytes": 121,
+      "crc32": "af437f55",
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-carlisle-precinct-boundaries--1",
+      "shp_member": "Carlisle_Precincts.shp",
+      "dbf_fields": [
+        [
+          "LONGNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "SHORTNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "DISTRICT",
+          "N",
+          5,
+          0
+        ],
+        [
+          "COLOR",
+          "N",
+          10,
+          0
+        ],
+        [
+          "TOTAL",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "N",
+          18,
+          0
+        ]
+      ],
+      "dbf_encoding": "utf-8",
+      "cpg_present": false,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 4,
+      "shp_record_header_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "dbf_declared_records": 4,
+      "shx_records": 4,
+      "parsed_records": 4,
+      "vertices": 586,
+      "parts": 6,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -93.53498539738449,
+        41.476656441001964,
+        -93.47180337998944,
+        41.53753444936285
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 10,
+          "parts": 2,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -2.2737367544323206e-13,
+            6.821210263296962e-13
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 1,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Unassigned",
+            "SHORTNAME": "Unassigned",
+            "DISTRICT": 0
+          },
+          "valid": false,
+          "validity_reason": "Self-intersection[-93.4769013814956 41.5087344475569]",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 194,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0009314216615621262
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 1",
+            "SHORTNAME": "D1",
+            "DISTRICT": 1
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 3,
+          "vertices": 124,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.00021380251314440102
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 2",
+            "SHORTNAME": "D2",
+            "DISTRICT": 2
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 4,
+          "vertices": 258,
+          "parts": 2,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0003281383801549964,
+            -0.00010651253364812874
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 2,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "District 3",
+            "SHORTNAME": "D3",
+            "DISTRICT": 3
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "MultiPolygon"
+        }
+      ],
+      "overlap_checks": [],
+      "overlap_skipped_invalid_or_unknown_crs": [
+        1
+      ],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-carlisle-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-carlisle-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          204195.4089884066,
+          2055091.8557166418,
+          209447.13385742,
+          2061852.9232297821
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

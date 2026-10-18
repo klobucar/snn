@@ -1,0 +1,255 @@
+{
+  "county": "Scott",
+  "county_fips": "19163",
+  "rank_2024": 3,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Scott",
+    "county_fips": "19163",
+    "rank_2024": 3,
+    "priority": true,
+    "anchor": "ScottCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#ScottCountyAuditor",
+    "auditor_url": "https://www.scottcountyiowa.gov/auditor/",
+    "phone": "563-326-8631",
+    "directory_source_id": "sos-auditors",
+    "source_position": 82
+  },
+  "current_key_publication": {
+    "source_id": "county-19163-specific0",
+    "url": "https://elections.scottcountyiowa.gov/elections/info/2026_gubernatorial_general_election_2026_11_03/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:31:09.593464+00:00",
+    "original_sha256": "02580d2ced788aa78038fa00fe8bc6303e61e153bcb234483945a7c90553e9bc"
+  },
+  "finding": "The county auditor's November announcement links the separate official elections subdomain and the event titled 2026 Gubernatorial General Election. The title describes a general election containing Senate, not a gubernatorial-only count. County posts give7am–8pm November3 hours. The event has its own precinct/style publication context.",
+  "gap": "Current event publication exists; November Senate choice IDs, method totals and release-completion definitions remain unobserved.",
+  "tested_routes": [
+    {
+      "source_id": "county-19163-seed",
+      "url": "https://www.scottcountyiowa.gov/auditor/",
+      "parent_url": "https://sos.iowa.gov/auditors#ScottCountyAuditor",
+      "final_url": "https://www.scottcountyiowa.gov/auditor",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19163-seed.json",
+      "source_identity_inventory_key": "county-19163-seed"
+    },
+    {
+      "source_id": "county-19163-linked1",
+      "url": "https://www.scottcountyiowa.gov/auditor/post/2026/11/03/general-election-november-3-2026",
+      "parent_url": "https://www.scottcountyiowa.gov/auditor",
+      "final_url": "https://www.scottcountyiowa.gov/auditor/post/2026/11/03/general-election-november-3-2026",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19163-linked1.json",
+      "source_identity_inventory_key": "county-19163-linked1"
+    },
+    {
+      "source_id": "county-19163-linked2",
+      "url": "https://www.scottcountyiowa.gov/auditor/post/2026/10/12/important-november-3-general-election-dates",
+      "parent_url": "https://www.scottcountyiowa.gov/auditor",
+      "final_url": "https://www.scottcountyiowa.gov/auditor/post/2026/10/12/important-november-3-general-election-dates",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19163-linked2.json",
+      "source_identity_inventory_key": "county-19163-linked2"
+    },
+    {
+      "source_id": "county-19163-linked3",
+      "url": "https://www.scottcountyiowa.gov/auditor/post/2026/08/25/first-day-submit-request-absentee-ballots-november-3-general-election",
+      "parent_url": "https://www.scottcountyiowa.gov/auditor",
+      "final_url": "https://www.scottcountyiowa.gov/auditor/post/2026/08/25/first-day-submit-request-absentee-ballots-november-3-general-election",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19163-linked3.json",
+      "source_identity_inventory_key": "county-19163-linked3"
+    },
+    {
+      "source_id": "county-19163-linked4",
+      "url": "https://www.scottcountyiowa.gov/hr/post/2026/11/11/2026-veterans-day-offices-closed",
+      "parent_url": "https://www.scottcountyiowa.gov/auditor",
+      "final_url": "https://www.scottcountyiowa.gov/hr/post/2026/11/11/2026-veterans-day-offices-closed",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19163-linked4.json",
+      "source_identity_inventory_key": "county-19163-linked4"
+    },
+    {
+      "source_id": "county-19163-linked5",
+      "url": "https://www.scottcountyiowa.gov/hr/post/2026/11/26/2026-thanksgiving-offices-closed",
+      "parent_url": "https://www.scottcountyiowa.gov/auditor",
+      "final_url": "https://www.scottcountyiowa.gov/hr/post/2026/11/26/2026-thanksgiving-offices-closed",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19163-linked5.json",
+      "source_identity_inventory_key": "county-19163-linked5"
+    },
+    {
+      "source_id": "county-19163-linked6",
+      "url": "https://www.scottcountyiowa.gov/hr/post/2026/12/24/2026-christmas-offices-closed",
+      "parent_url": "https://www.scottcountyiowa.gov/auditor",
+      "final_url": "https://www.scottcountyiowa.gov/hr/post/2026/12/24/2026-christmas-offices-closed",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19163-linked6.json",
+      "source_identity_inventory_key": "county-19163-linked6"
+    },
+    {
+      "source_id": "county-19163-linked7",
+      "url": "https://www.scottcountyiowa.gov/services/voting-elections",
+      "parent_url": "https://www.scottcountyiowa.gov/auditor",
+      "final_url": "https://www.scottcountyiowa.gov/services/voting-elections",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19163-linked7.json",
+      "source_identity_inventory_key": "county-19163-linked7"
+    },
+    {
+      "source_id": "county-19163-linked8",
+      "url": "https://www.scottcountyiowa.gov/auditor/elections",
+      "parent_url": "https://www.scottcountyiowa.gov/auditor",
+      "final_url": "https://elections.scottcountyiowa.gov/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19163-linked8.json",
+      "source_identity_inventory_key": "county-19163-linked8"
+    },
+    {
+      "source_id": "county-19163-linked9",
+      "url": "https://elections.scottcountyiowa.gov/files/official_results_by_precinct_2026_primary_scott_county_37908.pdf",
+      "parent_url": "https://elections.scottcountyiowa.gov/",
+      "final_url": "https://elections.scottcountyiowa.gov/files/official_results_by_precinct_2026_primary_scott_county_37908.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19163-linked9"
+    },
+    {
+      "source_id": "county-19163-linked10",
+      "url": "https://elections.scottcountyiowa.gov/files/official_results_summary_2026_primary_76241.pdf",
+      "parent_url": "https://elections.scottcountyiowa.gov/",
+      "final_url": "https://elections.scottcountyiowa.gov/files/official_results_summary_2026_primary_76241.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19163-linked10"
+    },
+    {
+      "source_id": "county-19163-linked11",
+      "url": "https://elections.scottcountyiowa.gov/files/election_results/davenportnorth_scottpleasant_valley_ppel_election_2026_2026_03_03_37118_.pdf",
+      "parent_url": "https://elections.scottcountyiowa.gov/",
+      "final_url": "https://elections.scottcountyiowa.gov/files/election_results/davenportnorth_scottpleasant_valley_ppel_election_2026_2026_03_03_37118_.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19163-linked11"
+    },
+    {
+      "source_id": "county-19163-linked12",
+      "url": "https://elections.scottcountyiowa.gov/files/election_results/davenportnorth_scottpleasant_valley_ppel_election_2026_2026_03_03_68863_.pdf",
+      "parent_url": "https://elections.scottcountyiowa.gov/",
+      "final_url": "https://elections.scottcountyiowa.gov/files/election_results/davenportnorth_scottpleasant_valley_ppel_election_2026_2026_03_03_68863_.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19163-linked12"
+    },
+    {
+      "source_id": "county-19163-specific0",
+      "url": "https://elections.scottcountyiowa.gov/elections/info/2026_gubernatorial_general_election_2026_11_03/",
+      "parent_url": "https://elections.scottcountyiowa.gov/",
+      "final_url": "https://elections.scottcountyiowa.gov/elections/info/2026_gubernatorial_general_election_2026_11_03/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19163-specific0.json",
+      "source_identity_inventory_key": "county-19163-specific0"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Scott",
+    "county_fips": "19163",
+    "native_election_id": "122404",
+    "native_version": "355893",
+    "native_contest_key": "0004",
+    "xml_clock": "12/2/2024 9:40:36 AM CST",
+    "roster_clock": "12/2/2024 9:42:31 AM CST",
+    "xml_member_sha256": "2a8933059bcdb0ca5d6185c241a06d618358ade4334ea24244edc109d165cfb3",
+    "xml_member_bytes": 625883,
+    "candidate_units": 66,
+    "root_turnout_units": 66,
+    "status_units": 66,
+    "candidate_method_cells": 1056,
+    "candidate_generic_votes": 90133,
+    "root_turnout_attributes": {
+      "totalVoters": "131759",
+      "ballotsCast": "90612",
+      "voterTurnout": "68.77"
+    },
+    "root_turnout_ballot_sum": 90612,
+    "root_turnout_registration_sum": 129678,
+    "status_ballot_sum": 90612,
+    "status_codes": {
+      "4": 66
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "001",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "002",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "003",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "004",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "005",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SPA"
+      },
+      {
+        "choice_key": "006",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "007",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "008",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19163"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19163",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19163-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#ScottCountyAuditor",
+    "publication_url": "https://elections.scottcountyiowa.gov/elections/info/2026_gubernatorial_general_election_2026_11_03/",
+    "telephone_from_directory": "563-326-8631",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

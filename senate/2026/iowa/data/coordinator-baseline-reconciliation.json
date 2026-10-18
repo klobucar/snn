@@ -1,0 +1,61 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-18T04:24:32.633214+00:00",
+  "scope": "Accepted county counts/order and exact research-dispatch priority with all source-scoped historical constituents conserved. No geographic or November approval.",
+  "counties": 99,
+  "primary_county_contests": 297,
+  "independent_primary_Total_cells": 2475,
+  "peer_full_candidate_method_cells": 7484,
+  "denominator": 1663506,
+  "generic_writein_marks": 6657,
+  "top15_votes": 991869,
+  "priority_count": 41,
+  "priority_votes": 1332107,
+  "preceding_votes": 1322507,
+  "crossing": {
+    "county": "Henry",
+    "county_fips": "19087",
+    "votes": 9600
+  },
+  "ordered_priority_keys_sha256": "e015514b8718b35e9599389cddde2451e5cd598115ef4d6468016a7858271f95",
+  "peer_native_cells": 42728,
+  "peer_native_units": 3512,
+  "peer_registration_ballot_cells": 12694,
+  "source_scoped_gaps": [
+    "Generic Write-in marks are not established named-valid write-ins.",
+    "Canvass vs turnout-report ED/Absentee2024 differs by +7/-7 with same total; no cause inferred.",
+    "2020 statistical age bins exceed printed statewide registration total by2.",
+    "Historical2024 Clarity recovered for all99 counties; Lucas candidate/status and turnout contexts remain distinct."
+  ],
+  "native_constituent_objects_conserved": 13558,
+  "input_hashes": {
+    "county-turnout.csv": {
+      "bytes": 30293,
+      "sha256": "02a4dbe39a54868ff6c1d701319119fbb5644b9e55e6e4e0d564d2bb7f673e11"
+    },
+    "county-baselines.csv": {
+      "bytes": 83482,
+      "sha256": "6e90670fe40a3096d6c965d8c7422239b01fd6928ef2be258fdaefb6ea62cfaa"
+    },
+    "turnout/SCHEMA.md": {
+      "bytes": 12887,
+      "sha256": "24a6eacd9d866d94016039eed42f0263a68b4f91b27348ded5a38be4f025cc69"
+    },
+    "turnout/priority-set.json": {
+      "bytes": 9106895,
+      "sha256": "579b22b8d4f35f12d085ef8402a1bcab14e135a1577daf3ddc4f7d3f66460822"
+    },
+    "turnout/canvass-candidate-method.csv": {
+      "bytes": 2143748,
+      "sha256": "1c1cdc45f89c9e18b6c58402a969f2d8ecb28c80a0524c96dc26e10e36d4d83a"
+    },
+    "baselines/canvass-candidate-method.csv": {
+      "bytes": 1835577,
+      "sha256": "4e392aa2653a8abf8d2cf802f7fece0302fdaf08a2ceecbb49ea2efaf8a32e0a"
+    },
+    "baselines/peer-reconciliation.json": {
+      "bytes": 8518,
+      "sha256": "81fb3a7750c25b803e30a07856841ff0062e0f872fb93c02189e9ad9da37fb60"
+    }
+  }
+}

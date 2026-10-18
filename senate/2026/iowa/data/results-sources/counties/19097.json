@@ -1,0 +1,235 @@
+{
+  "county": "Jackson",
+  "county_fips": "19097",
+  "rank_2024": 33,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Jackson",
+    "county_fips": "19097",
+    "rank_2024": 33,
+    "priority": true,
+    "anchor": "JacksonCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#JacksonCountyAuditor",
+    "auditor_url": "https://jacksoncounty.iowa.gov/auditor/",
+    "phone": "563-652-3144",
+    "directory_source_id": "sos-auditors",
+    "source_position": 49
+  },
+  "current_key_publication": {
+    "source_id": "county-19097-linked6",
+    "url": "https://jacksoncounty.iowa.gov/elections/2026_general_election_2026_11_03/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:25:40.726876+00:00",
+    "original_sha256": "6fe4e0152d5e59bc485c8ee48ddbe6b2604b944e03201abcddfc9a35dc42ebc9"
+  },
+  "finding": "The auditor/elections route and current November event are usable; the event promises election-night results. Its archive includes primaryEID126131 and older interactive elections. The maps peer found the official auditor/maps replacement precinct PDF after the SOS county ZIP proved to be supervisor districts; that source conflict cannot be used as a reporting crosswalk.",
+  "gap": "No actual November numeric payload, method-completion rule or remaining-vote estimate.",
+  "tested_routes": [
+    {
+      "source_id": "county-19097-seed",
+      "url": "https://jacksoncounty.iowa.gov/auditor/",
+      "parent_url": "https://sos.iowa.gov/auditors#JacksonCountyAuditor",
+      "final_url": "https://jacksoncounty.iowa.gov/auditor/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19097-seed.json",
+      "source_identity_inventory_key": "county-19097-seed"
+    },
+    {
+      "source_id": "county-19097-linked1",
+      "url": "https://jacksoncounty.iowa.gov/files/auditor/special_election_results_25730.pdf",
+      "parent_url": "https://jacksoncounty.iowa.gov/auditor/",
+      "final_url": "https://jacksoncounty.iowa.gov/files/auditor/special_election_results_25730.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19097-linked1"
+    },
+    {
+      "source_id": "county-19097-linked2",
+      "url": "https://jacksoncounty.iowa.gov/auditor/elections/",
+      "parent_url": "https://jacksoncounty.iowa.gov/auditor/",
+      "final_url": "https://jacksoncounty.iowa.gov/auditor/elections/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19097-linked2.json",
+      "source_identity_inventory_key": "county-19097-linked2"
+    },
+    {
+      "source_id": "county-19097-linked3",
+      "url": "https://jacksoncounty.iowa.gov/auditor/election_results/",
+      "parent_url": "https://jacksoncounty.iowa.gov/auditor/elections/",
+      "final_url": "https://jacksoncounty.iowa.gov/auditor/election_results/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19097-linked3.json",
+      "source_identity_inventory_key": "county-19097-linked3"
+    },
+    {
+      "source_id": "county-19097-linked4",
+      "url": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx",
+      "parent_url": "https://jacksoncounty.iowa.gov/auditor/elections/",
+      "final_url": "https://apps.sos.iowa.gov/elections/voterreg/regtovote/search.aspx",
+      "status": 403,
+      "error": null,
+      "view_path": "extracts/county-19097-linked4.json",
+      "source_identity_inventory_key": "county-19097-linked4"
+    },
+    {
+      "source_id": "county-19097-linked5",
+      "url": "https://jacksoncounty.iowa.gov/auditor/upcoming_elections/",
+      "parent_url": "https://jacksoncounty.iowa.gov/auditor/elections/",
+      "final_url": "https://jacksoncounty.iowa.gov/auditor/upcoming_elections/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19097-linked5.json",
+      "source_identity_inventory_key": "county-19097-linked5"
+    },
+    {
+      "source_id": "county-19097-linked6",
+      "url": "https://jacksoncounty.iowa.gov/elections/2026_general_election_2026_11_03/",
+      "parent_url": "https://jacksoncounty.iowa.gov/auditor/upcoming_elections/",
+      "final_url": "https://jacksoncounty.iowa.gov/elections/2026_general_election_2026_11_03/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19097-linked6.json",
+      "source_identity_inventory_key": "county-19097-linked6"
+    },
+    {
+      "source_id": "county-19097-linked7",
+      "url": "https://sos.iowa.gov/elections/results/index.html",
+      "parent_url": "https://jacksoncounty.iowa.gov/auditor/election_results/",
+      "final_url": "https://sos.iowa.gov/elections/results/index.html",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19097-linked7.json",
+      "source_identity_inventory_key": "county-19097-linked7"
+    },
+    {
+      "source_id": "county-19097-linked8",
+      "url": "https://jacksoncounty.iowa.gov/elections/maquoekta_community_school_dist_special_election_2026_09_08/",
+      "parent_url": "https://jacksoncounty.iowa.gov/auditor/election_results/",
+      "final_url": "https://jacksoncounty.iowa.gov/elections/maquoekta_community_school_dist_special_election_2026_09_08/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19097-linked8.json",
+      "source_identity_inventory_key": "county-19097-linked8"
+    },
+    {
+      "source_id": "county-19097-linked9",
+      "url": "https://jacksoncounty.iowa.gov/elections/dubuque_community_school_dist_special_election_2026_09_08/",
+      "parent_url": "https://jacksoncounty.iowa.gov/auditor/election_results/",
+      "final_url": "https://jacksoncounty.iowa.gov/elections/dubuque_community_school_dist_special_election_2026_09_08/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19097-linked9.json",
+      "source_identity_inventory_key": "county-19097-linked9"
+    },
+    {
+      "source_id": "county-19097-specific0",
+      "url": "https://jacksoncounty.iowa.gov/files/sample_ballots/20260908_maquoketa_school_sample_ballot_38866.pdf",
+      "parent_url": "https://jacksoncounty.iowa.gov/elections/maquoekta_community_school_dist_special_election_2026_09_08/",
+      "final_url": "https://jacksoncounty.iowa.gov/files/sample_ballots/20260908_maquoketa_school_sample_ballot_38866.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19097-specific0"
+    },
+    {
+      "source_id": "county-19097-specific1",
+      "url": "https://jacksoncounty.iowa.gov/files/sample_ballots/20260908_dubuque_school_sample_ballot_17230.pdf",
+      "parent_url": "https://jacksoncounty.iowa.gov/elections/dubuque_community_school_dist_special_election_2026_09_08/",
+      "final_url": "https://jacksoncounty.iowa.gov/files/sample_ballots/20260908_dubuque_school_sample_ballot_17230.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19097-specific1"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Jackson",
+    "county_fips": "19097",
+    "native_election_id": "122371",
+    "native_version": "355792",
+    "native_contest_key": "190",
+    "xml_clock": "11/25/2024 3:11:41 PM CST",
+    "roster_clock": "11/25/2024 3:35:03 PM CST",
+    "xml_member_sha256": "4138de5bb820c50e86b6b42c72485040f79ddb70e0f4328c02f73a6bb15cb092",
+    "xml_member_bytes": 173390,
+    "candidate_units": 13,
+    "root_turnout_units": 13,
+    "status_units": 13,
+    "candidate_method_cells": 208,
+    "candidate_generic_votes": 10801,
+    "root_turnout_attributes": {
+      "totalVoters": "14742",
+      "ballotsCast": "10849",
+      "voterTurnout": "73.59"
+    },
+    "root_turnout_ballot_sum": 10849,
+    "root_turnout_registration_sum": 14743,
+    "status_ballot_sum": 10849,
+    "status_codes": {
+      "4": 13
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "103",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "104",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "105",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "106",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "107",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "108",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "109",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "0",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19097"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19097",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19097-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#JacksonCountyAuditor",
+    "publication_url": "https://jacksoncounty.iowa.gov/elections/2026_general_election_2026_11_03/",
+    "telephone_from_directory": "563-652-3144",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

@@ -1,0 +1,245 @@
+{
+  "county": "Carroll",
+  "county_fips": "19027",
+  "rank_2024": 30,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Carroll",
+    "county_fips": "19027",
+    "rank_2024": 30,
+    "priority": true,
+    "anchor": "CarrollCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#CarrollCountyAuditor",
+    "auditor_url": "https://carrollcountyiowa.org/pview.aspx?id=20961&catid=563",
+    "phone": "712-792-9802",
+    "directory_source_id": "sos-auditors",
+    "source_position": 14
+  },
+  "current_key_publication": {
+    "source_id": "county-19027-linked1",
+    "url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20994&catid=563",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:24:49.599147+00:00",
+    "original_sha256": "a7b962bbcbaac37720fa68d1b939aec26f1be345690d70f97be8d20f717145a1"
+  },
+  "finding": "Multiple native pview IDs20994/20988 and category variants expose the local result archive. The actual linked2026 primary document31973 was recovered. A generic Link points to ClarityEID106293/web264614, an older election; its200 app shell is not evidence for November2026.",
+  "gap": "No tested current November result or upload format. pview/docview and EID numbers remain publication/election identities, never FIPS.",
+  "tested_routes": [
+    {
+      "source_id": "county-19027-seed",
+      "url": "https://carrollcountyiowa.org/pview.aspx?id=20961&catid=563",
+      "parent_url": "https://sos.iowa.gov/auditors#CarrollCountyAuditor",
+      "final_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20961&catid=563",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19027-seed.json",
+      "source_identity_inventory_key": "county-19027-seed"
+    },
+    {
+      "source_id": "county-19027-linked1",
+      "url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20994&catid=563",
+      "parent_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20961&catid=563",
+      "final_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20988&catid=563",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19027-linked1.json",
+      "source_identity_inventory_key": "county-19027-linked1"
+    },
+    {
+      "source_id": "county-19027-linked2",
+      "url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20994&catid=0",
+      "parent_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20961&catid=563",
+      "final_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20988&catid=563",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19027-linked2.json",
+      "source_identity_inventory_key": "county-19027-linked2"
+    },
+    {
+      "source_id": "county-19027-linked3",
+      "url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20988&catid=0",
+      "parent_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20961&catid=563",
+      "final_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20988&catid=0",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19027-linked3.json",
+      "source_identity_inventory_key": "county-19027-linked3"
+    },
+    {
+      "source_id": "county-19027-linked4",
+      "url": "https://www.carrollcountyiowa.gov/pview.aspx?id=21108&catid=563",
+      "parent_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20961&catid=563",
+      "final_url": "https://www.carrollcountyiowa.gov/files/documents/CornerCertificateIndex1681094131101526AM.xlsx",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19027-linked4"
+    },
+    {
+      "source_id": "county-19027-linked5",
+      "url": "https://www.carrollcountyiowa.gov/docview.aspx?docid=31973",
+      "parent_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20988&catid=563",
+      "final_url": "https://www.carrollcountyiowa.gov/files/documents/060226OfficialResults1595013403061226PM.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19027-linked5"
+    },
+    {
+      "source_id": "county-19027-linked6",
+      "url": "https://www.carrollcountyiowa.gov/docview.aspx?docid=31559",
+      "parent_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20988&catid=563",
+      "final_url": "https://www.carrollcountyiowa.gov/files/documents/2017SchoolElectionsOfficialResults1593050059050819PM.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19027-linked6"
+    },
+    {
+      "source_id": "county-19027-linked7",
+      "url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20988&catid=563",
+      "parent_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20988&catid=563",
+      "final_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20988&catid=563",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19027-linked7.json",
+      "source_identity_inventory_key": "county-19027-linked7"
+    },
+    {
+      "source_id": "county-19027-linked8",
+      "url": "https://electionresults.iowa.gov/IA/Carroll/106293/web.264614/",
+      "parent_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20988&catid=563",
+      "final_url": "https://electionresults.iowa.gov/IA/Carroll/106293/web.264614/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19027-linked8.json",
+      "source_identity_inventory_key": "county-19027-linked8"
+    },
+    {
+      "source_id": "county-19027-linked9",
+      "url": "https://www.carrollcountyiowa.gov/docview.aspx?docid=31779",
+      "parent_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20988&catid=563",
+      "final_url": "https://www.carrollcountyiowa.gov/files/documents/2019UnofficialElectionResults1594123417110619PM.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19027-linked9"
+    },
+    {
+      "source_id": "county-19027-linked10",
+      "url": "https://www.carrollcountyiowa.gov/docview.aspx?docid=31555",
+      "parent_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20988&catid=563",
+      "final_url": "https://www.carrollcountyiowa.gov/files/documents/2018November6thOfficialGeneralElectionResults1593045941050819PM.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19027-linked10"
+    },
+    {
+      "source_id": "county-19027-linked11",
+      "url": "https://www.carrollcountyiowa.gov/docview.aspx?docid=31556",
+      "parent_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20988&catid=563",
+      "final_url": "https://www.carrollcountyiowa.gov/files/documents/2018PrimaryElectionJune62018OfficialResults1593045958050819PM.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19027-linked11"
+    },
+    {
+      "source_id": "county-19027-linked12",
+      "url": "https://www.carrollcountyiowa.gov/docview.aspx?docid=31557",
+      "parent_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20988&catid=563",
+      "final_url": "https://www.carrollcountyiowa.gov/files/documents/2017CityElectionNovember72017OfficialResults1593050023050819PM.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19027-linked12"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Carroll",
+    "county_fips": "19027",
+    "native_election_id": "122336",
+    "native_version": "354157",
+    "native_contest_key": "190",
+    "xml_clock": "11/12/2024 9:13:17 AM CST",
+    "roster_clock": "11/15/2024 2:09:03 PM CST",
+    "xml_member_sha256": "121af33d54f0a67584e310b4cd749d49206c07374b79df0a68bf3fd0d5c013f7",
+    "xml_member_bytes": 210137,
+    "candidate_units": 13,
+    "root_turnout_units": 13,
+    "status_units": 13,
+    "candidate_method_cells": 208,
+    "candidate_generic_votes": 11140,
+    "root_turnout_attributes": {
+      "totalVoters": "15022",
+      "ballotsCast": "11209",
+      "voterTurnout": "74.62"
+    },
+    "root_turnout_ballot_sum": 11209,
+    "root_turnout_registration_sum": 14975,
+    "status_ballot_sum": 11209,
+    "status_codes": {
+      "4": 13
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "103",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "104",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "105",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "106",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "107",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "108",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "109",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "0",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19027"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19027",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19027-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#CarrollCountyAuditor",
+    "publication_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=20994&catid=563",
+    "telephone_from_directory": "712-792-9802",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

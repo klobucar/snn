@@ -1,0 +1,217 @@
+{
+  "source_id": "sos-city-current-le-claire-precinct-boundaries",
+  "source_path": "raw/sos-city-current-le-claire-precinct-boundaries.zip",
+  "source_sha256": "ccad80489bf90e987982b780f0bb2d8af111fd80964daee3ea683f8807836605",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "LeClaire_PCTs_2022.cpg",
+      "bytes": 5,
+      "compressed_bytes": 5,
+      "crc32": "0e813c50",
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+    },
+    {
+      "name": "LeClaire_PCTs_2022.dbf",
+      "bytes": 758,
+      "compressed_bytes": 152,
+      "crc32": "af1ef6c9",
+      "sha256": "0673b4cb3c1c15210bb186a6cbd14ae203fdc296cd579ee6893a57ec95eef780"
+    },
+    {
+      "name": "LeClaire_PCTs_2022.prj",
+      "bytes": 425,
+      "compressed_bytes": 246,
+      "crc32": "25b1f528",
+      "sha256": "f2e7fb14d55bdd8d6a3bc2c272a48729d8f9d0ad72936e20eae6a9a81c2fccd0"
+    },
+    {
+      "name": "LeClaire_PCTs_2022.sbn",
+      "bytes": 140,
+      "compressed_bytes": 72,
+      "crc32": "ab1130d3",
+      "sha256": "764290b9a19bf03e2c8757d807717fd0efb2b6d2276385b78290650baeecc2b2"
+    },
+    {
+      "name": "LeClaire_PCTs_2022.sbx",
+      "bytes": 116,
+      "compressed_bytes": 61,
+      "crc32": "55db3adb",
+      "sha256": "088b34f827e5246d6f43ed5294a4baeef22d1e29b76c8915650f8817449de807"
+    },
+    {
+      "name": "LeClaire_PCTs_2022.shp",
+      "bytes": 8164,
+      "compressed_bytes": 4684,
+      "crc32": "5cfcb4c2",
+      "sha256": "9efdc21453e409ded26b79801adbafd35b144e3f52160c7dce38dc85732c40ad"
+    },
+    {
+      "name": "LeClaire_PCTs_2022.shp.xml",
+      "bytes": 10655,
+      "compressed_bytes": 2730,
+      "crc32": "dd0d9b44",
+      "sha256": "e74e5f2c1c637e012ce0a11913fc125c83b58d0cc984ddc1a9b5ae108ea51c1d"
+    },
+    {
+      "name": "LeClaire_PCTs_2022.shx",
+      "bytes": 116,
+      "compressed_bytes": 65,
+      "crc32": "07dec3e2",
+      "sha256": "20b870cfcf8b0d0656c6f46ddce6982d80b38e6f38893097a75feed01ba115ed"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-le-claire-precinct-boundaries--1",
+      "shp_member": "LeClaire_PCTs_2022.shp",
+      "dbf_fields": [
+        [
+          "Shape_Leng",
+          "F",
+          19,
+          11
+        ],
+        [
+          "Shape_Area",
+          "F",
+          19,
+          11
+        ],
+        [
+          "Pop2020",
+          "N",
+          5,
+          0
+        ],
+        [
+          "PCT",
+          "C",
+          254,
+          0
+        ]
+      ],
+      "dbf_encoding": "UTF-8",
+      "cpg_present": true,
+      "wkt_original": "PROJCS[\"WGS_1984_Web_Mercator_Auxiliary_Sphere\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Mercator_Auxiliary_Sphere\"],PARAMETER[\"False_Easting\",0.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",0.0],PARAMETER[\"Standard_Parallel_1\",0.0],PARAMETER[\"Auxiliary_Sphere_Type\",0.0],UNIT[\"Meter\",1.0]]",
+      "crs_authority": [
+        "EPSG",
+        "3857"
+      ],
+      "axis_info": [
+        {
+          "name": "Easting",
+          "abbreviation": "E",
+          "direction": "east",
+          "unit": "metre",
+          "conversion_factor": 1.0
+        },
+        {
+          "name": "Northing",
+          "abbreviation": "N",
+          "direction": "north",
+          "unit": "metre",
+          "conversion_factor": 1.0
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 2,
+      "shp_record_header_numbers": [
+        1,
+        2
+      ],
+      "dbf_declared_records": 2,
+      "shx_records": 2,
+      "parsed_records": 2,
+      "vertices": 497,
+      "parts": 2,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -10063950.8339,
+        5097837.943300001,
+        -10056550.98,
+        5103317.805600003
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 229,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -10232813.77734375
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {},
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 268,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -14953456.2421875
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {},
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [
+        {
+          "record_ordinals": [
+            1,
+            2
+          ],
+          "intersection_area": 0.008669174269639151,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": 0.015528988986439271,
+          "native_projected_area_units": "square metre",
+          "native_area_unavailable_reason": null,
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        }
+      ],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-le-claire-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-le-claire-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          462627.5686268964,
+          2077348.2193722846,
+          468063.17819841794,
+          2081622.8395337488
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

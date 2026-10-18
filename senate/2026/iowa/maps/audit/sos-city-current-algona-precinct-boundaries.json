@@ -1,0 +1,351 @@
+{
+  "source_id": "sos-city-current-algona-precinct-boundaries",
+  "source_path": "raw/sos-city-current-algona-precinct-boundaries.zip",
+  "source_sha256": "3feb9cb6467095d0dab1149161740a559769cfbad384c21afb8758be29920a34",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "City_of_Algona_11-4-21.shp",
+      "bytes": 12708,
+      "compressed_bytes": 8071,
+      "crc32": "deec80bf",
+      "sha256": "74b7bf93b84a2874ad28ce30197b70f31cdd0337daa6896e8c1320def1e55b4f"
+    },
+    {
+      "name": "City_of_Algona_11-4-21.shx",
+      "bytes": 132,
+      "compressed_bytes": 78,
+      "crc32": "1a6a2749",
+      "sha256": "223bd993cbcf2d8af9fb9bfe0b366a8e2fc0935069cc3c68b9bb80d85785f29e"
+    },
+    {
+      "name": "City_of_Algona_11-4-21.dbf",
+      "bytes": 2706,
+      "compressed_bytes": 438,
+      "crc32": "6ff74d7c",
+      "sha256": "8a926149813ee01d82902acd3dba3204ec22a661156276e9de86728523ff6206"
+    },
+    {
+      "name": "City_of_Algona_11-4-21.prj",
+      "bytes": 145,
+      "compressed_bytes": 121,
+      "crc32": "af437f55",
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-algona-precinct-boundaries--1",
+      "shp_member": "City_of_Algona_11-4-21.shp",
+      "dbf_fields": [
+        [
+          "LONGNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "SHORTNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "DISTRICT",
+          "N",
+          5,
+          0
+        ],
+        [
+          "COLOR",
+          "N",
+          10,
+          0
+        ],
+        [
+          "TOTAL",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TOTALHISP",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TOTALNH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "WHITENH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "BLACKNH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "AIANNH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "ASIANNH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "HPINH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "OTHERNH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "MLTMNNH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "HISP18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "NONHISP18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "WHITENH18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "BLACKNH18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "AIANNH18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "ASIANNH18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "HPINH18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "OTHERNH18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "MLTMNNH18",
+          "N",
+          18,
+          0
+        ]
+      ],
+      "dbf_encoding": "utf-8",
+      "cpg_present": false,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 4,
+      "shp_record_header_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "dbf_declared_records": 4,
+      "shx_records": 4,
+      "parsed_records": 4,
+      "vertices": 774,
+      "parts": 4,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -94.28182478862264,
+        43.05543364144003,
+        -94.19979276585954,
+        43.09043664592774
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 159,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.00012352047974673042
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Ward 1",
+            "SHORTNAME": "1",
+            "DISTRICT": 1
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 191,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0003059341768221202
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Ward 2",
+            "SHORTNAME": "2",
+            "DISTRICT": 2
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 3,
+          "vertices": 123,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0004330647955157474
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Ward 3",
+            "SHORTNAME": "3",
+            "DISTRICT": 3
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 4,
+          "vertices": 301,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0004346472298948356
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Ward 4",
+            "SHORTNAME": "4",
+            "DISTRICT": 4
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-algona-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-algona-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          139151.62714804974,
+          2230239.0696102264,
+          145794.64875371504,
+          2234129.100813795
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

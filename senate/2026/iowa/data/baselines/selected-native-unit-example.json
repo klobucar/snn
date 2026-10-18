@@ -1,0 +1,70 @@
+{
+  "scope": "2022 native DES MOINES 1 Absentee alone varies; every other historical2022 statewide vote fixed; impossible is an honest result",
+  "source_rows": [
+    {
+      "year": "2022",
+      "county": "Polk",
+      "county_fips": "19153",
+      "source_id": "sos-2022-workbook-150-polk.xls",
+      "sheet": "2",
+      "source_row": "4",
+      "source_column": "4",
+      "unit_key": "sos-2022-workbook-150-polk.xls/2/4",
+      "native_unit_label": "DES MOINES 1",
+      "native_candidate_label": "Michael Franken",
+      "native_method": "Absentee",
+      "metric": "candidate_votes",
+      "votes": "51",
+      "source_page": "",
+      "raw_line": ""
+    },
+    {
+      "year": "2022",
+      "county": "Polk",
+      "county_fips": "19153",
+      "source_id": "sos-2022-workbook-150-polk.xls",
+      "sheet": "2",
+      "source_row": "4",
+      "source_column": "7",
+      "unit_key": "sos-2022-workbook-150-polk.xls/2/4",
+      "native_unit_label": "DES MOINES 1",
+      "native_candidate_label": "Chuck Grassley",
+      "native_method": "Absentee",
+      "metric": "candidate_votes",
+      "votes": "22",
+      "source_page": "",
+      "raw_line": ""
+    },
+    {
+      "year": "2022",
+      "county": "Polk",
+      "county_fips": "19153",
+      "source_id": "sos-2022-workbook-150-polk.xls",
+      "sheet": "2",
+      "source_row": "4",
+      "source_column": "10",
+      "unit_key": "sos-2022-workbook-150-polk.xls/2/4",
+      "native_unit_label": "DES MOINES 1",
+      "native_candidate_label": "Write-in",
+      "native_method": "Absentee",
+      "metric": "candidate_votes",
+      "votes": "0",
+      "source_page": "",
+      "raw_line": ""
+    }
+  ],
+  "calculation": {
+    "selected": "ALL",
+    "denominator_scope": "pair",
+    "final_pair_votes": 1214831,
+    "final_all_candidate_votes": 1216646,
+    "final_denominator": 1214831,
+    "target_net": 12148.31,
+    "fixed_net": -148200,
+    "selected_pair_pool": 73,
+    "required_d_share": 1098.776095890411,
+    "bounded_display_share": 1,
+    "status": "impossible",
+    "achieved_net_at_boundary": -148127
+  }
+}

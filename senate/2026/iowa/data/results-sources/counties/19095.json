@@ -1,0 +1,225 @@
+{
+  "county": "Iowa",
+  "county_fips": "19095",
+  "rank_2024": 40,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Iowa",
+    "county_fips": "19095",
+    "rank_2024": 40,
+    "priority": true,
+    "anchor": "IowaCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#IowaCountyAuditor",
+    "auditor_url": "https://iowacounty.iowa.gov",
+    "phone": "319-642-3923",
+    "directory_source_id": "sos-auditors",
+    "source_position": 48
+  },
+  "current_key_publication": {
+    "source_id": "county-19095-linked7",
+    "url": "https://iowacounty.iowa.gov/elections/2026_general_election_2026_11_03/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:25:40.384374+00:00",
+    "original_sha256": "4a034cdf43f91f61fa7fd5369a339a2897e007410962bddf16e90bdc70bbf8d6"
+  },
+  "finding": "The official current November event and archive were recovered after the county home linked auditor/elections. The archive's Official Results routes include statewide primaryEID126082 and historical Iowa countyEIDs124244/122370. Here Iowa is the county name, while IA is the statewide region; they must not be joined by an unscoped label.",
+  "gap": "No November count or choice IDs; state/county channels overlap and must not be summed.",
+  "tested_routes": [
+    {
+      "source_id": "county-19095-seed",
+      "url": "https://iowacounty.iowa.gov",
+      "parent_url": "https://sos.iowa.gov/auditors#IowaCountyAuditor",
+      "final_url": "https://iowacounty.iowa.gov/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19095-seed.json",
+      "source_identity_inventory_key": "county-19095-seed"
+    },
+    {
+      "source_id": "county-19095-linked1",
+      "url": "https://iowacounty.iowa.gov/news/absentee_ballots/",
+      "parent_url": "https://iowacounty.iowa.gov/",
+      "final_url": "https://iowacounty.iowa.gov/news/absentee_ballots/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19095-linked1.json",
+      "source_identity_inventory_key": "county-19095-linked1"
+    },
+    {
+      "source_id": "county-19095-linked2",
+      "url": "https://iowacounty.iowa.gov/jobs/",
+      "parent_url": "https://iowacounty.iowa.gov/",
+      "final_url": "https://iowacounty.iowa.gov/employment/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19095-linked2.json",
+      "source_identity_inventory_key": "county-19095-linked2"
+    },
+    {
+      "source_id": "county-19095-linked3",
+      "url": "https://iowacounty.iowa.gov/auditor/elections/",
+      "parent_url": "https://iowacounty.iowa.gov/",
+      "final_url": "https://iowacounty.iowa.gov/auditor/elections/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19095-linked3.json",
+      "source_identity_inventory_key": "county-19095-linked3"
+    },
+    {
+      "source_id": "county-19095-linked4",
+      "url": "https://iowacounty.iowa.gov/auditor/election_results/",
+      "parent_url": "https://iowacounty.iowa.gov/auditor/elections/",
+      "final_url": "https://iowacounty.iowa.gov/auditor/election_results/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19095-linked4.json",
+      "source_identity_inventory_key": "county-19095-linked4"
+    },
+    {
+      "source_id": "county-19095-linked5",
+      "url": "https://sos.iowa.gov/elections/voterreg/regtovote/search.aspx",
+      "parent_url": "https://iowacounty.iowa.gov/auditor/elections/",
+      "final_url": "https://apps.sos.iowa.gov/elections/voterreg/regtovote/search.aspx",
+      "status": 403,
+      "error": null,
+      "view_path": "extracts/county-19095-linked5.json",
+      "source_identity_inventory_key": "county-19095-linked5"
+    },
+    {
+      "source_id": "county-19095-linked6",
+      "url": "https://iowacounty.iowa.gov/auditor/upcoming_elections/",
+      "parent_url": "https://iowacounty.iowa.gov/auditor/elections/",
+      "final_url": "https://iowacounty.iowa.gov/auditor/upcoming_elections/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19095-linked6.json",
+      "source_identity_inventory_key": "county-19095-linked6"
+    },
+    {
+      "source_id": "county-19095-linked7",
+      "url": "https://iowacounty.iowa.gov/elections/2026_general_election_2026_11_03/",
+      "parent_url": "https://iowacounty.iowa.gov/auditor/upcoming_elections/",
+      "final_url": "https://iowacounty.iowa.gov/elections/2026_general_election_2026_11_03/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19095-linked7.json",
+      "source_identity_inventory_key": "county-19095-linked7"
+    },
+    {
+      "source_id": "county-19095-linked8",
+      "url": "https://iowacounty.iowa.gov/files/election_results/aclud_special_election_2026_10_06_56116.pdf",
+      "parent_url": "https://iowacounty.iowa.gov/auditor/election_results/",
+      "final_url": "https://iowacounty.iowa.gov/files/election_results/aclud_special_election_2026_10_06_56116.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19095-linked8"
+    },
+    {
+      "source_id": "county-19095-linked9",
+      "url": "https://iowacounty.iowa.gov/files/election_results/millersburg_city_special_election_2026_07_21_81413.pdf",
+      "parent_url": "https://iowacounty.iowa.gov/auditor/election_results/",
+      "final_url": "https://iowacounty.iowa.gov/files/election_results/millersburg_city_special_election_2026_07_21_81413.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19095-linked9"
+    },
+    {
+      "source_id": "county-19095-linked10",
+      "url": "https://sos.iowa.gov/elections/results/index.html",
+      "parent_url": "https://iowacounty.iowa.gov/auditor/election_results/",
+      "final_url": "https://sos.iowa.gov/elections/results/index.html",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19095-linked10.json",
+      "source_identity_inventory_key": "county-19095-linked10"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Iowa",
+    "county_fips": "19095",
+    "native_election_id": "122370",
+    "native_version": "355815",
+    "native_contest_key": "190",
+    "xml_clock": "11/26/2024 10:33:01 AM CST",
+    "roster_clock": "11/26/2024 11:35:31 AM CST",
+    "xml_member_sha256": "68a08c962e474dc16c88414da88ffc52afcdbf3fbfda2a0902c16f2fa4ff648a",
+    "xml_member_bytes": 126615,
+    "candidate_units": 11,
+    "root_turnout_units": 11,
+    "status_units": 11,
+    "candidate_method_cells": 176,
+    "candidate_generic_votes": 9639,
+    "root_turnout_attributes": {
+      "totalVoters": "12579",
+      "ballotsCast": "9704",
+      "voterTurnout": "77.14"
+    },
+    "root_turnout_ballot_sum": 9704,
+    "root_turnout_registration_sum": 12541,
+    "status_ballot_sum": 9704,
+    "status_codes": {
+      "4": 11
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "103",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "104",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "105",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "107",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "108",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "109",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "106",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "0",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19095"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19095",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19095-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#IowaCountyAuditor",
+    "publication_url": "https://iowacounty.iowa.gov/elections/2026_general_election_2026_11_03/",
+    "telephone_from_directory": "319-642-3923",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

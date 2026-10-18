@@ -1,0 +1,245 @@
+{
+  "county": "Polk",
+  "county_fips": "19153",
+  "rank_2024": 1,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Polk",
+    "county_fips": "19153",
+    "rank_2024": 1,
+    "priority": true,
+    "anchor": "PolkCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#PolkCountyAuditor",
+    "auditor_url": "https://www.polkcountyiowa.gov/county-auditor/election/",
+    "phone": "515-286-3247",
+    "directory_source_id": "sos-auditors",
+    "source_position": 77
+  },
+  "current_key_publication": {
+    "source_id": "county-19153-linked2",
+    "url": "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/general-election-november-3-2026-voter-information/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:24:56.088659+00:00",
+    "original_sha256": "2abb77830a8f51e667cf388f4b5e581e722d8b78f879b52776a24f11d226df28"
+  },
+  "finding": "The auditor has a dedicated November 3 voter-information publication. Its historical-results page links the June 2026 statewide Clarity app, not a November result. The recovered June app is EID126082/version377216; do not carry its Senate primary choice IDs into the general election.",
+  "gap": "No November Senate count payload, upload specification, publication cadence or outstanding-vote estimate observed.",
+  "tested_routes": [
+    {
+      "source_id": "county-19153-seed",
+      "url": "https://www.polkcountyiowa.gov/county-auditor/election/",
+      "parent_url": "https://sos.iowa.gov/auditors#PolkCountyAuditor",
+      "final_url": "https://www.polkcountyiowa.gov/county-auditor/election/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19153-seed.json",
+      "source_identity_inventory_key": "county-19153-seed"
+    },
+    {
+      "source_id": "county-19153-linked1",
+      "url": "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/historical-election-results-data-research/",
+      "parent_url": "https://www.polkcountyiowa.gov/county-auditor/election/",
+      "final_url": "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/historical-election-results-data-research/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19153-linked1.json",
+      "source_identity_inventory_key": "county-19153-linked1"
+    },
+    {
+      "source_id": "county-19153-linked2",
+      "url": "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/general-election-november-3-2026-voter-information/",
+      "parent_url": "https://www.polkcountyiowa.gov/county-auditor/election/",
+      "final_url": "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/general-election-november-3-2026-voter-information/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19153-linked2.json",
+      "source_identity_inventory_key": "county-19153-linked2"
+    },
+    {
+      "source_id": "county-19153-linked3",
+      "url": "https://fareharbor.com/embeds/book/jesterparkec/items/62480/?full-items=yes&flow=19203",
+      "parent_url": "https://www.polkcountyiowa.gov/county-auditor/election/",
+      "final_url": "https://fareharbor.com/embeds/book/jesterparkec/items/62480/?full-items=yes&flow=19203",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19153-linked3.json",
+      "source_identity_inventory_key": "county-19153-linked3"
+    },
+    {
+      "source_id": "county-19153-linked4",
+      "url": "https://www.polkcountyiowa.gov/media/wj3htvpa/2026-polk-county-dog-application.pdf",
+      "parent_url": "https://www.polkcountyiowa.gov/county-auditor/election/",
+      "final_url": "https://www.polkcountyiowa.gov/media/wj3htvpa/2026-polk-county-dog-application.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19153-linked4"
+    },
+    {
+      "source_id": "county-19153-linked5",
+      "url": "https://sos.iowa.gov/elections/results/index.html",
+      "parent_url": "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/historical-election-results-data-research/",
+      "final_url": "https://sos.iowa.gov/elections/results/index.html",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19153-linked5.json",
+      "source_identity_inventory_key": "county-19153-linked5"
+    },
+    {
+      "source_id": "county-19153-linked6",
+      "url": "https://electionresults.iowa.gov/IA/126082/web.345435/",
+      "parent_url": "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/historical-election-results-data-research/",
+      "final_url": "https://electionresults.iowa.gov/IA/126082/web.345435/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19153-linked6.json",
+      "source_identity_inventory_key": "county-19153-linked6"
+    },
+    {
+      "source_id": "county-19153-linked7",
+      "url": "https://www.polkcountyiowa.gov/media/knkglhuo/2025_cityschool_canvass_results.pdf",
+      "parent_url": "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/historical-election-results-data-research/",
+      "final_url": "https://www.polkcountyiowa.gov/media/knkglhuo/2025_cityschool_canvass_results.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19153-linked7"
+    },
+    {
+      "source_id": "county-19153-linked8",
+      "url": "https://electionresults.iowa.gov/IA/125665/web.345435/",
+      "parent_url": "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/historical-election-results-data-research/",
+      "final_url": "https://electionresults.iowa.gov/IA/125665/web.345435/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19153-linked8.json",
+      "source_identity_inventory_key": "county-19153-linked8"
+    },
+    {
+      "source_id": "county-19153-linked9",
+      "url": "https://sos.iowa.gov/iowans/election-results-statistics",
+      "parent_url": "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/historical-election-results-data-research/",
+      "final_url": "https://sos.iowa.gov/iowans/election-results-statistics",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19153-linked9.json",
+      "source_identity_inventory_key": "county-19153-linked9"
+    },
+    {
+      "source_id": "county-19153-linked10",
+      "url": "https://polkcountyia.portal.civicclerk.com/event/5304/files/agenda/14896",
+      "parent_url": "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/historical-election-results-data-research/",
+      "final_url": "https://polkcountyia.portal.civicclerk.com/event/5304/files/agenda/14896",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19153-linked10.json",
+      "source_identity_inventory_key": "county-19153-linked10"
+    },
+    {
+      "source_id": "county-19153-linked11",
+      "url": "https://polkcountyia.portal.civicclerk.com/event/7311/files/agenda/14934",
+      "parent_url": "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/historical-election-results-data-research/",
+      "final_url": "https://polkcountyia.portal.civicclerk.com/event/7311/files/agenda/14934",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19153-linked11.json",
+      "source_identity_inventory_key": "county-19153-linked11"
+    },
+    {
+      "source_id": "county-19153-linked12",
+      "url": "https://polkcountyia.portal.civicclerk.com/event/7348/files/agenda/16092",
+      "parent_url": "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/historical-election-results-data-research/",
+      "final_url": "https://polkcountyia.portal.civicclerk.com/event/7348/files/agenda/16092",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19153-linked12.json",
+      "source_identity_inventory_key": "county-19153-linked12"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Polk",
+    "county_fips": "19153",
+    "native_election_id": "122399",
+    "native_version": "354319",
+    "native_contest_key": "100",
+    "xml_clock": "11/12/2024 1:59:19 PM CST",
+    "roster_clock": "11/12/2024 1:59:27 PM CST",
+    "xml_member_sha256": "40f9238e541b4b6c2ec734f3431cb0cf76b6ab7af2d9c3ea66604ec9dcb05188",
+    "xml_member_bytes": 1674890,
+    "candidate_units": 176,
+    "root_turnout_units": 176,
+    "status_units": 176,
+    "candidate_method_cells": 2816,
+    "candidate_generic_votes": 256838,
+    "root_turnout_attributes": {
+      "totalVoters": "339707",
+      "ballotsCast": "258067",
+      "voterTurnout": "75.97"
+    },
+    "root_turnout_ballot_sum": 258067,
+    "root_turnout_registration_sum": 339478,
+    "status_ballot_sum": 258067,
+    "status_codes": {
+      "4": 176
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "100",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "179",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "198",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "217",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "218",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "219",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "228",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "0",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19153"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19153",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19153-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#PolkCountyAuditor",
+    "publication_url": "https://www.polkcountyiowa.gov/county-auditor/election/news-and-press-releases/general-election-november-3-2026-voter-information/",
+    "telephone_from_directory": "515-286-3247",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

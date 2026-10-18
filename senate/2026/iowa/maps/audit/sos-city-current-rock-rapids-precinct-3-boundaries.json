@@ -1,0 +1,160 @@
+{
+  "source_id": "sos-city-current-rock-rapids-precinct-3-boundaries",
+  "source_path": "raw/sos-city-current-rock-rapids-precinct-3-boundaries.zip",
+  "source_sha256": "12d2e85def16f4f66b69122c8a5d2f126e27a7a6402a6436bb1efdca3e66961d",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "LyonCountyPrecinct3.cpg",
+      "bytes": 5,
+      "compressed_bytes": 5,
+      "crc32": "0e813c50",
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+    },
+    {
+      "name": "LyonCountyPrecinct3.dbf",
+      "bytes": 73,
+      "compressed_bytes": 30,
+      "crc32": "f5ab7fd2",
+      "sha256": "210f4f33f40df9349198a429cb7101448e7a3cf5993bc8641ee6d2da2904d8e8"
+    },
+    {
+      "name": "LyonCountyPrecinct3.prj",
+      "bytes": 424,
+      "compressed_bytes": 267,
+      "crc32": "8311301c",
+      "sha256": "63d016614dcdd3ff43d9394ae59aa32a9d74d1610d3e77134e7da0fc8b1b6899"
+    },
+    {
+      "name": "LyonCountyPrecinct3.sbn",
+      "bytes": 132,
+      "compressed_bytes": 68,
+      "crc32": "4961f6d1",
+      "sha256": "bd89c4f1ff404c3c340555517493489f78676ecdff2c168bda15a74b021985df"
+    },
+    {
+      "name": "LyonCountyPrecinct3.sbx",
+      "bytes": 116,
+      "compressed_bytes": 61,
+      "crc32": "3bd463b7",
+      "sha256": "42772091bafaf9c2de7399fd91319d8ccc824216c1f14bb5401e98dec0a4b8af"
+    },
+    {
+      "name": "LyonCountyPrecinct3.shp",
+      "bytes": 556,
+      "compressed_bytes": 400,
+      "crc32": "1999438c",
+      "sha256": "17ae51c711fe1f97aaae5c81ce997a47fb071f44da099bb45a13dddfbeb221fc"
+    },
+    {
+      "name": "LyonCountyPrecinct3.shx",
+      "bytes": 108,
+      "compressed_bytes": 55,
+      "crc32": "7f31b013",
+      "sha256": "e073ef227db3c0f8229d175b66e2be97611e75780b6b8db1cca8a9682c7f200c"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-rock-rapids-precinct-3-boundaries--1",
+      "shp_member": "LyonCountyPrecinct3.shp",
+      "dbf_fields": [
+        [
+          "Id",
+          "N",
+          6,
+          0
+        ]
+      ],
+      "dbf_encoding": "UTF-8",
+      "cpg_present": true,
+      "wkt_original": "PROJCS[\"NAD_1983_UTM_Zone_15N\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",500000.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-93.0],PARAMETER[\"Scale_Factor\",0.9996],PARAMETER[\"Latitude_Of_Origin\",0.0],UNIT[\"Meter\",1.0]]",
+      "crs_authority": [
+        "EPSG",
+        "26915"
+      ],
+      "axis_info": [
+        {
+          "name": "Easting",
+          "abbreviation": "E",
+          "direction": "east",
+          "unit": "metre",
+          "conversion_factor": 1.0
+        },
+        {
+          "name": "Northing",
+          "abbreviation": "N",
+          "direction": "north",
+          "unit": "metre",
+          "conversion_factor": 1.0
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 1,
+      "shp_record_header_numbers": [
+        1
+      ],
+      "dbf_declared_records": 1,
+      "shx_records": 1,
+      "parsed_records": 1,
+      "vertices": 25,
+      "parts": 1,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        233227.42274026386,
+        4809089.165137624,
+        252770.94642760605,
+        4821563.121902479
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 25,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -189494315.43029785
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "Id": 0
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-rock-rapids-precinct-3-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-rock-rapids-precinct-3-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          -23684.295640283224,
+          2266253.9459034083,
+          -4649.672130262701,
+          2278582.525876575
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

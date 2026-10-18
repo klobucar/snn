@@ -1,0 +1,56 @@
+{
+  "scope": "synthetic arithmetic only; counted D40 R60 other10 fixed; pair remainder100 and other20",
+  "examples": [
+    {
+      "name": "tie",
+      "result": {
+        "selected": "ALL",
+        "denominator_scope": "pair",
+        "final_pair_votes": 200,
+        "final_all_candidate_votes": 230,
+        "final_denominator": 200,
+        "target_net": 0.0,
+        "fixed_net": -20,
+        "selected_pair_pool": 100,
+        "required_d_share": 0.6,
+        "bounded_display_share": 0.6,
+        "status": "feasible",
+        "achieved_net_at_boundary": -3.552713678800501e-15
+      }
+    },
+    {
+      "name": "D+1 pair",
+      "result": {
+        "selected": "ALL",
+        "denominator_scope": "pair",
+        "final_pair_votes": 200,
+        "final_all_candidate_votes": 230,
+        "final_denominator": 200,
+        "target_net": 2.0,
+        "fixed_net": -20,
+        "selected_pair_pool": 100,
+        "required_d_share": 0.61,
+        "bounded_display_share": 0.61,
+        "status": "feasible",
+        "achieved_net_at_boundary": 1.9999999999999964
+      }
+    },
+    {
+      "name": "D+1 all-candidate",
+      "result": {
+        "selected": "ALL",
+        "denominator_scope": "all-candidate",
+        "final_pair_votes": 200,
+        "final_all_candidate_votes": 230,
+        "final_denominator": 230,
+        "target_net": 2.3000000000000003,
+        "fixed_net": -20,
+        "selected_pair_pool": 100,
+        "required_d_share": 0.6114999999999999,
+        "bounded_display_share": 0.6114999999999999,
+        "status": "feasible",
+        "achieved_net_at_boundary": 2.2999999999999865
+      }
+    }
+  ]
+}

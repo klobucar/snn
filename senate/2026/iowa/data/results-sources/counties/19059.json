@@ -1,0 +1,135 @@
+{
+  "county": "Dickinson",
+  "county_fips": "19059",
+  "rank_2024": 29,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Dickinson",
+    "county_fips": "19059",
+    "rank_2024": 29,
+    "priority": true,
+    "anchor": "DickinsonCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#DickinsonCountyAuditor",
+    "auditor_url": "https://www.dickinsoncountyiowa.org/auditor/",
+    "phone": "712-336-3356",
+    "directory_source_id": "sos-auditors",
+    "source_position": 30
+  },
+  "current_key_publication": {
+    "source_id": "county-19059-observed0",
+    "url": "https://dickinsoncountyiowa.gov/auditor/",
+    "http_status": 403,
+    "retrieval_utc": "2026-10-18T04:31:06.332091+00:00",
+    "original_sha256": "889403e5cfbb7981f7a26aced0d7492524e5397d6996f7fccd67562d2a4a71a3"
+  },
+  "finding": "The SOS-listed .org auditor route returned403. The official page was readable through the web tool and linked the current .gov auditor route; that actual replacement was also tested and returned403. A Kansas Dickinson search result was explicitly excluded as wrong state.",
+  "gap": "Current Iowa result channel content remains blocked; historical pinned county XML retains a useful schema but does not approve a November route.",
+  "tested_routes": [
+    {
+      "source_id": "county-19059-seed",
+      "url": "https://www.dickinsoncountyiowa.org/auditor/",
+      "parent_url": "https://sos.iowa.gov/auditors#DickinsonCountyAuditor",
+      "final_url": "https://www.dickinsoncountyiowa.org/auditor/",
+      "status": 403,
+      "error": null,
+      "view_path": "extracts/county-19059-seed.json",
+      "source_identity_inventory_key": "county-19059-seed"
+    },
+    {
+      "source_id": "county-19059-observed0",
+      "url": "https://dickinsoncountyiowa.gov/auditor/",
+      "parent_url": "https://www.dickinsoncountyiowa.org/auditor/",
+      "final_url": "https://dickinsoncountyiowa.gov/auditor/",
+      "status": 403,
+      "error": null,
+      "view_path": "extracts/county-19059-observed0.json",
+      "source_identity_inventory_key": "county-19059-observed0"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Dickinson",
+    "county_fips": "19059",
+    "native_election_id": "122352",
+    "native_version": "354838",
+    "native_contest_key": "3005000100900",
+    "xml_clock": "11/14/2024 11:14:40 AM CST",
+    "roster_clock": "11/14/2024 11:18:01 AM CST",
+    "xml_member_sha256": "c826b1f6359e03cf067c89840df4209685da00a949077633e8e7b3c0d59c6afb",
+    "xml_member_bytes": 96674,
+    "candidate_units": 12,
+    "root_turnout_units": 12,
+    "status_units": 12,
+    "candidate_method_cells": 192,
+    "candidate_generic_votes": 11234,
+    "root_turnout_attributes": {
+      "totalVoters": "14939",
+      "ballotsCast": "11319",
+      "voterTurnout": "75.77"
+    },
+    "root_turnout_ballot_sum": 11319,
+    "root_turnout_registration_sum": 0,
+    "status_ballot_sum": 11319,
+    "status_codes": {
+      "4": 12
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "3005000133901",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "3005000111902",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "3005000188903",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "3005000155904",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "3005000166905",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "3005000177906",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "3005000144907",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "W3005000100900",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19059"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19059",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19059-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#DickinsonCountyAuditor",
+    "publication_url": "https://dickinsoncountyiowa.gov/auditor/",
+    "telephone_from_directory": "712-336-3356",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

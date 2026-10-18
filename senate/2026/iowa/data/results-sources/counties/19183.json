@@ -1,0 +1,245 @@
+{
+  "county": "Washington",
+  "county_fips": "19183",
+  "rank_2024": 28,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Washington",
+    "county_fips": "19183",
+    "rank_2024": 28,
+    "priority": true,
+    "anchor": "WashingtonCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#WashingtonCountyAuditor",
+    "auditor_url": "https://washingtoncounty.iowa.gov/151/Auditor",
+    "phone": "319-653-7715",
+    "directory_source_id": "sos-auditors",
+    "source_position": 92
+  },
+  "current_key_publication": {
+    "source_id": "county-19183-linked2",
+    "url": "https://washingtoncounty.iowa.gov/344/Elections",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:24:57.930926+00:00",
+    "original_sha256": "0b49f80a3c36ab2e52e6fc38566bf7b13c6885494a1780377378e57e5f76feda"
+  },
+  "finding": "The auditor links /344/Elections, which publishes November3 candidate/sample-ballot links alongside actual recent canvass PDFs and an Archive.aspx archive. The current Ainsworth ballot was downloaded, as were the June2 primary and September8 Riverside special canvasses. These are distinct PDF publication contexts; the page explicitly labels local poll hours7am–8pmCST.",
+  "gap": "No November Senate payload, update schedule or remaining-vote field in the tested routes.",
+  "tested_routes": [
+    {
+      "source_id": "county-19183-seed",
+      "url": "https://washingtoncounty.iowa.gov/151/Auditor",
+      "parent_url": "https://sos.iowa.gov/auditors#WashingtonCountyAuditor",
+      "final_url": "https://washingtoncounty.iowa.gov/151/Auditor",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19183-seed.json",
+      "source_identity_inventory_key": "county-19183-seed"
+    },
+    {
+      "source_id": "county-19183-linked1",
+      "url": "https://washingtoncounty.iowa.gov/Search/Results",
+      "parent_url": "https://washingtoncounty.iowa.gov/151/Auditor",
+      "final_url": "https://washingtoncounty.iowa.gov/Search/Index?departmentId=-1&module=0&page=1&perPage=10",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19183-linked1.json",
+      "source_identity_inventory_key": "county-19183-linked1"
+    },
+    {
+      "source_id": "county-19183-linked2",
+      "url": "https://washingtoncounty.iowa.gov/344/Elections",
+      "parent_url": "https://washingtoncounty.iowa.gov/151/Auditor",
+      "final_url": "https://washingtoncounty.iowa.gov/344/Elections",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19183-linked2.json",
+      "source_identity_inventory_key": "county-19183-linked2"
+    },
+    {
+      "source_id": "county-19183-linked3",
+      "url": "https://washingtoncounty.iowa.gov/DocumentCenter/View/3062",
+      "parent_url": "https://washingtoncounty.iowa.gov/344/Elections",
+      "final_url": "https://washingtoncounty.iowa.gov/DocumentCenter/View/3062/Riverside-Special-Elction-09-08-2026-Canvass-Summary---Official-Results?bidId=",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19183-linked3"
+    },
+    {
+      "source_id": "county-19183-linked4",
+      "url": "https://washingtoncounty.iowa.gov/DocumentCenter/View/3026",
+      "parent_url": "https://washingtoncounty.iowa.gov/344/Elections",
+      "final_url": "https://washingtoncounty.iowa.gov/DocumentCenter/View/3026/Primary-Election-June-02-2026---Official-Canvass-summary-Results?bidId=",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19183-linked4"
+    },
+    {
+      "source_id": "county-19183-linked5",
+      "url": "https://washingtoncounty.iowa.gov/DocumentCenter/View/2990",
+      "parent_url": "https://washingtoncounty.iowa.gov/344/Elections",
+      "final_url": "https://washingtoncounty.iowa.gov/DocumentCenter/View/2990/Keota-CSD-Special-Election-03032026-Official-Results?bidId=",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19183-linked5"
+    },
+    {
+      "source_id": "county-19183-linked6",
+      "url": "https://washingtoncounty.iowa.gov/Archive.aspx?AMID=42",
+      "parent_url": "https://washingtoncounty.iowa.gov/Search/Index?departmentId=-1&module=0&page=1&perPage=10",
+      "final_url": "https://washingtoncounty.iowa.gov/Archive.aspx?AMID=42",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19183-linked6.json",
+      "source_identity_inventory_key": "county-19183-linked6"
+    },
+    {
+      "source_id": "county-19183-linked7",
+      "url": "https://washingtoncounty.iowa.gov/DocumentCenter/View/2933",
+      "parent_url": "https://washingtoncounty.iowa.gov/344/Elections",
+      "final_url": "https://washingtoncounty.iowa.gov/DocumentCenter/View/2933/City-School-Election-November-4-2025-Official-Results?bidId=",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19183-linked7"
+    },
+    {
+      "source_id": "county-19183-linked8",
+      "url": "https://washingtoncounty.iowa.gov/DocumentCenter/View/2270",
+      "parent_url": "https://washingtoncounty.iowa.gov/344/Elections",
+      "final_url": "https://washingtoncounty.iowa.gov/DocumentCenter/View/2270/Special-City-of-Washington-Ward-2---February-14-2023---Unofficial-Results?bidId=",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19183-linked8"
+    },
+    {
+      "source_id": "county-19183-linked9",
+      "url": "https://washingtoncounty.iowa.gov/Archive.aspx?ADID=203",
+      "parent_url": "https://washingtoncounty.iowa.gov/Archive.aspx?AMID=42",
+      "final_url": "https://washingtoncounty.iowa.gov/ArchiveCenter/ViewFile/Item/203",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19183-linked9"
+    },
+    {
+      "source_id": "county-19183-linked10",
+      "url": "https://washingtoncounty.iowa.gov/Archive.aspx?ADID=202",
+      "parent_url": "https://washingtoncounty.iowa.gov/Archive.aspx?AMID=42",
+      "final_url": "https://washingtoncounty.iowa.gov/ArchiveCenter/ViewFile/Item/202",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19183-linked10"
+    },
+    {
+      "source_id": "county-19183-final-review0",
+      "url": "https://washingtoncounty.iowa.gov/344/Elections",
+      "parent_url": "https://washingtoncounty.iowa.gov/151/Auditor",
+      "final_url": "https://washingtoncounty.iowa.gov/344/Elections",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19183-final-review0.json",
+      "source_identity_inventory_key": "county-19183-final-review0"
+    },
+    {
+      "source_id": "county-19183-current-ballot",
+      "url": "https://washingtoncounty.iowa.gov/DocumentCenter/View/3073",
+      "parent_url": "https://washingtoncounty.iowa.gov/344/Elections",
+      "final_url": "https://washingtoncounty.iowa.gov/DocumentCenter/View/3073/General-Election---AINSWORTH-SAMPLE-BALLOTS?bidId=",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19183-current-ballot"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Washington",
+    "county_fips": "19183",
+    "native_election_id": "122414",
+    "native_version": "354712",
+    "native_contest_key": "190",
+    "xml_clock": "11/13/2024 4:26:12 PM CST",
+    "roster_clock": "11/13/2024 4:28:22 PM CST",
+    "xml_member_sha256": "ee94e2a3f25161d9b18542991ed3add14533789f8f202936cd39678601a656ac",
+    "xml_member_bytes": 122649,
+    "candidate_units": 10,
+    "root_turnout_units": 10,
+    "status_units": 10,
+    "candidate_method_cells": 160,
+    "candidate_generic_votes": 11588,
+    "root_turnout_attributes": {
+      "totalVoters": "15617",
+      "ballotsCast": "11673",
+      "voterTurnout": "74.75"
+    },
+    "root_turnout_ballot_sum": 11673,
+    "root_turnout_registration_sum": 0,
+    "status_ballot_sum": 11673,
+    "status_codes": {
+      "4": 10
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "110",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "111",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "112",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "113",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "114",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "115",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "116",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "0",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19183"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19183",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19183-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#WashingtonCountyAuditor",
+    "publication_url": "https://washingtoncounty.iowa.gov/344/Elections",
+    "telephone_from_directory": "319-653-7715",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

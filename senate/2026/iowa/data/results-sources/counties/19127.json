@@ -1,0 +1,265 @@
+{
+  "county": "Marshall",
+  "county_fips": "19127",
+  "rank_2024": 19,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Marshall",
+    "county_fips": "19127",
+    "rank_2024": 19,
+    "priority": true,
+    "anchor": "MarshallCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#MarshallCountyAuditor",
+    "auditor_url": "https://elections.marshallcountyia.gov",
+    "phone": "641-754-6302",
+    "directory_source_id": "sos-auditors",
+    "source_position": 64
+  },
+  "current_key_publication": {
+    "source_id": "county-19127-linked1",
+    "url": "https://elections.marshallcountyia.gov/elections/info/2026_general_election_2026_11_03/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:24:55.527104+00:00",
+    "original_sha256": "c160b5359822332f497f1f1e4d61b814df5ea2738f76d3f3087328077b837b94"
+  },
+  "finding": "The official elections subdomain publishes a November3 event, Election Center absentee-voting information and a combined sample-ballot download. Actual sample content contains the three Senate candidates and a write-in category. The primary result archive remains separate.",
+  "gap": "No November count IDs or machine upload format. A combined ballot PDF is not a one-to-one roster of geographic precincts.",
+  "tested_routes": [
+    {
+      "source_id": "county-19127-seed",
+      "url": "https://elections.marshallcountyia.gov",
+      "parent_url": "https://sos.iowa.gov/auditors#MarshallCountyAuditor",
+      "final_url": "https://elections.marshallcountyia.gov/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19127-seed.json",
+      "source_identity_inventory_key": "county-19127-seed"
+    },
+    {
+      "source_id": "county-19127-linked1",
+      "url": "https://elections.marshallcountyia.gov/elections/info/2026_general_election_2026_11_03/",
+      "parent_url": "https://elections.marshallcountyia.gov/",
+      "final_url": "https://elections.marshallcountyia.gov/elections/info/2026_general_election_2026_11_03/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19127-linked1.json",
+      "source_identity_inventory_key": "county-19127-linked1"
+    },
+    {
+      "source_id": "county-19127-linked2",
+      "url": "https://elections.marshallcountyia.gov/files/election_results/west_marshall_csd_ppel_special_2026_09_08_95311.pdf",
+      "parent_url": "https://elections.marshallcountyia.gov/",
+      "final_url": "https://elections.marshallcountyia.gov/files/election_results/west_marshall_csd_ppel_special_2026_09_08_95311.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19127-linked2"
+    },
+    {
+      "source_id": "county-19127-linked3",
+      "url": "https://elections.marshallcountyia.gov/files/election_results/2026_primary_election_2026_06_02_23457_.pdf",
+      "parent_url": "https://elections.marshallcountyia.gov/",
+      "final_url": "https://elections.marshallcountyia.gov/files/election_results/2026_primary_election_2026_06_02_23457_.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19127-linked3"
+    },
+    {
+      "source_id": "county-19127-linked4",
+      "url": "https://elections.marshallcountyia.gov/elections/info/west_marshall_csd_ppel_special_2026_09_08/",
+      "parent_url": "https://elections.marshallcountyia.gov/",
+      "final_url": "https://elections.marshallcountyia.gov/elections/info/west_marshall_csd_ppel_special_2026_09_08/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19127-linked4.json",
+      "source_identity_inventory_key": "county-19127-linked4"
+    },
+    {
+      "source_id": "county-19127-linked5",
+      "url": "https://elections.marshallcountyia.gov/elections/info/2026_primary_election_2026_06_02/",
+      "parent_url": "https://elections.marshallcountyia.gov/",
+      "final_url": "https://elections.marshallcountyia.gov/elections/info/2026_primary_election_2026_06_02/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19127-linked5.json",
+      "source_identity_inventory_key": "county-19127-linked5"
+    },
+    {
+      "source_id": "county-19127-linked6",
+      "url": "https://elections.marshallcountyia.gov/elections/ballots/",
+      "parent_url": "https://elections.marshallcountyia.gov/",
+      "final_url": "https://elections.marshallcountyia.gov/elections/ballots/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19127-linked6.json",
+      "source_identity_inventory_key": "county-19127-linked6"
+    },
+    {
+      "source_id": "county-19127-linked7",
+      "url": "https://elections.marshallcountyia.gov/elections/past/2026/",
+      "parent_url": "https://elections.marshallcountyia.gov/elections/info/2026_general_election_2026_11_03/",
+      "final_url": "https://elections.marshallcountyia.gov/elections/past/2026/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19127-linked7.json",
+      "source_identity_inventory_key": "county-19127-linked7"
+    },
+    {
+      "source_id": "county-19127-linked8",
+      "url": "https://elections.marshallcountyia.gov/files/sample_ballots/20261103_all_ballot_styles_92227.pdf",
+      "parent_url": "https://elections.marshallcountyia.gov/elections/info/2026_general_election_2026_11_03/",
+      "final_url": "https://elections.marshallcountyia.gov/files/sample_ballots/20261103_all_ballot_styles_92227.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19127-linked8"
+    },
+    {
+      "source_id": "county-19127-linked9",
+      "url": "https://elections.marshallcountyia.gov/files/election_results/cityschool_election_2019_11_05_50991.pdf",
+      "parent_url": "https://elections.marshallcountyia.gov/elections/past/2026/",
+      "final_url": "https://elections.marshallcountyia.gov/files/election_results/cityschool_election_2019_11_05_50991.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19127-linked9"
+    },
+    {
+      "source_id": "county-19127-linked10",
+      "url": "https://elections.marshallcountyia.gov/files/election_results/ivccd_special_election_2019_04_16_73364.pdf",
+      "parent_url": "https://elections.marshallcountyia.gov/elections/past/2026/",
+      "final_url": "https://elections.marshallcountyia.gov/files/election_results/ivccd_special_election_2019_04_16_73364.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19127-linked10"
+    },
+    {
+      "source_id": "county-19127-linked11",
+      "url": "https://elections.marshallcountyia.gov/files/election_results/general_election_2018_11_06_72813.pdf",
+      "parent_url": "https://elections.marshallcountyia.gov/elections/past/2026/",
+      "final_url": "https://elections.marshallcountyia.gov/files/election_results/general_election_2018_11_06_72813.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19127-linked11"
+    },
+    {
+      "source_id": "county-19127-linked12",
+      "url": "https://elections.marshallcountyia.gov/files/election_results/republican_primary_2018_06_05_57204.pdf",
+      "parent_url": "https://elections.marshallcountyia.gov/elections/past/2026/",
+      "final_url": "https://elections.marshallcountyia.gov/files/election_results/republican_primary_2018_06_05_57204.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19127-linked12"
+    },
+    {
+      "source_id": "county-19127-specific0",
+      "url": "https://elections.marshallcountyia.gov/files/sample_ballots/20260908_west_marshall_csd_ppel_23676.pdf",
+      "parent_url": "https://elections.marshallcountyia.gov/elections/info/west_marshall_csd_ppel_special_2026_09_08/",
+      "final_url": "https://elections.marshallcountyia.gov/files/sample_ballots/20260908_west_marshall_csd_ppel_23676.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19127-specific0"
+    },
+    {
+      "source_id": "county-19127-specific1",
+      "url": "https://elections.marshallcountyia.gov/files/sample_ballots/20260602_bangorliscombtaylorrep_28584.pdf",
+      "parent_url": "https://elections.marshallcountyia.gov/elections/info/2026_primary_election_2026_06_02/",
+      "final_url": "https://elections.marshallcountyia.gov/files/sample_ballots/20260602_bangorliscombtaylorrep_28584.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19127-specific1"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Marshall",
+    "county_fips": "19127",
+    "native_election_id": "122386",
+    "native_version": "354788",
+    "native_contest_key": "100",
+    "xml_clock": "11/14/2024 9:44:02 AM CST",
+    "roster_clock": "11/14/2024 9:53:19 AM CST",
+    "xml_member_sha256": "845df508b5fc9c02bb3c58d755fae41197cecb9a2af939f26f05a14d56955731",
+    "xml_member_bytes": 185295,
+    "candidate_units": 11,
+    "root_turnout_units": 11,
+    "status_units": 11,
+    "candidate_method_cells": 176,
+    "candidate_generic_votes": 17270,
+    "root_turnout_attributes": {
+      "totalVoters": "24836",
+      "ballotsCast": "17406",
+      "voterTurnout": "70.08"
+    },
+    "root_turnout_ballot_sum": 17406,
+    "root_turnout_registration_sum": 0,
+    "status_ballot_sum": 17406,
+    "status_codes": {
+      "4": 11
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "100",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "105",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "110",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "120",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "125",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "130",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "115",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "0",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19127"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19127",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19127-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#MarshallCountyAuditor",
+    "publication_url": "https://elections.marshallcountyia.gov/elections/info/2026_general_election_2026_11_03/",
+    "telephone_from_directory": "641-754-6302",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

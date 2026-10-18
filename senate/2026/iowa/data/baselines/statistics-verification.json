@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "scope": "read-only peer full numeric transcriptions and unit source-line identity independently checked against original PDF layout text; demographics overlap; source vintages not substituted for election-date turnout",
+  "rows_checked": 327516,
+  "numeric_or_percent_cells_checked": 2620128,
+  "native_labels_checked": 4990,
+  "differences": [],
+  "unit_label_differences": [],
+  "source_age_total_disagreements": [
+    {
+      "key": [
+        "sos-2020-statestats",
+        "2",
+        "40"
+      ],
+      "county": "State of Iowa",
+      "unit": "Grand Totals",
+      "category": "Grand Totals",
+      "metric": "REGISTERED",
+      "age_sum_minus_total": 2,
+      "raw_line": "     Grand Totals       REGISTERED           0   259047       373114          499110     536991     534994              0        2203254"
+    }
+  ],
+  "peer_artifacts": [
+    {
+      "path": "../turnout/statistics-rows.csv.gz",
+      "sha256": "13b5e7dd114704223e4642a56791d84eb98585d8b52990be5d77db702df9b560",
+      "bytes": 11441750
+    },
+    {
+      "path": "../turnout/statistics-units.csv",
+      "sha256": "a6a8276041bc67d2680cd58215fc5cae2720e6eef38eaeac21b1861dda940b29",
+      "bytes": 986055
+    }
+  ]
+}

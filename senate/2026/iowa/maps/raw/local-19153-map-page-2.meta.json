@@ -1,0 +1,61 @@
+{
+  "source_id": "local-19153-map-page-2",
+  "requested_url": "https://maps.polkcountyiowa.gov",
+  "parent_authority_url": "https://sos.iowa.gov/auditors#PolkCountyAuditor",
+  "kind": "county-authority",
+  "retrieval_utc": "2026-10-18T04:28:07.465835+00:00",
+  "county": "Polk",
+  "link_label": "County GIS Maps",
+  "final_url": "https://maps.polkcountyiowa.gov/portal/apps/sites/#/gis-maps/",
+  "status": 200,
+  "reason": "OK",
+  "headers": {
+    "Content-Type": "text/html",
+    "Last-Modified": "Tue, 25 Aug 2026 05:00:42 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "W/\"12194-1787634042539\"",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Content-Type-Options": "nosniff",
+    "X-Akamai-Transformed": "9 2750 0 pmb=mRUM,1",
+    "Content-Encoding": "gzip",
+    "Cache-Control": "private, max-age=0",
+    "Date": "Sun, 18 Oct 2026 04:28:07 GMT",
+    "Content-Length": "4787",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Server-Timing": "edge; dur=1, origin; dur=15, cdn-cache; desc=MISS, ak_p; desc=\"1792297687809_3088984477_131519395_1636_7949_15_0_-\";dur=1",
+    "Alt-Svc": "h3=\":443\"; ma=93600",
+    "Strict-Transport-Security": "max-age=31536000"
+  },
+  "request_headers": {
+    "User-Agent": "Iowa-public-map-research/1.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive"
+  },
+  "redirects": [
+    {
+      "status": 301,
+      "url": "https://maps.polkcountyiowa.gov/",
+      "headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Location": "https://maps.polkcountyiowa.gov/portal/apps/sites/#/gis-maps/",
+        "Server": "Microsoft-IIS/10.0",
+        "Content-Length": "184",
+        "Cache-Control": "max-age=0",
+        "Date": "Sun, 18 Oct 2026 04:28:07 GMT",
+        "Connection": "keep-alive",
+        "Server-Timing": "cdn-cache; desc=MISS, edge; dur=27, origin; dur=83, ak_p; desc=\"1792297687595_3088984477_131519385_10997_7942_8_25_-\";dur=1",
+        "Alt-Svc": "h3=\":443\"; ma=93600",
+        "Strict-Transport-Security": "max-age=31536000"
+      }
+    }
+  ],
+  "entity_bytes": 16477,
+  "entity_sha256": "697a96092f94499dc7eaa4ef1a51d47aa2e23a53dab828f84dafeb151afc2a20",
+  "transport_decoding": "requests HTTP content decoding; no other modification",
+  "path": "raw/local-19153-map-page-2.gz",
+  "stored_encoding": "gzip",
+  "stored_bytes": 4775,
+  "stored_sha256": "8308420b6cf8862b4edd6e20734cc6e57d09df906bd4b354da7be7a29ffb420c"
+}

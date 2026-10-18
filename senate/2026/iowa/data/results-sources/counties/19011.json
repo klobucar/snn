@@ -1,0 +1,245 @@
+{
+  "county": "Benton",
+  "county_fips": "19011",
+  "rank_2024": 25,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Benton",
+    "county_fips": "19011",
+    "rank_2024": 25,
+    "priority": true,
+    "anchor": "BentonCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#BentonCountyAuditor",
+    "auditor_url": "https://www.bentoncountyia.gov/departments/administration-business-finance/auditor/",
+    "phone": "319-472-2365",
+    "directory_source_id": "sos-auditors",
+    "source_position": 6
+  },
+  "current_key_publication": {
+    "source_id": "county-19011-linked5",
+    "url": "https://elections.bentoncountyia.gov/elections/info/general_election_2026_11_03/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:25:08.501532+00:00",
+    "original_sha256": "f01c8d60587a4d1911953fafc5c857b3abad41dd6f491f1b66455287fa1be540"
+  },
+  "finding": "The auditor links elections.bentoncountyia.gov. Its November event, actual public notice, combined sample ballots and separate primary result PDFs were recovered. The public notice says eighteen precincts for this election; that statement is retained with its vintage and does not prove one-to-one equivalence with historical candidate/turnout/statistical units.",
+  "gap": "No demonstrated November numeric feed or current reporting-precinct completion semantics.",
+  "tested_routes": [
+    {
+      "source_id": "county-19011-seed",
+      "url": "https://www.bentoncountyia.gov/departments/administration-business-finance/auditor/",
+      "parent_url": "https://sos.iowa.gov/auditors#BentonCountyAuditor",
+      "final_url": "https://www.bentoncountyia.gov/auditor/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19011-seed.json",
+      "source_identity_inventory_key": "county-19011-seed"
+    },
+    {
+      "source_id": "county-19011-linked1",
+      "url": "https://elections.bentoncountyia.gov/elected_officials/",
+      "parent_url": "https://www.bentoncountyia.gov/auditor/",
+      "final_url": "https://elections.bentoncountyia.gov/elected_officials/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19011-linked1.json",
+      "source_identity_inventory_key": "county-19011-linked1"
+    },
+    {
+      "source_id": "county-19011-linked2",
+      "url": "https://elections.bentoncountyia.gov/",
+      "parent_url": "https://www.bentoncountyia.gov/auditor/",
+      "final_url": "https://elections.bentoncountyia.gov/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19011-linked2.json",
+      "source_identity_inventory_key": "county-19011-linked2"
+    },
+    {
+      "source_id": "county-19011-linked3",
+      "url": "https://elections.bentoncountyia.gov/files/public_notice/general_2026_election_98793.pdf",
+      "parent_url": "https://elections.bentoncountyia.gov/",
+      "final_url": "https://elections.bentoncountyia.gov/files/public_notice/general_2026_election_98793.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19011-linked3"
+    },
+    {
+      "source_id": "county-19011-linked4",
+      "url": "https://elections.bentoncountyia.gov/files/election_results/primary_2026_election_2026_06_02_56341.pdf",
+      "parent_url": "https://elections.bentoncountyia.gov/",
+      "final_url": "https://elections.bentoncountyia.gov/files/election_results/primary_2026_election_2026_06_02_56341.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19011-linked4"
+    },
+    {
+      "source_id": "county-19011-linked5",
+      "url": "https://elections.bentoncountyia.gov/elections/info/general_election_2026_11_03/",
+      "parent_url": "https://elections.bentoncountyia.gov/",
+      "final_url": "https://elections.bentoncountyia.gov/elections/info/general_election_2026_11_03/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19011-linked5.json",
+      "source_identity_inventory_key": "county-19011-linked5"
+    },
+    {
+      "source_id": "county-19011-linked6",
+      "url": "https://elections.bentoncountyia.gov/elections/info/primary_2026_election_2026_06_02/",
+      "parent_url": "https://elections.bentoncountyia.gov/",
+      "final_url": "https://elections.bentoncountyia.gov/elections/info/primary_2026_election_2026_06_02/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19011-linked6.json",
+      "source_identity_inventory_key": "county-19011-linked6"
+    },
+    {
+      "source_id": "county-19011-linked7",
+      "url": "https://elections.bentoncountyia.gov/files/candidates/primary_2026_election_98612.pdf",
+      "parent_url": "https://elections.bentoncountyia.gov/",
+      "final_url": "https://elections.bentoncountyia.gov/files/candidates/primary_2026_election_98612.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19011-linked7"
+    },
+    {
+      "source_id": "county-19011-linked8",
+      "url": "https://elections.bentoncountyia.gov/elections/ballots/",
+      "parent_url": "https://elections.bentoncountyia.gov/elected_officials/",
+      "final_url": "https://elections.bentoncountyia.gov/elections/ballots/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19011-linked8.json",
+      "source_identity_inventory_key": "county-19011-linked8"
+    },
+    {
+      "source_id": "county-19011-linked9",
+      "url": "https://elections.bentoncountyia.gov/files/election_results/cityschool_election_1142025_2025_11_04_91031.pdf",
+      "parent_url": "https://elections.bentoncountyia.gov/",
+      "final_url": "https://elections.bentoncountyia.gov/files/election_results/cityschool_election_1142025_2025_11_04_91031.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19011-linked9"
+    },
+    {
+      "source_id": "county-19011-linked10",
+      "url": "https://elections.bentoncountyia.gov/files/public_notice/primary_2026_election_17072.pdf",
+      "parent_url": "https://elections.bentoncountyia.gov/",
+      "final_url": "https://elections.bentoncountyia.gov/files/public_notice/primary_2026_election_17072.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19011-linked10"
+    },
+    {
+      "source_id": "county-19011-specific0",
+      "url": "https://elections.bentoncountyia.gov/files/sample_ballots/20260602_belle_plaine_1republican_39251.pdf",
+      "parent_url": "https://elections.bentoncountyia.gov/elections/info/primary_2026_election_2026_06_02/",
+      "final_url": "https://elections.bentoncountyia.gov/files/sample_ballots/20260602_belle_plaine_1republican_39251.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19011-specific0"
+    },
+    {
+      "source_id": "county-19011-specific1",
+      "url": "https://elections.bentoncountyia.gov/files/sample_ballots/20260602_belle_plaine_2republican_47614.pdf",
+      "parent_url": "https://elections.bentoncountyia.gov/elections/info/primary_2026_election_2026_06_02/",
+      "final_url": "https://elections.bentoncountyia.gov/files/sample_ballots/20260602_belle_plaine_2republican_47614.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19011-specific1"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Benton",
+    "county_fips": "19011",
+    "native_election_id": "122328",
+    "native_version": "354411",
+    "native_contest_key": "190",
+    "xml_clock": "11/12/2024 3:07:48 PM CST",
+    "roster_clock": "11/12/2024 3:09:56 PM CST",
+    "xml_member_sha256": "b006c44f82b6f707492442bbdc0b7ee4832da47bd49bf34b3930dd1c85fc3391",
+    "xml_member_bytes": 220805,
+    "candidate_units": 18,
+    "root_turnout_units": 18,
+    "status_units": 18,
+    "candidate_method_cells": 288,
+    "candidate_generic_votes": 14509,
+    "root_turnout_attributes": {
+      "totalVoters": "18773",
+      "ballotsCast": "14593",
+      "voterTurnout": "77.73"
+    },
+    "root_turnout_ballot_sum": 14593,
+    "root_turnout_registration_sum": 18734,
+    "status_ballot_sum": 14593,
+    "status_codes": {
+      "4": 18
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "103",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "104",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "105",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "106",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "107",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "108",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "109",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "0",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19011"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19011",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19011-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#BentonCountyAuditor",
+    "publication_url": "https://elections.bentoncountyia.gov/elections/info/general_election_2026_11_03/",
+    "telephone_from_directory": "319-472-2365",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

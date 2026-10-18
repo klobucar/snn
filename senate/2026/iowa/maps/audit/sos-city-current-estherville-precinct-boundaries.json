@@ -1,0 +1,465 @@
+{
+  "source_id": "sos-city-current-estherville-precinct-boundaries",
+  "source_path": "raw/sos-city-current-estherville-precinct-boundaries.zip",
+  "source_sha256": "00966d50eb2eb0c042eb446be07a06cc81cb54ccd9e664460f7adb0a047e0679",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "CityEsthervilleWards.shp",
+      "bytes": 12268,
+      "compressed_bytes": 7247,
+      "crc32": "c8043ddd",
+      "sha256": "72d7f808f2bd2c84663305cc151142a2018de102311debd85f9c49f73a3b0583"
+    },
+    {
+      "name": "CityEsthervilleWards.shx",
+      "bytes": 140,
+      "compressed_bytes": 87,
+      "crc32": "87bd29b4",
+      "sha256": "d5277f52b2a137cd16332030fb8f9625253f2f8708c2b670f5a46c60954edb12"
+    },
+    {
+      "name": "CityEsthervilleWards.dbf",
+      "bytes": 5092,
+      "compressed_bytes": 795,
+      "crc32": "9b1e296d",
+      "sha256": "d09d661317c023cc1a7a79a9b06a6d6bf275c85f13d556157582f4099c151718"
+    },
+    {
+      "name": "CityEsthervilleWards.prj",
+      "bytes": 145,
+      "compressed_bytes": 121,
+      "crc32": "af437f55",
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-estherville-precinct-boundaries--1",
+      "shp_member": "CityEsthervilleWards.shp",
+      "dbf_fields": [
+        [
+          "LONGNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "SHORTNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "DISTRICT",
+          "N",
+          5,
+          0
+        ],
+        [
+          "COLOR",
+          "N",
+          10,
+          0
+        ],
+        [
+          "TOTAL",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "F",
+          20,
+          2
+        ],
+        [
+          "TOTALHISP",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TOTALNH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "WHITENH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "BLACKNH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "AIANNH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "ASIANNH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "HPINH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "OTHERNH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "MLTMNNH",
+          "N",
+          18,
+          0
+        ],
+        [
+          "HISP18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "NONHISP18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "WHITENH18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "BLACKNH18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "AIANNH18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "ASIANNH18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "HPINH18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "OTHERNH18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "MLTMNNH18",
+          "N",
+          18,
+          0
+        ],
+        [
+          "WHITE",
+          "N",
+          18,
+          0
+        ],
+        [
+          "WHITE_P",
+          "F",
+          20,
+          2
+        ],
+        [
+          "BLACK",
+          "N",
+          18,
+          0
+        ],
+        [
+          "BLACK_P",
+          "F",
+          20,
+          2
+        ],
+        [
+          "AIAN",
+          "N",
+          18,
+          0
+        ],
+        [
+          "AIAN_P",
+          "F",
+          20,
+          2
+        ],
+        [
+          "ASIAN",
+          "N",
+          18,
+          0
+        ],
+        [
+          "ASIAN_P",
+          "F",
+          20,
+          2
+        ],
+        [
+          "HPI",
+          "N",
+          18,
+          0
+        ],
+        [
+          "HPI_P",
+          "F",
+          20,
+          2
+        ],
+        [
+          "OTHER",
+          "N",
+          18,
+          0
+        ],
+        [
+          "OTHER_P",
+          "F",
+          20,
+          2
+        ],
+        [
+          "MLTMN",
+          "N",
+          18,
+          0
+        ],
+        [
+          "MLTMN_P",
+          "F",
+          20,
+          2
+        ]
+      ],
+      "dbf_encoding": "utf-8",
+      "cpg_present": false,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 5,
+      "shp_record_header_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "dbf_declared_records": 5,
+      "shx_records": 5,
+      "parsed_records": 5,
+      "vertices": 743,
+      "parts": 5,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -94.87141599264656,
+        43.381292650922205,
+        -94.79990897216203,
+        43.42467465666998
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 133,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.00015567260061288835
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 1 - Ward 1",
+            "SHORTNAME": "1",
+            "DISTRICT": 1
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 168,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.00032011806024456746
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 2 - Ward 2",
+            "SHORTNAME": "2",
+            "DISTRICT": 2
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 3,
+          "vertices": 52,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -8.701530168764293e-05
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 3 - Ward 3",
+            "SHORTNAME": "3",
+            "DISTRICT": 3
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 4,
+          "vertices": 192,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0005191749210098351
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 4 - Ward 4",
+            "SHORTNAME": "4",
+            "DISTRICT": 4
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 5,
+          "vertices": 198,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0004681726140915998
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 5 - Ward 5",
+            "SHORTNAME": "5",
+            "DISTRICT": 5
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-estherville-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-estherville-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          90975.14696751506,
+          2265881.426725733,
+          96747.15709810595,
+          2270713.302555261
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

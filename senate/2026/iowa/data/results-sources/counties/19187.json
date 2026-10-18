@@ -1,0 +1,315 @@
+{
+  "county": "Webster",
+  "county_fips": "19187",
+  "rank_2024": 20,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Webster",
+    "county_fips": "19187",
+    "rank_2024": 20,
+    "priority": true,
+    "anchor": "WebsterCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#WebsterCountyAuditor",
+    "auditor_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+    "phone": "515-573-7175",
+    "directory_source_id": "sos-auditors",
+    "source_position": 94
+  },
+  "current_key_publication": {
+    "source_id": "county-19187-results",
+    "url": "https://www.webstercountyia.gov/services/election_results/index.php",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:27:04.149434+00:00",
+    "original_sha256": "fd088d0e9c3b3a1a52a3a05c0838c0d8e8e09c3152d9f5a5365048fd870f3708"
+  },
+  "finding": "The auditor uses a Revize site with an explicit root <base> element. Correct base resolution leads through Voter Information to Election Return Results and actual recent result assets. Earlier incorrectly resolved404 routes are retained as acquisition errors and superseded by the corrected observed-base links. Older ClarityEID113090 remains historical.",
+  "gap": "No current November Senate payload or cadence. Do not derive county IDs from directory or source row numbers.",
+  "tested_routes": [
+    {
+      "source_id": "county-19187-seed",
+      "url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+      "parent_url": "https://sos.iowa.gov/auditors#WebsterCountyAuditor",
+      "final_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19187-seed.json",
+      "source_identity_inventory_key": "county-19187-seed"
+    },
+    {
+      "source_id": "county-19187-linked1",
+      "url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/BOH Agenda 3-5-2026.docx",
+      "parent_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+      "final_url": "https://cms7files.revize.com/webstercountyia/departments/auditor_commissioner_of_elections/BOH%20Agenda%203-5-2026.docx",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19187-linked1.json",
+      "source_identity_inventory_key": "county-19187-linked1"
+    },
+    {
+      "source_id": "county-19187-linked2",
+      "url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/document_center/Departments/Board of Supervisors/Minutes/2026/2026_10_20_Agenda.pdf",
+      "parent_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+      "final_url": "https://cms7files.revize.com/webstercountyia/departments/auditor_commissioner_of_elections/document_center/Departments/Board%20of%20Supervisors/Minutes/2026/2026_10_20_Agenda.pdf",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19187-linked2.json",
+      "source_identity_inventory_key": "county-19187-linked2"
+    },
+    {
+      "source_id": "county-19187-linked3",
+      "url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/document_center/Departments/Assessor/Minutes/2026/Agenda for September 10th, 2026 Meeting.pdf",
+      "parent_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+      "final_url": "https://cms7files.revize.com/webstercountyia/departments/auditor_commissioner_of_elections/document_center/Departments/Assessor/Minutes/2026/Agenda%20for%20September%2010th,%202026%20Meeting.pdf",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19187-linked3.json",
+      "source_identity_inventory_key": "county-19187-linked3"
+    },
+    {
+      "source_id": "county-19187-linked4",
+      "url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/document_center/Departments/Board of Supervisors/EMS Meetings/2026/EMSAC Agenda 2026 October 15.pdf",
+      "parent_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+      "final_url": "https://cms7files.revize.com/webstercountyia/departments/auditor_commissioner_of_elections/document_center/Departments/Board%20of%20Supervisors/EMS%20Meetings/2026/EMSAC%20Agenda%202026%20October%2015.pdf",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19187-linked4.json",
+      "source_identity_inventory_key": "county-19187-linked4"
+    },
+    {
+      "source_id": "county-19187-linked5",
+      "url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/departments/board_of_supervisors/directory_of_meeting_minutes/2026.php",
+      "parent_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+      "final_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/departments/board_of_supervisors/directory_of_meeting_minutes/2026.php",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19187-linked5.json",
+      "source_identity_inventory_key": "county-19187-linked5"
+    },
+    {
+      "source_id": "county-19187-linked6",
+      "url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/departments/index.php",
+      "parent_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+      "final_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/departments/index.php",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19187-linked6.json",
+      "source_identity_inventory_key": "county-19187-linked6"
+    },
+    {
+      "source_id": "county-19187-linked7",
+      "url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/how_do_i/contact/view_faqs.php",
+      "parent_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+      "final_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/how_do_i/contact/view_faqs.php",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19187-linked7.json",
+      "source_identity_inventory_key": "county-19187-linked7"
+    },
+    {
+      "source_id": "county-19187-linked8",
+      "url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/",
+      "parent_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+      "final_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19187-linked8.json",
+      "source_identity_inventory_key": "county-19187-linked8"
+    },
+    {
+      "source_id": "county-19187-linked9",
+      "url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/departments/assessor/index.php",
+      "parent_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+      "final_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/departments/assessor/index.php",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19187-linked9.json",
+      "source_identity_inventory_key": "county-19187-linked9"
+    },
+    {
+      "source_id": "county-19187-linked10",
+      "url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/departments/attorney/index.php",
+      "parent_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+      "final_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/departments/attorney/index.php",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19187-linked10.json",
+      "source_identity_inventory_key": "county-19187-linked10"
+    },
+    {
+      "source_id": "county-19187-linked11",
+      "url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/departments/auditor_commissioner_of_elections/index.php",
+      "parent_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+      "final_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/departments/auditor_commissioner_of_elections/index.php",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19187-linked11.json",
+      "source_identity_inventory_key": "county-19187-linked11"
+    },
+    {
+      "source_id": "county-19187-linked12",
+      "url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/departments/board_of_supervisors/index.php",
+      "parent_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+      "final_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/departments/board_of_supervisors/index.php",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19187-linked12.json",
+      "source_identity_inventory_key": "county-19187-linked12"
+    },
+    {
+      "source_id": "county-19187-target-voter-information",
+      "url": "https://www.webstercountyia.gov/services/voter_registration/index.php",
+      "parent_url": "https://www.webstercountyia.gov/departments/auditor_commissioner_of_elections/index.php",
+      "final_url": "https://www.webstercountyia.gov/services/voter_registration/index.php",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19187-target-voter-information.json",
+      "source_identity_inventory_key": "county-19187-target-voter-information"
+    },
+    {
+      "source_id": "county-19187-results",
+      "url": "https://www.webstercountyia.gov/services/election_results/index.php",
+      "parent_url": "https://www.webstercountyia.gov/services/voter_registration/index.php",
+      "final_url": "https://www.webstercountyia.gov/services/election_results/index.php",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19187-results.json",
+      "source_identity_inventory_key": "county-19187-results"
+    },
+    {
+      "source_id": "county-19187-review0",
+      "url": "https://www.webstercountyia.gov/document_center/Election Result/2025/2025 Special Election/Special Election Official Results.pdf?t=202503111153110",
+      "parent_url": "https://www.webstercountyia.gov/services/election_results/index.php",
+      "final_url": "https://cms7files.revize.com/webstercountyia/document_center/Election%20Result/2025/2025%20Special%20Election/Special%20Election%20Official%20Results.pdf?t=202503111153110",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19187-review0"
+    },
+    {
+      "source_id": "county-19187-review1",
+      "url": "https://www.webstercountyia.gov/document_center/Election Result/Election-ResultsPostedLater.pdf?t=202510071238150",
+      "parent_url": "https://www.webstercountyia.gov/services/election_results/index.php",
+      "final_url": "https://cms7files.revize.com/webstercountyia/document_center/Election%20Result/Election-ResultsPostedLater.pdf?t=202510071238150",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19187-review1"
+    },
+    {
+      "source_id": "county-19187-review2",
+      "url": "https://www.webstercountyia.gov/document_center/Election Result/2024/2024 General/Election Summary.pdf?t=202501211152500",
+      "parent_url": "https://www.webstercountyia.gov/services/election_results/index.php",
+      "final_url": "https://cms7files.revize.com/webstercountyia/document_center/Election%20Result/2024/2024%20General/Election%20Summary.pdf?t=202501211152500",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19187-review2"
+    },
+    {
+      "source_id": "county-19187-review3",
+      "url": "https://www.webstercountyia.gov/document_center/Election Result/2023/2023CitySchool/2023-11-07 Election Results.pdf?t=202311141235400",
+      "parent_url": "https://www.webstercountyia.gov/services/election_results/index.php",
+      "final_url": "https://cms7files.revize.com/webstercountyia/document_center/Election%20Result/2023/2023CitySchool/2023-11-07%20Election%20Results.pdf?t=202311141235400",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19187-review3"
+    },
+    {
+      "source_id": "county-19187-review4",
+      "url": "https://electionresults.iowa.gov/IA/Webster/113090/",
+      "parent_url": "https://www.webstercountyia.gov/services/election_results/index.php",
+      "final_url": "https://electionresults.iowa.gov/IA/Webster/113090/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19187-review4.json",
+      "source_identity_inventory_key": "county-19187-review4"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Webster",
+    "county_fips": "19187",
+    "native_election_id": "122416",
+    "native_version": "354700",
+    "native_contest_key": "100",
+    "xml_clock": "11/13/2024 4:04:02 PM CST",
+    "roster_clock": "11/13/2024 4:16:02 PM CST",
+    "xml_member_sha256": "4a2de7c82e72b8a6b5392d035378c3f070a3355bc1ae402e846b97ca8066f5f3",
+    "xml_member_bytes": 259249,
+    "candidate_units": 19,
+    "root_turnout_units": 19,
+    "status_units": 19,
+    "candidate_method_cells": 304,
+    "candidate_generic_votes": 16748,
+    "root_turnout_attributes": {
+      "totalVoters": "24855",
+      "ballotsCast": "16825",
+      "voterTurnout": "67.69"
+    },
+    "root_turnout_ballot_sum": 16825,
+    "root_turnout_registration_sum": 24887,
+    "status_ballot_sum": 16825,
+    "status_codes": {
+      "4": 19
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "209",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "163",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "164",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "166",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "167",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "168",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "165",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "0",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19187"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19187",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19187-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#WebsterCountyAuditor",
+    "publication_url": "https://www.webstercountyia.gov/services/election_results/index.php",
+    "telephone_from_directory": "515-573-7175",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

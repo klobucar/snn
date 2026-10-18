@@ -1,0 +1,79 @@
+{
+  "scope": "Every element tag/attribute-set in all99 original2024 county full XML; identities/positions below limited to selected presidential contest",
+  "tags": {
+    "ElectionResult": [
+      []
+    ],
+    "Timestamp": [
+      []
+    ],
+    "ElectionName": [
+      []
+    ],
+    "ElectionDate": [
+      []
+    ],
+    "Region": [
+      []
+    ],
+    "VoterTurnout": [
+      [
+        "totalVoters",
+        "ballotsCast",
+        "voterTurnout"
+      ]
+    ],
+    "Precincts": [
+      []
+    ],
+    "Precinct": [
+      [
+        "name",
+        "totalVoters",
+        "ballotsCast",
+        "voterTurnout",
+        "percentReporting"
+      ],
+      [
+        "name",
+        "votes"
+      ]
+    ],
+    "Contest": [
+      [
+        "key",
+        "text",
+        "voteFor",
+        "isQuestion",
+        "precinctsReporting",
+        "precinctsReported"
+      ]
+    ],
+    "VoteType": [
+      [
+        "name",
+        "votes"
+      ]
+    ],
+    "Choice": [
+      [
+        "key",
+        "text",
+        "party",
+        "totalVotes"
+      ],
+      [
+        "key",
+        "text",
+        "totalVotes"
+      ]
+    ]
+  },
+  "absent_fields": [
+    "No numeric precinct ID in selected Precinct elements",
+    "No Senate2026 contest in historical files",
+    "No exact remaining Senate votes",
+    "No certified current geographic crosswalk"
+  ],
+  "selected_control_cells": 2376
+}

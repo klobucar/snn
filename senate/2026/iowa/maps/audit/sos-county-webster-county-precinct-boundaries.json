@@ -1,0 +1,812 @@
+{
+  "source_id": "sos-county-webster-county-precinct-boundaries",
+  "source_path": "raw/sos-county-webster-county-precinct-boundaries.zip",
+  "source_sha256": "03581703fab8033b0f9d0a1a765fd8910b5b629fd6195c81b320ffee70dcdac8",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "Webster_County_Precincts_-_SOS_REVISED.shp",
+      "bytes": 102076,
+      "compressed_bytes": 63476,
+      "crc32": "b68f40a7",
+      "sha256": "411ae20d28b953a90ea73d261c280f5fd1cf4fc1ad7882e151563e08f6070ad7"
+    },
+    {
+      "name": "Webster_County_Precincts_-_SOS_REVISED.shx",
+      "bytes": 252,
+      "compressed_bytes": 192,
+      "crc32": "5f73da57",
+      "sha256": "fefa4ea12b8f2ebfe59ad6c08d3c686335a7a6cdf79ba4b9a7d98ebb055afdbe"
+    },
+    {
+      "name": "Webster_County_Precincts_-_SOS_REVISED.dbf",
+      "bytes": 3114,
+      "compressed_bytes": 528,
+      "crc32": "cbf83f08",
+      "sha256": "5ed8483b4f6f650479f92c5f1c20858f97e633d7ac298382ae09d58a0ef52cfb"
+    },
+    {
+      "name": "Webster_County_Precincts_-_SOS_REVISED.prj",
+      "bytes": 145,
+      "compressed_bytes": 121,
+      "crc32": "af437f55",
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-county-webster-county-precinct-boundaries--1",
+      "shp_member": "Webster_County_Precincts_-_SOS_REVISED.shp",
+      "dbf_fields": [
+        [
+          "LONGNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "SHORTNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "DISTRICT",
+          "N",
+          5,
+          0
+        ],
+        [
+          "COLOR",
+          "N",
+          10,
+          0
+        ],
+        [
+          "TOTAL",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "N",
+          18,
+          0
+        ]
+      ],
+      "dbf_encoding": "utf-8",
+      "cpg_present": false,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 19,
+      "shp_record_header_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "dbf_declared_records": 19,
+      "shx_records": 19,
+      "parsed_records": 19,
+      "vertices": 6307,
+      "parts": 19,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -94.44359077351146,
+        42.209055500593486,
+        -93.93158758622229,
+        42.645199565282674
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 424,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.019953844415340427
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 1",
+            "SHORTNAME": "P1",
+            "DISTRICT": 1
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 482,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.04090434355885009
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 2",
+            "SHORTNAME": "P2",
+            "DISTRICT": 2
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 3,
+          "vertices": 463,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.02856082183438957
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 3",
+            "SHORTNAME": "P3",
+            "DISTRICT": 3
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 4,
+          "vertices": 378,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.020200469976316526
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 4",
+            "SHORTNAME": "P4",
+            "DISTRICT": 4
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 5,
+          "vertices": 1110,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.026722452352714754
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 5",
+            "SHORTNAME": "P5",
+            "DISTRICT": 5
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 6,
+          "vertices": 641,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.037743515898228
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 6",
+            "SHORTNAME": "P6",
+            "DISTRICT": 6
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 7,
+          "vertices": 280,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.01520558054949106
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 7",
+            "SHORTNAME": "P7",
+            "DISTRICT": 7
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 8,
+          "vertices": 465,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0007928708223516878
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 8",
+            "SHORTNAME": "P8",
+            "DISTRICT": 8
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 9,
+          "vertices": 135,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.00012781239865944372
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 9",
+            "SHORTNAME": "P9",
+            "DISTRICT": 9
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 10,
+          "vertices": 119,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0001696710112355504
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 10",
+            "SHORTNAME": "P10",
+            "DISTRICT": 10
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 11,
+          "vertices": 457,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.01015290979648853
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 11",
+            "SHORTNAME": "P11",
+            "DISTRICT": 11
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 12,
+          "vertices": 241,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0007032452697330882
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 12",
+            "SHORTNAME": "P12",
+            "DISTRICT": 12
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 13,
+          "vertices": 176,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0002842890132797038
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 13",
+            "SHORTNAME": "P13",
+            "DISTRICT": 13
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 14,
+          "vertices": 99,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.00017834938421401603
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 14",
+            "SHORTNAME": "P14",
+            "DISTRICT": 14
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 15,
+          "vertices": 113,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.00015707708712398016
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 15",
+            "SHORTNAME": "P15",
+            "DISTRICT": 15
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 16,
+          "vertices": 300,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0005823325088840647
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 16",
+            "SHORTNAME": "P16",
+            "DISTRICT": 16
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 17,
+          "vertices": 175,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0006220735174338188
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 17",
+            "SHORTNAME": "P17",
+            "DISTRICT": 17
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 18,
+          "vertices": 191,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0004458291030005057
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 18",
+            "SHORTNAME": "P18",
+            "DISTRICT": 18
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 19,
+          "vertices": 58,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -6.86706932810921e-05
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 19",
+            "SHORTNAME": "P19",
+            "DISTRICT": 19
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [
+        {
+          "record_ordinals": [
+            1,
+            11
+          ],
+          "intersection_area": 0.1390849957478817,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            2,
+            11
+          ],
+          "intersection_area": 0.09531216507339495,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            3,
+            11
+          ],
+          "intersection_area": 0.025489355604544062,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            3,
+            12
+          ],
+          "intersection_area": 0.00011191243672215023,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            5,
+            8
+          ],
+          "intersection_area": 0.06450152666184657,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            8,
+            9
+          ],
+          "intersection_area": 0.02010246408226123,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            8,
+            18
+          ],
+          "intersection_area": 0.035284735667666774,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            9,
+            10
+          ],
+          "intersection_area": 0.012398823887551898,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            9,
+            18
+          ],
+          "intersection_area": 0.004259904370612792,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            9,
+            19
+          ],
+          "intersection_area": 0.010182383521312273,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            10,
+            13
+          ],
+          "intersection_area": 0.015448392141448001,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            11,
+            12
+          ],
+          "intersection_area": 0.06431611830802228,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            11,
+            13
+          ],
+          "intersection_area": 0.007704588377139671,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            14,
+            19
+          ],
+          "intersection_area": 0.007033773350164446,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            17,
+            18
+          ],
+          "intersection_area": 0.004980038593363531,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            17,
+            19
+          ],
+          "intersection_area": 0.007200852549174415,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        }
+      ],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-county-webster-county-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-county-webster-county-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          126890.37120056152,
+          2135411.592609241,
+          169636.11238261138,
+          2184766.7880954714
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

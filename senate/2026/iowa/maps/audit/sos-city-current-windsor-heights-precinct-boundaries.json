@@ -1,0 +1,195 @@
+{
+  "source_id": "sos-city-current-windsor-heights-precinct-boundaries",
+  "source_path": "raw/sos-city-current-windsor-heights-precinct-boundaries.zip",
+  "source_sha256": "aa5dae06e34c07dd603953f5a06cd6024675a9c7299f65af6107dab2b69a5f01",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "Windsor_Heights.shp",
+      "bytes": 3588,
+      "compressed_bytes": 2282,
+      "crc32": "5405c293",
+      "sha256": "cc0ffcfb68d857fec8ce67c4e1685fc4960d32800108766d45d713478d50ae82"
+    },
+    {
+      "name": "Windsor_Heights.shx",
+      "bytes": 116,
+      "compressed_bytes": 64,
+      "crc32": "b6e47236",
+      "sha256": "76f6db7f54603981fbde8983f6bf688b16938d74a3358468d759257e5c5bd459"
+    },
+    {
+      "name": "Windsor_Heights.dbf",
+      "bytes": 530,
+      "compressed_bytes": 162,
+      "crc32": "32641987",
+      "sha256": "638a6f8a1d4ae79189b448c332e817ea4e50373c8b48320a3c07c445df7b1d6e"
+    },
+    {
+      "name": "Windsor_Heights.prj",
+      "bytes": 145,
+      "compressed_bytes": 121,
+      "crc32": "af437f55",
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-windsor-heights-precinct-boundaries--1",
+      "shp_member": "Windsor_Heights.shp",
+      "dbf_fields": [
+        [
+          "LONGNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "SHORTNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "DISTRICT",
+          "N",
+          5,
+          0
+        ],
+        [
+          "COLOR",
+          "N",
+          10,
+          0
+        ],
+        [
+          "TOTAL",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "N",
+          18,
+          0
+        ]
+      ],
+      "dbf_encoding": "utf-8",
+      "cpg_present": false,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 2,
+      "shp_record_header_numbers": [
+        1,
+        2
+      ],
+      "dbf_declared_records": 2,
+      "shx_records": 2,
+      "parsed_records": 2,
+      "vertices": 211,
+      "parts": 2,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -93.7267904622513,
+        41.59156944574733,
+        -93.70355545329505,
+        41.61489345007947
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 88,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.00020754679599122028
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 2",
+            "SHORTNAME": "P2",
+            "DISTRICT": 157
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 123,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.00019373351074136735
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 1",
+            "SHORTNAME": "P1",
+            "DISTRICT": 158
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-windsor-heights-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-windsor-heights-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          188021.5782797116,
+          2067486.4754502405,
+          190004.92506533398,
+          2070118.7005678318
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

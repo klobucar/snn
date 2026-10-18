@@ -1,0 +1,285 @@
+{
+  "county": "Warren",
+  "county_fips": "19181",
+  "rank_2024": 11,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Warren",
+    "county_fips": "19181",
+    "rank_2024": 11,
+    "priority": true,
+    "anchor": "WarrenCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#WarrenCountyAuditor",
+    "auditor_url": "https://www.warrencountyia.gov/government/county-government/auditor/",
+    "phone": "515-690-9180",
+    "directory_source_id": "sos-auditors",
+    "source_position": 91
+  },
+  "current_key_publication": {
+    "source_id": "county-19181-target-view-election-information",
+    "url": "https://www.warrencountyia.gov/services/resident-services/election-information/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:26:47.794935+00:00",
+    "original_sha256": "0d386d09e69d897a42588f53faa82b0261b3c27f559206c0f2560647ad8dbb06"
+  },
+  "finding": "The auditor links a county election-information page containing signed canvass PDFs and older Clarity channels. The link labeled Election Night Reporting points to the2025 city/school electionEID124287. A2024 general link is another historical channel. Neither label is proof of November2026 readiness.",
+  "gap": "Current November Senate endpoint was not established; use the auditor publication as the manual discovery route and verify election identity before entry.",
+  "tested_routes": [
+    {
+      "source_id": "county-19181-seed",
+      "url": "https://www.warrencountyia.gov/government/county-government/auditor/",
+      "parent_url": "https://sos.iowa.gov/auditors#WarrenCountyAuditor",
+      "final_url": "https://www.warrencountyia.gov/government/county-government/auditor/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19181-seed.json",
+      "source_identity_inventory_key": "county-19181-seed"
+    },
+    {
+      "source_id": "county-19181-linked1",
+      "url": "https://www.warrencountyia.gov/services/resident-services/birth-certificates/",
+      "parent_url": "https://www.warrencountyia.gov/government/county-government/auditor/",
+      "final_url": "https://www.warrencountyia.gov/government/county-government/recorder/vital-records/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19181-linked1.json",
+      "source_identity_inventory_key": "county-19181-linked1"
+    },
+    {
+      "source_id": "county-19181-linked2",
+      "url": "https://www.warrencountyia.gov/services/resident-services/death-certificates/",
+      "parent_url": "https://www.warrencountyia.gov/government/county-government/auditor/",
+      "final_url": "https://www.warrencountyia.gov/government/county-government/recorder/vital-records/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19181-linked2.json",
+      "source_identity_inventory_key": "county-19181-linked2"
+    },
+    {
+      "source_id": "county-19181-linked3",
+      "url": "https://www.warrencountyia.gov/wp-content/uploads/2026/01/School-Board-Members.pdf",
+      "parent_url": "https://www.warrencountyia.gov/government/county-government/auditor/",
+      "final_url": "https://www.warrencountyia.gov/wp-content/uploads/2026/01/School-Board-Members.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19181-linked3"
+    },
+    {
+      "source_id": "county-19181-linked4",
+      "url": "https://www.warrencountyia.gov/wp-content/uploads/2026/02/Current-Mayors-Clerks-Council.pdf",
+      "parent_url": "https://www.warrencountyia.gov/government/county-government/auditor/",
+      "final_url": "https://www.warrencountyia.gov/wp-content/uploads/2026/02/Current-Mayors-Clerks-Council.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19181-linked4"
+    },
+    {
+      "source_id": "county-19181-linked5",
+      "url": "https://www.warrencountyia.gov/wp-content/uploads/2026/01/Benefit-District-Trustees.pdf",
+      "parent_url": "https://www.warrencountyia.gov/government/county-government/auditor/",
+      "final_url": "https://www.warrencountyia.gov/wp-content/uploads/2026/01/Benefit-District-Trustees.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19181-linked5"
+    },
+    {
+      "source_id": "county-19181-linked6",
+      "url": "https://www.warrencountyia.gov/wp-content/uploads/2026/04/Current-Elected-Officials-1.pdf",
+      "parent_url": "https://www.warrencountyia.gov/government/county-government/auditor/",
+      "final_url": "https://www.warrencountyia.gov/wp-content/uploads/2026/04/Current-Elected-Officials-1.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19181-linked6"
+    },
+    {
+      "source_id": "county-19181-linked7",
+      "url": "https://www.warrencountyia.gov/wp-content/uploads/2026/03/Trustee_Timesheet-2026.pdf",
+      "parent_url": "https://www.warrencountyia.gov/government/county-government/auditor/",
+      "final_url": "https://www.warrencountyia.gov/wp-content/uploads/2026/03/Trustee_Timesheet-2026.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19181-linked7"
+    },
+    {
+      "source_id": "county-19181-linked8",
+      "url": "https://www.warrencountyia.gov/wp-content/uploads/2026/10/List-of-Judges1.pdf",
+      "parent_url": "https://www.warrencountyia.gov/government/county-government/recorder/vital-records/",
+      "final_url": "https://www.warrencountyia.gov/wp-content/uploads/2026/10/List-of-Judges1.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19181-linked8"
+    },
+    {
+      "source_id": "county-19181-linked9",
+      "url": "https://www.warrencountyia.gov/services/resident-services/election-information/",
+      "parent_url": "https://www.warrencountyia.gov/government/county-government/auditor/",
+      "final_url": "https://www.warrencountyia.gov/services/resident-services/election-information/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19181-linked9.json",
+      "source_identity_inventory_key": "county-19181-linked9"
+    },
+    {
+      "source_id": "county-19181-linked10",
+      "url": "https://sos.iowa.gov/elections/absenteeballotstatus/absentee/search",
+      "parent_url": "https://www.warrencountyia.gov/government/county-government/auditor/",
+      "final_url": "https://apps.sos.iowa.gov/elections/absenteeballotstatus/absentee/search",
+      "status": 403,
+      "error": null,
+      "view_path": "extracts/county-19181-linked10.json",
+      "source_identity_inventory_key": "county-19181-linked10"
+    },
+    {
+      "source_id": "county-19181-target-view-election-information",
+      "url": "https://www.warrencountyia.gov/services/resident-services/election-information/",
+      "parent_url": "https://www.warrencountyia.gov/government/county-government/auditor/",
+      "final_url": "https://www.warrencountyia.gov/services/resident-services/election-information/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19181-target-view-election-information.json",
+      "source_identity_inventory_key": "county-19181-target-view-election-information"
+    },
+    {
+      "source_id": "county-19181-review0",
+      "url": "https://www.warrencountyia.gov/wp-content/uploads/2026/08/Important-dates-for-General-Election-Tuesday-November-3-2026.pdf",
+      "parent_url": "https://www.warrencountyia.gov/services/resident-services/election-information/",
+      "final_url": "https://www.warrencountyia.gov/wp-content/uploads/2026/08/Important-dates-for-General-Election-Tuesday-November-3-2026.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19181-review0"
+    },
+    {
+      "source_id": "county-19181-review1",
+      "url": "https://www.warrencountyia.gov/wp-content/uploads/2026/08/Signed-Canvass-Resolution.pdf",
+      "parent_url": "https://www.warrencountyia.gov/services/resident-services/election-information/",
+      "final_url": "https://www.warrencountyia.gov/wp-content/uploads/2026/08/Signed-Canvass-Resolution.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19181-review1"
+    },
+    {
+      "source_id": "county-19181-review2",
+      "url": "https://www.warrencountyia.gov/wp-content/uploads/2026/06/Official-Signed-Canvass-Resolution.pdf",
+      "parent_url": "https://www.warrencountyia.gov/services/resident-services/election-information/",
+      "final_url": "https://www.warrencountyia.gov/wp-content/uploads/2026/06/Official-Signed-Canvass-Resolution.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19181-review2"
+    },
+    {
+      "source_id": "county-19181-review3",
+      "url": "https://electionresults.iowa.gov/IA/Warren/122413/",
+      "parent_url": "https://www.warrencountyia.gov/services/resident-services/election-information/",
+      "final_url": "https://electionresults.iowa.gov/IA/Warren/122413/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19181-review3.json",
+      "source_identity_inventory_key": "county-19181-review3"
+    },
+    {
+      "source_id": "county-19181-review4",
+      "url": "https://electionresults.iowa.gov/IA/Warren/121599/web.317647/",
+      "parent_url": "https://www.warrencountyia.gov/services/resident-services/election-information/",
+      "final_url": "https://electionresults.iowa.gov/IA/Warren/121599/web.317647/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19181-review4.json",
+      "source_identity_inventory_key": "county-19181-review4"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Warren",
+    "county_fips": "19181",
+    "native_election_id": "122413",
+    "native_version": "355814",
+    "native_contest_key": "190",
+    "xml_clock": "11/26/2024 9:49:48 AM CST",
+    "roster_clock": "11/26/2024 10:12:13 AM CST",
+    "xml_member_sha256": "1e38c871254cc725983e49b22de99beedbb7f479034f0f9c95cb5421f8ca3dca",
+    "xml_member_bytes": 395329,
+    "candidate_units": 40,
+    "root_turnout_units": 40,
+    "status_units": 40,
+    "candidate_method_cells": 640,
+    "candidate_generic_votes": 32804,
+    "root_turnout_attributes": {
+      "totalVoters": "40922",
+      "ballotsCast": "33123",
+      "voterTurnout": "80.94"
+    },
+    "root_turnout_ballot_sum": 33123,
+    "root_turnout_registration_sum": 40999,
+    "status_ballot_sum": 33123,
+    "status_codes": {
+      "4": 40
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "103",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "104",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "105",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "107",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "108",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "109",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "106",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "0",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19181"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19181",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19181-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#WarrenCountyAuditor",
+    "publication_url": "https://www.warrencountyia.gov/services/resident-services/election-information/",
+    "telephone_from_directory": "515-690-9180",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

@@ -1,0 +1,311 @@
+{
+  "source_id": "sos-city-current-harlan-ward-boundaries",
+  "source_path": "raw/sos-city-current-harlan-ward-boundaries.zip",
+  "source_sha256": "7fcd448e0915da62c8cf0ef615cd78c1e5185fa8f7e9adc69495d29018e5ce1e",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "Harlan_Ward_Submission_2021.cpg",
+      "bytes": 5,
+      "compressed_bytes": 5,
+      "crc32": "0e813c50",
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+    },
+    {
+      "name": "Harlan_Ward_Submission_2021.dbf",
+      "bytes": 1302,
+      "compressed_bytes": 200,
+      "crc32": "b403884d",
+      "sha256": "4f0730131d189182d68e830be9fd0d54861ea3a23a21bb2831cc1db1c892c0ab"
+    },
+    {
+      "name": "Harlan_Ward_Submission_2021.prj",
+      "bytes": 548,
+      "compressed_bytes": 329,
+      "crc32": "045a5642",
+      "sha256": "562c005189bc54e209b5f6fe228d37ab2e75a9d99cc28dd3bd742e94c62f2a8c"
+    },
+    {
+      "name": "Harlan_Ward_Submission_2021.sbn",
+      "bytes": 172,
+      "compressed_bytes": 95,
+      "crc32": "e780be46",
+      "sha256": "ab9c944378ea8d7acd82d2c28283860481bd7a73355b1378d45526f804c9aa41"
+    },
+    {
+      "name": "Harlan_Ward_Submission_2021.sbx",
+      "bytes": 124,
+      "compressed_bytes": 65,
+      "crc32": "1abbb309",
+      "sha256": "aaf67d7e4aa7399af42f81d4b27a079f2de29d60a4fc7aebed68798ce3d0ed0b"
+    },
+    {
+      "name": "Harlan_Ward_Submission_2021.shp",
+      "bytes": 8932,
+      "compressed_bytes": 5027,
+      "crc32": "e21c4352",
+      "sha256": "0a8537e1115df655a528d34984d310009af2dda67aef8a44e0c45ceef327093b"
+    },
+    {
+      "name": "Harlan_Ward_Submission_2021.shp.xml",
+      "bytes": 8418,
+      "compressed_bytes": 2462,
+      "crc32": "18813a7a",
+      "sha256": "ff2f879afe65a6b74d90129ee71771db4b38f08bce6640c267550dfd90fa188d"
+    },
+    {
+      "name": "Harlan_Ward_Submission_2021.shx",
+      "bytes": 132,
+      "compressed_bytes": 78,
+      "crc32": "9a85ab5e",
+      "sha256": "d3c8907867bdf3fc7d5b96bd989a61ca1a0a4cb49f1bda72f82fc7bb8f6e79fa"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-harlan-ward-boundaries--1",
+      "shp_member": "Harlan_Ward_Submission_2021.shp",
+      "dbf_fields": [
+        [
+          "name",
+          "C",
+          254,
+          0
+        ],
+        [
+          "Shape_Leng",
+          "F",
+          19,
+          11
+        ],
+        [
+          "Shape_Area",
+          "F",
+          19,
+          11
+        ]
+      ],
+      "dbf_encoding": "UTF-8",
+      "cpg_present": true,
+      "wkt_original": "PROJCS[\"NAD_1983_StatePlane_Iowa_South_FIPS_1402_Feet\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",1640416.666666667],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-93.5],PARAMETER[\"Standard_Parallel_1\",40.61666666666667],PARAMETER[\"Standard_Parallel_2\",41.78333333333333],PARAMETER[\"Latitude_Of_Origin\",40.0],UNIT[\"Foot_US\",0.3048006096012192]]",
+      "crs_authority": [
+        "EPSG",
+        "3418"
+      ],
+      "axis_info": [
+        {
+          "name": "Easting",
+          "abbreviation": "E",
+          "direction": "east",
+          "unit": "US survey foot",
+          "conversion_factor": 0.30480060960121924
+        },
+        {
+          "name": "Northing",
+          "abbreviation": "N",
+          "direction": "north",
+          "unit": "US survey foot",
+          "conversion_factor": 0.30480060960121924
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 4,
+      "shp_record_header_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "dbf_declared_records": 4,
+      "shx_records": 4,
+      "parsed_records": 4,
+      "vertices": 538,
+      "parts": 4,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        1136223.7496798933,
+        599020.5225909799,
+        1146346.1395400614,
+        613249.9235940576
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 171,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -17168757.82092285
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "name": "Harlan - Ward 1"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 98,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -33785962.851989746
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "name": "Harlan - Ward 2"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 3,
+          "vertices": 94,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -32831186.975646973
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "name": "Harlan - Ward 3"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 4,
+          "vertices": 175,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -39598167.83886719
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "name": "Harlan - Ward 4"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [
+        {
+          "record_ordinals": [
+            1,
+            2
+          ],
+          "intersection_area": 0.001831051150116572,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": 0.019708381284150422,
+          "native_projected_area_units": "square US survey foot",
+          "native_area_unavailable_reason": null,
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            1,
+            4
+          ],
+          "intersection_area": 0.0015557453702063299,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": 0.016749414288860075,
+          "native_projected_area_units": "square US survey foot",
+          "native_area_unavailable_reason": null,
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            2,
+            3
+          ],
+          "intersection_area": 0.00319663557485228,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": 0.029968572409416083,
+          "native_projected_area_units": "square US survey foot",
+          "native_area_unavailable_reason": null,
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            2,
+            4
+          ],
+          "intersection_area": 4.371910689935134e-05,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": 0.00040986816403743454,
+          "native_projected_area_units": "square US survey foot",
+          "native_area_unavailable_reason": null,
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            3,
+            4
+          ],
+          "intersection_area": 0.000691346784623903,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": 0.007093550095419232,
+          "native_projected_area_units": "square US survey foot",
+          "native_area_unavailable_reason": null,
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        }
+      ],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-harlan-ward-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-harlan-ward-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          54165.15913850816,
+          2069720.299066695,
+          57254.33951417886,
+          2074061.9717886054
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

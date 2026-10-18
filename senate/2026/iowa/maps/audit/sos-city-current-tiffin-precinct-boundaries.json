@@ -1,0 +1,270 @@
+{
+  "source_id": "sos-city-current-tiffin-precinct-boundaries",
+  "source_path": "raw/sos-city-current-tiffin-precinct-boundaries.zip",
+  "source_sha256": "6b82936f8a41385acaa867a136f77988b750e901d186e4e90075fb37d78530fb",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "Tiffin_adopted.cpg",
+      "bytes": 5,
+      "compressed_bytes": 5,
+      "crc32": "0e813c50",
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+    },
+    {
+      "name": "Tiffin_adopted.dbf",
+      "bytes": 3206,
+      "compressed_bytes": 308,
+      "crc32": "b50a75c6",
+      "sha256": "a72543b7b5945022b02e55017cbc7a53fd7c04a318a46e729276c397eacab7e1"
+    },
+    {
+      "name": "Tiffin_adopted.prj",
+      "bytes": 548,
+      "compressed_bytes": 329,
+      "crc32": "045a5642",
+      "sha256": "562c005189bc54e209b5f6fe228d37ab2e75a9d99cc28dd3bd742e94c62f2a8c"
+    },
+    {
+      "name": "Tiffin_adopted.sbn",
+      "bytes": 140,
+      "compressed_bytes": 73,
+      "crc32": "c8702f76",
+      "sha256": "9422414225a26fce4625e4e62abee69ff8704e09775aa0b5150687f8373ca799"
+    },
+    {
+      "name": "Tiffin_adopted.sbx",
+      "bytes": 116,
+      "compressed_bytes": 60,
+      "crc32": "20b11d7c",
+      "sha256": "6829f0b6d25d108d79a318120c06a2508922b1a5044c7008460af884bebe98e1"
+    },
+    {
+      "name": "Tiffin_adopted.shp",
+      "bytes": 5028,
+      "compressed_bytes": 3446,
+      "crc32": "7c54bd44",
+      "sha256": "c355be78dc9deb6495a0acda5a8915dbd2354b4b09a70d00fb4f62d7acd06380"
+    },
+    {
+      "name": "Tiffin_adopted.shx",
+      "bytes": 116,
+      "compressed_bytes": 65,
+      "crc32": "73647cef",
+      "sha256": "4d21375e3cadf9e910d4f74d74aeec94a66458cb4ef0cb053f18792c4efc9c38"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-tiffin-precinct-boundaries--1",
+      "shp_member": "Tiffin_adopted.shp",
+      "dbf_fields": [
+        [
+          "OBJECTID",
+          "N",
+          10,
+          0
+        ],
+        [
+          "DIST_ID",
+          "N",
+          10,
+          0
+        ],
+        [
+          "DIST_NAME",
+          "C",
+          254,
+          0
+        ],
+        [
+          "SHAPE_Leng",
+          "F",
+          19,
+          11
+        ],
+        [
+          "SHAPE_Area",
+          "F",
+          19,
+          11
+        ],
+        [
+          "DIST_ID_1",
+          "N",
+          10,
+          0
+        ],
+        [
+          "DISTRICT_N",
+          "C",
+          254,
+          0
+        ],
+        [
+          "P0010001",
+          "N",
+          10,
+          0
+        ],
+        [
+          "P0010001_D",
+          "N",
+          10,
+          0
+        ],
+        [
+          "P0010001_1",
+          "F",
+          19,
+          11
+        ],
+        [
+          "District",
+          "C",
+          254,
+          0
+        ],
+        [
+          "City_Twp",
+          "C",
+          254,
+          0
+        ],
+        [
+          "Precinct",
+          "C",
+          254,
+          0
+        ]
+      ],
+      "dbf_encoding": "UTF-8",
+      "cpg_present": true,
+      "wkt_original": "PROJCS[\"NAD_1983_StatePlane_Iowa_South_FIPS_1402_Feet\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",1640416.666666667],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-93.5],PARAMETER[\"Standard_Parallel_1\",40.61666666666667],PARAMETER[\"Standard_Parallel_2\",41.78333333333333],PARAMETER[\"Latitude_Of_Origin\",40.0],UNIT[\"Foot_US\",0.3048006096012192]]",
+      "crs_authority": [
+        "EPSG",
+        "3418"
+      ],
+      "axis_info": [
+        {
+          "name": "Easting",
+          "abbreviation": "E",
+          "direction": "east",
+          "unit": "US survey foot",
+          "conversion_factor": 0.30480060960121924
+        },
+        {
+          "name": "Northing",
+          "abbreviation": "N",
+          "direction": "north",
+          "unit": "US survey foot",
+          "conversion_factor": 0.30480060960121924
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 2,
+      "shp_record_header_numbers": [
+        1,
+        2
+      ],
+      "dbf_declared_records": 2,
+      "shx_records": 2,
+      "parsed_records": 2,
+      "vertices": 301,
+      "parts": 2,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        2134354.0955675542,
+        619987.8208794147,
+        2150058.927714169,
+        634599.8280726373
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 194,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -74112880.96594238
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "OBJECTID": 1389,
+            "District": "D50"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 107,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -45183072.3894043
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "OBJECTID": 1044,
+            "District": "D51"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [
+        {
+          "record_ordinals": [
+            1,
+            2
+          ],
+          "intersection_area": 8.070069859643558e-06,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": 8.696252266081128e-05,
+          "native_projected_area_units": "square US survey foot",
+          "native_area_unavailable_reason": null,
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        }
+      ],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-tiffin-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-tiffin-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          355835.9139188468,
+          2084067.2590286885,
+          360655.14666517585,
+          2088589.8522348255
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

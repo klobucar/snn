@@ -1,0 +1,58 @@
+{
+  "source_id": "buchanan-base-link-5bfc95cc25",
+  "requested_url": "https://www.buchanancounty.iowa.gov/GIS/Service Maps/Independence-Precincts-2026.pdf?t=202601261144310",
+  "parent_authority_url": "https://www.buchanancounty.iowa.gov/services/gis_mapping/election_precincts.php",
+  "kind": "county-map-asset",
+  "retrieval_utc": "2026-10-18T04:57:58.681400+00:00",
+  "county": "Buchanan",
+  "link_label": "pdf map",
+  "discovery": "literal href resolved using actual HTML base element; earlier broken relative route retained",
+  "final_url": "https://cms4files1.revize.com/buchanancounty/GIS/Service%20Maps/Independence-Precincts-2026.pdf?t=202601261144310",
+  "status": 200,
+  "reason": "OK",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 04:57:58 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "924181",
+    "Connection": "keep-alive",
+    "Last-Modified": "Fri, 14 Aug 2026 18:54:42 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"76ed805d1e2cdd1:0\"",
+    "X-Request-Id": "cee2c53b4b41959f4019785a35dd90ec"
+  },
+  "request_headers": {
+    "User-Agent": "Iowa-public-map-research/1.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive"
+  },
+  "redirects": [
+    {
+      "status": 302,
+      "url": "https://www.buchanancounty.iowa.gov/GIS/Service%20Maps/Independence-Precincts-2026.pdf?t=202601261144310",
+      "headers": {
+        "Date": "Sun, 18 Oct 2026 04:57:58 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Content-Length": "234",
+        "Connection": "keep-alive",
+        "Cache-Control": "max-age=0, must-revalidate, no-cache, no-store, private,no-cache",
+        "Location": "https://cms4files1.revize.com/buchanancounty/GIS/Service Maps/Independence-Precincts-2026.pdf?t=202601261144310",
+        "X-XSS-Protection": "1; mode=block",
+        "Content-Security-Policy": "frame-ancestors 'self'",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "Cross-Origin-Embedder-Policy-Report-Only": "credentialless",
+        "Cross-Origin-Opener-Policy": "same-origin-allow-popups"
+      }
+    }
+  ],
+  "entity_bytes": 924181,
+  "entity_sha256": "4a56bee26823463ab65a14a1e4831dfe3252096dfdb7454973abb36584e319ba",
+  "transport_decoding": "requests HTTP content decoding; no other modification",
+  "path": "raw/buchanan-base-link-5bfc95cc25.pdf",
+  "stored_encoding": "identity",
+  "stored_bytes": 924181,
+  "stored_sha256": "4a56bee26823463ab65a14a1e4831dfe3252096dfdb7454973abb36584e319ba"
+}

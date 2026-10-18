@@ -1,0 +1,145 @@
+{
+  "county": "Clinton",
+  "county_fips": "19045",
+  "rank_2024": 12,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Clinton",
+    "county_fips": "19045",
+    "rank_2024": 12,
+    "priority": true,
+    "anchor": "ClintonCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#ClintonCountyAuditor",
+    "auditor_url": "https://elections.clintoncounty-ia.gov",
+    "phone": "563-244-0568",
+    "directory_source_id": "sos-auditors",
+    "source_position": 23
+  },
+  "current_key_publication": {
+    "source_id": "county-19045-official-alternate",
+    "url": "https://www.clintoncounty-ia.gov/auditor/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:26:23.416507+00:00",
+    "original_sha256": "6f413b3d738773d421ca9365fa5d5cf8284b6bff73b897f571a4241967021e14"
+  },
+  "finding": "The SOS-listed elections.clintoncounty-ia.gov returned403. An official county auditor alternative returned200 and itself links the elections site, which again returned403. The authority chain is confirmed, but the content block remains an access gap rather than a zero or a missing election.",
+  "gap": "November vendor/download schema and native IDs remain blocked; the pinned historical2024 county XML is available for historical comparison only.",
+  "tested_routes": [
+    {
+      "source_id": "county-19045-seed",
+      "url": "https://elections.clintoncounty-ia.gov",
+      "parent_url": "https://sos.iowa.gov/auditors#ClintonCountyAuditor",
+      "final_url": "https://elections.clintoncounty-ia.gov/",
+      "status": 403,
+      "error": null,
+      "view_path": "extracts/county-19045-seed.json",
+      "source_identity_inventory_key": "county-19045-seed"
+    },
+    {
+      "source_id": "county-19045-official-alternate",
+      "url": "https://www.clintoncounty-ia.gov/auditor/",
+      "parent_url": "official indexed search result",
+      "final_url": "https://www.clintoncounty-ia.gov/auditor/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19045-official-alternate.json",
+      "source_identity_inventory_key": "county-19045-official-alternate"
+    },
+    {
+      "source_id": "county-19045-review0",
+      "url": "https://elections.clintoncounty-ia.gov/",
+      "parent_url": "https://www.clintoncounty-ia.gov/auditor/",
+      "final_url": "https://elections.clintoncounty-ia.gov/",
+      "status": 403,
+      "error": null,
+      "view_path": "extracts/county-19045-review0.json",
+      "source_identity_inventory_key": "county-19045-review0"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Clinton",
+    "county_fips": "19045",
+    "native_election_id": "122345",
+    "native_version": "355887",
+    "native_contest_key": "0101",
+    "xml_clock": "12/2/2024 8:27:23 AM CST",
+    "roster_clock": "12/2/2024 8:56:45 AM CST",
+    "xml_member_sha256": "ab4f1ff655da6d5a74540b3b5deb69e154a4450fd117875f5570af01e439fe70",
+    "xml_member_bytes": 236818,
+    "candidate_units": 24,
+    "root_turnout_units": 24,
+    "status_units": 24,
+    "candidate_method_cells": 384,
+    "candidate_generic_votes": 23878,
+    "root_turnout_attributes": {
+      "totalVoters": "34257",
+      "ballotsCast": "24026",
+      "voterTurnout": "70.13"
+    },
+    "root_turnout_ballot_sum": 24026,
+    "root_turnout_registration_sum": 0,
+    "status_ballot_sum": 24026,
+    "status_codes": {
+      "4": 24
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "001",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "002",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "003",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "004",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "005",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SPU"
+      },
+      {
+        "choice_key": "006",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "007",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "008",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19045"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19045",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19045-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#ClintonCountyAuditor",
+    "publication_url": "https://www.clintoncounty-ia.gov/auditor/",
+    "telephone_from_directory": "563-244-0568",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

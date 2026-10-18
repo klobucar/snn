@@ -1,0 +1,258 @@
+{
+  "source_id": "sos-city-current-dubuque-ward-boundaries",
+  "source_path": "raw/sos-city-current-dubuque-ward-boundaries.zip",
+  "source_sha256": "68f2fba6f8d04a95cef9b3274c6c654a7bceaf32a989142f1bceb96f833d9456",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "City_Dubuque_WardPlan.cpg",
+      "bytes": 5,
+      "compressed_bytes": 5,
+      "crc32": "0e813c50",
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+    },
+    {
+      "name": "City_Dubuque_WardPlan.dbf",
+      "bytes": 358,
+      "compressed_bytes": 111,
+      "crc32": "1fb2a548",
+      "sha256": "bbb3a4a56ad7e76fd5483179269f87f49953c21a858a2b92d51f473d98b81945"
+    },
+    {
+      "name": "City_Dubuque_WardPlan.prj",
+      "bytes": 145,
+      "compressed_bytes": 121,
+      "crc32": "af437f55",
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    },
+    {
+      "name": "City_Dubuque_WardPlan.sbn",
+      "bytes": 172,
+      "compressed_bytes": 92,
+      "crc32": "fc12f266",
+      "sha256": "e8cc0ea0a6fa3a0a1fe425b22a4799ebd2ff95b734dd0f4382b25993c94b3353"
+    },
+    {
+      "name": "City_Dubuque_WardPlan.sbx",
+      "bytes": 124,
+      "compressed_bytes": 65,
+      "crc32": "4527c68d",
+      "sha256": "540176726dbb38c0dbe83bb845bc739a0f4dd902ae69b6fc35af9ce3566b0c8e"
+    },
+    {
+      "name": "City_Dubuque_WardPlan.shp",
+      "bytes": 166216,
+      "compressed_bytes": 109717,
+      "crc32": "ba2491d5",
+      "sha256": "276e7c31a0aede2c20f5c4a671fba43f9ee39a9ae9af5ec77cbc2becd2cd3f2d"
+    },
+    {
+      "name": "City_Dubuque_WardPlan.shp.xml",
+      "bytes": 834,
+      "compressed_bytes": 536,
+      "crc32": "4cfb3537",
+      "sha256": "a72ba53cfc2f4e41046ccbe0577fc76490251017ebe4ff95ba4747eb9f3d4510"
+    },
+    {
+      "name": "City_Dubuque_WardPlan.shx",
+      "bytes": 132,
+      "compressed_bytes": 81,
+      "crc32": "c3ab492e",
+      "sha256": "9df63a4ff19e7d23b1042bf6077377c055126f83ab45cc57966beb491a82a57a"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-dubuque-ward-boundaries--1",
+      "shp_member": "City_Dubuque_WardPlan.shp",
+      "dbf_fields": [
+        [
+          "Shape_Leng",
+          "F",
+          19,
+          11
+        ],
+        [
+          "Shape_Area",
+          "F",
+          19,
+          11
+        ],
+        [
+          "WardID",
+          "N",
+          5,
+          0
+        ],
+        [
+          "Pop2020",
+          "N",
+          5,
+          0
+        ]
+      ],
+      "dbf_encoding": "UTF-8",
+      "cpg_present": true,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 4,
+      "shp_record_header_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "dbf_declared_records": 4,
+      "shx_records": 4,
+      "parsed_records": 4,
+      "vertices": 10368,
+      "parts": 5,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -90.82402614273524,
+        42.409285003408385,
+        -90.63583569262917,
+        42.55786578975365
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 5387,
+          "parts": 2,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.00449562272615367,
+            6.129000666987849e-07
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 1,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {},
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 601,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0014155895582916855
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {},
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 3,
+          "vertices": 1299,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0017271137930947589
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {},
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 4,
+          "vertices": 3081,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0014327896640224935
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {},
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [
+        {
+          "record_ordinals": [
+            2,
+            3
+          ],
+          "intersection_area": 6.0424939148262524e-05,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": null,
+          "native_projected_area_units": null,
+          "native_area_unavailable_reason": "native CRS angular; no physical area assigned to square degrees",
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        }
+      ],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-dubuque-ward-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-dubuque-ward-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          422532.3072951854,
+          2168798.9508742215,
+          437790.6945160066,
+          2185454.707642625
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

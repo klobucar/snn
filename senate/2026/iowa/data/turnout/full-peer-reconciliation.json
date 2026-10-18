@@ -1,0 +1,183 @@
+{
+  "aliases": [
+    "Scott sheet display names map only to same original/source section row; native unit key syntax maps by source/sheet/row coordinates.",
+    "Scott source metric labels Undervotes/Overvotes map to peer display Under Votes/Over Votes only; no candidate names or counts altered.",
+    "Total and Total: map only for administrative footer labels.",
+    "State blank FIPS maps to19 only for state footer rows.",
+    "2024 root VoterTurnout administrative key/label use source_id/XML path, not worker-authored county control annotation."
+  ],
+  "scope": "all shared source fields, read-only peer extraction; no geography crosswalk approval",
+  "legacy_candidate_method": {
+    "rows": 42728,
+    "peer_rows": 42728,
+    "status": "pass",
+    "fields": [
+      "year",
+      "county",
+      "county_fips",
+      "source_id",
+      "source_row",
+      "source_column",
+      "native_unit_label",
+      "native_candidate_label",
+      "native_method",
+      "votes"
+    ],
+    "differences": []
+  },
+  "legacy_unit_rows": {
+    "rows": 3512,
+    "peer_rows": 3512,
+    "status": "pass",
+    "fields": [
+      "year",
+      "county",
+      "county_fips",
+      "source_id",
+      "source_row",
+      "native_unit_label"
+    ],
+    "differences": []
+  },
+  "legacy_registration_ballots": {
+    "rows": 12694,
+    "peer_rows": 12694,
+    "status": "pass",
+    "fields": [
+      "year",
+      "county",
+      "county_fips",
+      "source_id",
+      "source_row",
+      "source_column",
+      "native_unit_label",
+      "metric",
+      "value"
+    ],
+    "differences": []
+  },
+  "legacy_candidate_sheet_context": {
+    "rows": 6896,
+    "peer_rows": 6896,
+    "status": "pass",
+    "fields": [
+      "year",
+      "county",
+      "county_fips",
+      "source_id",
+      "source_row",
+      "source_column",
+      "native_unit_label",
+      "native_metric",
+      "value"
+    ],
+    "differences": []
+  },
+  "clarity-2024-native-candidate-method": {
+    "rows": 26448,
+    "peer_rows": 26448,
+    "status": "pass",
+    "fields": [
+      "year",
+      "county",
+      "county_fips",
+      "source_id",
+      "source_xml_path",
+      "unit_key",
+      "native_unit_label",
+      "source_unit_ordinal",
+      "native_contest_key",
+      "native_choice_key",
+      "native_candidate_label",
+      "party_header",
+      "native_method",
+      "votes",
+      "source_clock"
+    ],
+    "differences": []
+  },
+  "clarity-2024-county-candidate-method": {
+    "rows": 2376,
+    "peer_rows": 2376,
+    "status": "pass",
+    "fields": [
+      "year",
+      "county",
+      "county_fips",
+      "source_id",
+      "source_contest_key",
+      "native_choice_key",
+      "native_candidate_label",
+      "party_header",
+      "native_method",
+      "votes",
+      "source_clock"
+    ],
+    "differences": []
+  },
+  "clarity-2024-native-units": {
+    "rows": 3304,
+    "peer_rows": 3304,
+    "status": "pass",
+    "fields": [
+      "year",
+      "county",
+      "county_fips",
+      "source_id",
+      "unit_key",
+      "native_unit_label",
+      "native_unit_id",
+      "source_xml_path",
+      "source_ordinal",
+      "source_contest_key",
+      "native_election_id",
+      "native_version",
+      "source_clock",
+      "source_reporting_flag"
+    ],
+    "differences": []
+  },
+  "clarity-2024-registration-ballots": {
+    "rows": 1750,
+    "peer_rows": 1750,
+    "status": "pass",
+    "fields": [
+      "year",
+      "county",
+      "county_fips",
+      "source_id",
+      "unit_key",
+      "native_unit_label",
+      "source_scope",
+      "source_xml_path",
+      "totalVoters",
+      "ballotsCast",
+      "voterTurnout",
+      "percentReporting",
+      "source_clock"
+    ],
+    "differences": []
+  },
+  "clarity-2024-status-units": {
+    "rows": 1653,
+    "peer_rows": 1653,
+    "status": "pass",
+    "fields": [
+      "county",
+      "county_fips",
+      "source_id",
+      "source_index",
+      "native_unit_label",
+      "unit_key",
+      "S",
+      "R",
+      "B",
+      "C",
+      "CONTEST",
+      "PT",
+      "U"
+    ],
+    "differences": []
+  },
+  "status": "pass"
+}

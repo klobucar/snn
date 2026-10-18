@@ -1,0 +1,722 @@
+{
+  "source_id": "sos-county-jasper-county-precinct-boundaries-2",
+  "source_path": "raw/sos-county-jasper-county-precinct-boundaries-2.zip",
+  "source_sha256": "ad948f591d88862637f46f286848945aef9bfa1d3b108db4be642011a1a39baa",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "JasperCountyPrecincts.CPG",
+      "bytes": 5,
+      "compressed_bytes": 5,
+      "crc32": "0e813c50",
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+    },
+    {
+      "name": "JasperCountyPrecincts.dbf",
+      "bytes": 7434,
+      "compressed_bytes": 939,
+      "crc32": "fd344c18",
+      "sha256": "00872ad44b442622f376021a98dc0937fe2fae30cdc9315f86ba3d5a8e533dee"
+    },
+    {
+      "name": "JasperCountyPrecincts.prj",
+      "bytes": 542,
+      "compressed_bytes": 324,
+      "crc32": "0edd7395",
+      "sha256": "ffd762b080042b531f5022ab21b1e894415394da468394a45946c7d1ee2aa118"
+    },
+    {
+      "name": "JasperCountyPrecincts.sbn",
+      "bytes": 316,
+      "compressed_bytes": 206,
+      "crc32": "3dc03906",
+      "sha256": "17e93516032b5027a56e1bed39632c9098ade090f0e7d31b63e2a53db2e60aa2"
+    },
+    {
+      "name": "JasperCountyPrecincts.sbx",
+      "bytes": 132,
+      "compressed_bytes": 69,
+      "crc32": "042254aa",
+      "sha256": "249c740fc987ca0f52aa9b1c2f913043528f73ff991549e09a07e1df1db34dc9"
+    },
+    {
+      "name": "JasperCountyPrecincts.shp",
+      "bytes": 178452,
+      "compressed_bytes": 114727,
+      "crc32": "f4045b40",
+      "sha256": "09c55c57ccfe8fae0dc8e6098e495a8a77ac7d41c05b2af41a4f188247d10d8e"
+    },
+    {
+      "name": "JasperCountyPrecincts.shp.xml",
+      "bytes": 12271,
+      "compressed_bytes": 2943,
+      "crc32": "75c6ef9a",
+      "sha256": "734eba9aff854cedafee6f88c6b8f9a4995d50a890cd1d5851b41224ebc4f8b8"
+    },
+    {
+      "name": "JasperCountyPrecincts.shx",
+      "bytes": 260,
+      "compressed_bytes": 203,
+      "crc32": "9452067e",
+      "sha256": "7f74dbd0b6d8e04fc565830b5d81d8fb543b7d7a259ba378da2796a04479cfa3"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-county-jasper-county-precinct-boundaries-2--1",
+      "shp_member": "JasperCountyPrecincts.shp",
+      "dbf_fields": [
+        [
+          "SHORTNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "Shape_Leng",
+          "F",
+          19,
+          11
+        ],
+        [
+          "Shape_Area",
+          "F",
+          19,
+          11
+        ],
+        [
+          "Name",
+          "C",
+          254,
+          0
+        ],
+        [
+          "Population",
+          "F",
+          19,
+          11
+        ]
+      ],
+      "dbf_encoding": "UTF-8",
+      "cpg_present": true,
+      "wkt_original": "PROJCS[\"NAD_1983_2011_StatePlane_Iowa_South_FIPS_1402_Ft_US\",GEOGCS[\"GCS_NAD_1983_2011\",DATUM[\"D_NAD_1983_2011\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",1640416.666666667],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-93.5],PARAMETER[\"Standard_Parallel_1\",40.61666666666667],PARAMETER[\"Standard_Parallel_2\",41.78333333333333],PARAMETER[\"Latitude_Of_Origin\",40.0],UNIT[\"Foot_US\",0.3048006096012192]]",
+      "crs_authority": [
+        "EPSG",
+        "6465"
+      ],
+      "axis_info": [
+        {
+          "name": "Easting",
+          "abbreviation": "E",
+          "direction": "east",
+          "unit": "US survey foot",
+          "conversion_factor": 0.30480060960121924
+        },
+        {
+          "name": "Northing",
+          "abbreviation": "N",
+          "direction": "north",
+          "unit": "US survey foot",
+          "conversion_factor": 0.30480060960121924
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 20,
+      "shp_record_header_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "dbf_declared_records": 20,
+      "shx_records": 20,
+      "parsed_records": 20,
+      "vertices": 11074,
+      "parts": 32,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        1681775.5542433858,
+        549401.4098871499,
+        1844049.023330966,
+        679393.9576443025
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 340,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -1985862670.7409668
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D1",
+            "Name": "Clear Creek-Independence"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 2884,
+          "parts": 7,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -67710.66088867188,
+            -254743.10717773438,
+            -3031818206.6070557,
+            658891.5244750977,
+            87181.4974975586,
+            265879.4775390625,
+            501698.5167236328
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 3,
+          "native_ccw_holes": 4,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D2",
+            "Name": "Mound Prairie-Poweshiek-Washington"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "MultiPolygon"
+        },
+        {
+          "record_ordinal": 3,
+          "vertices": 372,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -1409924688.6990967
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D3",
+            "Name": "Des Moines"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 4,
+          "vertices": 439,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -1586270944.1256104
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D4",
+            "Name": "Fairview"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 5,
+          "vertices": 499,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -1031567387.8578491
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D5",
+            "Name": "Palo Alto"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 6,
+          "vertices": 870,
+          "parts": 2,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -11276095.164978027,
+            -2704577341.978821
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 2,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D6",
+            "Name": "Malaka-Newton-Sherman"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "MultiPolygon"
+        },
+        {
+          "record_ordinal": 7,
+          "vertices": 581,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -4048229713.0596313
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D7",
+            "Name": "Hickory Grove-Kellogg-Mariposa-Rock Creek"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 8,
+          "vertices": 463,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -2160871548.2855835
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D8",
+            "Name": "Buena Vista-Elk Creek"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 9,
+          "vertices": 543,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -2071596806.3035278
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D9",
+            "Name": "Lynn Grove-Richland"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 10,
+          "vertices": 238,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -43660348.218933105
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D10",
+            "Name": "Newton W1-PCT1"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 11,
+          "vertices": 129,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -27504288.323425293
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D11",
+            "Name": "Newton W1-PCT2"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 12,
+          "vertices": 116,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -18580432.562438965
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D12",
+            "Name": "Newton W2-PCT1"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 13,
+          "vertices": 230,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -47509517.51104736
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D13",
+            "Name": "Newton W2-PCT2"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 14,
+          "vertices": 109,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -19439303.79699707
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D14",
+            "Name": "Newton W3-PCT1"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 15,
+          "vertices": 322,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -93423357.13848877
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D15",
+            "Name": "Newton W3-PCT2"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 16,
+          "vertices": 268,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -42798422.79956055
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D16",
+            "Name": "Newton W4-PCT1"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 17,
+          "vertices": 134,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -21354801.141357422
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D17",
+            "Name": "Newton W4-PCT2"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 18,
+          "vertices": 519,
+          "parts": 5,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -22067879.17449951,
+            -87181.4974975586,
+            -658891.5244750977,
+            -265879.50469970703,
+            -501698.5807495117
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 5,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D18",
+            "Name": "Colfax 3"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "MultiPolygon"
+        },
+        {
+          "record_ordinal": 19,
+          "vertices": 308,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -7358091.9767456055
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D18",
+            "Name": "Colfax 1"
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 20,
+          "vertices": 1710,
+          "parts": 2,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -47131726.65356445,
+            254747.3712158203
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 1,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "SHORTNAME": "D18",
+            "Name": "Colfax 2"
+          },
+          "valid": false,
+          "validity_reason": "Ring Self-intersection[1714237.43551372 612346.742985725]",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [
+        {
+          "record_ordinals": [
+            2,
+            18
+          ],
+          "intersection_area": 0.008526612589360112,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": 0.09173952889521024,
+          "native_projected_area_units": "square US survey foot",
+          "native_area_unavailable_reason": null,
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            2,
+            19
+          ],
+          "intersection_area": 7.69782888418349e-06,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": 8.28980332836923e-05,
+          "native_projected_area_units": "square US survey foot",
+          "native_area_unavailable_reason": null,
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            5,
+            15
+          ],
+          "intersection_area": 160.1037522700142,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": 1723.068068497999,
+          "native_projected_area_units": "square US survey foot",
+          "native_area_unavailable_reason": null,
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            5,
+            17
+          ],
+          "intersection_area": 0.0034332768562246874,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": 0.03695438296552811,
+          "native_projected_area_units": "square US survey foot",
+          "native_area_unavailable_reason": null,
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            8,
+            15
+          ],
+          "intersection_area": 6.625538345536307e-05,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": 0.0007130050579717828,
+          "native_projected_area_units": "square US survey foot",
+          "native_area_unavailable_reason": null,
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        },
+        {
+          "record_ordinals": [
+            14,
+            15
+          ],
+          "intersection_area": 0.002815761218439843,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": 0.030307499495300278,
+          "native_projected_area_units": "square US survey foot",
+          "native_area_unavailable_reason": null,
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        }
+      ],
+      "overlap_skipped_invalid_or_unknown_crs": [
+        20
+      ],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-county-jasper-county-precinct-boundaries-2--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-county-jasper-county-precinct-boundaries-2--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          218574.60567125413,
+          2058951.6022057286,
+          268653.6217423669,
+          2100051.189427933
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

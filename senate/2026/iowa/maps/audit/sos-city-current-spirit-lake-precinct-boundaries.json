@@ -1,0 +1,251 @@
+{
+  "source_id": "sos-city-current-spirit-lake-precinct-boundaries",
+  "source_path": "raw/sos-city-current-spirit-lake-precinct-boundaries.zip",
+  "source_sha256": "37d466a3640f65e631c110228105555a7694024aab707e5d9c84bbaf3e23580a",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "City_Spirit_Lake_Precinct_Map.shp",
+      "bytes": 32696,
+      "compressed_bytes": 22410,
+      "crc32": "51dd97fb",
+      "sha256": "1d8968d0b5b1d61d588ba820570a23489d7c84fa156ef15679b19b685463e6bb"
+    },
+    {
+      "name": "City_Spirit_Lake_Precinct_Map.shx",
+      "bytes": 132,
+      "compressed_bytes": 81,
+      "crc32": "dc5807c4",
+      "sha256": "6e072e23d5a9d082af4e9fed3e3f6d20cc02fde3140bd35144d729409f13df52"
+    },
+    {
+      "name": "City_Spirit_Lake_Precinct_Map.dbf",
+      "bytes": 834,
+      "compressed_bytes": 216,
+      "crc32": "4260bd3b",
+      "sha256": "42b2acef2d88def74dfdd5d20f1580338c0c45f523c363c060555ce85b048f04"
+    },
+    {
+      "name": "City_Spirit_Lake_Precinct_Map.prj",
+      "bytes": 145,
+      "compressed_bytes": 121,
+      "crc32": "af437f55",
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-spirit-lake-precinct-boundaries--1",
+      "shp_member": "City_Spirit_Lake_Precinct_Map.shp",
+      "dbf_fields": [
+        [
+          "LONGNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "SHORTNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "DISTRICT",
+          "N",
+          5,
+          0
+        ],
+        [
+          "COLOR",
+          "N",
+          10,
+          0
+        ],
+        [
+          "TOTAL",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "N",
+          18,
+          0
+        ]
+      ],
+      "dbf_encoding": "utf-8",
+      "cpg_present": false,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 4,
+      "shp_record_header_numbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "dbf_declared_records": 4,
+      "shx_records": 4,
+      "parsed_records": 4,
+      "vertices": 2022,
+      "parts": 9,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -95.15517507375895,
+        43.392916632148626,
+        -95.07220505106368,
+        43.44498964066257
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 342,
+          "parts": 2,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.00010683081791285076,
+            -7.300745210159221e-05
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 2,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 3",
+            "SHORTNAME": "D1",
+            "DISTRICT": 1
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "MultiPolygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 897,
+          "parts": 4,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0005473866285683471,
+            3.4719005270744674e-07,
+            1.0430494512547739e-07,
+            3.15861370836501e-06
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 3,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 10",
+            "SHORTNAME": "D2",
+            "DISTRICT": 2
+          },
+          "valid": false,
+          "validity_reason": "Ring Self-intersection[-95.142032069327 43.4231646346725]",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 3,
+          "vertices": 700,
+          "parts": 2,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0005645326300509623,
+            -2.5988924789999146e-06
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 2,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 11",
+            "SHORTNAME": "D3",
+            "DISTRICT": 3
+          },
+          "valid": false,
+          "validity_reason": "Ring Self-intersection[-95.1139600595578 43.407330634245]",
+          "geometry_type": "MultiPolygon"
+        },
+        {
+          "record_ordinal": 4,
+          "vertices": 83,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -3.6611081668525003e-06
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Precinct 12",
+            "SHORTNAME": "D4",
+            "DISTRICT": 4
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [],
+      "overlap_skipped_invalid_or_unknown_crs": [
+        2,
+        3
+      ],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-spirit-lake-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-spirit-lake-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          68079.52913019797,
+          2266912.7214701576,
+          74764.2122126791,
+          2272736.5671865926
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "pass",
+  "rows_compared": 7484,
+  "county_numeric_cells": 7425,
+  "state_numeric_cells": 59,
+  "county_order_rows": 99,
+  "explicit_aliases": {
+    "state_FIPS": "Turnout state code19 maps to peer blank only for original statewide footer rows",
+    "candidate_label": "Peer name + comma + printed party header compared to turnout full label"
+  },
+  "differences": [],
+  "peer_inputs": [
+    {
+      "path": "../baselines/canvass-candidate-method.csv",
+      "sha256": "4e392aa2653a8abf8d2cf802f7fece0302fdaf08a2ceecbb49ea2efaf8a32e0a",
+      "bytes": 1835577
+    },
+    {
+      "path": "../baselines/priority-order.csv",
+      "sha256": "0625b7fdbc27cdc5e8249173a7ae6833ad4e408ccbb00c46a4ff644f4c5876d9",
+      "bytes": 3691
+    },
+    {
+      "path": "../baselines/priority.json",
+      "sha256": "d4a052ea9e53ff46598e511aaaee11453b15c9ab98bc2b7f2c40af083f9b46f1",
+      "bytes": 2554
+    },
+    {
+      "path": "../baselines/state-controls.csv",
+      "sha256": "3fe73e0b2aeccbdc6b7ab5a04484c44076bb530ff867aa2d037cc6eb0b8a607b",
+      "bytes": 6501
+    },
+    {
+      "path": "../baselines/county-contests.csv",
+      "sha256": "561f3bc81aac45cf6abf576730b967643e60828ba4c9d063caf25be836d86089",
+      "bytes": 73102
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "county": "Pottawattamie",
+  "county_fips": "19155",
+  "rank_2024": 9,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Pottawattamie",
+    "county_fips": "19155",
+    "rank_2024": 9,
+    "priority": true,
+    "anchor": "PottawattamieCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#PottawattamieCountyAuditor",
+    "auditor_url": "https://elections.pottcounty-ia.gov/elections/",
+    "phone": "712-328-5700",
+    "directory_source_id": "sos-auditors",
+    "source_position": 78
+  },
+  "current_key_publication": {
+    "source_id": "county-19155-linked5",
+    "url": "https://www.pottcounty-ia.gov/elections/2026_general_election_2026_11_03/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:25:20.135121+00:00",
+    "original_sha256": "a7f299026c710b23be156218286472fd2a2842b9700a444a8bffd0c2f56ab182"
+  },
+  "finding": "The SOS-listed elections subdomain redirects into the county auditor site. Its November3 event, sample-ballot listing and election-results archive were separately fetched. The county archive also links statewide results, so these are overlapping official channels, not independent counts to add together.",
+  "gap": "Current ballot/event pages recovered; no demonstrated November method split, native Senate choice IDs or release cadence.",
+  "tested_routes": [
+    {
+      "source_id": "county-19155-seed",
+      "url": "https://elections.pottcounty-ia.gov/elections/",
+      "parent_url": "https://sos.iowa.gov/auditors#PottawattamieCountyAuditor",
+      "final_url": "https://www.pottcounty-ia.gov/auditor/elections/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19155-seed.json",
+      "source_identity_inventory_key": "county-19155-seed"
+    },
+    {
+      "source_id": "county-19155-linked1",
+      "url": "https://www.pottcounty-ia.gov/auditor/election_results/",
+      "parent_url": "https://www.pottcounty-ia.gov/auditor/elections/",
+      "final_url": "https://www.pottcounty-ia.gov/auditor/election_results/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19155-linked1.json",
+      "source_identity_inventory_key": "county-19155-linked1"
+    },
+    {
+      "source_id": "county-19155-linked2",
+      "url": "https://www.pottcounty-ia.gov/auditor/sample_ballots/",
+      "parent_url": "https://www.pottcounty-ia.gov/auditor/elections/",
+      "final_url": "https://www.pottcounty-ia.gov/auditor/sample_ballots/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19155-linked2.json",
+      "source_identity_inventory_key": "county-19155-linked2"
+    },
+    {
+      "source_id": "county-19155-linked3",
+      "url": "https://www.pottcounty-ia.gov/auditor/elections/",
+      "parent_url": "https://www.pottcounty-ia.gov/auditor/elections/",
+      "final_url": "https://www.pottcounty-ia.gov/auditor/elections/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19155-linked3.json",
+      "source_identity_inventory_key": "county-19155-linked3"
+    },
+    {
+      "source_id": "county-19155-linked4",
+      "url": "https://www.pottcounty-ia.gov/auditor/upcoming_elections/",
+      "parent_url": "https://www.pottcounty-ia.gov/auditor/elections/",
+      "final_url": "https://www.pottcounty-ia.gov/auditor/upcoming_elections/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19155-linked4.json",
+      "source_identity_inventory_key": "county-19155-linked4"
+    },
+    {
+      "source_id": "county-19155-linked5",
+      "url": "https://www.pottcounty-ia.gov/elections/2026_general_election_2026_11_03/",
+      "parent_url": "https://www.pottcounty-ia.gov/auditor/sample_ballots/",
+      "final_url": "https://www.pottcounty-ia.gov/elections/2026_general_election_2026_11_03/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19155-linked5.json",
+      "source_identity_inventory_key": "county-19155-linked5"
+    },
+    {
+      "source_id": "county-19155-linked6",
+      "url": "https://www.pottcounty-ia.gov/files/election_results/2026_primary_election_2026_06_02_61503.pdf",
+      "parent_url": "https://www.pottcounty-ia.gov/auditor/election_results/",
+      "final_url": "https://www.pottcounty-ia.gov/files/election_results/2026_primary_election_2026_06_02_61503.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19155-linked6"
+    },
+    {
+      "source_id": "county-19155-linked7",
+      "url": "https://www.pottcounty-ia.gov/elections/2026_primary_election_2026_06_02/",
+      "parent_url": "https://www.pottcounty-ia.gov/auditor/election_results/",
+      "final_url": "https://www.pottcounty-ia.gov/elections/2026_primary_election_2026_06_02/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19155-linked7.json",
+      "source_identity_inventory_key": "county-19155-linked7"
+    },
+    {
+      "source_id": "county-19155-linked8",
+      "url": "https://electionresults.iowa.gov/IA/",
+      "parent_url": "https://www.pottcounty-ia.gov/auditor/election_results/",
+      "final_url": "https://electionresults.iowa.gov/IA/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19155-linked8.json",
+      "source_identity_inventory_key": "county-19155-linked8"
+    },
+    {
+      "source_id": "county-19155-linked9",
+      "url": "https://www.pottcounty-ia.gov/files/election_results/city_and_school_election_2019_11_05_55048_.pdf",
+      "parent_url": "https://www.pottcounty-ia.gov/auditor/election_results/",
+      "final_url": "https://www.pottcounty-ia.gov/files/election_results/city_and_school_election_2019_11_05_55048_.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19155-linked9"
+    },
+    {
+      "source_id": "county-19155-linked10",
+      "url": "https://www.pottcounty-ia.gov/files/election_results/iwcc_special_election_2018_12_11_72010.pdf",
+      "parent_url": "https://www.pottcounty-ia.gov/auditor/election_results/",
+      "final_url": "https://www.pottcounty-ia.gov/files/election_results/iwcc_special_election_2018_12_11_72010.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19155-linked10"
+    },
+    {
+      "source_id": "county-19155-linked11",
+      "url": "https://www.pottcounty-ia.gov/files/election_results/general_election_2018_2018_11_06_77280_.pdf",
+      "parent_url": "https://www.pottcounty-ia.gov/auditor/election_results/",
+      "final_url": "https://www.pottcounty-ia.gov/files/election_results/general_election_2018_2018_11_06_77280_.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19155-linked11"
+    },
+    {
+      "source_id": "county-19155-linked12",
+      "url": "https://www.pottcounty-ia.gov/files/election_results/council_bluffs_and_treynor_schools_special_election_2018_09_11_14729_.pdf",
+      "parent_url": "https://www.pottcounty-ia.gov/auditor/election_results/",
+      "final_url": "https://www.pottcounty-ia.gov/files/election_results/council_bluffs_and_treynor_schools_special_election_2018_09_11_14729_.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19155-linked12"
+    },
+    {
+      "source_id": "county-19155-specific0",
+      "url": "https://www.pottcounty-ia.gov/files/sample_ballots/20261103_avoca_avoca_city_37719.pdf",
+      "parent_url": "https://www.pottcounty-ia.gov/elections/2026_general_election_2026_11_03/",
+      "final_url": "https://www.pottcounty-ia.gov/files/sample_ballots/20261103_avoca_avoca_city_37719.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19155-specific0"
+    },
+    {
+      "source_id": "county-19155-specific1",
+      "url": "https://www.pottcounty-ia.gov/files/sample_ballots/20261103_avoca_knox_township_26211.pdf",
+      "parent_url": "https://www.pottcounty-ia.gov/elections/2026_general_election_2026_11_03/",
+      "final_url": "https://www.pottcounty-ia.gov/files/sample_ballots/20261103_avoca_knox_township_26211.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19155-specific1"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Pottawattamie",
+    "county_fips": "19155",
+    "native_election_id": "122400",
+    "native_version": "355269",
+    "native_contest_key": "0101",
+    "xml_clock": "11/18/2024 10:13:29 AM CST",
+    "roster_clock": "11/18/2024 10:16:27 AM CST",
+    "xml_member_sha256": "a2d86c1cd312b55ddd990c1235382df15daea69b5577ac713291e3b42831570e",
+    "xml_member_bytes": 367234,
+    "candidate_units": 40,
+    "root_turnout_units": 40,
+    "status_units": 40,
+    "candidate_method_cells": 640,
+    "candidate_generic_votes": 44559,
+    "root_turnout_attributes": {
+      "totalVoters": "66005",
+      "ballotsCast": "44766",
+      "voterTurnout": "67.82"
+    },
+    "root_turnout_ballot_sum": 44766,
+    "root_turnout_registration_sum": 66078,
+    "status_ballot_sum": 44766,
+    "status_codes": {
+      "4": 40
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "001",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "002",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "003",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "004",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSI"
+      },
+      {
+        "choice_key": "005",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "006",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "007",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "008",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19155"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19155",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19155-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#PottawattamieCountyAuditor",
+    "publication_url": "https://www.pottcounty-ia.gov/elections/2026_general_election_2026_11_03/",
+    "telephone_from_directory": "712-328-5700",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

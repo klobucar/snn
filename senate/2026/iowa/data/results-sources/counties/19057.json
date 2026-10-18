@@ -1,0 +1,245 @@
+{
+  "county": "Des Moines",
+  "county_fips": "19057",
+  "rank_2024": 17,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Des Moines",
+    "county_fips": "19057",
+    "rank_2024": 17,
+    "priority": true,
+    "anchor": "DesMoinesCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#DesMoinesCountyAuditor",
+    "auditor_url": "https://www.desmoinescounty.iowa.gov",
+    "phone": "319-753-8232",
+    "directory_source_id": "sos-auditors",
+    "source_position": 29
+  },
+  "current_key_publication": {
+    "source_id": "county-19057-linked5",
+    "url": "https://dmcountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:25:12.164585+00:00",
+    "original_sha256": "c75aff2fae76279ade6e31ccf3671f98a2c072f8883e6a86d648f4253bd4f446"
+  },
+  "finding": "The county root links dmcountyelections.iowa.gov. The current event, candidate list, public sample PDFs and satellite notices were recovered. Candidate list and ballot rows corroborate all three Senate names. The historical canvass/turnout discrepancy localizes here: ED+7/absentee−7 in canvass versus turnout report, same total; cause is not established.",
+  "gap": "No current count or outstanding-Senate-vote estimate. Keep the historical method discrepancy separate from2026 timing and comparisons.",
+  "tested_routes": [
+    {
+      "source_id": "county-19057-seed",
+      "url": "https://www.desmoinescounty.iowa.gov",
+      "parent_url": "https://sos.iowa.gov/auditors#DesMoinesCountyAuditor",
+      "final_url": "https://www.desmoinescounty.iowa.gov/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19057-seed.json",
+      "source_identity_inventory_key": "county-19057-seed"
+    },
+    {
+      "source_id": "county-19057-linked1",
+      "url": "https://www.desmoinescounty.iowa.gov/conservation/blog/october_2026_department_updates/",
+      "parent_url": "https://www.desmoinescounty.iowa.gov/",
+      "final_url": "https://www.desmoinescounty.iowa.gov/conservation/blog/october_2026_department_updates/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19057-linked1.json",
+      "source_identity_inventory_key": "county-19057-linked1"
+    },
+    {
+      "source_id": "county-19057-linked2",
+      "url": "https://hhs.iowa.gov/news-release/2026-08-17/iowa-health-officials-confirm-measles-cases-southern-iowa-release-locations-potential-measles",
+      "parent_url": "https://www.desmoinescounty.iowa.gov/",
+      "final_url": "https://hhs.iowa.gov/news-release/2026-08-17/iowa-health-officials-confirm-measles-cases-southern-iowa-release-locations-potential-measles",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19057-linked2.json",
+      "source_identity_inventory_key": "county-19057-linked2"
+    },
+    {
+      "source_id": "county-19057-linked3",
+      "url": "https://content.govdelivery.com/accounts/IACIO/bulletins/423c64c",
+      "parent_url": "https://www.desmoinescounty.iowa.gov/",
+      "final_url": "https://content.govdelivery.com/accounts/IACIO/bulletins/423c64c",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19057-linked3.json",
+      "source_identity_inventory_key": "county-19057-linked3"
+    },
+    {
+      "source_id": "county-19057-linked4",
+      "url": "https://dmcountyelections.iowa.gov/",
+      "parent_url": "https://www.desmoinescounty.iowa.gov/",
+      "final_url": "https://dmcountyelections.iowa.gov/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19057-linked4.json",
+      "source_identity_inventory_key": "county-19057-linked4"
+    },
+    {
+      "source_id": "county-19057-linked5",
+      "url": "https://dmcountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/",
+      "parent_url": "https://dmcountyelections.iowa.gov/",
+      "final_url": "https://dmcountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19057-linked5.json",
+      "source_identity_inventory_key": "county-19057-linked5"
+    },
+    {
+      "source_id": "county-19057-linked6",
+      "url": "https://dmcountyelections.iowa.gov/files/candidate_list/2026_general_election_36984.pdf",
+      "parent_url": "https://dmcountyelections.iowa.gov/",
+      "final_url": "https://dmcountyelections.iowa.gov/files/candidate_list/2026_general_election_36984.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19057-linked6"
+    },
+    {
+      "source_id": "county-19057-linked7",
+      "url": "https://dmcountyelections.iowa.gov/files/election_results/2026_primary_election_2026_06_02_56551.pdf",
+      "parent_url": "https://dmcountyelections.iowa.gov/",
+      "final_url": "https://dmcountyelections.iowa.gov/files/election_results/2026_primary_election_2026_06_02_56551.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19057-linked7"
+    },
+    {
+      "source_id": "county-19057-linked8",
+      "url": "https://dmcountyelections.iowa.gov/elections/past/",
+      "parent_url": "https://dmcountyelections.iowa.gov/",
+      "final_url": "https://dmcountyelections.iowa.gov/elections/past/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19057-linked8.json",
+      "source_identity_inventory_key": "county-19057-linked8"
+    },
+    {
+      "source_id": "county-19057-linked9",
+      "url": "https://dmcountyelections.iowa.gov/files/sample_ballots/1223_2026_general_election_24275.pdf",
+      "parent_url": "https://dmcountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/",
+      "final_url": "https://dmcountyelections.iowa.gov/files/sample_ballots/1223_2026_general_election_24275.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19057-linked9"
+    },
+    {
+      "source_id": "county-19057-linked10",
+      "url": "https://dmcountyelections.iowa.gov/files/election_results/cityschool_election_2019_11_05_81984_.pdf",
+      "parent_url": "https://dmcountyelections.iowa.gov/elections/past/",
+      "final_url": "https://dmcountyelections.iowa.gov/files/election_results/cityschool_election_2019_11_05_81984_.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19057-linked10"
+    },
+    {
+      "source_id": "county-19057-linked11",
+      "url": "https://dmcountyelections.iowa.gov/files/election_results/burlington_school_special_election_2019_04_02_82785.pdf",
+      "parent_url": "https://dmcountyelections.iowa.gov/elections/past/",
+      "final_url": "https://dmcountyelections.iowa.gov/files/election_results/burlington_school_special_election_2019_04_02_82785.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19057-linked11"
+    },
+    {
+      "source_id": "county-19057-linked12",
+      "url": "https://dmcountyelections.iowa.gov/files/election_results/danville_school_special_election_2018_12_11_15693_.pdf",
+      "parent_url": "https://dmcountyelections.iowa.gov/elections/past/",
+      "final_url": "https://dmcountyelections.iowa.gov/files/election_results/danville_school_special_election_2018_12_11_15693_.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19057-linked12"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Des Moines",
+    "county_fips": "19057",
+    "native_election_id": "122351",
+    "native_version": "355698",
+    "native_contest_key": "190",
+    "xml_clock": "11/22/2024 12:01:02 PM CST",
+    "roster_clock": "12/2/2024 9:55:53 AM CST",
+    "xml_member_sha256": "cc82a82bd63bf6b7711067a48464cdf0110dda1f9ffcd4c2e49c1563ff853b81",
+    "xml_member_bytes": 166554,
+    "candidate_units": 17,
+    "root_turnout_units": 17,
+    "status_units": 17,
+    "candidate_method_cells": 272,
+    "candidate_generic_votes": 19054,
+    "root_turnout_attributes": {
+      "totalVoters": "28052",
+      "ballotsCast": "19171",
+      "voterTurnout": "68.34"
+    },
+    "root_turnout_ballot_sum": 19171,
+    "root_turnout_registration_sum": 27782,
+    "status_ballot_sum": 19171,
+    "status_codes": {
+      "4": 17
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "103",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "104",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "105",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "106",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "107",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "108",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "109",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "0",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19057"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19057",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19057-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#DesMoinesCountyAuditor",
+    "publication_url": "https://dmcountyelections.iowa.gov/elections/info/2026_general_election_2026_11_03/",
+    "telephone_from_directory": "319-753-8232",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

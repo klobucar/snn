@@ -1,0 +1,245 @@
+{
+  "county": "Cedar",
+  "county_fips": "19031",
+  "rank_2024": 35,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Cedar",
+    "county_fips": "19031",
+    "rank_2024": 35,
+    "priority": true,
+    "anchor": "CedarCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#CedarCountyAuditor",
+    "auditor_url": "https://cedarcounty.iowa.gov",
+    "phone": "563-886-3168",
+    "directory_source_id": "sos-auditors",
+    "source_position": 16
+  },
+  "current_key_publication": {
+    "source_id": "county-19031-linked3",
+    "url": "https://elections.cedarcounty.iowa.gov/elections/info/general_2026_11_03/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:25:10.237050+00:00",
+    "original_sha256": "90a5690ae9007cd60f27b3c50f03399fc8ad237185cfe00bef8bc0f33f2e7768"
+  },
+  "finding": "The official current event contains a literal zero setup:0/12 Precincts Counted and Results Available on Election Night. It states provisional cure November9 noon, canvass November10 at10am and recount November12 at5pm. That county statement supports holiday handling locally, while the SOS guide's November13/third-day wording conflicts with current statute.",
+  "gap": "Setup is not a counted snapshot or zero outstanding ballots. Reporting denominator12 is source-scoped; exact Senate remaining votes and completion semantics are absent.",
+  "tested_routes": [
+    {
+      "source_id": "county-19031-seed",
+      "url": "https://cedarcounty.iowa.gov",
+      "parent_url": "https://sos.iowa.gov/auditors#CedarCountyAuditor",
+      "final_url": "https://cedarcounty.iowa.gov/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19031-seed.json",
+      "source_identity_inventory_key": "county-19031-seed"
+    },
+    {
+      "source_id": "county-19031-linked1",
+      "url": "https://elections.cedarcounty.iowa.gov/elected_officials/",
+      "parent_url": "https://cedarcounty.iowa.gov/",
+      "final_url": "https://elections.cedarcounty.iowa.gov/elected_officials/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19031-linked1.json",
+      "source_identity_inventory_key": "county-19031-linked1"
+    },
+    {
+      "source_id": "county-19031-linked2",
+      "url": "https://elections.cedarcounty.iowa.gov",
+      "parent_url": "https://cedarcounty.iowa.gov/",
+      "final_url": "https://elections.cedarcounty.iowa.gov/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19031-linked2.json",
+      "source_identity_inventory_key": "county-19031-linked2"
+    },
+    {
+      "source_id": "county-19031-linked3",
+      "url": "https://elections.cedarcounty.iowa.gov/elections/info/general_2026_11_03/",
+      "parent_url": "https://elections.cedarcounty.iowa.gov/",
+      "final_url": "https://elections.cedarcounty.iowa.gov/elections/info/general_2026_11_03/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19031-linked3.json",
+      "source_identity_inventory_key": "county-19031-linked3"
+    },
+    {
+      "source_id": "county-19031-linked4",
+      "url": "https://elections.cedarcounty.iowa.gov/files/election_results/primary_election_2026_06_02_79058.pdf",
+      "parent_url": "https://elections.cedarcounty.iowa.gov/",
+      "final_url": "https://elections.cedarcounty.iowa.gov/files/election_results/primary_election_2026_06_02_79058.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19031-linked4"
+    },
+    {
+      "source_id": "county-19031-linked5",
+      "url": "https://elections.cedarcounty.iowa.gov/files/election_results/primary_election_2026_06_02_44387.pdf",
+      "parent_url": "https://elections.cedarcounty.iowa.gov/",
+      "final_url": "https://elections.cedarcounty.iowa.gov/files/election_results/primary_election_2026_06_02_44387.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19031-linked5"
+    },
+    {
+      "source_id": "county-19031-linked6",
+      "url": "https://elections.cedarcounty.iowa.gov/elections/info/primary_election_2026_06_02/",
+      "parent_url": "https://elections.cedarcounty.iowa.gov/",
+      "final_url": "https://elections.cedarcounty.iowa.gov/elections/info/primary_election_2026_06_02/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19031-linked6.json",
+      "source_identity_inventory_key": "county-19031-linked6"
+    },
+    {
+      "source_id": "county-19031-linked7",
+      "url": "https://elections.cedarcounty.iowa.gov/elections/ballots/",
+      "parent_url": "https://elections.cedarcounty.iowa.gov/elected_officials/",
+      "final_url": "https://elections.cedarcounty.iowa.gov/elections/ballots/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19031-linked7.json",
+      "source_identity_inventory_key": "county-19031-linked7"
+    },
+    {
+      "source_id": "county-19031-linked8",
+      "url": "https://elections.cedarcounty.iowa.gov/files/election_results/2025_cityschool_election_2025_11_04_65713.pdf",
+      "parent_url": "https://elections.cedarcounty.iowa.gov/",
+      "final_url": "https://elections.cedarcounty.iowa.gov/files/election_results/2025_cityschool_election_2025_11_04_65713.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19031-linked8"
+    },
+    {
+      "source_id": "county-19031-linked9",
+      "url": "https://elections.cedarcounty.iowa.gov/elections/past/2026/",
+      "parent_url": "https://elections.cedarcounty.iowa.gov/elections/info/general_2026_11_03/",
+      "final_url": "https://elections.cedarcounty.iowa.gov/elections/past/2026/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19031-linked9.json",
+      "source_identity_inventory_key": "county-19031-linked9"
+    },
+    {
+      "source_id": "county-19031-linked10",
+      "url": "https://elections.cedarcounty.iowa.gov/files/sample_ballots/20260602_republican_21315.pdf",
+      "parent_url": "https://elections.cedarcounty.iowa.gov/elections/info/primary_election_2026_06_02/",
+      "final_url": "https://elections.cedarcounty.iowa.gov/files/sample_ballots/20260602_republican_21315.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19031-linked10"
+    },
+    {
+      "source_id": "county-19031-specific0",
+      "url": "https://elections.cedarcounty.iowa.gov/files/sample_ballots/20260602_democrat_74210.pdf",
+      "parent_url": "https://elections.cedarcounty.iowa.gov/elections/info/primary_election_2026_06_02/",
+      "final_url": "https://elections.cedarcounty.iowa.gov/files/sample_ballots/20260602_democrat_74210.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19031-specific0"
+    },
+    {
+      "source_id": "county-19031-second",
+      "url": "https://elections.cedarcounty.iowa.gov/elections/info/general_2026_11_03/",
+      "parent_url": "https://elections.cedarcounty.iowa.gov/",
+      "final_url": "https://elections.cedarcounty.iowa.gov/elections/info/general_2026_11_03/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19031-second.json",
+      "source_identity_inventory_key": "county-19031-second"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Cedar",
+    "county_fips": "19031",
+    "native_election_id": "122338",
+    "native_version": "355823",
+    "native_contest_key": "0004",
+    "xml_clock": "11/26/2024 11:47:46 AM CST",
+    "roster_clock": "11/26/2024 12:21:39 PM CST",
+    "xml_member_sha256": "e43bcc75ab500b6c7ecbd223d04d1e053cfc74fc89e324d96be42edd94d8ddd2",
+    "xml_member_bytes": 136242,
+    "candidate_units": 12,
+    "root_turnout_units": 12,
+    "status_units": 12,
+    "candidate_method_cells": 192,
+    "candidate_generic_votes": 10644,
+    "root_turnout_attributes": {
+      "totalVoters": "13358",
+      "ballotsCast": "10709",
+      "voterTurnout": "80.17"
+    },
+    "root_turnout_ballot_sum": 10709,
+    "root_turnout_registration_sum": 13365,
+    "status_ballot_sum": 10709,
+    "status_codes": {
+      "4": 12
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "001",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "002",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "003",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "004",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "005",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SPA"
+      },
+      {
+        "choice_key": "006",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "007",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "009",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19031"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19031",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19031-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#CedarCountyAuditor",
+    "publication_url": "https://elections.cedarcounty.iowa.gov/elections/info/general_2026_11_03/",
+    "telephone_from_directory": "563-886-3168",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

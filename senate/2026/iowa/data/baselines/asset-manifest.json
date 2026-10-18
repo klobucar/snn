@@ -1,0 +1,1380 @@
+{
+  "scope": "owned artifacts; self excluded to avoid circular hash; originals separately verified via sources.json; peer artifacts pinned by reconciliation evidence",
+  "assets": [
+    {
+      "path": "../../county-partisanship.md",
+      "sha256": "f7f438f89f0b6a4780ac72021b7a864347258cb8ba34b325c1ffc417bb58d0ea",
+      "bytes": 29876
+    },
+    {
+      "path": "SCHEMA.md",
+      "sha256": "e07beee574b8756a4e3c01c042ef04eab1a58f6b7910faf5e38c012e1b0dd0db",
+      "bytes": 15196
+    },
+    {
+      "path": "acquire.py",
+      "sha256": "89da1c928656fe08cabb0499e5a6b481b2a0f2cfd60c754412552b7518e60747",
+      "bytes": 2023
+    },
+    {
+      "path": "calculate.py",
+      "sha256": "79df4918f7592aa7de8830ecb145b16ca329942e67fb75cfd87b425329848009",
+      "bytes": 12278
+    },
+    {
+      "path": "candidate-headers.json",
+      "sha256": "51893607991bde9014c153a398e798f741b755ab8d69f0f976b5889bff59607b",
+      "bytes": 5885
+    },
+    {
+      "path": "canvass-candidate-method.csv",
+      "sha256": "4e392aa2653a8abf8d2cf802f7fece0302fdaf08a2ceecbb49ea2efaf8a32e0a",
+      "bytes": 1835577
+    },
+    {
+      "path": "cass-local-source-context.json",
+      "sha256": "3d93e3057c0520cf562eca7cfcc1ca2303661ff1da42c6b93a0cdbd7ead23916",
+      "bytes": 1382
+    },
+    {
+      "path": "cells/black-hawk-2022-filename-repair.jsonl.gz",
+      "sha256": "3c4f0119a056c26eeebf363d2f18bb30d4652cf8d035797dbd82de4475e6320e",
+      "bytes": 133734
+    },
+    {
+      "path": "cells/sos-2020-workbook-070-adair.xlsx.jsonl.gz",
+      "sha256": "805e4d893ab532f6ddd4c547eb7fad1415f7ad4047551197d7761f9973b55ee4",
+      "bytes": 12979
+    },
+    {
+      "path": "cells/sos-2020-workbook-072-adams.xlsx.jsonl.gz",
+      "sha256": "48cbeff1eccc103711fc2bbe8fd9b1f7791041e5f3621a0abe7ffb641a0be7e5",
+      "bytes": 10723
+    },
+    {
+      "path": "cells/sos-2020-workbook-073-allamakee.xlsx.jsonl.gz",
+      "sha256": "5e70561c6f58a94a08230d9d886df8f781cd99deeee913f08b7d3c727fc9bb49",
+      "bytes": 25919
+    },
+    {
+      "path": "cells/sos-2020-workbook-074-appanoose.xlsx.jsonl.gz",
+      "sha256": "954b41cbdfa35e971dcf06773e809554bdfc3a8a0884c7c6d054d2a87db30c16",
+      "bytes": 31368
+    },
+    {
+      "path": "cells/sos-2020-workbook-075-audubon.xlsx.jsonl.gz",
+      "sha256": "9383cc1f18523f27a895cab9b85552a24cded72acc3b39e05e14ddfd0e746fd8",
+      "bytes": 11744
+    },
+    {
+      "path": "cells/sos-2020-workbook-076-benton.xlsx.jsonl.gz",
+      "sha256": "408ee7655afe92e2ffa8fd41ea60e9d3afeb7942278c61ca0921ab3ea20e1d10",
+      "bytes": 50322
+    },
+    {
+      "path": "cells/sos-2020-workbook-077-black-hawk.xlsx.jsonl.gz",
+      "sha256": "4ffc1f263fc5f876718f7e6f94bc8be14744127f2a04d9bbe14464b9ffee65b0",
+      "bytes": 175272
+    },
+    {
+      "path": "cells/sos-2020-workbook-078-boone.xlsx.jsonl.gz",
+      "sha256": "546831c6662cb692e73b2346beb00a28586ab6497d840cb62d57c8840b78fb66",
+      "bytes": 43188
+    },
+    {
+      "path": "cells/sos-2020-workbook-079-bremer.xlsx.jsonl.gz",
+      "sha256": "c2f5642053c7a5d4f1c25ee39b295fa169084e77c4530e6bb300ff251b0f07b9",
+      "bytes": 31063
+    },
+    {
+      "path": "cells/sos-2020-workbook-080-buchanan.xlsx.jsonl.gz",
+      "sha256": "ea8eec2ab5c4f6e2fa28d3734beb08e6eca1d77862b8b4defe6b94cd7f6d051a",
+      "bytes": 31937
+    },
+    {
+      "path": "cells/sos-2020-workbook-081-buena-vista.xlsx.jsonl.gz",
+      "sha256": "54189f07d34f29518ca1bba94471923580985dda2c8c7162b64aa89c86e56067",
+      "bytes": 26338
+    },
+    {
+      "path": "cells/sos-2020-workbook-082-butler.xlsx.jsonl.gz",
+      "sha256": "8f156641a0a5540eb3b0cde8843fea6c0a25aeb2d8e8093175bd7c19e350888c",
+      "bytes": 20852
+    },
+    {
+      "path": "cells/sos-2020-workbook-083-calhoun.xlsx.jsonl.gz",
+      "sha256": "1a0b1027111db47057b3609f401af7c8c20e25965ff51ed24238f3a4edc1c3e8",
+      "bytes": 25359
+    },
+    {
+      "path": "cells/sos-2020-workbook-084-carroll.xlsx.jsonl.gz",
+      "sha256": "91c787617ad93f7b7c67ad6e767a8a4a0e41cb5256e2079f82236086865c2682",
+      "bytes": 34594
+    },
+    {
+      "path": "cells/sos-2020-workbook-085-cass.xlsx.jsonl.gz",
+      "sha256": "047a2df63162b9dfab8384e62b7fb86832e66b3c435634760964a844670d2ce4",
+      "bytes": 22291
+    },
+    {
+      "path": "cells/sos-2020-workbook-086-cedar.xlsx.jsonl.gz",
+      "sha256": "435a6c1ab61147f2a5963da0564eb0d0acdc6f858ce03f9b7bbed4d967d90e96",
+      "bytes": 32888
+    },
+    {
+      "path": "cells/sos-2020-workbook-087-cerro-gordo.xlsx.jsonl.gz",
+      "sha256": "72cd383de97715e975cb4ff7a64cb793a68240eb7f382f5e82b05274ae6ef77d",
+      "bytes": 63957
+    },
+    {
+      "path": "cells/sos-2020-workbook-088-cherokee.xlsx.jsonl.gz",
+      "sha256": "459c38ab768bd7626c166d8578f59212e276ece1c9e2959b36146d668a09493b",
+      "bytes": 17737
+    },
+    {
+      "path": "cells/sos-2020-workbook-089-chickasaw.xlsx.jsonl.gz",
+      "sha256": "bf3fc0dff5a893e090c2f867602905fdf467493565eef80d31c479bde0ac6286",
+      "bytes": 30290
+    },
+    {
+      "path": "cells/sos-2020-workbook-090-clarke.xlsx.jsonl.gz",
+      "sha256": "1f5cb6a10b586e54bd2f68e302679a91cf4fb13394daf7a1febd5a48197cb514",
+      "bytes": 19187
+    },
+    {
+      "path": "cells/sos-2020-workbook-091-clay.xlsx.jsonl.gz",
+      "sha256": "fd66ead65346abbfe05c4b041be26686d418d27356303b62f1461f48dd17409d",
+      "bytes": 26102
+    },
+    {
+      "path": "cells/sos-2020-workbook-092-clayton.xlsx.jsonl.gz",
+      "sha256": "a4ae92e94107e4a633d3149002b61331b7b9bbed87d064036c624f04cde4c85b",
+      "bytes": 39220
+    },
+    {
+      "path": "cells/sos-2020-workbook-093-clinton.xlsx.jsonl.gz",
+      "sha256": "09fe01654733a5f7e8a9340a180228378f16fb95c40d0f26dce5b50f836fd423",
+      "bytes": 68092
+    },
+    {
+      "path": "cells/sos-2020-workbook-094-crawford.xlsx.jsonl.gz",
+      "sha256": "bc4ad5a6345eae17161b588cf349bf15ac7357246fc68e3f11476f08ebe7a7d9",
+      "bytes": 25779
+    },
+    {
+      "path": "cells/sos-2020-workbook-095-dallas.xlsx.jsonl.gz",
+      "sha256": "a46274b1a232a428f5e480506f4ae3289f3c29f19d971f48ecc73774ce60585d",
+      "bytes": 110384
+    },
+    {
+      "path": "cells/sos-2020-workbook-096-davis.xlsx.jsonl.gz",
+      "sha256": "0d9d252458319f86815dd3a9fa9d4ca60d1eafd2b750b41d6ddfb599cfd8e48d",
+      "bytes": 16548
+    },
+    {
+      "path": "cells/sos-2020-workbook-097-decatur.xlsx.jsonl.gz",
+      "sha256": "ff4d9e48d322a9a7f36408d170da770b41a6c97989be2c96d7bc3cfac1806e6f",
+      "bytes": 21450
+    },
+    {
+      "path": "cells/sos-2020-workbook-098-delaware.xlsx.jsonl.gz",
+      "sha256": "32f379d87374c8b804add3e27343f0b86e268d2c7dec06abc2cae4b78d2afbdb",
+      "bytes": 24736
+    },
+    {
+      "path": "cells/sos-2020-workbook-099-des-moines.xlsx.jsonl.gz",
+      "sha256": "a5493cdf4d5d45ac13d323cbca2de3be2ebc532ddaf5880ef1d065558a806f51",
+      "bytes": 40265
+    },
+    {
+      "path": "cells/sos-2020-workbook-100-dickinson.xlsx.jsonl.gz",
+      "sha256": "37791e23a2fcc280d594a2d97e2dbf6332b8f3cc85def557c1327e8474054dc2",
+      "bytes": 31824
+    },
+    {
+      "path": "cells/sos-2020-workbook-101-dubuque.xlsx.jsonl.gz",
+      "sha256": "5cbe6149fb178aa4abcbe47308d56b921ef2288be59b2ded47ff74849f0efccd",
+      "bytes": 106126
+    },
+    {
+      "path": "cells/sos-2020-workbook-102-emmet.xlsx.jsonl.gz",
+      "sha256": "774dd9405ef28351470445e052cf6ee5b545d5e4140363d4c02f889d23b65e35",
+      "bytes": 24022
+    },
+    {
+      "path": "cells/sos-2020-workbook-103-fayette.xlsx.jsonl.gz",
+      "sha256": "44fc023e33a08acf3f9ed0f11c1050abc566ad49f9b91cd387c569864a40d4d1",
+      "bytes": 62796
+    },
+    {
+      "path": "cells/sos-2020-workbook-104-floyd.xlsx.jsonl.gz",
+      "sha256": "3bcd83f21df297fa6e4acebab55637546f0d4916f63854f0989f2ec64d3be2e7",
+      "bytes": 23650
+    },
+    {
+      "path": "cells/sos-2020-workbook-105-franklin.xlsx.jsonl.gz",
+      "sha256": "f0b4914cd75290733f255ae196b31803c59a6212b032d2529c701e6f5c4a2f8c",
+      "bytes": 27686
+    },
+    {
+      "path": "cells/sos-2020-workbook-106-fremont.xlsx.jsonl.gz",
+      "sha256": "8518837e1d34c2510bbb70048256fa8e094801599aaf2f486145a2068b43c885",
+      "bytes": 15747
+    },
+    {
+      "path": "cells/sos-2020-workbook-107-greene.xlsx.jsonl.gz",
+      "sha256": "b2ff0f253f7f3ba64db5e0d943e2d3abb26fc1ca42debc10e8548737f48d0df4",
+      "bytes": 20504
+    },
+    {
+      "path": "cells/sos-2020-workbook-108-grundy.xlsx.jsonl.gz",
+      "sha256": "3a96598563284c5d3a4693ffd36bd66078e6e9a84890fff07836d281a2b4f8fd",
+      "bytes": 15282
+    },
+    {
+      "path": "cells/sos-2020-workbook-109-guthrie.xlsx.jsonl.gz",
+      "sha256": "8beaa704ecbe41817beb840b91992e401909d21a205153c4e8b2627dff9f00ec",
+      "bytes": 25337
+    },
+    {
+      "path": "cells/sos-2020-workbook-110-hamilton.xlsx.jsonl.gz",
+      "sha256": "acbc9cd90b20b7e1c7c51488368fe0207b7206b213c6ce10264798e67ea69472",
+      "bytes": 24428
+    },
+    {
+      "path": "cells/sos-2020-workbook-111-hancock.xlsx.jsonl.gz",
+      "sha256": "0b0e7c9504601f9f805587a9e6c7d82744f0160665792340c19f09cb1a0944ba",
+      "bytes": 23990
+    },
+    {
+      "path": "cells/sos-2020-workbook-112-hardin.xlsx.jsonl.gz",
+      "sha256": "bd26ac9a9fd56bcf3af78774c3d35c6d8bce1a2a90ec7747f0c52be7dde0dcea",
+      "bytes": 19096
+    },
+    {
+      "path": "cells/sos-2020-workbook-113-harrison.xlsx.jsonl.gz",
+      "sha256": "210951ddfe99b8cbccd473ebd01e20f1a7f2c5aba23874e5ef0e14f092109dc0",
+      "bytes": 33797
+    },
+    {
+      "path": "cells/sos-2020-workbook-114-henry.xlsx.jsonl.gz",
+      "sha256": "54458c4acf2493487247ce2cc0269287ca8e8549a2fe35910fbbb9c487e1e1fa",
+      "bytes": 17373
+    },
+    {
+      "path": "cells/sos-2020-workbook-115-howard.xlsx.jsonl.gz",
+      "sha256": "24c81204bc4fc95ba6ff07a8a4f6927bdd3577ac0022d229d9bd5ef030023e1b",
+      "bytes": 17762
+    },
+    {
+      "path": "cells/sos-2020-workbook-116-humboldt.xlsx.jsonl.gz",
+      "sha256": "b0aca9a5e92aaa5eb0bd5e5164cfaa19a6a125846d16664c71f9a5a010cf25df",
+      "bytes": 24498
+    },
+    {
+      "path": "cells/sos-2020-workbook-117-ida.xlsx.jsonl.gz",
+      "sha256": "a2294f2cbe74fa42bf7e05c83e9119e857c6c690fb40e0ac8b14aee65c43756c",
+      "bytes": 19548
+    },
+    {
+      "path": "cells/sos-2020-workbook-118-iowa.xlsx.jsonl.gz",
+      "sha256": "78e49339a1a4665f6e6af325e11902ab3e3f6f91b651ee9a8112c3e415de9f0a",
+      "bytes": 26705
+    },
+    {
+      "path": "cells/sos-2020-workbook-119-jackson.xlsx.jsonl.gz",
+      "sha256": "1991d9aa7667abcd046d5f7a9253b399140e6de078427eb7cd13e9d8c7616deb",
+      "bytes": 41728
+    },
+    {
+      "path": "cells/sos-2020-workbook-121-jasper.xlsx.jsonl.gz",
+      "sha256": "3c52d1d0b14028ace846286a727152a1e0b18a2f0ea2c96053f64b8ddef42cbf",
+      "bytes": 46916
+    },
+    {
+      "path": "cells/sos-2020-workbook-122-jefferson.xlsx.jsonl.gz",
+      "sha256": "7020b0789ec6a346ab8ac6d72f12c565ce6b1bc5b057bd70d2251cc09c2e8fba",
+      "bytes": 32170
+    },
+    {
+      "path": "cells/sos-2020-workbook-123-johnson.xlsx.jsonl.gz",
+      "sha256": "1be24f6b3cd665d7561b78cc00798b5b65f8925fd78d3384345fbaa80f6ec1f0",
+      "bytes": 159727
+    },
+    {
+      "path": "cells/sos-2020-workbook-124-jones.xlsx.jsonl.gz",
+      "sha256": "791dbcf50ac831d0e5feff504b87291b1380f99c2d3c611617827a284680ea14",
+      "bytes": 37693
+    },
+    {
+      "path": "cells/sos-2020-workbook-125-keokuk.xlsx.jsonl.gz",
+      "sha256": "b2b5dc141b65728743bde3761a0bc15f0835da39c4a40ed7f830a4626e0330d2",
+      "bytes": 32824
+    },
+    {
+      "path": "cells/sos-2020-workbook-126-kossuth.xlsx.jsonl.gz",
+      "sha256": "90c6507631bdbad798633d8a90b68d9a7ead75787e636ed56af67b53c124525e",
+      "bytes": 39096
+    },
+    {
+      "path": "cells/sos-2020-workbook-127-lee.xlsx.jsonl.gz",
+      "sha256": "cdc0cf2c8ab1d12a9ae705e9b01dee7518107e9a96d9ccd0e4c8d8a84200634f",
+      "bytes": 45663
+    },
+    {
+      "path": "cells/sos-2020-workbook-128-linn.xlsx.jsonl.gz",
+      "sha256": "b6d90008b7113af272b6fb96debb8fa8c52a7b68dd5ffbcc52d33e856885b39c",
+      "bytes": 245213
+    },
+    {
+      "path": "cells/sos-2020-workbook-129-louisa.xlsx.jsonl.gz",
+      "sha256": "d1c74f8c4fd2a42638a09684f04cd5242cc2e5e00c25becf443bb9b6cb15990a",
+      "bytes": 15475
+    },
+    {
+      "path": "cells/sos-2020-workbook-130-lucas.xlsx.jsonl.gz",
+      "sha256": "a445003c4d11185349a1808ee2b2af8f1f3d67125ccc22810ce6de426e3637fc",
+      "bytes": 18164
+    },
+    {
+      "path": "cells/sos-2020-workbook-131-lyon.xlsx.jsonl.gz",
+      "sha256": "d7b8361a7f547131b5d0032a5a954b2f7170b313611abaacebb6c26ae37a63bc",
+      "bytes": 15588
+    },
+    {
+      "path": "cells/sos-2020-workbook-132-madison.xlsx.jsonl.gz",
+      "sha256": "e93b9781dee6e46a13e41b4042afe734f9249d4061c350217d601939f9ac7791",
+      "bytes": 27396
+    },
+    {
+      "path": "cells/sos-2020-workbook-134-mahaska.xlsx.jsonl.gz",
+      "sha256": "e1d9d8ad7557ffcbe3a63fa5560cb37210feb261245d9bf0abe608cf00c62134",
+      "bytes": 29247
+    },
+    {
+      "path": "cells/sos-2020-workbook-135-marion.xlsx.jsonl.gz",
+      "sha256": "e414358e2154ec45cde11f833bb58dddb7f4fa1549c45529057e7a4ce6c4b9e9",
+      "bytes": 39857
+    },
+    {
+      "path": "cells/sos-2020-workbook-136-marshall.xlsx.jsonl.gz",
+      "sha256": "096ed20e584549b171661c0ea663125db9a9ba1573405bc93db900d56da5695a",
+      "bytes": 46061
+    },
+    {
+      "path": "cells/sos-2020-workbook-137-mills.xlsx.jsonl.gz",
+      "sha256": "ffcf36bba10302c6dd8b0199ff3b6e54d5af01516188860980d9671d4cd899cb",
+      "bytes": 26658
+    },
+    {
+      "path": "cells/sos-2020-workbook-138-mitchell.xlsx.jsonl.gz",
+      "sha256": "f6af09a77e0cacf361313c6991a4eecf860fa2ade4ce2c0dbc52087ed5a01db6",
+      "bytes": 21253
+    },
+    {
+      "path": "cells/sos-2020-workbook-139-monona.xlsx.jsonl.gz",
+      "sha256": "b4ec5882ae19cf833714320fa611018fbd32fb8d8061c6d7a6220dc8475c770d",
+      "bytes": 24333
+    },
+    {
+      "path": "cells/sos-2020-workbook-140-monroe.xlsx.jsonl.gz",
+      "sha256": "e4b202cc8c21809fdc10c36072017c8c92b99aa68b5856a0f0463653209b3706",
+      "bytes": 16544
+    },
+    {
+      "path": "cells/sos-2020-workbook-141-montgomery.xlsx.jsonl.gz",
+      "sha256": "40a9fbb61fe850d2e0483e02eba9bdbaab73f36a33afaf39fce5ffe258e8201a",
+      "bytes": 20482
+    },
+    {
+      "path": "cells/sos-2020-workbook-142-muscatine.xlsx.jsonl.gz",
+      "sha256": "7efda873a596952e2d62416cefe987f3d9c8b81d1c49b2fae06d153e2f395e6b",
+      "bytes": 73653
+    },
+    {
+      "path": "cells/sos-2020-workbook-143-obrien.xlsx.jsonl.gz",
+      "sha256": "e440bf42c0428b8c6fd52717ad940dca0cf62fbdd721adc69d29d0d0e655981d",
+      "bytes": 18510
+    },
+    {
+      "path": "cells/sos-2020-workbook-144-osceola.xlsx.jsonl.gz",
+      "sha256": "c35bf99fe5c9d514155907c613dcdfd0d036d5cd4936e95c89d3bf9ff79e2547",
+      "bytes": 15456
+    },
+    {
+      "path": "cells/sos-2020-workbook-145-page.xlsx.jsonl.gz",
+      "sha256": "b41d9bbee0e765d706512eb9309f2045968bff6ce93b64145fa23c1aabed5d3c",
+      "bytes": 21408
+    },
+    {
+      "path": "cells/sos-2020-workbook-146-palo-alto.xlsx.jsonl.gz",
+      "sha256": "d820a50b7f03999e086db5e42648b06956cc83d90e035839b4f6f43c582db595",
+      "bytes": 14045
+    },
+    {
+      "path": "cells/sos-2020-workbook-147-plymouth.xlsx.jsonl.gz",
+      "sha256": "c760d944dd22bbe41fba49d77d7f5a30d4212c9bf68d3f96392c24673ff3ae16",
+      "bytes": 28534
+    },
+    {
+      "path": "cells/sos-2020-workbook-148-pocahontas.xlsx.jsonl.gz",
+      "sha256": "a2aaed5ea573da275eeeef8379a880170e4511057da9d2ef3b47b7721ca69c10",
+      "bytes": 20284
+    },
+    {
+      "path": "cells/sos-2020-workbook-149-polk.xlsx.jsonl.gz",
+      "sha256": "111cbd5f9ba1ee87ee64897f312afabb01f20759631eb02bf9d930ea05d25daa",
+      "bytes": 638856
+    },
+    {
+      "path": "cells/sos-2020-workbook-150-pottawattamie.xlsx.jsonl.gz",
+      "sha256": "87c59f36f48aa5e6cc646ec9e5c2f3624c694417b12ca98d80ade30273b5a42e",
+      "bytes": 130840
+    },
+    {
+      "path": "cells/sos-2020-workbook-151-poweshiek.xlsx.jsonl.gz",
+      "sha256": "8b2922b4e7c5c86baf2824f475a11b873692b55f5d538fbad8af7a498ec7dbbd",
+      "bytes": 23255
+    },
+    {
+      "path": "cells/sos-2020-workbook-152-ringgold.xlsx.jsonl.gz",
+      "sha256": "389c721cdbbe5ba72a937b3d7d1b899b90ab796de4c3f4d9f1dc7771694cf2ef",
+      "bytes": 17912
+    },
+    {
+      "path": "cells/sos-2020-workbook-153-sac.xlsx.jsonl.gz",
+      "sha256": "d0aae88cd0c332973b31bebfd5e719f87a2cb675e28b0f9ebfc00acab449115e",
+      "bytes": 20939
+    },
+    {
+      "path": "cells/sos-2020-workbook-155-shelby.xlsx.jsonl.gz",
+      "sha256": "57223a4aea17fd417fe50cdbc9522b488bfe6c4860f735fabe7626e7a287ff43",
+      "bytes": 27098
+    },
+    {
+      "path": "cells/sos-2020-workbook-156-sioux.xlsx.jsonl.gz",
+      "sha256": "d4764e6b0de7d97f1ffa0123c8b0f2531788c961747401002cd53d624ceee812",
+      "bytes": 36118
+    },
+    {
+      "path": "cells/sos-2020-workbook-157-story.xlsx.jsonl.gz",
+      "sha256": "1c97f0613e3723660bd464951df33c4d7d45f7b9c78915e2a42c4c71f3882b86",
+      "bytes": 158054
+    },
+    {
+      "path": "cells/sos-2020-workbook-159-tama.xlsx.jsonl.gz",
+      "sha256": "492e5c1f443f73178362022d93b2dfedf4c6da9c99c0aa1b883d7fff03629cff",
+      "bytes": 37784
+    },
+    {
+      "path": "cells/sos-2020-workbook-160-taylor.xlsx.jsonl.gz",
+      "sha256": "66f1bcbac78102f920e5a4c39a980b7bc1ceeb3f2cd59a4de8aa2b64422f829f",
+      "bytes": 18870
+    },
+    {
+      "path": "cells/sos-2020-workbook-161-union.xlsx.jsonl.gz",
+      "sha256": "43570830e44a1f8d37747afd7e0d40d187f4d6ec3324e961d1424fb3ed8028e5",
+      "bytes": 17721
+    },
+    {
+      "path": "cells/sos-2020-workbook-162-van-buren.xlsx.jsonl.gz",
+      "sha256": "64aa9ab8baf88be9dcbacb1c27cfdd94b029d91fb2328b9079595b6ec52221de",
+      "bytes": 19280
+    },
+    {
+      "path": "cells/sos-2020-workbook-163-wapello.xlsx.jsonl.gz",
+      "sha256": "95efa7887e44fcdcb6769e8a0ba31e87f244b66a72de8896797efd70c19fb05a",
+      "bytes": 49564
+    },
+    {
+      "path": "cells/sos-2020-workbook-164-warren.xlsx.jsonl.gz",
+      "sha256": "3f55954861e2444ace57a6f569df5b682a238286bcfb0f75ada6e06a0ad760ae",
+      "bytes": 100041
+    },
+    {
+      "path": "cells/sos-2020-workbook-165-washington.xlsx.jsonl.gz",
+      "sha256": "7ebfcb1773ff017a5e389ee559bbeb2fd90145de8d53cf26925fcad1122dedc9",
+      "bytes": 21345
+    },
+    {
+      "path": "cells/sos-2020-workbook-166-wayne.xlsx.jsonl.gz",
+      "sha256": "403b778bfd158750d1b4fa5e9fe5854354888a9417497946c197429aaf67b88b",
+      "bytes": 12589
+    },
+    {
+      "path": "cells/sos-2020-workbook-167-webster.xlsx.jsonl.gz",
+      "sha256": "2cb4087d788b14f98c711edd5a7816f94901c3d7add8f21ad9b2f7ac3450d012",
+      "bytes": 94162
+    },
+    {
+      "path": "cells/sos-2020-workbook-168-winnebago.xlsx.jsonl.gz",
+      "sha256": "27964169eff1f2f1ea9c542f6d4f6e133a2048b479fb4252da95e3c0ef2b172e",
+      "bytes": 21566
+    },
+    {
+      "path": "cells/sos-2020-workbook-169-winneshiek.xlsx.jsonl.gz",
+      "sha256": "a43872956613737bec93d22247f2b2501eb96dc8963282fb0efe6afc200e992c",
+      "bytes": 29857
+    },
+    {
+      "path": "cells/sos-2020-workbook-170-woodbury.xlsx.jsonl.gz",
+      "sha256": "bf7860f1c8bd777c81f42daf5b8fdb724518104a5ff8d155e486820c7950f346",
+      "bytes": 154496
+    },
+    {
+      "path": "cells/sos-2020-workbook-171-worth.xlsx.jsonl.gz",
+      "sha256": "a978972684dc6900caa52f50cd84635b7aa85479efb126d5dfaa7f2a07cecfff",
+      "bytes": 17464
+    },
+    {
+      "path": "cells/sos-2020-workbook-172-wright.xlsx.jsonl.gz",
+      "sha256": "4c6da12a3d64ed1937cf37261f950002873ca85bccc7087ca433f97f36bf2f0e",
+      "bytes": 23461
+    },
+    {
+      "path": "cells/sos-2022-workbook-070-adair.xls.jsonl.gz",
+      "sha256": "b59189d4932da7dd0643d65d93d62e0df6daa99756a1ff3e3a180b297eed3966",
+      "bytes": 10026
+    },
+    {
+      "path": "cells/sos-2022-workbook-071-adams.xls.jsonl.gz",
+      "sha256": "e37141ac9751ecede3a94ebcd24d25ea0b0c527a0ba9e483630243f5610d8d34",
+      "bytes": 10037
+    },
+    {
+      "path": "cells/sos-2022-workbook-072-allamakee.xls.jsonl.gz",
+      "sha256": "71dd5987c0743783304e8bcda4fefc1634e1bc3bc85c9066e6dbe2d44dfafa06",
+      "bytes": 21708
+    },
+    {
+      "path": "cells/sos-2022-workbook-073-appanoose.xls.jsonl.gz",
+      "sha256": "9c74478dce42cdf6c4e1fc5548f055338e226db0d9197f1ddfa8d484c1df45ea",
+      "bytes": 21152
+    },
+    {
+      "path": "cells/sos-2022-workbook-074-audubon.xls.jsonl.gz",
+      "sha256": "4116e1ac7de2b84901dd20e959f096ee86788d17e2bf85d7e1c1118470c3d908",
+      "bytes": 9713
+    },
+    {
+      "path": "cells/sos-2022-workbook-075-benton.xls.jsonl.gz",
+      "sha256": "69bb362a8c0902fcf963467e50c45f68a7a4333190fb76a222988a71c48d4342",
+      "bytes": 47470
+    },
+    {
+      "path": "cells/sos-2022-workbook-077-boone.xls.jsonl.gz",
+      "sha256": "7f77e8f95ab609836aa7dee5c02b89dd0d6c8622fcb046773190ea1f32d2cc6d",
+      "bytes": 35033
+    },
+    {
+      "path": "cells/sos-2022-workbook-078-bremer.xls.jsonl.gz",
+      "sha256": "cce6128d1d2fc8c3434eaa56e27f230ba6bb803402ef94390881cc3687195ab9",
+      "bytes": 28735
+    },
+    {
+      "path": "cells/sos-2022-workbook-079-buchanan.xls.jsonl.gz",
+      "sha256": "4ff281a91d4b3be9b0915873d424ba90a8bf56aca09d9b36d04e9249343b4ac5",
+      "bytes": 27169
+    },
+    {
+      "path": "cells/sos-2022-workbook-080-buena-vista.xls.jsonl.gz",
+      "sha256": "975a61efc0f99f7f0c23aa2c896439c3f226ad0ead73202d0b3718de6f98497a",
+      "bytes": 20732
+    },
+    {
+      "path": "cells/sos-2022-workbook-081-butler.xls.jsonl.gz",
+      "sha256": "a01b89f5778b8d04c498296e4d86a51d930fc01e1129fbf6fe6a8e70b5cf03aa",
+      "bytes": 17505
+    },
+    {
+      "path": "cells/sos-2022-workbook-082-calhoun.xls.jsonl.gz",
+      "sha256": "efe7fd0d14ee3e2374aee5653b9543a6fdf6b07000ef078e3cd647fc4a85bf8b",
+      "bytes": 16300
+    },
+    {
+      "path": "cells/sos-2022-workbook-083-carroll.xls.jsonl.gz",
+      "sha256": "4166ef5b01eee0b629ccd967fbd82a6e5784df60f9b881e1ec556a23e426072f",
+      "bytes": 26867
+    },
+    {
+      "path": "cells/sos-2022-workbook-084-cass.xls.jsonl.gz",
+      "sha256": "e52e669311e316c615972bfe2a1403c60c804ace2e6007645777edea2ad74aa0",
+      "bytes": 22098
+    },
+    {
+      "path": "cells/sos-2022-workbook-085-cedar.xls.jsonl.gz",
+      "sha256": "de6ed42220d7f6a234e290d17008ea7dafd157c578d50304879c676f9748514e",
+      "bytes": 25107
+    },
+    {
+      "path": "cells/sos-2022-workbook-086-cerro-gordo.xls.jsonl.gz",
+      "sha256": "58d8d8a389987ac7fa615a97934beba5542c0963748435a3abc9a427c1b49304",
+      "bytes": 51658
+    },
+    {
+      "path": "cells/sos-2022-workbook-087-cherokee.xls.jsonl.gz",
+      "sha256": "d5d949dff81d5188a26a3e0a30af004e811afe632f6c9eecc31469077dddb2e9",
+      "bytes": 13897
+    },
+    {
+      "path": "cells/sos-2022-workbook-089-chickasaw.xls.jsonl.gz",
+      "sha256": "f225cdd87f204eed4ec167d3d448d27fe2369b5aefa64584cb1b430ab344231a",
+      "bytes": 23204
+    },
+    {
+      "path": "cells/sos-2022-workbook-090-clarke.xls.jsonl.gz",
+      "sha256": "e5106f1080b9214dfa3b3f83ffbbe9b9ba306aef422e6d2c1b8155015aa2d49b",
+      "bytes": 16134
+    },
+    {
+      "path": "cells/sos-2022-workbook-091-clay.xls.jsonl.gz",
+      "sha256": "548bf2a82a34efd7c98db50eb1b8351702c9797d46f1e1b998530fa3c4b89faf",
+      "bytes": 26515
+    },
+    {
+      "path": "cells/sos-2022-workbook-092-clayton.xls.jsonl.gz",
+      "sha256": "2a51f8ba73e60b3d51d06aa4449a36a2fc11204c965b92116fd04d8190558450",
+      "bytes": 28548
+    },
+    {
+      "path": "cells/sos-2022-workbook-093-clinton.xls.jsonl.gz",
+      "sha256": "ce3c732a5f713ba1560b008a0a299c78c93381309cfbd3c59624cd9979d4f919",
+      "bytes": 64412
+    },
+    {
+      "path": "cells/sos-2022-workbook-094-crawford.xls.jsonl.gz",
+      "sha256": "1abc69404ea1e9d8edc8a187f66386ee3277c15d948564e44823bbf40f74f78f",
+      "bytes": 20947
+    },
+    {
+      "path": "cells/sos-2022-workbook-095-dallas.xls.jsonl.gz",
+      "sha256": "4d97874667db569e3f7222d91c9f03017bc96b7f6b5f7814413b08a27ec0b265",
+      "bytes": 105549
+    },
+    {
+      "path": "cells/sos-2022-workbook-096-davis.xls.jsonl.gz",
+      "sha256": "a24c371dfebfe4a179f6a5055019e53caead9d194219a67b83ef2c007c562e6f",
+      "bytes": 16423
+    },
+    {
+      "path": "cells/sos-2022-workbook-097-decatur.xls.jsonl.gz",
+      "sha256": "3b33375a325de020eb8905cf8c4055848ef37ee18dca6f52f80f54d83058155b",
+      "bytes": 13232
+    },
+    {
+      "path": "cells/sos-2022-workbook-098-delaware.xls.jsonl.gz",
+      "sha256": "5884ff68f7a989f9aa0b35a9d6b78d15b096d39f751c8c17b9b291fd594ca10b",
+      "bytes": 19846
+    },
+    {
+      "path": "cells/sos-2022-workbook-099-des-moines.xls.jsonl.gz",
+      "sha256": "a296e1a33083b994364767d5dafa5e1ae05334336cdff3e914687a28d1c405a3",
+      "bytes": 29374
+    },
+    {
+      "path": "cells/sos-2022-workbook-100-dickinson.xls.jsonl.gz",
+      "sha256": "22b4a5a06c824ce0e54ee1c3716dc9e952723557a8eb757a8e131a6c314a1157",
+      "bytes": 23992
+    },
+    {
+      "path": "cells/sos-2022-workbook-101-dubuque.xls.jsonl.gz",
+      "sha256": "669b5e52482b90a1682f56b99ba0b73e1f66e26bdb2d75110a57cb93e2c6b729",
+      "bytes": 90062
+    },
+    {
+      "path": "cells/sos-2022-workbook-102-emmet.xls.jsonl.gz",
+      "sha256": "9c5162b09552fc297f60953cafa0c40d28dbf9f6c9bb8528502a7299ee0c175b",
+      "bytes": 19196
+    },
+    {
+      "path": "cells/sos-2022-workbook-103-fayette.xls.jsonl.gz",
+      "sha256": "c7ed2aadde6499e979f4b69ad6227f97ca523819f374edba8077ad75ca0fac87",
+      "bytes": 47642
+    },
+    {
+      "path": "cells/sos-2022-workbook-104-floyd.xls.jsonl.gz",
+      "sha256": "22d04446f426aaa5d6ec51e54200bfc0eeff23c48831d44002c4a15f5f506187",
+      "bytes": 19342
+    },
+    {
+      "path": "cells/sos-2022-workbook-105-franklin.xls.jsonl.gz",
+      "sha256": "1f3a07b42cc643f572d976f7537e2e119561d9ea7fd5f2131b0d4020d09fb66a",
+      "bytes": 24503
+    },
+    {
+      "path": "cells/sos-2022-workbook-106-fremont.xls.jsonl.gz",
+      "sha256": "6f7a44af3ce38ef6ff684e34201c03245673756ba76d36a2fc268cff52ba2476",
+      "bytes": 13435
+    },
+    {
+      "path": "cells/sos-2022-workbook-107-greene.xls.jsonl.gz",
+      "sha256": "ba0a3afed17215e5748bc190ca017f4ee010274ed826e9956d45426aa8b3640d",
+      "bytes": 15401
+    },
+    {
+      "path": "cells/sos-2022-workbook-108-grundy.xls.jsonl.gz",
+      "sha256": "ecd7e287305577efbbac9c35c4bdb4854363888c591bbfa148bc3ec4a3163120",
+      "bytes": 12851
+    },
+    {
+      "path": "cells/sos-2022-workbook-109-guthrie.xls.jsonl.gz",
+      "sha256": "1ce95d672fa8b49696b4d93f3da0218db7e4f085588e8d5fba17a103984f1454",
+      "bytes": 16010
+    },
+    {
+      "path": "cells/sos-2022-workbook-110-hamilton.xls.jsonl.gz",
+      "sha256": "09981e8779fcba6fe12465d6cc59737bd6bf354ab987c2e6fb743cc9e44c15ec",
+      "bytes": 17938
+    },
+    {
+      "path": "cells/sos-2022-workbook-111-hancock.xls.jsonl.gz",
+      "sha256": "08c2e67477a6ed78938e708ffc230df97c2a67bb6a0ce5bb6466eef6ddbab42e",
+      "bytes": 22934
+    },
+    {
+      "path": "cells/sos-2022-workbook-112-hardin.xls.jsonl.gz",
+      "sha256": "9c3a3161067e97395d8ee0b29e84b15f7b26fed1b7326fe470cca1aaad7e46be",
+      "bytes": 14923
+    },
+    {
+      "path": "cells/sos-2022-workbook-113-harrison.xls.jsonl.gz",
+      "sha256": "aa1695c48f8bfdc74527234bdab833220bdd59e2d2556d17ccd06974d7f9f8a5",
+      "bytes": 26683
+    },
+    {
+      "path": "cells/sos-2022-workbook-114-henry.xls.jsonl.gz",
+      "sha256": "b21be2601ee43cf753e93366e52fd4819da58c91916e9092a9cec810a7af484b",
+      "bytes": 19555
+    },
+    {
+      "path": "cells/sos-2022-workbook-115-howard.xls.jsonl.gz",
+      "sha256": "209c1b5af7a2f5f974a9603b187bd43969c0986c224936301495d7c95c50fd1c",
+      "bytes": 20753
+    },
+    {
+      "path": "cells/sos-2022-workbook-116-humboldt.xls.jsonl.gz",
+      "sha256": "4342eee250979e464740a0d034cce79dab2ed2264620fbb10f5a5e3d9f479048",
+      "bytes": 15066
+    },
+    {
+      "path": "cells/sos-2022-workbook-117-ida.xls.jsonl.gz",
+      "sha256": "154383feaee8c2a43676ef3e0c8e0b9c863d019eb13dd3cf201238bd40cc8008",
+      "bytes": 15424
+    },
+    {
+      "path": "cells/sos-2022-workbook-119-iowa.xls.jsonl.gz",
+      "sha256": "a08ca83c129514b48b31cc33d57ab0f907dbd2926afac2113c306763627477aa",
+      "bytes": 23089
+    },
+    {
+      "path": "cells/sos-2022-workbook-120-jackson.xls.jsonl.gz",
+      "sha256": "1693cb1bd0f13d729d6ea89e0a1c7435ac2f52d466fc71e852f78496f1dd0ad3",
+      "bytes": 31227
+    },
+    {
+      "path": "cells/sos-2022-workbook-121-jasper.xls.jsonl.gz",
+      "sha256": "e14de5ff3dcde41762a906671c2bf0326e8c71c24589c2c64d0d09b2419e4e40",
+      "bytes": 44980
+    },
+    {
+      "path": "cells/sos-2022-workbook-122-jefferson.xls.jsonl.gz",
+      "sha256": "908f61d51bc8349f1a13084a217a319851edba4d415200533985bc37137e0cd3",
+      "bytes": 24977
+    },
+    {
+      "path": "cells/sos-2022-workbook-123-johnson.xls.jsonl.gz",
+      "sha256": "d3dc6b44d861d5b44dd24622479adcb4a05ace8d27bb459b16c1008e8eb12f91",
+      "bytes": 172067
+    },
+    {
+      "path": "cells/sos-2022-workbook-124-jones.xls.jsonl.gz",
+      "sha256": "3b52f61fb20a9cc6c3b0dc81657a9f6b5611469f4be65625c6067ffe210c1155",
+      "bytes": 33015
+    },
+    {
+      "path": "cells/sos-2022-workbook-125-keokuk.xls.jsonl.gz",
+      "sha256": "b4cb5b88d79e49a4b94801db9a1161e795eb2ac34551649f5889e188799e83d2",
+      "bytes": 24541
+    },
+    {
+      "path": "cells/sos-2022-workbook-126-kossuth.xls.jsonl.gz",
+      "sha256": "c321d09dbd708349cea99a628819432c43f5854a5dc49b6e61093fd71edbf62e",
+      "bytes": 38165
+    },
+    {
+      "path": "cells/sos-2022-workbook-127-lee.xls.jsonl.gz",
+      "sha256": "7064aabedf9ffae2692914a10cb029a127136f65cc6e3cf6bf568470e4a6ff8a",
+      "bytes": 45235
+    },
+    {
+      "path": "cells/sos-2022-workbook-128-linn.xls.jsonl.gz",
+      "sha256": "a7023ff8d57128b0601111a1ce191f5077ccd01694298411e204c18887994d46",
+      "bytes": 244586
+    },
+    {
+      "path": "cells/sos-2022-workbook-129-louisa.xls.jsonl.gz",
+      "sha256": "d4ff6be6749e33b02171ac83b7479db7f63e1aa5e5d0d85ac652cc08d99be21b",
+      "bytes": 11721
+    },
+    {
+      "path": "cells/sos-2022-workbook-131-lucas.xls.jsonl.gz",
+      "sha256": "0ed9a76c1567d7df96ec80a1037e0b3e2f8063fad4f8b9dcf8bbf56854395e56",
+      "bytes": 12886
+    },
+    {
+      "path": "cells/sos-2022-workbook-132-lyon.xls.jsonl.gz",
+      "sha256": "d5cdb2000a59c3b6b9796a28fcf0d409f2e093084853c4d3bd1db2373768d694",
+      "bytes": 15436
+    },
+    {
+      "path": "cells/sos-2022-workbook-133-madison.xls.jsonl.gz",
+      "sha256": "21bec9ef4aaee6c4012eabc0260ef7675f519a3a9fd01dfdea5a9c2f2b9892ce",
+      "bytes": 22422
+    },
+    {
+      "path": "cells/sos-2022-workbook-134-mahaska.xls.jsonl.gz",
+      "sha256": "11b1603c6a490a6a045e309e0571232e6fdec1c298a2d3cec2757d00a3651bb9",
+      "bytes": 24198
+    },
+    {
+      "path": "cells/sos-2022-workbook-135-marion.xls.jsonl.gz",
+      "sha256": "6aae0b0a8c3a1dea73dd7ee198c48e53552bca10b70cba07ba2c13703c6e8208",
+      "bytes": 39261
+    },
+    {
+      "path": "cells/sos-2022-workbook-136-marshall.xls.jsonl.gz",
+      "sha256": "4007ea4790002d709a7c99c9a181cb6f7f4a569e800466ec4164e29e3203f893",
+      "bytes": 31805
+    },
+    {
+      "path": "cells/sos-2022-workbook-137-mills.xls.jsonl.gz",
+      "sha256": "cd6333853f404e5d7429f99852599d9069340e6b4903e258fdd94871aa7d0686",
+      "bytes": 21057
+    },
+    {
+      "path": "cells/sos-2022-workbook-138-mitchell.xls.jsonl.gz",
+      "sha256": "17ec820b6e78a8925e51ed5d869d2e7ec99d2dc464acf7e1c869b13861d17691",
+      "bytes": 22958
+    },
+    {
+      "path": "cells/sos-2022-workbook-139-monona.xls.jsonl.gz",
+      "sha256": "fe26c3a388d5924232cf9f470b8df2627c4c7867bb73d3dbdc61d20b55379031",
+      "bytes": 18651
+    },
+    {
+      "path": "cells/sos-2022-workbook-140-monroe.xls.jsonl.gz",
+      "sha256": "cfb24185ce25949025294348e06820f16d2d310791ed6d7ceabb069b8ce12b15",
+      "bytes": 13599
+    },
+    {
+      "path": "cells/sos-2022-workbook-141-montgomery.xls.jsonl.gz",
+      "sha256": "c9a87caebd2b5e394cd5efb655339bd4f41bf9e4b98f37b06ee0a0cce0f4c7ff",
+      "bytes": 17188
+    },
+    {
+      "path": "cells/sos-2022-workbook-142-muscatine.xls.jsonl.gz",
+      "sha256": "96b671b789c06992132b0d8367eb4c8660518a692f687b65f6ab9d50e13598fc",
+      "bytes": 66608
+    },
+    {
+      "path": "cells/sos-2022-workbook-143-obrien.xls.jsonl.gz",
+      "sha256": "c1dff810f35c138985e3250eb2b69465122c8ea76e15bec0ee3daf538b767612",
+      "bytes": 15567
+    },
+    {
+      "path": "cells/sos-2022-workbook-144-osceola.xls.jsonl.gz",
+      "sha256": "b863193b43fb436b2778d0ef545f25ba0a2eaf118f0dd17d6baf4967bff13813",
+      "bytes": 13317
+    },
+    {
+      "path": "cells/sos-2022-workbook-145-page.xls.jsonl.gz",
+      "sha256": "7a1661b8a42ef4396bb57fbb8aa64b0bf0a19b6267a6cfa002bbb8a83b4c818f",
+      "bytes": 17474
+    },
+    {
+      "path": "cells/sos-2022-workbook-147-palo-alto.xls.jsonl.gz",
+      "sha256": "807e19750aaf7981507d66cd586db482cd739f1ac1467f84eb10b3383a2a12b1",
+      "bytes": 16343
+    },
+    {
+      "path": "cells/sos-2022-workbook-148-plymouth.xls.jsonl.gz",
+      "sha256": "58d134efcb571f6eda25ab33d9c9e09d2191540954c3717e0580d78b1d4828dd",
+      "bytes": 22020
+    },
+    {
+      "path": "cells/sos-2022-workbook-149-pocahontas.xls.jsonl.gz",
+      "sha256": "3e3e89daa45caf4e49a7056d2358858a0da75e0dd4326ba01b2307c847a1a1f5",
+      "bytes": 16483
+    },
+    {
+      "path": "cells/sos-2022-workbook-150-polk.xls.jsonl.gz",
+      "sha256": "2116a40e1615f3569abdd0f5a92b633fd9006fceed7dddef399da69fbba8c5f1",
+      "bytes": 458496
+    },
+    {
+      "path": "cells/sos-2022-workbook-151-pottawattamie.xls.jsonl.gz",
+      "sha256": "e05be87918872b12a30007ad53cb05f576c1ff5202225136792f5011f0d210fd",
+      "bytes": 90906
+    },
+    {
+      "path": "cells/sos-2022-workbook-152-poweshiek.xls.jsonl.gz",
+      "sha256": "38eeddf92fd5f5438ccab3cac988678108e771c6454d249f4fdf2baa5dc8b353",
+      "bytes": 20480
+    },
+    {
+      "path": "cells/sos-2022-workbook-153-ringgold.xls.jsonl.gz",
+      "sha256": "fb33925c61ef1df139ded4fd356412fbac3d3d141c430c7230974b49148bc81d",
+      "bytes": 12850
+    },
+    {
+      "path": "cells/sos-2022-workbook-154-sac.xls.jsonl.gz",
+      "sha256": "35439f832396539e0521812d0052fa745c34093834c9a435f0a4de5dadb9dfad",
+      "bytes": 15573
+    },
+    {
+      "path": "cells/sos-2022-workbook-155-scott.xls.jsonl.gz",
+      "sha256": "c0c9d895bb93b82f771f3850876ee5033240efc51cbdd2cb1160b61a1535e4d4",
+      "bytes": 159724
+    },
+    {
+      "path": "cells/sos-2022-workbook-156-shelby.xls.jsonl.gz",
+      "sha256": "c2e9c4787a40254ffce67ea85113eca3df9044001b600f6db9c22962dc742b27",
+      "bytes": 25349
+    },
+    {
+      "path": "cells/sos-2022-workbook-157-sioux.xls.jsonl.gz",
+      "sha256": "4778d62dfce09def0ef7e5b67c0f9ddabc069d2e2bcd1fa24c701dbf88009c50",
+      "bytes": 34442
+    },
+    {
+      "path": "cells/sos-2022-workbook-159-story.xls.jsonl.gz",
+      "sha256": "d7c5f6467dd2b356d2a35568e54c35995f420306e63e45d40b2b9f6d7d9d4df7",
+      "bytes": 117812
+    },
+    {
+      "path": "cells/sos-2022-workbook-160-tama.xls.jsonl.gz",
+      "sha256": "c85e0071ab5ab275807d1704db90f3b647ba34ec7a7792259141135bd0f09362",
+      "bytes": 31781
+    },
+    {
+      "path": "cells/sos-2022-workbook-161-taylor.xls.jsonl.gz",
+      "sha256": "6c5bdafabecb277bb4a1060ea7e12d57a699d360b77cf5f73a0c7c259519d22d",
+      "bytes": 13583
+    },
+    {
+      "path": "cells/sos-2022-workbook-162-union.xls.jsonl.gz",
+      "sha256": "5b7ffaf907f2aac427208422d0da5c875cf4321a270a47881997db7dda72964f",
+      "bytes": 16364
+    },
+    {
+      "path": "cells/sos-2022-workbook-163-van-buren.xls.jsonl.gz",
+      "sha256": "891db4142e3576b367a4839db3a490ecb97f607f34bdcb4d68810b5e44c8929c",
+      "bytes": 13911
+    },
+    {
+      "path": "cells/sos-2022-workbook-164-wapello.xls.jsonl.gz",
+      "sha256": "a2db393b6798a836b684483758b76c6f7f389c141cec9af857d69138f7cbf76c",
+      "bytes": 51611
+    },
+    {
+      "path": "cells/sos-2022-workbook-165-warren.xls.jsonl.gz",
+      "sha256": "df54f8157ba2abf9d336254e173aa19db1306f1780d7fc3f2ae487194de8af63",
+      "bytes": 81216
+    },
+    {
+      "path": "cells/sos-2022-workbook-166-washington.xls.jsonl.gz",
+      "sha256": "ec2cf63101e91a693607fab1865219b6e120c98e024380529f8890761f89f276",
+      "bytes": 18325
+    },
+    {
+      "path": "cells/sos-2022-workbook-167-wayne.xls.jsonl.gz",
+      "sha256": "c59b3c367ae4150db7f7e4c5ae83c0543adf6f7cddf7febbe82c43f0308e8f74",
+      "bytes": 14173
+    },
+    {
+      "path": "cells/sos-2022-workbook-168-webster.xls.jsonl.gz",
+      "sha256": "5cf24283ce8bacc8673e2a3423abdc5a5d1aab0e4970532a5b13b4840cc7f847",
+      "bytes": 43869
+    },
+    {
+      "path": "cells/sos-2022-workbook-169-winnebago.xls.jsonl.gz",
+      "sha256": "68ba07b59ebffebf05214b5ed0f3010eb59a0d48e1c3a265028f04ba9599ed98",
+      "bytes": 15825
+    },
+    {
+      "path": "cells/sos-2022-workbook-170-winneshiek.xls.jsonl.gz",
+      "sha256": "88dea5a387542c601defd1ffb91349053d7e004aacf4704b8573a04023fd0d5d",
+      "bytes": 27825
+    },
+    {
+      "path": "cells/sos-2022-workbook-171-woodbury.xls.jsonl.gz",
+      "sha256": "ac3c6ea5943c8e0ff2643d30ab14312500edbfe45b6ed70a2258a6e87723ab5e",
+      "bytes": 123080
+    },
+    {
+      "path": "cells/sos-2022-workbook-172-worth.xls.jsonl.gz",
+      "sha256": "8ee00257b077c101ad2d2fb8f70aba5d8d3fa0c8abeba771a2eff2eaa6f5332e",
+      "bytes": 15649
+    },
+    {
+      "path": "cells/sos-2022-workbook-173-wright.xls.jsonl.gz",
+      "sha256": "0e443595c07114d5f67b4e2406fe0757acc83f6aff1ecab941f5c2e67a4dd836",
+      "bytes": 16975
+    },
+    {
+      "path": "clarity-2024-contest-registration.csv",
+      "sha256": "a10855a6d2c8f7ae3e92a4dae50e59be05b5315ea23f324a5246dc10a3731487",
+      "bytes": 185452
+    },
+    {
+      "path": "clarity-2024-context-coverage.csv",
+      "sha256": "b5e244b2eea18b726f3ab473b6bf4d231c9a51e0a2bb6ef3df0e0deda2eb7a56",
+      "bytes": 5336
+    },
+    {
+      "path": "clarity-2024-county-candidate-method.csv",
+      "sha256": "76d33052e8c0fa063bdc8118b50e25b37cffab41a710676945cbd7057b0848e3",
+      "bytes": 305440
+    },
+    {
+      "path": "clarity-2024-native-candidate-method.csv",
+      "sha256": "468f60ab90a17dc95b54e8d89a2f145a4be95d2fa2442e0379782b4466e072fd",
+      "bytes": 7421975
+    },
+    {
+      "path": "clarity-2024-native-units.csv",
+      "sha256": "d933b18bc421e5a999e1e973680ef5cc657ac1d6c34f5ac53baa681dcb5f85b5",
+      "bytes": 915023
+    },
+    {
+      "path": "clarity-2024-party-label-differences.csv",
+      "sha256": "a7add638cbc67eb3248efc004fed7f794f0331da25ce9e1cae984b8fdd2ff81f",
+      "bytes": 9112
+    },
+    {
+      "path": "clarity-2024-primary-checks.csv",
+      "sha256": "85db25139bc588f84d887f9da970506b0ef42903bb03cd041ae29b0f14a83a62",
+      "bytes": 203930
+    },
+    {
+      "path": "clarity-2024-registration-ballots.csv",
+      "sha256": "6f32fe9fcc014f491d441eae09d3bedae135031fb5728fc6d5518a051b629c77",
+      "bytes": 375234
+    },
+    {
+      "path": "clarity-2024-source-metadata.json",
+      "sha256": "1f821158bdf018620017f103724956d55e4c8361525ae95a29c3e095b6a387ab",
+      "bytes": 81880
+    },
+    {
+      "path": "clarity-2024-state-json-checks.csv",
+      "sha256": "cd21bee6c1c9cbd4dc823d308e7acc4f5df7020b6dc2b1679fa76a897950be8f",
+      "bytes": 752
+    },
+    {
+      "path": "clarity-2024-state-primary-checks.csv",
+      "sha256": "2ee4e81edf420ce9ef2b1e41659e1faf7a8923e443c556dfeeea7f69c0f65c17",
+      "bytes": 93624
+    },
+    {
+      "path": "clarity-2024-status-units.csv",
+      "sha256": "e92eec377d3140c39b45cc3bd7d24c01e525dc279fb203844f4f0c3100b75ad7",
+      "bytes": 188421
+    },
+    {
+      "path": "clarity-2024-summary.json",
+      "sha256": "b28838d5613a4ba443c833359d48793c92cf230a18a4e8b2edf46fda00de6870",
+      "bytes": 1318
+    },
+    {
+      "path": "clarity.py",
+      "sha256": "afabdd04d3659013713ece5883c8b9bb685bb197dcac3b3fbab818242df62d09",
+      "bytes": 11034
+    },
+    {
+      "path": "common.py",
+      "sha256": "d1ee629ac17189781599c255d3115cfd2731145036ec74a817e6fc8710ca8a33",
+      "bytes": 2526
+    },
+    {
+      "path": "county-contests.csv",
+      "sha256": "561f3bc81aac45cf6abf576730b967643e60828ba4c9d063caf25be836d86089",
+      "bytes": 73102
+    },
+    {
+      "path": "county-target-scenarios.csv",
+      "sha256": "9b94337f7b2006d98f383ce12858db17106b04d68560f4886aeb7aa07923f49d",
+      "bytes": 1433865
+    },
+    {
+      "path": "extract.py",
+      "sha256": "7b83637516d3cecd5c4d19679829b59988de0dcce18ece4f9cebfffe3b7b7299",
+      "bytes": 6896
+    },
+    {
+      "path": "finalize_metadata.py",
+      "sha256": "babcbd4aa02b2ed38335e03a4f42378f1e83869a613dbe919eaf0431af3685fc",
+      "bytes": 4196
+    },
+    {
+      "path": "http-refresh/sos-2020-precinct-index.gz",
+      "sha256": "67155895588bf710c93298f5d06d294f8439182080498f00afd072f6a206ca53",
+      "bytes": 12296
+    },
+    {
+      "path": "http-refresh/sos-2022-precinct-index.gz",
+      "sha256": "76bc538803093fee128e873e65ecf4b2e8b9cabcb9e9c9f9439395cafe5ca2b4",
+      "bytes": 12352
+    },
+    {
+      "path": "http-refresh/sos-2024-precinct-app.gz",
+      "sha256": "bc7bafe3042c4e360134d97f84ab543af66eae8e4741c8273fd520ca2e8348b7",
+      "bytes": 596
+    },
+    {
+      "path": "http-refresh/sos-results-index.gz",
+      "sha256": "88a7fabc78a757624e6a350b2541c40e1f3ae8410539387e93ebcea49f7950ba",
+      "bytes": 16279
+    },
+    {
+      "path": "http-refresh.json",
+      "sha256": "5582d0a4d2a6f39e63ba0bbbd8cb62528795ef40d32fe6a26be465f1bf26beb0",
+      "bytes": 12355
+    },
+    {
+      "path": "live-remainder-examples.json",
+      "sha256": "a4266c508cc2927bce9a74ae8693ddb1391b56f2e06d424ba56a3783d7e6ec26",
+      "bytes": 1635
+    },
+    {
+      "path": "native-candidate-method.csv",
+      "sha256": "62ad2fef648687c860ae22d873fb5e9ca3ea2c1ddeabc1f9394fdd8987d60779",
+      "bytes": 8166877
+    },
+    {
+      "path": "native-checks.csv",
+      "sha256": "af5d0b6a3da48cd5f9f75ba681ef16b371f7577b60db62021a7205f845ceed66",
+      "bytes": 313818
+    },
+    {
+      "path": "native-coverage.csv",
+      "sha256": "b200e2e6d34dcf89c17d8b407a67097317a3874f72f4dd041aafec2aeeabb18b",
+      "bytes": 26432
+    },
+    {
+      "path": "native-registration-ballots.csv",
+      "sha256": "514b4d832cc18b40cb534d2213d26ff1861d238c8127d48b42e6978d3ac783fa",
+      "bytes": 2213945
+    },
+    {
+      "path": "native-units.csv",
+      "sha256": "6f049c62252f203a97f4a4d9ae0134207b8db74ea3ed26f243ab59604a266541",
+      "bytes": 594032
+    },
+    {
+      "path": "native.py",
+      "sha256": "00756c7c8fd5a7e883a70c1e21ad25ed78f3fbb77962541fbaabb6ec8ec817fb",
+      "bytes": 10909
+    },
+    {
+      "path": "peer-reconciliation.json",
+      "sha256": "81fb3a7750c25b803e30a07856841ff0062e0f872fb93c02189e9ad9da37fb60",
+      "bytes": 8518
+    },
+    {
+      "path": "priority-order.csv",
+      "sha256": "0625b7fdbc27cdc5e8249173a7ae6833ad4e408ccbb00c46a4ff644f4c5876d9",
+      "bytes": 3691
+    },
+    {
+      "path": "priority.json",
+      "sha256": "d4a052ea9e53ff46598e511aaaee11453b15c9ab98bc2b7f2c40af083f9b46f1",
+      "bytes": 2554
+    },
+    {
+      "path": "reconcile.py",
+      "sha256": "b7e301275433e57bf51c50c14c082986f0752db481169230773ac61a408beb92",
+      "bytes": 7620
+    },
+    {
+      "path": "render_report.py",
+      "sha256": "6af916c1eba6daed437e310992ac4d954869089b60e662b32a7616330617d6a6",
+      "bytes": 22050
+    },
+    {
+      "path": "review/cass-page1.png",
+      "sha256": "4327984f7c62b2cf1289d047b15fef4bf359653f6724c2c7052180e2c12189f9",
+      "bytes": 177815
+    },
+    {
+      "path": "review/sos-2024-canvass-page2.png",
+      "sha256": "c02a95e6696e74a96d7e46c6add5aba6be7f1ff5bb045a5b4d54c36aab2d6513",
+      "bytes": 249626
+    },
+    {
+      "path": "review-evidence.json",
+      "sha256": "239ad23e962d1a6c8e57ea5046d801cbe9dcade1d402397ed1523170b4e9716d",
+      "bytes": 1839
+    },
+    {
+      "path": "scenario-other-candidates.csv",
+      "sha256": "39a57a788006585ba4c245da9862438bc579524f783b48a8c34ed705bc23bab2",
+      "bytes": 593977
+    },
+    {
+      "path": "scenario-settings.json",
+      "sha256": "c09047ef53f773068266e549adec9f92b0ee916164fa6b1e523194938146cbf8",
+      "bytes": 7056
+    },
+    {
+      "path": "selected-county-break-even.csv",
+      "sha256": "b9add813c105ae03adb2c83d4b5caa20c2e8d08d61f94d4b836825f47f840f2c",
+      "bytes": 850446
+    },
+    {
+      "path": "selected-native-unit-example.json",
+      "sha256": "f658b64868d329062a2f6f7fdac60bf7b69189b9937ba3c1fa7cec7d398a829e",
+      "bytes": 2082
+    },
+    {
+      "path": "source-vintages.json",
+      "sha256": "1f2f0e7e39593a68ed18ade1db027193d90215cb833424dd3a9e1c2f618030c6",
+      "bytes": 5218
+    },
+    {
+      "path": "sources.json",
+      "sha256": "00c8eb73fb331224e98d45d9938958a422880110f0b6fe6836e681da0fc937ba",
+      "bytes": 1220309
+    },
+    {
+      "path": "state-controls.csv",
+      "sha256": "3fe73e0b2aeccbdc6b7ab5a04484c44076bb530ff867aa2d037cc6eb0b8a607b",
+      "bytes": 6501
+    },
+    {
+      "path": "state-scenarios.csv",
+      "sha256": "7e5ff533bb364929cd075cf707dcb6ded87bfb109e07b40e2e28dc17356b4ed2",
+      "bytes": 12106
+    },
+    {
+      "path": "statistics-verification.json",
+      "sha256": "39e587dc8b072fa45313cfef9ca1b1b2d99dc61685cfd9ec6a7d5d2305b96678",
+      "bytes": 1223
+    },
+    {
+      "path": "text/sos-2020-canvass.txt.gz",
+      "sha256": "7ce7cd66b217f1ea481f8ead00b94ed9e414c3acd35d5b9ef6ad1f391af5bec9",
+      "bytes": 112787
+    },
+    {
+      "path": "text/sos-2020-countystats.txt.gz",
+      "sha256": "99e61f7f62a8a681eecb7a2d4f91e9bbfc7834b4377757684c3cd99d2401994a",
+      "bytes": 123355
+    },
+    {
+      "path": "text/sos-2020-precinctstats.txt.gz",
+      "sha256": "aef67c6752feae18a8d3099cca988ffbdd54249711fcbae609e051afb64fd53c",
+      "bytes": 1660961
+    },
+    {
+      "path": "text/sos-2020-statestats.txt.gz",
+      "sha256": "b3cd5061db44c0901559a7d6d7500efb3908b6f5f225c1244b098602edf5ee85",
+      "bytes": 2151
+    },
+    {
+      "path": "text/sos-2020-turnout.txt.gz",
+      "sha256": "c6f6767fbc09b8365c552572e064a3a25cf6fa5a29fed47c458caa377b35b115",
+      "bytes": 3528
+    },
+    {
+      "path": "text/sos-2020-workbook-154-scott.pdf.txt.gz",
+      "sha256": "7e9811dfc93945c051f3d79f5d79dc3e04d9094870dc4f543be6674a32bc7e7f",
+      "bytes": 72493
+    },
+    {
+      "path": "text/sos-2022-canvass.txt.gz",
+      "sha256": "a43ab5bbe160cbb56485f722d8633b38f530fe3ba75da4cc81b0a7cad9dedf07",
+      "bytes": 105827
+    },
+    {
+      "path": "text/sos-2022-countystats.txt.gz",
+      "sha256": "f21a7ae46efa726b03a4655f929330f411939a2f0807b9dafcacbb55c11df6e7",
+      "bytes": 114693
+    },
+    {
+      "path": "text/sos-2022-precinctstats.txt.gz",
+      "sha256": "9102887c5aa7a188480b19e788797d711716a15831f1444857f6bbee7a8c36b8",
+      "bytes": 1634388
+    },
+    {
+      "path": "text/sos-2022-statestats.txt.gz",
+      "sha256": "4c49d8477bee0bf52bc961770385407e70f7e892c33574eed376bc1de942ca66",
+      "bytes": 2142
+    },
+    {
+      "path": "text/sos-2022-turnout.txt.gz",
+      "sha256": "9df6330436f3b43606c486cfe5c7b773a3a08373a9f05fd531d68c9905cd9597",
+      "bytes": 3693
+    },
+    {
+      "path": "text/sos-2024-canvass.txt.gz",
+      "sha256": "a000eed008c271735bafc999cf1c085feea38583e1f2855b267761086df16efe",
+      "bytes": 95197
+    },
+    {
+      "path": "text/sos-2024-countystats.txt.gz",
+      "sha256": "01bbf5c9eacd40ffb7dc333aedd8388366da180ba14129a4ec6d3bf55793c70f",
+      "bytes": 116601
+    },
+    {
+      "path": "text/sos-2024-precinctstats.txt.gz",
+      "sha256": "940e6ed255b3280a9a263e2a8b957b8e3ed600b2e91311b3716848fb687895a2",
+      "bytes": 1637790
+    },
+    {
+      "path": "text/sos-2024-statestats.txt.gz",
+      "sha256": "16f5ce3b38d404e59d706f0a8678bcb8b9941ac1538715b11a2fe0b295085482",
+      "bytes": 1983
+    },
+    {
+      "path": "text/sos-2024-turnout.txt.gz",
+      "sha256": "f639b90f84980df3f1e241f465047c4e84c29713c7a22c3405e66e5b60c8c29e",
+      "bytes": 3895
+    },
+    {
+      "path": "turnout-report.csv",
+      "sha256": "6b6a066b50517a2cfa273b9fa4fa592a3b13bbb5713093f6ef8628ebb3d84f88",
+      "bytes": 64450
+    },
+    {
+      "path": "turnout-scope-checks.csv",
+      "sha256": "e26bdb253ad5d77a21983085d8b63ebceaf1b99b9bcc0cfc4c264a905ba9e857",
+      "bytes": 36004
+    },
+    {
+      "path": "turnout_context.py",
+      "sha256": "f21a65414a5cea1c9e08fb327026e3a5b62dd4989323e4c31df1a1260afbc7e9",
+      "bytes": 2721
+    },
+    {
+      "path": "validate.py",
+      "sha256": "4cd7fcea60ee593972907b5426e69829b5606d49e41afc5812bff491bdd27d6d",
+      "bytes": 11461
+    },
+    {
+      "path": "validation.json",
+      "sha256": "52c30689860e4cac528229c9f3c53b5b4f6ac69568c31b5d00fa4061a0b3a479",
+      "bytes": 1066
+    },
+    {
+      "path": "verify_statistics.py",
+      "sha256": "34cf561f520452f40dba5b420d684f1ee30bd94dce94d1698957c021c761bb6b",
+      "bytes": 3476
+    },
+    {
+      "path": "../county-baselines.csv",
+      "sha256": "6e90670fe40a3096d6c965d8c7422239b01fd6928ef2be258fdaefb6ea62cfaa",
+      "bytes": 83482
+    }
+  ]
+}

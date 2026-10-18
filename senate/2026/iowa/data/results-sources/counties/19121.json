@@ -1,0 +1,305 @@
+{
+  "county": "Madison",
+  "county_fips": "19121",
+  "rank_2024": 37,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Madison",
+    "county_fips": "19121",
+    "rank_2024": 37,
+    "priority": true,
+    "anchor": "MadisonCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#MadisonCountyAuditor",
+    "auditor_url": "https://www.madisoncounty.iowa.gov",
+    "phone": "515-462-3914",
+    "directory_source_id": "sos-auditors",
+    "source_position": 61
+  },
+  "current_key_publication": {
+    "source_id": "county-19121-linked5",
+    "url": "https://www.madisoncounty.iowa.gov/offices/auditor/elections/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:25:18.103266+00:00",
+    "original_sha256": "c9e9adcc719a175891ebbedbec926d1fbb97797fb5ea4e6d1ef8ac69de3833eb"
+  },
+  "finding": "The official county home/elections page links a current final-races list, precinct locations, general-election release and historical canvass through GMD. Those viewfile URLs return200 after redirects into PDF.js with literal file query paths. Every tested actual /api/files/UUID/ID payload returned403 with a zero-byte body. The wrapper does not establish document contents.",
+  "gap": "Current source documents remain access gaps; no claim that a final certificate, ballot or map was acquired from the viewer. Use the county's retained authority page and pinned historical source as manual backup.",
+  "tested_routes": [
+    {
+      "source_id": "county-19121-seed",
+      "url": "https://www.madisoncounty.iowa.gov",
+      "parent_url": "https://sos.iowa.gov/auditors#MadisonCountyAuditor",
+      "final_url": "https://www.madisoncounty.iowa.gov/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19121-seed.json",
+      "source_identity_inventory_key": "county-19121-seed"
+    },
+    {
+      "source_id": "county-19121-linked1",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=3AEFC9BC40D44311A70022E7BD693C9C&dir=Objects",
+      "parent_url": "https://www.madisoncounty.iowa.gov/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/3eaa1e11-93cb-4e22-882e-16c57dcc4593/3AEFC9BC40D44311A70022E7BD693C9C",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19121-linked1.json",
+      "source_identity_inventory_key": "county-19121-linked1"
+    },
+    {
+      "source_id": "county-19121-linked2",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=9F1DE2309C9B409B9FE0F0C16DB47DBC&dir=Objects",
+      "parent_url": "https://www.madisoncounty.iowa.gov/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/894f08bc-307b-45a4-9280-601f69680f47/9F1DE2309C9B409B9FE0F0C16DB47DBC",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19121-linked2.json",
+      "source_identity_inventory_key": "county-19121-linked2"
+    },
+    {
+      "source_id": "county-19121-linked3",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=10BE74BA0B6444DB9E82491C005B3198&dir=Objects",
+      "parent_url": "https://www.madisoncounty.iowa.gov/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/fd455c8d-d60a-422d-af36-71541a834902/10BE74BA0B6444DB9E82491C005B3198",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19121-linked3.json",
+      "source_identity_inventory_key": "county-19121-linked3"
+    },
+    {
+      "source_id": "county-19121-linked4",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=FD0BF1A3696844C6A11F37B56C379BC5&dir=Objects",
+      "parent_url": "https://www.madisoncounty.iowa.gov/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/cc5448a4-b192-46c0-b17e-0fe1f597046e/FD0BF1A3696844C6A11F37B56C379BC5",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19121-linked4.json",
+      "source_identity_inventory_key": "county-19121-linked4"
+    },
+    {
+      "source_id": "county-19121-linked5",
+      "url": "https://www.madisoncounty.iowa.gov/offices/auditor/elections/",
+      "parent_url": "https://www.madisoncounty.iowa.gov/",
+      "final_url": "https://www.madisoncounty.iowa.gov/offices/auditor/elections/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19121-linked5.json",
+      "source_identity_inventory_key": "county-19121-linked5"
+    },
+    {
+      "source_id": "county-19121-linked6",
+      "url": "https://cap.gmdsolutions.com?id=6F247733883F45E287C0857495FD2CC3&dir=Objects",
+      "parent_url": "https://www.madisoncounty.iowa.gov/",
+      "final_url": "https://cap.gmdsolutions.com/?id=6F247733883F45E287C0857495FD2CC3&dir=Objects",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19121-linked6.json",
+      "source_identity_inventory_key": "county-19121-linked6"
+    },
+    {
+      "source_id": "county-19121-linked7",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=64FB5DD5231D4EB8A28D3C72B55FD7C&dir=Objects",
+      "parent_url": "https://www.madisoncounty.iowa.gov/offices/auditor/elections/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/965182b0-838c-4f77-8d0c-a043b9d436bc/64FB5DD5231D4EB8A28D3C72B55FD7C",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19121-linked7.json",
+      "source_identity_inventory_key": "county-19121-linked7"
+    },
+    {
+      "source_id": "county-19121-linked8",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=AF2837F42ACF49AD83E71CC27C4FCBD4&dir=Objects",
+      "parent_url": "https://www.madisoncounty.iowa.gov/offices/auditor/elections/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/91296f37-264f-4683-80dc-5a35e89e05aa/AF2837F42ACF49AD83E71CC27C4FCBD4",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19121-linked8.json",
+      "source_identity_inventory_key": "county-19121-linked8"
+    },
+    {
+      "source_id": "county-19121-linked9",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=B84FA78BC35C452C8284FF059722FDD&dir=Objects",
+      "parent_url": "https://www.madisoncounty.iowa.gov/offices/auditor/elections/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/0610cd76-6fc9-4c94-a867-1b9947f20900/B84FA78BC35C452C8284FF059722FDD",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19121-linked9.json",
+      "source_identity_inventory_key": "county-19121-linked9"
+    },
+    {
+      "source_id": "county-19121-linked10",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=9AFF3E2E001C442FA2A12F84913C82E8&dir=Objects",
+      "parent_url": "https://www.madisoncounty.iowa.gov/offices/auditor/elections/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/a7a29a2c-f8f2-4afc-85d5-40a8aa1ecab6/9AFF3E2E001C442FA2A12F84913C82E8",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19121-linked10.json",
+      "source_identity_inventory_key": "county-19121-linked10"
+    },
+    {
+      "source_id": "county-19121-linked1-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/3eaa1e11-93cb-4e22-882e-16c57dcc4593/3AEFC9BC40D44311A70022E7BD693C9C",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/3eaa1e11-93cb-4e22-882e-16c57dcc4593/3AEFC9BC40D44311A70022E7BD693C9C",
+      "final_url": "https://cap.gmdsolutions.com/api/files/3eaa1e11-93cb-4e22-882e-16c57dcc4593/3AEFC9BC40D44311A70022E7BD693C9C",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19121-linked1-payload"
+    },
+    {
+      "source_id": "county-19121-linked2-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/894f08bc-307b-45a4-9280-601f69680f47/9F1DE2309C9B409B9FE0F0C16DB47DBC",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/894f08bc-307b-45a4-9280-601f69680f47/9F1DE2309C9B409B9FE0F0C16DB47DBC",
+      "final_url": "https://cap.gmdsolutions.com/api/files/894f08bc-307b-45a4-9280-601f69680f47/9F1DE2309C9B409B9FE0F0C16DB47DBC",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19121-linked2-payload"
+    },
+    {
+      "source_id": "county-19121-linked3-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/fd455c8d-d60a-422d-af36-71541a834902/10BE74BA0B6444DB9E82491C005B3198",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/fd455c8d-d60a-422d-af36-71541a834902/10BE74BA0B6444DB9E82491C005B3198",
+      "final_url": "https://cap.gmdsolutions.com/api/files/fd455c8d-d60a-422d-af36-71541a834902/10BE74BA0B6444DB9E82491C005B3198",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19121-linked3-payload"
+    },
+    {
+      "source_id": "county-19121-linked4-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/cc5448a4-b192-46c0-b17e-0fe1f597046e/FD0BF1A3696844C6A11F37B56C379BC5",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/cc5448a4-b192-46c0-b17e-0fe1f597046e/FD0BF1A3696844C6A11F37B56C379BC5",
+      "final_url": "https://cap.gmdsolutions.com/api/files/cc5448a4-b192-46c0-b17e-0fe1f597046e/FD0BF1A3696844C6A11F37B56C379BC5",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19121-linked4-payload"
+    },
+    {
+      "source_id": "county-19121-linked7-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/965182b0-838c-4f77-8d0c-a043b9d436bc/64FB5DD5231D4EB8A28D3C72B55FD7C",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/965182b0-838c-4f77-8d0c-a043b9d436bc/64FB5DD5231D4EB8A28D3C72B55FD7C",
+      "final_url": "https://cap.gmdsolutions.com/api/files/965182b0-838c-4f77-8d0c-a043b9d436bc/64FB5DD5231D4EB8A28D3C72B55FD7C",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19121-linked7-payload"
+    },
+    {
+      "source_id": "county-19121-linked8-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/91296f37-264f-4683-80dc-5a35e89e05aa/AF2837F42ACF49AD83E71CC27C4FCBD4",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/91296f37-264f-4683-80dc-5a35e89e05aa/AF2837F42ACF49AD83E71CC27C4FCBD4",
+      "final_url": "https://cap.gmdsolutions.com/api/files/91296f37-264f-4683-80dc-5a35e89e05aa/AF2837F42ACF49AD83E71CC27C4FCBD4",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19121-linked8-payload"
+    },
+    {
+      "source_id": "county-19121-linked9-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/0610cd76-6fc9-4c94-a867-1b9947f20900/B84FA78BC35C452C8284FF059722FDD",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/0610cd76-6fc9-4c94-a867-1b9947f20900/B84FA78BC35C452C8284FF059722FDD",
+      "final_url": "https://cap.gmdsolutions.com/api/files/0610cd76-6fc9-4c94-a867-1b9947f20900/B84FA78BC35C452C8284FF059722FDD",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19121-linked9-payload"
+    },
+    {
+      "source_id": "county-19121-linked10-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/a7a29a2c-f8f2-4afc-85d5-40a8aa1ecab6/9AFF3E2E001C442FA2A12F84913C82E8",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/a7a29a2c-f8f2-4afc-85d5-40a8aa1ecab6/9AFF3E2E001C442FA2A12F84913C82E8",
+      "final_url": "https://cap.gmdsolutions.com/api/files/a7a29a2c-f8f2-4afc-85d5-40a8aa1ecab6/9AFF3E2E001C442FA2A12F84913C82E8",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19121-linked10-payload"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Madison",
+    "county_fips": "19121",
+    "native_election_id": "122383",
+    "native_version": "354711",
+    "native_contest_key": "190",
+    "xml_clock": "11/13/2024 4:24:27 PM CST",
+    "roster_clock": "11/13/2024 4:26:03 PM CST",
+    "xml_member_sha256": "b3ee88203db4561fb4a4775ff8c3e8d24c2c5a1fd8960dfe986918a1f1a943e6",
+    "xml_member_bytes": 148428,
+    "candidate_units": 10,
+    "root_turnout_units": 10,
+    "status_units": 10,
+    "candidate_method_cells": 160,
+    "candidate_generic_votes": 10028,
+    "root_turnout_attributes": {
+      "totalVoters": "12672",
+      "ballotsCast": "10117",
+      "voterTurnout": "79.84"
+    },
+    "root_turnout_ballot_sum": 10117,
+    "root_turnout_registration_sum": 12672,
+    "status_ballot_sum": 10117,
+    "status_codes": {
+      "4": 10
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "103",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "104",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "105",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "106",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "107",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "108",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "109",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "0",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19121"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19121",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19121-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#MadisonCountyAuditor",
+    "publication_url": "https://www.madisoncounty.iowa.gov/offices/auditor/elections/",
+    "telephone_from_directory": "515-462-3914",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

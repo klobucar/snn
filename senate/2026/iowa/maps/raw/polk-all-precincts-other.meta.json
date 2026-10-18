@@ -1,0 +1,60 @@
+{
+  "source_id": "polk-all-precincts-other",
+  "requested_url": "https://www.polkcountyiowa.gov/media/screthra/all-precincts-all-others.zip",
+  "parent_authority_url": "https://www.polkcountyiowa.gov/county-auditor/election/election-maps/",
+  "kind": "county-authority",
+  "retrieval_utc": "2026-10-18T04:28:43.683178+00:00",
+  "county": "Polk",
+  "link_label": "All other precincts",
+  "final_url": "https://www.polkcountyiowa.gov/media/screthra/all-precincts-all-others.zip",
+  "status": 200,
+  "reason": "OK",
+  "headers": {
+    "Content-Length": "100554835",
+    "Content-Type": "application/x-zip-compressed",
+    "Last-Modified": "Tue, 28 Jul 2026 16:15:08 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"1dd1eac44171653\"",
+    "Content-Security-Policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval' https:; img-src 'self' https: data: blob:; font-src 'self' https: data: ; object-src 'none' ; worker-src 'self' https: blob: ; media-src 'self' https: blob:",
+    "X-Content-Type-Options": "NOSNIFF",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Permitted-Cross-Domain-Policies": "master-only",
+    "X-XSS-Protection": "1; mode=block",
+    "Cache-Control": "max-age=0",
+    "Date": "Sun, 18 Oct 2026 04:28:43 GMT",
+    "Connection": "keep-alive",
+    "Server-Timing": "cdn-cache; desc=MISS, edge; dur=37, origin; dur=65, ak_p; desc=\"1792297723785_3088984477_131522192_10263_8291_11_23_-\";dur=1",
+    "Alt-Svc": "h3=\":443\"; ma=93600",
+    "Strict-Transport-Security": "max-age=31536000"
+  },
+  "request_headers": {
+    "User-Agent": "Iowa-public-map-research/1.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive"
+  },
+  "redirects": [],
+  "entity_bytes": 100554835,
+  "entity_sha256": "ab9c3f997e7e2110b3b1b2f39823fd1a785bb3c70d512d73f1ef07e9a62551cc",
+  "transport_decoding": "requests HTTP content decoding; no other modification",
+  "parts": [
+    {
+      "path": "raw/polk-all-precincts-other.zip.part000",
+      "bytes": 39000000,
+      "sha256": "c0aae617e9cec1686723e40d9b8f6f6d12fd54576a45737cd447a2ebc2394eb1"
+    },
+    {
+      "path": "raw/polk-all-precincts-other.zip.part001",
+      "bytes": 39000000,
+      "sha256": "b1625da4339f2035eb7ce33643149445b88941f44fd5ed80b8b540c9f0d049c2"
+    },
+    {
+      "path": "raw/polk-all-precincts-other.zip.part002",
+      "bytes": 22554835,
+      "sha256": "422a72eb1baf81fa7a7f5799826fcf791c9e6a71671b31f1bcb692c02a0beda7"
+    }
+  ],
+  "stored_encoding": "ordered byte concatenation; identity",
+  "stored_sha256": "ab9c3f997e7e2110b3b1b2f39823fd1a785bb3c70d512d73f1ef07e9a62551cc",
+  "stored_bytes": 100554835
+}

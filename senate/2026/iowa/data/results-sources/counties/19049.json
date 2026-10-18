@@ -1,0 +1,255 @@
+{
+  "county": "Dallas",
+  "county_fips": "19049",
+  "rank_2024": 5,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Dallas",
+    "county_fips": "19049",
+    "rank_2024": 5,
+    "priority": true,
+    "anchor": "DallasCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#DallasCountyAuditor",
+    "auditor_url": "https://www.dallascountyiowa.gov",
+    "phone": "515-993-6914",
+    "directory_source_id": "sos-auditors",
+    "source_position": 25
+  },
+  "current_key_publication": {
+    "source_id": "county-19049-linked5",
+    "url": "https://www.dallascountyiowa.gov/180/Election-Results",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:25:10.888725+00:00",
+    "original_sha256": "2f955cfbf3dedf000bd0a2c2d2568528697659765df17bf2878a167f7e5be3d3"
+  },
+  "finding": "The county Elections Office links its local electionresults.dallascountyiowa.gov home. The recovered listing mixes downloadable recent special-election PDFs and separate results-detail pages. The county sample-ballot page is current2026 despite one native route ending Sample-Ballots-None-Active. Route wording alone is unreliable.",
+  "gap": "The tested local results listing does not establish November Senate payload IDs, export schema or upload cadence.",
+  "tested_routes": [
+    {
+      "source_id": "county-19049-seed",
+      "url": "https://www.dallascountyiowa.gov",
+      "parent_url": "https://sos.iowa.gov/auditors#DallasCountyAuditor",
+      "final_url": "https://www.dallascountyiowa.gov/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19049-seed.json",
+      "source_identity_inventory_key": "county-19049-seed"
+    },
+    {
+      "source_id": "county-19049-linked1",
+      "url": "https://www.dallascountyiowa.gov/Search/Results",
+      "parent_url": "https://www.dallascountyiowa.gov/",
+      "final_url": "https://www.dallascountyiowa.gov/Search/Index?departmentId=-1&module=0&page=1&perPage=10",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19049-linked1.json",
+      "source_identity_inventory_key": "county-19049-linked1"
+    },
+    {
+      "source_id": "county-19049-linked2",
+      "url": "https://www.dallascountyiowa.gov/calendar.aspx?view=list&year=2026&month=10&day=20&CID=14,22",
+      "parent_url": "https://www.dallascountyiowa.gov/",
+      "final_url": "https://www.dallascountyiowa.gov/calendar.aspx?view=list&year=2026&month=10&day=20&CID=14,22",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19049-linked2.json",
+      "source_identity_inventory_key": "county-19049-linked2"
+    },
+    {
+      "source_id": "county-19049-linked3",
+      "url": "https://www.dallascountyiowa.gov/calendar.aspx?view=list&year=2026&month=10&day=27&CID=14,22",
+      "parent_url": "https://www.dallascountyiowa.gov/",
+      "final_url": "https://www.dallascountyiowa.gov/calendar.aspx?view=list&year=2026&month=10&day=27&CID=14,22",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19049-linked3.json",
+      "source_identity_inventory_key": "county-19049-linked3"
+    },
+    {
+      "source_id": "county-19049-linked4",
+      "url": "https://www.dallascountyiowa.gov/197/Elections-Office",
+      "parent_url": "https://www.dallascountyiowa.gov/",
+      "final_url": "https://www.dallascountyiowa.gov/503/Elections",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19049-linked4.json",
+      "source_identity_inventory_key": "county-19049-linked4"
+    },
+    {
+      "source_id": "county-19049-linked5",
+      "url": "https://www.dallascountyiowa.gov/180/Election-Results",
+      "parent_url": "https://www.dallascountyiowa.gov/503/Elections",
+      "final_url": "https://electionresults.dallascountyiowa.gov/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19049-linked5.json",
+      "source_identity_inventory_key": "county-19049-linked5"
+    },
+    {
+      "source_id": "county-19049-linked6",
+      "url": "https://www.dallascountyiowa.gov/524/Sample-Ballots-None-Active",
+      "parent_url": "https://www.dallascountyiowa.gov/503/Elections",
+      "final_url": "https://www.dallascountyiowa.gov/524/2026-General-Election-Sample-Ballots",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19049-linked6.json",
+      "source_identity_inventory_key": "county-19049-linked6"
+    },
+    {
+      "source_id": "county-19049-linked7",
+      "url": "https://www.dallascountyiowa.gov/calendar.aspx?view=list&year=2026&month=10&CID=14,22",
+      "parent_url": "https://www.dallascountyiowa.gov/calendar.aspx?view=list&year=2026&month=10&day=20&CID=14,22",
+      "final_url": "https://www.dallascountyiowa.gov/calendar.aspx?view=list&year=2026&month=10&CID=14,22",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19049-linked7.json",
+      "source_identity_inventory_key": "county-19049-linked7"
+    },
+    {
+      "source_id": "county-19049-linked8",
+      "url": "https://www.dallascountyiowa.gov/calendar.aspx?view=week&year=2026&month=10&day=20&CID=14,22",
+      "parent_url": "https://www.dallascountyiowa.gov/calendar.aspx?view=list&year=2026&month=10&day=20&CID=14,22",
+      "final_url": "https://www.dallascountyiowa.gov/calendar.aspx?view=week&year=2026&month=10&day=20&CID=14,22",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19049-linked8.json",
+      "source_identity_inventory_key": "county-19049-linked8"
+    },
+    {
+      "source_id": "county-19049-linked9",
+      "url": "https://www.dallascountyiowa.gov/524/2026-General-Election-Sample-Ballots",
+      "parent_url": "https://www.dallascountyiowa.gov/524/2026-General-Election-Sample-Ballots",
+      "final_url": "https://www.dallascountyiowa.gov/524/2026-General-Election-Sample-Ballots",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19049-linked9.json",
+      "source_identity_inventory_key": "county-19049-linked9"
+    },
+    {
+      "source_id": "county-19049-linked10",
+      "url": "https://electionresults.dallascountyiowa.gov/files/election_results/van_meter_community_school_district_special_election_2026_09_08_89137.pdf",
+      "parent_url": "https://electionresults.dallascountyiowa.gov/",
+      "final_url": "https://electionresults.dallascountyiowa.gov/files/election_results/van_meter_community_school_district_special_election_2026_09_08_89137.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19049-linked10"
+    },
+    {
+      "source_id": "county-19049-linked11",
+      "url": "https://electionresults.dallascountyiowa.gov/details/2026_primary_election_2026_06_02/",
+      "parent_url": "https://electionresults.dallascountyiowa.gov/",
+      "final_url": "https://electionresults.dallascountyiowa.gov/details/2026_primary_election_2026_06_02/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19049-linked11.json",
+      "source_identity_inventory_key": "county-19049-linked11"
+    },
+    {
+      "source_id": "county-19049-linked12",
+      "url": "https://electionresults.dallascountyiowa.gov/files/election_results/2026_runoff_west_des_moines_city_council_to_fill_a_vacancy_2026_03_17_78322_.pdf",
+      "parent_url": "https://electionresults.dallascountyiowa.gov/",
+      "final_url": "https://electionresults.dallascountyiowa.gov/files/election_results/2026_runoff_west_des_moines_city_council_to_fill_a_vacancy_2026_03_17_78322_.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19049-linked12"
+    },
+    {
+      "source_id": "county-19049-specific0",
+      "url": "https://electionresults.dallascountyiowa.gov/files/election_results/2026_primary_election_2026_06_02_56779.pdf",
+      "parent_url": "https://electionresults.dallascountyiowa.gov/details/2026_primary_election_2026_06_02/",
+      "final_url": "https://electionresults.dallascountyiowa.gov/files/election_results/2026_primary_election_2026_06_02_56779.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19049-specific0"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Dallas",
+    "county_fips": "19049",
+    "native_election_id": "122347",
+    "native_version": "355779",
+    "native_contest_key": "999",
+    "xml_clock": "11/25/2024 2:18:47 PM CST",
+    "roster_clock": "11/25/2024 3:25:37 PM CST",
+    "xml_member_sha256": "0bcfe28c8e2d690d4c17d2d1ba6dc139c9d56a1469fffee2423b7fddcf987f10",
+    "xml_member_bytes": 545174,
+    "candidate_units": 46,
+    "root_turnout_units": 46,
+    "status_units": 46,
+    "candidate_method_cells": 736,
+    "candidate_generic_votes": 62961,
+    "root_turnout_attributes": {
+      "totalVoters": "78445",
+      "ballotsCast": "63330",
+      "voterTurnout": "80.73"
+    },
+    "root_turnout_ballot_sum": 63330,
+    "root_turnout_registration_sum": 77714,
+    "status_ballot_sum": 63330,
+    "status_codes": {
+      "4": 46
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "210",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "205",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "215",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "225",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "230",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "235",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "220",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "0",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19049"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19049",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19049-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#DallasCountyAuditor",
+    "publication_url": "https://www.dallascountyiowa.gov/180/Election-Results",
+    "telephone_from_directory": "515-993-6914",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

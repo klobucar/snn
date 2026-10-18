@@ -1,0 +1,275 @@
+{
+  "county": "Fayette",
+  "county_fips": "19065",
+  "rank_2024": 39,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Fayette",
+    "county_fips": "19065",
+    "rank_2024": 39,
+    "priority": true,
+    "anchor": "FayetteCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#FayetteCountyAuditor",
+    "auditor_url": "https://fayettecounty.iowa.gov/departments/auditor/",
+    "phone": "563-422-3497",
+    "directory_source_id": "sos-auditors",
+    "source_position": 33
+  },
+  "current_key_publication": {
+    "source_id": "county-19065-linked1",
+    "url": "https://fayettecounty.iowa.gov/departments/auditor/elections/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:24:51.077823+00:00",
+    "original_sha256": "ca2a837a9b480d2c3bd5cb15e8492b6d851744debf06b14b6e5b74d29964bb63"
+  },
+  "finding": "The auditor's election-information page links the actual2026 primary ClarityEID126115 and2025 city/schoolEID124229. GMD sample/archival links return PDF.js shells, and their observed file-query payloads returned403/zero bodies. Neither a working primary app nor a viewer shell proves November data.",
+  "gap": "No current general-election count schema or acquired GMD sample. Preserve blocked payloads and historical source identities separately.",
+  "tested_routes": [
+    {
+      "source_id": "county-19065-seed",
+      "url": "https://fayettecounty.iowa.gov/departments/auditor/",
+      "parent_url": "https://sos.iowa.gov/auditors#FayetteCountyAuditor",
+      "final_url": "https://fayettecounty.iowa.gov/departments/auditor/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19065-seed.json",
+      "source_identity_inventory_key": "county-19065-seed"
+    },
+    {
+      "source_id": "county-19065-linked1",
+      "url": "https://fayettecounty.iowa.gov/departments/auditor/elections/",
+      "parent_url": "https://fayettecounty.iowa.gov/departments/auditor/",
+      "final_url": "https://fayettecounty.iowa.gov/departments/auditor/elections/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19065-linked1.json",
+      "source_identity_inventory_key": "county-19065-linked1"
+    },
+    {
+      "source_id": "county-19065-linked2",
+      "url": "https://electionresults.iowa.gov/IA/Fayette/126115/web.345435/",
+      "parent_url": "https://fayettecounty.iowa.gov/departments/auditor/elections/",
+      "final_url": "https://electionresults.iowa.gov/IA/Fayette/126115/web.345435/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19065-linked2.json",
+      "source_identity_inventory_key": "county-19065-linked2"
+    },
+    {
+      "source_id": "county-19065-linked3",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=192DB2D490A5443CAFB23D0800EA946C&dir=Objects",
+      "parent_url": "https://fayettecounty.iowa.gov/departments/auditor/elections/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/79423819-3015-41b9-b054-20ad1c5cefc5/192DB2D490A5443CAFB23D0800EA946C",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19065-linked3.json",
+      "source_identity_inventory_key": "county-19065-linked3"
+    },
+    {
+      "source_id": "county-19065-linked4",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=9BD2CBCC3A144214B3F328962306FFC&dir=Objects",
+      "parent_url": "https://fayettecounty.iowa.gov/departments/auditor/elections/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/2695b49a-2d3a-4ae6-a29c-a3f58c24da7b/9BD2CBCC3A144214B3F328962306FFC",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19065-linked4.json",
+      "source_identity_inventory_key": "county-19065-linked4"
+    },
+    {
+      "source_id": "county-19065-linked5",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=E47CCFDE5007421D98D7FEB4406CE88D&dir=Objects",
+      "parent_url": "https://fayettecounty.iowa.gov/departments/auditor/elections/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/a81fb0ee-5735-4ab2-a3a0-739bb92ecc1b/E47CCFDE5007421D98D7FEB4406CE88D",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19065-linked5.json",
+      "source_identity_inventory_key": "county-19065-linked5"
+    },
+    {
+      "source_id": "county-19065-linked6",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=185D148769B2409CAEE0DFE600B5BF00&dir=Objects",
+      "parent_url": "https://fayettecounty.iowa.gov/departments/auditor/elections/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/4c06af53-1842-4acf-b471-ee7037fc78c8/185D148769B2409CAEE0DFE600B5BF00",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19065-linked6.json",
+      "source_identity_inventory_key": "county-19065-linked6"
+    },
+    {
+      "source_id": "county-19065-linked7",
+      "url": "https://electionresults.iowa.gov/IA/Fayette/124229/web.345435/",
+      "parent_url": "https://fayettecounty.iowa.gov/departments/auditor/elections/",
+      "final_url": "https://electionresults.iowa.gov/IA/Fayette/124229/web.345435/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19065-linked7.json",
+      "source_identity_inventory_key": "county-19065-linked7"
+    },
+    {
+      "source_id": "county-19065-linked8",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=69F7CA40CBE04EDF0074367763A4DF3C&dir=Objects",
+      "parent_url": "https://fayettecounty.iowa.gov/departments/auditor/elections/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/1ebd6f08-9db5-44e6-a110-308bb610c5eb/69F7CA40CBE04EDF0074367763A4DF3C",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19065-linked8.json",
+      "source_identity_inventory_key": "county-19065-linked8"
+    },
+    {
+      "source_id": "county-19065-linked9",
+      "url": "https://cap.gmdsolutions.com/viewfile.aspx?id=A27EB941077943B48000E80022A0A76&dir=Objects",
+      "parent_url": "https://fayettecounty.iowa.gov/departments/auditor/elections/",
+      "final_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/5b05fc9a-a170-492e-b434-1ce4baaa9f5b/A27EB941077943B48000E80022A0A76",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19065-linked9.json",
+      "source_identity_inventory_key": "county-19065-linked9"
+    },
+    {
+      "source_id": "county-19065-linked3-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/79423819-3015-41b9-b054-20ad1c5cefc5/192DB2D490A5443CAFB23D0800EA946C",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/79423819-3015-41b9-b054-20ad1c5cefc5/192DB2D490A5443CAFB23D0800EA946C",
+      "final_url": "https://cap.gmdsolutions.com/api/files/79423819-3015-41b9-b054-20ad1c5cefc5/192DB2D490A5443CAFB23D0800EA946C",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19065-linked3-payload"
+    },
+    {
+      "source_id": "county-19065-linked4-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/2695b49a-2d3a-4ae6-a29c-a3f58c24da7b/9BD2CBCC3A144214B3F328962306FFC",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/2695b49a-2d3a-4ae6-a29c-a3f58c24da7b/9BD2CBCC3A144214B3F328962306FFC",
+      "final_url": "https://cap.gmdsolutions.com/api/files/2695b49a-2d3a-4ae6-a29c-a3f58c24da7b/9BD2CBCC3A144214B3F328962306FFC",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19065-linked4-payload"
+    },
+    {
+      "source_id": "county-19065-linked5-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/a81fb0ee-5735-4ab2-a3a0-739bb92ecc1b/E47CCFDE5007421D98D7FEB4406CE88D",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/a81fb0ee-5735-4ab2-a3a0-739bb92ecc1b/E47CCFDE5007421D98D7FEB4406CE88D",
+      "final_url": "https://cap.gmdsolutions.com/api/files/a81fb0ee-5735-4ab2-a3a0-739bb92ecc1b/E47CCFDE5007421D98D7FEB4406CE88D",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19065-linked5-payload"
+    },
+    {
+      "source_id": "county-19065-linked6-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/4c06af53-1842-4acf-b471-ee7037fc78c8/185D148769B2409CAEE0DFE600B5BF00",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/4c06af53-1842-4acf-b471-ee7037fc78c8/185D148769B2409CAEE0DFE600B5BF00",
+      "final_url": "https://cap.gmdsolutions.com/api/files/4c06af53-1842-4acf-b471-ee7037fc78c8/185D148769B2409CAEE0DFE600B5BF00",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19065-linked6-payload"
+    },
+    {
+      "source_id": "county-19065-linked8-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/1ebd6f08-9db5-44e6-a110-308bb610c5eb/69F7CA40CBE04EDF0074367763A4DF3C",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/1ebd6f08-9db5-44e6-a110-308bb610c5eb/69F7CA40CBE04EDF0074367763A4DF3C",
+      "final_url": "https://cap.gmdsolutions.com/api/files/1ebd6f08-9db5-44e6-a110-308bb610c5eb/69F7CA40CBE04EDF0074367763A4DF3C",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19065-linked8-payload"
+    },
+    {
+      "source_id": "county-19065-linked9-payload",
+      "url": "https://cap.gmdsolutions.com/api/files/5b05fc9a-a170-492e-b434-1ce4baaa9f5b/A27EB941077943B48000E80022A0A76",
+      "parent_url": "https://cap.gmdsolutions.com/lib/pdf.js/web/viewer.html?file=/api/files/5b05fc9a-a170-492e-b434-1ce4baaa9f5b/A27EB941077943B48000E80022A0A76",
+      "final_url": "https://cap.gmdsolutions.com/api/files/5b05fc9a-a170-492e-b434-1ce4baaa9f5b/A27EB941077943B48000E80022A0A76",
+      "status": 403,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19065-linked9-payload"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Fayette",
+    "county_fips": "19065",
+    "native_election_id": "122355",
+    "native_version": "354433",
+    "native_contest_key": "0104",
+    "xml_clock": "11/12/2024 3:39:23 PM CST",
+    "roster_clock": "11/12/2024 3:47:05 PM CST",
+    "xml_member_sha256": "fbacdb2717121290757673861397b5836c9971cedfe5cdcbfcc9db7c88275b25",
+    "xml_member_bytes": 244255,
+    "candidate_units": 20,
+    "root_turnout_units": 20,
+    "status_units": 20,
+    "candidate_method_cells": 320,
+    "candidate_generic_votes": 9848,
+    "root_turnout_attributes": {
+      "totalVoters": "12651",
+      "ballotsCast": "9928",
+      "voterTurnout": "78.48"
+    },
+    "root_turnout_ballot_sum": 9928,
+    "root_turnout_registration_sum": 12653,
+    "status_ballot_sum": 9928,
+    "status_codes": {
+      "4": 20
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "001",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "002",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "003",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "004",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "005",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SPA"
+      },
+      {
+        "choice_key": "006",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "007",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "008",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19065"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19065",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19065-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#FayetteCountyAuditor",
+    "publication_url": "https://fayettecounty.iowa.gov/departments/auditor/elections/",
+    "telephone_from_directory": "563-422-3497",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

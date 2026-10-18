@@ -1,0 +1,297 @@
+{
+  "source_id": "sos-county-polk-county-precinct-boundaries",
+  "source_path": "raw/sos-county-polk-county-precinct-boundaries.zip",
+  "source_sha256": "feec24566fa39538e81b9e6d6959ed657d211420245b3cebeb9779f7659345a3",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "PolkCo2022-03-07.dbf",
+      "bytes": 1226,
+      "compressed_bytes": 313,
+      "crc32": "4150421c",
+      "sha256": "ba09b186bae99f139efdc7be21973b019f670a2011fc7fbd3a527661f7747956"
+    },
+    {
+      "name": "PolkCo2022-03-07.prj",
+      "bytes": 143,
+      "compressed_bytes": 121,
+      "crc32": "6a51c1e3",
+      "sha256": "98aaf3d1c0ecadf1a424a4536de261c3daf4e373697cb86c40c43b989daf52eb"
+    },
+    {
+      "name": "PolkCo2022-03-07.shp",
+      "bytes": 109884,
+      "compressed_bytes": 64646,
+      "crc32": "c7a793c3",
+      "sha256": "9b76f8cc99e86f2f5c2a9b7704c9a43bb7a385c6da87f7d95d9198677133df1e"
+    },
+    {
+      "name": "PolkCo2022-03-07.shx",
+      "bytes": 140,
+      "compressed_bytes": 90,
+      "crc32": "a0107d4d",
+      "sha256": "ff65618e55d0cb98aecdd54f2940f774a7f46726f5871138402b4e6f7d0bf50f"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-county-polk-county-precinct-boundaries--1",
+      "shp_member": "PolkCo2022-03-07.shp",
+      "dbf_fields": [
+        [
+          "ID",
+          "N",
+          12,
+          0
+        ],
+        [
+          "AREA",
+          "N",
+          15,
+          2
+        ],
+        [
+          "DISTRICT",
+          "C",
+          12,
+          0
+        ],
+        [
+          "MEMBERS",
+          "N",
+          15,
+          1
+        ],
+        [
+          "LOCKED",
+          "C",
+          1,
+          0
+        ],
+        [
+          "NAME",
+          "C",
+          43,
+          0
+        ],
+        [
+          "DATA",
+          "N",
+          15,
+          2
+        ],
+        [
+          "IDEAL_VALU",
+          "N",
+          15,
+          4
+        ],
+        [
+          "DEVIATION",
+          "N",
+          15,
+          4
+        ],
+        [
+          "F_DEVIATIO",
+          "N",
+          15,
+          4
+        ],
+        [
+          "DISTRICT_L",
+          "C",
+          9,
+          0
+        ]
+      ],
+      "dbf_encoding": "utf-8",
+      "cpg_present": false,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137,298.257223563]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.017453292519943295]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 5,
+      "shp_record_header_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "dbf_declared_records": 5,
+      "shx_records": 5,
+      "parsed_records": 5,
+      "vertices": 6844,
+      "parts": 5,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -93.815792,
+        41.481777,
+        -93.328414,
+        41.863476
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 747,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.008256448604242905
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "ID": 15,
+            "DISTRICT": "5",
+            "NAME": ""
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 2054,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.0872084338723198
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "ID": 12,
+            "DISTRICT": "2",
+            "NAME": ""
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 3,
+          "vertices": 644,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.015592599338788204
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "ID": 11,
+            "DISTRICT": "1",
+            "NAME": ""
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 4,
+          "vertices": 1575,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.03159353138744336
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "ID": 14,
+            "DISTRICT": "4",
+            "NAME": ""
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 5,
+          "vertices": 1824,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.02302912751429176
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "ID": 13,
+            "DISTRICT": "3",
+            "NAME": ""
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-county-polk-county-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-county-polk-county-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          180026.85776347457,
+          2056004.730503918,
+          221353.52121066384,
+          2098648.5754517238
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

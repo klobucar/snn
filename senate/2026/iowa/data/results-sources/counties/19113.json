@@ -1,0 +1,165 @@
+{
+  "county": "Linn",
+  "county_fips": "19113",
+  "rank_2024": 2,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Linn",
+    "county_fips": "19113",
+    "rank_2024": 2,
+    "priority": true,
+    "anchor": "LinnCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#LinnCountyAuditor",
+    "auditor_url": "https://www.linncountyiowa.gov/auditor",
+    "phone": "319-892-5300",
+    "directory_source_id": "sos-auditors",
+    "source_position": 57
+  },
+  "current_key_publication": {
+    "source_id": "county-19113-observed0",
+    "url": "https://gis.linncountyiowa.gov/web-data/elections/year/2026/20261103GE/candidates.pdf",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:31:06.331521+00:00",
+    "original_sha256": "f81341e33086d5df67137886d0f1b3c356cc132f420cf67e71d051a1c50786b3"
+  },
+  "finding": "The SOS-listed auditor route and Election Services route returned403. The official Election Services page was readable through the web retrieval tool and linked an actual GIS-hosted October7 candidate-list PDF, recovered200. It names Hinson, Laehn and Turek with literal Republican Party, Libertarian Party and Democratic Party labels. The address lookup shell also returned200, while its linked elections home returned403.",
+  "gap": "Current candidate publication recovered; no November results payload recovered through the tested routes. Web-rendered observations are separately labeled and are not represented as original HTTP entities.",
+  "tested_routes": [
+    {
+      "source_id": "county-19113-seed",
+      "url": "https://www.linncountyiowa.gov/auditor",
+      "parent_url": "https://sos.iowa.gov/auditors#LinnCountyAuditor",
+      "final_url": "https://www.linncountyiowa.gov/auditor",
+      "status": 403,
+      "error": null,
+      "view_path": "extracts/county-19113-seed.json",
+      "source_identity_inventory_key": "county-19113-seed"
+    },
+    {
+      "source_id": "county-19113-official-alternate",
+      "url": "https://www.linncountyiowa.gov/157/Election-Services",
+      "parent_url": "official indexed search result",
+      "final_url": "https://www.linncountyiowa.gov/157/Election-Services",
+      "status": 403,
+      "error": null,
+      "view_path": "extracts/county-19113-official-alternate.json",
+      "source_identity_inventory_key": "county-19113-official-alternate"
+    },
+    {
+      "source_id": "county-19113-observed0",
+      "url": "https://gis.linncountyiowa.gov/web-data/elections/year/2026/20261103GE/candidates.pdf",
+      "parent_url": "https://www.linncountyiowa.gov/157/Election-Services",
+      "final_url": "https://gis.linncountyiowa.gov/web-data/elections/year/2026/20261103GE/candidates.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19113-observed0"
+    },
+    {
+      "source_id": "county-19113-observed1",
+      "url": "https://www.linncountyelections.org/lookup/",
+      "parent_url": "https://www.linncountyiowa.gov/157/Election-Services",
+      "final_url": "https://www.linncountyelections.org/lookup/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19113-observed1.json",
+      "source_identity_inventory_key": "county-19113-observed1"
+    },
+    {
+      "source_id": "county-19113-results-home",
+      "url": "http://www.linncountyelections.org",
+      "parent_url": "https://www.linncountyelections.org/lookup/",
+      "final_url": "https://www.linncountyiowa.gov/157/elections-services",
+      "status": 403,
+      "error": null,
+      "view_path": "extracts/county-19113-results-home.json",
+      "source_identity_inventory_key": "county-19113-results-home"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Linn",
+    "county_fips": "19113",
+    "native_election_id": "122379",
+    "native_version": "354674",
+    "native_contest_key": "0004",
+    "xml_clock": "11/13/2024 2:52:22 PM CST",
+    "roster_clock": "11/13/2024 3:08:58 PM CST",
+    "xml_member_sha256": "621aef32ea0a4f21686040696ee1f80b0a9f329017f8b0a77b28bf4196e37f34",
+    "xml_member_bytes": 856475,
+    "candidate_units": 94,
+    "root_turnout_units": 94,
+    "status_units": 94,
+    "candidate_method_cells": 1504,
+    "candidate_generic_votes": 122959,
+    "root_turnout_attributes": {
+      "totalVoters": "164056",
+      "ballotsCast": "123750",
+      "voterTurnout": "75.43"
+    },
+    "root_turnout_ballot_sum": 123750,
+    "root_turnout_registration_sum": 164046,
+    "status_ballot_sum": 123750,
+    "status_codes": {
+      "4": 94
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "001",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "002",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "003",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "004",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "005",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "006",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "007",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "008",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19113"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19113",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19113-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#LinnCountyAuditor",
+    "publication_url": "https://gis.linncountyiowa.gov/web-data/elections/year/2026/20261103GE/candidates.pdf",
+    "telephone_from_directory": "319-892-5300",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

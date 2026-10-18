@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-18T04:24:30.907676+00:00",
+  "counties": 99,
+  "priority_counties": 41,
+  "constituent_objects_exactly_conserved": 13558,
+  "source_scoped_counts": {
+    "statistics_2024": 1658,
+    "candidate_2024": 1653,
+    "turnout_context_2024": 1651,
+    "status_context_2024": 1653,
+    "administrative_2024": 99,
+    "statistics_2022": 1651,
+    "candidate_2022": 1653,
+    "administrative_2022": 99,
+    "statistics_2020": 1681,
+    "candidate_2020": 1661,
+    "administrative_2020": 99
+  },
+  "native_county_rosters_exactly_conserved": 99,
+  "approved_crosswalks": 0,
+  "input_hashes": {
+    "turnout/native-units.csv": "f4bb3b30674cda0358ebd0b2e0ace2d5939412df8b09f6211dcb39989aba6788",
+    "turnout/statistics-units.csv": "a6a8276041bc67d2680cd58215fc5cae2720e6eef38eaeac21b1861dda940b29",
+    "turnout/clarity-2024-native-units.csv": "40bd71440e242b034440c2af815d2a5ba72e9b10891f1c40c3a9d2896fb86c3a",
+    "turnout/clarity-2024-status-units.csv": "e92eec377d3140c39b45cc3bd7d24c01e525dc279fb203844f4f0c3100b75ad7",
+    "turnout/clarity-2024-county-candidate-method.csv": "76d33052e8c0fa063bdc8118b50e25b37cffab41a710676945cbd7057b0848e3",
+    "turnout/clarity-county-roster.json": "32dc5b690775050ef2d610e3b8fe3eda1e48c6506ef4003c2f10623342a17adb",
+    "turnout/priority-set.json": "579b22b8d4f35f12d085ef8402a1bcab14e135a1577daf3ddc4f7d3f66460822"
+  },
+  "scope": "Exact inventory-object conservation only. Distinct historical contexts and root turnout blank contest keys retained; no deduplication, spatial allocation or current approval."
+}

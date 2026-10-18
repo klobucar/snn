@@ -1,0 +1,74 @@
+{
+  "status": "completed_with_retained_source_gaps_and_discrepancies",
+  "validated_at_utc": "2026-10-18T15:00:10.953107+00:00",
+  "checks": {
+    "final_peer_pins": "pass",
+    "county_scope_order_arithmetic": {
+      "status": "pass",
+      "all99": 99,
+      "deep41": 41,
+      "discovery58": 58,
+      "denominator": 1663506,
+      "priority_marks": 1332107,
+      "ordered_keys_sha256": "e015514b8718b35e9599389cddde2451e5cd598115ef4d6468016a7858271f95"
+    },
+    "peer_dependencies_census_originals": {
+      "status": "pass",
+      "pinned_files": 560,
+      "original_entities_checked": 534,
+      "census_counties": 99
+    },
+    "complete_native_conservation": {
+      "status": "pass",
+      "exact_objects": 13558,
+      "candidate_cells": 26448,
+      "county_controls": 2376,
+      "candidate_units": 1653,
+      "root_turnout_units": 1651,
+      "status_units": 1653,
+      "approved_crosswalks": 0
+    },
+    "own_original_metadata_and_full_positions": {
+      "status": "pass",
+      "requests": 626,
+      "HTTP_original_entities": 624,
+      "gzip_objects": 625,
+      "transport_failures": [
+        "county-19117-seed",
+        "county-19179-seed"
+      ],
+      "view_positions": 160559,
+      "preserved_repeated_link_values": 6784
+    },
+    "current_identity_rules_admin": {
+      "status": "pass_with_explicit_conflicts",
+      "primary_counties": 99,
+      "primary_cells": 1188,
+      "primary_status": "1658/1658",
+      "current_named_ballot_candidates": 3,
+      "November_live_feed_eids": [],
+      "absentee_controls": [
+        176012,
+        176014,
+        33418
+      ],
+      "recount_calendar_conflict_retained": true,
+      "military_FWAB_stale9pm_retained": true
+    },
+    "references_bounds": {
+      "status": "pass",
+      "local_report_links": 58,
+      "owned_assets": 1292,
+      "largest_owned_object_bytes": 24443594,
+      "exclusive_byte_bound": 40000000
+    }
+  },
+  "asset_manifest_sha256": "087d6c3edd858d25c1b84be54fe261ce188e12e07ad0da753a2bfab014fff947",
+  "limitations": [
+    "No November2026 counted feed/general machine keys, upload schema, demonstrated cadence or exact remaining votes",
+    "41priority investigations include explicit current-source blocks;58remainder remain discovery only",
+    "No approved geographic/cross-vintage/current reporting crosswalk",
+    "Recount guide/holiday deadline conflict remains source-scoped; scoped UOCAVA/FWAB/SafeatHome rules not generalized",
+    "Historical±7/registration+2/Lucas/context/party differences conserved without repair"
+  ]
+}

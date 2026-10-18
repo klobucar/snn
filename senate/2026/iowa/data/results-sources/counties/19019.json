@@ -1,0 +1,315 @@
+{
+  "county": "Buchanan",
+  "county_fips": "19019",
+  "rank_2024": 34,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Buchanan",
+    "county_fips": "19019",
+    "rank_2024": 34,
+    "priority": true,
+    "anchor": "BuchananCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#BuchananCountyAuditor",
+    "auditor_url": "https://www.buchanancounty.iowa.gov/departments/auditor/index.php",
+    "phone": "319-334-4109",
+    "directory_source_id": "sos-auditors",
+    "source_position": 10
+  },
+  "current_key_publication": {
+    "source_id": "county-19019-target-election-results",
+    "url": "https://www.buchanancounty.iowa.gov/departments/election_results.php",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:26:47.795164+00:00",
+    "original_sha256": "d831c43f4af5db1a8d1e83e313a80746d36e3874b0d4d0316b2c53ca3c905dc3"
+  },
+  "finding": "The auditor HTML has a root <base href>. Respecting it recovers /departments/election_results.php and /departments/auditor/commissioner_of_elections.php; early wrong-relative404 attempts remain recorded. The archive has actual local canvass PDFs. The maps peer independently recovered root/GIS precinct-map targets using the same base.",
+  "gap": "No November result schema or approved unit crosswalk. Native query timestamps on PDFs are not votes-as-of clocks.",
+  "tested_routes": [
+    {
+      "source_id": "county-19019-seed",
+      "url": "https://www.buchanancounty.iowa.gov/departments/auditor/index.php",
+      "parent_url": "https://sos.iowa.gov/auditors#BuchananCountyAuditor",
+      "final_url": "https://www.buchanancounty.iowa.gov/departments/auditor/index.php",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19019-seed.json",
+      "source_identity_inventory_key": "county-19019-seed"
+    },
+    {
+      "source_id": "county-19019-linked1",
+      "url": "https://www.buchanancounty.iowa.gov/departments/auditor/departments/election_results.php",
+      "parent_url": "https://www.buchanancounty.iowa.gov/departments/auditor/index.php",
+      "final_url": "https://www.buchanancounty.iowa.gov/departments/auditor/departments/election_results.php",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19019-linked1.json",
+      "source_identity_inventory_key": "county-19019-linked1"
+    },
+    {
+      "source_id": "county-19019-linked2",
+      "url": "https://www.buchanancounty.iowa.gov/departments/auditor/HazardousWaste/New Hazardous Waste Flyer_1_2026.pdf",
+      "parent_url": "https://www.buchanancounty.iowa.gov/departments/auditor/index.php",
+      "final_url": "https://cms4files1.revize.com/buchanancounty/departments/auditor/HazardousWaste/New%20Hazardous%20Waste%20Flyer_1_2026.pdf",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19019-linked2.json",
+      "source_identity_inventory_key": "county-19019-linked2"
+    },
+    {
+      "source_id": "county-19019-linked3",
+      "url": "https://www.buchanancounty.iowa.gov/departments/auditor/Fees for Service.pdf?t=202604021515450",
+      "parent_url": "https://www.buchanancounty.iowa.gov/departments/auditor/index.php",
+      "final_url": "https://cms4files1.revize.com/buchanancounty/departments/auditor/Fees%20for%20Service.pdf?t=202604021515450",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19019-linked3.json",
+      "source_identity_inventory_key": "county-19019-linked3"
+    },
+    {
+      "source_id": "county-19019-linked4",
+      "url": "http://sos.iowa.gov/elections/voterinformation/voterregistration.html",
+      "parent_url": "https://www.buchanancounty.iowa.gov/departments/auditor/index.php",
+      "final_url": "https://sos.iowa.gov/voters",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19019-linked4.json",
+      "source_identity_inventory_key": "county-19019-linked4"
+    },
+    {
+      "source_id": "county-19019-linked5",
+      "url": "https://apps.sos.iowa.gov/elections/statefair/strawpoll/statefairresults.aspx",
+      "parent_url": "https://sos.iowa.gov/voters",
+      "final_url": "https://apps.sos.iowa.gov/elections/statefair/strawpoll/statefairresults.aspx",
+      "status": 403,
+      "error": null,
+      "view_path": "extracts/county-19019-linked5.json",
+      "source_identity_inventory_key": "county-19019-linked5"
+    },
+    {
+      "source_id": "county-19019-linked6",
+      "url": "https://electionresults.iowa.gov/IA/",
+      "parent_url": "https://sos.iowa.gov/voters",
+      "final_url": "https://electionresults.iowa.gov/IA/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19019-linked6.json",
+      "source_identity_inventory_key": "county-19019-linked6"
+    },
+    {
+      "source_id": "county-19019-linked7",
+      "url": "https://sos.iowa.gov/businesses/certificate-existence",
+      "parent_url": "https://sos.iowa.gov/voters",
+      "final_url": "https://sos.iowa.gov/businesses/certificate-existence",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19019-linked7.json",
+      "source_identity_inventory_key": "county-19019-linked7"
+    },
+    {
+      "source_id": "county-19019-linked8",
+      "url": "https://sos.iowa.gov/notaries/apostilles-and-certifications",
+      "parent_url": "https://sos.iowa.gov/voters",
+      "final_url": "https://sos.iowa.gov/notaries/apostilles-and-certifications",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19019-linked8.json",
+      "source_identity_inventory_key": "county-19019-linked8"
+    },
+    {
+      "source_id": "county-19019-linked9",
+      "url": "http://sos.iowa.gov/elections/electioninfo/absenteeinfo.html",
+      "parent_url": "https://www.buchanancounty.iowa.gov/departments/auditor/index.php",
+      "final_url": "https://sos.iowa.gov/elections/electioninfo/absenteeinfo.html",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19019-linked9.json",
+      "source_identity_inventory_key": "county-19019-linked9"
+    },
+    {
+      "source_id": "county-19019-linked10",
+      "url": "https://www.buchanancounty.iowa.gov/departments/auditor/departments/auditor/commissioner_of_elections.php",
+      "parent_url": "https://www.buchanancounty.iowa.gov/departments/auditor/index.php",
+      "final_url": "https://www.buchanancounty.iowa.gov/departments/auditor/departments/auditor/commissioner_of_elections.php",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19019-linked10.json",
+      "source_identity_inventory_key": "county-19019-linked10"
+    },
+    {
+      "source_id": "county-19019-linked11",
+      "url": "https://www.buchanancounty.iowa.gov/departments/auditor/departments/june_3_2014_primary_election.php",
+      "parent_url": "https://www.buchanancounty.iowa.gov/departments/auditor/index.php",
+      "final_url": "https://www.buchanancounty.iowa.gov/departments/auditor/departments/june_3_2014_primary_election.php",
+      "status": 404,
+      "error": null,
+      "view_path": "extracts/county-19019-linked11.json",
+      "source_identity_inventory_key": "county-19019-linked11"
+    },
+    {
+      "source_id": "county-19019-linked12",
+      "url": "https://sos.iowa.gov/elections-voting",
+      "parent_url": "https://sos.iowa.gov/voters",
+      "final_url": "https://sos.iowa.gov/elections-voting",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19019-linked12.json",
+      "source_identity_inventory_key": "county-19019-linked12"
+    },
+    {
+      "source_id": "county-19019-target-election-results",
+      "url": "https://www.buchanancounty.iowa.gov/departments/election_results.php",
+      "parent_url": "https://www.buchanancounty.iowa.gov/departments/auditor/index.php",
+      "final_url": "https://www.buchanancounty.iowa.gov/departments/election_results.php",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19019-target-election-results.json",
+      "source_identity_inventory_key": "county-19019-target-election-results"
+    },
+    {
+      "source_id": "county-19019-target-elections",
+      "url": "https://www.buchanancounty.iowa.gov/departments/auditor/commissioner_of_elections.php",
+      "parent_url": "https://www.buchanancounty.iowa.gov/departments/auditor/index.php",
+      "final_url": "https://www.buchanancounty.iowa.gov/departments/auditor/commissioner_of_elections.php",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19019-target-elections.json",
+      "source_identity_inventory_key": "county-19019-target-elections"
+    },
+    {
+      "source_id": "county-19019-review0",
+      "url": "https://www.buchanancounty.iowa.gov/UNOFFICIAL RESULTS.pdf?t=202311091453560",
+      "parent_url": "https://www.buchanancounty.iowa.gov/departments/election_results.php",
+      "final_url": "https://cms4files1.revize.com/buchanancounty/UNOFFICIAL%20RESULTS.pdf?t=202311091453560",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19019-review0"
+    },
+    {
+      "source_id": "county-19019-review1",
+      "url": "https://www.buchanancounty.iowa.gov/Unofficial General updated 11-8.pdf?t=202212061147170",
+      "parent_url": "https://www.buchanancounty.iowa.gov/departments/election_results.php",
+      "final_url": "https://cms4files1.revize.com/buchanancounty/Unofficial%20General%20updated%2011-8.pdf?t=202212061147170",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19019-review1"
+    },
+    {
+      "source_id": "county-19019-review2",
+      "url": "https://www.buchanancounty.iowa.gov/CombinedElection_Summary.pdf?t=202209140902010",
+      "parent_url": "https://www.buchanancounty.iowa.gov/departments/election_results.php",
+      "final_url": "https://cms4files1.revize.com/buchanancounty/CombinedElection_Summary.pdf?t=202209140902010",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19019-review2"
+    },
+    {
+      "source_id": "county-19019-review3",
+      "url": "https://www.buchanancounty.iowa.gov/Auditor/Elections/General Election Official Results 11-3-2020.pdf?t=202011101636320",
+      "parent_url": "https://www.buchanancounty.iowa.gov/departments/election_results.php",
+      "final_url": "https://cms4files1.revize.com/buchanancounty/Auditor/Elections/General%20Election%20Official%20Results%2011-3-2020.pdf?t=202011101636320",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19019-review3"
+    },
+    {
+      "source_id": "county-19019-review4",
+      "url": "https://www.buchanancounty.iowa.gov/Auditor/Elections/Official Indep & Starmont Special 03-2020.pdf?t=202003181532270",
+      "parent_url": "https://www.buchanancounty.iowa.gov/departments/election_results.php",
+      "final_url": "https://cms4files1.revize.com/buchanancounty/Auditor/Elections/Official%20Indep%20&%20Starmont%20Special%2003-2020.pdf?t=202003181532270",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19019-review4"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Buchanan",
+    "county_fips": "19019",
+    "native_election_id": "122332",
+    "native_version": "354564",
+    "native_contest_key": "190",
+    "xml_clock": "11/13/2024 9:50:03 AM CST",
+    "roster_clock": "11/13/2024 9:54:31 AM CST",
+    "xml_member_sha256": "1e4f02f134ab8512ffcff570197cdf32f8c22245956518fce8fb537a2045aa04",
+    "xml_member_bytes": 160210,
+    "candidate_units": 14,
+    "root_turnout_units": 14,
+    "status_units": 14,
+    "candidate_method_cells": 224,
+    "candidate_generic_votes": 10750,
+    "root_turnout_attributes": {
+      "totalVoters": "14204",
+      "ballotsCast": "10856",
+      "voterTurnout": "76.43"
+    },
+    "root_turnout_ballot_sum": 10856,
+    "root_turnout_registration_sum": 14138,
+    "status_ballot_sum": 10856,
+    "status_codes": {
+      "4": 14
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "103",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "104",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "105",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "106",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "107",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "108",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "109",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "0",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19019"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19019",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19019-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#BuchananCountyAuditor",
+    "publication_url": "https://www.buchanancounty.iowa.gov/departments/election_results.php",
+    "telephone_from_directory": "319-334-4109",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

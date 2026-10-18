@@ -1,0 +1,66 @@
+{
+  "source_id": "local-19027-map-page-3",
+  "requested_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=21012&catid=563",
+  "parent_authority_url": "https://sos.iowa.gov/auditors#CarrollCountyAuditor",
+  "kind": "county-authority",
+  "retrieval_utc": "2026-10-18T04:28:28.836072+00:00",
+  "county": "Carroll",
+  "link_label": "GIS Interactive Maps",
+  "final_url": "https://www.carrollcountyiowa.gov/pview.aspx?id=21010&catid=563",
+  "status": 200,
+  "reason": "OK",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 04:28:29 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Cache-Control": "private",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Tdxhpa2PsHGsN%2FwhyOc%2BEtYpDoe5xiBYSTLjKOQNxgUKxZiitFi7I0sxi3lGZW2HHV0pBJHXcICLvDG6N%2FC3zRm7%2BQuysy6q7FUJ2dQAdpXG7NP3ccvieF07DVB%2Bu5%2F6n74jlHbbw7f%2Bm6YIm72%2BkJzenBYj3jM%3D\"}]}",
+    "vary": "Accept-Encoding",
+    "Server": "cloudflare",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "referrer-policy": "strict-origin",
+    "cf-cache-status": "DYNAMIC",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Content-Encoding": "gzip",
+    "CF-RAY": "a4c4cbea0b985f24-ORD"
+  },
+  "request_headers": {
+    "User-Agent": "Iowa-public-map-research/1.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Cookie": "ASP.NET_SessionId=nmwfvnguey4y0irom1gvp0bv; __cflb=04dTofNBMHqw7qVQ2raMon9kXKp3vPf6xQ8kfjCh63"
+  },
+  "redirects": [
+    {
+      "status": 302,
+      "url": "https://www.carrollcountyiowa.gov/pview.aspx?id=21012&catid=563",
+      "headers": {
+        "Date": "Sun, 18 Oct 2026 04:28:29 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Cache-Control": "private",
+        "location": "/pview.aspx?id=21010&catid=563",
+        "Server": "cloudflare",
+        "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "referrer-policy": "strict-origin",
+        "cf-cache-status": "DYNAMIC",
+        "Set-Cookie": "ASP.NET_SessionId=nmwfvnguey4y0irom1gvp0bv; path=/; secure; HttpOnly; SameSite=Lax, __cflb=04dTofNBMHqw7qVQ2raMon9kXKp3vPf6xQ8kfjCh63; HttpOnly; SameSite=None; Secure; Path=/; Expires=Sun, 18 Oct 2026 05:28:29 GMT",
+        "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=CyCoSmg6mzuNpOB86i3x14QLxGr3MB5%2BPkxZflK91uVPbN53G6FyYQCEXuMpDI7mOKPBYzviPydF4I6HK6AgbC%2B%2BkahHp0BSrN66Q2g6spioxp3ZgzSQiokXuZ8kfUtEI3HeuwitVSCER6tf3oWSJBnugn1SfOk%3D\"}]}",
+        "CF-RAY": "a4c4cbe8f8cb5f24-ORD"
+      }
+    }
+  ],
+  "entity_bytes": 100037,
+  "entity_sha256": "c7fbe12c8c35c0b73e9a3f2b1350b81e5015b282facc04e01c62f6e11dab942f",
+  "transport_decoding": "requests HTTP content decoding; no other modification",
+  "path": "raw/local-19027-map-page-3.gz",
+  "stored_encoding": "gzip",
+  "stored_bytes": 18862,
+  "stored_sha256": "48b39f0046d9c377532f2b899b6babb9ee3107e0f7e421fa3298ca2f951f3f55"
+}

@@ -1,0 +1,322 @@
+{
+  "scope": "independently extracted raw originals compared read-only; no cross-year/2026 crosswalk approval",
+  "aliases": [
+    "State footer blank county FIPS in ours maps to peer state19.",
+    "Full candidate header=our candidate label + comma + party when printed.",
+    "Scott PDF sheet display aliases map to one retained original; numeric source_row is same contest-section text line; Total and Total: designate administrative footer.",
+    "Native workbook key exact source/sheet/row/column; no unit-label deduplication.",
+    "Our raw_line retains embedded complete pagination labels; peer removed these before storage. Comparison removes only complete Page N of N suffixes; originals retained.",
+    "2024 XML county VoterTurnout control is keyed by source_id+XML path: our explicit administrative unit key/county label maps to peer blank unit key/label and county_administrative_control scope. Constituent context keys match exactly. unit_kind is a worker-authored description, not a primary identity field; all actual XML identity/clock fields compared."
+  ],
+  "canvass_all_cells": {
+    "our_rows": 7484,
+    "peer_rows": 7484,
+    "differences": [],
+    "status": "pass"
+  },
+  "full_priority_order": {
+    "our_rows": 99,
+    "peer_rows": 99,
+    "differences": [],
+    "status": "pass"
+  },
+  "priority_summary": {
+    "our": {
+      "status": "independently extracted, full worker reconciliation passed; coordinator accepted county research priority and source-scoped native inventory only",
+      "denominator_scope": "all named candidate columns plus generic Write-in; no under/over; named-valid write-in classification unavailable",
+      "denominator": 1663506,
+      "generic_writein_votes": 6657,
+      "named_candidate_votes": 1656849,
+      "top15_votes": 991869,
+      "minimum_count": 41,
+      "priority_votes": 1332107,
+      "preceding_votes": 1322507,
+      "ordered_fips": [
+        "19153",
+        "19113",
+        "19163",
+        "19103",
+        "19049",
+        "19013",
+        "19061",
+        "19169",
+        "19155",
+        "19193",
+        "19181",
+        "19045",
+        "19033",
+        "19099",
+        "19139",
+        "19125",
+        "19057",
+        "19167",
+        "19127",
+        "19187",
+        "19111",
+        "19015",
+        "19017",
+        "19179",
+        "19011",
+        "19149",
+        "19191",
+        "19183",
+        "19059",
+        "19027",
+        "19105",
+        "19123",
+        "19097",
+        "19019",
+        "19031",
+        "19055",
+        "19121",
+        "19157",
+        "19065",
+        "19095",
+        "19087",
+        "19043",
+        "19171",
+        "19041",
+        "19083",
+        "19109",
+        "19101",
+        "19129",
+        "19023",
+        "19085",
+        "19067",
+        "19079",
+        "19021",
+        "19141",
+        "19145",
+        "19005",
+        "19029",
+        "19075",
+        "19119",
+        "19047",
+        "19077",
+        "19165",
+        "19007",
+        "19037",
+        "19035",
+        "19175",
+        "19081",
+        "19131",
+        "19197",
+        "19189",
+        "19161",
+        "19107",
+        "19115",
+        "19025",
+        "19091",
+        "19137",
+        "19147",
+        "19069",
+        "19073",
+        "19089",
+        "19063",
+        "19117",
+        "19133",
+        "19039",
+        "19195",
+        "19135",
+        "19001",
+        "19051",
+        "19071",
+        "19053",
+        "19093",
+        "19177",
+        "19151",
+        "19009",
+        "19143",
+        "19185",
+        "19173",
+        "19159",
+        "19003"
+      ],
+      "priority_names": [
+        "Polk",
+        "Linn",
+        "Scott",
+        "Johnson",
+        "Dallas",
+        "Black Hawk",
+        "Dubuque",
+        "Story",
+        "Pottawattamie",
+        "Woodbury",
+        "Warren",
+        "Clinton",
+        "Cerro Gordo",
+        "Jasper",
+        "Muscatine",
+        "Marion",
+        "Des Moines",
+        "Sioux",
+        "Marshall",
+        "Webster",
+        "Lee",
+        "Boone",
+        "Bremer",
+        "Wapello",
+        "Benton",
+        "Plymouth",
+        "Winneshiek",
+        "Washington",
+        "Dickinson",
+        "Carroll",
+        "Jones",
+        "Mahaska",
+        "Jackson",
+        "Buchanan",
+        "Cedar",
+        "Delaware",
+        "Madison",
+        "Poweshiek",
+        "Fayette",
+        "Iowa",
+        "Henry"
+      ],
+      "accepted_contract_reference": "review-evidence.json",
+      "current_geography_approval": false
+    },
+    "peer_threshold": {
+      "numerator": 4,
+      "denominator": 5,
+      "minimum_count": 41,
+      "votes": 1332107,
+      "preceding_count": 40,
+      "preceding_votes": 1322507,
+      "crossing_county": "Henry",
+      "crossing_county_fips": "19087",
+      "crossing_contribution": 9600
+    },
+    "peer_denominator": 1663506
+  },
+  "native_candidate_cells": {
+    "our_rows": 42728,
+    "peer_rows": 42728,
+    "differences": [],
+    "status": "pass"
+  },
+  "native_unit_rows": {
+    "our_rows": 3512,
+    "peer_rows": 3512,
+    "differences": [],
+    "status": "pass"
+  },
+  "native_registration_ballot_cells": {
+    "our_rows": 12694,
+    "peer_rows": 12694,
+    "differences": [],
+    "status": "pass"
+  },
+  "native_candidate_sheet_context_cells": {
+    "our_rows": 6896,
+    "peer_rows": 6896,
+    "differences": [],
+    "status": "pass"
+  },
+  "turnout_report_fields": {
+    "our_rows": 300,
+    "peer_rows": 300,
+    "differences": [],
+    "status": "pass"
+  },
+  "clarity-2024-native-candidate-method": {
+    "our_rows": 26448,
+    "peer_rows": 26448,
+    "differences": [],
+    "status": "pass"
+  },
+  "clarity-2024-county-candidate-method": {
+    "our_rows": 2376,
+    "peer_rows": 2376,
+    "differences": [],
+    "status": "pass"
+  },
+  "clarity-2024-native-units": {
+    "our_rows": 3304,
+    "peer_rows": 3304,
+    "differences": [],
+    "status": "pass"
+  },
+  "clarity-2024-registration-ballots": {
+    "our_rows": 1750,
+    "peer_rows": 1750,
+    "differences": [],
+    "status": "pass"
+  },
+  "clarity-2024-status-units": {
+    "our_rows": 1653,
+    "peer_rows": 1653,
+    "differences": [],
+    "status": "pass"
+  },
+  "peer_artifact_hashes": [
+    {
+      "path": "../turnout/SCHEMA.md",
+      "sha256": "24a6eacd9d866d94016039eed42f0263a68b4f91b27348ded5a38be4f025cc69",
+      "bytes": 12887
+    },
+    {
+      "path": "../turnout/canvass-candidate-method.csv",
+      "sha256": "1c1cdc45f89c9e18b6c58402a969f2d8ecb28c80a0524c96dc26e10e36d4d83a",
+      "bytes": 2143748
+    },
+    {
+      "path": "../turnout/priority-set.json",
+      "sha256": "579b22b8d4f35f12d085ef8402a1bcab14e135a1577daf3ddc4f7d3f66460822",
+      "bytes": 9106895
+    },
+    {
+      "path": "../turnout/native-units.csv",
+      "sha256": "f4bb3b30674cda0358ebd0b2e0ace2d5939412df8b09f6211dcb39989aba6788",
+      "bytes": 903543
+    },
+    {
+      "path": "../turnout/native-unit-candidate-method.csv",
+      "sha256": "cf25eabce3b4719b9573856611761793e6f3cb53b0f6d7f4b3d484ec443e2f89",
+      "bytes": 8666968
+    },
+    {
+      "path": "../turnout/native-registration-ballots.csv",
+      "sha256": "cdb109d67d43943d3344ed8b411e70f68d4d023349e2437ab3c25f6d3488e6bc",
+      "bytes": 2417070
+    },
+    {
+      "path": "../turnout/native-candidate-sheet-context.csv",
+      "sha256": "e6755c5fc474985adf3677a7bac18b5c6d457cb465030b233592c43df5b557b0",
+      "bytes": 1729381
+    },
+    {
+      "path": "../turnout/turnout-report-counties.csv",
+      "sha256": "e0c00234b602ca2815d99d457be4800ef4cbe1ceb6b63521676383fd4a665435",
+      "bytes": 26844
+    },
+    {
+      "path": "../turnout/clarity-2024-native-candidate-method.csv",
+      "sha256": "468f60ab90a17dc95b54e8d89a2f145a4be95d2fa2442e0379782b4466e072fd",
+      "bytes": 7421975
+    },
+    {
+      "path": "../turnout/clarity-2024-county-candidate-method.csv",
+      "sha256": "76d33052e8c0fa063bdc8118b50e25b37cffab41a710676945cbd7057b0848e3",
+      "bytes": 305440
+    },
+    {
+      "path": "../turnout/clarity-2024-native-units.csv",
+      "sha256": "40bd71440e242b034440c2af815d2a5ba72e9b10891f1c40c3a9d2896fb86c3a",
+      "bytes": 926580
+    },
+    {
+      "path": "../turnout/clarity-2024-registration-ballots.csv",
+      "sha256": "8d43792fe786383087c120afcf10c06587ab6f3ba94b0ef970c794f79f390a7a",
+      "bytes": 371793
+    },
+    {
+      "path": "../turnout/clarity-2024-status-units.csv",
+      "sha256": "e92eec377d3140c39b45cc3bd7d24c01e525dc279fb203844f4f0c3100b75ad7",
+      "bytes": 188421
+    }
+  ],
+  "status": "pass"
+}

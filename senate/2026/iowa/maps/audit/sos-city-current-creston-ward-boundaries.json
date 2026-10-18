@@ -1,0 +1,183 @@
+{
+  "source_id": "sos-city-current-creston-ward-boundaries",
+  "source_path": "raw/sos-city-current-creston-ward-boundaries.zip",
+  "source_sha256": "81d02c2ac27300455ccfc0bc3db23f9b8fee85c65eaeaeb969bcbf20729b2079",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "CrestonWards.shp",
+      "bytes": 6124,
+      "compressed_bytes": 4220,
+      "crc32": "e31e0040",
+      "sha256": "fc099a89b2c4f49133f2f8fb978136b1e0b224e3645bccfe063f1ee88f30bf76"
+    },
+    {
+      "name": "CrestonWards.shx",
+      "bytes": 108,
+      "compressed_bytes": 58,
+      "crc32": "8159b4cf",
+      "sha256": "e00d24be9ee55f5cbae5a67a45f6731e7e75093ee27173424306565e8f758b8c"
+    },
+    {
+      "name": "CrestonWards.dbf",
+      "bytes": 480,
+      "compressed_bytes": 151,
+      "crc32": "fae4f3a8",
+      "sha256": "17209bb457ef42a42c650ac2fcc4b29cece9effed2a0636420a6c06a4fcaf91c"
+    },
+    {
+      "name": "CrestonWards.prj",
+      "bytes": 145,
+      "compressed_bytes": 121,
+      "crc32": "af437f55",
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-creston-ward-boundaries--1",
+      "shp_member": "CrestonWards.shp",
+      "dbf_fields": [
+        [
+          "LONGNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "SHORTNAME",
+          "C",
+          50,
+          0
+        ],
+        [
+          "DISTRICT",
+          "N",
+          5,
+          0
+        ],
+        [
+          "COLOR",
+          "N",
+          10,
+          0
+        ],
+        [
+          "TOTAL",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "N",
+          18,
+          0
+        ],
+        [
+          "TARGET_DEV",
+          "F",
+          20,
+          2
+        ],
+        [
+          "TOTAL18",
+          "N",
+          18,
+          0
+        ]
+      ],
+      "dbf_encoding": "utf-8",
+      "cpg_present": false,
+      "wkt_original": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+      "crs_authority": [
+        "EPSG",
+        "4326"
+      ],
+      "axis_info": [
+        {
+          "name": "Longitude",
+          "abbreviation": "lon",
+          "direction": "east",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        },
+        {
+          "name": "Latitude",
+          "abbreviation": "lat",
+          "direction": "north",
+          "unit": "Degree",
+          "conversion_factor": 0.017453292519943295
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 1,
+      "shp_record_header_numbers": [
+        1
+      ],
+      "dbf_declared_records": 1,
+      "shx_records": 1,
+      "parsed_records": 1,
+      "vertices": 373,
+      "parts": 1,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        -94.39472458298366,
+        41.04270531845621,
+        -94.33718856915819,
+        41.07842632152791
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 373,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -0.001457078280964197
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "LONGNAME": "Unassigned",
+            "SHORTNAME": "Unassigned",
+            "DISTRICT": 0
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-creston-ward-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-creston-ward-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          133850.7657543632,
+          2004944.5284921261,
+          138631.167484687,
+          2008933.5387534476
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

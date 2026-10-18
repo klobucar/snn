@@ -1,0 +1,1220 @@
+{
+  "election_name": "2026 Primary Election",
+  "election_date": "6/2/2026",
+  "source_clock": "7/14/2026 10:58:49 AM CDT",
+  "region": "IA",
+  "election_id": "126082",
+  "version": "377216",
+  "scope": "June primary only; all99 county names independently matched to canonical contract, no November ID inferred",
+  "senate_contests": [
+    {
+      "contest_position": 1,
+      "attributes": {
+        "key": "1000",
+        "text": "United States Senator - Rep.",
+        "voteFor": "1",
+        "isQuestion": "false",
+        "countiesParticipating": "99",
+        "countiesReported": "99",
+        "precinctsParticipating": "1658",
+        "precinctsReported": "1658",
+        "precinctsReportingPercent": "100.00"
+      },
+      "choices": [
+        {
+          "key": "101",
+          "text": "Jim Carlin",
+          "party": "REP",
+          "totalVotes": "53196"
+        },
+        {
+          "key": "102",
+          "text": "Ashley Hinson",
+          "party": "REP",
+          "totalVotes": "153059"
+        },
+        {
+          "key": "0",
+          "text": "Write-in",
+          "totalVotes": "531"
+        }
+      ],
+      "method_candidate_generic_sums": {
+        "Election Day": 181222,
+        "Absentee": 25564
+      }
+    },
+    {
+      "contest_position": 2,
+      "attributes": {
+        "key": "1100",
+        "text": "United States Senator - Dem.",
+        "voteFor": "1",
+        "isQuestion": "false",
+        "countiesParticipating": "99",
+        "countiesReported": "99",
+        "precinctsParticipating": "1658",
+        "precinctsReported": "1658",
+        "precinctsReportingPercent": "100.00"
+      },
+      "choices": [
+        {
+          "key": "120",
+          "text": "Josh Turek",
+          "party": "DEM",
+          "totalVotes": "120287"
+        },
+        {
+          "key": "121",
+          "text": "Zach Wahls",
+          "party": "DEM",
+          "totalVotes": "71663"
+        },
+        {
+          "key": "0",
+          "text": "Write-in",
+          "totalVotes": "186"
+        }
+      ],
+      "method_candidate_generic_sums": {
+        "Election Day": 152031,
+        "Absentee": 40105
+      }
+    }
+  ],
+  "native_status_fields": {
+    "PX": {
+      "type": "list",
+      "length": 99
+    },
+    "PY": {
+      "type": "list",
+      "length": 99
+    },
+    "P": {
+      "type": "list",
+      "length": 99
+    },
+    "S": {
+      "type": "list",
+      "length": 99
+    },
+    "R": {
+      "type": "list",
+      "length": 99
+    },
+    "B": {
+      "type": "list",
+      "length": 99
+    },
+    "C": {
+      "type": "list",
+      "length": 99
+    },
+    "CONTEST": {
+      "type": "list",
+      "length": 99
+    },
+    "PT": {
+      "type": "NoneType",
+      "length": null
+    },
+    "U": {
+      "type": "int",
+      "length": null
+    }
+  },
+  "county_roster": [
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/0",
+      "literal": "Adair|126083|374896|6/9/2026 3:52:10 PM CDT|16",
+      "county": "Adair",
+      "county_fips": "19001",
+      "native_election_id": "126083",
+      "native_version": "374896",
+      "source_clock": "6/9/2026 3:52:10 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/1",
+      "literal": "Adams|126084|375294|6/19/2026 12:18:37 PM CDT|16",
+      "county": "Adams",
+      "county_fips": "19003",
+      "native_election_id": "126084",
+      "native_version": "375294",
+      "source_clock": "6/19/2026 12:18:37 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/2",
+      "literal": "Allamakee|126085|374624|6/19/2026 12:22:57 PM CDT|16",
+      "county": "Allamakee",
+      "county_fips": "19005",
+      "native_election_id": "126085",
+      "native_version": "374624",
+      "source_clock": "6/19/2026 12:22:57 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/3",
+      "literal": "Appanoose|126086|374721|6/9/2026 9:26:12 AM CDT|16",
+      "county": "Appanoose",
+      "county_fips": "19007",
+      "native_election_id": "126086",
+      "native_version": "374721",
+      "source_clock": "6/9/2026 9:26:12 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/4",
+      "literal": "Audubon|126087|375451|6/15/2026 11:42:01 AM CDT|16",
+      "county": "Audubon",
+      "county_fips": "19009",
+      "native_election_id": "126087",
+      "native_version": "375451",
+      "source_clock": "6/15/2026 11:42:01 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/5",
+      "literal": "Benton|126088|374776|6/9/2026 11:35:54 AM CDT|16",
+      "county": "Benton",
+      "county_fips": "19011",
+      "native_election_id": "126088",
+      "native_version": "374776",
+      "source_clock": "6/9/2026 11:35:54 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/6",
+      "literal": "Black_Hawk|126089|375315|6/10/2026 4:06:55 PM CDT|16",
+      "county": "Black Hawk",
+      "county_fips": "19013",
+      "native_election_id": "126089",
+      "native_version": "375315",
+      "source_clock": "6/10/2026 4:06:55 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/7",
+      "literal": "Boone|126090|374765|6/9/2026 11:16:39 AM CDT|16",
+      "county": "Boone",
+      "county_fips": "19015",
+      "native_election_id": "126090",
+      "native_version": "374765",
+      "source_clock": "6/9/2026 11:16:39 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/8",
+      "literal": "Bremer|126091|375279|6/19/2026 1:43:04 PM CDT|16",
+      "county": "Bremer",
+      "county_fips": "19017",
+      "native_election_id": "126091",
+      "native_version": "375279",
+      "source_clock": "6/19/2026 1:43:04 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/9",
+      "literal": "Buchanan|126092|374682|6/11/2026 3:30:36 PM CDT|16",
+      "county": "Buchanan",
+      "county_fips": "19019",
+      "native_election_id": "126092",
+      "native_version": "374682",
+      "source_clock": "6/11/2026 3:30:36 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/10",
+      "literal": "Buena_Vista|126093|375271|6/10/2026 9:00:44 AM CDT|16",
+      "county": "Buena Vista",
+      "county_fips": "19021",
+      "native_election_id": "126093",
+      "native_version": "375271",
+      "source_clock": "6/10/2026 9:00:44 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/11",
+      "literal": "Butler|126094|374762|6/19/2026 12:35:05 PM CDT|16",
+      "county": "Butler",
+      "county_fips": "19023",
+      "native_election_id": "126094",
+      "native_version": "374762",
+      "source_clock": "6/19/2026 12:35:05 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/12",
+      "literal": "Calhoun|126095|375293|6/10/2026 1:43:29 PM CDT|16",
+      "county": "Calhoun",
+      "county_fips": "19025",
+      "native_election_id": "126095",
+      "native_version": "375293",
+      "source_clock": "6/10/2026 1:43:29 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/13",
+      "literal": "Carroll|126096|374102|6/19/2026 12:35:29 PM CDT|16",
+      "county": "Carroll",
+      "county_fips": "19027",
+      "native_election_id": "126096",
+      "native_version": "374102",
+      "source_clock": "6/19/2026 12:35:29 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/14",
+      "literal": "Cass|126097|375515|6/19/2026 2:16:15 PM CDT|16",
+      "county": "Cass",
+      "county_fips": "19029",
+      "native_election_id": "126097",
+      "native_version": "375515",
+      "source_clock": "6/19/2026 2:16:15 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/15",
+      "literal": "Cedar|126098|374549|6/19/2026 12:35:46 PM CDT|16",
+      "county": "Cedar",
+      "county_fips": "19031",
+      "native_election_id": "126098",
+      "native_version": "374549",
+      "source_clock": "6/19/2026 12:35:46 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/16",
+      "literal": "Cerro_Gordo|126099|375434|6/11/2026 11:34:05 AM CDT|16",
+      "county": "Cerro Gordo",
+      "county_fips": "19033",
+      "native_election_id": "126099",
+      "native_version": "375434",
+      "source_clock": "6/11/2026 11:34:05 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/17",
+      "literal": "Cherokee|126100|374898|6/19/2026 12:19:48 PM CDT|16",
+      "county": "Cherokee",
+      "county_fips": "19035",
+      "native_election_id": "126100",
+      "native_version": "374898",
+      "source_clock": "6/19/2026 12:19:48 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/18",
+      "literal": "Chickasaw|126101|375270|6/10/2026 8:54:54 AM CDT|16",
+      "county": "Chickasaw",
+      "county_fips": "19037",
+      "native_election_id": "126101",
+      "native_version": "375270",
+      "source_clock": "6/10/2026 8:54:54 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/19",
+      "literal": "Clarke|126102|374555|6/8/2026 12:09:33 PM CDT|16",
+      "county": "Clarke",
+      "county_fips": "19039",
+      "native_election_id": "126102",
+      "native_version": "374555",
+      "source_clock": "6/8/2026 12:09:33 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/20",
+      "literal": "Clay|126103|374862|6/9/2026 2:35:25 PM CDT|16",
+      "county": "Clay",
+      "county_fips": "19041",
+      "native_election_id": "126103",
+      "native_version": "374862",
+      "source_clock": "6/9/2026 2:35:25 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/21",
+      "literal": "Clayton|126104|374415|6/11/2026 3:26:00 PM CDT|16",
+      "county": "Clayton",
+      "county_fips": "19043",
+      "native_election_id": "126104",
+      "native_version": "374415",
+      "source_clock": "6/11/2026 3:26:00 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/22",
+      "literal": "Clinton|126105|375512|6/12/2026 8:46:44 AM CDT|16",
+      "county": "Clinton",
+      "county_fips": "19045",
+      "native_election_id": "126105",
+      "native_version": "375512",
+      "source_clock": "6/12/2026 8:46:44 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/23",
+      "literal": "Crawford|126106|375757|6/19/2026 12:15:12 PM CDT|16",
+      "county": "Crawford",
+      "county_fips": "19047",
+      "native_election_id": "126106",
+      "native_version": "375757",
+      "source_clock": "6/19/2026 12:15:12 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/24",
+      "literal": "Dallas|126107|374825|6/9/2026 1:03:32 PM CDT|16",
+      "county": "Dallas",
+      "county_fips": "19049",
+      "native_election_id": "126107",
+      "native_version": "374825",
+      "source_clock": "6/9/2026 1:03:32 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/25",
+      "literal": "Davis|126108|375298|6/10/2026 2:23:45 PM CDT|16",
+      "county": "Davis",
+      "county_fips": "19051",
+      "native_election_id": "126108",
+      "native_version": "375298",
+      "source_clock": "6/10/2026 2:23:45 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/26",
+      "literal": "Decatur|126109|375864|6/19/2026 12:19:37 PM CDT|16",
+      "county": "Decatur",
+      "county_fips": "19053",
+      "native_election_id": "126109",
+      "native_version": "375864",
+      "source_clock": "6/19/2026 12:19:37 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/27",
+      "literal": "Delaware|126110|375280|6/10/2026 12:07:51 PM CDT|16",
+      "county": "Delaware",
+      "county_fips": "19055",
+      "native_election_id": "126110",
+      "native_version": "375280",
+      "source_clock": "6/10/2026 12:07:51 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/28",
+      "literal": "Des_Moines|126111|375870|6/19/2026 12:55:50 PM CDT|16",
+      "county": "Des Moines",
+      "county_fips": "19057",
+      "native_election_id": "126111",
+      "native_version": "375870",
+      "source_clock": "6/19/2026 12:55:50 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/29",
+      "literal": "Dickinson|126112|374416|6/19/2026 2:17:08 PM CDT|16",
+      "county": "Dickinson",
+      "county_fips": "19059",
+      "native_election_id": "126112",
+      "native_version": "374416",
+      "source_clock": "6/19/2026 2:17:08 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/30",
+      "literal": "Dubuque|126113|374831|6/9/2026 12:43:05 PM CDT|16",
+      "county": "Dubuque",
+      "county_fips": "19061",
+      "native_election_id": "126113",
+      "native_version": "374831",
+      "source_clock": "6/9/2026 12:43:05 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/31",
+      "literal": "Emmet|126114|374746|6/9/2026 10:48:50 AM CDT|16",
+      "county": "Emmet",
+      "county_fips": "19063",
+      "native_election_id": "126114",
+      "native_version": "374746",
+      "source_clock": "6/9/2026 10:48:50 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/32",
+      "literal": "Fayette|126115|374229|6/9/2026 10:58:15 AM CDT|16",
+      "county": "Fayette",
+      "county_fips": "19065",
+      "native_election_id": "126115",
+      "native_version": "374229",
+      "source_clock": "6/9/2026 10:58:15 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/33",
+      "literal": "Floyd|126116|375869|6/19/2026 12:41:37 PM CDT|16",
+      "county": "Floyd",
+      "county_fips": "19067",
+      "native_election_id": "126116",
+      "native_version": "375869",
+      "source_clock": "6/19/2026 12:41:37 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/34",
+      "literal": "Franklin|126117|374876|6/9/2026 3:02:23 PM CDT|16",
+      "county": "Franklin",
+      "county_fips": "19069",
+      "native_election_id": "126117",
+      "native_version": "374876",
+      "source_clock": "6/9/2026 3:02:23 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/35",
+      "literal": "Fremont|126118|375704|6/15/2026 9:57:44 AM CDT|16",
+      "county": "Fremont",
+      "county_fips": "19071",
+      "native_election_id": "126118",
+      "native_version": "375704",
+      "source_clock": "6/15/2026 9:57:44 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/36",
+      "literal": "Greene|126119|374852|6/9/2026 1:53:24 PM CDT|16",
+      "county": "Greene",
+      "county_fips": "19073",
+      "native_election_id": "126119",
+      "native_version": "374852",
+      "source_clock": "6/9/2026 1:53:24 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/37",
+      "literal": "Grundy|126120|375392|6/11/2026 10:03:41 AM CDT|16",
+      "county": "Grundy",
+      "county_fips": "19075",
+      "native_election_id": "126120",
+      "native_version": "375392",
+      "source_clock": "6/11/2026 10:03:41 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/38",
+      "literal": "Guthrie|126121|374563|6/8/2026 11:51:24 AM CDT|16",
+      "county": "Guthrie",
+      "county_fips": "19077",
+      "native_election_id": "126121",
+      "native_version": "374563",
+      "source_clock": "6/8/2026 11:51:24 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/39",
+      "literal": "Hamilton|126122|374897|6/9/2026 3:59:05 PM CDT|16",
+      "county": "Hamilton",
+      "county_fips": "19079",
+      "native_election_id": "126122",
+      "native_version": "374897",
+      "source_clock": "6/9/2026 3:59:05 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/40",
+      "literal": "Hancock|126123|373840|6/19/2026 12:51:20 PM CDT|16",
+      "county": "Hancock",
+      "county_fips": "19081",
+      "native_election_id": "126123",
+      "native_version": "373840",
+      "source_clock": "6/19/2026 12:51:20 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/41",
+      "literal": "Hardin|126124|375519|6/12/2026 11:13:59 AM CDT|16",
+      "county": "Hardin",
+      "county_fips": "19083",
+      "native_election_id": "126124",
+      "native_version": "375519",
+      "source_clock": "6/12/2026 11:13:59 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/42",
+      "literal": "Harrison|126125|374865|6/9/2026 2:31:08 PM CDT|16",
+      "county": "Harrison",
+      "county_fips": "19085",
+      "native_election_id": "126125",
+      "native_version": "374865",
+      "source_clock": "6/9/2026 2:31:08 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/43",
+      "literal": "Henry|126126|374397|6/19/2026 2:14:49 PM CDT|16",
+      "county": "Henry",
+      "county_fips": "19087",
+      "native_election_id": "126126",
+      "native_version": "374397",
+      "source_clock": "6/19/2026 2:14:49 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/44",
+      "literal": "Howard|126127|374856|6/9/2026 2:06:23 PM CDT|16",
+      "county": "Howard",
+      "county_fips": "19089",
+      "native_election_id": "126127",
+      "native_version": "374856",
+      "source_clock": "6/9/2026 2:06:23 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/45",
+      "literal": "Humboldt|126128|374188|6/19/2026 2:19:52 PM CDT|16",
+      "county": "Humboldt",
+      "county_fips": "19091",
+      "native_election_id": "126128",
+      "native_version": "374188",
+      "source_clock": "6/19/2026 2:19:52 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/46",
+      "literal": "Ida|126129|375352|6/11/2026 8:29:58 AM CDT|16",
+      "county": "Ida",
+      "county_fips": "19093",
+      "native_election_id": "126129",
+      "native_version": "375352",
+      "source_clock": "6/11/2026 8:29:58 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/47",
+      "literal": "Iowa|126130|374878|6/9/2026 3:05:38 PM CDT|16",
+      "county": "Iowa",
+      "county_fips": "19095",
+      "native_election_id": "126130",
+      "native_version": "374878",
+      "source_clock": "6/9/2026 3:05:38 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/48",
+      "literal": "Jackson|126131|374731|6/9/2026 10:18:33 AM CDT|16",
+      "county": "Jackson",
+      "county_fips": "19097",
+      "native_election_id": "126131",
+      "native_version": "374731",
+      "source_clock": "6/9/2026 10:18:33 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/49",
+      "literal": "Jasper|126132|375491|6/19/2026 12:34:25 PM CDT|16",
+      "county": "Jasper",
+      "county_fips": "19099",
+      "native_election_id": "126132",
+      "native_version": "375491",
+      "source_clock": "6/19/2026 12:34:25 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/50",
+      "literal": "Jefferson|126133|374647|6/9/2026 1:41:22 PM CDT|16",
+      "county": "Jefferson",
+      "county_fips": "19101",
+      "native_election_id": "126133",
+      "native_version": "374647",
+      "source_clock": "6/9/2026 1:41:22 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/51",
+      "literal": "Johnson|126134|374687|6/9/2026 2:37:41 PM CDT|16",
+      "county": "Johnson",
+      "county_fips": "19103",
+      "native_election_id": "126134",
+      "native_version": "374687",
+      "source_clock": "6/9/2026 2:37:41 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/52",
+      "literal": "Jones|126135|374606|6/9/2026 4:14:36 PM CDT|16",
+      "county": "Jones",
+      "county_fips": "19105",
+      "native_election_id": "126135",
+      "native_version": "374606",
+      "source_clock": "6/9/2026 4:14:36 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/53",
+      "literal": "Keokuk|126136|374750|6/9/2026 10:46:11 AM CDT|16",
+      "county": "Keokuk",
+      "county_fips": "19107",
+      "native_election_id": "126136",
+      "native_version": "374750",
+      "source_clock": "6/9/2026 10:46:11 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/54",
+      "literal": "Kossuth|126137|374609|6/8/2026 1:49:24 PM CDT|16",
+      "county": "Kossuth",
+      "county_fips": "19109",
+      "native_election_id": "126137",
+      "native_version": "374609",
+      "source_clock": "6/8/2026 1:49:24 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/55",
+      "literal": "Lee|126138|374385|6/9/2026 12:03:13 PM CDT|16",
+      "county": "Lee",
+      "county_fips": "19111",
+      "native_election_id": "126138",
+      "native_version": "374385",
+      "source_clock": "6/9/2026 12:03:13 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/56",
+      "literal": "Linn|126139|375274|6/10/2026 9:05:37 AM CDT|16",
+      "county": "Linn",
+      "county_fips": "19113",
+      "native_election_id": "126139",
+      "native_version": "375274",
+      "source_clock": "6/10/2026 9:05:37 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/57",
+      "literal": "Louisa|126140|375865|6/19/2026 12:29:03 PM CDT|16",
+      "county": "Louisa",
+      "county_fips": "19115",
+      "native_election_id": "126140",
+      "native_version": "375865",
+      "source_clock": "6/19/2026 12:29:03 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/58",
+      "literal": "Lucas|126141|374766|6/10/2026 9:32:28 AM CDT|16",
+      "county": "Lucas",
+      "county_fips": "19117",
+      "native_election_id": "126141",
+      "native_version": "374766",
+      "source_clock": "6/10/2026 9:32:28 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/59",
+      "literal": "Lyon|126142|374566|6/9/2026 4:01:39 PM CDT|16",
+      "county": "Lyon",
+      "county_fips": "19119",
+      "native_election_id": "126142",
+      "native_version": "374566",
+      "source_clock": "6/9/2026 4:01:39 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/60",
+      "literal": "Madison|126143|375499|6/11/2026 5:42:09 PM CDT|16",
+      "county": "Madison",
+      "county_fips": "19121",
+      "native_election_id": "126143",
+      "native_version": "375499",
+      "source_clock": "6/11/2026 5:42:09 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/61",
+      "literal": "Mahaska|126144|374575|6/8/2026 12:51:16 PM CDT|16",
+      "county": "Mahaska",
+      "county_fips": "19123",
+      "native_election_id": "126144",
+      "native_version": "374575",
+      "source_clock": "6/8/2026 12:51:16 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/62",
+      "literal": "Marion|126145|374880|6/9/2026 3:12:13 PM CDT|16",
+      "county": "Marion",
+      "county_fips": "19125",
+      "native_election_id": "126145",
+      "native_version": "374880",
+      "source_clock": "6/9/2026 3:12:13 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/63",
+      "literal": "Marshall|126146|375398|6/11/2026 10:17:05 AM CDT|16",
+      "county": "Marshall",
+      "county_fips": "19127",
+      "native_election_id": "126146",
+      "native_version": "375398",
+      "source_clock": "6/11/2026 10:17:05 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/64",
+      "literal": "Mills|126147|375874|6/19/2026 1:00:10 PM CDT|16",
+      "county": "Mills",
+      "county_fips": "19129",
+      "native_election_id": "126147",
+      "native_version": "375874",
+      "source_clock": "6/19/2026 1:00:10 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/65",
+      "literal": "Mitchell|126148|374573|6/19/2026 12:34:59 PM CDT|16",
+      "county": "Mitchell",
+      "county_fips": "19131",
+      "native_election_id": "126148",
+      "native_version": "374573",
+      "source_clock": "6/19/2026 12:34:59 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/66",
+      "literal": "Monona|126149|374536|6/19/2026 2:07:30 PM CDT|16",
+      "county": "Monona",
+      "county_fips": "19133",
+      "native_election_id": "126149",
+      "native_version": "374536",
+      "source_clock": "6/19/2026 2:07:30 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/67",
+      "literal": "Monroe|126150|374869|6/9/2026 2:47:06 PM CDT|16",
+      "county": "Monroe",
+      "county_fips": "19135",
+      "native_election_id": "126150",
+      "native_version": "374869",
+      "source_clock": "6/9/2026 2:47:06 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/68",
+      "literal": "Montgomery|126151|375637|6/14/2026 9:18:26 AM CDT|16",
+      "county": "Montgomery",
+      "county_fips": "19137",
+      "native_election_id": "126151",
+      "native_version": "375637",
+      "source_clock": "6/14/2026 9:18:26 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/69",
+      "literal": "Muscatine|126152|374782|6/19/2026 3:07:59 PM CDT|16",
+      "county": "Muscatine",
+      "county_fips": "19139",
+      "native_election_id": "126152",
+      "native_version": "374782",
+      "source_clock": "6/19/2026 3:07:59 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/70",
+      "literal": "O'Brien|126153|375303|6/10/2026 2:30:06 PM CDT|16",
+      "county": "O'Brien",
+      "county_fips": "19141",
+      "native_election_id": "126153",
+      "native_version": "375303",
+      "source_clock": "6/10/2026 2:30:06 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/71",
+      "literal": "Osceola|126154|374247|6/19/2026 1:11:56 PM CDT|16",
+      "county": "Osceola",
+      "county_fips": "19143",
+      "native_election_id": "126154",
+      "native_version": "374247",
+      "source_clock": "6/19/2026 1:11:56 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/72",
+      "literal": "Page|126155|374872|6/9/2026 3:25:18 PM CDT|16",
+      "county": "Page",
+      "county_fips": "19145",
+      "native_election_id": "126155",
+      "native_version": "374872",
+      "source_clock": "6/9/2026 3:25:18 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/73",
+      "literal": "Palo_Alto|126156|374705|6/9/2026 8:21:28 AM CDT|16",
+      "county": "Palo Alto",
+      "county_fips": "19147",
+      "native_election_id": "126156",
+      "native_version": "374705",
+      "source_clock": "6/9/2026 8:21:28 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/74",
+      "literal": "Plymouth|126157|375756|6/16/2026 1:18:41 PM CDT|16",
+      "county": "Plymouth",
+      "county_fips": "19149",
+      "native_election_id": "126157",
+      "native_version": "375756",
+      "source_clock": "6/16/2026 1:18:41 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/75",
+      "literal": "Pocahontas|126158|374454|6/5/2026 3:43:00 PM CDT|16",
+      "county": "Pocahontas",
+      "county_fips": "19151",
+      "native_election_id": "126158",
+      "native_version": "374454",
+      "source_clock": "6/5/2026 3:43:00 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/76",
+      "literal": "Polk|126159|374572|6/12/2026 1:09:15 PM CDT|16",
+      "county": "Polk",
+      "county_fips": "19153",
+      "native_election_id": "126159",
+      "native_version": "374572",
+      "source_clock": "6/12/2026 1:09:15 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/77",
+      "literal": "Pottawattamie|126160|374458|6/5/2026 3:55:50 PM CDT|16",
+      "county": "Pottawattamie",
+      "county_fips": "19155",
+      "native_election_id": "126160",
+      "native_version": "374458",
+      "source_clock": "6/5/2026 3:55:50 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/78",
+      "literal": "Poweshiek|126161|374621|6/9/2026 10:32:22 AM CDT|16",
+      "county": "Poweshiek",
+      "county_fips": "19157",
+      "native_election_id": "126161",
+      "native_version": "374621",
+      "source_clock": "6/9/2026 10:32:22 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/79",
+      "literal": "Ringgold|126162|375489|6/11/2026 3:13:51 PM CDT|16",
+      "county": "Ringgold",
+      "county_fips": "19159",
+      "native_election_id": "126162",
+      "native_version": "375489",
+      "source_clock": "6/11/2026 3:13:51 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/80",
+      "literal": "Sac|126163|374521|6/6/2026 7:52:11 PM CDT|16",
+      "county": "Sac",
+      "county_fips": "19161",
+      "native_election_id": "126163",
+      "native_version": "374521",
+      "source_clock": "6/6/2026 7:52:11 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/81",
+      "literal": "Scott|126164|374683|6/8/2026 4:28:00 PM CDT|16",
+      "county": "Scott",
+      "county_fips": "19163",
+      "native_election_id": "126164",
+      "native_version": "374683",
+      "source_clock": "6/8/2026 4:28:00 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/82",
+      "literal": "Shelby|126165|374711|6/9/2026 9:45:43 AM CDT|16",
+      "county": "Shelby",
+      "county_fips": "19165",
+      "native_election_id": "126165",
+      "native_version": "374711",
+      "source_clock": "6/9/2026 9:45:43 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/83",
+      "literal": "Sioux|126166|374652|6/8/2026 3:09:00 PM CDT|16",
+      "county": "Sioux",
+      "county_fips": "19167",
+      "native_election_id": "126166",
+      "native_version": "374652",
+      "source_clock": "6/8/2026 3:09:00 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/84",
+      "literal": "Story|126167|374659|6/19/2026 2:20:23 PM CDT|16",
+      "county": "Story",
+      "county_fips": "19169",
+      "native_election_id": "126167",
+      "native_version": "374659",
+      "source_clock": "6/19/2026 2:20:23 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/85",
+      "literal": "Tama|126168|375268|6/10/2026 8:45:03 AM CDT|16",
+      "county": "Tama",
+      "county_fips": "19171",
+      "native_election_id": "126168",
+      "native_version": "375268",
+      "source_clock": "6/10/2026 8:45:03 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/86",
+      "literal": "Taylor|126169|374410|6/19/2026 2:15:21 PM CDT|16",
+      "county": "Taylor",
+      "county_fips": "19173",
+      "native_election_id": "126169",
+      "native_version": "374410",
+      "source_clock": "6/19/2026 2:15:21 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/87",
+      "literal": "Union|126170|374326|6/19/2026 12:20:09 PM CDT|16",
+      "county": "Union",
+      "county_fips": "19175",
+      "native_election_id": "126170",
+      "native_version": "374326",
+      "source_clock": "6/19/2026 12:20:09 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/88",
+      "literal": "Van_Buren|126171|375705|6/15/2026 9:53:13 AM CDT|16",
+      "county": "Van Buren",
+      "county_fips": "19177",
+      "native_election_id": "126171",
+      "native_version": "375705",
+      "source_clock": "6/15/2026 9:53:13 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/89",
+      "literal": "Wapello|126172|376480|6/29/2026 9:06:00 AM CDT|16",
+      "county": "Wapello",
+      "county_fips": "19179",
+      "native_election_id": "126172",
+      "native_version": "376480",
+      "source_clock": "6/29/2026 9:06:00 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/90",
+      "literal": "Warren|126173|375855|6/18/2026 3:04:56 PM CDT|16",
+      "county": "Warren",
+      "county_fips": "19181",
+      "native_election_id": "126173",
+      "native_version": "375855",
+      "source_clock": "6/18/2026 3:04:56 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/91",
+      "literal": "Washington|126174|375891|6/19/2026 4:20:31 PM CDT|16",
+      "county": "Washington",
+      "county_fips": "19183",
+      "native_election_id": "126174",
+      "native_version": "375891",
+      "source_clock": "6/19/2026 4:20:31 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/92",
+      "literal": "Wayne|126175|375522|6/12/2026 12:18:03 PM CDT|16",
+      "county": "Wayne",
+      "county_fips": "19185",
+      "native_election_id": "126175",
+      "native_version": "375522",
+      "source_clock": "6/12/2026 12:18:03 PM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/93",
+      "literal": "Webster|126176|374747|6/9/2026 10:44:43 AM CDT|16",
+      "county": "Webster",
+      "county_fips": "19187",
+      "native_election_id": "126176",
+      "native_version": "374747",
+      "source_clock": "6/9/2026 10:44:43 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/94",
+      "literal": "Winnebago|126177|374554|6/17/2026 9:56:10 AM CDT|16",
+      "county": "Winnebago",
+      "county_fips": "19189",
+      "native_election_id": "126177",
+      "native_version": "374554",
+      "source_clock": "6/17/2026 9:56:10 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/95",
+      "literal": "Winneshiek|126178|374752|6/9/2026 10:49:10 AM CDT|16",
+      "county": "Winneshiek",
+      "county_fips": "19191",
+      "native_election_id": "126178",
+      "native_version": "374752",
+      "source_clock": "6/9/2026 10:49:10 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/96",
+      "literal": "Woodbury|126179|375273|6/10/2026 9:06:25 AM CDT|16",
+      "county": "Woodbury",
+      "county_fips": "19193",
+      "native_election_id": "126179",
+      "native_version": "375273",
+      "source_clock": "6/10/2026 9:06:25 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/97",
+      "literal": "Worth|126180|375743|6/16/2026 9:46:10 AM CDT|16",
+      "county": "Worth",
+      "county_fips": "19195",
+      "native_election_id": "126180",
+      "native_version": "375743",
+      "source_clock": "6/16/2026 9:46:10 AM CDT",
+      "template": "16"
+    },
+    {
+      "source_id": "vendor-current-settings",
+      "source_json_pointer": "/settings/electiondetails/participatingcounties/98",
+      "literal": "Wright|126181|374163|6/9/2026 10:38:48 AM CDT|16",
+      "county": "Wright",
+      "county_fips": "19197",
+      "native_election_id": "126181",
+      "native_version": "374163",
+      "source_clock": "6/9/2026 10:38:48 AM CDT",
+      "template": "16"
+    }
+  ],
+  "status_reported_sum": 1658,
+  "status_participating_sum": 1658
+}

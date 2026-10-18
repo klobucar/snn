@@ -1,0 +1,3404 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-18T04:15:03.604162+00:00",
+  "scope": "Actual historical2024 XML/settings/status original-byte audit; not November2026 or a geographic crosswalk.",
+  "counties": 99,
+  "verified_county_HTTP_entities": 297,
+  "primary_candidate_method_controls": 2376,
+  "native_candidate_method_cells": 26448,
+  "source_context_unit_counts": {
+    "candidate_units": 1653,
+    "turnout_context_units": 1651,
+    "status_units": 1653
+  },
+  "Lucas_scope_exception": {
+    "county": "Lucas",
+    "county_fips": "19117",
+    "candidate_units": 7,
+    "turnout_context_units": 5,
+    "status_units": 7,
+    "candidate_not_turnout": [
+      "Chariton City Hall Precinct ",
+      "Chariton Community Center Precinct "
+    ],
+    "turnout_native_ballots": 2733,
+    "turnout_county_ballots": 4676,
+    "status_native_ballots": 4676,
+    "XML_source_clock": "11/14/2024 11:47:44 AM CST",
+    "settings_websiteupdatedat": "11/14/2024 11:49:49 AM CST"
+  },
+  "county_contexts": [
+    {
+      "county": "Polk",
+      "county_fips": "19153",
+      "candidate_units": 176,
+      "turnout_context_units": 176,
+      "status_units": 176,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 258067,
+      "turnout_county_ballots": 258067,
+      "status_native_ballots": 258067,
+      "XML_source_clock": "11/12/2024 1:59:19 PM CST",
+      "settings_websiteupdatedat": "11/12/2024 2:08:28 PM CST"
+    },
+    {
+      "county": "Linn",
+      "county_fips": "19113",
+      "candidate_units": 94,
+      "turnout_context_units": 94,
+      "status_units": 94,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 123750,
+      "turnout_county_ballots": 123750,
+      "status_native_ballots": 123750,
+      "XML_source_clock": "11/13/2024 2:52:22 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 2:56:19 PM CST"
+    },
+    {
+      "county": "Scott",
+      "county_fips": "19163",
+      "candidate_units": 66,
+      "turnout_context_units": 66,
+      "status_units": 66,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 90612,
+      "turnout_county_ballots": 90612,
+      "status_native_ballots": 90612,
+      "XML_source_clock": "12/2/2024 9:40:36 AM CST",
+      "settings_websiteupdatedat": "12/2/2024 9:40:42 AM CST"
+    },
+    {
+      "county": "Johnson",
+      "county_fips": "19103",
+      "candidate_units": 65,
+      "turnout_context_units": 65,
+      "status_units": 65,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 87107,
+      "turnout_county_ballots": 87107,
+      "status_native_ballots": 87107,
+      "XML_source_clock": "11/27/2024 3:50:39 PM CST",
+      "settings_websiteupdatedat": "11/27/2024 3:50:47 PM CST"
+    },
+    {
+      "county": "Dallas",
+      "county_fips": "19049",
+      "candidate_units": 46,
+      "turnout_context_units": 46,
+      "status_units": 46,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 63330,
+      "turnout_county_ballots": 63330,
+      "status_native_ballots": 63330,
+      "XML_source_clock": "11/25/2024 2:18:47 PM CST",
+      "settings_websiteupdatedat": "11/25/2024 2:18:54 PM CST"
+    },
+    {
+      "county": "Black Hawk",
+      "county_fips": "19013",
+      "candidate_units": 59,
+      "turnout_context_units": 59,
+      "status_units": 59,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 63279,
+      "turnout_county_ballots": 63279,
+      "status_native_ballots": 63279,
+      "XML_source_clock": "12/16/2024 8:16:17 AM CST",
+      "settings_websiteupdatedat": "12/16/2024 8:16:25 AM CST"
+    },
+    {
+      "county": "Dubuque",
+      "county_fips": "19061",
+      "candidate_units": 34,
+      "turnout_context_units": 34,
+      "status_units": 34,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 53057,
+      "turnout_county_ballots": 53057,
+      "status_native_ballots": 53057,
+      "XML_source_clock": "11/13/2024 9:59:53 AM CST",
+      "settings_websiteupdatedat": "11/13/2024 10:00:58 AM CST"
+    },
+    {
+      "county": "Story",
+      "county_fips": "19169",
+      "candidate_units": 45,
+      "turnout_context_units": 45,
+      "status_units": 45,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 49818,
+      "turnout_county_ballots": 49818,
+      "status_native_ballots": 49818,
+      "XML_source_clock": "11/13/2024 4:13:38 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 4:14:43 PM CST"
+    },
+    {
+      "county": "Pottawattamie",
+      "county_fips": "19155",
+      "candidate_units": 40,
+      "turnout_context_units": 40,
+      "status_units": 40,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 44766,
+      "turnout_county_ballots": 44766,
+      "status_native_ballots": 44766,
+      "XML_source_clock": "11/18/2024 10:13:29 AM CST",
+      "settings_websiteupdatedat": "11/18/2024 10:15:14 AM CST"
+    },
+    {
+      "county": "Woodbury",
+      "county_fips": "19193",
+      "candidate_units": 44,
+      "turnout_context_units": 44,
+      "status_units": 44,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 43247,
+      "turnout_county_ballots": 43247,
+      "status_native_ballots": 43247,
+      "XML_source_clock": "11/18/2024 8:13:07 AM CST",
+      "settings_websiteupdatedat": "11/18/2024 8:14:50 AM CST"
+    },
+    {
+      "county": "Warren",
+      "county_fips": "19181",
+      "candidate_units": 40,
+      "turnout_context_units": 40,
+      "status_units": 40,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 33123,
+      "turnout_county_ballots": 33123,
+      "status_native_ballots": 33123,
+      "XML_source_clock": "11/26/2024 9:49:48 AM CST",
+      "settings_websiteupdatedat": "11/26/2024 9:49:56 AM CST"
+    },
+    {
+      "county": "Clinton",
+      "county_fips": "19045",
+      "candidate_units": 24,
+      "turnout_context_units": 24,
+      "status_units": 24,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 24026,
+      "turnout_county_ballots": 24026,
+      "status_native_ballots": 24026,
+      "XML_source_clock": "12/2/2024 8:27:23 AM CST",
+      "settings_websiteupdatedat": "12/2/2024 8:27:30 AM CST"
+    },
+    {
+      "county": "Cerro Gordo",
+      "county_fips": "19033",
+      "candidate_units": 23,
+      "turnout_context_units": 23,
+      "status_units": 23,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 23152,
+      "turnout_county_ballots": 23152,
+      "status_native_ballots": 23152,
+      "XML_source_clock": "11/26/2024 12:23:31 PM CST",
+      "settings_websiteupdatedat": "11/26/2024 12:23:39 PM CST"
+    },
+    {
+      "county": "Jasper",
+      "county_fips": "19099",
+      "candidate_units": 18,
+      "turnout_context_units": 18,
+      "status_units": 18,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 20306,
+      "turnout_county_ballots": 20306,
+      "status_native_ballots": 20306,
+      "XML_source_clock": "11/14/2024 11:52:16 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 11:54:45 AM CST"
+    },
+    {
+      "county": "Muscatine",
+      "county_fips": "19139",
+      "candidate_units": 25,
+      "turnout_context_units": 25,
+      "status_units": 25,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 19873,
+      "turnout_county_ballots": 19873,
+      "status_native_ballots": 19873,
+      "XML_source_clock": "11/25/2024 10:12:11 AM CST",
+      "settings_websiteupdatedat": "11/25/2024 10:12:18 AM CST"
+    },
+    {
+      "county": "Marion",
+      "county_fips": "19125",
+      "candidate_units": 19,
+      "turnout_context_units": 19,
+      "status_units": 19,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 19661,
+      "turnout_county_ballots": 19661,
+      "status_native_ballots": 19661,
+      "XML_source_clock": "11/27/2024 4:02:20 PM CST",
+      "settings_websiteupdatedat": "11/27/2024 4:02:28 PM CST"
+    },
+    {
+      "county": "Des Moines",
+      "county_fips": "19057",
+      "candidate_units": 17,
+      "turnout_context_units": 17,
+      "status_units": 17,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 19171,
+      "turnout_county_ballots": 19171,
+      "status_native_ballots": 19171,
+      "XML_source_clock": "11/22/2024 12:01:02 PM CST",
+      "settings_websiteupdatedat": "11/22/2024 12:01:02 PM CST"
+    },
+    {
+      "county": "Sioux",
+      "county_fips": "19167",
+      "candidate_units": 17,
+      "turnout_context_units": 17,
+      "status_units": 17,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 19120,
+      "turnout_county_ballots": 19120,
+      "status_native_ballots": 19120,
+      "XML_source_clock": "11/15/2024 1:38:21 PM CST",
+      "settings_websiteupdatedat": "11/15/2024 1:38:28 PM CST"
+    },
+    {
+      "county": "Marshall",
+      "county_fips": "19127",
+      "candidate_units": 11,
+      "turnout_context_units": 11,
+      "status_units": 11,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 17406,
+      "turnout_county_ballots": 17406,
+      "status_native_ballots": 17406,
+      "XML_source_clock": "11/14/2024 9:44:02 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 9:48:46 AM CST"
+    },
+    {
+      "county": "Webster",
+      "county_fips": "19187",
+      "candidate_units": 19,
+      "turnout_context_units": 19,
+      "status_units": 19,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 16825,
+      "turnout_county_ballots": 16825,
+      "status_native_ballots": 16825,
+      "XML_source_clock": "11/13/2024 4:04:02 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 4:14:43 PM CST"
+    },
+    {
+      "county": "Lee",
+      "county_fips": "19111",
+      "candidate_units": 22,
+      "turnout_context_units": 22,
+      "status_units": 22,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 16311,
+      "turnout_county_ballots": 16311,
+      "status_native_ballots": 16311,
+      "XML_source_clock": "11/13/2024 12:29:05 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 12:36:26 PM CST"
+    },
+    {
+      "county": "Boone",
+      "county_fips": "19015",
+      "candidate_units": 15,
+      "turnout_context_units": 15,
+      "status_units": 15,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 15520,
+      "turnout_county_ballots": 15520,
+      "status_native_ballots": 15520,
+      "XML_source_clock": "11/12/2024 12:59:20 PM CST",
+      "settings_websiteupdatedat": "11/12/2024 1:00:30 PM CST"
+    },
+    {
+      "county": "Bremer",
+      "county_fips": "19017",
+      "candidate_units": 14,
+      "turnout_context_units": 14,
+      "status_units": 14,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 14673,
+      "turnout_county_ballots": 14673,
+      "status_native_ballots": 14673,
+      "XML_source_clock": "11/20/2024 9:12:27 AM CST",
+      "settings_websiteupdatedat": "11/20/2024 9:12:59 AM CST"
+    },
+    {
+      "county": "Wapello",
+      "county_fips": "19179",
+      "candidate_units": 22,
+      "turnout_context_units": 22,
+      "status_units": 22,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 14697,
+      "turnout_county_ballots": 14697,
+      "status_native_ballots": 14697,
+      "XML_source_clock": "11/14/2024 11:00:08 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 11:16:06 AM CST"
+    },
+    {
+      "county": "Benton",
+      "county_fips": "19011",
+      "candidate_units": 18,
+      "turnout_context_units": 18,
+      "status_units": 18,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 14593,
+      "turnout_county_ballots": 14593,
+      "status_native_ballots": 14593,
+      "XML_source_clock": "11/12/2024 3:07:48 PM CST",
+      "settings_websiteupdatedat": "11/12/2024 3:09:08 PM CST"
+    },
+    {
+      "county": "Plymouth",
+      "county_fips": "19149",
+      "candidate_units": 11,
+      "turnout_context_units": 11,
+      "status_units": 11,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 14084,
+      "turnout_county_ballots": 14084,
+      "status_native_ballots": 14084,
+      "XML_source_clock": "11/14/2024 8:34:38 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 8:38:25 AM CST"
+    },
+    {
+      "county": "Winneshiek",
+      "county_fips": "19191",
+      "candidate_units": 12,
+      "turnout_context_units": 12,
+      "status_units": 12,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 12079,
+      "turnout_county_ballots": 12079,
+      "status_native_ballots": 12079,
+      "XML_source_clock": "11/13/2024 10:24:20 AM CST",
+      "settings_websiteupdatedat": "11/13/2024 10:24:28 AM CST"
+    },
+    {
+      "county": "Washington",
+      "county_fips": "19183",
+      "candidate_units": 10,
+      "turnout_context_units": 10,
+      "status_units": 10,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 11673,
+      "turnout_county_ballots": 11673,
+      "status_native_ballots": 11673,
+      "XML_source_clock": "11/13/2024 4:26:12 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 4:26:53 PM CST"
+    },
+    {
+      "county": "Dickinson",
+      "county_fips": "19059",
+      "candidate_units": 12,
+      "turnout_context_units": 12,
+      "status_units": 12,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 11319,
+      "turnout_county_ballots": 11319,
+      "status_native_ballots": 11319,
+      "XML_source_clock": "11/14/2024 11:14:40 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 11:15:56 AM CST"
+    },
+    {
+      "county": "Carroll",
+      "county_fips": "19027",
+      "candidate_units": 13,
+      "turnout_context_units": 13,
+      "status_units": 13,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 11209,
+      "turnout_county_ballots": 11209,
+      "status_native_ballots": 11209,
+      "XML_source_clock": "11/12/2024 9:13:17 AM CST",
+      "settings_websiteupdatedat": "11/15/2024 1:58:15 PM CST"
+    },
+    {
+      "county": "Jones",
+      "county_fips": "19105",
+      "candidate_units": 14,
+      "turnout_context_units": 14,
+      "status_units": 14,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 11054,
+      "turnout_county_ballots": 11054,
+      "status_native_ballots": 11054,
+      "XML_source_clock": "11/13/2024 2:00:24 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 2:01:03 PM CST"
+    },
+    {
+      "county": "Mahaska",
+      "county_fips": "19123",
+      "candidate_units": 9,
+      "turnout_context_units": 9,
+      "status_units": 9,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 11017,
+      "turnout_county_ballots": 11017,
+      "status_native_ballots": 11017,
+      "XML_source_clock": "12/2/2024 9:50:21 AM CST",
+      "settings_websiteupdatedat": "12/2/2024 9:50:28 AM CST"
+    },
+    {
+      "county": "Jackson",
+      "county_fips": "19097",
+      "candidate_units": 13,
+      "turnout_context_units": 13,
+      "status_units": 13,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 10849,
+      "turnout_county_ballots": 10849,
+      "status_native_ballots": 10849,
+      "XML_source_clock": "11/25/2024 3:11:41 PM CST",
+      "settings_websiteupdatedat": "11/25/2024 3:11:48 PM CST"
+    },
+    {
+      "county": "Buchanan",
+      "county_fips": "19019",
+      "candidate_units": 14,
+      "turnout_context_units": 14,
+      "status_units": 14,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 10856,
+      "turnout_county_ballots": 10856,
+      "status_native_ballots": 10856,
+      "XML_source_clock": "11/13/2024 9:50:03 AM CST",
+      "settings_websiteupdatedat": "11/13/2024 9:51:44 AM CST"
+    },
+    {
+      "county": "Cedar",
+      "county_fips": "19031",
+      "candidate_units": 12,
+      "turnout_context_units": 12,
+      "status_units": 12,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 10709,
+      "turnout_county_ballots": 10709,
+      "status_native_ballots": 10709,
+      "XML_source_clock": "11/26/2024 11:47:46 AM CST",
+      "settings_websiteupdatedat": "11/26/2024 11:47:54 AM CST"
+    },
+    {
+      "county": "Delaware",
+      "county_fips": "19055",
+      "candidate_units": 12,
+      "turnout_context_units": 12,
+      "status_units": 12,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 10211,
+      "turnout_county_ballots": 10211,
+      "status_native_ballots": 10211,
+      "XML_source_clock": "11/14/2024 1:49:47 PM CST",
+      "settings_websiteupdatedat": "11/14/2024 1:51:07 PM CST"
+    },
+    {
+      "county": "Madison",
+      "county_fips": "19121",
+      "candidate_units": 10,
+      "turnout_context_units": 10,
+      "status_units": 10,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 10117,
+      "turnout_county_ballots": 10117,
+      "status_native_ballots": 10117,
+      "XML_source_clock": "11/13/2024 4:24:27 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 4:25:04 PM CST"
+    },
+    {
+      "county": "Poweshiek",
+      "county_fips": "19157",
+      "candidate_units": 10,
+      "turnout_context_units": 10,
+      "status_units": 10,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 10069,
+      "turnout_county_ballots": 10069,
+      "status_native_ballots": 10069,
+      "XML_source_clock": "11/14/2024 10:17:46 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 10:20:01 AM CST"
+    },
+    {
+      "county": "Fayette",
+      "county_fips": "19065",
+      "candidate_units": 20,
+      "turnout_context_units": 20,
+      "status_units": 20,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 9928,
+      "turnout_county_ballots": 9928,
+      "status_native_ballots": 9928,
+      "XML_source_clock": "11/12/2024 3:39:23 PM CST",
+      "settings_websiteupdatedat": "11/12/2024 3:44:46 PM CST"
+    },
+    {
+      "county": "Iowa",
+      "county_fips": "19095",
+      "candidate_units": 11,
+      "turnout_context_units": 11,
+      "status_units": 11,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 9704,
+      "turnout_county_ballots": 9704,
+      "status_native_ballots": 9704,
+      "XML_source_clock": "11/26/2024 10:33:01 AM CST",
+      "settings_websiteupdatedat": "11/26/2024 10:33:09 AM CST"
+    },
+    {
+      "county": "Henry",
+      "county_fips": "19087",
+      "candidate_units": 9,
+      "turnout_context_units": 9,
+      "status_units": 9,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 9673,
+      "turnout_county_ballots": 9673,
+      "status_native_ballots": 9673,
+      "XML_source_clock": "11/25/2024 12:02:41 PM CST",
+      "settings_websiteupdatedat": "11/25/2024 12:02:48 PM CST"
+    },
+    {
+      "county": "Clayton",
+      "county_fips": "19043",
+      "candidate_units": 12,
+      "turnout_context_units": 12,
+      "status_units": 12,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 9461,
+      "turnout_county_ballots": 9461,
+      "status_native_ballots": 9461,
+      "XML_source_clock": "11/14/2024 10:00:38 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 10:02:11 AM CST"
+    },
+    {
+      "county": "Tama",
+      "county_fips": "19171",
+      "candidate_units": 12,
+      "turnout_context_units": 12,
+      "status_units": 12,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 8685,
+      "turnout_county_ballots": 8685,
+      "status_native_ballots": 8685,
+      "XML_source_clock": "11/14/2024 1:30:41 PM CST",
+      "settings_websiteupdatedat": "11/14/2024 1:33:38 PM CST"
+    },
+    {
+      "county": "Clay",
+      "county_fips": "19041",
+      "candidate_units": 12,
+      "turnout_context_units": 12,
+      "status_units": 12,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 8609,
+      "turnout_county_ballots": 8609,
+      "status_native_ballots": 8609,
+      "XML_source_clock": "11/13/2024 10:44:06 AM CST",
+      "settings_websiteupdatedat": "11/13/2024 10:47:18 AM CST"
+    },
+    {
+      "county": "Hardin",
+      "county_fips": "19083",
+      "candidate_units": 8,
+      "turnout_context_units": 8,
+      "status_units": 8,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 8538,
+      "turnout_county_ballots": 8538,
+      "status_native_ballots": 8538,
+      "XML_source_clock": "11/27/2024 4:21:05 PM CST",
+      "settings_websiteupdatedat": "11/27/2024 4:21:12 PM CST"
+    },
+    {
+      "county": "Kossuth",
+      "county_fips": "19109",
+      "candidate_units": 20,
+      "turnout_context_units": 20,
+      "status_units": 20,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 8450,
+      "turnout_county_ballots": 8450,
+      "status_native_ballots": 8450,
+      "XML_source_clock": "11/14/2024 3:43:22 PM CST",
+      "settings_websiteupdatedat": "11/14/2024 3:47:29 PM CST"
+    },
+    {
+      "county": "Jefferson",
+      "county_fips": "19101",
+      "candidate_units": 12,
+      "turnout_context_units": 12,
+      "status_units": 12,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 8454,
+      "turnout_county_ballots": 8454,
+      "status_native_ballots": 8454,
+      "XML_source_clock": "11/26/2024 3:54:25 PM CST",
+      "settings_websiteupdatedat": "11/26/2024 3:54:33 PM CST"
+    },
+    {
+      "county": "Mills",
+      "county_fips": "19129",
+      "candidate_units": 11,
+      "turnout_context_units": 11,
+      "status_units": 11,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 8329,
+      "turnout_county_ballots": 8329,
+      "status_native_ballots": 8329,
+      "XML_source_clock": "11/13/2024 4:36:33 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 4:39:15 PM CST"
+    },
+    {
+      "county": "Butler",
+      "county_fips": "19023",
+      "candidate_units": 8,
+      "turnout_context_units": 8,
+      "status_units": 8,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 8102,
+      "turnout_county_ballots": 8102,
+      "status_native_ballots": 8102,
+      "XML_source_clock": "11/13/2024 3:53:37 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 3:57:49 PM CST"
+    },
+    {
+      "county": "Harrison",
+      "county_fips": "19085",
+      "candidate_units": 11,
+      "turnout_context_units": 11,
+      "status_units": 11,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 8015,
+      "turnout_county_ballots": 8015,
+      "status_native_ballots": 8015,
+      "XML_source_clock": "11/15/2024 10:05:38 AM CST",
+      "settings_websiteupdatedat": "11/15/2024 10:05:46 AM CST"
+    },
+    {
+      "county": "Floyd",
+      "county_fips": "19067",
+      "candidate_units": 8,
+      "turnout_context_units": 8,
+      "status_units": 8,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 7704,
+      "turnout_county_ballots": 7704,
+      "status_native_ballots": 7704,
+      "XML_source_clock": "11/13/2024 7:31:03 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 7:32:27 PM CST"
+    },
+    {
+      "county": "Hamilton",
+      "county_fips": "19079",
+      "candidate_units": 7,
+      "turnout_context_units": 7,
+      "status_units": 7,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 7643,
+      "turnout_county_ballots": 7643,
+      "status_native_ballots": 7643,
+      "XML_source_clock": "11/14/2024 10:40:24 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 10:45:39 AM CST"
+    },
+    {
+      "county": "Buena Vista",
+      "county_fips": "19021",
+      "candidate_units": 8,
+      "turnout_context_units": 8,
+      "status_units": 8,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 7593,
+      "turnout_county_ballots": 7593,
+      "status_native_ballots": 7593,
+      "XML_source_clock": "11/14/2024 9:17:45 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 9:19:41 AM CST"
+    },
+    {
+      "county": "O'Brien",
+      "county_fips": "19141",
+      "candidate_units": 9,
+      "turnout_context_units": 9,
+      "status_units": 9,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 7569,
+      "turnout_county_ballots": 7569,
+      "status_native_ballots": 7569,
+      "XML_source_clock": "11/12/2024 11:58:45 AM CST",
+      "settings_websiteupdatedat": "11/12/2024 12:01:04 PM CST"
+    },
+    {
+      "county": "Page",
+      "county_fips": "19145",
+      "candidate_units": 9,
+      "turnout_context_units": 9,
+      "status_units": 9,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 7419,
+      "turnout_county_ballots": 7419,
+      "status_native_ballots": 7419,
+      "XML_source_clock": "11/14/2024 9:23:18 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 9:23:25 AM CST"
+    },
+    {
+      "county": "Allamakee",
+      "county_fips": "19005",
+      "candidate_units": 10,
+      "turnout_context_units": 10,
+      "status_units": 10,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 7410,
+      "turnout_county_ballots": 7410,
+      "status_native_ballots": 7410,
+      "XML_source_clock": "11/14/2024 9:21:56 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 9:23:09 AM CST"
+    },
+    {
+      "county": "Cass",
+      "county_fips": "19029",
+      "candidate_units": 12,
+      "turnout_context_units": 12,
+      "status_units": 12,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 7292,
+      "turnout_county_ballots": 7292,
+      "status_native_ballots": 7292,
+      "XML_source_clock": "11/14/2024 9:45:35 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 9:46:51 AM CST"
+    },
+    {
+      "county": "Grundy",
+      "county_fips": "19075",
+      "candidate_units": 7,
+      "turnout_context_units": 7,
+      "status_units": 7,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 7202,
+      "turnout_county_ballots": 7202,
+      "status_native_ballots": 7202,
+      "XML_source_clock": "11/14/2024 4:37:32 PM CST",
+      "settings_websiteupdatedat": "11/14/2024 4:38:37 PM CST"
+    },
+    {
+      "county": "Lyon",
+      "county_fips": "19119",
+      "candidate_units": 10,
+      "turnout_context_units": 10,
+      "status_units": 10,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 7046,
+      "turnout_county_ballots": 7046,
+      "status_native_ballots": 7046,
+      "XML_source_clock": "11/18/2024 10:03:41 AM CST",
+      "settings_websiteupdatedat": "11/18/2024 10:04:44 AM CST"
+    },
+    {
+      "county": "Crawford",
+      "county_fips": "19047",
+      "candidate_units": 8,
+      "turnout_context_units": 8,
+      "status_units": 8,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 6605,
+      "turnout_county_ballots": 6605,
+      "status_native_ballots": 6605,
+      "XML_source_clock": "11/14/2024 12:15:45 PM CST",
+      "settings_websiteupdatedat": "11/14/2024 12:15:52 PM CST"
+    },
+    {
+      "county": "Guthrie",
+      "county_fips": "19077",
+      "candidate_units": 6,
+      "turnout_context_units": 6,
+      "status_units": 6,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 6606,
+      "turnout_county_ballots": 6606,
+      "status_native_ballots": 6606,
+      "XML_source_clock": "11/15/2024 9:20:45 AM CST",
+      "settings_websiteupdatedat": "11/15/2024 9:42:32 AM CST"
+    },
+    {
+      "county": "Shelby",
+      "county_fips": "19165",
+      "candidate_units": 11,
+      "turnout_context_units": 11,
+      "status_units": 11,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 6543,
+      "turnout_county_ballots": 6543,
+      "status_native_ballots": 6543,
+      "XML_source_clock": "11/12/2024 12:02:04 PM CST",
+      "settings_websiteupdatedat": "11/12/2024 2:05:53 PM CST"
+    },
+    {
+      "county": "Appanoose",
+      "county_fips": "19007",
+      "candidate_units": 11,
+      "turnout_context_units": 11,
+      "status_units": 11,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 6535,
+      "turnout_county_ballots": 6535,
+      "status_native_ballots": 6535,
+      "XML_source_clock": "11/13/2024 10:34:45 AM CST",
+      "settings_websiteupdatedat": "11/13/2024 10:36:26 AM CST"
+    },
+    {
+      "county": "Chickasaw",
+      "county_fips": "19037",
+      "candidate_units": 9,
+      "turnout_context_units": 9,
+      "status_units": 9,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 6277,
+      "turnout_county_ballots": 6277,
+      "status_native_ballots": 6277,
+      "XML_source_clock": "11/13/2024 3:02:05 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 3:06:29 PM CST"
+    },
+    {
+      "county": "Cherokee",
+      "county_fips": "19035",
+      "candidate_units": 7,
+      "turnout_context_units": 7,
+      "status_units": 7,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 6143,
+      "turnout_county_ballots": 6143,
+      "status_native_ballots": 6143,
+      "XML_source_clock": "11/8/2024 10:16:59 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 9:18:40 AM CST"
+    },
+    {
+      "county": "Union",
+      "county_fips": "19175",
+      "candidate_units": 9,
+      "turnout_context_units": 9,
+      "status_units": 9,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 6041,
+      "turnout_county_ballots": 6041,
+      "status_native_ballots": 6041,
+      "XML_source_clock": "11/14/2024 9:37:14 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 9:37:21 AM CST"
+    },
+    {
+      "county": "Hancock",
+      "county_fips": "19081",
+      "candidate_units": 10,
+      "turnout_context_units": 10,
+      "status_units": 10,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 5979,
+      "turnout_county_ballots": 5979,
+      "status_native_ballots": 5979,
+      "XML_source_clock": "11/13/2024 7:00:48 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 7:00:56 PM CST"
+    },
+    {
+      "county": "Mitchell",
+      "county_fips": "19131",
+      "candidate_units": 12,
+      "turnout_context_units": 12,
+      "status_units": 12,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 5796,
+      "turnout_county_ballots": 5796,
+      "status_native_ballots": 5796,
+      "XML_source_clock": "11/15/2024 8:44:26 AM CST",
+      "settings_websiteupdatedat": "11/15/2024 8:45:27 AM CST"
+    },
+    {
+      "county": "Wright",
+      "county_fips": "19197",
+      "candidate_units": 10,
+      "turnout_context_units": 10,
+      "status_units": 10,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 5772,
+      "turnout_county_ballots": 5772,
+      "status_native_ballots": 5772,
+      "XML_source_clock": "12/16/2024 8:10:56 AM CST",
+      "settings_websiteupdatedat": "12/16/2024 8:11:04 AM CST"
+    },
+    {
+      "county": "Winnebago",
+      "county_fips": "19189",
+      "candidate_units": 10,
+      "turnout_context_units": 10,
+      "status_units": 10,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 5668,
+      "turnout_county_ballots": 5668,
+      "status_native_ballots": 5668,
+      "XML_source_clock": "11/14/2024 2:12:42 PM CST",
+      "settings_websiteupdatedat": "11/14/2024 2:14:23 PM CST"
+    },
+    {
+      "county": "Sac",
+      "county_fips": "19161",
+      "candidate_units": 9,
+      "turnout_context_units": 9,
+      "status_units": 9,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 5498,
+      "turnout_county_ballots": 5498,
+      "status_native_ballots": 5498,
+      "XML_source_clock": "11/15/2024 9:47:02 AM CST",
+      "settings_websiteupdatedat": "11/15/2024 9:48:03 AM CST"
+    },
+    {
+      "county": "Keokuk",
+      "county_fips": "19107",
+      "candidate_units": 11,
+      "turnout_context_units": 11,
+      "status_units": 11,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 5182,
+      "turnout_county_ballots": 5182,
+      "status_native_ballots": 5182,
+      "XML_source_clock": "11/13/2024 8:13:54 AM CST",
+      "settings_websiteupdatedat": "11/13/2024 8:15:28 AM CST"
+    },
+    {
+      "county": "Louisa",
+      "county_fips": "19115",
+      "candidate_units": 5,
+      "turnout_context_units": 5,
+      "status_units": 5,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 5178,
+      "turnout_county_ballots": 5178,
+      "status_native_ballots": 5178,
+      "XML_source_clock": "11/26/2024 7:55:30 AM CST",
+      "settings_websiteupdatedat": "11/26/2024 7:55:38 AM CST"
+    },
+    {
+      "county": "Calhoun",
+      "county_fips": "19025",
+      "candidate_units": 6,
+      "turnout_context_units": 6,
+      "status_units": 6,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 5121,
+      "turnout_county_ballots": 5121,
+      "status_native_ballots": 5121,
+      "XML_source_clock": "11/14/2024 10:32:43 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 10:33:55 AM CST"
+    },
+    {
+      "county": "Humboldt",
+      "county_fips": "19091",
+      "candidate_units": 6,
+      "turnout_context_units": 6,
+      "status_units": 6,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 5135,
+      "turnout_county_ballots": 5135,
+      "status_native_ballots": 5135,
+      "XML_source_clock": "11/14/2024 9:49:50 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 9:51:11 AM CST"
+    },
+    {
+      "county": "Montgomery",
+      "county_fips": "19137",
+      "candidate_units": 7,
+      "turnout_context_units": 7,
+      "status_units": 7,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 5105,
+      "turnout_county_ballots": 5105,
+      "status_native_ballots": 5105,
+      "XML_source_clock": "11/14/2024 11:47:25 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 11:49:03 AM CST"
+    },
+    {
+      "county": "Palo Alto",
+      "county_fips": "19147",
+      "candidate_units": 8,
+      "turnout_context_units": 8,
+      "status_units": 8,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 5013,
+      "turnout_county_ballots": 5013,
+      "status_native_ballots": 5013,
+      "XML_source_clock": "11/13/2024 8:30:58 AM CST",
+      "settings_websiteupdatedat": "11/13/2024 8:31:44 AM CST"
+    },
+    {
+      "county": "Franklin",
+      "county_fips": "19069",
+      "candidate_units": 12,
+      "turnout_context_units": 12,
+      "status_units": 12,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 4947,
+      "turnout_county_ballots": 4947,
+      "status_native_ballots": 4947,
+      "XML_source_clock": "11/15/2024 9:20:47 AM CST",
+      "settings_websiteupdatedat": "11/15/2024 9:30:06 AM CST"
+    },
+    {
+      "county": "Greene",
+      "county_fips": "19073",
+      "candidate_units": 6,
+      "turnout_context_units": 6,
+      "status_units": 6,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 4968,
+      "turnout_county_ballots": 4968,
+      "status_native_ballots": 4968,
+      "XML_source_clock": "11/15/2024 8:22:18 AM CST",
+      "settings_websiteupdatedat": "11/15/2024 8:22:25 AM CST"
+    },
+    {
+      "county": "Howard",
+      "county_fips": "19089",
+      "candidate_units": 9,
+      "turnout_context_units": 9,
+      "status_units": 9,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 4884,
+      "turnout_county_ballots": 4884,
+      "status_native_ballots": 4884,
+      "XML_source_clock": "11/13/2024 3:58:08 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 3:59:54 PM CST"
+    },
+    {
+      "county": "Emmet",
+      "county_fips": "19063",
+      "candidate_units": 11,
+      "turnout_context_units": 11,
+      "status_units": 11,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 4831,
+      "turnout_county_ballots": 4831,
+      "status_native_ballots": 4831,
+      "XML_source_clock": "11/13/2024 2:37:16 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 2:41:10 PM CST"
+    },
+    {
+      "county": "Lucas",
+      "county_fips": "19117",
+      "candidate_units": 7,
+      "turnout_context_units": 5,
+      "status_units": 7,
+      "candidate_not_turnout": [
+        "Chariton City Hall Precinct ",
+        "Chariton Community Center Precinct "
+      ],
+      "turnout_native_ballots": 2733,
+      "turnout_county_ballots": 4676,
+      "status_native_ballots": 4676,
+      "XML_source_clock": "11/14/2024 11:47:44 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 11:49:49 AM CST"
+    },
+    {
+      "county": "Monona",
+      "county_fips": "19133",
+      "candidate_units": 10,
+      "turnout_context_units": 10,
+      "status_units": 10,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 4669,
+      "turnout_county_ballots": 4669,
+      "status_native_ballots": 4669,
+      "XML_source_clock": "11/12/2024 3:24:54 PM CST",
+      "settings_websiteupdatedat": "11/12/2024 3:26:49 PM CST"
+    },
+    {
+      "county": "Clarke",
+      "county_fips": "19039",
+      "candidate_units": 7,
+      "turnout_context_units": 7,
+      "status_units": 7,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 4552,
+      "turnout_county_ballots": 4552,
+      "status_native_ballots": 4552,
+      "XML_source_clock": "11/14/2024 10:43:13 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 10:43:21 AM CST"
+    },
+    {
+      "county": "Worth",
+      "county_fips": "19195",
+      "candidate_units": 7,
+      "turnout_context_units": 7,
+      "status_units": 7,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 4313,
+      "turnout_county_ballots": 4313,
+      "status_native_ballots": 4313,
+      "XML_source_clock": "11/14/2024 9:00:23 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 9:00:29 AM CST"
+    },
+    {
+      "county": "Monroe",
+      "county_fips": "19135",
+      "candidate_units": 7,
+      "turnout_context_units": 7,
+      "status_units": 7,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 4185,
+      "turnout_county_ballots": 4185,
+      "status_native_ballots": 4185,
+      "XML_source_clock": "11/14/2024 9:40:03 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 9:51:30 AM CST"
+    },
+    {
+      "county": "Adair",
+      "county_fips": "19001",
+      "candidate_units": 5,
+      "turnout_context_units": 5,
+      "status_units": 5,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 4104,
+      "turnout_county_ballots": 4104,
+      "status_native_ballots": 4104,
+      "XML_source_clock": "11/13/2024 9:57:29 AM CST",
+      "settings_websiteupdatedat": "11/13/2024 9:58:31 AM CST"
+    },
+    {
+      "county": "Davis",
+      "county_fips": "19051",
+      "candidate_units": 8,
+      "turnout_context_units": 8,
+      "status_units": 8,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 3970,
+      "turnout_county_ballots": 3970,
+      "status_native_ballots": 3970,
+      "XML_source_clock": "11/13/2024 10:14:55 AM CST",
+      "settings_websiteupdatedat": "11/13/2024 10:16:21 AM CST"
+    },
+    {
+      "county": "Fremont",
+      "county_fips": "19071",
+      "candidate_units": 5,
+      "turnout_context_units": 5,
+      "status_units": 5,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 3814,
+      "turnout_county_ballots": 3814,
+      "status_native_ballots": 3814,
+      "XML_source_clock": "11/13/2024 10:14:58 AM CST",
+      "settings_websiteupdatedat": "11/13/2024 10:32:38 AM CST"
+    },
+    {
+      "county": "Decatur",
+      "county_fips": "19053",
+      "candidate_units": 4,
+      "turnout_context_units": 4,
+      "status_units": 4,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 3754,
+      "turnout_county_ballots": 3754,
+      "status_native_ballots": 3754,
+      "XML_source_clock": "11/14/2024 9:58:35 AM CST",
+      "settings_websiteupdatedat": "11/14/2024 10:15:40 AM CST"
+    },
+    {
+      "county": "Ida",
+      "county_fips": "19093",
+      "candidate_units": 7,
+      "turnout_context_units": 7,
+      "status_units": 7,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 3671,
+      "turnout_county_ballots": 3671,
+      "status_native_ballots": 3671,
+      "XML_source_clock": "11/12/2024 4:10:16 PM CST",
+      "settings_websiteupdatedat": "11/12/2024 4:12:28 PM CST"
+    },
+    {
+      "county": "Van Buren",
+      "county_fips": "19177",
+      "candidate_units": 4,
+      "turnout_context_units": 4,
+      "status_units": 4,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 3655,
+      "turnout_county_ballots": 3655,
+      "status_native_ballots": 3655,
+      "XML_source_clock": "11/18/2024 10:32:48 AM CST",
+      "settings_websiteupdatedat": "11/18/2024 10:33:50 AM CST"
+    },
+    {
+      "county": "Pocahontas",
+      "county_fips": "19151",
+      "candidate_units": 7,
+      "turnout_context_units": 7,
+      "status_units": 7,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 3600,
+      "turnout_county_ballots": 3600,
+      "status_native_ballots": 3600,
+      "XML_source_clock": "11/13/2024 3:37:34 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 3:40:13 PM CST"
+    },
+    {
+      "county": "Audubon",
+      "county_fips": "19009",
+      "candidate_units": 2,
+      "turnout_context_units": 2,
+      "status_units": 2,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 3286,
+      "turnout_county_ballots": 3286,
+      "status_native_ballots": 3286,
+      "XML_source_clock": "11/14/2024 12:27:42 PM CST",
+      "settings_websiteupdatedat": "11/14/2024 12:28:21 PM CST"
+    },
+    {
+      "county": "Osceola",
+      "county_fips": "19143",
+      "candidate_units": 8,
+      "turnout_context_units": 8,
+      "status_units": 8,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 3245,
+      "turnout_county_ballots": 3245,
+      "status_native_ballots": 3245,
+      "XML_source_clock": "11/14/2024 1:56:22 PM CST",
+      "settings_websiteupdatedat": "11/14/2024 1:57:35 PM CST"
+    },
+    {
+      "county": "Wayne",
+      "county_fips": "19185",
+      "candidate_units": 4,
+      "turnout_context_units": 4,
+      "status_units": 4,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 3162,
+      "turnout_county_ballots": 3162,
+      "status_native_ballots": 3162,
+      "XML_source_clock": "11/13/2024 3:23:06 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 3:24:01 PM CST"
+    },
+    {
+      "county": "Taylor",
+      "county_fips": "19173",
+      "candidate_units": 5,
+      "turnout_context_units": 5,
+      "status_units": 5,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 3102,
+      "turnout_county_ballots": 3102,
+      "status_native_ballots": 3102,
+      "XML_source_clock": "11/18/2024 1:43:15 PM CST",
+      "settings_websiteupdatedat": "11/18/2024 1:44:03 PM CST"
+    },
+    {
+      "county": "Ringgold",
+      "county_fips": "19159",
+      "candidate_units": 7,
+      "turnout_context_units": 7,
+      "status_units": 7,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 2711,
+      "turnout_county_ballots": 2711,
+      "status_native_ballots": 2711,
+      "XML_source_clock": "11/20/2024 9:09:09 AM CST",
+      "settings_websiteupdatedat": "11/20/2024 9:09:58 AM CST"
+    },
+    {
+      "county": "Adams",
+      "county_fips": "19003",
+      "candidate_units": 5,
+      "turnout_context_units": 5,
+      "status_units": 5,
+      "candidate_not_turnout": [],
+      "turnout_native_ballots": 2153,
+      "turnout_county_ballots": 2153,
+      "status_native_ballots": 2153,
+      "XML_source_clock": "11/13/2024 3:14:33 PM CST",
+      "settings_websiteupdatedat": "11/13/2024 3:16:08 PM CST"
+    }
+  ],
+  "dependencies": {
+    "sos-2024-county-xml-19153": {
+      "path": "turnout/originals/sos-2024-county-xml-19153.gz",
+      "original_sha256": "ee793d9fab0590801001ab2ee8964d2a3158e3b22f4bfbd0a231b37b20b9bb05",
+      "stored_sha256": "1dda34145e4a7435d0ceaca8005639283c8ec4ad42a1fa595d08ab2cc9f30283",
+      "original_bytes": 127364,
+      "stored_bytes": 122773
+    },
+    "sos-2024-county-status-19153": {
+      "path": "turnout/originals/sos-2024-county-status-19153.gz",
+      "original_sha256": "6e50c2380ef808e4ab5cb5dc62e1054de7776aea5384b6178246ffa3e1a6eb03",
+      "stored_sha256": "665909e6d15b16af009e3e835010bbf5477ccb0739e55aec74978528b8283a9d",
+      "original_bytes": 5466,
+      "stored_bytes": 1533
+    },
+    "sos-2024-county-settings-19153": {
+      "path": "turnout/originals/sos-2024-county-settings-19153.gz",
+      "original_sha256": "327acdc2746b09de13a8c116dd607c6883a6edc6f3488d89fcde9fb0d08e76f9",
+      "stored_sha256": "96f6ab2eff39b0405571d96e9649b9d94cdbd023b3eb8b53bb5d4490734f06b2",
+      "original_bytes": 33157,
+      "stored_bytes": 7919
+    },
+    "sos-2024-county-xml-19113": {
+      "path": "turnout/originals/sos-2024-county-xml-19113.gz",
+      "original_sha256": "39b39fb95c584a862bc7e41f8c381159ccbce084fe49c7234e3d1caed454e59b",
+      "stored_sha256": "4608fc0fa8fa26aea671b279a8956bffb60acaf4fd5c738594f8c620bfe96a1c",
+      "original_bytes": 57360,
+      "stored_bytes": 56346
+    },
+    "sos-2024-county-status-19113": {
+      "path": "turnout/originals/sos-2024-county-status-19113.gz",
+      "original_sha256": "246ddccd0487a54221b41abcbf4f57fe84a1f083f01187bea6ec491471ab18a9",
+      "stored_sha256": "d8be54f3a0bf6b7992934b697e9e4ee0bd2e455e880bf0251e4c262d7dc94e3e",
+      "original_bytes": 3158,
+      "stored_bytes": 933
+    },
+    "sos-2024-county-settings-19113": {
+      "path": "turnout/originals/sos-2024-county-settings-19113.gz",
+      "original_sha256": "9856ee6355b1d4575b20c6a4be7e61e18473ead7b11d55086db74e78f30d336e",
+      "stored_sha256": "7edb62c6e91ef1e24d804264fca09a82a103108cd2b0d0fb7f5211ffc7ed1131",
+      "original_bytes": 31029,
+      "stored_bytes": 7514
+    },
+    "sos-2024-county-xml-19163": {
+      "path": "turnout/originals/sos-2024-county-xml-19163.gz",
+      "original_sha256": "2cf104b9542e2d20d814edb0609e8c6a1e82dd39317bce342b8b5c572e063f50",
+      "stored_sha256": "bfa68ac01a72a15ca706e7400d158fd2b2d7ce33a8a7a1a998c49b2b6909cddf",
+      "original_bytes": 39508,
+      "stored_bytes": 38864
+    },
+    "sos-2024-county-status-19163": {
+      "path": "turnout/originals/sos-2024-county-status-19163.gz",
+      "original_sha256": "f6f444c7450592e66520920b072c86390dbfdf558e0ddb89f1a1023253c792fd",
+      "stored_sha256": "fefa59fdd2fdce28064a64ccdd6abd60c75ab0f198315bb5e99485a18e782300",
+      "original_bytes": 2766,
+      "stored_bytes": 796
+    },
+    "sos-2024-county-settings-19163": {
+      "path": "turnout/originals/sos-2024-county-settings-19163.gz",
+      "original_sha256": "8c021da47b16f88c96e4650cc37f9d7d734090086c914d2e925cc78ce13c725e",
+      "stored_sha256": "fed5ba9b5e0686cb2add793e881b1dc492284b3cdf584f86a29716faddef7d8a",
+      "original_bytes": 33032,
+      "stored_bytes": 8058
+    },
+    "sos-2024-county-xml-19103": {
+      "path": "turnout/originals/sos-2024-county-xml-19103.gz",
+      "original_sha256": "47f30f0b9566e4a85543a170779e4bf88f12dceb34f90bf3cd81d76da8e34df4",
+      "stored_sha256": "eec60b71dc0c9d3a1a174d5f22fea927cff40eacdcb6388580ef0358effb6192",
+      "original_bytes": 44138,
+      "stored_bytes": 43878
+    },
+    "sos-2024-county-status-19103": {
+      "path": "turnout/originals/sos-2024-county-status-19103.gz",
+      "original_sha256": "8b75f3b8c3ccde05e64d77aea844bdc731f50c1925e886c33d3aa380302d3e80",
+      "stored_sha256": "0c0278bbb2f99b7d42f867cc42acb3aaccbeba6a597f8a8316951b1f288636ab",
+      "original_bytes": 1439,
+      "stored_bytes": 471
+    },
+    "sos-2024-county-settings-19103": {
+      "path": "turnout/originals/sos-2024-county-settings-19103.gz",
+      "original_sha256": "e3b9de1fe7998cdf99c9c88045025ec65b6c454216e163b4bf2ee770fad4b0fc",
+      "stored_sha256": "55848c05c8371331e98185f41936a6cf22e6f9482710ae65bfdc15627928b3a5",
+      "original_bytes": 32548,
+      "stored_bytes": 7917
+    },
+    "sos-2024-county-xml-19049": {
+      "path": "turnout/originals/sos-2024-county-xml-19049.gz",
+      "original_sha256": "0125d69c943627415efe7f42ad830bf8734506794801b50f5a6fed638928ebef",
+      "stored_sha256": "5a14b62084ad22dcd32666f4208a212db1304be0f350193d9d01f386ba83cb27",
+      "original_bytes": 35984,
+      "stored_bytes": 35941
+    },
+    "sos-2024-county-status-19049": {
+      "path": "turnout/originals/sos-2024-county-status-19049.gz",
+      "original_sha256": "55f172ba376a9c06c9365092e97b5cbe33c7829e561fba2cd62fd68e5254ce02",
+      "stored_sha256": "e3f1290129b1239efcc91af0bf97278b0449abe1647254d46b64c23acb3bf693",
+      "original_bytes": 1706,
+      "stored_bytes": 687
+    },
+    "sos-2024-county-settings-19049": {
+      "path": "turnout/originals/sos-2024-county-settings-19049.gz",
+      "original_sha256": "80fa8fae3894f2191c74e458f1f69840b2bfa2eefad64ab3be43f746308a3bc2",
+      "stored_sha256": "9fd11c2281467114fe85bcd635f6d229f3d4a0336e42be56557e0056a68eb8c1",
+      "original_bytes": 31924,
+      "stored_bytes": 7817
+    },
+    "sos-2024-county-xml-19013": {
+      "path": "turnout/originals/sos-2024-county-xml-19013.gz",
+      "original_sha256": "4613464db1ee6fb5d4688088c3e28ebd738ec07ec0790a1278a0cf95c65f1ec0",
+      "stored_sha256": "5a6e591da551d9a924fd97fdb33774d094ba940233efe4e212c0fa134f4eebcd",
+      "original_bytes": 40162,
+      "stored_bytes": 39909
+    },
+    "sos-2024-county-status-19013": {
+      "path": "turnout/originals/sos-2024-county-status-19013.gz",
+      "original_sha256": "4c8e2b5dae35ee219e5e46b9599dc3fed4a08057523e17eeb2faf21c96cb6dc9",
+      "stored_sha256": "db44198f9ae36d69e92de9695c6598c2c4736a3429e6b4c669b5a776853ef759",
+      "original_bytes": 1727,
+      "stored_bytes": 690
+    },
+    "sos-2024-county-settings-19013": {
+      "path": "turnout/originals/sos-2024-county-settings-19013.gz",
+      "original_sha256": "c2f54d9c0256cbe3e93ff48ccf403a2e54138d625080c66375763b6af79d42f7",
+      "stored_sha256": "d80567795d2a06845cd0f3b8b5c24a59a2d8963635a2f41772b5aeaa33c15d0f",
+      "original_bytes": 32373,
+      "stored_bytes": 7826
+    },
+    "sos-2024-county-xml-19061": {
+      "path": "turnout/originals/sos-2024-county-xml-19061.gz",
+      "original_sha256": "2de3d22a7eaaf5dab9b358794134474ca604ab4398edc412f700bb34bd255ddb",
+      "stored_sha256": "44156b365aea44032bdb539476d87dbd81c68e5210d911f09b37c053ce10f3d5",
+      "original_bytes": 22420,
+      "stored_bytes": 22399
+    },
+    "sos-2024-county-status-19061": {
+      "path": "turnout/originals/sos-2024-county-status-19061.gz",
+      "original_sha256": "c6ff66a949276a06f5e1b232be2f98a8d5361b4952bf61878923b96dff028189",
+      "stored_sha256": "da0aca083436be031c910da9b28270da26ea8acea0954de62faef27635ad6d54",
+      "original_bytes": 1567,
+      "stored_bytes": 750
+    },
+    "sos-2024-county-settings-19061": {
+      "path": "turnout/originals/sos-2024-county-settings-19061.gz",
+      "original_sha256": "32e700fc487013d37fad83a4d61ac9b1fc2ddbc89f7184a5fefa725a80e6d9d6",
+      "stored_sha256": "98d558d54cc03ae086173beab00454ae88edae5eca995c0925761bb3a4b9562d",
+      "original_bytes": 31034,
+      "stored_bytes": 7796
+    },
+    "sos-2024-county-xml-19169": {
+      "path": "turnout/originals/sos-2024-county-xml-19169.gz",
+      "original_sha256": "e521365a4c091bb1bb183c6d7146e79d554cedc45a0e7c815757c4379a2bfe6c",
+      "stored_sha256": "c97a3d4209fa540487b239f468b16b551cf0e201007ec456400a0927f27ea098",
+      "original_bytes": 34640,
+      "stored_bytes": 34590
+    },
+    "sos-2024-county-status-19169": {
+      "path": "turnout/originals/sos-2024-county-status-19169.gz",
+      "original_sha256": "8341f479a63da5a3a27a76ca6648e892f5050c0daaa24553200cec31283aab8e",
+      "stored_sha256": "3b9fa83ba4ee0274767a95b77db4b7bf6aa017b6ce38d65e72b83d6b052bdad2",
+      "original_bytes": 1497,
+      "stored_bytes": 619
+    },
+    "sos-2024-county-settings-19169": {
+      "path": "turnout/originals/sos-2024-county-settings-19169.gz",
+      "original_sha256": "959441ca02e1a96f8c3e8f3effe51361fc84fa79adbd805cb25478976eea9de4",
+      "stored_sha256": "91e7b9c4b2e82aaf76fc55986bfdb54a355a71e802d84658922a0fdb8b3ae05f",
+      "original_bytes": 31975,
+      "stored_bytes": 7643
+    },
+    "sos-2024-county-xml-19155": {
+      "path": "turnout/originals/sos-2024-county-xml-19155.gz",
+      "original_sha256": "4aeb4169329a92ed66b7b0bf66c9f600255438ff9cceb04b2d9cf9facddd0105",
+      "stored_sha256": "1da350a208cdddaff9e9a35546d720155127b1f5bef27bb2dc9864afc4ab3b1c",
+      "original_bytes": 25951,
+      "stored_bytes": 25877
+    },
+    "sos-2024-county-status-19155": {
+      "path": "turnout/originals/sos-2024-county-status-19155.gz",
+      "original_sha256": "c453663e1e20087b98dfe58c62673ee5020d31fe0039539b09c391407bf59f47",
+      "stored_sha256": "e47d621fb563b79cbeee4798a697936e4cff5616488850ca6acadd82dd7866bb",
+      "original_bytes": 1083,
+      "stored_bytes": 451
+    },
+    "sos-2024-county-settings-19155": {
+      "path": "turnout/originals/sos-2024-county-settings-19155.gz",
+      "original_sha256": "dfa4dbf983a7f4e74befb70eaf308e8f5b15aec8e87d61f1cabc34f852f7ed7e",
+      "stored_sha256": "38c26b50604a49efdcdbc8d17e5ff68ad6ae1b4eb4cc2a7271c50789eb48e011",
+      "original_bytes": 33119,
+      "stored_bytes": 7960
+    },
+    "sos-2024-county-xml-19193": {
+      "path": "turnout/originals/sos-2024-county-xml-19193.gz",
+      "original_sha256": "02508f4b1db58e56db32fef94450ad94301aaf84e8d07a69b8c330eecfb117bb",
+      "stored_sha256": "d701996a76c49701a7dd56d99a58af798fad9d9f2d98e60185bbfb04e2983da8",
+      "original_bytes": 28382,
+      "stored_bytes": 28320
+    },
+    "sos-2024-county-status-19193": {
+      "path": "turnout/originals/sos-2024-county-status-19193.gz",
+      "original_sha256": "e764c229cdf7bf499e3ac5dd5f3b5b02d3ae74d3a3155e7be2776ba259b7089b",
+      "stored_sha256": "9bf2b761408b9caf5ef0ab97ac75c8daf2b5023ed8364177f45cbd35d87816d0",
+      "original_bytes": 1703,
+      "stored_bytes": 557
+    },
+    "sos-2024-county-settings-19193": {
+      "path": "turnout/originals/sos-2024-county-settings-19193.gz",
+      "original_sha256": "2b600e7828b54266fddbe1623968c7133a7456eb32726a4e2c0cd3d3a7a4cb65",
+      "stored_sha256": "80441cfc031dd1c209ba872a12dee74e5ae2f46abbad1275bf258b959e4196d4",
+      "original_bytes": 34019,
+      "stored_bytes": 8336
+    },
+    "sos-2024-county-xml-19181": {
+      "path": "turnout/originals/sos-2024-county-xml-19181.gz",
+      "original_sha256": "246b3c4e4e54f5d9f3bb6316245f0d2aed2986d15a7d8c43803a836121d27de4",
+      "stored_sha256": "3fcfb19de43b42551146c173ae605cca8b0f430b359b5373fc27027e821e8555",
+      "original_bytes": 26359,
+      "stored_bytes": 26369
+    },
+    "sos-2024-county-status-19181": {
+      "path": "turnout/originals/sos-2024-county-status-19181.gz",
+      "original_sha256": "425b075d8602f5a664d7441a8d46da6eb28c3f002821ab515c04d3f0243ae2b7",
+      "stored_sha256": "fbeddf4d520f89a526602ad116ee90ea9eaf2ac060ea7535f317f9017c5cafc8",
+      "original_bytes": 1171,
+      "stored_bytes": 491
+    },
+    "sos-2024-county-settings-19181": {
+      "path": "turnout/originals/sos-2024-county-settings-19181.gz",
+      "original_sha256": "89cea00e5e249fb02b26e96a2f7976d003a0d045165a6b490eb41ff295c8bb2f",
+      "stored_sha256": "28797b1c164e253b476b6fe95702f93fa7f73a18effac818fac1f873f113ca1c",
+      "original_bytes": 34246,
+      "stored_bytes": 8399
+    },
+    "sos-2024-county-xml-19045": {
+      "path": "turnout/originals/sos-2024-county-xml-19045.gz",
+      "original_sha256": "414273720b491b4b03614ab502b563411b5ce702f9e8546547f81615cfc61d97",
+      "stored_sha256": "997e3cda53e7b2df9246d4dfbdcd78d5280efbe7353f564b453e7f5967b891c6",
+      "original_bytes": 14201,
+      "stored_bytes": 14208
+    },
+    "sos-2024-county-status-19045": {
+      "path": "turnout/originals/sos-2024-county-status-19045.gz",
+      "original_sha256": "fc3c36e027950c2d00626f5b07a094f85f35cac653874fc2c8958c79c9553dba",
+      "stored_sha256": "20cbc3e4f0e96629bc122da0f16a3712d53d20bb1286037d7f955265ea3ad635",
+      "original_bytes": 842,
+      "stored_bytes": 370
+    },
+    "sos-2024-county-settings-19045": {
+      "path": "turnout/originals/sos-2024-county-settings-19045.gz",
+      "original_sha256": "e94ab47937b403118b8c476095bcb7d30f02d261186990533c14510fdad779f6",
+      "stored_sha256": "eb90a682fe81509aa25145ead2bdaf9f130e3917f84e4a5509054621d7e19a0c",
+      "original_bytes": 31951,
+      "stored_bytes": 7977
+    },
+    "sos-2024-county-xml-19033": {
+      "path": "turnout/originals/sos-2024-county-xml-19033.gz",
+      "original_sha256": "f13dcdfa0c224bace29ae6afe7e72f5abf1e3150b66b68f33f44fc279164afc8",
+      "stored_sha256": "fed65ffcb820b140f8c96e4c559f131ffd0cff1f898145e5ff66d9c9898cc215",
+      "original_bytes": 14260,
+      "stored_bytes": 14276
+    },
+    "sos-2024-county-status-19033": {
+      "path": "turnout/originals/sos-2024-county-status-19033.gz",
+      "original_sha256": "cb521253193a504fae40788d8fc695184c9f4ea6f15772b11e69210fdbdaf68a",
+      "stored_sha256": "7885f58e4ba76519fc239e26a5bb0e00556a5b4543471187568b71c10804f462",
+      "original_bytes": 1022,
+      "stored_bytes": 413
+    },
+    "sos-2024-county-settings-19033": {
+      "path": "turnout/originals/sos-2024-county-settings-19033.gz",
+      "original_sha256": "c092e11f74b2db55c0c7a373a72e601afd7b558a7bca2c26a0e31f049f2495ae",
+      "stored_sha256": "a790128b281ad9f6e297448fe01f8c4a8da60ea4edeaa7a7cb1150827aa79ba6",
+      "original_bytes": 30433,
+      "stored_bytes": 7523
+    },
+    "sos-2024-county-xml-19099": {
+      "path": "turnout/originals/sos-2024-county-xml-19099.gz",
+      "original_sha256": "ec4e2ec7eca3ab43065a0b5a35f915ebe6b5a8eee99735bd63e6f0151e969a00",
+      "stored_sha256": "7afb4bf7a6e4410c970e6f27085ba83c603e9b5d9880807f1de85a4c0dec0bc8",
+      "original_bytes": 12563,
+      "stored_bytes": 12538
+    },
+    "sos-2024-county-status-19099": {
+      "path": "turnout/originals/sos-2024-county-status-19099.gz",
+      "original_sha256": "bbf039b5071783d509d18e14a672532539ce926024352888447127d81fc08b2b",
+      "stored_sha256": "299e910fcd7b8ac8516ab1724cdd6945b88ce65fa46fe81fb0424399b40de78e",
+      "original_bytes": 592,
+      "stored_bytes": 316
+    },
+    "sos-2024-county-settings-19099": {
+      "path": "turnout/originals/sos-2024-county-settings-19099.gz",
+      "original_sha256": "de7cce620e8ebbdf47f2552157912d3b9469d6aeb98ad01d0cfcdde0ae988df2",
+      "stored_sha256": "9b1567cc26f02662d8e1fcee1e1d855fbdc58f69ca728601d40b62da3c1e5589",
+      "original_bytes": 31360,
+      "stored_bytes": 7575
+    },
+    "sos-2024-county-xml-19139": {
+      "path": "turnout/originals/sos-2024-county-xml-19139.gz",
+      "original_sha256": "286ca26b029b93386d84fb111fec95fd49e38eb955c120616ce7b1d69115e8e9",
+      "stored_sha256": "bbd09930195cbf16bcef304018649ca84771f8eb91ad681a56a32f98f1b1120e",
+      "original_bytes": 14954,
+      "stored_bytes": 14959
+    },
+    "sos-2024-county-status-19139": {
+      "path": "turnout/originals/sos-2024-county-status-19139.gz",
+      "original_sha256": "732059c27e0898a751aa1d13d3facb9f19e22d0a7c4d9d393246687d05e47a2e",
+      "stored_sha256": "d2eacf53eba6b457b9bed1763b34ae18a061d9c82b3a10168c82f44692cea3f6",
+      "original_bytes": 927,
+      "stored_bytes": 444
+    },
+    "sos-2024-county-settings-19139": {
+      "path": "turnout/originals/sos-2024-county-settings-19139.gz",
+      "original_sha256": "12de8b962b94f9f912ff1c34d2a2fa0db6bbcc0f5fa3eb0c7afab828a60449df",
+      "stored_sha256": "acadcefa0f151738749e0a1dbcb0ab61f2ea38102efa88296ec7e489444c839a",
+      "original_bytes": 31240,
+      "stored_bytes": 7624
+    },
+    "sos-2024-county-xml-19125": {
+      "path": "turnout/originals/sos-2024-county-xml-19125.gz",
+      "original_sha256": "67a22ffe2a62f396cca3797a2856ab2466c078f801d9d5f5ae38068f1244ce2e",
+      "stored_sha256": "7d578b4c1282b12ecb5aef3a35afe9a08e3d7a54c6b2e625704afb2c74e14bbd",
+      "original_bytes": 13016,
+      "stored_bytes": 13001
+    },
+    "sos-2024-county-status-19125": {
+      "path": "turnout/originals/sos-2024-county-status-19125.gz",
+      "original_sha256": "18a382127e8f3c614525a52353908d066c4df907cd7595ed660a970d91c0c948",
+      "stored_sha256": "e6803f9a190ea4d2ca69b5ff497c955045a5251668ce0fb117749121da4de13e",
+      "original_bytes": 681,
+      "stored_bytes": 332
+    },
+    "sos-2024-county-settings-19125": {
+      "path": "turnout/originals/sos-2024-county-settings-19125.gz",
+      "original_sha256": "1be75f6d1b8e27eeff4fec7b81a4f3dd2d8ab1073c0a4e46b0aa58851b942d47",
+      "stored_sha256": "ed9367ca1131bc36efbeebe771d673827b4a965ced3e15f9ad6549c9f5e99486",
+      "original_bytes": 31607,
+      "stored_bytes": 7817
+    },
+    "sos-2024-county-xml-19057": {
+      "path": "turnout/originals/sos-2024-county-xml-19057.gz",
+      "original_sha256": "560d84c2a2d5d3f2dc976c43068eea4ee6608324dd5198366c3ec7f75e45c28e",
+      "stored_sha256": "73a412002e84765e50e1e480f7804f20b16c676e1632288db670578ac141d2b6",
+      "original_bytes": 11016,
+      "stored_bytes": 11009
+    },
+    "sos-2024-county-status-19057": {
+      "path": "turnout/originals/sos-2024-county-status-19057.gz",
+      "original_sha256": "fec1e94f330a7b20db91bd23c79055c99a3faa0a8358967fd52b3ae8c600cdda",
+      "stored_sha256": "cfaefc0171510cff95211ede0aa55a1243fc22585cebd0a8af5ed4785430f9a1",
+      "original_bytes": 523,
+      "stored_bytes": 256
+    },
+    "sos-2024-county-settings-19057": {
+      "path": "turnout/originals/sos-2024-county-settings-19057.gz",
+      "original_sha256": "01e726fe70cf8a49b93e8e927d1def961130784dc35dba7b99d24444db542cf6",
+      "stored_sha256": "f822b86f46cb9028044360575e553455fac94e997be290aad9508674ffbce47a",
+      "original_bytes": 27798,
+      "stored_bytes": 7073
+    },
+    "sos-2024-county-xml-19167": {
+      "path": "turnout/originals/sos-2024-county-xml-19167.gz",
+      "original_sha256": "1e0fc49f6624faf9533003e2dcf5d840c15abcbcb927470646f4d83260b3d672",
+      "stored_sha256": "791fac5d941951e61907cfdc119d8514caa269f8ef7a54b9871726b1dbaca552",
+      "original_bytes": 9528,
+      "stored_bytes": 9539
+    },
+    "sos-2024-county-status-19167": {
+      "path": "turnout/originals/sos-2024-county-status-19167.gz",
+      "original_sha256": "7136c0b8c0c9f2949e98ae159a92cbf59726398579f84c00ea35e9fad4a41e5c",
+      "stored_sha256": "dd34254b7a772e6486664904cde73f867c6412bd007fe922fab10c91f224569b",
+      "original_bytes": 747,
+      "stored_bytes": 408
+    },
+    "sos-2024-county-settings-19167": {
+      "path": "turnout/originals/sos-2024-county-settings-19167.gz",
+      "original_sha256": "da419b96f7e830784c6eae65e7acd914a4ef2566a143f3641679a5eb2edd58ae",
+      "stored_sha256": "e6f244bfe29b42721f174a78687245341d8e28cd834ffdf72bd04c9f4ce47c95",
+      "original_bytes": 27433,
+      "stored_bytes": 6953
+    },
+    "sos-2024-county-xml-19127": {
+      "path": "turnout/originals/sos-2024-county-xml-19127.gz",
+      "original_sha256": "0392996c7481fad1bb8159321496a49dc47f655d9981132aaba9bf59a1191cf3",
+      "stored_sha256": "da66cb472ea27ddb410cebaeace866d7829ed5ee926fbfcaeaac6526e87895b3",
+      "original_bytes": 10690,
+      "stored_bytes": 10713
+    },
+    "sos-2024-county-status-19127": {
+      "path": "turnout/originals/sos-2024-county-status-19127.gz",
+      "original_sha256": "20c6b88cb5b1fabab2cc63a8fb9e50715ec332fbe1a0162c4c90e3e82d273300",
+      "stored_sha256": "9197c7feee5a8e191aa45404da3b074678cc3d9ee4e4b7e45de289487fbff0cb",
+      "original_bytes": 506,
+      "stored_bytes": 277
+    },
+    "sos-2024-county-settings-19127": {
+      "path": "turnout/originals/sos-2024-county-settings-19127.gz",
+      "original_sha256": "7642e2cc73cd3df925bc982050a8e6c89af7241994b15ad6a5ca4f7cc1143e60",
+      "stored_sha256": "eb37c31c1c9f9053a5a879058b6cdea1780689cfcb1f22c47ebfe05bbde42427",
+      "original_bytes": 31842,
+      "stored_bytes": 7580
+    },
+    "sos-2024-county-xml-19187": {
+      "path": "turnout/originals/sos-2024-county-xml-19187.gz",
+      "original_sha256": "63a578398aab0e8f512b2227077e028d394fba6ad4e5fc86dd242e24b49bc692",
+      "stored_sha256": "96d136ba9997286d44e830735836c54836ed61c6c4283cf687a3c79354653d8c",
+      "original_bytes": 14731,
+      "stored_bytes": 14681
+    },
+    "sos-2024-county-status-19187": {
+      "path": "turnout/originals/sos-2024-county-status-19187.gz",
+      "original_sha256": "45dd343038d25c3b2bfa49014cdea9be8356d99e1e598aac3eeead4483db0d4f",
+      "stored_sha256": "f199e898bca35515926e1503c645d41696b8c4ab6e6fdafb0d3495f523c8ff33",
+      "original_bytes": 780,
+      "stored_bytes": 388
+    },
+    "sos-2024-county-settings-19187": {
+      "path": "turnout/originals/sos-2024-county-settings-19187.gz",
+      "original_sha256": "839386be4ef70209ba10f0725dfb2d6b0ce397358617ee842efff9f710ff4cb5",
+      "stored_sha256": "8c3118b9cf3a0e06528dff3812eed1aa61d50bc2118333a2b3c02bb95ca21bdb",
+      "original_bytes": 32749,
+      "stored_bytes": 8004
+    },
+    "sos-2024-county-xml-19111": {
+      "path": "turnout/originals/sos-2024-county-xml-19111.gz",
+      "original_sha256": "18fdd6286d0437b0123c76d1c8b59f4cdb69e11905b5fc56674139f0b63913da",
+      "stored_sha256": "02cb9a6047a240b1c8189933117981548417be06c6d52e13313b0f962d25a7e4",
+      "original_bytes": 14928,
+      "stored_bytes": 14933
+    },
+    "sos-2024-county-status-19111": {
+      "path": "turnout/originals/sos-2024-county-status-19111.gz",
+      "original_sha256": "5748dbff282b701dfa50e6f747739bbf91f3378c7e2585a9e6bd7a6881a1bd67",
+      "stored_sha256": "1132f0db46af6d147a236c311ac9abd57e77827f9e5466a1337baa104bfdda03",
+      "original_bytes": 578,
+      "stored_bytes": 280
+    },
+    "sos-2024-county-settings-19111": {
+      "path": "turnout/originals/sos-2024-county-settings-19111.gz",
+      "original_sha256": "a5fc65f75e054730fc73b64318a2daceea0353e1ebc2e52eab53b2c8f0e24d9c",
+      "stored_sha256": "2b393d45bcc8e8964bd3746e9ed41368b76792c639af1c2d9f97f51499d566c8",
+      "original_bytes": 31800,
+      "stored_bytes": 7718
+    },
+    "sos-2024-county-xml-19015": {
+      "path": "turnout/originals/sos-2024-county-xml-19015.gz",
+      "original_sha256": "2019777a8a84f6563220fa3d8bf3f4f8d1cb7f4d64fe380f014534b1a2abd2f7",
+      "stored_sha256": "2d738647cc1fbe55ca6c99052dd15e07832cc139b34268e68cf4cde1a3e43819",
+      "original_bytes": 13817,
+      "stored_bytes": 13800
+    },
+    "sos-2024-county-status-19015": {
+      "path": "turnout/originals/sos-2024-county-status-19015.gz",
+      "original_sha256": "873b7ac8832397a462df32472d808e459558a3b5e14deaef5eeb46cdc9a5aaaa",
+      "stored_sha256": "d8c72223470c41ded49259fb3a3d6018ec7514bca916e18c6312bce3bf91fb58",
+      "original_bytes": 596,
+      "stored_bytes": 260
+    },
+    "sos-2024-county-settings-19015": {
+      "path": "turnout/originals/sos-2024-county-settings-19015.gz",
+      "original_sha256": "cc97cc91d546a5ad3175a4ac58595908f08e201f30fdd352f108b2f62dba3773",
+      "stored_sha256": "28dabbd5486724e0c526a520c9c716a5a65f8c25aadfedc0508ded71f2199640",
+      "original_bytes": 33683,
+      "stored_bytes": 8051
+    },
+    "sos-2024-county-xml-19017": {
+      "path": "turnout/originals/sos-2024-county-xml-19017.gz",
+      "original_sha256": "6d29cf9d241b95fc69e077761019df48d77a76b5bda5ea4c06f92618cc5cf18a",
+      "stored_sha256": "662ba2a532313fc114974a243239c073d5abb5ce1923342422697d6a2fddaea2",
+      "original_bytes": 10083,
+      "stored_bytes": 10083
+    },
+    "sos-2024-county-status-19017": {
+      "path": "turnout/originals/sos-2024-county-status-19017.gz",
+      "original_sha256": "c02f862fe3dbeed35ecf1322d3779c62b80f434a22982521ac4f18a8ab6617c2",
+      "stored_sha256": "327ac439a1f9485ea84b4af10bce4e041b8368c596b3ad137c7506fdb256c596",
+      "original_bytes": 791,
+      "stored_bytes": 386
+    },
+    "sos-2024-county-settings-19017": {
+      "path": "turnout/originals/sos-2024-county-settings-19017.gz",
+      "original_sha256": "47bda3fcefe8f5d2afc30fedbaa1a236e9e84d1f6855cd7cf0679c980ce5f523",
+      "stored_sha256": "ff7cec4f76fbfecbba8caa8f28cdc409b9aa37cc22f1ebd3095edbe73875511c",
+      "original_bytes": 31358,
+      "stored_bytes": 7877
+    },
+    "sos-2024-county-xml-19179": {
+      "path": "turnout/originals/sos-2024-county-xml-19179.gz",
+      "original_sha256": "de5acfb8748d83cb3d9c8e33739dcb7a40c1382bca5c5141c70d1d89bea877e0",
+      "stored_sha256": "fd4a2bd38e3b933b03eb2fa46e1d8e974bb01e946b1ad38932d6881dadc2b021",
+      "original_bytes": 13823,
+      "stored_bytes": 13799
+    },
+    "sos-2024-county-status-19179": {
+      "path": "turnout/originals/sos-2024-county-status-19179.gz",
+      "original_sha256": "4d1bd2350b7a29e7fcfbebbafb5882fdc56db0202a3c7f8de42e606411e1fb30",
+      "stored_sha256": "5ec386ab3064e1d158b99a3f8c7f4faf2711e5c1f429cc54ec6626de64e39d92",
+      "original_bytes": 590,
+      "stored_bytes": 284
+    },
+    "sos-2024-county-settings-19179": {
+      "path": "turnout/originals/sos-2024-county-settings-19179.gz",
+      "original_sha256": "75d03b38065a4fddb5eb69041aceeddb1026f5a27c1a98aa75e4fe7cfeafa857",
+      "stored_sha256": "239d5718a084fc6b1d3f960b51ba46dcba53463b6fb9efeb9f4f870eb94c106c",
+      "original_bytes": 31449,
+      "stored_bytes": 7556
+    },
+    "sos-2024-county-xml-19011": {
+      "path": "turnout/originals/sos-2024-county-xml-19011.gz",
+      "original_sha256": "b9cbee004b4115568c0c635772802e89c53430d3a5c1a2a03438f9f3b608ccdd",
+      "stored_sha256": "390fe191f882d0460012a6da36301d5537c6c60d14034cc3d2addccf244de742",
+      "original_bytes": 12848,
+      "stored_bytes": 12865
+    },
+    "sos-2024-county-status-19011": {
+      "path": "turnout/originals/sos-2024-county-status-19011.gz",
+      "original_sha256": "712dccde9058f76edfb3557ac91444d26e357d51f65a5e863e81ffd5f5258863",
+      "stored_sha256": "c06b6618f5cc93c5055db36d76c7a0262abbd8228940bcc5a24a1c23781df6bd",
+      "original_bytes": 727,
+      "stored_bytes": 417
+    },
+    "sos-2024-county-settings-19011": {
+      "path": "turnout/originals/sos-2024-county-settings-19011.gz",
+      "original_sha256": "60e63c388d9cf5b4cffe91dbfc15328e2094ff1387042f0d0439ee1c81da4d56",
+      "stored_sha256": "77a8a08ded137077591288e36c458222fd9aa2983cca5be3a9d4901e2a0f5d8a",
+      "original_bytes": 31723,
+      "stored_bytes": 7925
+    },
+    "sos-2024-county-xml-19149": {
+      "path": "turnout/originals/sos-2024-county-xml-19149.gz",
+      "original_sha256": "8f3d25a59eeb2bbc75f18a0144002fff58eabd0d751ee27e352957ac60b48053",
+      "stored_sha256": "e5c71bb814f828b1e0915165fe0aa892b062915b91fdc18b715a6f672bb6b074",
+      "original_bytes": 7724,
+      "stored_bytes": 7744
+    },
+    "sos-2024-county-status-19149": {
+      "path": "turnout/originals/sos-2024-county-status-19149.gz",
+      "original_sha256": "9b3db80914bdc0bcdb4c26b10ca7c986ccb6e3a4e4a681bf2390c068d5f74a57",
+      "stored_sha256": "f45c28e451db8613b6bbc91934168a6a7eb36c73d02528332c5e6bc2a2b2692d",
+      "original_bytes": 602,
+      "stored_bytes": 329
+    },
+    "sos-2024-county-settings-19149": {
+      "path": "turnout/originals/sos-2024-county-settings-19149.gz",
+      "original_sha256": "0e238064a2e3f757104f21fb0048a65b8c9adc8d31f7f5b5f571d5ef66643fb0",
+      "stored_sha256": "1efb8e5af7954f0cf26cc1eff284836476870c98238f93bb8ffd3352f71187b3",
+      "original_bytes": 29554,
+      "stored_bytes": 7301
+    },
+    "sos-2024-county-xml-19191": {
+      "path": "turnout/originals/sos-2024-county-xml-19191.gz",
+      "original_sha256": "4fb464bf8a3d483f29de4f8d924e1230adf11a5b58b3203baef66516e7283a7b",
+      "stored_sha256": "7ea0d86fbecf505bf2e8eb05cbe6696a017c6ffb9d6e935c3d98c7e7ef44c01a",
+      "original_bytes": 9719,
+      "stored_bytes": 9742
+    },
+    "sos-2024-county-status-19191": {
+      "path": "turnout/originals/sos-2024-county-status-19191.gz",
+      "original_sha256": "595c65e52ae312afba2eded0570f873493e23380393607b45bd76b2cd3e42ecf",
+      "stored_sha256": "bea1048ba0f57bd4e6c49b5a22603957e59bcbfe7331ffb7afe394c6bc49d6c2",
+      "original_bytes": 515,
+      "stored_bytes": 272
+    },
+    "sos-2024-county-settings-19191": {
+      "path": "turnout/originals/sos-2024-county-settings-19191.gz",
+      "original_sha256": "446552e104cc9b3ddecc8fe01a871efc1994c8d088e61de01ba180794289a0b0",
+      "stored_sha256": "d6cf61473bf407cdc686ad4400a0471a440a334bcec19ac266968dfb08261b1a",
+      "original_bytes": 31836,
+      "stored_bytes": 7813
+    },
+    "sos-2024-county-xml-19183": {
+      "path": "turnout/originals/sos-2024-county-xml-19183.gz",
+      "original_sha256": "d143a623c9e8c14e00db2ccc9a987c92517918d862910cd982656d5b4944b481",
+      "stored_sha256": "1ed0cada2e8edac1888f996a06023e4a2a4182acf077aed3c9c491076607f85b",
+      "original_bytes": 7938,
+      "stored_bytes": 7961
+    },
+    "sos-2024-county-status-19183": {
+      "path": "turnout/originals/sos-2024-county-status-19183.gz",
+      "original_sha256": "59c4806adc071f90965bce195615c99ebc64f132df33aa4fced6bc8f6575b930",
+      "stored_sha256": "68ae7001ace02b07619b22bd8dc429556eb5eeda5fcbec61c5140dc53ad16f92",
+      "original_bytes": 367,
+      "stored_bytes": 195
+    },
+    "sos-2024-county-settings-19183": {
+      "path": "turnout/originals/sos-2024-county-settings-19183.gz",
+      "original_sha256": "9371a8f61408eaa6907dcd05c77f1ecb180c514744b768e724dc5932ca319f69",
+      "stored_sha256": "c07dcd141931f0e68f44cdb273ea5d2de4ad3c4339c50298ebf02b530ee8966a",
+      "original_bytes": 30150,
+      "stored_bytes": 7402
+    },
+    "sos-2024-county-xml-19059": {
+      "path": "turnout/originals/sos-2024-county-xml-19059.gz",
+      "original_sha256": "03b5e32e306acc9e6cd9f1c3933c6d2729b6b6ff815aab84560aabee3f1dbfb7",
+      "stored_sha256": "ae0212697eb6707bad03b394267c4941b9422734230ce537cdedf311be8912af",
+      "original_bytes": 6522,
+      "stored_bytes": 6545
+    },
+    "sos-2024-county-status-19059": {
+      "path": "turnout/originals/sos-2024-county-status-19059.gz",
+      "original_sha256": "2660c099b4bb08a7e5d7676ff77405667367951bd8926594dd89e0412eeeb440",
+      "stored_sha256": "da10c3574e7c9bec0396ad2cf87712f69505cce72cef5c22dccd9ecfc06a20f7",
+      "original_bytes": 460,
+      "stored_bytes": 176
+    },
+    "sos-2024-county-settings-19059": {
+      "path": "turnout/originals/sos-2024-county-settings-19059.gz",
+      "original_sha256": "ebfd0e1b50b36093226afdc4e9384917fecb8f4bcfb0f16ee8e3322b98a431c2",
+      "stored_sha256": "3168ec758c94bbc11cf202c1acc306f46b3f18ac496b075a6bc8327860ad2d26",
+      "original_bytes": 29907,
+      "stored_bytes": 7434
+    },
+    "sos-2024-county-xml-19027": {
+      "path": "turnout/originals/sos-2024-county-xml-19027.gz",
+      "original_sha256": "304301a2c2229430f6a146143b264063391d43508e14790d166dd980780c26ef",
+      "stored_sha256": "f408e0019347096c5f3bb89d82a6f0acb47f7eea54130921222fe1c0693ba799",
+      "original_bytes": 10853,
+      "stored_bytes": 10872
+    },
+    "sos-2024-county-status-19027": {
+      "path": "turnout/originals/sos-2024-county-status-19027.gz",
+      "original_sha256": "dd0558c21f3c0354c3b87e0ca98699ca6cf4e383226bc75bf05e9a83c9d8460d",
+      "stored_sha256": "7407c6ddcef4ac27b446527359d0182d7aba51f5f5cd5179c639f0d1d8760960",
+      "original_bytes": 667,
+      "stored_bytes": 342
+    },
+    "sos-2024-county-settings-19027": {
+      "path": "turnout/originals/sos-2024-county-settings-19027.gz",
+      "original_sha256": "73a6c096579effbb1cb43b5fa278dad8e6e43c4c7da6a3526b91e18d2ddaf814",
+      "stored_sha256": "5ecc3a2a96c2c8f25c8978524d4e37c3d728f422c30b8259cc3d21f78452e244",
+      "original_bytes": 32310,
+      "stored_bytes": 7811
+    },
+    "sos-2024-county-xml-19105": {
+      "path": "turnout/originals/sos-2024-county-xml-19105.gz",
+      "original_sha256": "cc0a17168077aefadf2bc232f31c3ec81783ff2567fb6e950302401468cd2b91",
+      "stored_sha256": "3f450bd70adbeef77ee00e7b0e29e0b10104674eb38ab19a44f72de00ee80572",
+      "original_bytes": 10534,
+      "stored_bytes": 10550
+    },
+    "sos-2024-county-status-19105": {
+      "path": "turnout/originals/sos-2024-county-status-19105.gz",
+      "original_sha256": "b7c3b1c5a11c1f1baf7b9e86fae3ad8abc79f4586003e48ac46b3709ec8e96e0",
+      "stored_sha256": "c805828fb09891919a4226b46c419634cce7ae7912c6f64a62bb067c09ae8ba2",
+      "original_bytes": 592,
+      "stored_bytes": 339
+    },
+    "sos-2024-county-settings-19105": {
+      "path": "turnout/originals/sos-2024-county-settings-19105.gz",
+      "original_sha256": "8493feebf47c71b9d8ca6b575248fbc98ba37e2898eee6103b602df0bb803300",
+      "stored_sha256": "96e78e81a571ac4042f72c85426d6a2c5cc82f018e1beafeb0c6795d46c63d91",
+      "original_bytes": 31244,
+      "stored_bytes": 7691
+    },
+    "sos-2024-county-xml-19123": {
+      "path": "turnout/originals/sos-2024-county-xml-19123.gz",
+      "original_sha256": "18a861a024d4cb94ca4d2e8479322caba6391297ccb0c8574272f9996bcc7348",
+      "stored_sha256": "9bde9c428dd5ce78e082bb0b0e503b72f353ac8e9becc84ca21ce765e10ea9bc",
+      "original_bytes": 8588,
+      "stored_bytes": 8607
+    },
+    "sos-2024-county-status-19123": {
+      "path": "turnout/originals/sos-2024-county-status-19123.gz",
+      "original_sha256": "15c5e55783b89347bd0513e35a6a25c4077109a35301bdcb518d33b28f99e665",
+      "stored_sha256": "d34439cd247c249fc5af7e352583cea54e2bf8488696ec4f527174c08a5dc80c",
+      "original_bytes": 367,
+      "stored_bytes": 227
+    },
+    "sos-2024-county-settings-19123": {
+      "path": "turnout/originals/sos-2024-county-settings-19123.gz",
+      "original_sha256": "67f20bf3f64a8065269c5e75e1a52077a8dfdb64797315b5b7c3981de4ac5ab1",
+      "stored_sha256": "f7baf1e162dc388e2d8aa2023b6aa37940a2992fb6b16bf798f092c0970155e6",
+      "original_bytes": 31614,
+      "stored_bytes": 7693
+    },
+    "sos-2024-county-xml-19097": {
+      "path": "turnout/originals/sos-2024-county-xml-19097.gz",
+      "original_sha256": "a909812888e995d3be9f06951e236044280cf7f95b87bea7db48bba5ecef0483",
+      "stored_sha256": "79b7679a3709af2f3999fb4625316a8c3f119e5a3bf396cd88762c24f6ff5279",
+      "original_bytes": 9574,
+      "stored_bytes": 9570
+    },
+    "sos-2024-county-status-19097": {
+      "path": "turnout/originals/sos-2024-county-status-19097.gz",
+      "original_sha256": "ccec10973eb4f61fbbf2e4c0faf379eebc058238e46bba4bed4fdfa33034a043",
+      "stored_sha256": "694b3358007eba00ee2509a468fe8f72d1efc756317830729d10efdc01f3821e",
+      "original_bytes": 716,
+      "stored_bytes": 338
+    },
+    "sos-2024-county-settings-19097": {
+      "path": "turnout/originals/sos-2024-county-settings-19097.gz",
+      "original_sha256": "863375f73d697ec2b94996b5fb298b87d6dbca05b8c50982f57194d510e8261b",
+      "stored_sha256": "3bbc9894c6025ca86e6a1eb467776c1a8364ef4b064b3a11264cabe290e2289b",
+      "original_bytes": 31926,
+      "stored_bytes": 7979
+    },
+    "sos-2024-county-xml-19019": {
+      "path": "turnout/originals/sos-2024-county-xml-19019.gz",
+      "original_sha256": "97d7cf884bf9a3d4fd56407ca01fa3c8b42f40523dbb023751481e28f066c3ab",
+      "stored_sha256": "e18181e0b06c14286ecf153adc03cb782b007f96e15d2c30675dd4a94c046159",
+      "original_bytes": 9609,
+      "stored_bytes": 9625
+    },
+    "sos-2024-county-status-19019": {
+      "path": "turnout/originals/sos-2024-county-status-19019.gz",
+      "original_sha256": "abbdcac09d4039104eec6147b8739a67c360ddd50e71b12d30f4c22c0e548632",
+      "stored_sha256": "06fd37ff2e5984a1f0d7c0bffbd53028f8d09e15db990dc5cb1843c8a3e8b09f",
+      "original_bytes": 528,
+      "stored_bytes": 282
+    },
+    "sos-2024-county-settings-19019": {
+      "path": "turnout/originals/sos-2024-county-settings-19019.gz",
+      "original_sha256": "8a6db9611cf0749beb5fcb66524021916bf2370288c379564d23a415550799fc",
+      "stored_sha256": "c5c4dae694a47344a0eedbfaaebcdceaf969c5b38b21fb0cbfc107ac6355860b",
+      "original_bytes": 27461,
+      "stored_bytes": 6964
+    },
+    "sos-2024-county-xml-19031": {
+      "path": "turnout/originals/sos-2024-county-xml-19031.gz",
+      "original_sha256": "63b9405eb2663e81f39835db1549adabf7518f6504a7a12eb530f9e6c0c55bec",
+      "stored_sha256": "8444c1e75adc2d8747e8aac7e11dd4bbdb603bae1fc686b87de94a1b3069fa7d",
+      "original_bytes": 8553,
+      "stored_bytes": 8574
+    },
+    "sos-2024-county-status-19031": {
+      "path": "turnout/originals/sos-2024-county-status-19031.gz",
+      "original_sha256": "8d312352d521976f43a88951ca4576202a048efb2272c02e14cf57f4333f4c25",
+      "stored_sha256": "fc70afca04d661ad637f254d85174bf4b496a52557be3a5d9cd1c9defe6a6df8",
+      "original_bytes": 488,
+      "stored_bytes": 300
+    },
+    "sos-2024-county-settings-19031": {
+      "path": "turnout/originals/sos-2024-county-settings-19031.gz",
+      "original_sha256": "2aa8c81cb5c91f8561d80e950cff1fcd306526b733e17fb592c7f66b05827744",
+      "stored_sha256": "b236dec23755ce358d49e06b3d818299ddd3ac35e7b661449f6d1e6a498ddfb8",
+      "original_bytes": 31158,
+      "stored_bytes": 7690
+    },
+    "sos-2024-county-xml-19055": {
+      "path": "turnout/originals/sos-2024-county-xml-19055.gz",
+      "original_sha256": "85db9c3bb3fac017d31351311c16acfbcf99e0392383069c0a50704484c01476",
+      "stored_sha256": "1e7af9a67da6a748782d1ed411b623705b36e05e9e06bbc8559e1267b7422c73",
+      "original_bytes": 7674,
+      "stored_bytes": 7694
+    },
+    "sos-2024-county-status-19055": {
+      "path": "turnout/originals/sos-2024-county-status-19055.gz",
+      "original_sha256": "82b8c2c64ba38537304cb7a1276285512c700adeac658cbd7535fd74faa5f499",
+      "stored_sha256": "2d083350f1b54d74f93b477510df62a1924d21bb40d42c344dc53063d7841f25",
+      "original_bytes": 502,
+      "stored_bytes": 295
+    },
+    "sos-2024-county-settings-19055": {
+      "path": "turnout/originals/sos-2024-county-settings-19055.gz",
+      "original_sha256": "6b3a99e990b5f1985481160e4f7660c5025fb94089962a323140175a754653ca",
+      "stored_sha256": "35b92befaf3beb6615e176174b989e16ae6ea8ad3ae70b47399b6658848ae1df",
+      "original_bytes": 29409,
+      "stored_bytes": 7249
+    },
+    "sos-2024-county-xml-19121": {
+      "path": "turnout/originals/sos-2024-county-xml-19121.gz",
+      "original_sha256": "21f62cfa4ac5c54947bc9b644c5e1a3d236cf9a7814923ad2a9b18f03eba4444",
+      "stored_sha256": "41a0eb7aa2f729f191265e62f56b4a979f4b6f3116de1adeb8e8091b2e1c452b",
+      "original_bytes": 8778,
+      "stored_bytes": 8796
+    },
+    "sos-2024-county-status-19121": {
+      "path": "turnout/originals/sos-2024-county-status-19121.gz",
+      "original_sha256": "88c06e9bf21466b7ed01593b064e19211069d67ee2e2e66bff6ae9429caee949",
+      "stored_sha256": "f7a2dad5d590bc5bdfa6628868fedbe72b9244dc88f0d1a2aaa5daa81a6274fb",
+      "original_bytes": 473,
+      "stored_bytes": 287
+    },
+    "sos-2024-county-settings-19121": {
+      "path": "turnout/originals/sos-2024-county-settings-19121.gz",
+      "original_sha256": "5d0e90fa53df9b5518053115ff59ed92c474ac7ac04355b29284ea7dcd1e4ce5",
+      "stored_sha256": "8c0cfa8e936d2be8e80c7bfd2e1edb9e121201ca8dd9d545687f97e2e4e262b6",
+      "original_bytes": 31623,
+      "stored_bytes": 7759
+    },
+    "sos-2024-county-xml-19157": {
+      "path": "turnout/originals/sos-2024-county-xml-19157.gz",
+      "original_sha256": "7dcce02a713f0507396d33e121a787cb2b832cbdbe28b201cf6bad94635f8993",
+      "stored_sha256": "f2c3bf732e1eedf05f227dd5575fe3905d3f96d5d909cc3c1909b4e217301855",
+      "original_bytes": 9425,
+      "stored_bytes": 9448
+    },
+    "sos-2024-county-status-19157": {
+      "path": "turnout/originals/sos-2024-county-status-19157.gz",
+      "original_sha256": "8ecfbd20ede31296a69b72af19a911868026b7f1cccf93aa2e4b58fa634fd07b",
+      "stored_sha256": "0515bdfdabeb3d0a8d3ab2e1bd874f31e90220ec89ea9131568e3f2b72dfec1e",
+      "original_bytes": 364,
+      "stored_bytes": 213
+    },
+    "sos-2024-county-settings-19157": {
+      "path": "turnout/originals/sos-2024-county-settings-19157.gz",
+      "original_sha256": "7472771b58ee390cdd3bec37a015b37f898f6da0a1f753a8061564c1d1ff077a",
+      "stored_sha256": "0e998ff1e77f79a29a73a7417d99dbf6d718bc91d2a86f6c1b518650494a1892",
+      "original_bytes": 31227,
+      "stored_bytes": 7746
+    },
+    "sos-2024-county-xml-19065": {
+      "path": "turnout/originals/sos-2024-county-xml-19065.gz",
+      "original_sha256": "1a8bd38fedf8b63cb9d34921a84221f93e51920f842282026b593fb7c3f0a5ea",
+      "stored_sha256": "386ef5a8986c43520e8d0d9bcf9dbd8623ef5faad1b278b4c9fdb29f38df5255",
+      "original_bytes": 13392,
+      "stored_bytes": 13389
+    },
+    "sos-2024-county-status-19065": {
+      "path": "turnout/originals/sos-2024-county-status-19065.gz",
+      "original_sha256": "34550305bcfc73042464c3c122740877867f827c06e3ee3488bcceb0b246ac8b",
+      "stored_sha256": "305a92e256ffc273181303893a5bca3ff74cb9b6176e759521bbb088a35503ff",
+      "original_bytes": 810,
+      "stored_bytes": 370
+    },
+    "sos-2024-county-settings-19065": {
+      "path": "turnout/originals/sos-2024-county-settings-19065.gz",
+      "original_sha256": "6c310ea535e4c0bfee7bc6b9b79824b6309e4bdf6f07eb0d4049851c434d1e7e",
+      "stored_sha256": "25a260d5b364431f506594702fb4c404ce52daff637e76aa6acd75b2458b445e",
+      "original_bytes": 31891,
+      "stored_bytes": 7739
+    },
+    "sos-2024-county-xml-19095": {
+      "path": "turnout/originals/sos-2024-county-xml-19095.gz",
+      "original_sha256": "2d6fa30552a421d108c89c964dc96f452c59c52f09c9b7fab0693e624da89d63",
+      "stored_sha256": "bebe0576b7c2c1079fc31db292d6e26ae68611723e477fe17321cbe9dd912957",
+      "original_bytes": 7687,
+      "stored_bytes": 7704
+    },
+    "sos-2024-county-status-19095": {
+      "path": "turnout/originals/sos-2024-county-status-19095.gz",
+      "original_sha256": "02c6b379f0ada2ecdd2bb6253dca47839acb11fadfa7c97666a0cf509317693b",
+      "stored_sha256": "4d08dd815b2df1131ce92431e5394485a98d0b54dbfff45b5752b48a81ea59d2",
+      "original_bytes": 471,
+      "stored_bytes": 297
+    },
+    "sos-2024-county-settings-19095": {
+      "path": "turnout/originals/sos-2024-county-settings-19095.gz",
+      "original_sha256": "2cf3bcc45a973b214b5af1e635bc2dc907b49c5e326572d8033285f63a695134",
+      "stored_sha256": "427d508ecb686a2427b30f6d504b2798bb1fd60e72e595f34fe943b193148fd7",
+      "original_bytes": 29485,
+      "stored_bytes": 7275
+    },
+    "sos-2024-county-xml-19087": {
+      "path": "turnout/originals/sos-2024-county-xml-19087.gz",
+      "original_sha256": "0c21aeb7ccf786f7a03aea0806912b7902ff18c6008d18366a711cefccec602e",
+      "stored_sha256": "3b135d9ad23ced24d6c404c6f9b7607f3fc227cd72c9c5f26c1e9ce21ea5e9c1",
+      "original_bytes": 8321,
+      "stored_bytes": 8344
+    },
+    "sos-2024-county-status-19087": {
+      "path": "turnout/originals/sos-2024-county-status-19087.gz",
+      "original_sha256": "340f2897fd569fc74fac9fc3550b3a748a6d526e07f584c312ca3376244c113f",
+      "stored_sha256": "57cae9fa73f5fd4f1ec70e9c2fdf2b1a9360e4d11de2292c96c247b74672a41a",
+      "original_bytes": 374,
+      "stored_bytes": 187
+    },
+    "sos-2024-county-settings-19087": {
+      "path": "turnout/originals/sos-2024-county-settings-19087.gz",
+      "original_sha256": "ac0278b4d8487cbd1fc80be37256bf6bbf1beb3ae12f2711d8ae896607185c40",
+      "stored_sha256": "719b455b1555f0e541e178cea17baa4de46fc4616870aae4c498ada849c72a61",
+      "original_bytes": 27497,
+      "stored_bytes": 7001
+    },
+    "sos-2024-county-xml-19043": {
+      "path": "turnout/originals/sos-2024-county-xml-19043.gz",
+      "original_sha256": "a336b62a5bce1cf7ca48dcbe700bad23207694522bb3cc58ff9281b7d391e261",
+      "stored_sha256": "2a703e63660c00250cd2f4174bed29cc7f4e4835c26b1e24387e4788b9105f33",
+      "original_bytes": 7131,
+      "stored_bytes": 7151
+    },
+    "sos-2024-county-status-19043": {
+      "path": "turnout/originals/sos-2024-county-status-19043.gz",
+      "original_sha256": "9b10e84ccb4515887cd0f894df390831779e2f19517a36f14a76b6851075e47d",
+      "stored_sha256": "fa4f70caeb2c8012a4ed8244245631e0009c8dd5919d956e996163687d2d34ae",
+      "original_bytes": 457,
+      "stored_bytes": 266
+    },
+    "sos-2024-county-settings-19043": {
+      "path": "turnout/originals/sos-2024-county-settings-19043.gz",
+      "original_sha256": "05d54c4f718f77489ec724dfb175b4ba565f0ee4ecc428e4d538f6befe66f162",
+      "stored_sha256": "c42ba779545ca5848c02385e98d0e9221a53eb76092adcc82710f0cb0ae29b75",
+      "original_bytes": 29326,
+      "stored_bytes": 7256
+    },
+    "sos-2024-county-xml-19171": {
+      "path": "turnout/originals/sos-2024-county-xml-19171.gz",
+      "original_sha256": "e7ce55ffae8ad47ffad0d5f5a0c61b74d5f7d3c3f85e9c35f5e887fd3363cb61",
+      "stored_sha256": "e92ae39bdd6cc0c63098ed940f0bf5f45bab2494bf536524318fe9eab9c398f4",
+      "original_bytes": 10484,
+      "stored_bytes": 10503
+    },
+    "sos-2024-county-status-19171": {
+      "path": "turnout/originals/sos-2024-county-status-19171.gz",
+      "original_sha256": "18f9930c29244a63b256a41be2a242b45d42375b0f59ddaaca00e21358283376",
+      "stored_sha256": "5c507c96522dd373989dbcb750a0240ca3ebfb63e98f044a8a2cb1b3fcf03a5e",
+      "original_bytes": 404,
+      "stored_bytes": 251
+    },
+    "sos-2024-county-settings-19171": {
+      "path": "turnout/originals/sos-2024-county-settings-19171.gz",
+      "original_sha256": "7c3f110cfeb098797cec261ec419478f0cbca324150137376f594048d5a8f46b",
+      "stored_sha256": "91d5c6969136ad392f7595eb0938c23af2bf101adba631ea6974cb9048441ddd",
+      "original_bytes": 32468,
+      "stored_bytes": 7826
+    },
+    "sos-2024-county-xml-19041": {
+      "path": "turnout/originals/sos-2024-county-xml-19041.gz",
+      "original_sha256": "7adfe7785d7e2c8f296508472871b2a4360ac9400f39ae3f5fe380c9827586db",
+      "stored_sha256": "46707cd7d81312a2da13f6664d51f1d2a67126e634fb70dc5d93da3be1afbb41",
+      "original_bytes": 7877,
+      "stored_bytes": 7893
+    },
+    "sos-2024-county-status-19041": {
+      "path": "turnout/originals/sos-2024-county-status-19041.gz",
+      "original_sha256": "656efc6e9e8bda1fb24e69cfc6cb594bc24a9377a0cdacdd6633bbcfa68f7dc1",
+      "stored_sha256": "948d4cc64c72058e9853c3e6e95041b7519fff0a5a0d7bed5d3faf4b894f4069",
+      "original_bytes": 555,
+      "stored_bytes": 316
+    },
+    "sos-2024-county-settings-19041": {
+      "path": "turnout/originals/sos-2024-county-settings-19041.gz",
+      "original_sha256": "952f64626ce3ff5b6c21a9c4fef5c8a4220e47062c5d02a83462c29a41a89826",
+      "stored_sha256": "8bef82d13054b58b394456216f2d26b57744953ba41d4bd106b59f99f4ad1adc",
+      "original_bytes": 31008,
+      "stored_bytes": 7816
+    },
+    "sos-2024-county-xml-19083": {
+      "path": "turnout/originals/sos-2024-county-xml-19083.gz",
+      "original_sha256": "97f81b86f13164bfdc1d3b666f8c1ed9056fa1bd50c3f8372e73da3ac8839f7c",
+      "stored_sha256": "2bd3084a39b731adea28de57ab131acded5657186dfab9feea7d2b7087d4b440",
+      "original_bytes": 6614,
+      "stored_bytes": 6637
+    },
+    "sos-2024-county-status-19083": {
+      "path": "turnout/originals/sos-2024-county-status-19083.gz",
+      "original_sha256": "359b17eb6c20f6739adb1711e67473e0387c121be7a4ea1da8ce2cbf223cf74d",
+      "stored_sha256": "a585befbd3850c3ff25fb31871737c1384f7f879940b1ff7d37949de7c3be9eb",
+      "original_bytes": 367,
+      "stored_bytes": 231
+    },
+    "sos-2024-county-settings-19083": {
+      "path": "turnout/originals/sos-2024-county-settings-19083.gz",
+      "original_sha256": "70146b112bb6498c8dd37989dbeec6617347cad2bde772404f735f340ec9af54",
+      "stored_sha256": "569ec242379801bf6660d341f10ea54396ff487ae16d23d7dd33fd806c7e7b5c",
+      "original_bytes": 30153,
+      "stored_bytes": 7481
+    },
+    "sos-2024-county-xml-19109": {
+      "path": "turnout/originals/sos-2024-county-xml-19109.gz",
+      "original_sha256": "94199a25be314eea18e8029f59b5c12c7958163a553d656451fc64e3a51e091d",
+      "stored_sha256": "9aa84a1f3d9f7dcea31b15b8f47e7918122b28814ef941803830b543360750f8",
+      "original_bytes": 8352,
+      "stored_bytes": 8358
+    },
+    "sos-2024-county-status-19109": {
+      "path": "turnout/originals/sos-2024-county-status-19109.gz",
+      "original_sha256": "0796dbfe884ee30804513e148bb11bbde5519a59cf08afea5896594e9e4adaa4",
+      "stored_sha256": "4bb79abbed1411efb8cfbc019a0d7fca20e08f00f499befef3799adb49d10c8d",
+      "original_bytes": 494,
+      "stored_bytes": 231
+    },
+    "sos-2024-county-settings-19109": {
+      "path": "turnout/originals/sos-2024-county-settings-19109.gz",
+      "original_sha256": "8155cbaf33f60a0bc6df5cf1f7b991f4dbd78672f00738fc0b5c2d0ce8104c26",
+      "stored_sha256": "9acbc14dc5152cc11d283b102d7a4864b0b425cbf9183370e70a39bcd2f52b69",
+      "original_bytes": 29213,
+      "stored_bytes": 7303
+    },
+    "sos-2024-county-xml-19101": {
+      "path": "turnout/originals/sos-2024-county-xml-19101.gz",
+      "original_sha256": "b1ccaa7d6b166abf252bb67a799ab3d55525941f53aa9a8f60311ee635246bce",
+      "stored_sha256": "42d32dcea7d291889ab41b00bc563e96efb42b5b188b6ba563f52900e618063d",
+      "original_bytes": 10569,
+      "stored_bytes": 10574
+    },
+    "sos-2024-county-status-19101": {
+      "path": "turnout/originals/sos-2024-county-status-19101.gz",
+      "original_sha256": "14a24a65dee607cd32a040356c7da8925909db84c1712e384b406ad74272df7d",
+      "stored_sha256": "12afda971d51c5d7f1737406dbe8ce34ee0615cff64a5e35e091929b7e8ccc6a",
+      "original_bytes": 595,
+      "stored_bytes": 341
+    },
+    "sos-2024-county-settings-19101": {
+      "path": "turnout/originals/sos-2024-county-settings-19101.gz",
+      "original_sha256": "b079414f1e67d0cfb295cbfb695b68eb8ae2f37bb3a581312e2319148bba526d",
+      "stored_sha256": "1c47f28c929a0e906e75e446d74e828ee30b59a2201a9cb1a07f249ae59db130",
+      "original_bytes": 31648,
+      "stored_bytes": 7868
+    },
+    "sos-2024-county-xml-19129": {
+      "path": "turnout/originals/sos-2024-county-xml-19129.gz",
+      "original_sha256": "029e2c9c83345a1ae0c575627ae76f7dd737920bcdc28320436e69194d35c7c5",
+      "stored_sha256": "1cda55178ed26fc4b8bf88e21d2a2d9747e409ef575c4c24f2a775d6441070ac",
+      "original_bytes": 8910,
+      "stored_bytes": 8933
+    },
+    "sos-2024-county-status-19129": {
+      "path": "turnout/originals/sos-2024-county-status-19129.gz",
+      "original_sha256": "397d596b5e104fdeaa606d5ff7194e5e25302e09eff6c21c5e1d0f5149173a2e",
+      "stored_sha256": "7fa12d32c73075a82a8fdded8a6a0bad4e76230f1fa0feee7320cb1aae84c4b4",
+      "original_bytes": 534,
+      "stored_bytes": 320
+    },
+    "sos-2024-county-settings-19129": {
+      "path": "turnout/originals/sos-2024-county-settings-19129.gz",
+      "original_sha256": "97faecec5627ef3c26a7ae5655d64a90485db2a6df0468a78edff9f9d6f0bca7",
+      "stored_sha256": "16a52f532680ec0f1f4433294c848873877904777223fbf5c17a9c9f9542ba55",
+      "original_bytes": 31228,
+      "stored_bytes": 7822
+    },
+    "sos-2024-county-xml-19023": {
+      "path": "turnout/originals/sos-2024-county-xml-19023.gz",
+      "original_sha256": "7945e4af1c3859ede18ee667b9f5d8fa34bf9f4d51d46b684d93445206cc1d9f",
+      "stored_sha256": "afb9d731bcd82dcc10b9319d6a162b41725f32ecee4fc1432a6835e1f36b1e44",
+      "original_bytes": 6929,
+      "stored_bytes": 6949
+    },
+    "sos-2024-county-status-19023": {
+      "path": "turnout/originals/sos-2024-county-status-19023.gz",
+      "original_sha256": "f6ee266137a3ea36460e6f508a0acebe597bb9c50535d6966781f9667e1f6cd2",
+      "stored_sha256": "ce3131e1522b04c23dbe71a3117b7ae322ef5d3ecc54e4fcedce1346a7172934",
+      "original_bytes": 280,
+      "stored_bytes": 176
+    },
+    "sos-2024-county-settings-19023": {
+      "path": "turnout/originals/sos-2024-county-settings-19023.gz",
+      "original_sha256": "c3e228d5598852a3dc52bca42f8220863dc01cb734d7be17f6be5244cc54d455",
+      "stored_sha256": "00740386bd31a0f3ccc6c576a1c3b70ef74e1d0dd8071a92812dd2815a96ca04",
+      "original_bytes": 31269,
+      "stored_bytes": 7594
+    },
+    "sos-2024-county-xml-19085": {
+      "path": "turnout/originals/sos-2024-county-xml-19085.gz",
+      "original_sha256": "732a5e82122a5db286f970c0d5e9423e7aeb55499ab53df5aa0a44fee205c430",
+      "stored_sha256": "5bc428a9de26c714a807d9071353889728b7f4328e521632715b80c539b27609",
+      "original_bytes": 8509,
+      "stored_bytes": 8527
+    },
+    "sos-2024-county-status-19085": {
+      "path": "turnout/originals/sos-2024-county-status-19085.gz",
+      "original_sha256": "21c1cd0577669829e89e4a54421bb81984d6b8d5863704abf20fda4c2c82221d",
+      "stored_sha256": "ed43894e71e72bfe7349606673a2f6f5e042b8d4279fad0075c96e3a6307efe7",
+      "original_bytes": 518,
+      "stored_bytes": 273
+    },
+    "sos-2024-county-settings-19085": {
+      "path": "turnout/originals/sos-2024-county-settings-19085.gz",
+      "original_sha256": "59769cfe48cc034c8ebbde8483735345e9f8ee9835ada2b46cd7033af2066e5f",
+      "stored_sha256": "a371ad3a8fd20f038a22515d5a5ac69681725660002b241fe414391222a8d6f7",
+      "original_bytes": 31619,
+      "stored_bytes": 7733
+    },
+    "sos-2024-county-xml-19067": {
+      "path": "turnout/originals/sos-2024-county-xml-19067.gz",
+      "original_sha256": "b3dbdaf47ba5267fe680a091164b46d23ef45c8bb4f3ae8edd7551c9caae75cf",
+      "stored_sha256": "1ac76bb90f91808d97886bf8371f45e6d2d371999bc97f983afbcb2badfa7a97",
+      "original_bytes": 7523,
+      "stored_bytes": 7546
+    },
+    "sos-2024-county-status-19067": {
+      "path": "turnout/originals/sos-2024-county-status-19067.gz",
+      "original_sha256": "ed0ffe1abf264f2ea9cb974323f68747d8d1177ae33edfac6dd68a4a3b6be24e",
+      "stored_sha256": "fb22a8c22a62636ae895d5aec412768bd182e4adf2ace3c2e93bc0005c418190",
+      "original_bytes": 451,
+      "stored_bytes": 286
+    },
+    "sos-2024-county-settings-19067": {
+      "path": "turnout/originals/sos-2024-county-settings-19067.gz",
+      "original_sha256": "2ecc987c0d9f5f9a481b9055813c4210a18b4ac83c5ed64122cd01c699ea500c",
+      "stored_sha256": "15b4249e9046be3f7142fb8b40e0c1c4d2aab31c6abdfaea27a639fe1f60c542",
+      "original_bytes": 31196,
+      "stored_bytes": 7614
+    },
+    "sos-2024-county-xml-19079": {
+      "path": "turnout/originals/sos-2024-county-xml-19079.gz",
+      "original_sha256": "57c23d8c45efa93b5947856fb509876e7c1485bec78477d926b6cba5e6878ac8",
+      "stored_sha256": "56a0a4b210ba12b6a26f1896767a9cbe183e5a2e993381866bab86d3b4ec0ecf",
+      "original_bytes": 8081,
+      "stored_bytes": 8104
+    },
+    "sos-2024-county-status-19079": {
+      "path": "turnout/originals/sos-2024-county-status-19079.gz",
+      "original_sha256": "c9c7794f53704fc04a6a9104e5e117b75df6189b675bf4324cfb043015dafa25",
+      "stored_sha256": "c7dd2c4bed98f739b4e5d49249b97f3681f58b2fb11b46ff8f6c3cf5e3cbcbb9",
+      "original_bytes": 357,
+      "stored_bytes": 192
+    },
+    "sos-2024-county-settings-19079": {
+      "path": "turnout/originals/sos-2024-county-settings-19079.gz",
+      "original_sha256": "cd311374577f3b57a2bec19d1c02a2760945eb6db52b3057b7641bebbdc231e4",
+      "stored_sha256": "ab1fc2ce34394d660ad67b072907437af5d97731514df5efcb034405c46b3e48",
+      "original_bytes": 32074,
+      "stored_bytes": 7861
+    },
+    "sos-2024-county-xml-19021": {
+      "path": "turnout/originals/sos-2024-county-xml-19021.gz",
+      "original_sha256": "82ebb4ad7c02ff6de6ca8d5aa1c77770d24130fbe8c87e91f91db01e26744b15",
+      "stored_sha256": "214de86a7d9bb8148287e2442649885492151ad5cccc757a9a970cdc7e26889d",
+      "original_bytes": 7181,
+      "stored_bytes": 7199
+    },
+    "sos-2024-county-status-19021": {
+      "path": "turnout/originals/sos-2024-county-status-19021.gz",
+      "original_sha256": "b80e20d282446c367a67b0c12fc6c73eadd0fc2dba486c75b8c96ca7c3bd7031",
+      "stored_sha256": "84955fb547e7a6ae108981327a25bb4cc38ebcd9cf992720123a81120b8fc0b2",
+      "original_bytes": 340,
+      "stored_bytes": 199
+    },
+    "sos-2024-county-settings-19021": {
+      "path": "turnout/originals/sos-2024-county-settings-19021.gz",
+      "original_sha256": "b70f2ff7051fc2b872c6c7c7ab23705ef4341024da8f296688c445f98237bbcf",
+      "stored_sha256": "74d5fdf4cbfef4bbf099a4fc398c7cc85ebcdf6194dcf71057457e003dcadba3",
+      "original_bytes": 31531,
+      "stored_bytes": 7882
+    },
+    "sos-2024-county-xml-19141": {
+      "path": "turnout/originals/sos-2024-county-xml-19141.gz",
+      "original_sha256": "42593cb80b9a3001e8a9eb08312fdecaabadb98e777be00b02abe4b98cc168e7",
+      "stored_sha256": "ce738ee002bed3676513ca9e53bd804655f0a1ea14188163ca80e39795cd30be",
+      "original_bytes": 5441,
+      "stored_bytes": 5464
+    },
+    "sos-2024-county-status-19141": {
+      "path": "turnout/originals/sos-2024-county-status-19141.gz",
+      "original_sha256": "12b0c57cf787e19a5ad8f9f92866794c4c96931d342b698a1bdd1b2ba27937b3",
+      "stored_sha256": "f55ca9eb5ce9791eac23865793d6b8f3e9ee7aa1e0d168048ff95b574aa00926",
+      "original_bytes": 424,
+      "stored_bytes": 268
+    },
+    "sos-2024-county-settings-19141": {
+      "path": "turnout/originals/sos-2024-county-settings-19141.gz",
+      "original_sha256": "90afe83b1d61f0caa6ec1894099be2d1f3e246ee32ed287cd2fe8ab54f08f8c8",
+      "stored_sha256": "7607e1ec11cb7d0a0b0481fc64a0cc4772cf0d3ed66a869d4aefb19fe3358cfe",
+      "original_bytes": 29100,
+      "stored_bytes": 7279
+    },
+    "sos-2024-county-xml-19145": {
+      "path": "turnout/originals/sos-2024-county-xml-19145.gz",
+      "original_sha256": "9b8f2abdab37364be17efd94987e02a8524d94cd8ee899c8e86ce70ba5ec5ddb",
+      "stored_sha256": "87e74cf2b117762ef7bb20d1e36d4b133eb7ce62ed4bd8b8eda8f626d56e788f",
+      "original_bytes": 6615,
+      "stored_bytes": 6638
+    },
+    "sos-2024-county-status-19145": {
+      "path": "turnout/originals/sos-2024-county-status-19145.gz",
+      "original_sha256": "969bdee0db75d2fd585499c35b773e92f3184fd15a9a5d9dd3bdefd2a2c7be0a",
+      "stored_sha256": "ca8f36c317f08a16253b3f29a97c142971cb443ff5ea18fc5ef26f8710aef2ef",
+      "original_bytes": 405,
+      "stored_bytes": 227
+    },
+    "sos-2024-county-settings-19145": {
+      "path": "turnout/originals/sos-2024-county-settings-19145.gz",
+      "original_sha256": "2f12a135366cd7c13d07f1f532580029055c2a55e50a285a96786b4d758b1df1",
+      "stored_sha256": "2211826034de39f27fe36febb56395d78bfce84ad092c85d5f5c95b276dbfc3d",
+      "original_bytes": 29948,
+      "stored_bytes": 7401
+    },
+    "sos-2024-county-xml-19005": {
+      "path": "turnout/originals/sos-2024-county-xml-19005.gz",
+      "original_sha256": "7a0c8a0d36abb7e9cdf61cdf3233fcfe9d1b823c188884559af4b197e0c41cbf",
+      "stored_sha256": "9313cddf53c6bb7a9a9cf4c2e1d1d009b44b46936f618f499288d7793f522d51",
+      "original_bytes": 9384,
+      "stored_bytes": 9407
+    },
+    "sos-2024-county-status-19005": {
+      "path": "turnout/originals/sos-2024-county-status-19005.gz",
+      "original_sha256": "25a4792a7d39b1972c497cb582c7946351f6a49c7f883fb4331ec3047e860b68",
+      "stored_sha256": "08c83d3b6bea5ae5cde0f456ae0e9806a55b0227c2ab3a3ab3f10ec2cd0923ca",
+      "original_bytes": 485,
+      "stored_bytes": 264
+    },
+    "sos-2024-county-settings-19005": {
+      "path": "turnout/originals/sos-2024-county-settings-19005.gz",
+      "original_sha256": "58b4f95cc80d6495bf941fde49e63887e4e57191e043277a75e1f514eb2aa492",
+      "stored_sha256": "626d63615e5dd6de442752e6fedd5ce30f7b385a1e07e0fd8924bd8de7058cf9",
+      "original_bytes": 31499,
+      "stored_bytes": 7837
+    },
+    "sos-2024-county-xml-19029": {
+      "path": "turnout/originals/sos-2024-county-xml-19029.gz",
+      "original_sha256": "bfd1dae0cdc6258dfb225da9850f399b11898a42f27e41777b95f6f48b81cf62",
+      "stored_sha256": "a679fae4cadf4d04bd4efd79d7f6ab105b4a76c4fb42a30e4af83189c0deabc1",
+      "original_bytes": 8241,
+      "stored_bytes": 8248
+    },
+    "sos-2024-county-status-19029": {
+      "path": "turnout/originals/sos-2024-county-status-19029.gz",
+      "original_sha256": "b92bc526db957c4b1b07370cd8ff11c6c45f6bc29e1c9baccb858f6e0768d2b6",
+      "stored_sha256": "80f3f1d8fb991316c1cf4287e70e15bf371f06e041f56b1c83c853b77f33b964",
+      "original_bytes": 614,
+      "stored_bytes": 348
+    },
+    "sos-2024-county-settings-19029": {
+      "path": "turnout/originals/sos-2024-county-settings-19029.gz",
+      "original_sha256": "d0501bc516a37368cabf9cf65265c58864444c2f1cadb37eb2bcb8f0d801510a",
+      "stored_sha256": "366505e8e5015e99cf2a9128691549eabbdebd2a48f9ddee7e5926340ae7ab78",
+      "original_bytes": 29671,
+      "stored_bytes": 7367
+    },
+    "sos-2024-county-xml-19075": {
+      "path": "turnout/originals/sos-2024-county-xml-19075.gz",
+      "original_sha256": "fc966c43352c1d88827a726a9528a8af0e117efb3c78e520acb7fff8c613ffd6",
+      "stored_sha256": "edf7dd0b1a322e9ed9a1a0c747baa63d6053cbe4a1ff07fd6a79a955ca3d5e15",
+      "original_bytes": 5307,
+      "stored_bytes": 5330
+    },
+    "sos-2024-county-status-19075": {
+      "path": "turnout/originals/sos-2024-county-status-19075.gz",
+      "original_sha256": "815f41a77ab0ceb6fc9d89e47d1b686b46d3fedb40137e4c4dcdbb2d915aca84",
+      "stored_sha256": "52ed6b7f24598d791c28224cfd30bb52509caecdc9a9edd22203f7e2a7e09c8d",
+      "original_bytes": 281,
+      "stored_bytes": 142
+    },
+    "sos-2024-county-settings-19075": {
+      "path": "turnout/originals/sos-2024-county-settings-19075.gz",
+      "original_sha256": "7c6e24fb4cbe054e7044880744277a317930d070d1bdc413617ddc3a9c495b02",
+      "stored_sha256": "3e9ae6efae66083b9543785a9daf7ad00927d4ffe9ba0141623e77fe4fc3af63",
+      "original_bytes": 29735,
+      "stored_bytes": 7292
+    },
+    "sos-2024-county-xml-19119": {
+      "path": "turnout/originals/sos-2024-county-xml-19119.gz",
+      "original_sha256": "df4df0c9f7ddccff3c4caf3b81c2ad1fc54d64e43a5b56cb717d9cba95d35733",
+      "stored_sha256": "8b842d5c31c2f7c1181c44ea90ff971fb839953ca11f0e85211707e9cba7f51e",
+      "original_bytes": 5656,
+      "stored_bytes": 5679
+    },
+    "sos-2024-county-status-19119": {
+      "path": "turnout/originals/sos-2024-county-status-19119.gz",
+      "original_sha256": "3331a7d50b9c37d0fc8ca433d6db2292a06d778572126c15474e0b4cf36e158e",
+      "stored_sha256": "f0e086cf940a8e18128e2596df3d2e3a7c685af4b05a27b55dccb345fd1e56d5",
+      "original_bytes": 581,
+      "stored_bytes": 291
+    },
+    "sos-2024-county-settings-19119": {
+      "path": "turnout/originals/sos-2024-county-settings-19119.gz",
+      "original_sha256": "aa1ffbfad38659322f7db6895851307e47fd0b9e7411e8a60290965deff21c02",
+      "stored_sha256": "c77e3c1abdedccafd0e8ba2741d5d0221a086e120227d0f10e30679a4a23c71c",
+      "original_bytes": 28972,
+      "stored_bytes": 7225
+    },
+    "sos-2024-county-xml-19047": {
+      "path": "turnout/originals/sos-2024-county-xml-19047.gz",
+      "original_sha256": "623d05bbf6c379b7ad1a3ece48f982aebd318948e45ea62734e6eff54e7b2fc1",
+      "stored_sha256": "4af5917ce1f63a4c7e6b3a7e7743b70886d3cada7df1489c2a719501fff87f12",
+      "original_bytes": 8238,
+      "stored_bytes": 8261
+    },
+    "sos-2024-county-status-19047": {
+      "path": "turnout/originals/sos-2024-county-status-19047.gz",
+      "original_sha256": "9e896a4b0a612177919f716843fc7e3e9d74eb679bb652da487cdb8b5d60da20",
+      "stored_sha256": "4bd9fd3ee21d661d9b2b638a523a9fe50ff7e459c7dafa48bef9ebd7485f1748",
+      "original_bytes": 395,
+      "stored_bytes": 231
+    },
+    "sos-2024-county-settings-19047": {
+      "path": "turnout/originals/sos-2024-county-settings-19047.gz",
+      "original_sha256": "c11516b50c0e6259101767f772c276ed8142f42b7a2e68560db0e33f47d5c636",
+      "stored_sha256": "a1f3e5c2e61b8b8da6d9055488ac83561a9094505b732d98388f558004feb340",
+      "original_bytes": 32054,
+      "stored_bytes": 7748
+    },
+    "sos-2024-county-xml-19077": {
+      "path": "turnout/originals/sos-2024-county-xml-19077.gz",
+      "original_sha256": "0dc3f5d53bf623f1dbce5729fa488259f85ac88534562023896d0c77957f5bc4",
+      "stored_sha256": "40b9f2e3b41a8c66b00dc924b83476782157a3ff8026ca31add515d87f8d23ed",
+      "original_bytes": 6249,
+      "stored_bytes": 6272
+    },
+    "sos-2024-county-status-19077": {
+      "path": "turnout/originals/sos-2024-county-status-19077.gz",
+      "original_sha256": "a0b2f195d5b7fafb433d9c9f5344b0b90510a17aaab913b5e559d68143a58bce",
+      "stored_sha256": "d8b03eeedb567395b0a5e6414691f036b1f1f0b2933235000dc380154b86906d",
+      "original_bytes": 255,
+      "stored_bytes": 176
+    },
+    "sos-2024-county-settings-19077": {
+      "path": "turnout/originals/sos-2024-county-settings-19077.gz",
+      "original_sha256": "7b3378e7c569932bd0329529b03c4ded06f0f09faf21ff0a86d7597c8c67bf6e",
+      "stored_sha256": "3980946f3d1d9205728f06d4038b2d71cfb8ec3eb0cf8f1a61c8dcc82cab425c",
+      "original_bytes": 30572,
+      "stored_bytes": 7515
+    },
+    "sos-2024-county-xml-19165": {
+      "path": "turnout/originals/sos-2024-county-xml-19165.gz",
+      "original_sha256": "55a4cf1b46c8fb96f39d89a1fe42e0920ec42c2e619317d452f451610a576b6f",
+      "stored_sha256": "aadb9ee3c07fafc9cbabbcf0fb1d80289bcf99dfd4fac049932892d53c9f9eab",
+      "original_bytes": 9342,
+      "stored_bytes": 9357
+    },
+    "sos-2024-county-status-19165": {
+      "path": "turnout/originals/sos-2024-county-status-19165.gz",
+      "original_sha256": "0027b14512523ea5fb7931f39f175eb3c7c6169bcda9c9a46c3c31d790bcd174",
+      "stored_sha256": "da7fb52ca41486cfda1463b47fe1c98f8cde310e35d9574a758d63bcb18a6811",
+      "original_bytes": 458,
+      "stored_bytes": 266
+    },
+    "sos-2024-county-settings-19165": {
+      "path": "turnout/originals/sos-2024-county-settings-19165.gz",
+      "original_sha256": "214e82e152a4c4b4472cc1a1d627e6c22b01d8fd3bc3cf38f6f9063c35ab3d0b",
+      "stored_sha256": "06e4714b224eb2203e7736fb131cbc9856569127e262be06cb6e4e848c4bc094",
+      "original_bytes": 31225,
+      "stored_bytes": 7760
+    },
+    "sos-2024-county-xml-19007": {
+      "path": "turnout/originals/sos-2024-county-xml-19007.gz",
+      "original_sha256": "09b0e1deb6a234e73dcd0f669d857769db49c377d61ccab665cf5f0e51858b6e",
+      "stored_sha256": "9db68929354338a7e8fc4d4d8116614cb4e9897bce2155dd7908997ef471b766",
+      "original_bytes": 9734,
+      "stored_bytes": 9749
+    },
+    "sos-2024-county-status-19007": {
+      "path": "turnout/originals/sos-2024-county-status-19007.gz",
+      "original_sha256": "681bca2c1a425300ccccd34c2465d06fb87b81a72a2db694043c0ae518a70e94",
+      "stored_sha256": "7139eb9f48dfc4bb8b6691f61ed3eedde27d50ac18fe9aa80d31c08d74eae8b2",
+      "original_bytes": 480,
+      "stored_bytes": 286
+    },
+    "sos-2024-county-settings-19007": {
+      "path": "turnout/originals/sos-2024-county-settings-19007.gz",
+      "original_sha256": "a4eb0076621dff79e342eec23059d0991cad8ab122a7a14a0e943e8b6b70475f",
+      "stored_sha256": "42b4dd1e739afb64294bac8f6a45dabbfab58bea98d4d3aa7f198e40c1f4de62",
+      "original_bytes": 31655,
+      "stored_bytes": 7763
+    },
+    "sos-2024-county-xml-19037": {
+      "path": "turnout/originals/sos-2024-county-xml-19037.gz",
+      "original_sha256": "28a6d0eb31c7d741b8f4244b00fc10de23b851562d60a275cdabaa6d7dd6b025",
+      "stored_sha256": "7a3119b65797d0e32432ecbe9d690b8126907a62476536aabed7dfaec1e0f687",
+      "original_bytes": 7544,
+      "stored_bytes": 7567
+    },
+    "sos-2024-county-status-19037": {
+      "path": "turnout/originals/sos-2024-county-status-19037.gz",
+      "original_sha256": "cddeeae9e593d08885f1f95236bebe161eaab7bf275319accdd04c7a45fc4405",
+      "stored_sha256": "8d1371d75ddc06592f0411dbcf0957685abe0b7875985f4cdcff6741fc5b7044",
+      "original_bytes": 389,
+      "stored_bytes": 212
+    },
+    "sos-2024-county-settings-19037": {
+      "path": "turnout/originals/sos-2024-county-settings-19037.gz",
+      "original_sha256": "9c6492292b7a9e1e4cf8ecb74008212ec3ccc31b2b0efb816eb5eb8389fb86fa",
+      "stored_sha256": "1eac6274ab27806087dda38e675a16883c59213974c3337b689a047eacdef900",
+      "original_bytes": 30982,
+      "stored_bytes": 7689
+    },
+    "sos-2024-county-xml-19035": {
+      "path": "turnout/originals/sos-2024-county-xml-19035.gz",
+      "original_sha256": "aca5884874e02b045042be96d9df0af574042cc4a522e0518c30c90cef6739e9",
+      "stored_sha256": "ad7c81daa004e8265570e47594dac123a5ec2ba8e148390c90ac87e802ad5b3e",
+      "original_bytes": 5558,
+      "stored_bytes": 5581
+    },
+    "sos-2024-county-status-19035": {
+      "path": "turnout/originals/sos-2024-county-status-19035.gz",
+      "original_sha256": "af133bfb344d76716487e5ed11f48f89c699ec51cd03a723649cee5bd12df1fe",
+      "stored_sha256": "e95a9444a7a14998b1e803f829ff032ab25152e4309a3586654518e716556894",
+      "original_bytes": 330,
+      "stored_bytes": 197
+    },
+    "sos-2024-county-settings-19035": {
+      "path": "turnout/originals/sos-2024-county-settings-19035.gz",
+      "original_sha256": "5002a836f1eba79642415dee04384f801ec0ff9087bd1e90bc93cedd64411a7b",
+      "stored_sha256": "f9df58f82133c73ad6aa952af482251dc94c18363971e36d48a3f33c9d42001c",
+      "original_bytes": 29848,
+      "stored_bytes": 7433
+    },
+    "sos-2024-county-xml-19175": {
+      "path": "turnout/originals/sos-2024-county-xml-19175.gz",
+      "original_sha256": "ce8c12568d50f560c64134631632e86538d951be657ed1f8fee3415a25833e1e",
+      "stored_sha256": "7092cfcff37752f658aa371955036d8d968ceabcc290b987d28f4e4363aa6fc6",
+      "original_bytes": 6032,
+      "stored_bytes": 6055
+    },
+    "sos-2024-county-status-19175": {
+      "path": "turnout/originals/sos-2024-county-status-19175.gz",
+      "original_sha256": "3724273f2369a5ff9533c35352c9e89bf0cdce76bf54388a09f0580a24a212ae",
+      "stored_sha256": "25d395ebedd934bdb416ab1aeb0357d8c413051e2abb91781390e583849b3c34",
+      "original_bytes": 470,
+      "stored_bytes": 273
+    },
+    "sos-2024-county-settings-19175": {
+      "path": "turnout/originals/sos-2024-county-settings-19175.gz",
+      "original_sha256": "435089689aa2e47ff95d1e82acab42ded12e63a0e9451838c66d3f4052fa734d",
+      "stored_sha256": "22a2791d4c2fae12b758661fca582e0c6c800f859422818ab843b8945765af8d",
+      "original_bytes": 29620,
+      "stored_bytes": 7434
+    },
+    "sos-2024-county-xml-19081": {
+      "path": "turnout/originals/sos-2024-county-xml-19081.gz",
+      "original_sha256": "142662549125f372c63ddb2f8f0cfbd53ffe4406949edaa86e036578a19a278d",
+      "stored_sha256": "240611f8430cf3f488169ecc4ecf2d24b7a3c11eb53b7c77057aad396a57ad1a",
+      "original_bytes": 7725,
+      "stored_bytes": 7741
+    },
+    "sos-2024-county-status-19081": {
+      "path": "turnout/originals/sos-2024-county-status-19081.gz",
+      "original_sha256": "b028112ab9121fc45384b7da198a38cb674d978a777f8f18d6ccf53d7f660b91",
+      "stored_sha256": "624d278b82c5f3ed6dc35c224759529785b8bd624b8b4112727568fbf59b8eef",
+      "original_bytes": 366,
+      "stored_bytes": 159
+    },
+    "sos-2024-county-settings-19081": {
+      "path": "turnout/originals/sos-2024-county-settings-19081.gz",
+      "original_sha256": "371624b1ea90e9350252d4522e2b169f3ad12c6499402d2a9c4591a49d5fd083",
+      "stored_sha256": "23dc4de59a70eee1afba3b916a4be50039915cb472d485e31f4953efa8c04108",
+      "original_bytes": 31525,
+      "stored_bytes": 7684
+    },
+    "sos-2024-county-xml-19131": {
+      "path": "turnout/originals/sos-2024-county-xml-19131.gz",
+      "original_sha256": "9dc16decfc07fea7af08700f1f9960705c2fea369987413b684c8dd1ab907d9b",
+      "stored_sha256": "fdb45f7828e7e1cc955cefd093974d91390eaa81513bd1534b87da2abc28686a",
+      "original_bytes": 7855,
+      "stored_bytes": 7862
+    },
+    "sos-2024-county-status-19131": {
+      "path": "turnout/originals/sos-2024-county-status-19131.gz",
+      "original_sha256": "7f8354e2a9d81705ba2478f23c2140eba0a1ee56291447a610eb29a203d25765",
+      "stored_sha256": "74eac95079a1e8ac93d2ffe16578900964dba0ae3c1ccbfa34c2363139ed27f5",
+      "original_bytes": 418,
+      "stored_bytes": 167
+    },
+    "sos-2024-county-settings-19131": {
+      "path": "turnout/originals/sos-2024-county-settings-19131.gz",
+      "original_sha256": "9aa6bb3d593ab48ed93e52dc52924b1ac005d0aebd04f47594a1d0b81fe8d025",
+      "stored_sha256": "80f6723ef2676ad9df0659c6649e416886c71f5fb8ef030e2d9be68a40fb9e5f",
+      "original_bytes": 31816,
+      "stored_bytes": 7686
+    },
+    "sos-2024-county-xml-19197": {
+      "path": "turnout/originals/sos-2024-county-xml-19197.gz",
+      "original_sha256": "4f36645e4a7f5ebcaf0e4c20d66c7c1a3e26ad7df33a38a1a2d121b6b3a2a059",
+      "stored_sha256": "63b0452236d983b72053783133814021323ff24290f38475ddc2a3ad51f51e40",
+      "original_bytes": 8249,
+      "stored_bytes": 8270
+    },
+    "sos-2024-county-status-19197": {
+      "path": "turnout/originals/sos-2024-county-status-19197.gz",
+      "original_sha256": "dcfd8fc89076e68cdabb35af9f6aa7136dd5631517ec731685afc06f8e3c58d5",
+      "stored_sha256": "ebec2af2f7ace3d8ef63ea1314ccb91a01c9b37fb3c821cd8eaa59b93b0892b0",
+      "original_bytes": 444,
+      "stored_bytes": 225
+    },
+    "sos-2024-county-settings-19197": {
+      "path": "turnout/originals/sos-2024-county-settings-19197.gz",
+      "original_sha256": "f67ea898e48c94fbb8afb54048f78f274e4ff4ab6703ee2161012b9e4d56119c",
+      "stored_sha256": "3a6ca8b12a78ec0f4278817249d34dbe5721fb9c9fe068dc4bd22f2aa171c351",
+      "original_bytes": 30601,
+      "stored_bytes": 7473
+    },
+    "sos-2024-county-xml-19189": {
+      "path": "turnout/originals/sos-2024-county-xml-19189.gz",
+      "original_sha256": "c1c7e04e5768cafc9708d8563810bc559d85a8191c8afde5f90b60d43a23bf0a",
+      "stored_sha256": "2cb6873dd7d34ff24d6ee8346703973f10086e7fe341dcbb61b90d0bdebb24e9",
+      "original_bytes": 5718,
+      "stored_bytes": 5741
+    },
+    "sos-2024-county-status-19189": {
+      "path": "turnout/originals/sos-2024-county-status-19189.gz",
+      "original_sha256": "c6af29057c9d523a89df79afd5db40dc4e0a40fd0bc313dbee2ed83b2d9ab7ea",
+      "stored_sha256": "21a65ddfcee8201e62bd44222a33d21372fa725bbeb707766d4427d551a06237",
+      "original_bytes": 419,
+      "stored_bytes": 246
+    },
+    "sos-2024-county-settings-19189": {
+      "path": "turnout/originals/sos-2024-county-settings-19189.gz",
+      "original_sha256": "6f93f5ed1b98e7e4ad2db99ce9e3b279368390fe5e76ce52975d28c60aeb5fd3",
+      "stored_sha256": "567bac673eaf04c0ad633cf68addff25399e1be936c7837ed4feb597f4f0e367",
+      "original_bytes": 29300,
+      "stored_bytes": 7336
+    },
+    "sos-2024-county-xml-19161": {
+      "path": "turnout/originals/sos-2024-county-xml-19161.gz",
+      "original_sha256": "feb81ce4c54e921be044a0b7cf8ba83825740488af2f1c43419d7c31222f89d7",
+      "stored_sha256": "707ddc392386de2c6aa6693bff3e0b2119d65d6c107923514b948bd45251cd6a",
+      "original_bytes": 6855,
+      "stored_bytes": 6878
+    },
+    "sos-2024-county-status-19161": {
+      "path": "turnout/originals/sos-2024-county-status-19161.gz",
+      "original_sha256": "9e11e0272793f950b063440c0426d6dc98e7845d5159b0c0d4407433a386716b",
+      "stored_sha256": "cc3c2cfed993a3f807477b15c4e2f65d0ef6199d70cbdbbb00081ec2f408beb8",
+      "original_bytes": 325,
+      "stored_bytes": 214
+    },
+    "sos-2024-county-settings-19161": {
+      "path": "turnout/originals/sos-2024-county-settings-19161.gz",
+      "original_sha256": "36b04f3d3efa3297f5688fa876a5563ddcb84ed47cc167c2ddd6435418b07f68",
+      "stored_sha256": "db26c4148358f48bd151045dac098d17485aebd5007041e28e72578dce1b65da",
+      "original_bytes": 30217,
+      "stored_bytes": 7450
+    },
+    "sos-2024-county-xml-19107": {
+      "path": "turnout/originals/sos-2024-county-xml-19107.gz",
+      "original_sha256": "6c40227d1e8bfd819f94f281a936d7f9d74b767734c45c83de9423a96b994b41",
+      "stored_sha256": "584ebd00cd97f5ea28fb119895bcfdd3409c2e173d85e5908c32f710a6a6b340",
+      "original_bytes": 8761,
+      "stored_bytes": 8784
+    },
+    "sos-2024-county-status-19107": {
+      "path": "turnout/originals/sos-2024-county-status-19107.gz",
+      "original_sha256": "37d3493aca74ed6d7e563d98eb5b5b9809c5e8e99d7e2bca5d15b681e74fdb4a",
+      "stored_sha256": "6b94803490f7d906ffcb371380f855211c6158fddae1cb8e4a4311a8acca64bb",
+      "original_bytes": 348,
+      "stored_bytes": 209
+    },
+    "sos-2024-county-settings-19107": {
+      "path": "turnout/originals/sos-2024-county-settings-19107.gz",
+      "original_sha256": "ba361ccd14b425ce94615ef6948b8374670dc713f7d4b4ecc4b024b68b72445d",
+      "stored_sha256": "ada4387f488014ce2893ba042871c35573470bb691322edf43aa5388eea3a7ff",
+      "original_bytes": 31503,
+      "stored_bytes": 7684
+    },
+    "sos-2024-county-xml-19115": {
+      "path": "turnout/originals/sos-2024-county-xml-19115.gz",
+      "original_sha256": "a76e2579909a49a22ffe548aa3f4b316df162a78aa1f4bf4d92e4493132cef04",
+      "stored_sha256": "702f68a202ae125143e56053ea98de8ae171558d56c519878035acec8a3fe7be",
+      "original_bytes": 6354,
+      "stored_bytes": 6377
+    },
+    "sos-2024-county-status-19115": {
+      "path": "turnout/originals/sos-2024-county-status-19115.gz",
+      "original_sha256": "56ed49d6957e930000ae07f9e74fa8335e640286feb31f8fa0dbd0ee0b87cb99",
+      "stored_sha256": "78c9b148238c264a01301e78fd8f3e9aaa1f35443776ad3871f6eed0db9b69f0",
+      "original_bytes": 280,
+      "stored_bytes": 194
+    },
+    "sos-2024-county-settings-19115": {
+      "path": "turnout/originals/sos-2024-county-settings-19115.gz",
+      "original_sha256": "1ebc19bab563ae920aa7ae79ab1d2fb4c3c9da830868e853ccdc02f51a673ed4",
+      "stored_sha256": "a879475d92a97861a45f8744b878339e2f14eac0e57e9f52d21a77756c724d89",
+      "original_bytes": 31174,
+      "stored_bytes": 7681
+    },
+    "sos-2024-county-xml-19025": {
+      "path": "turnout/originals/sos-2024-county-xml-19025.gz",
+      "original_sha256": "856d810bf14fdd20b8ae9df143bc21b403fba7962fe072c9365ffb4be9e5e239",
+      "stored_sha256": "a46cdb3dfcbeb65a5e6a70d4a79d58d4b766257a92fb6c1540123e89b008ab5f",
+      "original_bytes": 6846,
+      "stored_bytes": 6869
+    },
+    "sos-2024-county-status-19025": {
+      "path": "turnout/originals/sos-2024-county-status-19025.gz",
+      "original_sha256": "9afbcd81588d4faeca8b887dd726ceec7f800c2c8874382808568f1d2506dcf7",
+      "stored_sha256": "a7258537b64d7361793f60cf039c34a942e9ed9469d32efae2ae6cb9dd747f18",
+      "original_bytes": 427,
+      "stored_bytes": 282
+    },
+    "sos-2024-county-settings-19025": {
+      "path": "turnout/originals/sos-2024-county-settings-19025.gz",
+      "original_sha256": "0a20a26887ffd712f8a46ddc74b1feebefefdb8f07cb88274e7e730ce1e411e3",
+      "stored_sha256": "af19fbe2791aec9703574c829adc67f64e1bde5bce56b9bc580cd2c77a1aca69",
+      "original_bytes": 31308,
+      "stored_bytes": 7714
+    },
+    "sos-2024-county-xml-19091": {
+      "path": "turnout/originals/sos-2024-county-xml-19091.gz",
+      "original_sha256": "0f8ac2c88baab891cac93640078b922dba72cc43d56d78b68dd0dc67a13c179b",
+      "stored_sha256": "9bb7f802db1b050bf8e35729f9265f40e6d41eeee7bf87189ba43d344511d079",
+      "original_bytes": 6753,
+      "stored_bytes": 6776
+    },
+    "sos-2024-county-status-19091": {
+      "path": "turnout/originals/sos-2024-county-status-19091.gz",
+      "original_sha256": "80c1a676d882036fa63c6fa8191aea53602b0fcde52f5e02f41d4e9325775a7b",
+      "stored_sha256": "4c1ce3b7487a285ae9cec9ff1f237631f1b811a447e18370596729e0ac3b7658",
+      "original_bytes": 272,
+      "stored_bytes": 154
+    },
+    "sos-2024-county-settings-19091": {
+      "path": "turnout/originals/sos-2024-county-settings-19091.gz",
+      "original_sha256": "fdb1016f061056afca6e546d18edc3ddd306d89aa649e4ec40cdab78068a0a48",
+      "stored_sha256": "2acf468740438e28ee924c6d515327a7c4d4786947496bf37f583a407636a408",
+      "original_bytes": 31564,
+      "stored_bytes": 7784
+    },
+    "sos-2024-county-xml-19137": {
+      "path": "turnout/originals/sos-2024-county-xml-19137.gz",
+      "original_sha256": "e3acc595fc2c24d221380c32f37f5af9e1678507051e5da123df68e642242b2a",
+      "stored_sha256": "40f1a5c0fb48c3d5988d1c7b19df4e7789a9bacaca4e4192d65a2a1f60930b14",
+      "original_bytes": 6972,
+      "stored_bytes": 6995
+    },
+    "sos-2024-county-status-19137": {
+      "path": "turnout/originals/sos-2024-county-status-19137.gz",
+      "original_sha256": "b1bacee3caf24385621cc9343397ed8f0e5c474afd2c7fcd481f2cb1f9b5c6be",
+      "stored_sha256": "e4ff2b5bb44763e94290cd3c863ea79647eb9a290d2bfca9390b97a888c286df",
+      "original_bytes": 476,
+      "stored_bytes": 234
+    },
+    "sos-2024-county-settings-19137": {
+      "path": "turnout/originals/sos-2024-county-settings-19137.gz",
+      "original_sha256": "57f6e4e79fe9ced1bc21f015fa2c0b56b340c942a21d8bbe9620536d92256728",
+      "stored_sha256": "0a2b352dc1288caafd4ae12b7913c5d1f414ac85e4997b3cb0c5e5dc0ff42ef3",
+      "original_bytes": 31179,
+      "stored_bytes": 7715
+    },
+    "sos-2024-county-xml-19147": {
+      "path": "turnout/originals/sos-2024-county-xml-19147.gz",
+      "original_sha256": "385875a3cba05527373326214d006bd2be559d92be9e52e525c8e57c2ad48452",
+      "stored_sha256": "a28ae27377f0d1bcd9d4d5fb32fe61bf41a1cbca8628dd93f34e59c0ca5bd0ef",
+      "original_bytes": 5149,
+      "stored_bytes": 5172
+    },
+    "sos-2024-county-status-19147": {
+      "path": "turnout/originals/sos-2024-county-status-19147.gz",
+      "original_sha256": "fc6edf5d3e90a4d5c0eda4f541d27537a7a30246b68cdb04b53cd77507661789",
+      "stored_sha256": "4d2340802986240ea79525233198df7c425c53366374fb676ce0fbfcba12dd0f",
+      "original_bytes": 381,
+      "stored_bytes": 238
+    },
+    "sos-2024-county-settings-19147": {
+      "path": "turnout/originals/sos-2024-county-settings-19147.gz",
+      "original_sha256": "c47650c61984ad3ef8f1d885ee95dbdd6b4958d881d7e289b487f2cd8bab4c56",
+      "stored_sha256": "764fae3f64780a30b7651bcb667d5c6a76cc2cf70ad36677e31dcca08ad54581",
+      "original_bytes": 29633,
+      "stored_bytes": 7409
+    },
+    "sos-2024-county-xml-19069": {
+      "path": "turnout/originals/sos-2024-county-xml-19069.gz",
+      "original_sha256": "85bca0b8bf4d4d3d0e56d36286c04695add20891b9584a63a31604a4865ecacc",
+      "stored_sha256": "763d1ac7106b9c23665989146e7cf77ac512cb53a8a5df0414a6098e24476ddd",
+      "original_bytes": 9010,
+      "stored_bytes": 9033
+    },
+    "sos-2024-county-status-19069": {
+      "path": "turnout/originals/sos-2024-county-status-19069.gz",
+      "original_sha256": "623b406cd98126b717fd397b22a77b6f0678a1ce7808c794b822ab926929c733",
+      "stored_sha256": "ba419cfe11d3c9abf1768d77cb76f9d0bb807051f9760be0f2293ad4334fa10e",
+      "original_bytes": 511,
+      "stored_bytes": 289
+    },
+    "sos-2024-county-settings-19069": {
+      "path": "turnout/originals/sos-2024-county-settings-19069.gz",
+      "original_sha256": "db0ea17b27ca70fa5be53e646950949143a667cec844b828ceb0ee9cdaa37f6b",
+      "stored_sha256": "e21efdcc996f11aa8f73d785f1483e132ef23a6ac058e02205bbf90651af459d",
+      "original_bytes": 31424,
+      "stored_bytes": 7697
+    },
+    "sos-2024-county-xml-19073": {
+      "path": "turnout/originals/sos-2024-county-xml-19073.gz",
+      "original_sha256": "e7ceadf4c33c68c0d6157bbf1816486a281c4ec9d35050030859666d7c810f91",
+      "stored_sha256": "0900a584a4a7e4a60a4a8154d61edbbd5f969fa067aa316038e37fb1ca18a32c",
+      "original_bytes": 7071,
+      "stored_bytes": 7094
+    },
+    "sos-2024-county-status-19073": {
+      "path": "turnout/originals/sos-2024-county-status-19073.gz",
+      "original_sha256": "cef84de7656df684fb21744bc40025647d90e7581d725b16c897ed5915eef2c8",
+      "stored_sha256": "79c5b90fccf7cd6ccccf41b8ebb25c1c1edefa56231e081b88e29839d205756f",
+      "original_bytes": 304,
+      "stored_bytes": 177
+    },
+    "sos-2024-county-settings-19073": {
+      "path": "turnout/originals/sos-2024-county-settings-19073.gz",
+      "original_sha256": "ecbec43c337065fd8e0dec36d0fbb679a4ba56da6a3888874535e82965bcf930",
+      "stored_sha256": "dca0c97929f27129685e68907883d141b86b6921d254369ad8d07d13b6e3d70e",
+      "original_bytes": 27487,
+      "stored_bytes": 6977
+    },
+    "sos-2024-county-xml-19089": {
+      "path": "turnout/originals/sos-2024-county-xml-19089.gz",
+      "original_sha256": "9629a80b43e9f11f8a0f79fecb14feb03866ab7b6b9552357bb0ce1a51c49798",
+      "stored_sha256": "d6deab1c962a8aaae7a3b39b9758d180c9111591f0fdee0b09e8b9737674a1c1",
+      "original_bytes": 7541,
+      "stored_bytes": 7564
+    },
+    "sos-2024-county-status-19089": {
+      "path": "turnout/originals/sos-2024-county-status-19089.gz",
+      "original_sha256": "58372784d8e902ed44048302cc17055328dff2495693dd830e4c77e1ae39bdfe",
+      "stored_sha256": "8fe26c0a792bf68dde8e534dd142076ff9674d8eb00e47f49839b98c2f005ef4",
+      "original_bytes": 448,
+      "stored_bytes": 284
+    },
+    "sos-2024-county-settings-19089": {
+      "path": "turnout/originals/sos-2024-county-settings-19089.gz",
+      "original_sha256": "a97dd46114c63cbae3270ab5d212e2486f7a3e04a5bba729eb6998664dacae89",
+      "stored_sha256": "b027b904afa330aa051349e89451b9f25fc1fd44098f92108a247b525b9464a9",
+      "original_bytes": 30800,
+      "stored_bytes": 7611
+    },
+    "sos-2024-county-xml-19063": {
+      "path": "turnout/originals/sos-2024-county-xml-19063.gz",
+      "original_sha256": "ec69a3a5f06b57d2da6deb37bb265c18d5072160cc0a526579e5332c7e1e35fa",
+      "stored_sha256": "bd0842ba9e2a5806e8c29290348769b4e3880207a1c52ea877e5465fa9a2240f",
+      "original_bytes": 7044,
+      "stored_bytes": 7053
+    },
+    "sos-2024-county-status-19063": {
+      "path": "turnout/originals/sos-2024-county-status-19063.gz",
+      "original_sha256": "99475dc9fa5cecf05d2fb093633562b80f33b678b756c3c86e9b3dd8c3ec621b",
+      "stored_sha256": "f3433453a0690252a49b394f9797cb358b69d37a14d13adf8ea2dfd72151a9c3",
+      "original_bytes": 583,
+      "stored_bytes": 306
+    },
+    "sos-2024-county-settings-19063": {
+      "path": "turnout/originals/sos-2024-county-settings-19063.gz",
+      "original_sha256": "2bc9e067d8b603516e5d7c866e8dd55276424120a5d2494e1addd0ca20598c91",
+      "stored_sha256": "1e0182ad4fe6bd2829575621ab7e4e9f3e214c09df83cbf3db904dad4875d5fd",
+      "original_bytes": 29942,
+      "stored_bytes": 7461
+    },
+    "sos-2024-county-xml-19117": {
+      "path": "turnout/originals/sos-2024-county-xml-19117.gz",
+      "original_sha256": "70b8fa32ecec76d8332ebdd7c6c6825615d28258309ab319857488bd870fcf88",
+      "stored_sha256": "f68a5b21b916c26e7c7eaaa3f583d46ce8991ed039391d8b1e09552488d3a643",
+      "original_bytes": 5173,
+      "stored_bytes": 5196
+    },
+    "sos-2024-county-status-19117": {
+      "path": "turnout/originals/sos-2024-county-status-19117.gz",
+      "original_sha256": "7baf41b60c2420495d42f517432114525b817ad8efc5c35a7d85db6d4c06624c",
+      "stored_sha256": "fe637413182d044daa801846127ee7e422a4a4814e9a009840a4de4bd1ec9d8b",
+      "original_bytes": 416,
+      "stored_bytes": 208
+    },
+    "sos-2024-county-settings-19117": {
+      "path": "turnout/originals/sos-2024-county-settings-19117.gz",
+      "original_sha256": "6c2641035597d0784b53aea32d7724526ad5d348af3c838d1594086e3b2abc55",
+      "stored_sha256": "d93943b3766a64fa353484c8ec381e227469767e2421bc2847670c7dcb1f2aed",
+      "original_bytes": 29831,
+      "stored_bytes": 7421
+    },
+    "sos-2024-county-xml-19133": {
+      "path": "turnout/originals/sos-2024-county-xml-19133.gz",
+      "original_sha256": "99880d3d78f62affa782d6f21654bb540716c7952a684bd0f460fe2b9c66b2b2",
+      "stored_sha256": "ea919f872aeb08a465e632564ef7fc075ba12faa3096a79a297b5ba75513fb91",
+      "original_bytes": 6627,
+      "stored_bytes": 6650
+    },
+    "sos-2024-county-status-19133": {
+      "path": "turnout/originals/sos-2024-county-status-19133.gz",
+      "original_sha256": "a7d9bfce7f997955397aeab9299803a3dc84b6ea9ef82ea8b114983a11ef6fe3",
+      "stored_sha256": "d7c7000528d0fd33d444e68046b2dff4be9c304ea5994203a5fb610bada405f2",
+      "original_bytes": 402,
+      "stored_bytes": 238
+    },
+    "sos-2024-county-settings-19133": {
+      "path": "turnout/originals/sos-2024-county-settings-19133.gz",
+      "original_sha256": "39889a671773ecb4077e9778a8dc045c34660d9ce5f259b0876cbd563660bcc6",
+      "stored_sha256": "b578e9694a4752e81271113eb1c5bbb13a8c2e79bbf5048bffaddf6fe84ca348",
+      "original_bytes": 29844,
+      "stored_bytes": 7439
+    },
+    "sos-2024-county-xml-19039": {
+      "path": "turnout/originals/sos-2024-county-xml-19039.gz",
+      "original_sha256": "2ab64ebde67cbbaa03441a365451fd1a815e3d8168c78e1c42922c24c5034d04",
+      "stored_sha256": "e05a98b66ccb9078059ed47788e134069d03f7aacc9fe982bbdd8afcaed6b9af",
+      "original_bytes": 6395,
+      "stored_bytes": 6418
+    },
+    "sos-2024-county-status-19039": {
+      "path": "turnout/originals/sos-2024-county-status-19039.gz",
+      "original_sha256": "7bdb31d4688191ee3120e2acf32cf22642a8a891ba8fb6c90f4865e7df75a8d2",
+      "stored_sha256": "68d05e1ecdf32a7ba759b0cf006bdd3536bf79c19244298100913182bdba792c",
+      "original_bytes": 333,
+      "stored_bytes": 192
+    },
+    "sos-2024-county-settings-19039": {
+      "path": "turnout/originals/sos-2024-county-settings-19039.gz",
+      "original_sha256": "71df62dddd81f66d4db75b4db687128e5c2db77ec4787102673b73d4cd48af46",
+      "stored_sha256": "04dfa3d92c8591fbb239df8c290062a8a00ce6ca28b6e2a3cc108e5f9bd7a331",
+      "original_bytes": 30922,
+      "stored_bytes": 7587
+    },
+    "sos-2024-county-xml-19195": {
+      "path": "turnout/originals/sos-2024-county-xml-19195.gz",
+      "original_sha256": "ea4af0802e9a83c2347a6f92f353deaf484bb7541b110b6e474d2a262f3e4c9c",
+      "stored_sha256": "e23e2875fa5812c5837dc2a93d62afee72c066af36af7969803450efe1947cb3",
+      "original_bytes": 5746,
+      "stored_bytes": 5769
+    },
+    "sos-2024-county-status-19195": {
+      "path": "turnout/originals/sos-2024-county-status-19195.gz",
+      "original_sha256": "d7bbd0e4258615870db8900f45924550dd23ce98a49e8d4e7de33f4115a55b3b",
+      "stored_sha256": "81eef5406e5d0effaef9018f1680184ecd60dd8524e49109f4f22480f2d7f91f",
+      "original_bytes": 361,
+      "stored_bytes": 236
+    },
+    "sos-2024-county-settings-19195": {
+      "path": "turnout/originals/sos-2024-county-settings-19195.gz",
+      "original_sha256": "c8c1ff93cff3c1bef9398158bff53d67b7d7d7198245206248cad3b737799810",
+      "stored_sha256": "24570ff4367f511dad6735f0db453b5f334df3bb5cda6721d8dd175c1eb2adbe",
+      "original_bytes": 30652,
+      "stored_bytes": 7600
+    },
+    "sos-2024-county-xml-19135": {
+      "path": "turnout/originals/sos-2024-county-xml-19135.gz",
+      "original_sha256": "8211f4c86ae22cd9b9da62d883edd93497764041dd4fef1c117befcfc4fc6b96",
+      "stored_sha256": "d208db0abeca3871b58950aa2907a57f9aa0cabd3b44455c4e50efa491354101",
+      "original_bytes": 6331,
+      "stored_bytes": 6354
+    },
+    "sos-2024-county-status-19135": {
+      "path": "turnout/originals/sos-2024-county-status-19135.gz",
+      "original_sha256": "151a499666059b25855bf31e2e628de4dc767d5f65ed4c2fe11f17cf1a3e451c",
+      "stored_sha256": "9e33741b716a0109232156cb6a543a9a6cd78fa8da5d2bc0b8973df9640b013b",
+      "original_bytes": 457,
+      "stored_bytes": 282
+    },
+    "sos-2024-county-settings-19135": {
+      "path": "turnout/originals/sos-2024-county-settings-19135.gz",
+      "original_sha256": "a422e47f8acb172a8f666326c126460f27f4cfc43f0afa6d27367526a4b2b768",
+      "stored_sha256": "0ae6426bcd20aed22c3fc6f9dcea44c2e122ef5ef118c17bf14a264c5e5c40c3",
+      "original_bytes": 29962,
+      "stored_bytes": 7467
+    },
+    "sos-2024-county-xml-19001": {
+      "path": "turnout/originals/sos-2024-county-xml-19001.gz",
+      "original_sha256": "ebfd9c080441d41b83133d0101e597467665c8e7063e896831df7c2a2a510331",
+      "stored_sha256": "831243a5596e029644de504fcc110aa86459f3e44ea81e1da9c7010dacd03913",
+      "original_bytes": 4383,
+      "stored_bytes": 4406
+    },
+    "sos-2024-county-status-19001": {
+      "path": "turnout/originals/sos-2024-county-status-19001.gz",
+      "original_sha256": "5b25445db2634cad42531cd65572c18dc4056bfac4fd30f6deb764cdafd95400",
+      "stored_sha256": "eaff51c48df60fd5d7b224fccf32c37a9a83e1d5800f7bbc08fc5d31e6378fc1",
+      "original_bytes": 208,
+      "stored_bytes": 141
+    },
+    "sos-2024-county-settings-19001": {
+      "path": "turnout/originals/sos-2024-county-settings-19001.gz",
+      "original_sha256": "801c2beb9429c4f66cc75691e5658296b68f1e1b8e825045ea661a466ccfc75e",
+      "stored_sha256": "46a54e44dfddd6b777bf097526f4af0c11d14db61d3aa586e45fb0f47790d32a",
+      "original_bytes": 29725,
+      "stored_bytes": 7394
+    },
+    "sos-2024-county-xml-19051": {
+      "path": "turnout/originals/sos-2024-county-xml-19051.gz",
+      "original_sha256": "34992001e88e99705ea277e0a0e3ef1fc105a010b2c325b65a2908e753e5f645",
+      "stored_sha256": "898e21614f791b5928ec94d019d19685de9a6984adf62756c4cf24cccebc704c",
+      "original_bytes": 7022,
+      "stored_bytes": 7045
+    },
+    "sos-2024-county-status-19051": {
+      "path": "turnout/originals/sos-2024-county-status-19051.gz",
+      "original_sha256": "0efb6cc8d579f4d0b49539f7df1eecb68cb7235f5f6b0a2917d4ca75814e01a6",
+      "stored_sha256": "47f2b1f41d706fad2ac3473f838c10ab5a4ccfc105da5f85c189b9cc8b84d758",
+      "original_bytes": 333,
+      "stored_bytes": 188
+    },
+    "sos-2024-county-settings-19051": {
+      "path": "turnout/originals/sos-2024-county-settings-19051.gz",
+      "original_sha256": "08184ae10aa6f12aa4dff6049a4e131c55023c3bdc23ed83053f79da02c06e7a",
+      "stored_sha256": "8d0d285445320914d6120715192ca95ca62b4301dcac33cec0858f6eb2d04efa",
+      "original_bytes": 31471,
+      "stored_bytes": 7645
+    },
+    "sos-2024-county-xml-19071": {
+      "path": "turnout/originals/sos-2024-county-xml-19071.gz",
+      "original_sha256": "ee1da73bd5245446431cd2a600693edda59bc67ca8f5008ea729780c11951504",
+      "stored_sha256": "8b609599ae087cc066ed1389bf74997556229bafe7c85e6e26858a2d104a9ed9",
+      "original_bytes": 5275,
+      "stored_bytes": 5298
+    },
+    "sos-2024-county-status-19071": {
+      "path": "turnout/originals/sos-2024-county-status-19071.gz",
+      "original_sha256": "b83d60e51056c9608ddf8106512ce8c07ebdb98a965e9f2b119f535e79e547d8",
+      "stored_sha256": "f4ffc760f62158c0e24e7dd7df3083ab7d0007892c7ff25665542f2aaafb187f",
+      "original_bytes": 253,
+      "stored_bytes": 183
+    },
+    "sos-2024-county-settings-19071": {
+      "path": "turnout/originals/sos-2024-county-settings-19071.gz",
+      "original_sha256": "a9a3f5187378ec25d3e679e712c67f47ff55b7fba3fa65e17cf15098ed8ce021",
+      "stored_sha256": "edaf2aade74a1e7ff55418db830f9c1180564ca9f7760dde62d2753a9bf42a06",
+      "original_bytes": 30911,
+      "stored_bytes": 7590
+    },
+    "sos-2024-county-xml-19053": {
+      "path": "turnout/originals/sos-2024-county-xml-19053.gz",
+      "original_sha256": "d29dc3459310206871453b1cc2836eefe3fe7227e6873e237f0029f9a43afdec",
+      "stored_sha256": "811fa2657be2d6c30b5a76a94fb649fdd8cdd747118c4c23fe3ad4d767ab59f3",
+      "original_bytes": 5431,
+      "stored_bytes": 5454
+    },
+    "sos-2024-county-status-19053": {
+      "path": "turnout/originals/sos-2024-county-status-19053.gz",
+      "original_sha256": "2ab185d28ddc288f7944b7a965cd25ac0e50687217297d5d5d3895407305f379",
+      "stored_sha256": "9c152c9c97d361da1c81af3f0ab427c5069ab7fae142e64a1bedda461e202118",
+      "original_bytes": 188,
+      "stored_bytes": 132
+    },
+    "sos-2024-county-settings-19053": {
+      "path": "turnout/originals/sos-2024-county-settings-19053.gz",
+      "original_sha256": "dc8ae4d409c4c7eaff097b8864436b722390e3e99880bca7ea90e3aacb71a4bc",
+      "stored_sha256": "fe8c722d9ace57c43b93a3f8c1b128445700596f126da902f90ee6738f5ea0ec",
+      "original_bytes": 31372,
+      "stored_bytes": 7854
+    },
+    "sos-2024-county-xml-19093": {
+      "path": "turnout/originals/sos-2024-county-xml-19093.gz",
+      "original_sha256": "619ad60fe271d49eacea982ce4836c38046e137be31ca44bad267009cecb39f6",
+      "stored_sha256": "283fafca7eb98e7ff0335b87c14e4112e3d9a73d44f22b4351e94aaea4574b57",
+      "original_bytes": 6111,
+      "stored_bytes": 6134
+    },
+    "sos-2024-county-status-19093": {
+      "path": "turnout/originals/sos-2024-county-status-19093.gz",
+      "original_sha256": "23db7abb6d922c6fa438861f5cb6437fa43e3b00895719645b9fdd8499502c81",
+      "stored_sha256": "50203dee929da04bbbcad441b3f26cf24bacde3c9e5f4723138fb44108f12228",
+      "original_bytes": 441,
+      "stored_bytes": 275
+    },
+    "sos-2024-county-settings-19093": {
+      "path": "turnout/originals/sos-2024-county-settings-19093.gz",
+      "original_sha256": "32f5cd8d37f1dcee1f3b75a1b3c1d8faf66555300e9fd399dababab4fb40579b",
+      "stored_sha256": "4ac8ac708126fe84712c199ff556692bc842ec642b2240d0ab8a775e86741b99",
+      "original_bytes": 30458,
+      "stored_bytes": 7573
+    },
+    "sos-2024-county-xml-19177": {
+      "path": "turnout/originals/sos-2024-county-xml-19177.gz",
+      "original_sha256": "b8b1d35b86e43e7fd6b743df59f80b63d61f2f8b9f4acf1e2e211c249fdaf84e",
+      "stored_sha256": "68237ddcc5b73e065b942ba6d06e0fb2f6161609e6a0786881621c93aab620d0",
+      "original_bytes": 5398,
+      "stored_bytes": 5421
+    },
+    "sos-2024-county-status-19177": {
+      "path": "turnout/originals/sos-2024-county-status-19177.gz",
+      "original_sha256": "06850e89f2eaf96411e37cc93d869fc8d51d0f1eb9fc92b8ea83750bb7e16b75",
+      "stored_sha256": "05eb2baca2f2b427c065f11ede8510d3f74cc754651f23dd9aeae1084f8b2e5c",
+      "original_bytes": 189,
+      "stored_bytes": 130
+    },
+    "sos-2024-county-settings-19177": {
+      "path": "turnout/originals/sos-2024-county-settings-19177.gz",
+      "original_sha256": "b9cdc3f5d5523819e92e490645f125361147969efcd3e26cdefa38f671ca1078",
+      "stored_sha256": "0f5ce2a39bcdd9dae2a507bccd90ac11a369dabf7d46dab1da63fc7a31cf5cf0",
+      "original_bytes": 31181,
+      "stored_bytes": 7553
+    },
+    "sos-2024-county-xml-19151": {
+      "path": "turnout/originals/sos-2024-county-xml-19151.gz",
+      "original_sha256": "ecc044e1dd9ba673cf49943344f1bb77dde398c90924d4a5abd97de2ab94cdb9",
+      "stored_sha256": "26ff5a3c9ca5780e0313ba1657ab067f23dac789b88654dc3c5dedee15672569",
+      "original_bytes": 7116,
+      "stored_bytes": 7132
+    },
+    "sos-2024-county-status-19151": {
+      "path": "turnout/originals/sos-2024-county-status-19151.gz",
+      "original_sha256": "af224465ebd9049ca8d1c97c1615959093567cdb878970b133939bd029985fbc",
+      "stored_sha256": "df2930f42d7265a5b0722291f74cf7ef9f45f86b172d7872c92ecfd307b53ba1",
+      "original_bytes": 261,
+      "stored_bytes": 170
+    },
+    "sos-2024-county-settings-19151": {
+      "path": "turnout/originals/sos-2024-county-settings-19151.gz",
+      "original_sha256": "2504841a46d15a5aec1464b39bec126b3fe739ba2be78ea0732d4cd638f054f1",
+      "stored_sha256": "c333e9e6f65cae697bc52b37823a243477c0a41ae13510e229b9b124aec2a419",
+      "original_bytes": 32028,
+      "stored_bytes": 7901
+    },
+    "sos-2024-county-xml-19009": {
+      "path": "turnout/originals/sos-2024-county-xml-19009.gz",
+      "original_sha256": "06f7dc12d378fb648be4b619331d0f372e0c803078f4274d56c2c3f073094daf",
+      "stored_sha256": "3eea43baa753058e1c7ba7acf6359d9bd44401658d4085ea758730c25bf71776",
+      "original_bytes": 4298,
+      "stored_bytes": 4321
+    },
+    "sos-2024-county-status-19009": {
+      "path": "turnout/originals/sos-2024-county-status-19009.gz",
+      "original_sha256": "1de3ba5cb88fd54e1b59f41980f5c05da030d1bcd12051f59e0b062013ff4c96",
+      "stored_sha256": "374b542b6456ae00e119a63aff823f539bb8023cfa912e75dd96271a77ab9e86",
+      "original_bytes": 159,
+      "stored_bytes": 124
+    },
+    "sos-2024-county-settings-19009": {
+      "path": "turnout/originals/sos-2024-county-settings-19009.gz",
+      "original_sha256": "e042bd6a02cdcf916fa90648edb239a4996e74f073cd7749682bae8df530b808",
+      "stored_sha256": "7a9339e827f17f18e47fec5ef7be3bb5bca0e9cfd7aef90d797a750b573bbf03",
+      "original_bytes": 30659,
+      "stored_bytes": 7636
+    },
+    "sos-2024-county-xml-19143": {
+      "path": "turnout/originals/sos-2024-county-xml-19143.gz",
+      "original_sha256": "49156e8fba70e8512317016674d622b23ec533343852e0a6e1e8a5325f65f159",
+      "stored_sha256": "253c729a2fdd96a2e286dac73b183d2d3dc27ad3f9427e75317edf2988352cd4",
+      "original_bytes": 4276,
+      "stored_bytes": 4299
+    },
+    "sos-2024-county-status-19143": {
+      "path": "turnout/originals/sos-2024-county-status-19143.gz",
+      "original_sha256": "c49b40cb83d5b480c7d78df5b701c0d53908f381cdf82aa9dc6388fd6c8ba9f3",
+      "stored_sha256": "0e785ed4977f6ed22711fcba9c2496c4100a2afa7da6d725a4d8bb27a1fc7f3e",
+      "original_bytes": 301,
+      "stored_bytes": 184
+    },
+    "sos-2024-county-settings-19143": {
+      "path": "turnout/originals/sos-2024-county-settings-19143.gz",
+      "original_sha256": "70e534f6559bb2a0bbfb5fddbee8e6b1fb0c71a45b9e039a785026d328eb391c",
+      "stored_sha256": "f4b7158a50557ef016762a4f98fdf3d023f8fe041650422010aa48566727c790",
+      "original_bytes": 28950,
+      "stored_bytes": 7259
+    },
+    "sos-2024-county-xml-19185": {
+      "path": "turnout/originals/sos-2024-county-xml-19185.gz",
+      "original_sha256": "04861f5cf97821fe628b0ee52305ae1e40171e21194326cf2f53ee8044ed8671",
+      "stored_sha256": "a83a7f0328ac77fd8c2573e1195e2d4b12df619e1cd4ce90beac64b3e1d5bde1",
+      "original_bytes": 4413,
+      "stored_bytes": 4436
+    },
+    "sos-2024-county-status-19185": {
+      "path": "turnout/originals/sos-2024-county-status-19185.gz",
+      "original_sha256": "36310a7dd96e92352332f32b007f4e750b5e67e917c1975c964525d3b822e1d9",
+      "stored_sha256": "8d65207bc0e2438c7f51aa26be4812409c1027d7361bef2aed668f997c6bae89",
+      "original_bytes": 219,
+      "stored_bytes": 159
+    },
+    "sos-2024-county-settings-19185": {
+      "path": "turnout/originals/sos-2024-county-settings-19185.gz",
+      "original_sha256": "705338734d64e0a75b2cb0e3c238bdcfcc73f4bcda36ccac4007a9a9144d433a",
+      "stored_sha256": "dc8c58e6fbe4a52e5c3a7f143787094c8d5bf5f821519eac71b384e75ed19f8b",
+      "original_bytes": 30412,
+      "stored_bytes": 7481
+    },
+    "sos-2024-county-xml-19173": {
+      "path": "turnout/originals/sos-2024-county-xml-19173.gz",
+      "original_sha256": "41b7da1538fb934f04bd878784ec5d9b43e66184c134102f1e4b13f54c2abe6e",
+      "stored_sha256": "1610679a528cce95f2667109618832ef4ccdd5541f4cb86bc33d5ad377d7b2be",
+      "original_bytes": 5040,
+      "stored_bytes": 5063
+    },
+    "sos-2024-county-status-19173": {
+      "path": "turnout/originals/sos-2024-county-status-19173.gz",
+      "original_sha256": "dc794813b96ee39658f7d102b71a9b1cd5512af5bac4ab337ff795de4a25d575",
+      "stored_sha256": "3cfd440c2a4e921625b066a79e6d81e858170e211611ceea6a16857d2abac134",
+      "original_bytes": 288,
+      "stored_bytes": 175
+    },
+    "sos-2024-county-settings-19173": {
+      "path": "turnout/originals/sos-2024-county-settings-19173.gz",
+      "original_sha256": "1ef2bcd01b37fcf93b4822c538a9a870c3360b7e2221f513a9069727f5eddab5",
+      "stored_sha256": "1d49c123f71337f4bbccbde63780246ee2d1a518f2a11c260d1f70c203db12ae",
+      "original_bytes": 30788,
+      "stored_bytes": 7677
+    },
+    "sos-2024-county-xml-19159": {
+      "path": "turnout/originals/sos-2024-county-xml-19159.gz",
+      "original_sha256": "b7e693b970866bfc62c6a469774296fd768e91742ebab99ada7eea7e5752379d",
+      "stored_sha256": "11d5c74a91d77aa8c64cc477dc7e44bcb54caab2dc49d99028deaad980bc6ff8",
+      "original_bytes": 4952,
+      "stored_bytes": 4975
+    },
+    "sos-2024-county-status-19159": {
+      "path": "turnout/originals/sos-2024-county-status-19159.gz",
+      "original_sha256": "b2bfc6a9b3d572c0d84344c730ff2243694426987cf4dc9346379edab15b810d",
+      "stored_sha256": "26f29b7d992eff7397863c5b70c4851fd2fa4a3ba8fb6d9311b11235349d8ddf",
+      "original_bytes": 295,
+      "stored_bytes": 190
+    },
+    "sos-2024-county-settings-19159": {
+      "path": "turnout/originals/sos-2024-county-settings-19159.gz",
+      "original_sha256": "2b44904f3bf2e442de2009921d7a65c2cb8a966896ff4e95e3775bb90281d971",
+      "stored_sha256": "74005c6dfe6995678855cc993d500d0b013d32172727353372436ef4b6df3dac",
+      "original_bytes": 29541,
+      "stored_bytes": 7432
+    },
+    "sos-2024-county-xml-19003": {
+      "path": "turnout/originals/sos-2024-county-xml-19003.gz",
+      "original_sha256": "9948acc0aeb05816f2c75c382bff6412f12645b21706127bb7070f4aa4a40588",
+      "stored_sha256": "634d0d0d8f03c30d367d3e019a266766bd26d2cb285ecbe79e1f5feb2b5bb20b",
+      "original_bytes": 3638,
+      "stored_bytes": 3661
+    },
+    "sos-2024-county-status-19003": {
+      "path": "turnout/originals/sos-2024-county-status-19003.gz",
+      "original_sha256": "204fa26cc9866c5b261cb98d21ddb960a378803d383f9dbbd21e62974bca54f2",
+      "stored_sha256": "9fbfe7dc6522c0b75fee1cfec7b34c2954d0ac308ffd9f105450b38e26137df4",
+      "original_bytes": 223,
+      "stored_bytes": 139
+    },
+    "sos-2024-county-settings-19003": {
+      "path": "turnout/originals/sos-2024-county-settings-19003.gz",
+      "original_sha256": "46f03642af0255eaf335ad130ae1176bf1ba653abebe64c0209eb61a7fb28877",
+      "stored_sha256": "89b83b63ba64ddc70451c7f935024551226c66344246a43f5e0c634e2e1df828",
+      "original_bytes": 29203,
+      "stored_bytes": 7243
+    }
+  },
+  "under_over": "Not published at native candidate-unit level in this XML; no residual allocation."
+}

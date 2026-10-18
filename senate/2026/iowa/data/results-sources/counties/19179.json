@@ -1,0 +1,165 @@
+{
+  "county": "Wapello",
+  "county_fips": "19179",
+  "rank_2024": 24,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Wapello",
+    "county_fips": "19179",
+    "rank_2024": 24,
+    "priority": true,
+    "anchor": "WapelloCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#WapelloCountyAuditor",
+    "auditor_url": "https://www.wapellocountyelections.org",
+    "phone": "641-683-0020",
+    "directory_source_id": "sos-auditors",
+    "source_position": 90
+  },
+  "current_key_publication": {
+    "source_id": "county-19179-general",
+    "url": "https://wapellocounty.iowa.gov/elections/info/general_2026_11_03/",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:32:27.696784+00:00",
+    "original_sha256": "72407ea746945f0cf67c0bd027fd111a3441ec4f4760e89cb348e7a118987895"
+  },
+  "finding": "The SOS-listed www.wapellocountyelections.org failed with connection refused. The actual official county home www.wapellocounty.org links wapellocounty.iowa.gov, where the current elections home and November event were recovered200. The old domain failure therefore does not mean county coverage is absent. Its March27 registration widget is administrative context.",
+  "gap": "Current publication replacement established; no November result totals or outstanding-vote estimate observed.",
+  "tested_routes": [
+    {
+      "source_id": "county-19179-seed",
+      "url": "https://www.wapellocountyelections.org",
+      "parent_url": "https://sos.iowa.gov/auditors#WapelloCountyAuditor",
+      "final_url": null,
+      "status": null,
+      "error": "ConnectionError: HTTPSConnectionPool(host='www.wapellocountyelections.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x110440a50>: Failed to establish a new connection: [Errno 61] Connection refused'))",
+      "view_path": null,
+      "source_identity_inventory_key": "county-19179-seed"
+    },
+    {
+      "source_id": "county-19179-observed0",
+      "url": "https://www.wapellocounty.org/",
+      "parent_url": null,
+      "final_url": "https://www.wapellocounty.org/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19179-observed0.json",
+      "source_identity_inventory_key": "county-19179-observed0"
+    },
+    {
+      "source_id": "county-19179-elections",
+      "url": "https://wapellocounty.iowa.gov/",
+      "parent_url": "https://www.wapellocounty.org/",
+      "final_url": "https://wapellocounty.iowa.gov/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19179-elections.json",
+      "source_identity_inventory_key": "county-19179-elections"
+    },
+    {
+      "source_id": "county-19179-general",
+      "url": "https://wapellocounty.iowa.gov/elections/info/general_2026_11_03/",
+      "parent_url": "https://wapellocounty.iowa.gov/",
+      "final_url": "https://wapellocounty.iowa.gov/elections/info/general_2026_11_03/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19179-general.json",
+      "source_identity_inventory_key": "county-19179-general"
+    },
+    {
+      "source_id": "county-19179-past",
+      "url": "https://wapellocounty.iowa.gov/elections/past/",
+      "parent_url": "https://wapellocounty.iowa.gov/",
+      "final_url": "https://wapellocounty.iowa.gov/elections/past/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19179-past.json",
+      "source_identity_inventory_key": "county-19179-past"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Wapello",
+    "county_fips": "19179",
+    "native_election_id": "122412",
+    "native_version": "354829",
+    "native_contest_key": "0004",
+    "xml_clock": "11/14/2024 11:00:08 AM CST",
+    "roster_clock": "11/14/2024 11:21:37 AM CST",
+    "xml_member_sha256": "4ed3a55affd86595cd4dbf90ee54a0346dce6e826c8c5093840056a844a76d97",
+    "xml_member_bytes": 218602,
+    "candidate_units": 22,
+    "root_turnout_units": 22,
+    "status_units": 22,
+    "candidate_method_cells": 352,
+    "candidate_generic_votes": 14583,
+    "root_turnout_attributes": {
+      "totalVoters": "21531",
+      "ballotsCast": "14697",
+      "voterTurnout": "68.26"
+    },
+    "root_turnout_ballot_sum": 14697,
+    "root_turnout_registration_sum": 21571,
+    "status_ballot_sum": 14697,
+    "status_codes": {
+      "4": 22
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "001",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "002",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "003",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "004",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "005",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "006",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "007",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "008",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19179"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19179",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19179-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#WapelloCountyAuditor",
+    "publication_url": "https://wapellocounty.iowa.gov/elections/info/general_2026_11_03/",
+    "telephone_from_directory": "641-683-0020",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

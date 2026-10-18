@@ -1,0 +1,272 @@
+{
+  "source_id": "sos-city-current-iowa-city-precinct-boundaries",
+  "source_path": "raw/sos-city-current-iowa-city-precinct-boundaries.zip",
+  "source_sha256": "3c2905b8977897e6bf8dfc76c2b3a0b4e450d609603e12ae78a7fa75efcf6451",
+  "zip_crc_bad_member": null,
+  "members": [
+    {
+      "name": "Iowa_City_adopted_Council_Districts.cpg",
+      "bytes": 5,
+      "compressed_bytes": 5,
+      "crc32": "0e813c50",
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824"
+    },
+    {
+      "name": "Iowa_City_adopted_Council_Districts.dbf",
+      "bytes": 2202,
+      "compressed_bytes": 305,
+      "crc32": "700f2cb5",
+      "sha256": "b8d75e2f75fa0c8a7f6eac297111c7365c077b635d8edb9b194e392a22d7fe7b"
+    },
+    {
+      "name": "Iowa_City_adopted_Council_Districts.prj",
+      "bytes": 548,
+      "compressed_bytes": 329,
+      "crc32": "045a5642",
+      "sha256": "562c005189bc54e209b5f6fe228d37ab2e75a9d99cc28dd3bd742e94c62f2a8c"
+    },
+    {
+      "name": "Iowa_City_adopted_Council_Districts.sbn",
+      "bytes": 164,
+      "compressed_bytes": 85,
+      "crc32": "db04b0e5",
+      "sha256": "a76c36ec4d30043cb238b12ad2561eb3ad9fe81686a7ac71d2bdd22c71e4e5c3"
+    },
+    {
+      "name": "Iowa_City_adopted_Council_Districts.sbx",
+      "bytes": 124,
+      "compressed_bytes": 64,
+      "crc32": "5864c9c6",
+      "sha256": "8e55228f7a32805739563e8eae30b178a77e0e7daf4d0c98326416acc1726d43"
+    },
+    {
+      "name": "Iowa_City_adopted_Council_Districts.shp",
+      "bytes": 33228,
+      "compressed_bytes": 22018,
+      "crc32": "4d78d3b4",
+      "sha256": "1fc1ff1e875d02036d73a8146a237e2516e1f60f3c48a3f1793412ceabf92a39"
+    },
+    {
+      "name": "Iowa_City_adopted_Council_Districts.shx",
+      "bytes": 124,
+      "compressed_bytes": 72,
+      "crc32": "bbc9031f",
+      "sha256": "f0d83a948b1bf9a1d39865e352b749901471c36411593afd1cf527765c6acd90"
+    }
+  ],
+  "layers": [
+    {
+      "layer_key": "sos-city-current-iowa-city-precinct-boundaries--1",
+      "shp_member": "Iowa_City_adopted_Council_Districts.shp",
+      "dbf_fields": [
+        [
+          "OBJECTID",
+          "N",
+          10,
+          0
+        ],
+        [
+          "DIST_ID",
+          "N",
+          10,
+          0
+        ],
+        [
+          "DIST_NAME",
+          "C",
+          254,
+          0
+        ],
+        [
+          "SHAPE_Leng",
+          "F",
+          19,
+          11
+        ],
+        [
+          "SHAPE_Area",
+          "F",
+          19,
+          11
+        ],
+        [
+          "DIST_ID_1",
+          "N",
+          10,
+          0
+        ],
+        [
+          "DISTRICT_N",
+          "C",
+          254,
+          0
+        ],
+        [
+          "P0010001",
+          "N",
+          10,
+          0
+        ],
+        [
+          "P0010001_D",
+          "N",
+          10,
+          0
+        ],
+        [
+          "P0010001_1",
+          "F",
+          19,
+          11
+        ]
+      ],
+      "dbf_encoding": "UTF-8",
+      "cpg_present": true,
+      "wkt_original": "PROJCS[\"NAD_1983_StatePlane_Iowa_South_FIPS_1402_Feet\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",1640416.666666667],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-93.5],PARAMETER[\"Standard_Parallel_1\",40.61666666666667],PARAMETER[\"Standard_Parallel_2\",41.78333333333333],PARAMETER[\"Latitude_Of_Origin\",40.0],UNIT[\"Foot_US\",0.3048006096012192]]",
+      "crs_authority": [
+        "EPSG",
+        "3418"
+      ],
+      "axis_info": [
+        {
+          "name": "Easting",
+          "abbreviation": "E",
+          "direction": "east",
+          "unit": "US survey foot",
+          "conversion_factor": 0.30480060960121924
+        },
+        {
+          "name": "Northing",
+          "abbreviation": "N",
+          "direction": "north",
+          "unit": "US survey foot",
+          "conversion_factor": 0.30480060960121924
+        }
+      ],
+      "shapefile_xy_order": "stored X,Y; preview transform always_xy=True",
+      "shp_shape_type": 5,
+      "shp_records": 3,
+      "shp_record_header_numbers": [
+        1,
+        2,
+        3
+      ],
+      "dbf_declared_records": 3,
+      "shx_records": 3,
+      "parsed_records": 3,
+      "vertices": 2060,
+      "parts": 3,
+      "z_returned": false,
+      "m_returned": false,
+      "curves_supported": false,
+      "curves_actually_returned": false,
+      "curve_note": "ESRI shapefile stores linear vertices; original ZIP fully retained",
+      "native_extent": [
+        2155247.665678948,
+        588672.1029991657,
+        2197156.1108437926,
+        624473.0487855673
+      ],
+      "feature_checks": [
+        {
+          "record_ordinal": 1,
+          "vertices": 879,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -309426634.3536377
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "OBJECTID": 296
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 2,
+          "vertices": 723,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -272797843.83532715
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "OBJECTID": 1365
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        },
+        {
+          "record_ordinal": 3,
+          "vertices": 458,
+          "parts": 1,
+          "empty": false,
+          "nonfinite": false,
+          "native_ring_signed_areas": [
+            -147711639.22973633
+          ],
+          "ring_area_note": "native coordinate squared values used only to diagnose ring orientation; not physical areas",
+          "native_clockwise_exteriors": 1,
+          "native_ccw_holes": 0,
+          "z_nonfinite": 0,
+          "m_nonfinite": 0,
+          "native_ids": {
+            "OBJECTID": 558
+          },
+          "valid": true,
+          "validity_reason": "Valid Geometry",
+          "geometry_type": "Polygon"
+        }
+      ],
+      "overlap_checks": [
+        {
+          "record_ordinals": [
+            2,
+            3
+          ],
+          "intersection_area": 16.92412147292338,
+          "units": "square metres",
+          "operation_crs": "EPSG:5070",
+          "native_projected_intersection_area": 182.16683514695032,
+          "native_projected_area_units": "square US survey foot",
+          "native_area_unavailable_reason": null,
+          "operation": "separate equal-area projected derivative; original native geometry unchanged"
+        }
+      ],
+      "overlap_skipped_invalid_or_unknown_crs": [],
+      "warnings": [
+        "The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details."
+      ],
+      "record_balance": true,
+      "trailing_shp_bytes": 0,
+      "native_derivative": "native/sos-city-current-iowa-city-precinct-boundaries--1.json.gz",
+      "topology_interpretation": "pyshp GeoJSON ring interpretation; orientation/orphan-hole fallback may interpret a hole as exterior for diagnostic geometry only; native ring vertices/parts unchanged. Preview draws all original rings as lines.",
+      "preview": {
+        "path": "previews/sos-city-current-iowa-city-precinct-boundaries--1.png",
+        "display_crs": "EPSG:5070",
+        "bounds": [
+          362269.88480208203,
+          2074787.4509191595,
+          375050.71142867574,
+          2085799.375943448
+        ],
+        "vertex_simplification": false
+      }
+    }
+  ],
+  "pagination": "not applicable: static full ZIP; all members/CRC/records inspected"
+}

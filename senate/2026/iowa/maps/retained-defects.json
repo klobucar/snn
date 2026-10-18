@@ -1,0 +1,163 @@
+{
+  "invalid_features": [
+    {
+      "source_id": "sos-city-current-ames-precinct-boundaries",
+      "layer": "Ames_-_Precincts_2.shp",
+      "record": 2,
+      "native_ids": {
+        "LONGNAME": "Precinct 7 - W2",
+        "SHORTNAME": "7",
+        "DISTRICT": 1
+      },
+      "reason": "Ring Self-intersection[-93.6399874894233 42.0671695260645]"
+    },
+    {
+      "source_id": "sos-city-current-carlisle-precinct-boundaries",
+      "layer": "Carlisle_Precincts.shp",
+      "record": 1,
+      "native_ids": {
+        "LONGNAME": "Unassigned",
+        "SHORTNAME": "Unassigned",
+        "DISTRICT": 0
+      },
+      "reason": "Self-intersection[-93.4769013814956 41.5087344475569]"
+    },
+    {
+      "source_id": "sos-city-current-cedar-rapids-precinct-boundaries",
+      "layer": "Cedar_Rapids_51_Precincts_-_No_County.shp",
+      "record": 7,
+      "native_ids": {
+        "LONGNAME": "Cedar Rapids 07",
+        "SHORTNAME": "CR07",
+        "DISTRICT": 7
+      },
+      "reason": "Ring Self-intersection[-91.7061469424601 42.0192346391182]"
+    },
+    {
+      "source_id": "sos-city-current-fort-madison-precinct-boundaries",
+      "layer": "Fort_Madison_Ward_Precinct_Map.shp",
+      "record": 1,
+      "native_ids": {
+        "LONGNAME": "District 1",
+        "SHORTNAME": "D1",
+        "DISTRICT": 1
+      },
+      "reason": "Ring Self-intersection[-91.2966386835162 40.6495594358725]"
+    },
+    {
+      "source_id": "sos-city-current-le-mars-precinct-boundaries",
+      "layer": "City_Le_Mars_Precincts.shp",
+      "record": 3,
+      "native_ids": {
+        "LONGNAME": "Precinct 3",
+        "SHORTNAME": "P3",
+        "DISTRICT": 3
+      },
+      "reason": "Ring Self-intersection[-96.2134992762057 42.7568904620059]"
+    },
+    {
+      "source_id": "sos-city-current-newton-precinct-boundaries",
+      "layer": "Newton_Precincts.shp",
+      "record": 1,
+      "native_ids": {
+        "LONGNAME": "Unassigned",
+        "SHORTNAME": "Unassigned",
+        "DISTRICT": 0
+      },
+      "reason": "Self-intersection[-93.020029279461 41.7316825112382]"
+    },
+    {
+      "source_id": "sos-city-current-ottumwa-precinct-boundaries",
+      "layer": "City_of_Ottumwa_Revised.shp",
+      "record": 1,
+      "native_ids": {
+        "LONGNAME": "Unassigned",
+        "SHORTNAME": "Unassigned",
+        "DISTRICT": 0
+      },
+      "reason": "Self-intersection[-92.3801540228001 41.0012434313621]"
+    },
+    {
+      "source_id": "sos-city-current-polk-city-precinct-boundaries",
+      "layer": "Polk_City_draft - Copy.shp",
+      "record": 1,
+      "native_ids": {
+        "LONGNAME": "Unassigned",
+        "SHORTNAME": "Unassigned",
+        "DISTRICT": 0
+      },
+      "reason": "Self-intersection[-93.6920714686839 41.759976473986]"
+    },
+    {
+      "source_id": "sos-city-current-spirit-lake-precinct-boundaries",
+      "layer": "City_Spirit_Lake_Precinct_Map.shp",
+      "record": 2,
+      "native_ids": {
+        "LONGNAME": "Precinct 10",
+        "SHORTNAME": "D2",
+        "DISTRICT": 2
+      },
+      "reason": "Ring Self-intersection[-95.142032069327 43.4231646346725]"
+    },
+    {
+      "source_id": "sos-city-current-spirit-lake-precinct-boundaries",
+      "layer": "City_Spirit_Lake_Precinct_Map.shp",
+      "record": 3,
+      "native_ids": {
+        "LONGNAME": "Precinct 11",
+        "SHORTNAME": "D3",
+        "DISTRICT": 3
+      },
+      "reason": "Ring Self-intersection[-95.1139600595578 43.407330634245]"
+    },
+    {
+      "source_id": "sos-city-current-west-des-moines-ward-boundaries",
+      "layer": "WDM_Wards_Map.shp",
+      "record": 1,
+      "native_ids": {
+        "LONGNAME": "Unassigned",
+        "SHORTNAME": "Unassigned",
+        "DISTRICT": 0
+      },
+      "reason": "Self-intersection[-93.7032774480561 41.5447724398372]"
+    },
+    {
+      "source_id": "sos-county-clinton-county-precinct-boundaries",
+      "layer": "CC_Redistricting_Corrections.shp",
+      "record": 24,
+      "native_ids": {
+        "LONGNAME": "Camanche",
+        "SHORTNAME": "CMT",
+        "DISTRICT": 24
+      },
+      "reason": "Ring Self-intersection[-90.3159855205968 41.7792716830758]"
+    },
+    {
+      "source_id": "sos-county-jasper-county-precinct-boundaries-2",
+      "layer": "JasperCountyPrecincts.shp",
+      "record": 20,
+      "native_ids": {
+        "SHORTNAME": "D18",
+        "Name": "Colfax 2"
+      },
+      "reason": "Ring Self-intersection[1714237.43551372 612346.742985725]"
+    },
+    {
+      "source_id": "sos-county-tama-county-precinct-boundaries",
+      "layer": "County_Tama_Precincts.shp",
+      "record": 9,
+      "native_ids": {
+        "LONGNAME": "District 9",
+        "SHORTNAME": "D9",
+        "DISTRICT": 9
+      },
+      "reason": "Self-intersection[-92.6494332030799 41.9782325742704]"
+    }
+  ],
+  "overlap_pairs": 100,
+  "wrong_scope_sources": [
+    "sos-county-polk-county-precinct-boundaries",
+    "sos-county-jackson-county-precinct-boundaries"
+  ],
+  "no_approved_current_crosswalk": true
+}

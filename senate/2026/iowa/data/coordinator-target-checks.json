@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-18T04:19:04.412212+00:00",
+  "state_scenarios": 36,
+  "preference_volume_mixes": 12,
+  "county_target_rows": 3564,
+  "selected_county_requirements": 3564,
+  "separate_other_candidate_rows": 3960,
+  "synthetic_fixed_counted_remainder_cases": 3,
+  "same_seat2020_pair": 1619856,
+  "same_seat2020_D_minus_R": -110138,
+  "same_seat2020_tie_D_share_pp": 3.3996231763811107,
+  "input_hashes": {
+    "baselines/county-contests.csv": "561f3bc81aac45cf6abf576730b967643e60828ba4c9d063caf25be836d86089",
+    "baselines/state-scenarios.csv": "7e5ff533bb364929cd075cf707dcb6ded87bfb109e07b40e2e28dc17356b4ed2",
+    "baselines/county-target-scenarios.csv": "9b94337f7b2006d98f383ce12858db17106b04d68560f4886aeb7aa07923f49d",
+    "baselines/selected-county-break-even.csv": "b9add813c105ae03adb2c83d4b5caa20c2e8d08d61f94d4b836825f47f840f2c",
+    "baselines/scenario-other-candidates.csv": "39a57a788006585ba4c245da9862438bc579524f783b48a8c34ed705bc23bab2",
+    "baselines/live-remainder-examples.json": "a4266c508cc2927bce9a74ae8693ddb1391b56f2e06d424ba56a3783d7e6ec26"
+  },
+  "scope": "Historical arithmetic and final-denominator examples only; generic marks remain distinct, no current candidate effects, remaining-vote estimate or calibrated forecast."
+}

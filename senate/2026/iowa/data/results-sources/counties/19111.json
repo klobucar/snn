@@ -1,0 +1,295 @@
+{
+  "county": "Lee",
+  "county_fips": "19111",
+  "rank_2024": 21,
+  "investigation_scope": "deep_priority",
+  "authority_directory": {
+    "county": "Lee",
+    "county_fips": "19111",
+    "rank_2024": 21,
+    "priority": true,
+    "anchor": "LeeCountyAuditor",
+    "directory_url": "https://sos.iowa.gov/auditors#LeeCountyAuditor",
+    "auditor_url": "https://leecounty.iowa.gov/pview.aspx?id=20892&catid=25",
+    "phone": "319-372-3705",
+    "directory_source_id": "sos-auditors",
+    "source_position": 56
+  },
+  "current_key_publication": {
+    "source_id": "county-19111-final-review0",
+    "url": "https://www.leecounty.iowa.gov/pview.aspx?id=20906&catid=0",
+    "http_status": 200,
+    "retrieval_utc": "2026-10-18T04:34:22.503871+00:00",
+    "original_sha256": "d1962e4eba109b99e5fdac3c78a984d0ae35ce8e3212cd045a80782eb5b364a0"
+  },
+  "finding": "The auditor publishes separate general-election information, a historical results archive and a linked2026 primary results document. Actual current notice29753, press release29752 and general sample ballot29749 were downloaded and fully extracted. The ballot corroborates the three Senate names. The auditor also links precinct/polling-location document29751 and an ArcGIS lookup. Native pview/docview and municipalcms IDs are publication identifiers, never FIPS.",
+  "gap": "No November count export schema observed. The maps peer separately found the linked ArcGIS item-data permission error; no geometry or current crosswalk is inferred from a working app shell.",
+  "tested_routes": [
+    {
+      "source_id": "county-19111-seed",
+      "url": "https://leecounty.iowa.gov/pview.aspx?id=20892&catid=25",
+      "parent_url": "https://sos.iowa.gov/auditors#LeeCountyAuditor",
+      "final_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20892&catid=25",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19111-seed.json",
+      "source_identity_inventory_key": "county-19111-seed"
+    },
+    {
+      "source_id": "county-19111-linked1",
+      "url": "https://www.leecounty.iowa.gov/pview.aspx?id=20953&catid=0",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20892&catid=25",
+      "final_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20953&catid=0",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19111-linked1.json",
+      "source_identity_inventory_key": "county-19111-linked1"
+    },
+    {
+      "source_id": "county-19111-linked2",
+      "url": "https://www.leecounty.iowa.gov/pview.aspx?id=20953&catid=25",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20892&catid=25",
+      "final_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20953&catid=25",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19111-linked2.json",
+      "source_identity_inventory_key": "county-19111-linked2"
+    },
+    {
+      "source_id": "county-19111-linked3",
+      "url": "https://www.leecounty.iowa.gov/pview.aspx?id=20885&catid=25",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20892&catid=25",
+      "final_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20885&catid=25",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19111-linked3.json",
+      "source_identity_inventory_key": "county-19111-linked3"
+    },
+    {
+      "source_id": "county-19111-linked4",
+      "url": "https://www.leecounty.iowa.gov/pview.aspx?id=20934&catid=26",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20892&catid=25",
+      "final_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20885&catid=25",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19111-linked4.json",
+      "source_identity_inventory_key": "county-19111-linked4"
+    },
+    {
+      "source_id": "county-19111-linked5",
+      "url": "https://www.leecounty.iowa.gov/docview.aspx?docid=29682",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20953&catid=0",
+      "final_url": "https://www.leecounty.iowa.gov/files/documents/2026PrimaryResults1485044235090226PM.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19111-linked5"
+    },
+    {
+      "source_id": "county-19111-linked6",
+      "url": "http://results.enr.clarityelections.com/IA/76338/Web02-state.206999/",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20953&catid=0",
+      "final_url": "https://results.enr.clarityelections.com/IA/76338/Web02-state.206999/",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19111-linked6.json",
+      "source_identity_inventory_key": "county-19111-linked6"
+    },
+    {
+      "source_id": "county-19111-linked7",
+      "url": "https://leecounty.municipalcms.com/docview.aspx?docid=28997",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20953&catid=0",
+      "final_url": "https://leecountyiowa.municipalone.com/files/documents/2018PrimaryElectionResultsPDF1040929052720PM.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19111-linked7"
+    },
+    {
+      "source_id": "county-19111-linked8",
+      "url": "https://leecounty.municipalcms.com/docview.aspx?docid=28995",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20953&catid=0",
+      "final_url": "https://leecountyiowa.municipalone.com/files/documents/2016PrimaryElectionResultsPDF1040900052720PM.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19111-linked8"
+    },
+    {
+      "source_id": "county-19111-linked9",
+      "url": "https://leecounty.municipalcms.com/docview.aspx?docid=28993",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20953&catid=0",
+      "final_url": "https://leecountyiowa.municipalone.com/files/documents/2014PrimaryElectionResultsPDF1040827052720PM.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19111-linked9"
+    },
+    {
+      "source_id": "county-19111-linked10",
+      "url": "https://leecounty.municipalcms.com/docview.aspx?docid=28991",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20953&catid=0",
+      "final_url": "https://leecountyiowa.municipalone.com/files/documents/2012PrimaryElectionResultsPDF1040750052720PM.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19111-linked10"
+    },
+    {
+      "source_id": "county-19111-linked11",
+      "url": "https://leecounty.municipalcms.com/docview.aspx?docid=28989",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20953&catid=0",
+      "final_url": "https://leecountyiowa.municipalone.com/files/documents/2010PrimaryElectionResultsPDF1040716052720PM.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19111-linked11"
+    },
+    {
+      "source_id": "county-19111-linked12",
+      "url": "https://leecounty.municipalcms.com/docview.aspx?docid=28987",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20953&catid=0",
+      "final_url": "https://leecountyiowa.municipalone.com/files/documents/2008PrimaryElectionResultsPDF1341050729033021PM.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19111-linked12"
+    },
+    {
+      "source_id": "county-19111-final-review0",
+      "url": "https://www.leecounty.iowa.gov/pview.aspx?id=20906&catid=0",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20892&catid=25",
+      "final_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20906&catid=0",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19111-final-review0.json",
+      "source_identity_inventory_key": "county-19111-final-review0"
+    },
+    {
+      "source_id": "county-19111-final-review1",
+      "url": "https://www.leecounty.iowa.gov/pview.aspx?id=20962&catid=71",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20892&catid=25",
+      "final_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20891&catid=25",
+      "status": 200,
+      "error": null,
+      "view_path": "extracts/county-19111-final-review1.json",
+      "source_identity_inventory_key": "county-19111-final-review1"
+    },
+    {
+      "source_id": "county-19111-current-publication0",
+      "url": "https://www.leecounty.iowa.gov/docview.aspx?docid=29753",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20906&catid=0",
+      "final_url": "https://www.leecounty.iowa.gov/files/documents/NoticeofGeneralElection20261488045158101626PM.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19111-current-publication0"
+    },
+    {
+      "source_id": "county-19111-current-publication1",
+      "url": "https://www.leecounty.iowa.gov/docview.aspx?docid=29752",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20906&catid=0",
+      "final_url": "https://www.leecounty.iowa.gov/files/documents/PressReleaseGeneral20261485094338092926AM.docx",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19111-current-publication1"
+    },
+    {
+      "source_id": "county-19111-current-publication2",
+      "url": "https://www.leecounty.iowa.gov/docview.aspx?docid=29749",
+      "parent_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20906&catid=0",
+      "final_url": "https://www.leecounty.iowa.gov/files/documents/2026GeneralElectionSampleBallot1485014149091826PM.pdf",
+      "status": 200,
+      "error": null,
+      "view_path": null,
+      "source_identity_inventory_key": "county-19111-current-publication2"
+    }
+  ],
+  "historical_native_identity_and_controls": {
+    "county": "Lee",
+    "county_fips": "19111",
+    "native_election_id": "122378",
+    "native_version": "354624",
+    "native_contest_key": "0101",
+    "xml_clock": "11/13/2024 12:29:05 PM CST",
+    "roster_clock": "11/13/2024 12:42:06 PM CST",
+    "xml_member_sha256": "f062d50e8e32e6c76240a9d9794a23d3d3837418f20f1b52cd8153da821ad851",
+    "xml_member_bytes": 224434,
+    "candidate_units": 22,
+    "root_turnout_units": 22,
+    "status_units": 22,
+    "candidate_method_cells": 352,
+    "candidate_generic_votes": 16198,
+    "root_turnout_attributes": {
+      "totalVoters": "23092",
+      "ballotsCast": "16311",
+      "voterTurnout": "70.63"
+    },
+    "root_turnout_ballot_sum": 16311,
+    "root_turnout_registration_sum": 23085,
+    "status_ballot_sum": 16311,
+    "status_codes": {
+      "4": 22
+    },
+    "turnout_missing_candidate_labels": [],
+    "choices": [
+      {
+        "choice_key": "001",
+        "label": "Donald J. Trump and JD Vance",
+        "party_literal": "REP"
+      },
+      {
+        "choice_key": "002",
+        "label": "Kamala D. Harris and Tim Walz",
+        "party_literal": "DEM"
+      },
+      {
+        "choice_key": "003",
+        "label": "Chase Oliver and Mike ter Maat",
+        "party_literal": "LIB"
+      },
+      {
+        "choice_key": "004",
+        "label": "Claudia De la Cruz and Karina Garcia",
+        "party_literal": "PSL"
+      },
+      {
+        "choice_key": "005",
+        "label": "William P. Stodden and Stephanie H. Cholensky",
+        "party_literal": "SOC"
+      },
+      {
+        "choice_key": "006",
+        "label": "Robert F. Kennedy Jr and Nicole Shanahan",
+        "party_literal": "WTP"
+      },
+      {
+        "choice_key": "007",
+        "label": "Shiva Ayyadurai and Crystal Ellis",
+        "party_literal": null
+      },
+      {
+        "choice_key": "008",
+        "label": "Write-in",
+        "party_literal": null
+      }
+    ],
+    "source_id": "sos-2024-county-xml-19111"
+  },
+  "complete_constituent_inventory_pointer": "../native-constituent-inventory.jsonl.gz county_fips=19111",
+  "all_source_positions_pointer": "../source-view-position-inventory.jsonl.gz source_id prefix county-19111-",
+  "counts_status": "No November2026 Senate counted snapshot verified. Current event/ballot/setup pages are separate from old results.",
+  "method_semantics": "Historical XML Election Day+Absentee equals candidate total; Total overlaps both methods and is not an additional batch. Current method release semantics unobserved.",
+  "source_time_semantics": "Historical XML/roster clocks retained literally; HTTP/CMS/file/fetch clocks do not date votes. Current source time may be absent/unknown.",
+  "completion_semantics": "Historical percentReporting4 is status enum, not4% votes. Current setup/reporting counts do not prove complete eligible ballots.",
+  "manual_backup": {
+    "responsibility": "County auditor/commissioner publishes local results; SOS supervises state election administration. Manual researcher should retain source timestamp/status and exact candidate/method rows, mark unknowns, and reconcile overlapping county/state versions. No contact message sent.",
+    "authority_url": "https://sos.iowa.gov/auditors#LeeCountyAuditor",
+    "publication_url": "https://www.leecounty.iowa.gov/pview.aspx?id=20906&catid=0",
+    "telephone_from_directory": "319-372-3705",
+    "remaining_vote_evidence_required": "A dated county statement about eligible uncounted ballots by method and adjudication stage; registration, requests/returns and precinct reporting alone are insufficient."
+  },
+  "current_crosswalk_approved": false,
+  "november_feed_approved": false
+}

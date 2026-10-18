@@ -1,0 +1,54 @@
+{
+  "source_id": "local-19187-map-page-2",
+  "requested_url": "https://www.webstercountyia.gov/document_center/Election Result/2020/2020Primary/2020-06-02_Precinct.pdf?t=202303311114060",
+  "parent_authority_url": "https://sos.iowa.gov/auditors#WebsterCountyAuditor",
+  "kind": "county-authority",
+  "retrieval_utc": "2026-10-18T04:28:20.935758+00:00",
+  "county": "Webster",
+  "link_label": "2020 Primary Precinct Results",
+  "final_url": "https://cms7files.revize.com/webstercountyia/document_center/Election%20Result/2020/2020Primary/2020-06-02_Precinct.pdf?t=202303311114060",
+  "status": 200,
+  "reason": "OK",
+  "headers": {
+    "Date": "Sun, 18 Oct 2026 04:28:21 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "217738",
+    "Connection": "keep-alive",
+    "Last-Modified": "Wed, 16 Aug 2023 20:46:58 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"ba2fc5cc82d0d91:0\"",
+    "X-Request-Id": "763662945f58b1b15aac63f4b1da2a4c"
+  },
+  "request_headers": {
+    "User-Agent": "Iowa-public-map-research/1.0",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive"
+  },
+  "redirects": [
+    {
+      "status": 302,
+      "url": "https://www.webstercountyia.gov/document_center/Election%20Result/2020/2020Primary/2020-06-02_Precinct.pdf?t=202303311114060",
+      "headers": {
+        "Date": "Sun, 18 Oct 2026 04:28:21 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Content-Length": "258",
+        "Connection": "keep-alive",
+        "Location": "https://cms7files.revize.com/webstercountyia/document_center/Election Result/2020/2020Primary/2020-06-02_Precinct.pdf?t=202303311114060",
+        "X-Content-Security-Policy": "frame-ancestors 'self'",
+        "Referrer-Policy": "no-referrer-when-downgrade",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-Permitted-Cross-Domain-Policies": "none",
+        "X-XSS-Protection": "1; mode=block"
+      }
+    }
+  ],
+  "entity_bytes": 217738,
+  "entity_sha256": "0ba7256e4b0a6604a3170aea272d6214fcd2ad9ede3976b04d54de62f8898d0a",
+  "transport_decoding": "requests HTTP content decoding; no other modification",
+  "path": "raw/local-19187-map-page-2.pdf",
+  "stored_encoding": "identity",
+  "stored_bytes": 217738,
+  "stored_sha256": "0ba7256e4b0a6604a3170aea272d6214fcd2ad9ede3976b04d54de62f8898d0a"
+}
