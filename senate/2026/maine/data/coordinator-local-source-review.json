@@ -1,0 +1,73 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-18T02:57:12.055482+00:00",
+  "local_records": 14,
+  "candidate_baseline_cells": 56,
+  "all_candidate_matches": 12,
+  "differences": [
+    {
+      "native_key": "ME:SOS:2024-11-05:CUM:Gorham",
+      "unit": "Gorham",
+      "candidate_differences": [
+        0,
+        0,
+        -400,
+        -30
+      ],
+      "optional_fields": {
+        "local_BLANK": {
+          "local": 272,
+          "SOS": 276,
+          "local_minus_SOS": -4
+        },
+        "local_TBC": {
+          "local": null,
+          "SOS": 11560,
+          "local_minus_SOS": null
+        }
+      },
+      "source_request": "967fab749f4bc98654b1"
+    },
+    {
+      "native_key": "ME:SOS:2024-11-05:CUM:Falmouth",
+      "unit": "Falmouth",
+      "candidate_differences": [
+        0,
+        0,
+        -1,
+        -1
+      ],
+      "optional_fields": {
+        "local_BLANK": {
+          "local": null,
+          "SOS": 134,
+          "local_minus_SOS": null
+        },
+        "local_TBC": {
+          "local": null,
+          "SOS": 9044,
+          "local_minus_SOS": null
+        }
+      },
+      "source_request": "3a7e8ca08c8ab7c479aa"
+    }
+  ],
+  "source_original_hashes": {
+    "ceae9c6277cbbaa67e0f": "fcea51b2d7d2d0ebc87f2601f034b1044855a4f87a4773a47e1539ec80de82b5",
+    "62ea3f27ea6c2d4ab246": "35d59b5eb0477151438e57c7d4ff980a1b804aec9b6a98de2851d4f0c67a32ca",
+    "564d809ea3f87fa1aa8e": "e44d1da48ab1b70277e049dc91b243ac3257c808f4e19b1f4ece2775ee252ade",
+    "967fab749f4bc98654b1": "7e90563d1040d4978b3b16ecbc76bb0658fee148e06a5a920b69b1f00f12a901",
+    "efbe78b8c448dc071843": "d3401983bc4d9e3cceb297ed832a0e588fdab84c75397cddfdecdde733944710",
+    "3a7e8ca08c8ab7c479aa": "4ca3117ec6b076e9db04534b359abbf79856ec667dd3270163c818c94447b784",
+    "e4e18d91e53f367fc84e": "03e5017a8da719596a899230878800b2dd2b87114c534694bcf9c2a8b5c221fe",
+    "84f4cf539c67f2cbbb0c": "de7dd1ed996fbf3acf2a229b5a83b253dbd067a1cf99d5c2c21b859022d3e2ad",
+    "3144cf5cfcffb9c1906d": "82e0085593194190eae5b5b38c8f62c28ed742da64ee81f629924bd7af33d35b",
+    "789bb527fd9c77a5156d": "324ae66aa9a0ea21088dcfcfdba25be240beb6e2e93206f570a683a5f4454389",
+    "380819744852d87778cb": "97ba9ede74b978332573357552ee68647184a5534386e7c058133f70862ec457",
+    "853b5dfccda83c15e2b0": "84d6ac33a2b48bd9f507dbfcb48921f0cb534100f127c08c34f44b64d22c2a7b",
+    "503ce237aa7dabca9b85": "9e8a3700e13330fcfd735d94cb2b3f9850a0f0510c8e57610f477696afb4dfe6",
+    "cec582cbd5598d54c7d1": "a1c9c7f7341820cb3fdbf7a01932c5eb4c6d7e5712689cb099ccbea743f029d5"
+  },
+  "scope": "Comparison of worker transcriptions to independently reconciled selected SOS rows; 14 original PDF hashes checked. Coordinator manually viewed Gorham/Falmouth/Rockport. No generic independent extraction, correction cause, publication order or baseline change inferred.",
+  "Rockport_scope": "Displayed Write-in row 49 contains Write-In column 3 plus Over/Under 46; no named-candidate allocation. SOS blank 49 remains its separate native field."
+}

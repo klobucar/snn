@@ -1,0 +1,331 @@
+{
+  "links": [
+    {
+      "url": "https://display.diariovozpopuli.cl",
+      "text": "LOGIN"
+    },
+    {
+      "url": "https://sekut.dev/seosel",
+      "text": "DAFTAR"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "SELAMAT DATANG DI ALEXISTOGEL SITUS AMAN TERPERCARYA NO.1 DI INDONESIA"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "0"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://display.diariovozpopuli.cl",
+      "text": "Log In"
+    },
+    {
+      "url": "https://display.diariovozpopuli.cl",
+      "text": "Sign Up"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "ALEXISTOGEL"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "ALEXISTOTO"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "ALEXISTOGEL OFFICIAL"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "ALEXISTOGEL TERPERCAYA"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "ALEXISTOGEL DAFTAR"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "ALEXISTOGEL LOGIN          if ($(window).width() < 992) {\n    // Level 1 menu accordion (main menu items)\n    $(\".nav-menu .nav-menu container > a\").click(function(e){\n      e.preventDefault()\n      const parentLi = $(this).parent()\n      const isCurrentlyOpen = parentLi.hasClass(\"menu-open\")\n      \n      // Close all other open menus (accordion behavior)\n      $(\".nav-menu .nav-menu container\").not(parentLi).removeClass(\"menu-open\")\n      $(\".nav-menu .megamenu\").not($(this).next(\".megamenu\")).slideUp()\n      \n      // Toggle current menu\n      if (isCurrentlyOpen) {\n        parentLi.removeClass(\"menu-open\")\n        $(this).next(\".megamenu\").slideUp()\n      } else {\n        parentLi.addClass(\"menu-open\")\n        $(this).next(\".megamenu\").slideDown()\n      }\n    })\n\n    // Level 2 menu accordion (submenu items with grandchildren)\n    $(document).on('click', '.dropdown-menu .has-submenu > a', function(e){\n      e.preventDefault()\n      const parentLi = $(this).parent()\n      const isCurrentlyOpen = parentLi.hasClass(\"submenu-open\")\n      const grandchild = $(this).next(\".grandchild\")\n      \n      // Close all other open submenus in the same dropdown (accordion behavior)\n      parentLi.siblings('.has-submenu').removeClass(\"submenu-open\")\n      parentLi.siblings('.has-submenu').find('.grandchild').slideUp()\n      parentLi.siblings('.has-submenu').find('.chevron-right').css('transform', 'rotate(0deg)')\n      \n      // Toggle current submenu\n      if (isCurrentlyOpen) {\n        parentLi.removeClass(\"submenu-open\")\n        grandchild.slideUp()\n        $(this).find('.chevron-right').css('transform', 'rotate(0deg)')\n      } else {\n        parentLi.addClass(\"submenu-open\")\n        grandchild.slideDown()\n        $(this).find('.chevron-right').css('transform', 'rotate(90deg)')\n      }\n    })\n\n    $(\"#menu-hamburger\").click(function(e){\n      e.preventDefault()\n      $(\"body\").toggleClass(\"nav_open\")\n    })\n    \n    // Handle close button click\n    $(\"#nav-close\").click(function(e){\n      e.preventDefault()\n      $(\"body\").removeClass(\"nav_open\")\n      // Close all open menus when close button is clicked\n      $(\".nav-menu .nav-menu container\").removeClass(\"menu-open\")\n      $(\".nav-menu .megamenu\").slideUp()\n      $(\".dropdown-menu .has-submenu\").removeClass(\"submenu-open\")\n      $(\".dropdown-menu .grandchild\").slideUp()\n      $(\".dropdown-menu .chevron-right\").css('transform', 'rotate(0deg)')\n    })\n  }\n\n  $(\".overlay-nav\").click(function(e){\n      e.preventDefault()\n      $(\"body\").removeClass(\"nav_open\")\n      // Close all open menus when overlay is clicked\n      $(\".nav-menu .nav-menu container\").removeClass(\"menu-open\")\n      $(\".nav-menu .megamenu\").slideUp()\n      $(\".dropdown-menu .has-submenu\").removeClass(\"submenu-open\")\n      $(\".dropdown-menu .grandchild\").slideUp()\n      $(\".dropdown-menu .chevron-right\").css('transform', 'rotate(0deg)')\n  })"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "#search-trigger {\n    cursor: pointer;\n  }\n  #search-popup {\n    display: none;\n    position: fixed;\n    left: 0;\n    width: 100%;\n    top: 0;\n    height: 100%;\n    justify-content: center;\n    z-index: 9999;\n    background: rgb(196 196 196 / 30%);\n  }\n  #search-input {\n    align-self: center;\n    width: 100%;\n    height: 80px;\n    position: absolute;\n    top: 0;\n    border-bottom: 0.5px solid #A3A3A3;\n    background-color: #fff;\n  }\n  #search-input * {\n    align-self: center;\n  }\n  #search-type {\n    width: 100%;\n    border: none;\n    padding-right: 20px;\n    padding-left: 20px;\n    font-size: 16px;\n    color: #757575;\n  }\n  #search-btn {\n    font-size: 16px;\n    font-weight: 500;\n  }\n  #search-result {\n    min-height: 490px;\n    width: 100%;\n    padding-top: 80px;\n  }\n  #search-result .container {\n    background-color: #fff;\n    padding: 20px 40px;\n  }\n  body.search-popup-open {\n  /* .search-popup-open */\n    overflow: hidden;\n  }\n  .search-popup-open #loc_delivery {\n    display: none\n  }\n  .search-header svg {\n    display: none;\n    cursor: pointer;\n  }\n  .wrapper-search-popup {\n    max-height: calc(100vh - 150px);\n    overflow-y: auto;\n    overflow-x: hidden;\n  }\n\n  .group-recommend {\n    padding: 20px 40px;\n  }\n\n  .resultsearch {\n    display: none;\n  }\n  #product-meta h1 {\n        color: gold;\n        font-size: 24px;\n    }\n  .results { padding: 20px 40px }\n  .resultsearch label {\n    font-weight: 600;\n    padding-bottom: 20px;\n    display: block;\n    margin-bottom: 20px;\n    border-bottom: 1px solid #AAAAAA;\n  }\n\n  ul.result_product {\n    max-height: 300px;\n    overflow: auto;\n  }\n\n  .group-promotion ul {\n    margin: 0;\n  }\n  .group-promotion li {\n    list-style: none;\n    margin-bottom: 12px;\n  }\n  .group-promotion li a {\n    color: inherit;\n  }\n\n  .group-recent {\n    position: relative;\n    padding: 20px 40px;\n  }\n  .group-recent ul {\n    margin: 0;\n  }\n  .group-recent li {\n    list-style: none;\n    display: inline-block;\n    margin-right: 60px;\n  }\n  .group-recent li a {\n    color: inherit;\n  }\n\n  .last-search svg {\n    width: 20px;\n    vertical-align: middle;\n  }\n  ul.last-search a {\n    vertical-align: middle;\n    padding: 0 10px;\n  }\n  ul.last-search li span {\n    cursor: pointer;\n  }\n  .delete-all-history {\n    position: absolute;\n    top: 25px;\n    right: 40px;\n    text-decoration: underline;\n    color: #e11d1d;\n    cursor: pointer;\n    font-size: 12px;\n  }\n\n  form.search.search-modal__form {\n    position: relative;\n  }\n\n  button.search__button svg {\n    width: 25px;\n    color: #495057;\n    fill: #757582;\n  }\n\n  button.search__button.field__button {\n    position: absolute;\n    top: 50%;\n    margin-top: -12px;\n  }\n\n  .close-search {\n    display: none;\n    position: absolute;\n    right: 65px;\n    top: 10px;\n    cursor: pointer;\n  }\n\n  .site-overlay {\n    position: fixed;\n    top: 0;\n    width: 100vw;\n    height: 100vh;\n    z-index: 1000;\n    background: #0000005c;\n    visibility: hidden;\n    opacity: 0;\n    pointer-events: none;\n    transition: all .3s linear;\n    display: block !important;\n  }\n\n  .search-popup-open .site-overlay {\n    opacity: 1;\n    visibility: visible;\n    pointer-events: all;\n    z-index: -1;\n    cursor: pointer;\n  }\n\n  @media (min-width: 991px) {\n    .group-recent ul {\n      column-count: 3;\n    }\n    .group-promotion li a {\n      font-size: 12px;\n      font-weight: 400;\n    }\n    .group-recent li a {\n      font-size: 12px;\n      font-weight: 400;\n    }\n  }\n\n  .moreresult {\n    padding: 10px 40px;\n    border-top: 1px solid #AAAAAA;\n  }\n  .moreresult * {\n    align-self: center;\n  }\n  .moreresult p {\n    margin: 0;\n    font-size: 12px !important;\n  }\n  .moreresult svg {\n    width: 13px;\n  }\n\n  @media (max-width: 992px) {\n    .icon-key-mobile {\n        height: auto!important;\n        width: 10px!important;\n    }\n    body.grid-view.search-popup-open .products {\n      -ms-flex: 0 0 100%!important;\n      flex: 0 0 100%!important;\n      max-width: 100%!important;\n    }\n    button.search__button svg {\n      width: 20px;\n    }\n    #search-result {\n      padding-left: 0;\n      padding-right: 0;\n    }\n    #search-result {\n      padding-top: 55px;\n    }\n    #search-input {\n      height: 55px;\n    }\n    .group-recommend {\n      padding: 20px;\n    }\n    #search-input .container {\n      padding: 0 20px;\n    }\n    #search-type {\n      font-size: 14px;\n    }\n    #search-btn {\n      font-size: 12px;\n      text-decoration: underline;\n    }\n    .results {\n      padding: 20px;\n    }\n    .group-recommend h3 {\n      font-size: 16px;\n    }\n    .products .card-body {\n      padding: 8px 0px 10px;\n    }\n    .moreresult {\n      padding: 10px 20px;\n    }\n  }  div.advertisement-placeholder {\n            text-align: center;\n            padding-bottom: 20px;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n        }\n        div.advertisement-text p {\n            margin: 0;\n            font-family: Open Sans;\n            font-style: normal;\n            font-weight: normal;\n            font-size: 10px;\n            line-height: 20px;\n            color: #999999;\n        }\n        div.advertisement-banner {\n            margin: 0px auto;\n        }\n        div#div-gpt-ad-billboard-placeholder {\n            width: 996px;\n            margin: 0 auto;\n            background: #F5F5F5;\n            padding-bottom: unset !important;\n            min-height: 200px;\n        }\n        div#div-gpt-ad-lb-placeholder {\n            background: #F5F5F5;\n            padding-bottom: unset !important;\n            min-height: 280px;\n        }\n        .faq-section{\n            max-width:1200px;\n            margin:50px auto;\n            padding:40px 20px;\n            position:relative;\n            background-color: rgba(0, 0, 0, 0.1);\n            backdrop-filter: blur(25px);\n            border-radius: 20px;\n            }\n            \n        .faq-section h2{\n            text-align:center;\n            font-size:34px;font-weight:700;\n            margin-bottom:50px;\n            background: gold;\n            -webkit-background-clip:text;\n            -webkit-text-fill-color:transparent;\n            background-clip:text;\n            font-family:\"Poppins\",sans-serif;letter-spacing:1px\n        }\n        \n        .faq-container{\n            display:flex;\n            flex-direction:column;\n            gap:25px\n        }\n        \n        .faq-item{\n            background:linear-gradient(145deg,#0a0a0a,#1a1a1a);\n            border:2px solid gold;\n            border-radius:60px;overflow:hidden;\n            transition:all .4s ease;box-shadow:0 5px 20px rgba(0,0,0,0.5)\n        }\n        \n        .faq-item:hover{\n            border-color:gold;\n            transform:translateX(10px);\n            box-shadow:0 12px 35px rgba(253, 4, 4, 0.25)\n        }\n\n        .faq-question{width:100%;\n            padding:28px 35px;background:transparent;\n            color:#ffffff;\n            font-size:18px;\n            font-weight:600;\n            text-align:left;\n            border:none;cursor:pointer;\n            display:flex;\n            justify-content:space-between;\n            align-items:center;\n            font-family:\"Poppins\",sans-serif;\n            transition:all .3s ease\n        }\n        \n        .faq-question:hover{\n            color:gold\n        }\n        \n        .faq-question::after{\n            content:'+';\n            font-size:32px;\n            font-weight:300;\n            transition:all .4s ease;\n            color:gold;\n            width:40px;\n            height:40px;\n            display:flex;\n            align-items:center;\n            justify-content:center;\n            border:2px solid red;border-radius:50%;\n            background:rgba(0, 0, 0, 0.1)\n        }\n        \n        .faq-item.active .faq-question::after{\n            transform:rotate(135deg);\n            background:linear-gradient(135deg,darkred,red);\n            color:#000;border-color:transparent\n        }\n        \n        .faq-answer{\n            max-height:0;\n            overflow:hidden;\n            transition:max-height .5s ease,padding .5s ease;\n            background:linear-gradient(180deg,rgba(253,228,4,0.05),transparent);\n            padding:0 35px\n        }\n        \n        .faq-item.active .faq-answer{\n            max-height:800px;padding:30px 35px;\n            border-top:1px solid rgba(253, 4, 4, 0.3)\n        }\n        \n        .faq-answer p{\n            color:#e0e0e0;\n            font-size:16px;\n            line-height:2;\n            margin:0;\n            font-family:\"Poppins\",sans-serif\n        }\n\n        @media\n            (max-width:768px)\n        {\n        \n        .faq-section\n            {padding:30px 15px}\n        \n        .faq-section h2\n            {font-size:26px}\n        \n        .faq-question\n            {font-size:16px;\n            padding:22px 25px}\n        \n        .faq-question::after\n            {width:35px;\n            height:35px;\n            font-size:28px}\n        \n        .faq-answer\n            {padding:0 25px}\n        \n        .faq-item.active .faq-answer\n            {padding:25px}\n        \n        .faq-item:hover\n            {transform:translateX(5px)}\n            }"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "Search"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "SUGGESTIONS     PRODUCTS      Search for   icon-arrow-right        RECENT SEARCH  Hapus riwayat"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "YOU MAY ALSO LIKE"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/products/mid-autumn-of-love-mooncake",
+      "text": "Mid Autumn of Love Mooncake    Rp 588.000  (-40%)    Rp 348.000"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/products/mid-autumn-of-joy-mooncake",
+      "text": "Mid Autumn of Joy Mooncake    Rp 888.000  (-33%)    Rp 588.000"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/products/mid-autumn-of-fortune-mooncake",
+      "text": "Mid Autumn of Fortune Mooncake    Rp 1.188.000  (-33%)    Rp 788.000"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/products/mid-autumn-festival-mooncake",
+      "text": "Mid Autumn Festival Mooncake    Rp 1.288.000  (-23%)    Rp 988.000"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/products/the-jade-bouquet",
+      "text": "The Jade Bouquet    Rp 435.000  (-34%)    Rp 285.000"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/products/the-selena-bouquet",
+      "text": "The Selena Bouquet    Rp 335.000  (-29%)    Rp 235.000"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/products/the-viola-bouquet",
+      "text": "The Viola Bouquet    Rp 385.000  (-25%)    Rp 285.000"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/products/the-minerva-bouquet",
+      "text": "The Minerva Bouquet    Rp 385.000  (-25%)    Rp 285.000"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/products/congraduations-bouquet",
+      "text": "Congraduations Bouquet    Rp 380.000  (-25%)    Rp 285.000"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/products/grad-gorgeous-bouquet",
+      "text": "Grad & Gorgeous Bouquet    Rp 380.000  (-25%)    Rp 285.000"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "Togel"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/files/Blossom-Shine-WM.jpg",
+      "text": ""
+    },
+    {
+      "url": "https://kilat.digital/images/2026/10/17/7c68a5373c0cd30915424e5284000395.jpg",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/files/Blossom-Shine_3-WM.jpg",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/files/Blossom-Shine_4.jpg",
+      "text": ""
+    },
+    {
+      "url": "https://kilat.digital/images/2026/10/17/7c68a5373c0cd30915424e5284000395.jpg",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "ALEXISTOGEL"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "Contoh Kata WEDDING"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "Contoh Kata SELAMAT"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "Contoh Kata DUKA CITA"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/cart",
+      "text": "View Cart"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/checkout",
+      "text": "Checkout"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/",
+      "text": "Continue shopping"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "Togel Online"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "Togel"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "Toto Togel"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "Login Togel"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "Bandar Togel"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "Bandar Togel Online"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "Situs Togel"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/category/victoria/",
+      "text": "Prediksi Togel"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/cart",
+      "text": ""
+    },
+    {
+      "url": "https://diariovozpopuli.cl/pages/wish-list",
+      "text": "Wishlist"
+    },
+    {
+      "url": "https://diariovozpopuli.cl/pages/wish-list",
+      "text": "View Wishlist"
+    },
+    {
+      "url": "https://display.diariovozpopuli.cl",
+      "text": "PROMO"
+    },
+    {
+      "url": "https://display.diariovozpopuli.cl",
+      "text": "LOGIN"
+    },
+    {
+      "url": "https://display.diariovozpopuli.cl",
+      "text": "DAFTAR"
+    },
+    {
+      "url": "https://display.diariovozpopuli.cl",
+      "text": "WHATSAPP"
+    },
+    {
+      "url": "https://display.diariovozpopuli.cl",
+      "text": "Live Chat"
+    }
+  ],
+  "scripts": [
+    "https://api-na1.hubapi.com/scriptloader/v1/6800477.js?shop=outerbloom1.myshopify.com",
+    "https://googlesignintest.loca.lt/public/scripts/shopify-page-script.js?shop=outerbloom1.myshopify.com",
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js?shop=outerbloom1.myshopify.com",
+    "https://outerbloom.com/cdn/s/trekkie.storefront.10b9e06bd1980b2ce8435c2fe6c8f07eb6305ae4.min.js",
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js",
+    "https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js",
+    "https://outerbloom.com/cdn/wpm/b4f0c5c77w64a73806p128ba08bma5b58f2fm.js",
+    "https://outerbloom.com/cdn/shopifycloud/storefront/assets/shop_events_listener-abeef7a0.js",
+    "https://accounts.google.com/gsi/client",
+    "https://code.jquery.com/jquery-1.12.4.min.js",
+    "https://outerbloom.com/cdn/shop/t/138/assets/combine.js?v=140218079523075729301752652421",
+    "https://code.jquery.com/ui/1.13.0/jquery-ui.min.js",
+    "https://diariovozpopuli.cl/checkouts/internal/preloads.js?locale=en-ID",
+    "https://outerbloom.com/cdn/shopifycloud/shop-js/client.js",
+    "https://outerbloom.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-81c60534.js",
+    "https://outerbloom.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-2.0.13.min.js",
+    "https://platform-api.sharethis.com/js/sharethis.js#property=5acdc0aa3ef3c0001396fd50&product=custom-share-buttons",
+    "https://outerbloom.com/cdn/shop/t/138/assets/jquery.magnific-popup.min.js?v=184369421263510081681752652422",
+    "https://cdnjs.cloudflare.com/ajax/libs/shopify-cartjs/1.1.0/cart.min.js",
+    "https://outerbloom.com/cdn/shopifycloud/storefront/assets/themes_support/option_selection-b017cd28.js",
+    "https://outerbloom.com/cdn/shop/t/138/assets/handlebars.min.js?v=79044469952368397291752652415",
+    "https://outerbloom.com/cdn/shop/t/138/assets/ajax-cart.js?v=51128912329657147331752652452",
+    "https://outerbloom.com/cdn/shop/t/138/assets/vendors.js?v=6349622868601634021752652419",
+    "https://outerbloom.com/cdn/shop/t/138/assets/app.js?v=136050180318808583701752652452",
+    "https://outerbloom.com/cdn/shop/t/138/assets/variant-sku-handler.js?v=91239063692820757781752652418",
+    "https://outerbloom.com/cdn/shop/t/138/assets/wishlist-fixed.js?v=35991423018869066281754360012",
+    "https://cdn1.stamped.io/files/widget.min.js",
+    "https://cdn1.bitbybit.studio/bitbybit/static/bitChat_widget/widget.js",
+    "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+    "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+    "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+    "https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015",
+    "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+  ]
+}

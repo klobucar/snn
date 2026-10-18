@@ -1,0 +1,167 @@
+{
+  "id": "679acfe6537e90b05ef5",
+  "publisher_url": "https://bowdoinme.com/",
+  "request_url": "https://bowdoinme.com/",
+  "retrieved_utc": "2026-10-18T02:31:29.099890+00:00",
+  "requested_headers": {},
+  "max_entity_bytes": 39000000,
+  "redirects": [
+    {
+      "url": "https://bowdoinme.com/",
+      "status": 301,
+      "location": "https://bowdoinmaine.gov/",
+      "headers": [
+        [
+          "Date",
+          "Sun, 18 Oct 2026 02:31:29 GMT"
+        ],
+        [
+          "Content-Type",
+          "text/html; charset=UTF-8"
+        ],
+        [
+          "Transfer-Encoding",
+          "chunked"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Server-Timing",
+          "cfEdge;dur=27,cfOrigin;dur=0"
+        ],
+        [
+          "Location",
+          "https://bowdoinmaine.gov/"
+        ],
+        [
+          "Vary",
+          "accept-encoding"
+        ],
+        [
+          "Report-To",
+          "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=TRM9Q%2BcaIBIXv7CUTYwhgrtP5ocwSJS9lN2ktdF4Zc6usIX6vEaEv8mGm7yDVtPIp8Q68nBEKYpROtTtpo00cfPvGPlvj9S8QC4fN0DnikVjszFkT30xM10T9K4I7%2Fkl3NRThv3mNQGdLT0%3D\"}]}"
+        ],
+        [
+          "Nel",
+          "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+        ],
+        [
+          "Server",
+          "cloudflare"
+        ],
+        [
+          "CF-RAY",
+          "a4c42087ce6b9d4a-ORD"
+        ],
+        [
+          "alt-svc",
+          "h3=\":443\"; ma=86400"
+        ]
+      ]
+    }
+  ],
+  "status": 200,
+  "final_url": "https://bowdoinmaine.gov/",
+  "headers": [
+    [
+      "Date",
+      "Sun, 18 Oct 2026 02:31:29 GMT"
+    ],
+    [
+      "Content-Type",
+      "text/html; charset=UTF-8"
+    ],
+    [
+      "Transfer-Encoding",
+      "chunked"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "permissions-policy",
+      "private-state-token-redemption=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\"), private-state-token-issuance=(self \"https://www.google.com\" \"https://www.gstatic.com\" \"https://recaptcha.net\" \"https://challenges.cloudflare.com\" \"https://hcaptcha.com\")"
+    ],
+    [
+      "link",
+      "<https://bowdoinmaine.gov/wp-json/>; rel=\"https://api.w.org/\""
+    ],
+    [
+      "x-tec-api-version",
+      "v1"
+    ],
+    [
+      "x-tec-api-root",
+      "https://bowdoinmaine.gov/wp-json/tribe/events/v1/"
+    ],
+    [
+      "x-tec-api-origin",
+      "https://bowdoinmaine.gov"
+    ],
+    [
+      "vary",
+      "Accept-Encoding"
+    ],
+    [
+      "Server",
+      "cloudflare"
+    ],
+    [
+      "x-turbo-charged-by",
+      "LiteSpeed"
+    ],
+    [
+      "x-litespeed-cache",
+      "hit"
+    ],
+    [
+      "Report-To",
+      "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=G7JT58GT9KUu2PYFeH8IR%2FMj9iZ6382drAbfaHjgmSnRHu9DnwjnaMw2gKqRlMIU0S5GiyFIYS6KHT%2F8bkELna%2FuO2mlNcQ7x4xIu6rAuCCaOmNxFgDfSce0fc%2BE4ATPESHIv4NBhRy8DTufp7R0\"}]}"
+    ],
+    [
+      "cf-cache-status",
+      "DYNAMIC"
+    ],
+    [
+      "Nel",
+      "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+    ],
+    [
+      "Strict-Transport-Security",
+      "max-age=15552000"
+    ],
+    [
+      "X-Content-Type-Options",
+      "nosniff"
+    ],
+    [
+      "Speculation-Rules",
+      "\"/cdn-cgi/speculation\""
+    ],
+    [
+      "Server-Timing",
+      "cfCacheStatus;desc=\"DYNAMIC\""
+    ],
+    [
+      "Server-Timing",
+      "cfEdge;dur=29,cfOrigin;dur=69"
+    ],
+    [
+      "CF-RAY",
+      "a4c420891bfa1a46-ORD"
+    ],
+    [
+      "alt-svc",
+      "h3=\":443\"; ma=86400"
+    ]
+  ],
+  "complete": true,
+  "entity_bytes_retained": 97487,
+  "entity_sha256": "6149baf0ce123ece09e97b897faf763f8475abac9557fff1f5424005fb8849f6",
+  "body_path": "objects/6149baf0ce123ece09e97b897faf763f8475abac9557fff1f5424005fb8849f6.gz",
+  "saved_sha256": "04e99b9ec35ed764ba0f2586a69b88e432e10a4ac051e3094118f09218b300e0",
+  "saved_bytes": 17913
+}

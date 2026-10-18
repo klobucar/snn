@@ -1,0 +1,103 @@
+{
+  "id": "3dab05a7a3070a4bf425",
+  "publisher_url": "http://www.maine.gov/portal/government/edemocracy/voter_lookup.php",
+  "request_url": "http://www.maine.gov/portal/government/edemocracy/voter_lookup.php",
+  "retrieved_utc": "2026-10-18T02:32:42.555925+00:00",
+  "requested_headers": {},
+  "max_entity_bytes": 39000000,
+  "redirects": [
+    {
+      "url": "http://www.maine.gov/portal/government/edemocracy/voter_lookup.php",
+      "status": 301,
+      "location": "https://www.maine.gov/portal/government/edemocracy/voter_lookup.php",
+      "headers": [
+        [
+          "Server",
+          "CloudFront"
+        ],
+        [
+          "Date",
+          "Sun, 18 Oct 2026 02:32:42 GMT"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ],
+        [
+          "Content-Length",
+          "167"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Location",
+          "https://www.maine.gov/portal/government/edemocracy/voter_lookup.php"
+        ],
+        [
+          "X-Cache",
+          "Redirect from cloudfront"
+        ],
+        [
+          "Via",
+          "1.1 2d5d7e553b5f39aacf067f1d93cb4ea4.cloudfront.net (CloudFront)"
+        ],
+        [
+          "X-Amz-Cf-Pop",
+          "ORD58-P14"
+        ],
+        [
+          "X-Amz-Cf-Id",
+          "JvbT7h4Zb08Hipbf5CRrc39qpaPgOjXpvl4g0XNhIbLU7WVo_foXYQ=="
+        ]
+      ]
+    }
+  ],
+  "status": 403,
+  "final_url": "https://www.maine.gov/portal/government/edemocracy/voter_lookup.php",
+  "headers": [
+    [
+      "Server",
+      "CloudFront"
+    ],
+    [
+      "Date",
+      "Sun, 18 Oct 2026 02:32:42 GMT"
+    ],
+    [
+      "Content-Type",
+      "text/html"
+    ],
+    [
+      "Content-Length",
+      "919"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "X-Cache",
+      "Error from cloudfront"
+    ],
+    [
+      "Via",
+      "1.1 a579544adf231e75da92c6373b69eb94.cloudfront.net (CloudFront)"
+    ],
+    [
+      "X-Amz-Cf-Pop",
+      "ORD58-P14"
+    ],
+    [
+      "X-Amz-Cf-Id",
+      "vh0U_1p3dSkU3xk_B9O2OwZ7SAXJyv_sUxYfcoCuUpm0hkOA3ElzWg=="
+    ]
+  ],
+  "complete": true,
+  "entity_bytes_retained": 919,
+  "entity_sha256": "10e6ff25448b87b818ea38021d5cc3a5412db0ec239bbea1007172c31529eb70",
+  "body_path": "objects/10e6ff25448b87b818ea38021d5cc3a5412db0ec239bbea1007172c31529eb70.gz",
+  "saved_sha256": "663182ebfa522c63c37c14ba1d1a77dcb221df34568d182db733c526a4d0c50f",
+  "saved_bytes": 599
+}

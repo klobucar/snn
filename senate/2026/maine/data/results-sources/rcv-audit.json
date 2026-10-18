@@ -1,0 +1,106 @@
+{
+  "election": "2026-06-09 Democratic Congressional District 2 primary; NOT November Senate",
+  "first_choice_workbook_request_id": "ea9168a83a2208b62e32",
+  "raw_nonempty_rows": 431,
+  "disjoint_data_rows": 425,
+  "source_excel_row_range": [
+    5,
+    429
+  ],
+  "all_row_identities_pass": true,
+  "blank_office_and_district_source_rows": [
+    92,
+    353
+  ],
+  "sums": {
+    "Baldacci": 24944,
+    "Dunlap": 22920,
+    "Loud": 8182,
+    "Wood": 22678,
+    "BLANK": 4756,
+    "TBC": 83480
+  },
+  "cvr_request_id": "3e8ead0ae70c94422366",
+  "cvr_rows": 345,
+  "cvr_unique_record_ids": 342,
+  "cvr_first_rank": {
+    "Dunlap, Matthew G.": 78,
+    "Baldacci, Joseph M.": 95,
+    "Wood, Jordan": 76,
+    "Loud, Paige": 80,
+    "undervote": 16
+  },
+  "cvr_duplicate_record_ids": {
+    "1335": 2,
+    "1342": 2,
+    "1347": 2
+  },
+  "cvr_exact_duplicate_source_row_pairs": [
+    [
+      215,
+      218
+    ],
+    [
+      216,
+      219
+    ],
+    [
+      217,
+      220
+    ]
+  ],
+  "cvr_minus_initial_UOCAVA": {
+    "Baldacci": 0,
+    "Dunlap": 0,
+    "Loud": 0,
+    "Wood": 2,
+    "undervote_or_BLANK": -2,
+    "TBC": 0
+  },
+  "cvr_duplicate_policy": "Retain every source row. Do not deduplicate, allocate or explain the mismatch without further primary evidence.",
+  "cvr_scope": "Only UOCAVA export, 345 ballots; local numeric precinct codes have no approved crosswalk to 2024/2026 polygons or newsroom VCU IDs",
+  "summary_request_id": "266a08d91013335ab173",
+  "rounds": [
+    {
+      "round": 1,
+      "Baldacci": 24966,
+      "Dunlap": 22933,
+      "Wood": 22712,
+      "Loud": 8194,
+      "exhausted": 4675,
+      "eliminated": "Loud, Paige"
+    },
+    {
+      "round": 2,
+      "Baldacci": 25923,
+      "Dunlap": 25681,
+      "Wood": 25377,
+      "Loud": 0,
+      "exhausted": 6499,
+      "eliminated": "Wood, Jordan"
+    },
+    {
+      "round": 3,
+      "Baldacci": 32555,
+      "Dunlap": 35924,
+      "Wood": 0,
+      "Loud": 0,
+      "exhausted": 15001,
+      "elected": "Dunlap, Matthew G."
+    }
+  ],
+  "round_plus_exhausted_controls": 83480,
+  "initial_to_round1_candidate_difference": {
+    "Baldacci": 22,
+    "Dunlap": 13,
+    "Loud": 12,
+    "Wood": 34,
+    "BLANK_or_exhausted": -81
+  },
+  "difference_explanation": "Stages differ. Complete local CVRs/auxiliaries were not downloaded; do not infer mechanism or fabricate transfers from this delta.",
+  "summary_date_field": "empty",
+  "summary_timezone": null,
+  "summary_test_flag": null,
+  "summary_completion_flag": null,
+  "no_november_contest_id_or_cadence_claim": true
+}

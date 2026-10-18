@@ -1,0 +1,215 @@
+{
+  "id": "afadf94ad31f4571156b",
+  "publisher_url": "https://www.townofdeerisle.org/",
+  "request_url": "https://www.townofdeerisle.org/",
+  "retrieved_utc": "2026-10-18T02:31:32.731938+00:00",
+  "requested_headers": {},
+  "max_entity_bytes": 39000000,
+  "redirects": [
+    {
+      "url": "https://www.townofdeerisle.org/",
+      "status": 301,
+      "location": "https://www.deerislemaine.gov/",
+      "headers": [
+        [
+          "Date",
+          "Sun, 18 Oct 2026 02:31:33 GMT"
+        ],
+        [
+          "Content-Length",
+          "0"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Location",
+          "https://www.deerislemaine.gov/"
+        ],
+        [
+          "CF-Ray",
+          "a4c4209eaa5a61cd-ORD"
+        ],
+        [
+          "CF-Cache-Status",
+          "DYNAMIC"
+        ],
+        [
+          "Accept-Ranges",
+          "bytes"
+        ],
+        [
+          "Age",
+          "0"
+        ],
+        [
+          "Cache-Control",
+          "no-cache"
+        ],
+        [
+          "Server",
+          "cloudflare"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=31556952"
+        ],
+        [
+          "alt-svc",
+          "h3=\":443\"; ma=86400"
+        ],
+        [
+          "server-timing",
+          "cache;desc=miss, varnish;desc=miss_miss, dc;desc=fastly_virginia-phy_cf"
+        ],
+        [
+          "x-cache",
+          "MISS"
+        ],
+        [
+          "x-cache-status",
+          "MISS"
+        ],
+        [
+          "x-content-type-options",
+          "nosniff"
+        ],
+        [
+          "x-seen-by",
+          "bQAXdg/f3pWGCb3VI6q72A==,bQAXdg/f3pWGCb3VI6q72A==,Ct40diYObxC+je8ScvxEPQ==,jKB0KR2wTEE1MYSdxvKSbciHE4dbw+wewoJ5nvKoyjE=,AHc3TXLcXOul+t9LIbGg9ciHE4dbw+wewoJ5nvKoyjE=,Ua1iSBCTq7qSXjmRCGE1NxdijdoAe3fLddlWgs4smpAnjI66397HFloxXHmv3+cfEpzrUii78VdYxnNKzUeyUYhIydfYCelFDfkrvUteY3jgpk5Y1vdxzcb6hDzLA4Eo,2d58ifebGbosy5xc+FRalqApS5yoOTyhlJ90eX4SCK4YWTENfapTNDsRNLREfiaFqdB/muy8W4xVdZyKL0M+VGE5XCICJ56srV1g7R685Bo=,2UNV7KOq4oGjA5+PKsX47G86grxW7YVbTxNaQeYTCEMFVd1lR1L8/yRoc88kq/ej,2UNV7KOq4oGjA5+PKsX47KEA/q0qujTnFdLk61L10h4FVd1lR1L8/yRoc88kq/ej,/B3VgDtICCNDWQOEWfZmMj+Y1BNE+QSPFNZUbkwCIyg=,wjXkXN74v+Dcwxj+UalvvswuXzERBfrwG0qQrmPKUnwj6r0AZAMucqm4C7kwBEya4tMwCYzweLV1lXvTokaGjQ=="
+        ],
+        [
+          "x-served-by",
+          "cache-chi-kigq8000058-CHI"
+        ],
+        [
+          "x-wix-cache-control",
+          "public, max-age=86400"
+        ],
+        [
+          "x-wix-request-id",
+          "1792290692.9574072126841480"
+        ],
+        [
+          "set-cookie",
+          "__cf_bm=wPK8zn7WP1jOZFXcdTKzPYVSxjyLYy6POhPKakdB1vU-1792290692.9089096-1.0.1.1-_PupvVfqkcD8CqUkZJsyYB1HQ48hZUSxptfRujRCu6_4CjHBwIwHVCnooK4rtUci.fRO_OyL1b6fRMykG.sDp0JvAuyTpWywKFUtQ0OCxGoRHqOcmzYv1Xx1E4M0BHjE; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.townofdeerisle.org; Expires=Sun, 18 Oct 2026 03:01:33 GMT"
+        ]
+      ]
+    }
+  ],
+  "status": 200,
+  "final_url": "https://www.deerislemaine.gov/",
+  "headers": [
+    [
+      "Date",
+      "Sun, 18 Oct 2026 02:31:33 GMT"
+    ],
+    [
+      "Content-Type",
+      "text/html; charset=UTF-8"
+    ],
+    [
+      "Transfer-Encoding",
+      "chunked"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "CF-Ray",
+      "a4c420a00f0f1fa5-ORD"
+    ],
+    [
+      "CF-Cache-Status",
+      "DYNAMIC"
+    ],
+    [
+      "x-served-by",
+      "cache-chi-kmdw8640052-CHI"
+    ],
+    [
+      "Age",
+      "278164"
+    ],
+    [
+      "Cache-Control",
+      "private,max-age=0,must-revalidate"
+    ],
+    [
+      "Set-Cookie",
+      "XSRF-TOKEN=1792290693|URSsWs7JlJhU; Path=/; Domain=www.deerislemaine.gov; Secure; SameSite=None"
+    ],
+    [
+      "Set-Cookie",
+      "sec-fetch-unsupported=1; Path=/; Secure; SameSite=Lax;"
+    ],
+    [
+      "Set-Cookie",
+      "ssr-caching=cache#desc=hit#varnish=hit_miss#dc#desc=fastly_virginia-phy; max-age=20"
+    ],
+    [
+      "set-cookie",
+      "__cf_bm=kZWh.KgHtRkCUfLevotUo0lW8xvCo1x7HQPwqO56jWI-1792290693.1302035-1.0.1.1-fMvxCDTGViioXIhIu152WL9koNE.Rv7FhmqVXSAL7ZqKiUmF5SGmULqRvoUXDeURVGOOD_LPOXNA8nRSmmkA6Mil3_pHWJAiJ25_o7_6itiONI1aNPMUUsC9k5Y0k99.; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.deerislemaine.gov; Expires=Sun, 18 Oct 2026 03:01:33 GMT"
+    ],
+    [
+      "Content-Language",
+      "en"
+    ],
+    [
+      "ETag",
+      "W/\"1056ab0eff68cc677564108cb6b38335\""
+    ],
+    [
+      "Link",
+      "<https://static.parastorage.com/>; rel=preconnect; crossorigin, <https://static.parastorage.com/>; rel=preconnect, <https://static.wixstatic.com/>; rel=preconnect; crossorigin, <https://static.wixstatic.com/>; rel=preconnect, <https://siteassets.parastorage.com>; rel=preconnect; crossorigin"
+    ],
+    [
+      "Server",
+      "cloudflare"
+    ],
+    [
+      "x-wix-request-id",
+      "1792290693.1713842073341480"
+    ],
+    [
+      "Strict-Transport-Security",
+      "max-age=31556952"
+    ],
+    [
+      "Vary",
+      "Accept-Encoding"
+    ],
+    [
+      "alt-svc",
+      "h3=\":443\"; ma=86400"
+    ],
+    [
+      "server-timing",
+      "cache;desc=hit, varnish;desc=hit_miss, dc;desc=fastly_virginia-phy_cf"
+    ],
+    [
+      "x-cache",
+      "MISS"
+    ],
+    [
+      "x-cache-status",
+      "HIT"
+    ],
+    [
+      "x-content-type-options",
+      "nosniff"
+    ],
+    [
+      "x-seen-by",
+      "bQAXdg/f3pWGCb3VI6q72A==,bQAXdg/f3pWGCb3VI6q72A==,Ct40diYObxC+je8ScvxEPQ==,jKB0KR2wTEE1MYSdxvKSbciHE4dbw+wewoJ5nvKoyjE=,AHc3TXLcXOul+t9LIbGg9ciHE4dbw+wewoJ5nvKoyjE=,Ua1iSBCTq7qSXjmRCGE1NwfeecFozasodcDrSjMMpbOmONimDLc/BGf0ubTnI5bjEpzrUii78VdYxnNKzUeyUYhIydfYCelFDfkrvUteY3ib+6VEmPRil8hck6YdnwCH,2d58ifebGbosy5xc+FRalg0iFsV+SUhYs+brsO0+7RlKOYtJKsvvOjPOej0qwpMmqdB/muy8W4xVdZyKL0M+VD70JhDtepRFo0PYEm9BlJM=,2UNV7KOq4oGjA5+PKsX47Efm2FDoAuZ3d2dZFPgraZgFVd1lR1L8/yRoc88kq/ej,2UNV7KOq4oGjA5+PKsX47Bf7Kcd8QXJSMUhfvzFmjzQFVd1lR1L8/yRoc88kq/ej"
+    ]
+  ],
+  "complete": true,
+  "entity_bytes_retained": 546162,
+  "entity_sha256": "3e395af5daebeeea347535669de74aaf291e27aaac936c1c604a8b5820eb4469",
+  "body_path": "objects/3e395af5daebeeea347535669de74aaf291e27aaac936c1c604a8b5820eb4469.gz",
+  "saved_sha256": "a0c5380f9a91f60326cfe7f97f7786094e6025006ede03f569f1b6f5d714f38a",
+  "saved_bytes": 128203
+}

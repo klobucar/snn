@@ -1,0 +1,76 @@
+{
+  "comparisons": [
+    {
+      "source_id": "senate-2024",
+      "archive_source_id": "legislature-2024-b",
+      "numeric_changed_rows": [
+        517,
+        545,
+        549
+      ],
+      "only_native_changed_unit": "YOR Alfred",
+      "native_row": 517,
+      "labels_and_native_row_universe_unchanged": true,
+      "inference": "Alfred replacement accounts for every statewide candidate/blank difference; underlying correction cause and publication sequence unproved"
+    },
+    {
+      "source_id": "president-2024",
+      "archive_source_id": "legislature-2024-a",
+      "numeric_changed_rows": [
+        518,
+        546,
+        550
+      ],
+      "only_native_changed_unit": "YOR Alfred",
+      "native_row": 518,
+      "labels_and_native_row_universe_unchanged": true,
+      "inference": "Alfred replacement accounts for every statewide candidate/blank difference; underlying correction cause and publication sequence unproved"
+    },
+    {
+      "chronology_limits": [
+        "Legislature directory lists a.xlsx at 2024-12-09 09:04 and b.xlsx at 09:05; timezone unspecified, not proven first publication.",
+        "Current SOS links label both files FINAL-Corrected 20241205; filename is not proof of publication on Dec5.",
+        "Current president OOXML modified 2024-12-06T14:55:08Z; archived president modified 2024-12-09T13:04:33Z. Embedded clocks do not establish chronological order.",
+        "Current Senate modified 2024-12-09T15:31:56Z; archive modified 2024-12-09T13:05:30Z.",
+        "Dec9 signed presidential certificate agrees with corrected SOS five named-candidate statewide totals.",
+        "Dec18 SOS final-results notice in Jan8 legislature record points to state tabulations but supplies no candidate correction explanation.",
+        "House Clerk PDF publication date March10 2025 is later; it agrees with retained archive rather than current SOS. Transmission history unverified.",
+        "No municipal amended return, correction memorandum or causal audit record obtained; no claim of fraud, machine error or ballot change follows from this comparison."
+      ]
+    }
+  ],
+  "workbook_metadata": [
+    {
+      "source_id": "senate-2024",
+      "creator": "Starr, Matthew",
+      "lastModifiedBy": "Packard, Melissa",
+      "lastPrinted": "2024-12-09T13:47:39Z",
+      "created": "2024-11-13T14:14:24Z",
+      "modified": "2024-12-09T15:31:56Z"
+    },
+    {
+      "source_id": "legislature-2024-b",
+      "creator": "Starr, Matthew",
+      "lastModifiedBy": "Roache, Andrew",
+      "lastPrinted": "2024-11-25T19:40:06Z",
+      "created": "2024-11-13T14:14:24Z",
+      "modified": "2024-12-09T13:05:30Z"
+    },
+    {
+      "source_id": "president-2024",
+      "creator": "Peckham, Heidi",
+      "lastModifiedBy": "Peckham, Heidi",
+      "lastPrinted": "2024-11-25T23:10:48Z",
+      "created": "2024-11-21T19:12:44Z",
+      "modified": "2024-12-06T14:55:08Z"
+    },
+    {
+      "source_id": "legislature-2024-a",
+      "creator": "Peckham, Heidi",
+      "lastModifiedBy": "Roache, Andrew",
+      "lastPrinted": "2024-11-25T23:10:48Z",
+      "created": "2024-11-21T19:12:44Z",
+      "modified": "2024-12-09T13:04:33Z"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+/Users/tqbf/codebase/snn/senate/2026/maine/maps/build_maps.py:91: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  gg=transform(transformer.transform,g) if g is not None else None
+/Users/tqbf/codebase/snn/senate/2026/maine/maps/build_maps.py:208: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  gg=transform(transformer.transform,sg);assert vertex_count(sg)==vertex_count(gg)
+Built 512 native identities; 164 ordered priority entries

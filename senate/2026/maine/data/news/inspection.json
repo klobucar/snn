@@ -1,0 +1,622 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-18T02:36:05.632050+00:00",
+  "snapshots": 24,
+  "verified": [
+    {
+      "id": "bdn-results",
+      "status": 200,
+      "bytes": 286411,
+      "sha256": "bf1b4af492c089bfd74b92e298d34296eb83902b71f50e3dfd72d7f79ad94996"
+    },
+    {
+      "id": "bdn-towns",
+      "status": 200,
+      "bytes": 270991,
+      "sha256": "5e39717d2f3fa59ec875af62f9e2dab7872f223a7b03b312c138562f063ce1dc"
+    },
+    {
+      "id": "bdn-counting",
+      "status": 200,
+      "bytes": 326799,
+      "sha256": "e96994ac73624d4f9c9ef8802d1e1db8988e829220fd7c4fc7785721bbf973ce"
+    },
+    {
+      "id": "wgme-primary-article",
+      "status": 200,
+      "bytes": 289788,
+      "sha256": "8bfa3f2201bd33bb6d9a69f6fc4fad3f273a374f82ffd5740f2902c7e319aaab"
+    },
+    {
+      "id": "wmtw-cumberland-primary",
+      "status": 200,
+      "bytes": 481076,
+      "sha256": "bffa9809cefb94859613152c241e07ca514c48109bec6c9403ca639c1c46a922"
+    },
+    {
+      "id": "mainepublic-home",
+      "status": 200,
+      "bytes": 361569,
+      "sha256": "94bf4c3756a8d3d0f206bdfa1d288f50d9bdb2500828e11973da1546d4902041"
+    },
+    {
+      "id": "sos-rcv",
+      "status": 403,
+      "bytes": 919,
+      "sha256": "bbeb16e017bce7b8d6340f86474619324bf2bcc12e4acbd7738a90ae9ff30458"
+    },
+    {
+      "id": "sos-upcoming",
+      "status": 403,
+      "bytes": 919,
+      "sha256": "de1bfa231861d9755285accac480a2491e06471ea27b8841463adb90eb68f96e"
+    },
+    {
+      "id": "nyt-elections",
+      "status": 403,
+      "bytes": 771,
+      "sha256": "d09c29801bd4630abbf3f3b234e44f76036e83738a8732eb41f6b346b15aca91"
+    },
+    {
+      "id": "bdn-senate-embed",
+      "status": 200,
+      "bytes": 63674,
+      "sha256": "9109154e89c3d8428ae08af4713fce6509b36918202786fc74953802ae22939e"
+    },
+    {
+      "id": "bdn-town-embed",
+      "status": 200,
+      "bytes": 32056,
+      "sha256": "de95180bb4d9508870c099cc131f43192c6413790fe93b34f5fa8965262f7c9e"
+    },
+    {
+      "id": "wgme-results",
+      "status": 200,
+      "bytes": 275218,
+      "sha256": "3e2f88c8828c90a580ce137c83c6f579d6bd3ccf5bfa9fb5ae0f6f7f3ca254c4"
+    },
+    {
+      "id": "wabi-results",
+      "status": 200,
+      "bytes": 223035,
+      "sha256": "8d76e26e42a629ac34dfa4a4e10c4155cdd23d8b90dd7278d8dedcbff6160990"
+    },
+    {
+      "id": "wmtw-embed",
+      "status": 200,
+      "bytes": 473,
+      "sha256": "981563748bef1bae8931ae1dd4cf6f832657a9fcf61e49ed16766f1c74ebf62b"
+    },
+    {
+      "id": "bdn-senate-data",
+      "status": 200,
+      "bytes": 217810,
+      "sha256": "c60c530b88704ed774053beb0745cb73d3d8558f18ee46f763a54e4f7febcc4d"
+    },
+    {
+      "id": "bdn-towns-data",
+      "status": 200,
+      "bytes": 6328,
+      "sha256": "7b61ca27698585bd24a02187edabb242dac9c5298e905601e30506c5fd2a4d51"
+    },
+    {
+      "id": "sos-september-process",
+      "status": 200,
+      "bytes": 110339,
+      "sha256": "b713ce02d1956eb3be138f634864643b3cd7422f2d5a332a4be1e18d48a2e9f9"
+    },
+    {
+      "id": "sos-absentee-2026",
+      "status": 200,
+      "bytes": 94816,
+      "sha256": "446e7ac88821544d1bf08a9c3d803df3c1e0c5c038d2b2b8dc74b2c4a144707d"
+    },
+    {
+      "id": "wagm-results",
+      "status": 200,
+      "bytes": 63639,
+      "sha256": "535f0b1a7e9a08ebdf590d030e36dca171e379551c411e54b61e58f68547d27c"
+    },
+    {
+      "id": "monitor-rcv-count",
+      "status": 403,
+      "bytes": 146,
+      "sha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864"
+    },
+    {
+      "id": "rcv-statute-current",
+      "status": 200,
+      "bytes": 29892,
+      "sha256": "f58b200ba9a638ac591dc9ef168facfcd76a0407cdfce4e2bc7a0e4180bc182b"
+    },
+    {
+      "id": "wagm-state-panel",
+      "status": 200,
+      "bytes": 59826,
+      "sha256": "353885eb30db0db0c0be618ac1ffbd5e4041aef25af6093712f563f8124d6c68"
+    },
+    {
+      "id": "wagm-ap-one",
+      "status": 403,
+      "bytes": 919,
+      "sha256": "f6c5d8a3262c9ca2d0a6feea4a7c761c4e232e90b76a1b8bd14b6e5195294bfe"
+    },
+    {
+      "id": "wagm-ap-two",
+      "status": 403,
+      "bytes": 919,
+      "sha256": "50634c221314a0219ddbe0ff36ee0e8e775ff89f81d7d6cd86cf516fdebf542c"
+    }
+  ],
+  "BDN_primary": {
+    "race_date": "2026-06-09",
+    "race_id": 273768,
+    "source_updated": "2026-07-22T01:08:20.216Z",
+    "candidate_ids": [
+      "9110000",
+      "9110001",
+      "9110002",
+      "9110003"
+    ],
+    "topline_votes": {
+      "9110000": 17560,
+      "9110001": 41644,
+      "9110002": 156084,
+      "9110003": 1114
+    },
+    "topline_total": 216402,
+    "county_rows": 16,
+    "native_vcu_rows": 514,
+    "county_and_VCU_candidate_sums_exact": true,
+    "county_candidate_sum": {
+      "9110000": 17497,
+      "9110001": 41498,
+      "9110002": 155488,
+      "9110003": 1106
+    },
+    "topline_minus_county_by_candidate": {
+      "9110000": 63,
+      "9110001": 146,
+      "9110002": 596,
+      "9110003": 8
+    },
+    "total_topline_minus_county": 813,
+    "town_lookup_names": 502,
+    "uncontested_flag_with_four_candidates": true,
+    "county_and_native_id_distinct_keys": 493,
+    "null_native_id_rows": 27,
+    "reused_native_id_groups": [
+      {
+        "county_fips": "23003",
+        "native_id": null,
+        "rows": [
+          {
+            "county": "Aroostook",
+            "source_array_ordinal_zero_based": 3,
+            "id": null,
+            "vcu": "Benedicta Twp",
+            "fips": null,
+            "votes": {
+              "9110000": 3,
+              "9110001": 5,
+              "9110002": 5,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Aroostook",
+            "source_array_ordinal_zero_based": 10,
+            "id": null,
+            "vcu": "Cross Lake Twp (T17 R5)",
+            "fips": null,
+            "votes": {
+              "9110000": 2,
+              "9110001": 6,
+              "9110002": 13,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Aroostook",
+            "source_array_ordinal_zero_based": 14,
+            "id": null,
+            "vcu": "E Twp",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 0,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Aroostook",
+            "source_array_ordinal_zero_based": 49,
+            "id": null,
+            "vcu": "Oxbow North Twp",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 4,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Aroostook",
+            "source_array_ordinal_zero_based": 55,
+            "id": null,
+            "vcu": "Saint Croix Twp (T8 R4 WELS)",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 0,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Aroostook",
+            "source_array_ordinal_zero_based": 61,
+            "id": null,
+            "vcu": "T11 R4 WELS",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 1,
+              "9110002": 1,
+              "9110003": 3
+            }
+          },
+          {
+            "county": "Aroostook",
+            "source_array_ordinal_zero_based": 62,
+            "id": null,
+            "vcu": "T15 R6 WELS",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 0,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Aroostook",
+            "source_array_ordinal_zero_based": 63,
+            "id": null,
+            "vcu": "T7 R5 WELS Twp",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 0,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Aroostook",
+            "source_array_ordinal_zero_based": 64,
+            "id": null,
+            "vcu": "TD R2 WELS",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 3,
+              "9110003": 0
+            }
+          }
+        ]
+      },
+      {
+        "county_fips": "23003",
+        "native_id": 5142,
+        "rows": [
+          {
+            "county": "Aroostook",
+            "source_array_ordinal_zero_based": 35,
+            "id": 5142,
+            "vcu": "Madawaska",
+            "fips": "42520",
+            "votes": {
+              "9110000": 50,
+              "9110001": 110,
+              "9110002": 338,
+              "9110003": 0
+            },
+            "precincts": {
+              "total": 1,
+              "reporting": 1,
+              "percent": 100
+            },
+            "estimated_votes": {
+              "estimated_votes_low": 0,
+              "turnout_low": 0,
+              "estimated_votes_mid": 0,
+              "turnout_mid": 0,
+              "estimated_votes_high": 0,
+              "turnout_high": 0
+            },
+            "voting_data": {
+              "8245": {
+                "absentee_ballots_early_votes": 0,
+                "election_day_votes": 0
+              }
+            }
+          },
+          {
+            "county": "Aroostook",
+            "source_array_ordinal_zero_based": 36,
+            "id": 5142,
+            "vcu": "Madawaska",
+            "fips": "42520",
+            "votes": {
+              "9110000": 3,
+              "9110001": 6,
+              "9110002": 19,
+              "9110003": 0
+            },
+            "precincts": {
+              "total": 1,
+              "reporting": 1,
+              "percent": 100
+            },
+            "estimated_votes": {
+              "estimated_votes_low": 0,
+              "turnout_low": 0,
+              "estimated_votes_mid": 0,
+              "turnout_mid": 0,
+              "estimated_votes_high": 0,
+              "turnout_high": 0
+            },
+            "voting_data": {
+              "8245": {
+                "absentee_ballots_early_votes": 0,
+                "election_day_votes": 0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "county_fips": "23009",
+        "native_id": null,
+        "rows": [
+          {
+            "county": "Hancock",
+            "source_array_ordinal_zero_based": 32,
+            "id": null,
+            "vcu": "T22 MD",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 0,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Hancock",
+            "source_array_ordinal_zero_based": 33,
+            "id": null,
+            "vcu": "T3 Nd",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 2,
+              "9110003": 0
+            }
+          }
+        ]
+      },
+      {
+        "county_fips": "23019",
+        "native_id": null,
+        "rows": [
+          {
+            "county": "Penobscot",
+            "source_array_ordinal_zero_based": 1,
+            "id": null,
+            "vcu": "Argyle Twp",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 1,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Penobscot",
+            "source_array_ordinal_zero_based": 16,
+            "id": null,
+            "vcu": "Drew Twp",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 3,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Penobscot",
+            "source_array_ordinal_zero_based": 28,
+            "id": null,
+            "vcu": "Herseytown Twp",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 1,
+              "9110002": 14,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Penobscot",
+            "source_array_ordinal_zero_based": 33,
+            "id": null,
+            "vcu": "Kingman Twp",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 1,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Penobscot",
+            "source_array_ordinal_zero_based": 40,
+            "id": null,
+            "vcu": "Mattamiscontis Twp",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 2,
+              "9110002": 1,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Penobscot",
+            "source_array_ordinal_zero_based": 56,
+            "id": null,
+            "vcu": "Prentiss Twp T7 R3 NBPP",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 6,
+              "9110002": 5,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Penobscot",
+            "source_array_ordinal_zero_based": 61,
+            "id": null,
+            "vcu": "T6 R8 WELS",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 0,
+              "9110003": 0
+            }
+          }
+        ]
+      },
+      {
+        "county_fips": "23025",
+        "native_id": null,
+        "rows": [
+          {
+            "county": "Somerset",
+            "source_array_ordinal_zero_based": 16,
+            "id": null,
+            "vcu": "Lexington Twp",
+            "fips": null,
+            "votes": {
+              "9110000": 2,
+              "9110001": 2,
+              "9110002": 9,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Somerset",
+            "source_array_ordinal_zero_based": 21,
+            "id": null,
+            "vcu": "Moxie Gore",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 0,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Somerset",
+            "source_array_ordinal_zero_based": 33,
+            "id": null,
+            "vcu": "Spring Lake Twp",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 0,
+              "9110003": 0
+            }
+          }
+        ]
+      },
+      {
+        "county_fips": "23029",
+        "native_id": null,
+        "rows": [
+          {
+            "county": "Washington",
+            "source_array_ordinal_zero_based": 7,
+            "id": null,
+            "vcu": "Centerville Twp",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 1,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Washington",
+            "source_array_ordinal_zero_based": 16,
+            "id": null,
+            "vcu": "Day Block Twp",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 1,
+              "9110002": 1,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Washington",
+            "source_array_ordinal_zero_based": 22,
+            "id": null,
+            "vcu": "Greenlaw Chopping Twp",
+            "fips": null,
+            "votes": {
+              "9110000": 1,
+              "9110001": 0,
+              "9110002": 2,
+              "9110003": 0
+            }
+          },
+          {
+            "county": "Washington",
+            "source_array_ordinal_zero_based": 40,
+            "id": null,
+            "vcu": "Sakom Twp T5 ND BPP",
+            "fips": null,
+            "votes": {
+              "9110000": 0,
+              "9110001": 0,
+              "9110002": 0,
+              "9110003": 0
+            }
+          }
+        ]
+      }
+    ],
+    "call_times_ids_absent_from_candidate_roster": [
+      "8245"
+    ],
+    "limits": "Topline/county residual source not established; no administrative allocation inferred. Five-digit VCU fips is not county FIPS. Method zeros coexist with positive votes and are not validated method counts. 100% flags do not resolve these issues. Primary excluded from November ingestion."
+  },
+  "WAGM_local": "No selected election/races; test display enabled; transformation time is not a vote event",
+  "scope": "Original/stored hashes, historical count scope and schema diagnostics; no November feed or cadence certified"
+}

@@ -1,0 +1,716 @@
+{
+  "validated_utc": "2026-10-18T02:33:25.717671+00:00",
+  "status": "PASS",
+  "source_captures_verified": 25,
+  "source_ids": [
+    "results-2024",
+    "results-2022",
+    "results-2020",
+    "senate-2024",
+    "president-2024",
+    "governor-2022",
+    "clerk-2024",
+    "clerk-2020",
+    "nara-2024",
+    "rcv-current",
+    "rcv-statute",
+    "certification-notice-2024",
+    "governor-primary-archive-2022",
+    "senate-2020",
+    "rcv-faq",
+    "rcv-rules-2018",
+    "senate-sample-2026",
+    "legislature-2024-directory",
+    "legislature-2024-a",
+    "legislature-2024-b",
+    "alfred-home",
+    "alfred-clerk",
+    "alfred-elections",
+    "alfred-current-results",
+    "county-fips"
+  ],
+  "source_rows": 2052,
+  "candidate_cells": 9241,
+  "state_controls": 26,
+  "county_section_control_cells": 416,
+  "scenarios": 72,
+  "all_unit_target_rows": 36948,
+  "scenario_sums": [
+    {
+      "pair": "gideon-collins",
+      "mix": "native",
+      "volume": "low-2022-governor",
+      "target": "tie",
+      "rows": 517,
+      "sum_pair_votes": 631943.2836032974,
+      "sum_target_net": 4.498346140024978e-12
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "native",
+      "volume": "low-2022-governor",
+      "target": "a-plus-1-margin-pp",
+      "rows": 517,
+      "sum_pair_votes": 631943.2836032974,
+      "sum_target_net": 6319.432836032962
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "native",
+      "volume": "native-observed",
+      "target": "tie",
+      "rows": 517,
+      "sum_pair_votes": 764868.0,
+      "sum_target_net": 4.830358335539131e-12
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "native",
+      "volume": "native-observed",
+      "target": "a-plus-1-margin-pp",
+      "rows": 517,
+      "sum_pair_votes": 764868.0,
+      "sum_target_net": 7648.679999999985
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "native",
+      "volume": "high-2024-president",
+      "target": "tie",
+      "rows": 517,
+      "sum_pair_votes": 776251.6232636663,
+      "sum_target_net": 1.766586876783549e-12
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "native",
+      "volume": "high-2024-president",
+      "target": "a-plus-1-margin-pp",
+      "rows": 517,
+      "sum_pair_votes": 776251.6232636663,
+      "sum_target_net": 7762.516232636644
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "2022-section",
+      "volume": "low-2022-governor",
+      "target": "tie",
+      "rows": 517,
+      "sum_pair_votes": 631943.2836032974,
+      "sum_target_net": 5.8522631185553564e-12
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "2022-section",
+      "volume": "low-2022-governor",
+      "target": "a-plus-1-margin-pp",
+      "rows": 517,
+      "sum_pair_votes": 631943.2836032974,
+      "sum_target_net": 6319.432836032971
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "2022-section",
+      "volume": "native-observed",
+      "target": "tie",
+      "rows": 517,
+      "sum_pair_votes": 764868.0,
+      "sum_target_net": 8.459954958794924e-12
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "2022-section",
+      "volume": "native-observed",
+      "target": "a-plus-1-margin-pp",
+      "rows": 517,
+      "sum_pair_votes": 764868.0,
+      "sum_target_net": 7648.68
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "2022-section",
+      "volume": "high-2024-president",
+      "target": "tie",
+      "rows": 517,
+      "sum_pair_votes": 776251.6232636663,
+      "sum_target_net": 3.768541034787631e-12
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "2022-section",
+      "volume": "high-2024-president",
+      "target": "a-plus-1-margin-pp",
+      "rows": 517,
+      "sum_pair_votes": 776251.6232636663,
+      "sum_target_net": 7762.516232636659
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "2022-lexical",
+      "volume": "low-2022-governor",
+      "target": "tie",
+      "rows": 517,
+      "sum_pair_votes": 631943.2836032974,
+      "sum_target_net": -5.056399743352813e-12
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "2022-lexical",
+      "volume": "low-2022-governor",
+      "target": "a-plus-1-margin-pp",
+      "rows": 517,
+      "sum_pair_votes": 631943.2836032974,
+      "sum_target_net": 6319.432836032973
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "2022-lexical",
+      "volume": "native-observed",
+      "target": "tie",
+      "rows": 517,
+      "sum_pair_votes": 764868.0,
+      "sum_target_net": -1.10781384066172e-11
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "2022-lexical",
+      "volume": "native-observed",
+      "target": "a-plus-1-margin-pp",
+      "rows": 517,
+      "sum_pair_votes": 764868.0,
+      "sum_target_net": 7648.679999999998
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "2022-lexical",
+      "volume": "high-2024-president",
+      "target": "tie",
+      "rows": 517,
+      "sum_pair_votes": 776251.6232636663,
+      "sum_target_net": -1.3431700196520069e-11
+    },
+    {
+      "pair": "gideon-collins",
+      "mix": "2022-lexical",
+      "volume": "high-2024-president",
+      "target": "a-plus-1-margin-pp",
+      "rows": 517,
+      "sum_pair_votes": 776251.6232636663,
+      "sum_target_net": 7762.516232636659
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "native",
+      "volume": "low-2022-governor",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 586913.0055293567,
+      "sum_target_net": -9.546807788751721e-12
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "native",
+      "volume": "low-2022-governor",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 586913.0055293567,
+      "sum_target_net": 5869.130055293565
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "native",
+      "volume": "native-observed",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 712004.0,
+      "sum_target_net": -1.301946050968894e-11
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "native",
+      "volume": "native-observed",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 712004.0,
+      "sum_target_net": 7120.039999999997
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "native",
+      "volume": "high-2024-president",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 720938.3896905509,
+      "sum_target_net": -1.3756579209101005e-11
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "native",
+      "volume": "high-2024-president",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 720938.3896905509,
+      "sum_target_net": 7209.383896905505
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "2022-section",
+      "volume": "low-2022-governor",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 586913.0055293567,
+      "sum_target_net": 1.8640323659613323e-11
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "2022-section",
+      "volume": "low-2022-governor",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 586913.0055293567,
+      "sum_target_net": 5869.1300552935545
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "2022-section",
+      "volume": "native-observed",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 712004.0,
+      "sum_target_net": 2.4350839053499662e-11
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "2022-section",
+      "volume": "native-observed",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 712004.0,
+      "sum_target_net": 7120.039999999987
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "2022-section",
+      "volume": "high-2024-president",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 720938.3896905509,
+      "sum_target_net": 2.4143893481709533e-11
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "2022-section",
+      "volume": "high-2024-president",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 720938.3896905509,
+      "sum_target_net": 7209.383896905492
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "2022-lexical",
+      "volume": "low-2022-governor",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 586913.0055293567,
+      "sum_target_net": -7.430334125757554e-12
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "2022-lexical",
+      "volume": "low-2022-governor",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 586913.0055293567,
+      "sum_target_net": 5869.13005529355
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "2022-lexical",
+      "volume": "native-observed",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 712004.0,
+      "sum_target_net": -9.163170222592498e-12
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "2022-lexical",
+      "volume": "native-observed",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 712004.0,
+      "sum_target_net": 7120.03999999998
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "2022-lexical",
+      "volume": "high-2024-president",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 720938.3896905509,
+      "sum_target_net": -9.289680136248535e-12
+    },
+    {
+      "pair": "king-kouzounas",
+      "mix": "2022-lexical",
+      "volume": "high-2024-president",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 720938.3896905509,
+      "sum_target_net": 7209.383896905486
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "native",
+      "volume": "low-2022-governor",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 307722.8599574702,
+      "sum_target_net": -6.626352244687439e-12
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "native",
+      "volume": "low-2022-governor",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 307722.8599574702,
+      "sum_target_net": 3077.228599574692
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "native",
+      "volume": "native-observed",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 373309.0,
+      "sum_target_net": -8.566924947217558e-12
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "native",
+      "volume": "native-observed",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 373309.0,
+      "sum_target_net": 3733.0899999999874
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "native",
+      "volume": "high-2024-president",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 377993.3670555079,
+      "sum_target_net": -9.56287826703317e-12
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "native",
+      "volume": "high-2024-president",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 377993.3670555079,
+      "sum_target_net": 3779.933670555067
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "2022-section",
+      "volume": "low-2022-governor",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 307722.8599574702,
+      "sum_target_net": 2.4852758739868364e-12
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "2022-section",
+      "volume": "low-2022-governor",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 307722.8599574702,
+      "sum_target_net": 3077.2285995746743
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "2022-section",
+      "volume": "native-observed",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 373309.0,
+      "sum_target_net": 3.4847680296934413e-12
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "2022-section",
+      "volume": "native-observed",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 373309.0,
+      "sum_target_net": 3733.089999999965
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "2022-section",
+      "volume": "high-2024-president",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 377993.3670555079,
+      "sum_target_net": 3.980094032129955e-12
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "2022-section",
+      "volume": "high-2024-president",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 377993.3670555079,
+      "sum_target_net": 3779.933670555044
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "2022-lexical",
+      "volume": "low-2022-governor",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 307722.8599574702,
+      "sum_target_net": -1.749804121042864e-11
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "2022-lexical",
+      "volume": "low-2022-governor",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 307722.8599574702,
+      "sum_target_net": 3077.228599574674
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "2022-lexical",
+      "volume": "native-observed",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 373309.0,
+      "sum_target_net": 1.696984913701627e-11
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "2022-lexical",
+      "volume": "native-observed",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 373309.0,
+      "sum_target_net": 3733.0899999999647
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "2022-lexical",
+      "volume": "high-2024-president",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 377993.3670555079,
+      "sum_target_net": 1.9359097658266933e-11
+    },
+    {
+      "pair": "costello-kouzounas",
+      "mix": "2022-lexical",
+      "volume": "high-2024-president",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 377993.3670555079,
+      "sum_target_net": 3779.9336705550445
+    },
+    {
+      "pair": "cherry-kouzounas",
+      "mix": "native",
+      "volume": "low-2022-governor",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 251107.5052041721,
+      "sum_target_net": -1.9890075697581722e-11
+    },
+    {
+      "pair": "cherry-kouzounas",
+      "mix": "native",
+      "volume": "low-2022-governor",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 251107.5052041721,
+      "sum_target_net": 2511.075052041704
+    },
+    {
+      "pair": "cherry-kouzounas",
+      "mix": "native",
+      "volume": "native-observed",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 304627.0,
+      "sum_target_net": -2.4197310821705287e-11
+    },
+    {
+      "pair": "cherry-kouzounas",
+      "mix": "native",
+      "volume": "native-observed",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 304627.0,
+      "sum_target_net": 3046.2699999999795
+    },
+    {
+      "pair": "cherry-kouzounas",
+      "mix": "native",
+      "volume": "high-2024-president",
+      "target": "tie",
+      "rows": 512,
+      "sum_pair_votes": 308449.5295479568,
+      "sum_target_net": -2.451502542633044e-11
+    },
+    {
+      "pair": "cherry-kouzounas",
+      "mix": "native",
+      "volume": "high-2024-president",
+      "target": "a-plus-1-margin-pp",
+      "rows": 512,
+      "sum_pair_votes": 308449.5295479568,
+      "sum_target_net": 3084.4952954795467
+    },
+    {
+      "pair": "harris-trump",
+      "mix": "native",
+      "volume": "low-2022-governor",
+      "target": "tie",
+      "rows": 513,
+      "sum_pair_votes": 662372.0537074124,
+      "sum_target_net": -1.1740053373898718e-12
+    },
+    {
+      "pair": "harris-trump",
+      "mix": "native",
+      "volume": "low-2022-governor",
+      "target": "a-plus-1-margin-pp",
+      "rows": 513,
+      "sum_pair_votes": 662372.0537074124,
+      "sum_target_net": 6623.720537074122
+    },
+    {
+      "pair": "harris-trump",
+      "mix": "native",
+      "volume": "native-observed",
+      "target": "tie",
+      "rows": 513,
+      "sum_pair_votes": 813629.0,
+      "sum_target_net": 2.3862689602083265e-11
+    },
+    {
+      "pair": "harris-trump",
+      "mix": "native",
+      "volume": "native-observed",
+      "target": "a-plus-1-margin-pp",
+      "rows": 513,
+      "sum_pair_votes": 813629.0,
+      "sum_target_net": 8136.289999999996
+    },
+    {
+      "pair": "harris-trump",
+      "mix": "native",
+      "volume": "high-2024-president",
+      "target": "tie",
+      "rows": 513,
+      "sum_pair_votes": 813629.0,
+      "sum_target_net": 2.3862689602083265e-11
+    },
+    {
+      "pair": "harris-trump",
+      "mix": "native",
+      "volume": "high-2024-president",
+      "target": "a-plus-1-margin-pp",
+      "rows": 513,
+      "sum_pair_votes": 813629.0,
+      "sum_target_net": 8136.289999999996
+    },
+    {
+      "pair": "mills-lepage",
+      "mix": "native",
+      "volume": "low-2022-governor",
+      "target": "tie",
+      "rows": 510,
+      "sum_pair_votes": 664238.0,
+      "sum_target_net": 1.1770528995924678e-11
+    },
+    {
+      "pair": "mills-lepage",
+      "mix": "native",
+      "volume": "low-2022-governor",
+      "target": "a-plus-1-margin-pp",
+      "rows": 510,
+      "sum_pair_votes": 664238.0,
+      "sum_target_net": 6642.380000000003
+    },
+    {
+      "pair": "mills-lepage",
+      "mix": "native",
+      "volume": "native-observed",
+      "target": "tie",
+      "rows": 510,
+      "sum_pair_votes": 664238.0,
+      "sum_target_net": 1.1770528995924678e-11
+    },
+    {
+      "pair": "mills-lepage",
+      "mix": "native",
+      "volume": "native-observed",
+      "target": "a-plus-1-margin-pp",
+      "rows": 510,
+      "sum_pair_votes": 664238.0,
+      "sum_target_net": 6642.380000000003
+    },
+    {
+      "pair": "mills-lepage",
+      "mix": "native",
+      "volume": "high-2024-president",
+      "target": "tie",
+      "rows": 510,
+      "sum_pair_votes": 815921.047207599,
+      "sum_target_net": 1.2683742944830101e-11
+    },
+    {
+      "pair": "mills-lepage",
+      "mix": "native",
+      "volume": "high-2024-president",
+      "target": "a-plus-1-margin-pp",
+      "rows": 510,
+      "sum_pair_votes": 815921.047207599,
+      "sum_target_net": 8159.210472075994
+    }
+  ],
+  "priority": {
+    "independent_units": 512,
+    "ordered_priority_count": 164,
+    "ordered_priority_sha256": "086b400b77792d763e93a5083c9ec8c92c71e44016743fc4e7f54bb2008db407",
+    "top15_votes": 215627,
+    "first163_votes": 656778,
+    "first164_votes": 658029,
+    "crossing_unit": "Pownal",
+    "crossing_votes": 1251,
+    "all_unit_candidate_differences": [],
+    "priority_file_exact": true,
+    "source_original_hashes": {
+      "senate-2024": "e9412070c730d77eba93c87ab465a491779d63c54b0a0545c0c97615a2f339a4",
+      "president-2024": "bdad862fa1f1786e76e5d44e6a508613c2b95f8f21e3e3c19219f13b2de0c367",
+      "governor-2022": "976e6bc6fdeb3301b4a7e2a057b3583a427f2c3c19a1216030730939bfdb75f8"
+    },
+    "all512_keys_order_candidates_blank_tbc_source_rows_exact": true
+  },
+  "official_county_fips_verified": 16,
+  "native_volume_settings_exact": true,
+  "source_defects_preserved": {
+    "county_code_section_mismatches": 1,
+    "cranberry_native_rows": 2
+  },
+  "synthetic_live_counted_votes_fixed": true,
+  "relative_report_links": 29,
+  "maximum_asset_bytes": 4043782,
+  "visual_review": "Clerk 2020 Maine PDF34/printed32; Clerk2024 PDF31/printed29; 2026 Senate sample; Alfred current results first page 2026 primary, rejected as 2024 evidence"
+}

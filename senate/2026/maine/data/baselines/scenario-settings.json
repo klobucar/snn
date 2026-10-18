@@ -1,0 +1,101 @@
+{
+  "pair_definitions": {
+    "gideon-collins": [
+      "senate-2020",
+      "gideon",
+      "collins",
+      "D-R, same-seat historical candidates"
+    ],
+    "king-kouzounas": [
+      "senate-2024",
+      "king",
+      "kouzounas",
+      "named Independent-R; King is not D"
+    ],
+    "costello-kouzounas": [
+      "senate-2024",
+      "costello",
+      "kouzounas",
+      "D-R, other-seat final-pair hypothetical; King excluded"
+    ],
+    "cherry-kouzounas": [
+      "senate-2024",
+      "cherry",
+      "kouzounas",
+      "named Independent-R; Cherry distinct from King"
+    ],
+    "harris-trump": [
+      "president-2024",
+      "harris",
+      "trump",
+      "D-R presidential context"
+    ],
+    "mills-lepage": [
+      "governor-2022",
+      "mills",
+      "lepage",
+      "D-R governor context, plurality election"
+    ]
+  },
+  "turnout_low_observed_contest_votes": 676819,
+  "native_base_by_pair": {
+    "gideon-collins": {
+      "source_id": "senate-2020",
+      "observed_contest_votes": 819183,
+      "observed_pair_votes": 764868
+    },
+    "king-kouzounas": {
+      "source_id": "senate-2024",
+      "observed_contest_votes": 821072,
+      "observed_pair_votes": 712004
+    },
+    "costello-kouzounas": {
+      "source_id": "senate-2024",
+      "observed_contest_votes": 821072,
+      "observed_pair_votes": 373309
+    },
+    "cherry-kouzounas": {
+      "source_id": "senate-2024",
+      "observed_contest_votes": 821072,
+      "observed_pair_votes": 304627
+    },
+    "harris-trump": {
+      "source_id": "president-2024",
+      "observed_contest_votes": 831375,
+      "observed_pair_votes": 813629
+    },
+    "mills-lepage": {
+      "source_id": "governor-2022",
+      "observed_contest_votes": 676819,
+      "observed_pair_votes": 664238
+    }
+  },
+  "turnout_high_observed_contest_votes": 831375,
+  "volume_rule": "pair total = all-candidate volume anchor * baseline pair/contest participation ratio; native-observed keeps actual pair total",
+  "midterm_mix": "section = observed governor county-block shares, baseline within-block pair distribution fixed; lexical = observed label weights with residual imputation",
+  "zero_pair_rows": {
+    "gideon-collins": 1,
+    "king-kouzounas": 0,
+    "costello-kouzounas": 1,
+    "cherry-kouzounas": 2,
+    "harris-trump": 0,
+    "mills-lepage": 0
+  },
+  "preference_anchors": [
+    [
+      "low-same-seat-2020",
+      "gideon-collins",
+      0.4539646056574468
+    ],
+    [
+      "base-president-2024",
+      "harris-trump",
+      0.5354430581997446
+    ],
+    [
+      "high-governor-2022",
+      "mills-lepage",
+      0.5674682869694296
+    ]
+  ]
+}

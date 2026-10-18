@@ -1,0 +1,126 @@
+{
+  "id": "93e3b12d3f0558e29df6",
+  "publisher_url": "https://wiltonmaine.org/",
+  "request_url": "https://wiltonmaine.org/",
+  "retrieved_utc": "2026-10-18T02:31:27.727655+00:00",
+  "requested_headers": {},
+  "max_entity_bytes": 39000000,
+  "redirects": [
+    {
+      "url": "https://wiltonmaine.org/",
+      "status": 301,
+      "location": "https://wiltonmaine.gov/",
+      "headers": [
+        [
+          "Server",
+          "nginx/1.24.0 (Ubuntu)"
+        ],
+        [
+          "Date",
+          "Sun, 18 Oct 2026 02:31:27 GMT"
+        ],
+        [
+          "Content-Type",
+          "text/html"
+        ],
+        [
+          "Content-Length",
+          "178"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Location",
+          "https://wiltonmaine.gov/"
+        ]
+      ]
+    },
+    {
+      "url": "https://wiltonmaine.gov/",
+      "status": 301,
+      "location": "https://www.wiltonmaine.gov/",
+      "headers": [
+        [
+          "Server",
+          "nginx/1.24.0 (Ubuntu)"
+        ],
+        [
+          "Date",
+          "Sun, 18 Oct 2026 02:31:28 GMT"
+        ],
+        [
+          "Content-Type",
+          "text/html; charset=UTF-8"
+        ],
+        [
+          "Transfer-Encoding",
+          "chunked"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Vary",
+          "Accept-Encoding, Cookie"
+        ],
+        [
+          "Expires",
+          "Sun, 18 Oct 2026 03:31:28 GMT"
+        ],
+        [
+          "Cache-Control",
+          "max-age=3600"
+        ],
+        [
+          "X-Redirect-By",
+          "WordPress"
+        ],
+        [
+          "Location",
+          "https://www.wiltonmaine.gov/"
+        ]
+      ]
+    }
+  ],
+  "status": 200,
+  "final_url": "https://www.wiltonmaine.gov/",
+  "headers": [
+    [
+      "Server",
+      "nginx/1.24.0 (Ubuntu)"
+    ],
+    [
+      "Date",
+      "Sun, 18 Oct 2026 02:31:28 GMT"
+    ],
+    [
+      "Content-Type",
+      "text/html; charset=UTF-8"
+    ],
+    [
+      "Transfer-Encoding",
+      "chunked"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Vary",
+      "Accept-Encoding, Cookie"
+    ],
+    [
+      "Cache-Control",
+      "max-age=3, must-revalidate"
+    ]
+  ],
+  "complete": true,
+  "entity_bytes_retained": 139984,
+  "entity_sha256": "a74619add355861c1ade954e2ca77bd0adb8bbca61b1451587815c50d9187dcb",
+  "body_path": "objects/a74619add355861c1ade954e2ca77bd0adb8bbca61b1451587815c50d9187dcb.gz",
+  "saved_sha256": "f5eacdf254a7f603388ce3fa41644ad8dcb64e83452c042ad7eab95d0493a3a6",
+  "saved_bytes": 25141
+}

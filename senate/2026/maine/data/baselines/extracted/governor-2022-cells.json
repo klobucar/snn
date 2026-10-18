@@ -1,0 +1,8455 @@
+{
+  "Sheet1": [
+    {
+      "row": 1,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 2,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 3,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 4,
+      "values": {
+        "A": "AND",
+        "B": "Auburn",
+        "C": "195",
+        "D": "4102",
+        "E": "5321",
+        "F": "67",
+        "G": "9685"
+      },
+      "formulas": {
+        "G": "C4+D4+E4+F4"
+      }
+    },
+    {
+      "row": 5,
+      "values": {
+        "A": "AND",
+        "B": "Durham",
+        "C": "53",
+        "D": "1171",
+        "E": "1248",
+        "F": "5",
+        "G": "2477"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 6,
+      "values": {
+        "A": "AND",
+        "B": "Greene",
+        "C": "43",
+        "D": "1422",
+        "E": "723",
+        "F": "14",
+        "G": "2202"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 7,
+      "values": {
+        "A": "AND",
+        "B": "Leeds",
+        "C": "22",
+        "D": "699",
+        "E": "439",
+        "F": "4",
+        "G": "1164"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 8,
+      "values": {
+        "A": "AND",
+        "B": "Lewiston",
+        "C": "237",
+        "D": "5426",
+        "E": "7689",
+        "F": "80",
+        "G": "13432"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 9,
+      "values": {
+        "A": "AND",
+        "B": "Lisbon",
+        "C": "71",
+        "D": "2202",
+        "E": "1939",
+        "F": "21",
+        "G": "4233"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 10,
+      "values": {
+        "A": "AND",
+        "B": "Livermore",
+        "C": "26",
+        "D": "681",
+        "E": "485",
+        "F": "0",
+        "G": "1192"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 11,
+      "values": {
+        "A": "AND",
+        "B": "Livermore Falls",
+        "C": "20",
+        "D": "591",
+        "E": "443",
+        "F": "7",
+        "G": "1061"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 12,
+      "values": {
+        "A": "AND",
+        "B": "Mechanic Falls",
+        "C": "37",
+        "D": "798",
+        "E": "527",
+        "F": "3",
+        "G": "1365"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 13,
+      "values": {
+        "A": "AND",
+        "B": "Minot",
+        "C": "26",
+        "D": "874",
+        "E": "584",
+        "F": "4",
+        "G": "1488"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 14,
+      "values": {
+        "A": "AND",
+        "B": "Poland",
+        "C": "48",
+        "D": "1533",
+        "E": "1304",
+        "F": "12",
+        "G": "2897"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 15,
+      "values": {
+        "A": "AND",
+        "B": "Sabattus",
+        "C": "49",
+        "D": "1402",
+        "E": "867",
+        "F": "36",
+        "G": "2354"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 16,
+      "values": {
+        "A": "AND",
+        "B": "Turner",
+        "C": "43",
+        "D": "1773",
+        "E": "1113",
+        "F": "5",
+        "G": "2934"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 17,
+      "values": {
+        "A": "AND",
+        "B": "Wales",
+        "C": "14",
+        "D": "546",
+        "E": "233",
+        "F": "4",
+        "G": "797"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 18,
+      "values": {
+        "B": "CTY Total",
+        "C": "884",
+        "D": "23220",
+        "E": "22915",
+        "F": "262",
+        "G": "47281"
+      },
+      "formulas": {
+        "C": "SUM(C4:C17)",
+        "D": null,
+        "E": "SUM(E4:E17)",
+        "F": "SUM(F4:F17)",
+        "G": "SUM(G4:G17)"
+      }
+    },
+    {
+      "row": 19,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 20,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 21,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 22,
+      "values": {
+        "A": "ARO",
+        "B": "Allagash",
+        "C": "1",
+        "D": "70",
+        "E": "60",
+        "F": "4",
+        "G": "135"
+      },
+      "formulas": {
+        "G": "SUM(C22:F22)"
+      }
+    },
+    {
+      "row": 23,
+      "values": {
+        "A": "ARO",
+        "B": "Amity",
+        "C": "2",
+        "D": "75",
+        "E": "25",
+        "F": "0",
+        "G": "102"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 24,
+      "values": {
+        "A": "ARO",
+        "B": "Ashland/Twps",
+        "C": "5",
+        "D": "289",
+        "E": "194",
+        "F": "4",
+        "G": "492"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 25,
+      "values": {
+        "A": "ARO",
+        "B": "Blaine",
+        "C": "7",
+        "D": "226",
+        "E": "71",
+        "F": "5",
+        "G": "309"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 26,
+      "values": {
+        "A": "ARO",
+        "B": "Bridgewater",
+        "C": "6",
+        "D": "163",
+        "E": "66",
+        "F": "4",
+        "G": "239"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 27,
+      "values": {
+        "A": "ARO",
+        "B": "Caribou/Connor Twp",
+        "C": "53",
+        "D": "1738",
+        "E": "1421",
+        "F": "19",
+        "G": "3231"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 28,
+      "values": {
+        "A": "ARO",
+        "B": "Castle Hill",
+        "C": "0",
+        "D": "101",
+        "E": "75",
+        "F": "1",
+        "G": "177"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 29,
+      "values": {
+        "A": "ARO",
+        "B": "Caswell",
+        "C": "4",
+        "D": "61",
+        "E": "43",
+        "F": "0",
+        "G": "108"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 30,
+      "values": {
+        "A": "ARO",
+        "B": "Chapman",
+        "C": "2",
+        "D": "141",
+        "E": "85",
+        "F": "2",
+        "G": "230"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 31,
+      "values": {
+        "A": "ARO",
+        "B": "Cross Lake Twp",
+        "C": "1",
+        "D": "73",
+        "E": "63",
+        "F": "0",
+        "G": "137"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 32,
+      "values": {
+        "A": "ARO",
+        "B": "Crystal",
+        "C": "2",
+        "D": "82",
+        "E": "36",
+        "F": "0",
+        "G": "120"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 33,
+      "values": {
+        "A": "ARO",
+        "B": "Cyr Plt",
+        "C": "1",
+        "D": "27",
+        "E": "21",
+        "F": "0",
+        "G": "49"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 34,
+      "values": {
+        "A": "ARO",
+        "B": "Dyer Brook",
+        "C": "1",
+        "D": "82",
+        "E": "37",
+        "F": "0",
+        "G": "120"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 35,
+      "values": {
+        "A": "ARO",
+        "B": "E Twp",
+        "C": "0",
+        "D": "17",
+        "E": "8",
+        "F": "0",
+        "G": "25"
+      },
+      "formulas": {
+        "G": "SUM(C35:F35)"
+      }
+    },
+    {
+      "row": 36,
+      "values": {
+        "A": "ARO",
+        "B": "Eagle Lake/T15 R6 Twp",
+        "C": "6",
+        "D": "229",
+        "E": "155",
+        "F": "6",
+        "G": "396"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 37,
+      "values": {
+        "A": "ARO",
+        "B": "Easton",
+        "C": "8",
+        "D": "387",
+        "E": "192",
+        "F": "3",
+        "G": "590"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 38,
+      "values": {
+        "A": "ARO",
+        "B": "Fort Fairfield",
+        "C": "30",
+        "D": "787",
+        "E": "592",
+        "F": "12",
+        "G": "1421"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 39,
+      "values": {
+        "A": "ARO",
+        "B": "Fort Kent",
+        "C": "27",
+        "D": "952",
+        "E": "866",
+        "F": "14",
+        "G": "1859"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 40,
+      "values": {
+        "A": "ARO",
+        "B": "Frenchville",
+        "C": "10",
+        "D": "327",
+        "E": "201",
+        "F": "5",
+        "G": "543"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 41,
+      "values": {
+        "A": "ARO",
+        "B": "Garfield Plt",
+        "C": "0",
+        "D": "33",
+        "E": "10",
+        "F": "1",
+        "G": "44"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 42,
+      "values": {
+        "A": "ARO",
+        "B": "Glenwood Plt",
+        "C": "0",
+        "D": "2",
+        "E": "0",
+        "F": "0",
+        "G": "2"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 43,
+      "values": {
+        "A": "ARO",
+        "B": "Grand Isle",
+        "C": "0",
+        "D": "96",
+        "E": "90",
+        "F": "0",
+        "G": "186"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 44,
+      "values": {
+        "A": "ARO",
+        "B": "Hamlin",
+        "C": "0",
+        "D": "53",
+        "E": "39",
+        "F": "0",
+        "G": "92"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 45,
+      "values": {
+        "A": "ARO",
+        "B": "Hammond",
+        "C": "0",
+        "D": "23",
+        "E": "10",
+        "F": "1",
+        "G": "34"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 46,
+      "values": {
+        "A": "ARO",
+        "B": "Haynesville",
+        "C": "3",
+        "D": "40",
+        "E": "8",
+        "F": "1",
+        "G": "52"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 47,
+      "values": {
+        "A": "ARO",
+        "B": "Hersey",
+        "C": "0",
+        "D": "28",
+        "E": "9",
+        "F": "0",
+        "G": "37"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 48,
+      "values": {
+        "A": "ARO",
+        "B": "Hodgdon/Cary Twp",
+        "C": "8",
+        "D": "494",
+        "E": "155",
+        "F": "5",
+        "G": "662"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 49,
+      "values": {
+        "A": "ARO",
+        "B": "Houlton",
+        "C": "39",
+        "D": "1166",
+        "E": "834",
+        "F": "12",
+        "G": "2051"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 50,
+      "values": {
+        "A": "ARO",
+        "B": "Island Falls",
+        "C": "15",
+        "D": "207",
+        "E": "127",
+        "F": "3",
+        "G": "352"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 51,
+      "values": {
+        "A": "ARO",
+        "B": "Limestone",
+        "C": "8",
+        "D": "306",
+        "E": "275",
+        "F": "4",
+        "G": "593"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 52,
+      "values": {
+        "A": "ARO",
+        "B": "Linneus/Forkstown Twp",
+        "C": "11",
+        "D": "303",
+        "E": "87",
+        "F": "2",
+        "G": "403"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 53,
+      "values": {
+        "A": "ARO",
+        "B": "Littleton",
+        "C": "8",
+        "D": "285",
+        "E": "114",
+        "F": "2",
+        "G": "409"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 54,
+      "values": {
+        "A": "ARO",
+        "B": "Ludlow",
+        "C": "3",
+        "D": "129",
+        "E": "52",
+        "F": "3",
+        "G": "187"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 55,
+      "values": {
+        "A": "ARO",
+        "B": "Macwahoc Plt",
+        "C": "0",
+        "D": "23",
+        "E": "11",
+        "F": "1",
+        "G": "35"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 56,
+      "values": {
+        "A": "ARO",
+        "B": "Madawaska",
+        "C": "29",
+        "D": "792",
+        "E": "911",
+        "F": "13",
+        "G": "1745"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 57,
+      "values": {
+        "A": "ARO",
+        "B": "Madawaska Lake",
+        "C": "3",
+        "D": "38",
+        "E": "52",
+        "F": "2",
+        "G": "95"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 58,
+      "values": {
+        "A": "ARO",
+        "B": "Mapleton",
+        "C": "16",
+        "D": "623",
+        "E": "324",
+        "F": "1",
+        "G": "964"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 59,
+      "values": {
+        "A": "ARO",
+        "B": "Mars Hill",
+        "C": "13",
+        "D": "401",
+        "E": "188",
+        "F": "2",
+        "G": "604"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 60,
+      "values": {
+        "A": "ARO",
+        "B": "Masardis",
+        "C": "3",
+        "D": "63",
+        "E": "38",
+        "F": "0",
+        "G": "104"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 61,
+      "values": {
+        "A": "ARO",
+        "B": "Merrill",
+        "C": "0",
+        "D": "83",
+        "E": "33",
+        "F": "0",
+        "G": "116"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 62,
+      "values": {
+        "A": "ARO",
+        "B": "Monticello",
+        "C": "6",
+        "D": "229",
+        "E": "91",
+        "F": "2",
+        "G": "328"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 63,
+      "values": {
+        "A": "ARO",
+        "B": "Moro Plt",
+        "C": "1",
+        "D": "17",
+        "E": "2",
+        "F": "1",
+        "G": "21"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 64,
+      "values": {
+        "A": "ARO",
+        "B": "Nashville Plt",
+        "C": "0",
+        "D": "17",
+        "E": "6",
+        "F": "0",
+        "G": "23"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 65,
+      "values": {
+        "A": "ARO",
+        "B": "New Canada",
+        "C": "7",
+        "D": "78",
+        "E": "45",
+        "F": "1",
+        "G": "131"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 66,
+      "values": {
+        "A": "ARO",
+        "B": "New Limerick",
+        "C": "2",
+        "D": "196",
+        "E": "102",
+        "F": "2",
+        "G": "302"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 67,
+      "values": {
+        "A": "ARO",
+        "B": "New Sweden",
+        "C": "4",
+        "D": "172",
+        "E": "119",
+        "F": "2",
+        "G": "297"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 68,
+      "values": {
+        "A": "ARO",
+        "B": "Oakfield",
+        "C": "7",
+        "D": "212",
+        "E": "91",
+        "F": "3",
+        "G": "313"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 69,
+      "values": {
+        "A": "ARO",
+        "B": "Orient",
+        "C": "6",
+        "D": "42",
+        "E": "24",
+        "F": "3",
+        "G": "75"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 70,
+      "values": {
+        "A": "ARO",
+        "B": "Oxbow North Twp",
+        "C": "1",
+        "D": "18",
+        "E": "15",
+        "F": "0",
+        "G": "34"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 71,
+      "values": {
+        "A": "ARO",
+        "B": "Perham",
+        "C": "3",
+        "D": "120",
+        "E": "50",
+        "F": "1",
+        "G": "174"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 72,
+      "values": {
+        "A": "ARO",
+        "B": "Portage Lake",
+        "C": "5",
+        "D": "135",
+        "E": "90",
+        "F": "4",
+        "G": "234"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 73,
+      "values": {
+        "A": "ARO",
+        "B": "Presque Isle",
+        "C": "76",
+        "D": "1672",
+        "E": "1538",
+        "F": "24",
+        "G": "3310"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 74,
+      "values": {
+        "A": "ARO",
+        "B": "Reed Plt",
+        "C": "1",
+        "D": "46",
+        "E": "15",
+        "F": "0",
+        "G": "62"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 75,
+      "values": {
+        "A": "ARO",
+        "B": "Saint Agatha",
+        "C": "7",
+        "D": "295",
+        "E": "236",
+        "F": "4",
+        "G": "542"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 76,
+      "values": {
+        "A": "ARO",
+        "B": "Saint Francis",
+        "C": "4",
+        "D": "85",
+        "E": "111",
+        "F": "2",
+        "G": "202"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 77,
+      "values": {
+        "A": "ARO",
+        "B": "Saint John Plt",
+        "C": "2",
+        "D": "79",
+        "E": "58",
+        "F": "0",
+        "G": "139"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 78,
+      "values": {
+        "A": "ARO",
+        "B": "Sherman",
+        "C": "7",
+        "D": "391",
+        "E": "127",
+        "F": "4",
+        "G": "529"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 79,
+      "values": {
+        "A": "ARO",
+        "B": "Smyrna",
+        "C": "1",
+        "D": "82",
+        "E": "35",
+        "F": "0",
+        "G": "118"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 80,
+      "values": {
+        "A": "ARO",
+        "B": "Stockholm",
+        "C": "1",
+        "D": "75",
+        "E": "64",
+        "F": "1",
+        "G": "141"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 81,
+      "values": {
+        "A": "ARO",
+        "B": "T7 R5 Twp",
+        "C": "0",
+        "D": "2",
+        "E": "0",
+        "F": "0",
+        "G": "2"
+      },
+      "formulas": {
+        "G": "SUM(C81:F81)"
+      }
+    },
+    {
+      "row": 82,
+      "values": {
+        "A": "ARO",
+        "B": "T11 R4 WELS Twp",
+        "C": "0",
+        "D": "11",
+        "E": "3",
+        "F": "0",
+        "G": "14"
+      },
+      "formulas": {
+        "G": "SUM(C82:F82)"
+      }
+    },
+    {
+      "row": 83,
+      "values": {
+        "A": "ARO",
+        "B": "T15 R6 Twp",
+        "C": "0",
+        "D": "4",
+        "E": "0",
+        "F": "0",
+        "G": "4"
+      },
+      "formulas": {
+        "G": "SUM(C83:F83)"
+      }
+    },
+    {
+      "row": 84,
+      "values": {
+        "A": "ARO",
+        "B": "TD R2 Twp",
+        "C": "0",
+        "D": "0",
+        "E": "4",
+        "F": "0",
+        "G": "4"
+      },
+      "formulas": {
+        "G": "SUM(C84:F84)"
+      }
+    },
+    {
+      "row": 85,
+      "values": {
+        "A": "ARO",
+        "B": "Van Buren/Van Buren Cove Twp",
+        "C": "15",
+        "D": "309",
+        "E": "404",
+        "F": "9",
+        "G": "737"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 86,
+      "values": {
+        "A": "ARO",
+        "B": "Wade",
+        "C": "5",
+        "D": "69",
+        "E": "50",
+        "F": "4",
+        "G": "128"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 87,
+      "values": {
+        "A": "ARO",
+        "B": "Wallagrass",
+        "C": "2",
+        "D": "116",
+        "E": "131",
+        "F": "2",
+        "G": "251"
+      },
+      "formulas": {
+        "G": "SUM(C87:F87)"
+      }
+    },
+    {
+      "row": 88,
+      "values": {
+        "A": "ARO",
+        "B": "Washburn",
+        "C": "14",
+        "D": "378",
+        "E": "223",
+        "F": "3",
+        "G": "618"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 89,
+      "values": {
+        "A": "ARO",
+        "B": "Westfield",
+        "C": "4",
+        "D": "132",
+        "E": "65",
+        "F": "3",
+        "G": "204"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 90,
+      "values": {
+        "A": "ARO",
+        "B": "Westmanland",
+        "C": "2",
+        "D": "24",
+        "E": "29",
+        "F": "0",
+        "G": "55"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 91,
+      "values": {
+        "A": "ARO",
+        "B": "Weston",
+        "C": "1",
+        "D": "110",
+        "E": "43",
+        "F": "1",
+        "G": "155"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 92,
+      "values": {
+        "A": "ARO",
+        "B": "Winterville Plt",
+        "C": "1",
+        "D": "71",
+        "E": "38",
+        "F": "2",
+        "G": "112"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 93,
+      "values": {
+        "A": "ARO",
+        "B": "Woodland",
+        "C": "5",
+        "D": "328",
+        "E": "200",
+        "F": "2",
+        "G": "535"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 94,
+      "values": {
+        "B": "CTY Total",
+        "C": "515",
+        "D": "16530",
+        "E": "11587",
+        "F": "212",
+        "G": "28844"
+      },
+      "formulas": {
+        "C": "SUM(C22:C93)",
+        "D": "SUM(D22:D93)",
+        "E": "SUM(E22:E93)",
+        "F": "SUM(F22:F93)",
+        "G": null
+      }
+    },
+    {
+      "row": 95,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 96,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 97,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 98,
+      "values": {
+        "A": "CUM",
+        "B": "Baldwin",
+        "C": "13",
+        "D": "517",
+        "E": "302",
+        "F": "3",
+        "G": "835"
+      },
+      "formulas": {
+        "G": "SUM(C98:F98)"
+      }
+    },
+    {
+      "row": 99,
+      "values": {
+        "A": "CUM",
+        "B": "Bridgton",
+        "C": "49",
+        "D": "1248",
+        "E": "1542",
+        "F": "31",
+        "G": "2870"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 100,
+      "values": {
+        "A": "CUM",
+        "B": "Brunswick",
+        "C": "187",
+        "D": "2868",
+        "E": "8974",
+        "F": "75",
+        "G": "12104"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 101,
+      "values": {
+        "A": "CUM",
+        "B": "Cape Elizabeth",
+        "C": "75",
+        "D": "1288",
+        "E": "4884",
+        "F": "32",
+        "G": "6279"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 102,
+      "values": {
+        "A": "CUM",
+        "B": "Casco",
+        "C": "28",
+        "D": "897",
+        "E": "887",
+        "F": "12",
+        "G": "1824"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 103,
+      "values": {
+        "A": "CUM",
+        "B": "Chebeague Island",
+        "C": "7",
+        "D": "60",
+        "E": "228",
+        "F": "4",
+        "G": "299"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 104,
+      "values": {
+        "A": "CUM",
+        "B": "Cumberland",
+        "C": "86",
+        "D": "1517",
+        "E": "3753",
+        "F": "28",
+        "G": "5384"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 105,
+      "values": {
+        "A": "CUM",
+        "B": "Falmouth",
+        "C": "101",
+        "D": "2198",
+        "E": "5431",
+        "F": "29",
+        "G": "7759"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 106,
+      "values": {
+        "A": "CUM",
+        "B": "Freeport",
+        "C": "81",
+        "D": "1331",
+        "E": "3828",
+        "F": "48",
+        "G": "5288"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 107,
+      "values": {
+        "A": "CUM",
+        "B": "Frye Island",
+        "C": "0",
+        "D": "18",
+        "E": "27",
+        "F": "0",
+        "G": "45"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 108,
+      "values": {
+        "A": "CUM",
+        "B": "Gorham",
+        "C": "171",
+        "D": "3431",
+        "E": "5666",
+        "F": "82",
+        "G": "9350"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 109,
+      "values": {
+        "A": "CUM",
+        "B": "Gray",
+        "C": "79",
+        "D": "2183",
+        "E": "2298",
+        "F": "9",
+        "G": "4569"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 110,
+      "values": {
+        "A": "CUM",
+        "B": "Harpswell",
+        "C": "53",
+        "D": "1276",
+        "E": "2120",
+        "F": "24",
+        "G": "3473"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 111,
+      "values": {
+        "A": "CUM",
+        "B": "Harrison",
+        "C": "30",
+        "D": "630",
+        "E": "668",
+        "F": "5",
+        "G": "1333"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 112,
+      "values": {
+        "A": "CUM",
+        "B": "Long Island",
+        "C": "3",
+        "D": "46",
+        "E": "129",
+        "F": "2",
+        "G": "180"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 113,
+      "values": {
+        "A": "CUM",
+        "B": "Naples",
+        "C": "39",
+        "D": "1186",
+        "E": "928",
+        "F": "8",
+        "G": "2161"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 114,
+      "values": {
+        "A": "CUM",
+        "B": "New Gloucester",
+        "C": "52",
+        "D": "1561",
+        "E": "1541",
+        "F": "15",
+        "G": "3169"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 115,
+      "values": {
+        "A": "CUM",
+        "B": "North Yarmouth",
+        "C": "47",
+        "D": "926",
+        "E": "1773",
+        "F": "24",
+        "G": "2770"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 116,
+      "values": {
+        "A": "CUM",
+        "B": "Portland",
+        "C": "450",
+        "D": "4614",
+        "E": "28639",
+        "F": "290",
+        "G": "33993"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 117,
+      "values": {
+        "A": "CUM",
+        "B": "Pownal",
+        "C": "12",
+        "D": "409",
+        "E": "656",
+        "F": "4",
+        "G": "1081"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 118,
+      "values": {
+        "A": "CUM",
+        "B": "Raymond",
+        "C": "39",
+        "D": "1221",
+        "E": "1417",
+        "F": "15",
+        "G": "2692"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 119,
+      "values": {
+        "A": "CUM",
+        "B": "Scarborough",
+        "C": "190",
+        "D": "4156",
+        "E": "8269",
+        "F": "110",
+        "G": "12725"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 120,
+      "values": {
+        "A": "CUM",
+        "B": "Sebago",
+        "C": "12",
+        "D": "555",
+        "E": "485",
+        "F": "6",
+        "G": "1058"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 121,
+      "values": {
+        "A": "CUM",
+        "B": "South Portland",
+        "C": "171",
+        "D": "2681",
+        "E": "10424",
+        "F": "111",
+        "G": "13387"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 122,
+      "values": {
+        "A": "CUM",
+        "B": "Standish",
+        "C": "83",
+        "D": "2506",
+        "E": "2393",
+        "F": "10",
+        "G": "4992"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 123,
+      "values": {
+        "A": "CUM",
+        "B": "Westbrook",
+        "C": "183",
+        "D": "2400",
+        "E": "5850",
+        "F": "58",
+        "G": "8491"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 124,
+      "values": {
+        "A": "CUM",
+        "B": "Windham",
+        "C": "148",
+        "D": "4343",
+        "E": "4918",
+        "F": "61",
+        "G": "9470"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 125,
+      "values": {
+        "A": "CUM",
+        "B": "Yarmouth",
+        "C": "73",
+        "D": "1135",
+        "E": "4158",
+        "F": "22",
+        "G": "5388"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 126,
+      "values": {
+        "B": "CTY Total",
+        "C": "2462",
+        "D": "47201",
+        "E": "112188",
+        "F": "1118",
+        "G": "162969"
+      },
+      "formulas": {
+        "C": "SUM(C98:C125)",
+        "D": "SUM(D98:D125)",
+        "E": "SUM(E98:E125)",
+        "F": "SUM(F98:F125)",
+        "G": null
+      }
+    },
+    {
+      "row": 127,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 128,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 129,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 130,
+      "values": {
+        "A": "FRA",
+        "B": "Avon",
+        "C": "3",
+        "D": "134",
+        "E": "90",
+        "F": "2",
+        "G": "229"
+      },
+      "formulas": {
+        "G": "SUM(C130:F130)"
+      }
+    },
+    {
+      "row": 131,
+      "values": {
+        "A": "FRA",
+        "B": "Carrabassett Valley",
+        "C": "8",
+        "D": "140",
+        "E": "326",
+        "F": "2",
+        "G": "476"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 132,
+      "values": {
+        "A": "FRA",
+        "B": "Carthage",
+        "C": "7",
+        "D": "169",
+        "E": "71",
+        "F": "2",
+        "G": "249"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 133,
+      "values": {
+        "A": "FRA",
+        "B": "Chesterville",
+        "C": "18",
+        "D": "373",
+        "E": "301",
+        "F": "3",
+        "G": "695"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 134,
+      "values": {
+        "A": "FRA",
+        "B": "Coplin Plt",
+        "C": "4",
+        "D": "37",
+        "E": "61",
+        "F": "1",
+        "G": "103"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 135,
+      "values": {
+        "A": "FRA",
+        "B": "Wyman Twp",
+        "C": "0",
+        "D": "4",
+        "E": "3",
+        "F": "0",
+        "G": "7"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 136,
+      "values": {
+        "A": "FRA",
+        "B": "Dallas Plt",
+        "C": "2",
+        "D": "84",
+        "E": "91",
+        "F": "1",
+        "G": "178"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 137,
+      "values": {
+        "A": "FRA",
+        "B": "Eustis/Twps",
+        "C": "9",
+        "D": "242",
+        "E": "175",
+        "F": "1",
+        "G": "427"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 138,
+      "values": {
+        "A": "FRA",
+        "B": "Farmington",
+        "C": "62",
+        "D": "1166",
+        "E": "1980",
+        "F": "22",
+        "G": "3230"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 139,
+      "values": {
+        "A": "FRA",
+        "B": "Industry",
+        "C": "8",
+        "D": "213",
+        "E": "224",
+        "F": "2",
+        "G": "447"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 140,
+      "values": {
+        "A": "FRA",
+        "B": "Jay",
+        "C": "56",
+        "D": "1128",
+        "E": "1062",
+        "F": "5",
+        "G": "2251"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 141,
+      "values": {
+        "A": "FRA",
+        "B": "Kingfield",
+        "C": "21",
+        "D": "359",
+        "E": "366",
+        "F": "2",
+        "G": "748"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 142,
+      "values": {
+        "A": "FRA",
+        "B": "New Sharon",
+        "C": "27",
+        "D": "459",
+        "E": "360",
+        "F": "4",
+        "G": "850"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 143,
+      "values": {
+        "A": "FRA",
+        "B": "New Vineyard",
+        "C": "8",
+        "D": "249",
+        "E": "151",
+        "F": "3",
+        "G": "411"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 144,
+      "values": {
+        "A": "FRA",
+        "B": "Phillips/Madrid Twp",
+        "C": "18",
+        "D": "326",
+        "E": "244",
+        "F": "1",
+        "G": "589"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 145,
+      "values": {
+        "A": "FRA",
+        "B": "Rangeley",
+        "C": "12",
+        "D": "382",
+        "E": "305",
+        "F": "3",
+        "G": "702"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 146,
+      "values": {
+        "A": "FRA",
+        "B": "Rangeley Plt",
+        "C": "3",
+        "D": "95",
+        "E": "50",
+        "F": "1",
+        "G": "149"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 147,
+      "values": {
+        "A": "FRA",
+        "B": "Sandy River Plt",
+        "C": "1",
+        "D": "37",
+        "E": "62",
+        "F": "0",
+        "G": "100"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 148,
+      "values": {
+        "A": "FRA",
+        "B": "Strong/Freeman Twp/Salem Twp",
+        "C": "20",
+        "D": "412",
+        "E": "238",
+        "F": "0",
+        "G": "670"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 149,
+      "values": {
+        "A": "FRA",
+        "B": "Temple",
+        "C": "7",
+        "D": "125",
+        "E": "149",
+        "F": "2",
+        "G": "283"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 150,
+      "values": {
+        "A": "FRA",
+        "B": "Weld",
+        "C": "4",
+        "D": "143",
+        "E": "172",
+        "F": "2",
+        "G": "321"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 151,
+      "values": {
+        "A": "FRA",
+        "B": "Wilton/Perkins Twp/Washington Twp",
+        "C": "45",
+        "D": "902",
+        "E": "925",
+        "F": "14",
+        "G": "1886"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 152,
+      "values": {
+        "B": "CTY Total",
+        "C": "343",
+        "D": "7179",
+        "E": "7406",
+        "F": "73",
+        "G": "15001"
+      },
+      "formulas": {
+        "C": "SUM(C130:C151)",
+        "D": "SUM(D130:D151)",
+        "E": "SUM(E130:E151)",
+        "F": "SUM(F130:F151)",
+        "G": null
+      }
+    },
+    {
+      "row": 154,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 155,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 156,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 157,
+      "values": {
+        "A": "HAN",
+        "B": "Amherst",
+        "C": "7",
+        "D": "92",
+        "E": "72",
+        "F": "1",
+        "G": "172"
+      },
+      "formulas": {
+        "G": "SUM(C157:F157)"
+      }
+    },
+    {
+      "row": 158,
+      "values": {
+        "A": "HAN",
+        "B": "Aurora",
+        "C": "1",
+        "D": "36",
+        "E": "30",
+        "F": "1",
+        "G": "68"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 159,
+      "values": {
+        "A": "HAN",
+        "B": "Bar Harbor",
+        "C": "56",
+        "D": "688",
+        "E": "2323",
+        "F": "28",
+        "G": "3095"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 160,
+      "values": {
+        "A": "HAN",
+        "B": "Blue Hill",
+        "C": "42",
+        "D": "498",
+        "E": "1189",
+        "F": "8",
+        "G": "1737"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 161,
+      "values": {
+        "A": "HAN",
+        "B": "Brooklin",
+        "C": "11",
+        "D": "165",
+        "E": "395",
+        "F": "1",
+        "G": "572"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 162,
+      "values": {
+        "A": "HAN",
+        "B": "Brooksville",
+        "C": "8",
+        "D": "198",
+        "E": "408",
+        "F": "2",
+        "G": "616"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 163,
+      "values": {
+        "A": "HAN",
+        "B": "Bucksport",
+        "C": "45",
+        "D": "1110",
+        "E": "1198",
+        "F": "14",
+        "G": "2367"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 164,
+      "values": {
+        "A": "HAN",
+        "B": "Castine",
+        "C": "6",
+        "D": "109",
+        "E": "343",
+        "F": "4",
+        "G": "462"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 165,
+      "values": {
+        "A": "HAN",
+        "B": "Cranberry Isles",
+        "C": "1",
+        "D": "15",
+        "E": "26",
+        "F": "1",
+        "G": "43"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 166,
+      "values": {
+        "A": "HAN",
+        "B": "Cranberry Isles",
+        "C": "2",
+        "D": "18",
+        "E": "53",
+        "F": "1",
+        "G": "74"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 167,
+      "values": {
+        "A": "HAN",
+        "B": "Dedham",
+        "C": "10",
+        "D": "504",
+        "E": "506",
+        "F": "3",
+        "G": "1023"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 168,
+      "values": {
+        "A": "HAN",
+        "B": "Deer Isle",
+        "C": "18",
+        "D": "474",
+        "E": "676",
+        "F": "6",
+        "G": "1174"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 169,
+      "values": {
+        "A": "HAN",
+        "B": "Eastbrook",
+        "C": "7",
+        "D": "113",
+        "E": "73",
+        "F": "1",
+        "G": "194"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 170,
+      "values": {
+        "A": "HAN",
+        "B": "Ellsworth/Fletchers Landing Twp",
+        "C": "81",
+        "D": "1879",
+        "E": "2061",
+        "F": "52",
+        "G": "4073"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 171,
+      "values": {
+        "A": "HAN",
+        "B": "Franklin/T10 SD Twp",
+        "C": "16",
+        "D": "387",
+        "E": "354",
+        "F": "3",
+        "G": "760"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 172,
+      "values": {
+        "A": "HAN",
+        "B": "Frenchboro",
+        "C": "1",
+        "D": "15",
+        "E": "12",
+        "F": "0",
+        "G": "28"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 173,
+      "values": {
+        "A": "HAN",
+        "B": "Gouldsboro/T7 SD Twp",
+        "C": "11",
+        "D": "547",
+        "E": "467",
+        "F": "2",
+        "G": "1027"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 174,
+      "values": {
+        "A": "HAN",
+        "B": "Great Pond",
+        "C": "1",
+        "D": "21",
+        "E": "17",
+        "F": "1",
+        "G": "40"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 175,
+      "values": {
+        "A": "HAN",
+        "B": "Hancock",
+        "C": "18",
+        "D": "611",
+        "E": "560",
+        "F": "7",
+        "G": "1196"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 176,
+      "values": {
+        "A": "HAN",
+        "B": "Lamoine",
+        "C": "20",
+        "D": "484",
+        "E": "531",
+        "F": "7",
+        "G": "1042"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 177,
+      "values": {
+        "A": "HAN",
+        "B": "Mariaville",
+        "C": "5",
+        "D": "148",
+        "E": "110",
+        "F": "1",
+        "G": "264"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 178,
+      "values": {
+        "A": "HAN",
+        "B": "Mount Desert",
+        "C": "17",
+        "D": "300",
+        "E": "924",
+        "F": "9",
+        "G": "1250"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 179,
+      "values": {
+        "A": "HAN",
+        "B": "Orland",
+        "C": "22",
+        "D": "599",
+        "E": "632",
+        "F": "9",
+        "G": "1262"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 180,
+      "values": {
+        "A": "HAN",
+        "B": "Osborn",
+        "C": "1",
+        "D": "26",
+        "E": "10",
+        "F": "0",
+        "G": "37"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 181,
+      "values": {
+        "A": "HAN",
+        "B": "Otis",
+        "C": "5",
+        "D": "285",
+        "E": "134",
+        "F": "2",
+        "G": "426"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 182,
+      "values": {
+        "A": "HAN",
+        "B": "Penobscot",
+        "C": "17",
+        "D": "264",
+        "E": "484",
+        "F": "4",
+        "G": "769"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 183,
+      "values": {
+        "A": "HAN",
+        "B": "Sedgwick",
+        "C": "9",
+        "D": "267",
+        "E": "483",
+        "F": "6",
+        "G": "765"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 184,
+      "values": {
+        "A": "HAN",
+        "B": "Sorrento",
+        "C": "4",
+        "D": "82",
+        "E": "83",
+        "F": "3",
+        "G": "172"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 185,
+      "values": {
+        "A": "HAN",
+        "B": "Southwest Harbor",
+        "C": "22",
+        "D": "335",
+        "E": "659",
+        "F": "4",
+        "G": "1020"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 186,
+      "values": {
+        "A": "HAN",
+        "B": "Stonington",
+        "C": "8",
+        "D": "212",
+        "E": "335",
+        "F": "2",
+        "G": "557"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 187,
+      "values": {
+        "A": "HAN",
+        "B": "Sullivan",
+        "C": "19",
+        "D": "304",
+        "E": "297",
+        "F": "4",
+        "G": "624"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 188,
+      "values": {
+        "A": "HAN",
+        "B": "Surry",
+        "C": "21",
+        "D": "397",
+        "E": "555",
+        "F": "6",
+        "G": "979"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 189,
+      "values": {
+        "A": "HAN",
+        "B": "Swans Island",
+        "C": "6",
+        "D": "140",
+        "E": "118",
+        "F": "2",
+        "G": "266"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 190,
+      "values": {
+        "A": "PEN",
+        "B": "T3 ND Twp",
+        "C": "0",
+        "D": "3",
+        "E": "1",
+        "F": "0",
+        "G": "4"
+      },
+      "formulas": {
+        "G": "SUM(C190:F190)"
+      }
+    },
+    {
+      "row": 191,
+      "values": {
+        "A": "HAN",
+        "B": "Tremont",
+        "C": "17",
+        "D": "380",
+        "E": "524",
+        "F": "2",
+        "G": "923"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 192,
+      "values": {
+        "A": "HAN",
+        "B": "Trenton",
+        "C": "18",
+        "D": "353",
+        "E": "459",
+        "F": "6",
+        "G": "836"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 193,
+      "values": {
+        "A": "HAN",
+        "B": "Verona Island",
+        "C": "7",
+        "D": "155",
+        "E": "144",
+        "F": "1",
+        "G": "307"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 194,
+      "values": {
+        "A": "HAN",
+        "B": "Waltham",
+        "C": "1",
+        "D": "145",
+        "E": "70",
+        "F": "2",
+        "G": "218"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 195,
+      "values": {
+        "A": "HAN",
+        "B": "Winter Harbor",
+        "C": "5",
+        "D": "168",
+        "E": "130",
+        "F": "4",
+        "G": "307"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 196,
+      "values": {
+        "B": "CTY Total",
+        "C": "566",
+        "D": "12527",
+        "E": "17446",
+        "F": "210",
+        "G": "30749"
+      },
+      "formulas": {
+        "C": "SUM(C157:C195)",
+        "D": "SUM(D157:D195)",
+        "E": "SUM(E157:E195)",
+        "F": "SUM(F157:F195)",
+        "G": null
+      }
+    },
+    {
+      "row": 198,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 199,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 200,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 201,
+      "values": {
+        "A": "KEN",
+        "B": "Albion",
+        "C": "23",
+        "D": "675",
+        "E": "361",
+        "F": "7",
+        "G": "1066"
+      },
+      "formulas": {
+        "G": "SUM(C201:F201)"
+      }
+    },
+    {
+      "row": 202,
+      "values": {
+        "A": "KEN",
+        "B": "Augusta",
+        "C": "144",
+        "D": "3196",
+        "E": "4687",
+        "F": "63",
+        "G": "8090"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 203,
+      "values": {
+        "A": "KEN",
+        "B": "Belgrade",
+        "C": "31",
+        "D": "937",
+        "E": "917",
+        "F": "9",
+        "G": "1894"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 204,
+      "values": {
+        "A": "KEN",
+        "B": "Benton",
+        "C": "28",
+        "D": "788",
+        "E": "525",
+        "F": "13",
+        "G": "1354"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 205,
+      "values": {
+        "A": "KEN",
+        "B": "Chelsea",
+        "C": "30",
+        "D": "716",
+        "E": "543",
+        "F": "6",
+        "G": "1295"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 206,
+      "values": {
+        "A": "KEN",
+        "B": "China",
+        "C": "39",
+        "D": "1177",
+        "E": "1019",
+        "F": "7",
+        "G": "2242"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 207,
+      "values": {
+        "A": "KEN",
+        "B": "Clinton",
+        "C": "22",
+        "D": "865",
+        "E": "588",
+        "F": "14",
+        "G": "1489"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 208,
+      "values": {
+        "A": "KEN",
+        "B": "Farmingdale",
+        "C": "39",
+        "D": "687",
+        "E": "822",
+        "F": "10",
+        "G": "1558"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 209,
+      "values": {
+        "A": "KEN",
+        "B": "Fayette",
+        "C": "10",
+        "D": "399",
+        "E": "368",
+        "F": "3",
+        "G": "780"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 210,
+      "values": {
+        "A": "KEN",
+        "B": "Gardiner",
+        "C": "63",
+        "D": "1144",
+        "E": "1561",
+        "F": "23",
+        "G": "2791"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 211,
+      "values": {
+        "A": "KEN",
+        "B": "Hallowell",
+        "C": "21",
+        "D": "364",
+        "E": "1213",
+        "F": "13",
+        "G": "1611"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 212,
+      "values": {
+        "A": "KEN",
+        "B": "Litchfield",
+        "C": "32",
+        "D": "1072",
+        "E": "781",
+        "F": "8",
+        "G": "1893"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 213,
+      "values": {
+        "A": "KEN",
+        "B": "Manchester",
+        "C": "22",
+        "D": "714",
+        "E": "750",
+        "F": "3",
+        "G": "1489"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 214,
+      "values": {
+        "A": "KEN",
+        "B": "Monmouth",
+        "C": "46",
+        "D": "1170",
+        "E": "963",
+        "F": "7",
+        "G": "2186"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 215,
+      "values": {
+        "A": "KEN",
+        "B": "Mount Vernon",
+        "C": "19",
+        "D": "506",
+        "E": "510",
+        "F": "7",
+        "G": "1042"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 216,
+      "values": {
+        "A": "KEN",
+        "B": "Oakland",
+        "C": "58",
+        "D": "1559",
+        "E": "1457",
+        "F": "18",
+        "G": "3092"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 217,
+      "values": {
+        "A": "KEN",
+        "B": "Pittston",
+        "C": "31",
+        "D": "865",
+        "E": "632",
+        "F": "5",
+        "G": "1533"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 218,
+      "values": {
+        "A": "KEN",
+        "B": "Randolph",
+        "C": "12",
+        "D": "397",
+        "E": "442",
+        "F": "6",
+        "G": "857"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 219,
+      "values": {
+        "A": "KEN",
+        "B": "Readfield",
+        "C": "19",
+        "D": "718",
+        "E": "830",
+        "F": "4",
+        "G": "1571"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 220,
+      "values": {
+        "A": "KEN",
+        "B": "Rome",
+        "C": "14",
+        "D": "316",
+        "E": "292",
+        "F": "3",
+        "G": "625"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 221,
+      "values": {
+        "A": "KEN",
+        "B": "Sidney",
+        "C": "38",
+        "D": "1513",
+        "E": "1049",
+        "F": "11",
+        "G": "2611"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 222,
+      "values": {
+        "A": "KEN",
+        "B": "Vassalboro",
+        "C": "39",
+        "D": "1187",
+        "E": "954",
+        "F": "10",
+        "G": "2190"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 223,
+      "values": {
+        "A": "KEN",
+        "B": "Vienna",
+        "C": "7",
+        "D": "172",
+        "E": "169",
+        "F": "4",
+        "G": "352"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 224,
+      "values": {
+        "A": "KEN",
+        "B": "Waterville",
+        "C": "133",
+        "D": "1738",
+        "E": "3847",
+        "F": "44",
+        "G": "5762"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 225,
+      "values": {
+        "A": "KEN",
+        "B": "Wayne",
+        "C": "17",
+        "D": "293",
+        "E": "446",
+        "F": "7",
+        "G": "763"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 226,
+      "values": {
+        "A": "KEN",
+        "B": "West Gardiner",
+        "C": "40",
+        "D": "1087",
+        "E": "922",
+        "F": "8",
+        "G": "2057"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 227,
+      "values": {
+        "A": "KEN",
+        "B": "Windsor",
+        "C": "29",
+        "D": "770",
+        "E": "427",
+        "F": "5",
+        "G": "1231"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 228,
+      "values": {
+        "A": "KEN",
+        "B": "Winslow",
+        "C": "70",
+        "D": "1891",
+        "E": "1933",
+        "F": "9",
+        "G": "3903"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 229,
+      "values": {
+        "A": "KEN",
+        "B": "Winthrop",
+        "C": "64",
+        "D": "1452",
+        "E": "1830",
+        "F": "12",
+        "G": "3358"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 230,
+      "values": {
+        "B": "CTY Total",
+        "C": "1140",
+        "D": "28368",
+        "E": "30838",
+        "F": "339",
+        "G": "60685"
+      },
+      "formulas": {
+        "C": "SUM(C201:C229)",
+        "D": "SUM(D201:D229)",
+        "E": "SUM(E201:E229)",
+        "F": "SUM(F201:F229)",
+        "G": null
+      }
+    },
+    {
+      "row": 232,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 233,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 234,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 235,
+      "values": {
+        "A": "KNO",
+        "B": "Appleton",
+        "C": "12",
+        "D": "321",
+        "E": "405",
+        "F": "2",
+        "G": "740"
+      },
+      "formulas": {
+        "G": "SUM(C235:F235)"
+      }
+    },
+    {
+      "row": 236,
+      "values": {
+        "A": "KNO",
+        "B": "Camden",
+        "C": "50",
+        "D": "631",
+        "E": "2601",
+        "F": "26",
+        "G": "3308"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 237,
+      "values": {
+        "A": "KNO",
+        "B": "Cushing",
+        "C": "13",
+        "D": "472",
+        "E": "389",
+        "F": "5",
+        "G": "879"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 238,
+      "values": {
+        "A": "KNO",
+        "B": "Friendship",
+        "C": "13",
+        "D": "476",
+        "E": "278",
+        "F": "1",
+        "G": "768"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 239,
+      "values": {
+        "A": "KNO",
+        "B": "Hope",
+        "C": "16",
+        "D": "403",
+        "E": "588",
+        "F": "6",
+        "G": "1013"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 240,
+      "values": {
+        "A": "KNO",
+        "B": "Isle Au Haut",
+        "C": "2",
+        "D": "11",
+        "E": "48",
+        "F": "1",
+        "G": "62"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 241,
+      "values": {
+        "A": "KNO",
+        "B": "Matinicus Isle Plt",
+        "C": "1",
+        "D": "15",
+        "E": "32",
+        "F": "0",
+        "G": "48"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 242,
+      "values": {
+        "A": "KNO",
+        "B": "North Haven",
+        "C": "7",
+        "D": "76",
+        "E": "196",
+        "F": "1",
+        "G": "280"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 243,
+      "values": {
+        "A": "KNO",
+        "B": "Owls Head",
+        "C": "11",
+        "D": "431",
+        "E": "538",
+        "F": "1",
+        "G": "981"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 244,
+      "values": {
+        "A": "KNO",
+        "B": "Rockland",
+        "C": "59",
+        "D": "962",
+        "E": "2229",
+        "F": "18",
+        "G": "3268"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 245,
+      "values": {
+        "A": "KNO",
+        "B": "Rockport",
+        "C": "31",
+        "D": "629",
+        "E": "1487",
+        "F": "23",
+        "G": "2170"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 246,
+      "values": {
+        "A": "KNO",
+        "B": "Saint George",
+        "C": "18",
+        "D": "558",
+        "E": "1007",
+        "F": "3",
+        "G": "1586"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 247,
+      "values": {
+        "A": "KNO",
+        "B": "South Thomaston",
+        "C": "9",
+        "D": "343",
+        "E": "519",
+        "F": "4",
+        "G": "875"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 248,
+      "values": {
+        "A": "KNO",
+        "B": "Thomaston",
+        "C": "29",
+        "D": "526",
+        "E": "853",
+        "F": "15",
+        "G": "1423"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 249,
+      "values": {
+        "A": "KNO",
+        "B": "Union",
+        "C": "31",
+        "D": "721",
+        "E": "686",
+        "F": "12",
+        "G": "1450"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 250,
+      "values": {
+        "A": "KNO",
+        "B": "Vinalhaven",
+        "C": "24",
+        "D": "300",
+        "E": "393",
+        "F": "3",
+        "G": "720"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 251,
+      "values": {
+        "A": "KNO",
+        "B": "Warren",
+        "C": "38",
+        "D": "1089",
+        "E": "828",
+        "F": "5",
+        "G": "1960"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 252,
+      "values": {
+        "A": "KNO",
+        "B": "Washington",
+        "C": "21",
+        "D": "466",
+        "E": "364",
+        "F": "15",
+        "G": "866"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 253,
+      "values": {
+        "B": "CTY Total",
+        "C": "385",
+        "D": "8430",
+        "E": "13441",
+        "F": "141",
+        "G": "22397"
+      },
+      "formulas": {
+        "C": "SUM(C235:C252)",
+        "D": "SUM(D235:D252)",
+        "E": "SUM(E235:E252)",
+        "F": "SUM(F235:F252)",
+        "G": null
+      }
+    },
+    {
+      "row": 255,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 256,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 257,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 258,
+      "values": {
+        "A": "LIN",
+        "B": "Alna",
+        "C": "12",
+        "D": "163",
+        "E": "311",
+        "F": "0",
+        "G": "486"
+      },
+      "formulas": {
+        "G": "SUM(C258:F258)"
+      }
+    },
+    {
+      "row": 259,
+      "values": {
+        "A": "LIN",
+        "B": "Boothbay",
+        "C": "18",
+        "D": "798",
+        "E": "1160",
+        "F": "15",
+        "G": "1991"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 260,
+      "values": {
+        "A": "LIN",
+        "B": "Boothbay Harbor",
+        "C": "14",
+        "D": "444",
+        "E": "768",
+        "F": "6",
+        "G": "1232"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 261,
+      "values": {
+        "A": "LIN",
+        "B": "Bremen",
+        "C": "6",
+        "D": "172",
+        "E": "374",
+        "F": "4",
+        "G": "556"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 262,
+      "values": {
+        "A": "LIN",
+        "B": "Bristol",
+        "C": "32",
+        "D": "699",
+        "E": "1202",
+        "F": "9",
+        "G": "1942"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 263,
+      "values": {
+        "A": "LIN",
+        "B": "Damariscotta",
+        "C": "23",
+        "D": "390",
+        "E": "876",
+        "F": "10",
+        "G": "1299"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 264,
+      "values": {
+        "A": "LIN",
+        "B": "Dresden",
+        "C": "24",
+        "D": "501",
+        "E": "498",
+        "F": "5",
+        "G": "1028"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 265,
+      "values": {
+        "A": "LIN",
+        "B": "Edgecomb",
+        "C": "11",
+        "D": "298",
+        "E": "506",
+        "F": "3",
+        "G": "818"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 266,
+      "values": {
+        "A": "LIN",
+        "B": "Jefferson",
+        "C": "33",
+        "D": "792",
+        "E": "651",
+        "F": "2",
+        "G": "1478"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 267,
+      "values": {
+        "A": "LIN",
+        "B": "Monhegan Island Plt",
+        "C": "5",
+        "D": "5",
+        "E": "48",
+        "F": "0",
+        "G": "58"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 268,
+      "values": {
+        "A": "LIN",
+        "B": "Newcastle",
+        "C": "15",
+        "D": "354",
+        "E": "880",
+        "F": "6",
+        "G": "1255"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 269,
+      "values": {
+        "A": "LIN",
+        "B": "Nobleboro",
+        "C": "6",
+        "D": "521",
+        "E": "661",
+        "F": "3",
+        "G": "1191"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 270,
+      "values": {
+        "A": "LIN",
+        "B": "Somerville",
+        "C": "10",
+        "D": "192",
+        "E": "126",
+        "F": "2",
+        "G": "330"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 271,
+      "values": {
+        "A": "LIN",
+        "B": "South Bristol",
+        "C": "14",
+        "D": "238",
+        "E": "400",
+        "F": "3",
+        "G": "655"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 272,
+      "values": {
+        "A": "LIN",
+        "B": "Southport",
+        "C": "3",
+        "D": "175",
+        "E": "275",
+        "F": "2",
+        "G": "455"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 273,
+      "values": {
+        "A": "LIN",
+        "B": "Waldoboro",
+        "C": "52",
+        "D": "1258",
+        "E": "1236",
+        "F": "16",
+        "G": "2562"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 274,
+      "values": {
+        "A": "LIN",
+        "B": "Westport Island",
+        "C": "5",
+        "D": "196",
+        "E": "292",
+        "F": "5",
+        "G": "498"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 275,
+      "values": {
+        "A": "LIN",
+        "B": "Whitefield",
+        "C": "23",
+        "D": "609",
+        "E": "602",
+        "F": "5",
+        "G": "1239"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 276,
+      "values": {
+        "A": "LIN",
+        "B": "Wiscasset",
+        "C": "43",
+        "D": "939",
+        "E": "987",
+        "F": "9",
+        "G": "1978"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 277,
+      "values": {
+        "B": "CTY Total",
+        "C": "349",
+        "D": "8744",
+        "E": "11853",
+        "F": "105",
+        "G": "21051"
+      },
+      "formulas": {
+        "C": "SUM(C258:C276)",
+        "D": "SUM(D258:D276)",
+        "E": "SUM(E258:E276)",
+        "F": "SUM(F258:F276)",
+        "G": null
+      }
+    },
+    {
+      "row": 279,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 280,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 281,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 282,
+      "values": {
+        "A": "OXF",
+        "B": "Albany Twp",
+        "C": "13",
+        "D": "119",
+        "E": "139",
+        "F": "2",
+        "G": "273"
+      },
+      "formulas": {
+        "G": "SUM(C282:F282)"
+      }
+    },
+    {
+      "row": 283,
+      "values": {
+        "A": "OXF",
+        "B": "Andover",
+        "C": "6",
+        "D": "270",
+        "E": "207",
+        "F": "5",
+        "G": "488"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 284,
+      "values": {
+        "A": "OXF",
+        "B": "Bethel/Mason Twp",
+        "C": "25",
+        "D": "595",
+        "E": "867",
+        "F": "10",
+        "G": "1497"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 285,
+      "values": {
+        "A": "OXF",
+        "B": "Brownfield",
+        "C": "22",
+        "D": "382",
+        "E": "435",
+        "F": "3",
+        "G": "842"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 286,
+      "values": {
+        "A": "OXF",
+        "B": "Buckfield",
+        "C": "14",
+        "D": "571",
+        "E": "379",
+        "F": "10",
+        "G": "974"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 287,
+      "values": {
+        "A": "OXF",
+        "B": "Byron",
+        "C": "1",
+        "D": "57",
+        "E": "35",
+        "F": "1",
+        "G": "94"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 288,
+      "values": {
+        "A": "OXF",
+        "B": "Canton",
+        "C": "16",
+        "D": "291",
+        "E": "145",
+        "F": "0",
+        "G": "452"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 289,
+      "values": {
+        "A": "OXF",
+        "B": "Denmark",
+        "C": "11",
+        "D": "337",
+        "E": "367",
+        "F": "2",
+        "G": "717"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 290,
+      "values": {
+        "A": "OXF",
+        "B": "Dixfield",
+        "C": "32",
+        "D": "665",
+        "E": "390",
+        "F": "7",
+        "G": "1094"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 291,
+      "values": {
+        "A": "OXF",
+        "B": "Fryeburg",
+        "C": "24",
+        "D": "610",
+        "E": "938",
+        "F": "4",
+        "G": "1576"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 292,
+      "values": {
+        "A": "OXF",
+        "B": "Gilead",
+        "C": "1",
+        "D": "50",
+        "E": "49",
+        "F": "1",
+        "G": "101"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 293,
+      "values": {
+        "A": "OXF",
+        "B": "Greenwood",
+        "C": "18",
+        "D": "221",
+        "E": "253",
+        "F": "1",
+        "G": "493"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 294,
+      "values": {
+        "A": "OXF",
+        "B": "Hanover",
+        "C": "3",
+        "D": "81",
+        "E": "92",
+        "F": "5",
+        "G": "181"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 295,
+      "values": {
+        "A": "OXF",
+        "B": "Hartford",
+        "C": "16",
+        "D": "363",
+        "E": "241",
+        "F": "5",
+        "G": "625"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 296,
+      "values": {
+        "A": "OXF",
+        "B": "Hebron",
+        "C": "15",
+        "D": "374",
+        "E": "264",
+        "F": "3",
+        "G": "656"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 297,
+      "values": {
+        "A": "OXF",
+        "B": "Hiram",
+        "C": "16",
+        "D": "400",
+        "E": "342",
+        "F": "0",
+        "G": "758"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 298,
+      "values": {
+        "A": "OXF",
+        "B": "Lincoln Plt/Magalloway Twp",
+        "C": "2",
+        "D": "21",
+        "E": "17",
+        "F": "1",
+        "G": "41"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 299,
+      "values": {
+        "A": "OXF",
+        "B": "Lovell",
+        "C": "10",
+        "D": "296",
+        "E": "400",
+        "F": "2",
+        "G": "708"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 300,
+      "values": {
+        "A": "OXF",
+        "B": "Mexico",
+        "C": "35",
+        "D": "492",
+        "E": "439",
+        "F": "13",
+        "G": "979"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 301,
+      "values": {
+        "A": "OXF",
+        "B": "Newry",
+        "C": "4",
+        "D": "101",
+        "E": "135",
+        "F": "1",
+        "G": "241"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 302,
+      "values": {
+        "A": "OXF",
+        "B": "Norway",
+        "C": "56",
+        "D": "1031",
+        "E": "1290",
+        "F": "9",
+        "G": "2386"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 303,
+      "values": {
+        "A": "OXF",
+        "B": "Otisfield",
+        "C": "20",
+        "D": "531",
+        "E": "461",
+        "F": "5",
+        "G": "1017"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 304,
+      "values": {
+        "A": "OXF",
+        "B": "Oxford",
+        "C": "33",
+        "D": "1197",
+        "E": "690",
+        "F": "6",
+        "G": "1926"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 305,
+      "values": {
+        "A": "OXF",
+        "B": "Paris",
+        "C": "67",
+        "D": "1112",
+        "E": "1049",
+        "F": "17",
+        "G": "2245"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 306,
+      "values": {
+        "A": "OXF",
+        "B": "Peru",
+        "C": "18",
+        "D": "475",
+        "E": "274",
+        "F": "5",
+        "G": "772"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 307,
+      "values": {
+        "A": "OXF",
+        "B": "Porter",
+        "C": "17",
+        "D": "410",
+        "E": "272",
+        "F": "4",
+        "G": "703"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 308,
+      "values": {
+        "A": "OXF",
+        "B": "Roxbury",
+        "C": "6",
+        "D": "134",
+        "E": "77",
+        "F": "4",
+        "G": "221"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 309,
+      "values": {
+        "A": "OXF",
+        "B": "Rumford",
+        "C": "57",
+        "D": "1129",
+        "E": "1062",
+        "F": "22",
+        "G": "2270"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 310,
+      "values": {
+        "A": "OXF",
+        "B": "Stoneham",
+        "C": "1",
+        "D": "70",
+        "E": "91",
+        "F": "1",
+        "G": "163"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 311,
+      "values": {
+        "A": "OXF",
+        "B": "Stow",
+        "C": "8",
+        "D": "78",
+        "E": "101",
+        "F": "0",
+        "G": "187"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 312,
+      "values": {
+        "A": "OXF",
+        "B": "Sumner",
+        "C": "12",
+        "D": "279",
+        "E": "188",
+        "F": "1",
+        "G": "480"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 313,
+      "values": {
+        "A": "OXF",
+        "B": "Sweden",
+        "C": "4",
+        "D": "85",
+        "E": "137",
+        "F": "5",
+        "G": "231"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 314,
+      "values": {
+        "A": "OXF",
+        "B": "Upton",
+        "C": "0",
+        "D": "40",
+        "E": "12",
+        "F": "0",
+        "G": "52"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 315,
+      "values": {
+        "A": "OXF",
+        "B": "Waterford",
+        "C": "17",
+        "D": "474",
+        "E": "409",
+        "F": "3",
+        "G": "903"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 316,
+      "values": {
+        "A": "OXF",
+        "B": "West Paris",
+        "C": "17",
+        "D": "458",
+        "E": "304",
+        "F": "3",
+        "G": "782"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 317,
+      "values": {
+        "A": "OXF",
+        "B": "Woodstock/Milton Twp",
+        "C": "14",
+        "D": "430",
+        "E": "324",
+        "F": "1",
+        "G": "769"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 318,
+      "values": {
+        "B": "CTY Total",
+        "C": "631",
+        "D": "14229",
+        "E": "12875",
+        "F": "162",
+        "G": "27897"
+      },
+      "formulas": {
+        "C": "SUM(C282:C317)",
+        "D": "SUM(D282:D317)",
+        "E": "SUM(E282:E317)",
+        "F": "SUM(F282:F317)",
+        "G": null
+      }
+    },
+    {
+      "row": 320,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 321,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 322,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 323,
+      "values": {
+        "A": "PEN",
+        "B": "Alton",
+        "C": "9",
+        "D": "269",
+        "E": "153",
+        "F": "7",
+        "G": "438"
+      },
+      "formulas": {
+        "G": "SUM(C323:F323)"
+      }
+    },
+    {
+      "row": 324,
+      "values": {
+        "A": "PEN",
+        "B": "Argyle Twp",
+        "C": "1",
+        "D": "12",
+        "E": "12",
+        "F": "0",
+        "G": "25"
+      },
+      "formulas": {
+        "G": "SUM(C324:F324)"
+      }
+    },
+    {
+      "row": 325,
+      "values": {
+        "A": "PEN",
+        "B": "Bangor",
+        "C": "249",
+        "D": "4252",
+        "E": "7665",
+        "F": "79",
+        "G": "12245"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 326,
+      "values": {
+        "A": "PEN",
+        "B": "Bradford",
+        "C": "14",
+        "D": "437",
+        "E": "182",
+        "F": "4",
+        "G": "637"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 327,
+      "values": {
+        "A": "PEN",
+        "B": "Bradley",
+        "C": "18",
+        "D": "394",
+        "E": "348",
+        "F": "1",
+        "G": "761"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 328,
+      "values": {
+        "A": "PEN",
+        "B": "Brewer",
+        "C": "82",
+        "D": "2028",
+        "E": "2108",
+        "F": "16",
+        "G": "4234"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 329,
+      "values": {
+        "A": "PEN",
+        "B": "Burlington",
+        "C": "2",
+        "D": "125",
+        "E": "57",
+        "F": "1",
+        "G": "185"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 330,
+      "values": {
+        "A": "PEN",
+        "B": "Carmel",
+        "C": "26",
+        "D": "969",
+        "E": "475",
+        "F": "4",
+        "G": "1474"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 331,
+      "values": {
+        "A": "PEN",
+        "B": "Carroll Plt",
+        "C": "0",
+        "D": "54",
+        "E": "13",
+        "F": "0",
+        "G": "67"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 332,
+      "values": {
+        "A": "PEN",
+        "B": "Charleston",
+        "C": "8",
+        "D": "459",
+        "E": "149",
+        "F": "1",
+        "G": "617"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 333,
+      "values": {
+        "A": "PEN",
+        "B": "Chester",
+        "C": "3",
+        "D": "213",
+        "E": "53",
+        "F": "5",
+        "G": "274"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 334,
+      "values": {
+        "A": "PEN",
+        "B": "Clifton",
+        "C": "10",
+        "D": "266",
+        "E": "162",
+        "F": "2",
+        "G": "440"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 335,
+      "values": {
+        "A": "PEN",
+        "B": "Corinna",
+        "C": "16",
+        "D": "665",
+        "E": "317",
+        "F": "3",
+        "G": "1001"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 336,
+      "values": {
+        "A": "PEN",
+        "B": "Corinth",
+        "C": "14",
+        "D": "991",
+        "E": "331",
+        "F": "4",
+        "G": "1340"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 337,
+      "values": {
+        "A": "PEN",
+        "B": "Dexter",
+        "C": "30",
+        "D": "883",
+        "E": "597",
+        "F": "7",
+        "G": "1517"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 338,
+      "values": {
+        "A": "PEN",
+        "B": "Dixmont",
+        "C": "15",
+        "D": "366",
+        "E": "228",
+        "F": "5",
+        "G": "614"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 339,
+      "values": {
+        "A": "PEN",
+        "B": "Drew Plt",
+        "C": "0",
+        "D": "10",
+        "E": "3",
+        "F": "0",
+        "G": "13"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 340,
+      "values": {
+        "A": "PEN",
+        "B": "East Millinocket",
+        "C": "17",
+        "D": "383",
+        "E": "345",
+        "F": "6",
+        "G": "751"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 341,
+      "values": {
+        "A": "PEN",
+        "B": "Eddington",
+        "C": "18",
+        "D": "772",
+        "E": "463",
+        "F": "6",
+        "G": "1259"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 342,
+      "values": {
+        "A": "PEN",
+        "B": "Edinburg",
+        "C": "2",
+        "D": "54",
+        "E": "25",
+        "F": "0",
+        "G": "81"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 343,
+      "values": {
+        "A": "PEN",
+        "B": "Enfield",
+        "C": "15",
+        "D": "453",
+        "E": "244",
+        "F": "4",
+        "G": "716"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 344,
+      "values": {
+        "A": "PEN",
+        "B": "Etna",
+        "C": "9",
+        "D": "379",
+        "E": "186",
+        "F": "2",
+        "G": "576"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 345,
+      "values": {
+        "A": "PEN",
+        "B": "Exeter",
+        "C": "8",
+        "D": "300",
+        "E": "155",
+        "F": "1",
+        "G": "464"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 346,
+      "values": {
+        "A": "PEN",
+        "B": "Garland",
+        "C": "10",
+        "D": "324",
+        "E": "173",
+        "F": "1",
+        "G": "508"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 347,
+      "values": {
+        "A": "PEN",
+        "B": "Glenburn",
+        "C": "61",
+        "D": "1306",
+        "E": "940",
+        "F": "9",
+        "G": "2316"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 348,
+      "values": {
+        "A": "PEN",
+        "B": "Greenbush",
+        "C": "10",
+        "D": "400",
+        "E": "170",
+        "F": "2",
+        "G": "582"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 349,
+      "values": {
+        "A": "PEN",
+        "B": "Hampden",
+        "C": "57",
+        "D": "1976",
+        "E": "2034",
+        "F": "24",
+        "G": "4091"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 350,
+      "values": {
+        "A": "PEN",
+        "B": "Hermon",
+        "C": "51",
+        "D": "2039",
+        "E": "1202",
+        "F": "16",
+        "G": "3308"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 351,
+      "values": {
+        "A": "PEN",
+        "B": "Herseytown Twp",
+        "C": "0",
+        "D": "11",
+        "E": "1",
+        "F": "0",
+        "G": "12"
+      },
+      "formulas": {
+        "G": "SUM(C351:F351)"
+      }
+    },
+    {
+      "row": 352,
+      "values": {
+        "A": "PEN",
+        "B": "Holden",
+        "C": "21",
+        "D": "970",
+        "E": "819",
+        "F": "9",
+        "G": "1819"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 353,
+      "values": {
+        "A": "PEN",
+        "B": "Howland",
+        "C": "7",
+        "D": "322",
+        "E": "197",
+        "F": "3",
+        "G": "529"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 354,
+      "values": {
+        "A": "PEN",
+        "B": "Hudson",
+        "C": "9",
+        "D": "457",
+        "E": "232",
+        "F": "3",
+        "G": "701"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 355,
+      "values": {
+        "A": "PEN",
+        "B": "Kenduskeag",
+        "C": "20",
+        "D": "406",
+        "E": "212",
+        "F": "3",
+        "G": "641"
+      },
+      "formulas": {
+        "G": "SUM(C355:F355)"
+      }
+    },
+    {
+      "row": 356,
+      "values": {
+        "A": "PEN",
+        "B": "Kingman Twp",
+        "C": "0",
+        "D": "57",
+        "E": "7",
+        "F": "0",
+        "G": "64"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 357,
+      "values": {
+        "A": "PEN",
+        "B": "Lagrange",
+        "C": "4",
+        "D": "168",
+        "E": "102",
+        "F": "2",
+        "G": "276"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 358,
+      "values": {
+        "A": "PEN",
+        "B": "Lakeville",
+        "C": "1",
+        "D": "37",
+        "E": "31",
+        "F": "0",
+        "G": "69"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 359,
+      "values": {
+        "A": "PEN",
+        "B": "Lee",
+        "C": "9",
+        "D": "312",
+        "E": "123",
+        "F": "0",
+        "G": "444"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 360,
+      "values": {
+        "A": "PEN",
+        "B": "Levant",
+        "C": "16",
+        "D": "954",
+        "E": "402",
+        "F": "3",
+        "G": "1375"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 361,
+      "values": {
+        "A": "PEN",
+        "B": "Lincoln",
+        "C": "41",
+        "D": "1391",
+        "E": "730",
+        "F": "11",
+        "G": "2173"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 362,
+      "values": {
+        "A": "PEN",
+        "B": "Lowell",
+        "C": "3",
+        "D": "155",
+        "E": "57",
+        "F": "0",
+        "G": "215"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 363,
+      "values": {
+        "A": "PEN",
+        "B": "Mattamiscontis Twp",
+        "C": "1",
+        "D": "42",
+        "E": "8",
+        "F": "0",
+        "G": "51"
+      },
+      "formulas": {
+        "G": "SUM(C363:F363)"
+      }
+    },
+    {
+      "row": 364,
+      "values": {
+        "A": "PEN",
+        "B": "Mattawamkeag/Molunkus Twp",
+        "C": "4",
+        "D": "204",
+        "E": "127",
+        "F": "2",
+        "G": "337"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 365,
+      "values": {
+        "A": "PEN",
+        "B": "Maxfield",
+        "C": "1",
+        "D": "38",
+        "E": "17",
+        "F": "1",
+        "G": "57"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 366,
+      "values": {
+        "A": "PEN",
+        "B": "Medway/Molunkus Twp",
+        "C": "17",
+        "D": "422",
+        "E": "206",
+        "F": "0",
+        "G": "645"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 367,
+      "values": {
+        "A": "PEN",
+        "B": "Milford/Greenfield Twp",
+        "C": "33",
+        "D": "786",
+        "E": "667",
+        "F": "3",
+        "G": "1489"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 368,
+      "values": {
+        "A": "PEN",
+        "B": "Millinocket/Twps",
+        "C": "51",
+        "D": "1087",
+        "E": "1010",
+        "F": "16",
+        "G": "2164"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 369,
+      "values": {
+        "A": "PEN",
+        "B": "Mount Chase",
+        "C": "2",
+        "D": "80",
+        "E": "42",
+        "F": "0",
+        "G": "124"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 370,
+      "values": {
+        "A": "PEN",
+        "B": "Newburgh",
+        "C": "13",
+        "D": "519",
+        "E": "351",
+        "F": "3",
+        "G": "886"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 371,
+      "values": {
+        "A": "PEN",
+        "B": "Newport",
+        "C": "27",
+        "D": "914",
+        "E": "503",
+        "F": "1",
+        "G": "1445"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 372,
+      "values": {
+        "A": "PEN",
+        "B": "Old Town/Argyle Twp",
+        "C": "67",
+        "D": "1220",
+        "E": "1897",
+        "F": "23",
+        "G": "3207"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 373,
+      "values": {
+        "A": "PEN",
+        "B": "Orono",
+        "C": "89",
+        "D": "738",
+        "E": "2843",
+        "F": "16",
+        "G": "3686"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 374,
+      "values": {
+        "A": "PEN",
+        "B": "Orrington",
+        "C": "20",
+        "D": "1217",
+        "E": "976",
+        "F": "8",
+        "G": "2221"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 375,
+      "values": {
+        "A": "PEN",
+        "B": "Prentiss Twp (T7 R3 NBPP)",
+        "C": "0",
+        "D": "66",
+        "E": "17",
+        "F": "1",
+        "G": "84"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 376,
+      "values": {
+        "A": "PEN",
+        "B": "Passadumkeag",
+        "C": "2",
+        "D": "140",
+        "E": "50",
+        "F": "1",
+        "G": "193"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 377,
+      "values": {
+        "A": "PEN",
+        "B": "Patten",
+        "C": "12",
+        "D": "282",
+        "E": "133",
+        "F": "4",
+        "G": "431"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 378,
+      "values": {
+        "A": "PEN",
+        "B": "Penobscot Nation Voting District",
+        "C": "11",
+        "D": "38",
+        "E": "160",
+        "F": "7",
+        "G": "216"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 379,
+      "values": {
+        "A": "PEN",
+        "B": "Plymouth",
+        "C": "13",
+        "D": "397",
+        "E": "189",
+        "F": "5",
+        "G": "604"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 380,
+      "values": {
+        "A": "PEN",
+        "B": "Seboeis Plt",
+        "C": "0",
+        "D": "16",
+        "E": "10",
+        "F": "0",
+        "G": "26"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 381,
+      "values": {
+        "A": "PEN",
+        "B": "Springfield",
+        "C": "3",
+        "D": "110",
+        "E": "29",
+        "F": "0",
+        "G": "142"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 382,
+      "values": {
+        "A": "PEN",
+        "B": "Stacyville",
+        "C": "7",
+        "D": "118",
+        "E": "32",
+        "F": "2",
+        "G": "159"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 383,
+      "values": {
+        "A": "PEN",
+        "B": "Stetson",
+        "C": "17",
+        "D": "416",
+        "E": "215",
+        "F": "1",
+        "G": "649"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 384,
+      "values": {
+        "A": "PEN",
+        "B": "Veazie",
+        "C": "18",
+        "D": "415",
+        "E": "570",
+        "F": "1",
+        "G": "1004"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 385,
+      "values": {
+        "A": "PEN",
+        "B": "Webster Plt",
+        "C": "4",
+        "D": "20",
+        "E": "13",
+        "F": "0",
+        "G": "37"
+      },
+      "formulas": {
+        "G": "SUM(C385:F385)"
+      }
+    },
+    {
+      "row": 386,
+      "values": {
+        "A": "PEN",
+        "B": "Winn",
+        "C": "4",
+        "D": "108",
+        "E": "51",
+        "F": "1",
+        "G": "164"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 387,
+      "values": {
+        "A": "PEN",
+        "B": "Woodville",
+        "C": "1",
+        "D": "84",
+        "E": "25",
+        "F": "0",
+        "G": "110"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 388,
+      "values": {
+        "B": "CTY Total",
+        "C": "1303",
+        "D": "35496",
+        "E": "31844",
+        "F": "340",
+        "G": "68983"
+      },
+      "formulas": {
+        "C": "SUM(C323:C387)",
+        "D": "SUM(D323:D387)",
+        "E": "SUM(E323:E387)",
+        "F": "SUM(F323:F387)",
+        "G": null
+      }
+    },
+    {
+      "row": 390,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 391,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 392,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 393,
+      "values": {
+        "A": "PIS",
+        "B": "Abbot",
+        "C": "6",
+        "D": "239",
+        "E": "110",
+        "F": "0",
+        "G": "355"
+      },
+      "formulas": {
+        "G": "SUM(C393:F393)"
+      }
+    },
+    {
+      "row": 394,
+      "values": {
+        "A": "PIS",
+        "B": "Atkinson Twp",
+        "C": "2",
+        "D": "101",
+        "E": "47",
+        "F": "0",
+        "G": "150"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 395,
+      "values": {
+        "A": "PIS",
+        "B": "Beaver Cove",
+        "C": "0",
+        "D": "47",
+        "E": "50",
+        "F": "1",
+        "G": "98"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 396,
+      "values": {
+        "A": "PIS",
+        "B": "Bowerbank",
+        "C": "3",
+        "D": "77",
+        "E": "34",
+        "F": "0",
+        "G": "114"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 397,
+      "values": {
+        "A": "PIS",
+        "B": "Brownville/Twps",
+        "C": "16",
+        "D": "373",
+        "E": "220",
+        "F": "3",
+        "G": "612"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 398,
+      "values": {
+        "A": "PIS",
+        "B": "Dover-Foxcroft",
+        "C": "44",
+        "D": "1160",
+        "E": "825",
+        "F": "10",
+        "G": "2039"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 399,
+      "values": {
+        "A": "PIS",
+        "B": "Greenville",
+        "C": "15",
+        "D": "547",
+        "E": "436",
+        "F": "12",
+        "G": "1010"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 400,
+      "values": {
+        "A": "PIS",
+        "B": "Guilford/Kingsbury Plt",
+        "C": "12",
+        "D": "353",
+        "E": "205",
+        "F": "4",
+        "G": "574"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 401,
+      "values": {
+        "A": "PIS",
+        "B": "Lake View Plt",
+        "C": "0",
+        "D": "73",
+        "E": "49",
+        "F": "0",
+        "G": "122"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 402,
+      "values": {
+        "A": "PIS",
+        "B": "Medford",
+        "C": "2",
+        "D": "89",
+        "E": "32",
+        "F": "0",
+        "G": "123"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 403,
+      "values": {
+        "A": "PIS",
+        "B": "Milo/Orneville Twp",
+        "C": "22",
+        "D": "562",
+        "E": "380",
+        "F": "3",
+        "G": "967"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 404,
+      "values": {
+        "A": "PIS",
+        "B": "Monson",
+        "C": "8",
+        "D": "245",
+        "E": "160",
+        "F": "3",
+        "G": "416"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 405,
+      "values": {
+        "A": "PIS",
+        "B": "Parkman",
+        "C": "8",
+        "D": "265",
+        "E": "132",
+        "F": "1",
+        "G": "406"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 406,
+      "values": {
+        "A": "PIS",
+        "B": "Sangerville",
+        "C": "11",
+        "D": "363",
+        "E": "211",
+        "F": "7",
+        "G": "592"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 407,
+      "values": {
+        "A": "PIS",
+        "B": "Sebec",
+        "C": "8",
+        "D": "256",
+        "E": "104",
+        "F": "2",
+        "G": "370"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 408,
+      "values": {
+        "A": "PIS",
+        "B": "Shirley",
+        "C": "0",
+        "D": "93",
+        "E": "37",
+        "F": "0",
+        "G": "130"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 409,
+      "values": {
+        "A": "PIS",
+        "B": "Wellington",
+        "C": "1",
+        "D": "50",
+        "E": "43",
+        "F": "3",
+        "G": "97"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 410,
+      "values": {
+        "A": "PIS",
+        "B": "Willimantic",
+        "C": "0",
+        "D": "67",
+        "E": "23",
+        "F": "1",
+        "G": "91"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 411,
+      "values": {
+        "B": "CTY Total",
+        "C": "158",
+        "D": "4960",
+        "E": "3098",
+        "F": "50",
+        "G": "8266"
+      },
+      "formulas": {
+        "C": "SUM(C393:C410)",
+        "D": "SUM(D393:D410)",
+        "E": "SUM(E393:E410)",
+        "F": "SUM(F393:F410)",
+        "G": null
+      }
+    },
+    {
+      "row": 413,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 414,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 415,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 416,
+      "values": {
+        "A": "SAG",
+        "B": "Arrowsic",
+        "C": "6",
+        "D": "81",
+        "E": "248",
+        "F": "0",
+        "G": "335"
+      },
+      "formulas": {
+        "G": "SUM(C416:F416)"
+      }
+    },
+    {
+      "row": 417,
+      "values": {
+        "A": "SAG",
+        "B": "Bath",
+        "C": "85",
+        "D": "1132",
+        "E": "3061",
+        "F": "31",
+        "G": "4309"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 418,
+      "values": {
+        "A": "SAG",
+        "B": "Bowdoin",
+        "C": "30",
+        "D": "914",
+        "E": "645",
+        "F": "6",
+        "G": "1595"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 419,
+      "values": {
+        "A": "SAG",
+        "B": "Bowdoinham",
+        "C": "30",
+        "D": "739",
+        "E": "1015",
+        "F": "7",
+        "G": "1791"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 420,
+      "values": {
+        "A": "SAG",
+        "B": "Georgetown",
+        "C": "9",
+        "D": "266",
+        "E": "483",
+        "F": "5",
+        "G": "763"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 421,
+      "values": {
+        "A": "SAG",
+        "B": "Phippsburg",
+        "C": "24",
+        "D": "664",
+        "E": "761",
+        "F": "6",
+        "G": "1455"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 422,
+      "values": {
+        "A": "SAG",
+        "B": "Richmond",
+        "C": "36",
+        "D": "878",
+        "E": "821",
+        "F": "5",
+        "G": "1740"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 423,
+      "values": {
+        "A": "SAG",
+        "B": "Topsham",
+        "C": "108",
+        "D": "1942",
+        "E": "3687",
+        "F": "26",
+        "G": "5763"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 424,
+      "values": {
+        "A": "SAG",
+        "B": "West Bath",
+        "C": "22",
+        "D": "528",
+        "E": "718",
+        "F": "6",
+        "G": "1274"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 425,
+      "values": {
+        "A": "SAG",
+        "B": "Woolwich",
+        "C": "29",
+        "D": "905",
+        "E": "975",
+        "F": "14",
+        "G": "1923"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 426,
+      "values": {
+        "B": "CTY Total",
+        "C": "379",
+        "D": "8049",
+        "E": "12414",
+        "F": "106",
+        "G": "20948"
+      },
+      "formulas": {
+        "C": "SUM(C416:C425)",
+        "D": "SUM(D416:D425)",
+        "E": "SUM(E416:E425)",
+        "F": "SUM(F416:F425)",
+        "G": null
+      }
+    },
+    {
+      "row": 428,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 429,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 430,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 431,
+      "values": {
+        "A": "SOM",
+        "B": "Anson",
+        "C": "24",
+        "D": "627",
+        "E": "371",
+        "F": "3",
+        "G": "1025"
+      },
+      "formulas": {
+        "G": "SUM(C431:F431)"
+      }
+    },
+    {
+      "row": 432,
+      "values": {
+        "A": "SOM",
+        "B": "Athens",
+        "C": "14",
+        "D": "278",
+        "E": "157",
+        "F": "4",
+        "G": "453"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 433,
+      "values": {
+        "A": "SOM",
+        "B": "Bingham/Twps",
+        "C": "14",
+        "D": "271",
+        "E": "170",
+        "F": "2",
+        "G": "457"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 434,
+      "values": {
+        "A": "SOM",
+        "B": "Brighton Plt",
+        "C": "0",
+        "D": "15",
+        "E": "26",
+        "F": "0",
+        "G": "41"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 435,
+      "values": {
+        "A": "SOM",
+        "B": "Cambridge",
+        "C": "3",
+        "D": "160",
+        "E": "58",
+        "F": "0",
+        "G": "221"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 436,
+      "values": {
+        "A": "SOM",
+        "B": "Canaan",
+        "C": "20",
+        "D": "588",
+        "E": "347",
+        "F": "3",
+        "G": "958"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 437,
+      "values": {
+        "A": "SOM",
+        "B": "Caratunk",
+        "C": "2",
+        "D": "23",
+        "E": "17",
+        "F": "0",
+        "G": "42"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 438,
+      "values": {
+        "A": "SOM",
+        "B": "Cornville",
+        "C": "7",
+        "D": "410",
+        "E": "267",
+        "F": "4",
+        "G": "688"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 439,
+      "values": {
+        "A": "SOM",
+        "B": "Dennistown Plt",
+        "C": "1",
+        "D": "20",
+        "E": "5",
+        "F": "0",
+        "G": "26"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 440,
+      "values": {
+        "A": "SOM",
+        "B": "Detroit",
+        "C": "11",
+        "D": "221",
+        "E": "128",
+        "F": "2",
+        "G": "362"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 441,
+      "values": {
+        "A": "SOM",
+        "B": "Embden/Concord Twp",
+        "C": "21",
+        "D": "323",
+        "E": "177",
+        "F": "4",
+        "G": "525"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 442,
+      "values": {
+        "A": "SOM",
+        "B": "Fairfield",
+        "C": "71",
+        "D": "1438",
+        "E": "1259",
+        "F": "14",
+        "G": "2782"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 443,
+      "values": {
+        "A": "SOM",
+        "B": "Harmony",
+        "C": "12",
+        "D": "267",
+        "E": "142",
+        "F": "2",
+        "G": "423"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 444,
+      "values": {
+        "A": "SOM",
+        "B": "Hartland",
+        "C": "15",
+        "D": "502",
+        "E": "239",
+        "F": "3",
+        "G": "759"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 445,
+      "values": {
+        "A": "SOM",
+        "B": "Highland Plt",
+        "C": "2",
+        "D": "15",
+        "E": "16",
+        "F": "2",
+        "G": "35"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 446,
+      "values": {
+        "A": "SOM",
+        "B": "Jackman/Twps",
+        "C": "15",
+        "D": "306",
+        "E": "113",
+        "F": "2",
+        "G": "436"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 447,
+      "values": {
+        "A": "SOM",
+        "B": "Lexington Twp",
+        "C": "3",
+        "D": "43",
+        "E": "35",
+        "F": "1",
+        "G": "82"
+      },
+      "formulas": {
+        "G": "SUM(C447:F447)"
+      }
+    },
+    {
+      "row": 448,
+      "values": {
+        "A": "SOM",
+        "B": "Madison",
+        "C": "40",
+        "D": "1047",
+        "E": "850",
+        "F": "10",
+        "G": "1947"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 449,
+      "values": {
+        "A": "SOM",
+        "B": "Mercer",
+        "C": "5",
+        "D": "242",
+        "E": "180",
+        "F": "1",
+        "G": "428"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 450,
+      "values": {
+        "A": "SOM",
+        "B": "Moose River",
+        "C": "4",
+        "D": "67",
+        "E": "11",
+        "F": "1",
+        "G": "83"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 451,
+      "values": {
+        "A": "SOM",
+        "B": "Moscow/Twps",
+        "C": "3",
+        "D": "161",
+        "E": "65",
+        "F": "0",
+        "G": "229"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 452,
+      "values": {
+        "A": "SOM",
+        "B": "New Portland",
+        "C": "10",
+        "D": "206",
+        "E": "175",
+        "F": "6",
+        "G": "397"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 453,
+      "values": {
+        "A": "SOM",
+        "B": "Norridgewock",
+        "C": "31",
+        "D": "907",
+        "E": "607",
+        "F": "9",
+        "G": "1554"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 454,
+      "values": {
+        "A": "SOM",
+        "B": "Palmyra",
+        "C": "11",
+        "D": "670",
+        "E": "291",
+        "F": "3",
+        "G": "975"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 455,
+      "values": {
+        "A": "SOM",
+        "B": "Pittsfield",
+        "C": "36",
+        "D": "902",
+        "E": "703",
+        "F": "17",
+        "G": "1658"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 456,
+      "values": {
+        "A": "SOM",
+        "B": "Pleasant Ridge Plt",
+        "C": "1",
+        "D": "27",
+        "E": "15",
+        "F": "0",
+        "G": "43"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 457,
+      "values": {
+        "A": "SOM",
+        "B": "Ripley",
+        "C": "2",
+        "D": "145",
+        "E": "86",
+        "F": "2",
+        "G": "235"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 458,
+      "values": {
+        "A": "SOM",
+        "B": "Rockwood Strip Twp",
+        "C": "1",
+        "D": "129",
+        "E": "63",
+        "F": "0",
+        "G": "193"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 459,
+      "values": {
+        "A": "SOM",
+        "B": "Saint Albans",
+        "C": "21",
+        "D": "682",
+        "E": "299",
+        "F": "1",
+        "G": "1003"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 460,
+      "values": {
+        "A": "SOM",
+        "B": "Skowhegan",
+        "C": "68",
+        "D": "1708",
+        "E": "1585",
+        "F": "21",
+        "G": "3382"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 461,
+      "values": {
+        "A": "SOM",
+        "B": "Smithfield",
+        "C": "7",
+        "D": "279",
+        "E": "247",
+        "F": "6",
+        "G": "539"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 462,
+      "values": {
+        "A": "SOM",
+        "B": "Solon/Concord Twp",
+        "C": "13",
+        "D": "313",
+        "E": "212",
+        "F": "2",
+        "G": "540"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 463,
+      "values": {
+        "A": "SOM",
+        "B": "Starks",
+        "C": "7",
+        "D": "190",
+        "E": "139",
+        "F": "4",
+        "G": "340"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 464,
+      "values": {
+        "A": "SOM",
+        "B": "The Forks Plt",
+        "C": "2",
+        "D": "21",
+        "E": "15",
+        "F": "0",
+        "G": "38"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 465,
+      "values": {
+        "A": "SOM",
+        "B": "West Forks Plt",
+        "C": "3",
+        "D": "26",
+        "E": "12",
+        "F": "0",
+        "G": "41"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 466,
+      "values": {
+        "A": "SOM",
+        "B": "Moxie Gore Twp",
+        "C": "0",
+        "D": "4",
+        "E": "1",
+        "F": "0",
+        "G": "5"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 467,
+      "values": {
+        "B": "CTY Total",
+        "C": "500",
+        "D": "13233",
+        "E": "9083",
+        "F": "129",
+        "G": "22945"
+      },
+      "formulas": {
+        "C": "SUM(C431:C466)",
+        "D": "SUM(D431:D466)",
+        "E": "SUM(E431:E466)",
+        "F": "SUM(F431:F466)",
+        "G": null
+      }
+    },
+    {
+      "row": 469,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 470,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 471,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 472,
+      "values": {
+        "A": "WAL",
+        "B": "Belfast",
+        "C": "63",
+        "D": "896",
+        "E": "2592",
+        "F": "28",
+        "G": "3579"
+      },
+      "formulas": {
+        "G": "SUM(C472:F472)"
+      }
+    },
+    {
+      "row": 473,
+      "values": {
+        "A": "WAL",
+        "B": "Belmont",
+        "C": "12",
+        "D": "262",
+        "E": "220",
+        "F": "3",
+        "G": "497"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 474,
+      "values": {
+        "A": "WAL",
+        "B": "Brooks",
+        "C": "11",
+        "D": "266",
+        "E": "235",
+        "F": "1",
+        "G": "513"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 475,
+      "values": {
+        "A": "WAL",
+        "B": "Burnham",
+        "C": "16",
+        "D": "324",
+        "E": "182",
+        "F": "0",
+        "G": "522"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 476,
+      "values": {
+        "A": "WAL",
+        "B": "Frankfort",
+        "C": "11",
+        "D": "344",
+        "E": "215",
+        "F": "7",
+        "G": "577"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 477,
+      "values": {
+        "A": "WAL",
+        "B": "Freedom",
+        "C": "5",
+        "D": "204",
+        "E": "221",
+        "F": "5",
+        "G": "435"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 478,
+      "values": {
+        "A": "WAL",
+        "B": "Islesboro",
+        "C": "5",
+        "D": "92",
+        "E": "308",
+        "F": "6",
+        "G": "411"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 479,
+      "values": {
+        "A": "WAL",
+        "B": "Jackson",
+        "C": "4",
+        "D": "144",
+        "E": "121",
+        "F": "1",
+        "G": "270"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 480,
+      "values": {
+        "A": "WAL",
+        "B": "Knox",
+        "C": "11",
+        "D": "280",
+        "E": "142",
+        "F": "2",
+        "G": "435"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 481,
+      "values": {
+        "A": "WAL",
+        "B": "Liberty",
+        "C": "10",
+        "D": "243",
+        "E": "265",
+        "F": "2",
+        "G": "520"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 482,
+      "values": {
+        "A": "WAL",
+        "B": "Lincolnville",
+        "C": "16",
+        "D": "477",
+        "E": "1013",
+        "F": "11",
+        "G": "1517"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 483,
+      "values": {
+        "A": "WAL",
+        "B": "Monroe",
+        "C": "18",
+        "D": "206",
+        "E": "303",
+        "F": "3",
+        "G": "530"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 484,
+      "values": {
+        "A": "WAL",
+        "B": "Montville",
+        "C": "14",
+        "D": "220",
+        "E": "319",
+        "F": "3",
+        "G": "556"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 485,
+      "values": {
+        "A": "WAL",
+        "B": "Morrill",
+        "C": "11",
+        "D": "307",
+        "E": "216",
+        "F": "5",
+        "G": "539"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 486,
+      "values": {
+        "A": "WAL",
+        "B": "Northport",
+        "C": "20",
+        "D": "354",
+        "E": "640",
+        "F": "5",
+        "G": "1019"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 487,
+      "values": {
+        "A": "WAL",
+        "B": "Palermo",
+        "C": "14",
+        "D": "491",
+        "E": "379",
+        "F": "3",
+        "G": "887"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 488,
+      "values": {
+        "A": "WAL",
+        "B": "Prospect",
+        "C": "11",
+        "D": "200",
+        "E": "166",
+        "F": "2",
+        "G": "379"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 489,
+      "values": {
+        "A": "WAL",
+        "B": "Searsmont",
+        "C": "15",
+        "D": "383",
+        "E": "404",
+        "F": "4",
+        "G": "806"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 490,
+      "values": {
+        "A": "WAL",
+        "B": "Searsport",
+        "C": "13",
+        "D": "573",
+        "E": "800",
+        "F": "7",
+        "G": "1393"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 491,
+      "values": {
+        "A": "WAL",
+        "B": "Stockton Springs",
+        "C": "21",
+        "D": "430",
+        "E": "514",
+        "F": "8",
+        "G": "973"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 492,
+      "values": {
+        "A": "WAL",
+        "B": "Swanville",
+        "C": "15",
+        "D": "375",
+        "E": "338",
+        "F": "4",
+        "G": "732"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 493,
+      "values": {
+        "A": "WAL",
+        "B": "Thorndike",
+        "C": "14",
+        "D": "186",
+        "E": "195",
+        "F": "1",
+        "G": "396"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 494,
+      "values": {
+        "A": "WAL",
+        "B": "Troy",
+        "C": "9",
+        "D": "262",
+        "E": "208",
+        "F": "2",
+        "G": "481"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 495,
+      "values": {
+        "A": "WAL",
+        "B": "Unity",
+        "C": "17",
+        "D": "351",
+        "E": "368",
+        "F": "13",
+        "G": "749"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 496,
+      "values": {
+        "A": "WAL",
+        "B": "Waldo",
+        "C": "8",
+        "D": "213",
+        "E": "209",
+        "F": "3",
+        "G": "433"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 497,
+      "values": {
+        "A": "WAL",
+        "B": "Winterport",
+        "C": "36",
+        "D": "1016",
+        "E": "935",
+        "F": "10",
+        "G": "1997"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 498,
+      "values": {
+        "B": "CTY Total",
+        "C": "400",
+        "D": "9099",
+        "E": "11508",
+        "F": "139",
+        "G": "21146"
+      },
+      "formulas": {
+        "C": "SUM(C472:C497)",
+        "D": "SUM(D472:D497)",
+        "E": null,
+        "F": null,
+        "G": null
+      }
+    },
+    {
+      "row": 500,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 501,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 502,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 503,
+      "values": {
+        "A": "WAS",
+        "B": "Addison",
+        "C": "21",
+        "D": "385",
+        "E": "208",
+        "F": "3",
+        "G": "617"
+      },
+      "formulas": {
+        "G": "SUM(C503:F503)"
+      }
+    },
+    {
+      "row": 504,
+      "values": {
+        "A": "WAS",
+        "B": "Alexander",
+        "C": "16",
+        "D": "182",
+        "E": "74",
+        "F": "3",
+        "G": "275"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 505,
+      "values": {
+        "A": "WAS",
+        "B": "Baileyville",
+        "C": "15",
+        "D": "297",
+        "E": "193",
+        "F": "2",
+        "G": "507"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 506,
+      "values": {
+        "A": "WAS",
+        "B": "Baring Plt",
+        "C": "2",
+        "D": "54",
+        "E": "46",
+        "F": "0",
+        "G": "102"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 507,
+      "values": {
+        "A": "WAS",
+        "B": "Beals",
+        "C": "26",
+        "D": "175",
+        "E": "71",
+        "F": "1",
+        "G": "273"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 508,
+      "values": {
+        "A": "WAS",
+        "B": "Beddington/T22 MD Twp",
+        "C": "1",
+        "D": "39",
+        "E": "17",
+        "F": "0",
+        "G": "57"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 509,
+      "values": {
+        "A": "WAS",
+        "B": "Calais",
+        "C": "27",
+        "D": "627",
+        "E": "601",
+        "F": "10",
+        "G": "1265"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 510,
+      "values": {
+        "A": "WAS",
+        "B": "Centerville Twp",
+        "C": "0",
+        "D": "13",
+        "E": "5",
+        "F": "1",
+        "G": "19"
+      },
+      "formulas": {
+        "G": "SUM(C510:F510)"
+      }
+    },
+    {
+      "row": 511,
+      "values": {
+        "A": "WAS",
+        "B": "Charlotte",
+        "C": "4",
+        "D": "111",
+        "E": "66",
+        "F": "0",
+        "G": "181"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 512,
+      "values": {
+        "A": "WAS",
+        "B": "Cherryfield/T10 SD Twp",
+        "C": "36",
+        "D": "345",
+        "E": "177",
+        "F": "8",
+        "G": "566"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 513,
+      "values": {
+        "A": "WAS",
+        "B": "Columbia",
+        "C": "10",
+        "D": "142",
+        "E": "50",
+        "F": "3",
+        "G": "205"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 514,
+      "values": {
+        "A": "WAS",
+        "B": "Columbia Falls",
+        "C": "17",
+        "D": "194",
+        "E": "86",
+        "F": "3",
+        "G": "300"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 515,
+      "values": {
+        "A": "WAS",
+        "B": "Cooper",
+        "C": "2",
+        "D": "57",
+        "E": "36",
+        "F": "0",
+        "G": "95"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 516,
+      "values": {
+        "A": "WAS",
+        "B": "Crawford",
+        "C": "0",
+        "D": "39",
+        "E": "17",
+        "F": "0",
+        "G": "56"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 517,
+      "values": {
+        "A": "WAS",
+        "B": "Cutler",
+        "C": "2",
+        "D": "193",
+        "E": "95",
+        "F": "2",
+        "G": "292"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 518,
+      "values": {
+        "A": "WAS",
+        "B": "Danforth",
+        "C": "5",
+        "D": "225",
+        "E": "83",
+        "F": "3",
+        "G": "316"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 519,
+      "values": {
+        "A": "WAS",
+        "B": "Day Block Twp",
+        "C": "0",
+        "D": "8",
+        "E": "1",
+        "F": "0",
+        "G": "9"
+      },
+      "formulas": {
+        "G": "SUM(C519:F519)"
+      }
+    },
+    {
+      "row": 520,
+      "values": {
+        "A": "WAS",
+        "B": "Deblois",
+        "C": "0",
+        "D": "25",
+        "E": "5",
+        "F": "0",
+        "G": "30"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 521,
+      "values": {
+        "A": "WAS",
+        "B": "Dennysville",
+        "C": "8",
+        "D": "166",
+        "E": "117",
+        "F": "2",
+        "G": "293"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 522,
+      "values": {
+        "A": "WAS",
+        "B": "East Machias",
+        "C": "29",
+        "D": "411",
+        "E": "270",
+        "F": "3",
+        "G": "713"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 523,
+      "values": {
+        "A": "WAS",
+        "B": "Eastport",
+        "C": "16",
+        "D": "230",
+        "E": "447",
+        "F": "9",
+        "G": "702"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 524,
+      "values": {
+        "A": "WAS",
+        "B": "Grand Lake Stream Plt",
+        "C": "1",
+        "D": "55",
+        "E": "38",
+        "F": "0",
+        "G": "94"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 525,
+      "values": {
+        "A": "WAS",
+        "B": "Harrington",
+        "C": "10",
+        "D": "328",
+        "E": "155",
+        "F": "4",
+        "G": "497"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 526,
+      "values": {
+        "A": "WAS",
+        "B": "Indian Twp",
+        "C": "11",
+        "D": "29",
+        "E": "109",
+        "F": "5",
+        "G": "154"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 527,
+      "values": {
+        "A": "WAS",
+        "B": "Jonesboro",
+        "C": "17",
+        "D": "155",
+        "E": "101",
+        "F": "3",
+        "G": "276"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 528,
+      "values": {
+        "A": "WAS",
+        "B": "Jonesport",
+        "C": "27",
+        "D": "436",
+        "E": "189",
+        "F": "4",
+        "G": "656"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 529,
+      "values": {
+        "A": "WAS",
+        "B": "Lubec",
+        "C": "27",
+        "D": "272",
+        "E": "439",
+        "F": "3",
+        "G": "741"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 530,
+      "values": {
+        "A": "WAS",
+        "B": "Machias",
+        "C": "61",
+        "D": "332",
+        "E": "361",
+        "F": "4",
+        "G": "758"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 531,
+      "values": {
+        "A": "WAS",
+        "B": "Machiasport",
+        "C": "19",
+        "D": "248",
+        "E": "204",
+        "F": "1",
+        "G": "472"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 532,
+      "values": {
+        "A": "WAS",
+        "B": "Marshfield",
+        "C": "8",
+        "D": "183",
+        "E": "100",
+        "F": "2",
+        "G": "293"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 533,
+      "values": {
+        "A": "WAS",
+        "B": "Meddybemps",
+        "C": "3",
+        "D": "55",
+        "E": "29",
+        "F": "0",
+        "G": "87"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 534,
+      "values": {
+        "A": "WAS",
+        "B": "Milbridge/T10 SD Twp",
+        "C": "28",
+        "D": "351",
+        "E": "274",
+        "F": "5",
+        "G": "658"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 535,
+      "values": {
+        "A": "WAS",
+        "B": "Northfield",
+        "C": "5",
+        "D": "66",
+        "E": "43",
+        "F": "0",
+        "G": "114"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 536,
+      "values": {
+        "A": "WAS",
+        "B": "Pembroke",
+        "C": "9",
+        "D": "216",
+        "E": "196",
+        "F": "4",
+        "G": "425"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 537,
+      "values": {
+        "A": "WAS",
+        "B": "Perry",
+        "C": "12",
+        "D": "222",
+        "E": "184",
+        "F": "2",
+        "G": "420"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 538,
+      "values": {
+        "A": "WAS",
+        "B": "Pleasant Point Voting District",
+        "C": "15",
+        "D": "8",
+        "E": "119",
+        "F": "2",
+        "G": "144"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 539,
+      "values": {
+        "A": "WAS",
+        "B": "Princeton",
+        "C": "6",
+        "D": "253",
+        "E": "118",
+        "F": "8",
+        "G": "385"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 540,
+      "values": {
+        "A": "WAS",
+        "B": "Robbinston",
+        "C": "7",
+        "D": "163",
+        "E": "120",
+        "F": "3",
+        "G": "293"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 541,
+      "values": {
+        "A": "WAS",
+        "B": "Roque Bluffs",
+        "C": "6",
+        "D": "70",
+        "E": "101",
+        "F": "2",
+        "G": "179"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 542,
+      "values": {
+        "A": "WAS",
+        "B": "Sakom Twp",
+        "C": "0",
+        "D": "1",
+        "E": "0",
+        "F": "0",
+        "G": "1"
+      },
+      "formulas": {
+        "G": "SUM(C542:F542)"
+      }
+    },
+    {
+      "row": 543,
+      "values": {
+        "A": "WAS",
+        "B": "Steuben/T7 SD Twp",
+        "C": "13",
+        "D": "350",
+        "E": "233",
+        "F": "3",
+        "G": "599"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 544,
+      "values": {
+        "A": "WAS",
+        "B": "Talmadge",
+        "C": "0",
+        "D": "23",
+        "E": "8",
+        "F": "0",
+        "G": "31"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 545,
+      "values": {
+        "A": "WAS",
+        "B": "Topsfield",
+        "C": "2",
+        "D": "91",
+        "E": "20",
+        "F": "0",
+        "G": "113"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 546,
+      "values": {
+        "A": "WAS",
+        "B": "Vanceboro",
+        "C": "1",
+        "D": "47",
+        "E": "26",
+        "F": "1",
+        "G": "75"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 547,
+      "values": {
+        "A": "WAS",
+        "B": "Waite",
+        "C": "2",
+        "D": "26",
+        "E": "14",
+        "F": "0",
+        "G": "42"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 548,
+      "values": {
+        "A": "WAS",
+        "B": "Wesley",
+        "C": "3",
+        "D": "48",
+        "E": "21",
+        "F": "0",
+        "G": "72"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 549,
+      "values": {
+        "A": "WAS",
+        "B": "Whiting",
+        "C": "18",
+        "D": "161",
+        "E": "154",
+        "F": "4",
+        "G": "337"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 550,
+      "values": {
+        "A": "WAS",
+        "B": "Whitneyville",
+        "C": "5",
+        "D": "53",
+        "E": "43",
+        "F": "2",
+        "G": "103"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 551,
+      "values": {
+        "B": "County Total",
+        "C": "553",
+        "D": "8160",
+        "E": "6064",
+        "F": "115",
+        "G": "14892"
+      },
+      "formulas": {
+        "C": "SUM(C503:C550)",
+        "D": "SUM(D503:D550)",
+        "E": "SUM(E503:E550)",
+        "F": "SUM(F503:F550)",
+        "G": null
+      }
+    },
+    {
+      "row": 553,
+      "values": {
+        "C": "Hunkler, Sam",
+        "D": "LePage, Paul R.",
+        "E": "Mills, Janet T."
+      },
+      "formulas": {}
+    },
+    {
+      "row": 554,
+      "values": {
+        "C": "Beals",
+        "D": "Edgecomb",
+        "E": "Farmington"
+      },
+      "formulas": {}
+    },
+    {
+      "row": 555,
+      "values": {
+        "A": "CTY",
+        "B": "MUNICIPALITY",
+        "C": "Independent-Unenrolled",
+        "D": "Republican",
+        "E": "Democratic",
+        "F": "BLANK",
+        "G": "TBC "
+      },
+      "formulas": {}
+    },
+    {
+      "row": 556,
+      "values": {
+        "A": "YOR",
+        "B": "Acton",
+        "C": "35",
+        "D": "747",
+        "E": "592",
+        "F": "9",
+        "G": "1383"
+      },
+      "formulas": {
+        "G": "SUM(C556:F556)"
+      }
+    },
+    {
+      "row": 557,
+      "values": {
+        "A": "YOR",
+        "B": "Alfred",
+        "C": "29",
+        "D": "767",
+        "E": "925",
+        "F": "7",
+        "G": "1728"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 558,
+      "values": {
+        "A": "YOR",
+        "B": "Arundel",
+        "C": "37",
+        "D": "1078",
+        "E": "1185",
+        "F": "10",
+        "G": "2310"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 559,
+      "values": {
+        "A": "YOR",
+        "B": "Berwick",
+        "C": "70",
+        "D": "1628",
+        "E": "1633",
+        "F": "7",
+        "G": "3338"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 560,
+      "values": {
+        "A": "YOR",
+        "B": "Biddeford",
+        "C": "186",
+        "D": "2761",
+        "E": "5755",
+        "F": "48",
+        "G": "8750"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 561,
+      "values": {
+        "A": "YOR",
+        "B": "Buxton",
+        "C": "86",
+        "D": "2144",
+        "E": "2113",
+        "F": "11",
+        "G": "4354"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 562,
+      "values": {
+        "A": "YOR",
+        "B": "Cornish",
+        "C": "17",
+        "D": "406",
+        "E": "352",
+        "F": "6",
+        "G": "781"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 563,
+      "values": {
+        "A": "YOR",
+        "B": "Dayton",
+        "C": "26",
+        "D": "645",
+        "E": "507",
+        "F": "7",
+        "G": "1185"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 564,
+      "values": {
+        "A": "YOR",
+        "B": "Eliot",
+        "C": "71",
+        "D": "1390",
+        "E": "2385",
+        "F": "18",
+        "G": "3864"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 565,
+      "values": {
+        "A": "YOR",
+        "B": "Hollis",
+        "C": "37",
+        "D": "1247",
+        "E": "1163",
+        "F": "10",
+        "G": "2457"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 566,
+      "values": {
+        "A": "YOR",
+        "B": "Kennebunk",
+        "C": "102",
+        "D": "2047",
+        "E": "4755",
+        "F": "66",
+        "G": "6970"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 567,
+      "values": {
+        "A": "YOR",
+        "B": "Kennebunkport",
+        "C": "51",
+        "D": "777",
+        "E": "1577",
+        "F": "15",
+        "G": "2420"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 568,
+      "values": {
+        "A": "YOR",
+        "B": "Kittery",
+        "C": "93",
+        "D": "1267",
+        "E": "3748",
+        "F": "27",
+        "G": "5135"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 569,
+      "values": {
+        "A": "YOR",
+        "B": "Lebanon",
+        "C": "59",
+        "D": "1585",
+        "E": "956",
+        "F": "8",
+        "G": "2608"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 570,
+      "values": {
+        "A": "YOR",
+        "B": "Limerick",
+        "C": "24",
+        "D": "791",
+        "E": "705",
+        "F": "12",
+        "G": "1532"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 571,
+      "values": {
+        "A": "YOR",
+        "B": "Limington",
+        "C": "30",
+        "D": "1086",
+        "E": "748",
+        "F": "15",
+        "G": "1879"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 572,
+      "values": {
+        "A": "YOR",
+        "B": "Lyman",
+        "C": "52",
+        "D": "1304",
+        "E": "1112",
+        "F": "12",
+        "G": "2480"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 573,
+      "values": {
+        "A": "YOR",
+        "B": "Newfield",
+        "C": "14",
+        "D": "468",
+        "E": "318",
+        "F": "2",
+        "G": "802"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 574,
+      "values": {
+        "A": "YOR",
+        "B": "North Berwick",
+        "C": "50",
+        "D": "1203",
+        "E": "1313",
+        "F": "16",
+        "G": "2582"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 575,
+      "values": {
+        "A": "YOR",
+        "B": "Ogunquit",
+        "C": "7",
+        "D": "252",
+        "E": "683",
+        "F": "7",
+        "G": "949"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 576,
+      "values": {
+        "A": "YOR",
+        "B": "Old Orchard Beach",
+        "C": "90",
+        "D": "1715",
+        "E": "3199",
+        "F": "31",
+        "G": "5035"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 577,
+      "values": {
+        "A": "YOR",
+        "B": "Parsonsfield",
+        "C": "22",
+        "D": "437",
+        "E": "395",
+        "F": "1",
+        "G": "855"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 578,
+      "values": {
+        "A": "YOR",
+        "B": "Saco",
+        "C": "159",
+        "D": "3256",
+        "E": "6507",
+        "F": "75",
+        "G": "9997"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 579,
+      "values": {
+        "A": "YOR",
+        "B": "Sanford",
+        "C": "224",
+        "D": "3486",
+        "E": "4373",
+        "F": "44",
+        "G": "8127"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 580,
+      "values": {
+        "A": "YOR",
+        "B": "Shapleigh",
+        "C": "34",
+        "D": "804",
+        "E": "608",
+        "F": "6",
+        "G": "1452"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 581,
+      "values": {
+        "A": "YOR",
+        "B": "South Berwick",
+        "C": "82",
+        "D": "1306",
+        "E": "2303",
+        "F": "19",
+        "G": "3710"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 582,
+      "values": {
+        "A": "YOR",
+        "B": "Waterboro",
+        "C": "67",
+        "D": "1901",
+        "E": "1554",
+        "F": "16",
+        "G": "3538"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 583,
+      "values": {
+        "A": "YOR",
+        "B": "Wells",
+        "C": "103",
+        "D": "2555",
+        "E": "4014",
+        "F": "39",
+        "G": "6711"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 584,
+      "values": {
+        "A": "YOR",
+        "B": "York",
+        "C": "137",
+        "D": "2609",
+        "E": "5294",
+        "F": "38",
+        "G": "8078"
+      },
+      "formulas": {
+        "G": null
+      }
+    },
+    {
+      "row": 585,
+      "values": {
+        "B": "CTY Total",
+        "C": "1994",
+        "D": "41662",
+        "E": "60772",
+        "F": "582",
+        "G": "105010"
+      },
+      "formulas": {
+        "C": "SUM(C556:C584)",
+        "D": "SUM(D556:D584)",
+        "E": "SUM(E556:E584)",
+        "F": "SUM(F556:F584)",
+        "G": null
+      }
+    },
+    {
+      "row": 587,
+      "values": {
+        "B": "STATE UOCAVA",
+        "C": "19",
+        "D": "217",
+        "E": "1602",
+        "F": "7",
+        "G": "1845"
+      },
+      "formulas": {
+        "G": "SUM(C587:F587)"
+      }
+    },
+    {
+      "row": 589,
+      "values": {
+        "B": "Total",
+        "C": "12581",
+        "D": "287304",
+        "E": "376934",
+        "F": "4090",
+        "G": "680909"
+      },
+      "formulas": {
+        "C": "C18+C94+C126+C152+C196+C230+C253+C277+C318+C388+C411+C426+C467+C498+C551+C585+C587",
+        "D": "D18+D94+D126+D152+D196+D230+D253+D277+D318+D388+D411+D426+D467+D498+D551+D585+D587",
+        "E": "E18+E94+E126+E152+E196+E230+E253+E277+E318+E388+E411+E426+E467+E498+E551+E585+E587",
+        "F": "F18+F94+F126+F152+F196+F230+F253+F277+F318+F388+F411+F426+F467+F498+F551+F585+F587",
+        "G": "G18+G94+G126+G152+G196+G230+G253+G277+G318+G388+G411+G426+G467+G498+G551+G585+G587"
+      }
+    }
+  ]
+}

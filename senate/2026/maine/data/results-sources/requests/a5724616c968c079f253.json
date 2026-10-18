@@ -1,0 +1,79 @@
+{
+  "id": "a5724616c968c079f253",
+  "publisher_url": "http://maine.gov/sos/cec/elec/upcoming/index.html",
+  "request_url": "http://maine.gov/sos/cec/elec/upcoming/index.html",
+  "retrieved_utc": "2026-10-18T02:33:22.857827+00:00",
+  "requested_headers": {},
+  "max_entity_bytes": 39000000,
+  "redirects": [
+    {
+      "url": "http://maine.gov/sos/cec/elec/upcoming/index.html",
+      "status": 302,
+      "location": "https://www.maine.gov/sos/cec/elec/upcoming/index.html",
+      "headers": [
+        [
+          "Cache-Control",
+          "no-cache"
+        ],
+        [
+          "Content-length",
+          "0"
+        ],
+        [
+          "Location",
+          "https://www.maine.gov/sos/cec/elec/upcoming/index.html"
+        ],
+        [
+          "Connection",
+          "close"
+        ]
+      ]
+    }
+  ],
+  "status": 403,
+  "final_url": "https://www.maine.gov/sos/cec/elec/upcoming/index.html",
+  "headers": [
+    [
+      "Server",
+      "CloudFront"
+    ],
+    [
+      "Date",
+      "Sun, 18 Oct 2026 02:33:23 GMT"
+    ],
+    [
+      "Content-Type",
+      "text/html"
+    ],
+    [
+      "Content-Length",
+      "919"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "X-Cache",
+      "Error from cloudfront"
+    ],
+    [
+      "Via",
+      "1.1 ea7a375e1214babc705eda0cb319e52c.cloudfront.net (CloudFront)"
+    ],
+    [
+      "X-Amz-Cf-Pop",
+      "ORD58-P14"
+    ],
+    [
+      "X-Amz-Cf-Id",
+      "12GB6CuPL76RlIip_HgEfsFazCPlY2iT0U1L4CMzHYcS1UAbyb8STA=="
+    ]
+  ],
+  "complete": true,
+  "entity_bytes_retained": 919,
+  "entity_sha256": "dfed50ec4676c86316b98c34287c46ef9db733097663926dfa5d2887961f95fd",
+  "body_path": "objects/dfed50ec4676c86316b98c34287c46ef9db733097663926dfa5d2887961f95fd.gz",
+  "saved_sha256": "a962a2ff2ee5fc1347324b6728728a3d5663599e9408aeebea54f231345f2003",
+  "saved_bytes": 597
+}

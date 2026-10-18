@@ -1,0 +1,103 @@
+{
+  "id": "c078b3feb2e36c2fd4f8",
+  "publisher_url": "https://townoflubec.com/",
+  "request_url": "https://townoflubec.com/",
+  "retrieved_utc": "2026-10-18T02:31:38.339603+00:00",
+  "requested_headers": {},
+  "max_entity_bytes": 39000000,
+  "redirects": [
+    {
+      "url": "https://townoflubec.com/",
+      "status": 301,
+      "location": "https://lubecme.gov/",
+      "headers": [
+        [
+          "Server",
+          "nginx"
+        ],
+        [
+          "Date",
+          "Sun, 18 Oct 2026 02:31:38 GMT"
+        ],
+        [
+          "Content-Type",
+          "text/html; charset=iso-8859-1"
+        ],
+        [
+          "Content-Length",
+          "294"
+        ],
+        [
+          "Connection",
+          "close"
+        ],
+        [
+          "Location",
+          "https://lubecme.gov/"
+        ],
+        [
+          "Alt-Svc",
+          "h3=\":443\"; ma=86400"
+        ],
+        [
+          "X-Powered-By",
+          "PleskLin"
+        ]
+      ]
+    }
+  ],
+  "status": 200,
+  "final_url": "https://lubecme.gov/",
+  "headers": [
+    [
+      "Server",
+      "nginx"
+    ],
+    [
+      "Date",
+      "Sun, 18 Oct 2026 02:31:39 GMT"
+    ],
+    [
+      "Content-Type",
+      "text/html; charset=UTF-8"
+    ],
+    [
+      "Transfer-Encoding",
+      "chunked"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "X-Powered-By",
+      "PHP/8.4.26"
+    ],
+    [
+      "Link",
+      "<https://lubecme.gov/wp-json/>; rel=\"https://api.w.org/\", <https://lubecme.gov/wp-json/wp/v2/pages/60>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://lubecme.gov/>; rel=shortlink"
+    ],
+    [
+      "Vary",
+      "Accept-Encoding"
+    ],
+    [
+      "Alt-Svc",
+      "h3=\":443\"; ma=86400"
+    ],
+    [
+      "X-Cache-Status",
+      "MISS"
+    ],
+    [
+      "X-Powered-By",
+      "PleskLin"
+    ]
+  ],
+  "complete": true,
+  "entity_bytes_retained": 158367,
+  "entity_sha256": "f7ca21297312897963097d4aa2ab9b48b249ca4f0ee26e1eaf8de11bb2543378",
+  "body_path": "objects/f7ca21297312897963097d4aa2ab9b48b249ca4f0ee26e1eaf8de11bb2543378.gz",
+  "saved_sha256": "ab5a5a35e67d51d7ea0d8b6d7a9ca5296103b95f8df759c39920e9c56f071576",
+  "saved_bytes": 25531
+}

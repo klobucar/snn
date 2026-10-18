@@ -1,0 +1,34 @@
+{
+  "rows": 539,
+  "unique_county_municipality_WP_tuples": 538,
+  "duplicate_tuples": [
+    {
+      "county_code": "ARO",
+      "municipality": "SAINT AGATHA (and Sinclair)",
+      "ward_precinct": "1-1",
+      "rows": [
+        {
+          "county_code": "ARO",
+          "municipality": "SAINT AGATHA (and Sinclair)",
+          "ward_precinct": "1-1",
+          "voting_place": "Saint Agatha Town Office (new building)",
+          "address": "403 Main Street",
+          "voting_town": "St. Agatha ",
+          "opening": "8am",
+          "source_row": 418
+        },
+        {
+          "county_code": "ARO",
+          "municipality": "SAINT AGATHA (and Sinclair)",
+          "ward_precinct": "1-1",
+          "voting_place": "Saint Agatha Town Office (new building)",
+          "address": "403 Main Street",
+          "voting_town": "Saint Agatha ",
+          "opening": "8am",
+          "source_row": 437
+        }
+      ]
+    }
+  ],
+  "policy": "Preserve all source rows, no silent deduplication or invented distinct ward identity; 539 rows are not 539 unique reporting precincts."
+}

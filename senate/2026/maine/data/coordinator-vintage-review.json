@@ -1,0 +1,268 @@
+{
+  "status": "pass",
+  "checked_utc": "2026-10-18T02:49:35.261589+00:00",
+  "comparisons": [
+    {
+      "contest": "senate",
+      "archive": {
+        "path": "baselines/raw/legislature-2024-b.xlsx.gz",
+        "original_sha256": "a00847ca38acb0eb3d78f726115723344c415be9252ac1c08eff43e0d275928c",
+        "document_clocks": {
+          "created": "2024-11-13T14:14:24Z",
+          "modified": "2024-12-09T13:05:30Z"
+        }
+      },
+      "current": {
+        "path": "baselines/raw/senate-2024.xlsx.gz",
+        "original_sha256": "e9412070c730d77eba93c87ab465a491779d63c54b0a0545c0c97615a2f339a4",
+        "document_clocks": {
+          "created": "2024-11-13T14:14:24Z",
+          "modified": "2024-12-09T15:31:56Z"
+        }
+      },
+      "changed_cells": [
+        {
+          "sheet": "UNITED STATES SENATOR",
+          "cell": "C517",
+          "old": "69",
+          "current": "40"
+        },
+        {
+          "sheet": "UNITED STATES SENATOR",
+          "cell": "C545",
+          "old": "2906",
+          "current": "2877"
+        },
+        {
+          "sheet": "UNITED STATES SENATOR",
+          "cell": "C549",
+          "old": "20222",
+          "current": "20193"
+        },
+        {
+          "sheet": "UNITED STATES SENATOR",
+          "cell": "D517",
+          "old": "219",
+          "current": "203"
+        },
+        {
+          "sheet": "UNITED STATES SENATOR",
+          "cell": "D545",
+          "old": "16507",
+          "current": "16491"
+        },
+        {
+          "sheet": "UNITED STATES SENATOR",
+          "cell": "D549",
+          "old": "88891",
+          "current": "88875"
+        },
+        {
+          "sheet": "UNITED STATES SENATOR",
+          "cell": "E517",
+          "old": "746",
+          "current": "985"
+        },
+        {
+          "sheet": "UNITED STATES SENATOR",
+          "cell": "E545",
+          "old": "65552",
+          "current": "65791"
+        },
+        {
+          "sheet": "UNITED STATES SENATOR",
+          "cell": "E549",
+          "old": "427331",
+          "current": "427570"
+        },
+        {
+          "sheet": "UNITED STATES SENATOR",
+          "cell": "F517",
+          "old": "714",
+          "current": "810"
+        },
+        {
+          "sheet": "UNITED STATES SENATOR",
+          "cell": "F545",
+          "old": "46204",
+          "current": "46300"
+        },
+        {
+          "sheet": "UNITED STATES SENATOR",
+          "cell": "F549",
+          "old": "284338",
+          "current": "284434"
+        },
+        {
+          "sheet": "UNITED STATES SENATOR",
+          "cell": "G517",
+          "old": "328",
+          "current": "38"
+        },
+        {
+          "sheet": "UNITED STATES SENATOR",
+          "cell": "G545",
+          "old": "3394",
+          "current": "3104"
+        },
+        {
+          "sheet": "UNITED STATES SENATOR",
+          "cell": "G549",
+          "old": "21665",
+          "current": "21375"
+        }
+      ],
+      "changed_main_rows": {
+        "517": 5,
+        "545": 5,
+        "549": 5
+      },
+      "only_changed_disjoint_unit": "Alfred / YOR",
+      "native_row": 517,
+      "candidate_delta": 290,
+      "blank_delta": -290,
+      "tbc_delta": 0
+    },
+    {
+      "contest": "president",
+      "archive": {
+        "path": "baselines/raw/legislature-2024-a.xlsx.gz",
+        "original_sha256": "c8ac16ecf1b91ba9e096fb54f3406e28e27954fa3c320e36f691219593ec97ce",
+        "document_clocks": {
+          "created": "2024-11-21T19:12:44Z",
+          "modified": "2024-12-09T13:04:33Z"
+        }
+      },
+      "current": {
+        "path": "baselines/raw/president-2024.xlsx.gz",
+        "original_sha256": "bdad862fa1f1786e76e5d44e6a508613c2b95f8f21e3e3c19219f13b2de0c367",
+        "document_clocks": {
+          "created": "2024-11-21T19:12:44Z",
+          "modified": "2024-12-06T14:55:08Z"
+        }
+      },
+      "changed_cells": [
+        {
+          "sheet": "President & VP",
+          "cell": "C518",
+          "old": "680",
+          "current": "981"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "C546",
+          "old": "71813",
+          "current": "72114"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "C550",
+          "old": "435351",
+          "current": "435652"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "D518",
+          "old": "31",
+          "current": "13"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "D546",
+          "old": "884",
+          "current": "866"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "D550",
+          "old": "5304",
+          "current": "5286"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "E518",
+          "old": "23",
+          "current": "17"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "E546",
+          "old": "1266",
+          "current": "1260"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "E550",
+          "old": "8973",
+          "current": "8967"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "F518",
+          "old": "891",
+          "current": "1031"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "F546",
+          "old": "58054",
+          "current": "58194"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "F550",
+          "old": "377837",
+          "current": "377977"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "G518",
+          "old": "39",
+          "current": "8"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "G546",
+          "old": "366",
+          "current": "335"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "G550",
+          "old": "2943",
+          "current": "2912"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "I518",
+          "old": "412",
+          "current": "26"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "I546",
+          "old": "2111",
+          "current": "1725"
+        },
+        {
+          "sheet": "President & VP",
+          "cell": "I550",
+          "old": "11458",
+          "current": "11072"
+        }
+      ],
+      "changed_main_rows": {
+        "518": 6,
+        "546": 6,
+        "550": 6
+      },
+      "only_changed_disjoint_unit": "Alfred / YOR",
+      "native_row": 518,
+      "candidate_delta": 386,
+      "blank_delta": -386,
+      "tbc_delta": 0
+    }
+  ],
+  "scope": "cached cell values, native row identity and file hashes; no modification/release chronology inferred",
+  "cause_and_publication_timing": "unresolved; document modified clocks alone do not establish a causal sequence"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "b6bd756e5da2516a8099",
+  "publisher_url": "https://www.limington.net/",
+  "request_url": "https://www.limington.net/",
+  "retrieved_utc": "2026-10-18T02:31:26.110333+00:00",
+  "requested_headers": {},
+  "max_entity_bytes": 39000000,
+  "redirects": [
+    {
+      "url": "https://www.limington.net/",
+      "status": 301,
+      "location": "https://limingtonmaine.gov/",
+      "headers": [
+        [
+          "Age",
+          "0"
+        ],
+        [
+          "Cache-Control",
+          "public,max-age=0,must-revalidate"
+        ],
+        [
+          "Cache-Status",
+          "\"Netlify Edge\"; fwd=miss; fwd-status=301; stored"
+        ],
+        [
+          "Content-Length",
+          "42"
+        ],
+        [
+          "Content-Security-Policy",
+          "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com https://identity.netlify.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' blob: https://api.netlify.com https://www.netlifystatus.com https://identity.netlify.com; frame-src https://identity.netlify.com https://calendar.google.com"
+        ],
+        [
+          "Content-Type",
+          "text/plain; charset=utf-8"
+        ],
+        [
+          "Date",
+          "Sun, 18 Oct 2026 02:31:26 GMT"
+        ],
+        [
+          "Location",
+          "https://limingtonmaine.gov/"
+        ],
+        [
+          "Referrer-Policy",
+          "no-referrer-when-downgrade"
+        ],
+        [
+          "Server",
+          "Netlify"
+        ],
+        [
+          "Strict-Transport-Security",
+          "max-age=31536000; includeSubDomains; preload"
+        ],
+        [
+          "X-Content-Type-Options",
+          "nosniff"
+        ],
+        [
+          "X-Frame-Options",
+          "DENY"
+        ],
+        [
+          "X-Nf-Request-Id",
+          "01M56DK1N76ZJSFKV4126JEZ90"
+        ],
+        [
+          "X-Xss-Protection",
+          "1; mode=block"
+        ],
+        [
+          "Connection",
+          "close"
+        ]
+      ]
+    }
+  ],
+  "status": 200,
+  "final_url": "https://limingtonmaine.gov/",
+  "headers": [
+    [
+      "Age",
+      "1"
+    ],
+    [
+      "Cache-Control",
+      "no-cache"
+    ],
+    [
+      "Cache-Status",
+      "\"Netlify Durable\"; fwd=bypass"
+    ],
+    [
+      "Cache-Status",
+      "\"Netlify Edge\"; fwd=miss; fwd-status=200"
+    ],
+    [
+      "Content-Type",
+      "text/html"
+    ],
+    [
+      "Date",
+      "Sun, 18 Oct 2026 02:31:27 GMT"
+    ],
+    [
+      "Etag",
+      "\"x9k5u5\""
+    ],
+    [
+      "Netlify-Vary",
+      "query"
+    ],
+    [
+      "Server",
+      "Netlify"
+    ],
+    [
+      "Strict-Transport-Security",
+      "max-age=31536000"
+    ],
+    [
+      "Vary",
+      "Accept-Encoding"
+    ],
+    [
+      "X-Nf-Request-Id",
+      "01M56DK1X0SA9KXE66CP86DCJ7"
+    ],
+    [
+      "Connection",
+      "close"
+    ],
+    [
+      "Transfer-Encoding",
+      "chunked"
+    ]
+  ],
+  "complete": true,
+  "entity_bytes_retained": 34620,
+  "entity_sha256": "5589530e733b5d4949289bfc5f8ba7b0965fe78ee931df754c24c65b5f803897",
+  "body_path": "objects/5589530e733b5d4949289bfc5f8ba7b0965fe78ee931df754c24c65b5f803897.gz",
+  "saved_sha256": "b0150f3054d16b226aa29777a6010397a7b78a1fc239bf24c4ad9e5596e25871",
+  "saved_bytes": 7066
+}

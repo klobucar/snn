@@ -1,0 +1,422 @@
+[
+  {
+    "path": "data/county-turnout.csv",
+    "bytes": 445250,
+    "sha256": "0d0852ce0029561dec0d764f52272b07c88c329e4f8eb5d4a946ed41f33569be"
+  },
+  {
+    "path": "data/turnout/SCHEMA.md",
+    "bytes": 5189,
+    "sha256": "92655de1246fc58709441db82c9aeb36b93580ea04a84b79871ce7db8844106c"
+  },
+  {
+    "path": "data/turnout/build_turnout.py",
+    "bytes": 19397,
+    "sha256": "a541efcba30daf9c67c2b041f9b7b3725103aa6f77b1059cd83641af34b53800"
+  },
+  {
+    "path": "data/turnout/checks.json",
+    "bytes": 46692,
+    "sha256": "6268d5b3cd20b8f481248aba8700c588bb94feb61abfc1ed9b4cdc9ea222649e"
+  },
+  {
+    "path": "data/turnout/comparator-label-crosswalk.csv",
+    "bytes": 170850,
+    "sha256": "dc7e60f977ff6b43b70a8212e9c7ff75e59b2d2064d9eda88cecb948d171565d"
+  },
+  {
+    "path": "data/turnout/compare_vintages.py",
+    "bytes": 2330,
+    "sha256": "86bc0212ce9795551395d75d4f4e53994ea9b0f8434f31b9e2d3c94ca7188d85"
+  },
+  {
+    "path": "data/turnout/county-context.csv",
+    "bytes": 2800,
+    "sha256": "b1e0ad1e4312da08daf20e5ba84e0e743c231e45257a8076d539b3c74579659f"
+  },
+  {
+    "path": "data/turnout/extract_pdf_evidence.py",
+    "bytes": 1058,
+    "sha256": "ce52acbd76881b7ad811d8099ca8c71bef9dfd429bea481a663d0a6c78458969"
+  },
+  {
+    "path": "data/turnout/extracted/clerk-2024.txt",
+    "bytes": 717010,
+    "sha256": "4fa7f4e40b263e28cdb527c424ad2739ec87c0f038762eb4ad6b31a32914b7c9"
+  },
+  {
+    "path": "data/turnout/extracted/declared-writeins-2022.txt",
+    "bytes": 1110,
+    "sha256": "3eaec93a109ffff0acee93d3facd970fb82ce28402dc49a2552175a82502f5ca"
+  },
+  {
+    "path": "data/turnout/extracted/governor-2022-cells.json.gz",
+    "bytes": 19562,
+    "sha256": "02f949255772021d9cef8bb58dedc2c5126a56653695a5ed96ea2e3de55a93b3"
+  },
+  {
+    "path": "data/turnout/extracted/legislature-2022-certification.txt",
+    "bytes": 171669,
+    "sha256": "fbfe589446a1ca18db71feba7c47d43d267c4ddc58ad898782d12ef52a0c75f6"
+  },
+  {
+    "path": "data/turnout/extracted/legislature-2022-governor-archive.txt",
+    "bytes": 70014,
+    "sha256": "9b7633d7d73cc431abc796d8e29696a7654238e661e48dc0f9dea9f0d10f6f63"
+  },
+  {
+    "path": "data/turnout/extracted/legislature-2024-final-notice.txt",
+    "bytes": 67838,
+    "sha256": "8554ae39755df81351937a1b4fd74f573e4250882d58df0b48869c5492b7511c"
+  },
+  {
+    "path": "data/turnout/extracted/nara-2024-certification.txt",
+    "bytes": 4459,
+    "sha256": "9a4966c179f8848975e7029d2fd8decb78d76acf713f15cb250274ac779696fd"
+  },
+  {
+    "path": "data/turnout/extracted/president-2024-cells.json.gz",
+    "bytes": 23950,
+    "sha256": "751f56c438d47e1cfe194e10285633887f8b234875d032397bf79a0dfb15da63"
+  },
+  {
+    "path": "data/turnout/extracted/registration-2022-inactive-pdf.txt",
+    "bytes": 95931,
+    "sha256": "dcf483f9d04c5ca8d9c3f8efe908d145178007ddec0384e1f2609480895bc16f"
+  },
+  {
+    "path": "data/turnout/extracted/registration-2022-pdf.txt",
+    "bytes": 99207,
+    "sha256": "f2d4a7cc33f8b78a4118ada775075d7539a8b6ad990e494d6a1e500da7903f2f"
+  },
+  {
+    "path": "data/turnout/extracted/registration-2024-inactive-pdf.txt",
+    "bytes": 97951,
+    "sha256": "22088def048072f82ef003de3eefbc20d88a31236eda1f5b93bceb4bc074d914"
+  },
+  {
+    "path": "data/turnout/extracted/registration-2024-pdf.txt",
+    "bytes": 103075,
+    "sha256": "2d876c9a9393d01f7e8c3a8963317aefac05ba7b01483efe5850622603914a4d"
+  },
+  {
+    "path": "data/turnout/extracted/senate-2024-cells.json.gz",
+    "bytes": 21024,
+    "sha256": "7a08da0f97e48bf495c09ccb763b39dba9308a9b2bf4c692a1aa813991aff943"
+  },
+  {
+    "path": "data/turnout/extracted/union-2022-local.png",
+    "bytes": 56784,
+    "sha256": "7cb493bbd66a5bfe54d653c016d5f32a98eb141cc109f5a9aa070abffdd3bc62"
+  },
+  {
+    "path": "data/turnout/extracted/union-2022-local.txt",
+    "bytes": 1,
+    "sha256": "ef6cbd2161eaea7943ce8693b9824d23d1793ffb1c0fca05b600d3899b44c977"
+  },
+  {
+    "path": "data/turnout/extracted/union-2024-local.png",
+    "bytes": 69200,
+    "sha256": "f90eadf2f0823a7e42c5672942b6eeefcd5087eb86930881e2a00e4b61b646bf"
+  },
+  {
+    "path": "data/turnout/extracted/union-2024-local.txt",
+    "bytes": 1,
+    "sha256": "ef6cbd2161eaea7943ce8693b9824d23d1793ffb1c0fca05b600d3899b44c977"
+  },
+  {
+    "path": "data/turnout/fetch_evidence.py",
+    "bytes": 4359,
+    "sha256": "f6831d295c5c6398461a52ce8a485bb611cf960d7d058a1dc436907aa0d04af1"
+  },
+  {
+    "path": "data/turnout/governor-2022-ranked.csv",
+    "bytes": 192795,
+    "sha256": "d2b8c28243336c1b93485c590b490a61576806946dbb454f0e7d7e6582059abf"
+  },
+  {
+    "path": "data/turnout/governor-2022-source-rows.csv",
+    "bytes": 900182,
+    "sha256": "a6a9d37c51578af72626d5462a4f3854b83cfcd2a884a6ae8f7e3810e420fc96"
+  },
+  {
+    "path": "data/turnout/hash_assets.py",
+    "bytes": 798,
+    "sha256": "bb0cba2f34f9c2b4cf2267ab0dbd85a19038446bb21508ebc14adc7fc2b62cb0"
+  },
+  {
+    "path": "data/turnout/independent-reconciliation.json",
+    "bytes": 1061,
+    "sha256": "67bceedfdc40d7b5c213d1f06f6114d3be63541a9a1c1e607f94e28dc8730787"
+  },
+  {
+    "path": "data/turnout/manifest.json",
+    "bytes": 55053,
+    "sha256": "f2a516852a29081eb7b3a2824fcf9c93ae1ea7c5f21e23a7403206c00e2a7926"
+  },
+  {
+    "path": "data/turnout/president-2024-ranked.csv",
+    "bytes": 227832,
+    "sha256": "e066411e9dbf73167e0da6bf4577280f6af9f69968d13346b92718e8576c6cdf"
+  },
+  {
+    "path": "data/turnout/president-2024-source-rows.csv",
+    "bytes": 1758041,
+    "sha256": "45f663a9df33a969423dddef011080d0d704d9cf8d300e3120c42b71a32ef54a"
+  },
+  {
+    "path": "data/turnout/priority-keys.txt",
+    "bytes": 5283,
+    "sha256": "086b400b77792d763e93a5083c9ec8c92c71e44016743fc4e7f54bb2008db407"
+  },
+  {
+    "path": "data/turnout/priority-set.json",
+    "bytes": 1365040,
+    "sha256": "4b6cd978ff6272fadb59b30eda04300beb8c64586f025565159cc58f9572cb7a"
+  },
+  {
+    "path": "data/turnout/provenance.json",
+    "bytes": 5372,
+    "sha256": "ac3788b24c36b51f6b50534201220a89aa899d2670655f4154f6ac3fb1ecbb80"
+  },
+  {
+    "path": "data/turnout/raw/bangor-2024-idonly.html.gz",
+    "bytes": 20,
+    "sha256": "f1b651238a58fe290baec6c5e32f3bdb1943dd2bd582f02569231f7a757c7837"
+  },
+  {
+    "path": "data/turnout/raw/bangor-2024-local.html.gz",
+    "bytes": 20,
+    "sha256": "f1b651238a58fe290baec6c5e32f3bdb1943dd2bd582f02569231f7a757c7837"
+  },
+  {
+    "path": "data/turnout/raw/bangor-results-index.html.gz",
+    "bytes": 20,
+    "sha256": "f1b651238a58fe290baec6c5e32f3bdb1943dd2bd582f02569231f7a757c7837"
+  },
+  {
+    "path": "data/turnout/raw/census-county-codes.txt.gz",
+    "bytes": 204,
+    "sha256": "91ef355392a4245feb3a960151fad4836e8917fb1f5a217da233329563bb6dec"
+  },
+  {
+    "path": "data/turnout/raw/clerk-2024.pdf.gz",
+    "bytes": 555842,
+    "sha256": "2713caa45483eca95548622e24d299a85c0c7d6f7ae3a2a8006a14e08efbef8f"
+  },
+  {
+    "path": "data/turnout/raw/declared-writeins-2022.pdf.gz",
+    "bytes": 76624,
+    "sha256": "3414169e877533dab8fd5cf0a6524c66c3300ac4e68af6712d84f895a8a6f6b3"
+  },
+  {
+    "path": "data/turnout/raw/declared-writeins-2024-idonly.html.gz",
+    "bytes": 20,
+    "sha256": "f1b651238a58fe290baec6c5e32f3bdb1943dd2bd582f02569231f7a757c7837"
+  },
+  {
+    "path": "data/turnout/raw/declared-writeins-2024.html.gz",
+    "bytes": 20,
+    "sha256": "f1b651238a58fe290baec6c5e32f3bdb1943dd2bd582f02569231f7a757c7837"
+  },
+  {
+    "path": "data/turnout/raw/enrollment-index.html.gz",
+    "bytes": 23806,
+    "sha256": "203686c679324b86ff6e69eff01eaf74cb3cd225b5dd89ca222956c7b8feb196"
+  },
+  {
+    "path": "data/turnout/raw/governor-2022.xlsx.gz",
+    "bytes": 44776,
+    "sha256": "a48a95c621f3c1944ab3e64216d7e866e11eac5fde2ff771c6468cc5ac792e9d"
+  },
+  {
+    "path": "data/turnout/raw/kittery-2024-index.html.gz",
+    "bytes": 20,
+    "sha256": "f1b651238a58fe290baec6c5e32f3bdb1943dd2bd582f02569231f7a757c7837"
+  },
+  {
+    "path": "data/turnout/raw/legislature-2022-certification.pdf.gz",
+    "bytes": 325268,
+    "sha256": "7f38d44613745b32a9f73fc8a04b76a24aa4265b57c9135f42c96b600f5964bd"
+  },
+  {
+    "path": "data/turnout/raw/legislature-2022-governor-archive.pdf.gz",
+    "bytes": 452366,
+    "sha256": "be4ab77523aa1190ea06cfd2c1f89b3f1f098426c5975ec538b0123bf8308e83"
+  },
+  {
+    "path": "data/turnout/raw/legislature-2024-final-notice.pdf.gz",
+    "bytes": 425638,
+    "sha256": "51ab48c9250688cb7482a1e5a7b2b4e6645944beb1b7c92d4f2bf9b64a22f5e7"
+  },
+  {
+    "path": "data/turnout/raw/legislature-2024-president-archive.xlsx.gz",
+    "bytes": 50312,
+    "sha256": "1115d2ea3e5a3e17729c2266ef84649242bcbaafc03d2901b76666a822246687"
+  },
+  {
+    "path": "data/turnout/raw/legislature-2024-senate-archive.xlsx.gz",
+    "bytes": 79708,
+    "sha256": "48bfc03ce579d76b14554867e45c82556fedce09a5211811f8dcb9f0faa776b4"
+  },
+  {
+    "path": "data/turnout/raw/nara-2024-certification.pdf.gz",
+    "bytes": 857784,
+    "sha256": "74b83bc371f76b4e987ec374b038472c89b7b85f3685a95888d9d8dbe28c3a4e"
+  },
+  {
+    "path": "data/turnout/raw/president-2024.xlsx.gz",
+    "bytes": 55499,
+    "sha256": "979970219c754428e2f61e91cfd5dd0369297991beba6596660378248bc11c5d"
+  },
+  {
+    "path": "data/turnout/raw/registration-2022-active.txt.gz",
+    "bytes": 13420,
+    "sha256": "c3f4a03b3bd6c3b8fcc61ce9b2eb4ca365c28aac8543c1f87119a2a4340877b3"
+  },
+  {
+    "path": "data/turnout/raw/registration-2022-inactive-pdf.pdf.gz",
+    "bytes": 115629,
+    "sha256": "09ba4552937748f0042ef1aa9dfc786db31b426b34a9a514bb35749216a06638"
+  },
+  {
+    "path": "data/turnout/raw/registration-2022-inactive.txt.gz",
+    "bytes": 11558,
+    "sha256": "227e8a8f7e778451826470a5ff3b67ee19ac33ad28d5fa6210353c0137cdf76a"
+  },
+  {
+    "path": "data/turnout/raw/registration-2022-pdf.pdf.gz",
+    "bytes": 118688,
+    "sha256": "e897247720e055656a9d5a8500bf0b064306ae1a156b4b52261f883dbb018be1"
+  },
+  {
+    "path": "data/turnout/raw/registration-2024-active.txt.gz",
+    "bytes": 14443,
+    "sha256": "bdff295de04a3f2033d6030899e184a35d95af25c0ba0c963c80b5349260cced"
+  },
+  {
+    "path": "data/turnout/raw/registration-2024-inactive-pdf.pdf.gz",
+    "bytes": 119496,
+    "sha256": "e63a26611ea79197bfcf7eadf758539bcdf8be37e38762dd4d4177bec799111d"
+  },
+  {
+    "path": "data/turnout/raw/registration-2024-inactive.txt.gz",
+    "bytes": 11598,
+    "sha256": "28f20214398c22b47df9eba9155bb82f70e81bcfb4750813b0d1ba3272235bbd"
+  },
+  {
+    "path": "data/turnout/raw/registration-2024-pdf.pdf.gz",
+    "bytes": 125146,
+    "sha256": "ffccd08f75508c879913d576e7fc3d53aec75b38b421733f519b5cd17f525963"
+  },
+  {
+    "path": "data/turnout/raw/registration-layout-2022.html.gz",
+    "bytes": 20652,
+    "sha256": "8b31c719246c917c852b0c7d63122a3b9d293b1b715ff330b373e22d46759efe"
+  },
+  {
+    "path": "data/turnout/raw/registration-layout-2024.html.gz",
+    "bytes": 20697,
+    "sha256": "a5d3b6df32d1cf403dcff6dd8b750f6103fede57fe06d996d8b43be672cb93e3"
+  },
+  {
+    "path": "data/turnout/raw/results-2022.html.gz",
+    "bytes": 22702,
+    "sha256": "4848fc14b2cd2966b404d9f79a0406b0121fef216e365d15ca78e287263b9675"
+  },
+  {
+    "path": "data/turnout/raw/results-2024-www-attempt.html.gz",
+    "bytes": 596,
+    "sha256": "1bddc50f583a531995ec9dfc9551ae0bd42f36e63b565407cfdde5974492c0de"
+  },
+  {
+    "path": "data/turnout/raw/results-2024.html.gz",
+    "bytes": 21611,
+    "sha256": "f97211703a2c88dc4895b94a35d9525b77a7e8a1658e8d71f6d20f84e55f8e0b"
+  },
+  {
+    "path": "data/turnout/raw/results-index.html.gz",
+    "bytes": 27643,
+    "sha256": "ad8826e75365cf2583ec503be04f4105fe0444cf127cda0370c335c06fae6ebf"
+  },
+  {
+    "path": "data/turnout/raw/senate-2024-www-attempt.html.gz",
+    "bytes": 597,
+    "sha256": "3d7f597a81aaa1a4cf2c211ab9a392db58e10d6b80610cf4321c4212f4b7d940"
+  },
+  {
+    "path": "data/turnout/raw/senate-2024.xlsx.gz",
+    "bytes": 84043,
+    "sha256": "6223ba98691544c8a3da59ffd5af0a7a18f2db51f9de7643a6b4b12953f188c0"
+  },
+  {
+    "path": "data/turnout/raw/sos-2024-rcv-process.html.gz",
+    "bytes": 25356,
+    "sha256": "f011cbeb90aee4f20076cd72c9c8aa862ae99af699585241375427f9551068cc"
+  },
+  {
+    "path": "data/turnout/raw/union-2022-index.html.gz",
+    "bytes": 9481,
+    "sha256": "b58cf198729b7611248c5ad276c46550ee8994c4ac2f56405169cedb61fe3898"
+  },
+  {
+    "path": "data/turnout/raw/union-2022-local.pdf.gz",
+    "bytes": 19741,
+    "sha256": "3205947657813594e5502c7be0b9ffb1b653aaea591659e6752d7c99fe3263e0"
+  },
+  {
+    "path": "data/turnout/raw/union-2024-index.html.gz",
+    "bytes": 9595,
+    "sha256": "fe1b812b6a4053c70884c5594b8cd90b8212c0990b332a1c0db01495f625496e"
+  },
+  {
+    "path": "data/turnout/raw/union-2024-local.pdf.gz",
+    "bytes": 22730,
+    "sha256": "4f70aacd6c711dcb0c507b6b536236fae8223333046f5743618d7595325953d3"
+  },
+  {
+    "path": "data/turnout/registration-native-rows.csv",
+    "bytes": 806274,
+    "sha256": "4055d860c09ed527b5f1de94b643da6180ea6ff8b210531c333673b0884d3827"
+  },
+  {
+    "path": "data/turnout/registration-summary.json",
+    "bytes": 926,
+    "sha256": "a943e5410ae5135ba7b33fc611d4901486a9546545722e3cf98ac6e4cce8ad8b"
+  },
+  {
+    "path": "data/turnout/senate-2024-ranked.csv",
+    "bytes": 225792,
+    "sha256": "3c195859ae4c0732b69f4d50685e8ec58ba0eeab494f884b9c2b37972c07fd1e"
+  },
+  {
+    "path": "data/turnout/senate-2024-source-rows.csv",
+    "bytes": 1315729,
+    "sha256": "823da7cdc37d090cf21c10637f116e35a8cf8f27a0ce3d8c3db27f1fc1c0cc49"
+  },
+  {
+    "path": "data/turnout/source-vintage-diff.json",
+    "bytes": 6338,
+    "sha256": "9d46600f0386a97e27dfaa1aae5e82631c3333f93a63a5ccdb709a28589a515c"
+  },
+  {
+    "path": "data/turnout/validate_turnout.py",
+    "bytes": 13835,
+    "sha256": "b9952f506a0389b4b5ed24d1d2df923cc8656c6caa19183bbebe6e3b4fea5ae4"
+  },
+  {
+    "path": "data/turnout/write_report.py",
+    "bytes": 22875,
+    "sha256": "0db9a0184b9b9581c16621463364f74e7fd48e1e9c9d25528715745f20b7f04a"
+  },
+  {
+    "path": "data/turnout/xlsx_read.py",
+    "bytes": 1718,
+    "sha256": "e7d1c749a226d9408e3e2a9011dacf3b55a01ba62f7489fa8b583f810569a577"
+  },
+  {
+    "path": "turnout.md",
+    "bytes": 28041,
+    "sha256": "763ba399ded00ea1136af019bc09e8063c9619a52d70d4595c2781619bb28143"
+  }
+]
