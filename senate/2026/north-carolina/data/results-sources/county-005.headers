@@ -1,0 +1,32 @@
+HTTP/1.1 302 Found
+content-length: 0
+location: https://www.ashecountygov.com/departments/board-of-elections/
+cache-control: no-cache
+
+HTTP/2 301 
+date: Sun, 18 Oct 2026 00:25:50 GMT
+content-type: text/html; charset=UTF-8
+content-length: 18
+cache-control: public, max-age=86400
+location: https://www.ashecountygov.com/departments/board-of-elections
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+vary: Accept-Encoding, x-forwarded-proto
+age: 17126
+x-cache: HIT
+
+HTTP/2 200 
+date: Sun, 18 Oct 2026 00:25:50 GMT
+content-type: text/html;charset=UTF-8
+content-length: 4500
+cache-control: public, max-age=86400
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-encoding: gzip
+vary: Accept-Encoding, Accept-Encoding, x-forwarded-proto
+age: 7428
+x-cache: HIT
+accept-ranges: bytes
+

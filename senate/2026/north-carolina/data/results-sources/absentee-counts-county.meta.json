@@ -1,0 +1,18 @@
+{
+  "source_id": "absentee-counts-county",
+  "url": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_county_20261103.csv",
+  "final_url": "https://s3.amazonaws.com/dl.ncsbe.gov/ENRS/2026_11_03/absentee_counts_county_20261103.csv",
+  "retrieval_started_utc": "2026-10-18T00:28:44.026265+00:00",
+  "retrieved_utc": "2026-10-18T00:28:44.253105+00:00",
+  "http_status": 200,
+  "curl_exit": 63,
+  "error": "curl: (63) Maximum file size exceeded\n",
+  "content_type": "binary/octet-stream",
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "saved_file": "absentee-counts-county.body.gz",
+  "headers_file": "absentee-counts-county.headers",
+  "complete": false,
+  "storage": "curl --compressed response bytes; lossless gzip; hash is decompressed body",
+  "cap_bytes": 8388608
+}

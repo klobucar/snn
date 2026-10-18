@@ -1,0 +1,3398 @@
+{
+  "priority_count": 38,
+  "inventory_count": 100,
+  "priority_president_2024_votes": 4576486,
+  "statewide_president_2024_votes": 5699145,
+  "priority_pct": 80.30127326116462,
+  "dependencies": [
+    {
+      "path": "data/county-turnout.csv",
+      "sha256": "692233a08848282887fbdf3917a7fccb65677e896c5b4acc31469fe8144c7158"
+    },
+    {
+      "path": "data/turnout/results_pct_20241105.zip",
+      "sha256": "2fab44e9b12e03c0d88ef832c2e6dc8c569e2b020d64df06a8b551b62bbdb426",
+      "date": "20241105",
+      "contest_group_id": 1393
+    },
+    {
+      "path": "data/turnout/results_pct_20221108.zip",
+      "sha256": "2024bf67243ef173f54e625c3bace4c8b6f80947fa7d67df26796c2c85d3e9f1",
+      "date": "20221108",
+      "contest_group_id": 1378
+    }
+  ],
+  "runtime": {
+    "python": "3.11.8",
+    "pyshp": "3.1.6",
+    "pyproj": "3.7.2",
+    "proj": "9.5.1",
+    "shapely": "2.2.0",
+    "geos": "3.14.1"
+  },
+  "vintages": {
+    "2024-07-23": {
+      "archive": "raw/SBE_PRECINCTS_20240723.zip",
+      "archive_sha256": "bd9d37ac1f59ca77c55ce94cb3fe10c7c42cf7fc00f4dece7c841afe2cfb03b9",
+      "zip_members": {
+        "SBE_PRECINCTS_20240723.cpg": {
+          "bytes": 5,
+          "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+          "crc32": "0e813c50"
+        },
+        "SBE_PRECINCTS_20240723.dbf": {
+          "bytes": 1219394,
+          "sha256": "6b233bdcb6303616141ee8b501f1932957aaecc18149156122a2e14e5d527cc0",
+          "crc32": "0ff57875"
+        },
+        "SBE_PRECINCTS_20240723.prj": {
+          "bytes": 550,
+          "sha256": "1f904c84e6f74baa5076adafdc5d9dfdad208075f8924e416519bc589a1f23bb",
+          "crc32": "6f906240"
+        },
+        "SBE_PRECINCTS_20240723.sbn": {
+          "bytes": 26836,
+          "sha256": "5d899d64fc23d55d48fbaf08d161462bb8641d21bb0aeb2c9b11efdbb14a3ea9",
+          "crc32": "b3d47594"
+        },
+        "SBE_PRECINCTS_20240723.sbx": {
+          "bytes": 1980,
+          "sha256": "4c8536f91598f817b7fc68ee25e0add389e5ff0b28f5457125f54c8f06698402",
+          "crc32": "9334606e"
+        },
+        "SBE_PRECINCTS_20240723.shp": {
+          "bytes": 31658164,
+          "sha256": "950b80fb18a561b2860e073ed518861093eef6888404ef309379d3a2697f888b",
+          "crc32": "7ecdc3e2"
+        },
+        "SBE_PRECINCTS_20240723.shp.xml": {
+          "bytes": 30037,
+          "sha256": "423d1416f9a35b61356e8cd9ec445c0cb3f0f08d1124cec9254871f17b55669b",
+          "crc32": "85bc89d2"
+        },
+        "SBE_PRECINCTS_20240723.shx": {
+          "bytes": 21348,
+          "sha256": "82407a22a307a19dbc9ff28bb4e7b414e25c6a30214ce1d38d2d29291926797a",
+          "crc32": "82aadf01"
+        }
+      },
+      "statewide_features": 2656,
+      "source_crs_wkt": "PROJCS[\"NAD_1983_StatePlane_North_Carolina_FIPS_3200_Feet\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",2000000.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-79.0],PARAMETER[\"Standard_Parallel_1\",34.3333333333333],PARAMETER[\"Standard_Parallel_2\",36.1666666666667],PARAMETER[\"Latitude_Of_Origin\",33.75],UNIT[\"US survey foot\",0.3048006096012192]]",
+      "source_crs": "EPSG:2264",
+      "geojson_crs": "OGC:CRS84 (WGS84 longitude, latitude)",
+      "source_fields": [
+        {
+          "name": "id",
+          "type": "N",
+          "width": 10,
+          "decimals": 0
+        },
+        {
+          "name": "prec_id",
+          "type": "C",
+          "width": 100,
+          "decimals": 0
+        },
+        {
+          "name": "enr_desc",
+          "type": "C",
+          "width": 150,
+          "decimals": 0
+        },
+        {
+          "name": "county_nam",
+          "type": "C",
+          "width": 100,
+          "decimals": 0
+        },
+        {
+          "name": "of_prec_id",
+          "type": "C",
+          "width": 50,
+          "decimals": 0
+        },
+        {
+          "name": "county_id",
+          "type": "N",
+          "width": 10,
+          "decimals": 0
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "F",
+          "width": 19,
+          "decimals": 11
+        },
+        {
+          "name": "Shape_Area",
+          "type": "F",
+          "width": 19,
+          "decimals": 11
+        }
+      ],
+      "transform": {
+        "description": "Inverse of SPCS83 North Carolina zone (US survey foot) + NAD83 to WGS 84 (1) + axis order change (2D)",
+        "pipeline": "proj=pipeline step proj=unitconvert xy_in=us-ft xy_out=m step inv proj=lcc lat_0=33.75 lon_0=-79 lat_1=36.1666666666667 lat_2=34.3333333333333 x_0=609601.219202438 y_0=0 ellps=GRS80 step proj=unitconvert xy_in=rad xy_out=deg",
+        "accuracy_metres": 4.0,
+        "best_available": false,
+        "warnings": [
+          "Best transformation is not available due to missing Grid(short_name=us_noaa_nchpgn.tif, full_name=, package_name=, url=https://cdn.proj.org/us_noaa_nchpgn.tif, direct_download=True, open_license=True, available=False)"
+        ],
+        "unavailable_operations": [
+          "Inverse of SPCS83 North Carolina zone (US survey foot) + NAD83 to WGS 84 (55)",
+          "Inverse of SPCS83 North Carolina zone (US survey foot) + NAD83 to WGS 84 (56)",
+          "Inverse of SPCS83 North Carolina zone (US survey foot) + NAD83 to WGS 84 (37)",
+          "Inverse of SPCS83 North Carolina zone (US survey foot) + NAD83 to WGS 84 (17)",
+          "Inverse of SPCS83 North Carolina zone (US survey foot) + NAD83 to WGS 84 (40)",
+          "Inverse of SPCS83 North Carolina zone (US survey foot) + NAD83 to WGS 84 (22)"
+        ]
+      },
+      "counties": {
+        "WAKE": {
+          "feature_count": 210,
+          "bbox": [
+            -78.9950479913208,
+            35.519458000305725,
+            -78.25371099138387,
+            36.076442999977246
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 99,
+              "county_id": 92,
+              "county_nam": "WAKE",
+              "prec_id": "01-01",
+              "enr_desc": "01-01",
+              "of_prec_id": ""
+            },
+            {
+              "id": 101,
+              "county_id": 92,
+              "county_nam": "WAKE",
+              "prec_id": "01-02",
+              "enr_desc": "01-02",
+              "of_prec_id": ""
+            },
+            {
+              "id": 102,
+              "county_id": 92,
+              "county_nam": "WAKE",
+              "prec_id": "01-03",
+              "enr_desc": "01-03",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 105322
+        },
+        "MECKLENBURG": {
+          "feature_count": 195,
+          "bbox": [
+            -81.05820699153949,
+            35.00169200043656,
+            -80.55034899154798,
+            35.51478499984875
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 6,
+              "county_id": 60,
+              "county_nam": "MECKLENBURG",
+              "prec_id": "001",
+              "enr_desc": "001",
+              "of_prec_id": ""
+            },
+            {
+              "id": 26,
+              "county_id": 60,
+              "county_nam": "MECKLENBURG",
+              "prec_id": "002",
+              "enr_desc": "002",
+              "of_prec_id": ""
+            },
+            {
+              "id": 44,
+              "county_id": 60,
+              "county_nam": "MECKLENBURG",
+              "prec_id": "003",
+              "enr_desc": "003",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 67952
+        },
+        "GUILFORD": {
+          "feature_count": 165,
+          "bbox": [
+            -80.04686899116554,
+            35.89985099986212,
+            -79.53240999147594,
+            36.25718400009487
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1600,
+              "county_id": 41,
+              "county_nam": "GUILFORD",
+              "prec_id": "CG1",
+              "enr_desc": "CG1",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1601,
+              "county_id": 41,
+              "county_nam": "GUILFORD",
+              "prec_id": "CG2",
+              "enr_desc": "CG2",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1602,
+              "county_id": 41,
+              "county_nam": "GUILFORD",
+              "prec_id": "CG3A",
+              "enr_desc": "CG3A",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 46542
+        },
+        "FORSYTH": {
+          "feature_count": 108,
+          "bbox": [
+            -80.51668199123979,
+            35.97276199970947,
+            -80.03511899082645,
+            36.2615149998244
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 10000,
+              "county_id": 34,
+              "county_nam": "FORSYTH",
+              "prec_id": "012",
+              "enr_desc": "UNION CROSS ELEMENTARY SCHOOL",
+              "of_prec_id": ""
+            },
+            {
+              "id": 10001,
+              "county_id": 34,
+              "county_nam": "FORSYTH",
+              "prec_id": "013",
+              "enr_desc": "SEDGE GARDEN ELEMENTARY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 10002,
+              "county_id": 34,
+              "county_nam": "FORSYTH",
+              "prec_id": "014",
+              "enr_desc": "BEESONS CROSSROADS FIRE",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 31584
+        },
+        "DURHAM": {
+          "feature_count": 60,
+          "bbox": [
+            -79.01630499067694,
+            35.86321000009345,
+            -78.69931599106128,
+            36.239319999857365
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 82,
+              "county_id": 32,
+              "county_nam": "DURHAM",
+              "prec_id": "01",
+              "enr_desc": "BROGDEN MIDDLE SCHOOL",
+              "of_prec_id": ""
+            },
+            {
+              "id": 205,
+              "county_id": 32,
+              "county_nam": "DURHAM",
+              "prec_id": "02",
+              "enr_desc": "GEORGE WATTS ELEMENTARY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 274,
+              "county_id": 32,
+              "county_nam": "DURHAM",
+              "prec_id": "03",
+              "enr_desc": "E K POWE ELEMENTARY",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 21679
+        },
+        "BUNCOMBE": {
+          "feature_count": 80,
+          "bbox": [
+            -82.88810699101593,
+            35.41645000060106,
+            -82.16904899089364,
+            35.82411000060309
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 156,
+              "county_id": 11,
+              "county_nam": "BUNCOMBE",
+              "prec_id": "01.1",
+              "enr_desc": "STEPHENS LEE COMMUNITY CENTER",
+              "of_prec_id": ""
+            },
+            {
+              "id": 227,
+              "county_id": 11,
+              "county_nam": "BUNCOMBE",
+              "prec_id": "02.1",
+              "enr_desc": "MONTFORD COMMUNITY CENTER",
+              "of_prec_id": ""
+            },
+            {
+              "id": 280,
+              "county_id": 11,
+              "county_nam": "BUNCOMBE",
+              "prec_id": "03.1",
+              "enr_desc": "ST MARKS LUTHERAN CHURCH",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 61318
+        },
+        "CUMBERLAND": {
+          "feature_count": 77,
+          "bbox": [
+            -79.11292099145011,
+            34.83486200037783,
+            -78.49467799176152,
+            35.266914000296794
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1447,
+              "county_id": 26,
+              "county_nam": "CUMBERLAND",
+              "prec_id": "AH49",
+              "enr_desc": "ARRAN HILLS",
+              "of_prec_id": ""
+            },
+            {
+              "id": 3071,
+              "county_id": 26,
+              "county_nam": "CUMBERLAND",
+              "prec_id": "AL51-1",
+              "enr_desc": "ALDERMAN1",
+              "of_prec_id": ""
+            },
+            {
+              "id": 3072,
+              "county_id": 26,
+              "county_nam": "CUMBERLAND",
+              "prec_id": "AL51-2",
+              "enr_desc": "ALDERMAN2",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 36937
+        },
+        "UNION": {
+          "feature_count": 54,
+          "bbox": [
+            -80.84027799153917,
+            34.813906000419735,
+            -80.27682899107616,
+            35.20841200048001
+          ],
+          "native_invalid": 1,
+          "geojson_invalid": 1,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 3027,
+              "county_id": 90,
+              "county_nam": "UNION",
+              "prec_id": "0005",
+              "enr_desc": "005",
+              "of_prec_id": ""
+            },
+            {
+              "id": 7,
+              "county_id": 90,
+              "county_nam": "UNION",
+              "prec_id": "001",
+              "enr_desc": "BENTON HEIGHTS CHURCH OF GOD",
+              "of_prec_id": ""
+            },
+            {
+              "id": 3029,
+              "county_id": 90,
+              "county_nam": "UNION",
+              "prec_id": "0019",
+              "enr_desc": "019",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 37403
+        },
+        "NEW HANOVER": {
+          "feature_count": 41,
+          "bbox": [
+            -78.02992199095343,
+            33.786799999616996,
+            -77.67527599121239,
+            34.38935899988866
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1588,
+              "county_id": 65,
+              "county_nam": "NEW HANOVER",
+              "prec_id": "CF01",
+              "enr_desc": "CF01",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1589,
+              "county_id": 65,
+              "county_nam": "NEW HANOVER",
+              "prec_id": "CF02",
+              "enr_desc": "CF02",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1590,
+              "county_id": 65,
+              "county_nam": "NEW HANOVER",
+              "prec_id": "CF05",
+              "enr_desc": "CF05",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 15729
+        },
+        "JOHNSTON": {
+          "feature_count": 36,
+          "bbox": [
+            -78.70890199075369,
+            35.25466299955155,
+            -78.06478399167396,
+            35.8181199999109
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 2308,
+              "county_id": 51,
+              "county_nam": "JOHNSTON",
+              "prec_id": "PR04",
+              "enr_desc": "BENTONVILLE",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2309,
+              "county_id": 51,
+              "county_nam": "JOHNSTON",
+              "prec_id": "PR07",
+              "enr_desc": "NORTH BOON HILL",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2312,
+              "county_id": 51,
+              "county_nam": "JOHNSTON",
+              "prec_id": "PR08",
+              "enr_desc": "SOUTH BOON HILL",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 39109
+        },
+        "CABARRUS": {
+          "feature_count": 39,
+          "bbox": [
+            -80.78709099141356,
+            35.18499799994962,
+            -80.29542099119242,
+            35.50651000006541
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 100,
+              "county_id": 13,
+              "county_nam": "CABARRUS",
+              "prec_id": "01-02",
+              "enr_desc": "01-02",
+              "of_prec_id": ""
+            },
+            {
+              "id": 104,
+              "county_id": 13,
+              "county_nam": "CABARRUS",
+              "prec_id": "01-04",
+              "enr_desc": "01-04",
+              "of_prec_id": ""
+            },
+            {
+              "id": 108,
+              "county_id": 13,
+              "county_nam": "CABARRUS",
+              "prec_id": "01-07",
+              "enr_desc": "01-07",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 13155
+        },
+        "GASTON": {
+          "feature_count": 46,
+          "bbox": [
+            -81.45559999163478,
+            35.148412000583825,
+            -80.92299799093378,
+            35.41981100047628
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 83,
+              "county_id": 36,
+              "county_nam": "GASTON",
+              "prec_id": "01",
+              "enr_desc": "YORK CHESTER",
+              "of_prec_id": ""
+            },
+            {
+              "id": 206,
+              "county_id": 36,
+              "county_nam": "GASTON",
+              "prec_id": "02",
+              "enr_desc": "VICTORY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 261,
+              "county_id": 36,
+              "county_nam": "GASTON",
+              "prec_id": "03",
+              "enr_desc": "PLEASANT RIDGE",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 21890
+        },
+        "IREDELL": {
+          "feature_count": 30,
+          "bbox": [
+            -81.1095069906841,
+            35.488473000070115,
+            -80.69319699065278,
+            36.0588099998011
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1478,
+              "county_id": 49,
+              "county_nam": "IREDELL",
+              "prec_id": "BA-1",
+              "enr_desc": "BARRINGER",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1489,
+              "county_id": 49,
+              "county_nam": "IREDELL",
+              "prec_id": "BE",
+              "enr_desc": "BETHANY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1559,
+              "county_id": 49,
+              "county_nam": "IREDELL",
+              "prec_id": "CC1",
+              "enr_desc": "CODDLE CREEK  1",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 13964
+        },
+        "BRUNSWICK": {
+          "feature_count": 27,
+          "bbox": [
+            -78.65088099175055,
+            33.75287799999573,
+            -77.89701099090615,
+            34.37181399964222
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1543,
+              "county_id": 10,
+              "county_nam": "BRUNSWICK",
+              "prec_id": "CB01",
+              "enr_desc": "SUPPLY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1544,
+              "county_id": 10,
+              "county_nam": "BRUNSWICK",
+              "prec_id": "CB02",
+              "enr_desc": "SHALLOTTE",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1545,
+              "county_id": 10,
+              "county_nam": "BRUNSWICK",
+              "prec_id": "CB03",
+              "enr_desc": "FRYING PAN",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 26806
+        },
+        "DAVIDSON": {
+          "feature_count": 43,
+          "bbox": [
+            -80.48758599130974,
+            35.50414100030971,
+            -80.04323799090182,
+            36.02681000031658
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 334,
+              "county_id": 29,
+              "county_nam": "DAVIDSON",
+              "prec_id": "04",
+              "enr_desc": "ARCADIA 04",
+              "of_prec_id": ""
+            },
+            {
+              "id": 434,
+              "county_id": 29,
+              "county_nam": "DAVIDSON",
+              "prec_id": "06",
+              "enr_desc": "BOONE 06",
+              "of_prec_id": ""
+            },
+            {
+              "id": 538,
+              "county_id": 29,
+              "county_nam": "DAVIDSON",
+              "prec_id": "08",
+              "enr_desc": "CENTRAL 08",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 35071
+        },
+        "ALAMANCE": {
+          "feature_count": 39,
+          "bbox": [
+            -79.54242799109755,
+            35.84330299984997,
+            -79.236597991467,
+            36.24967299961993
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 86,
+              "county_id": 1,
+              "county_nam": "ALAMANCE",
+              "prec_id": "01",
+              "enr_desc": "PATTERSON",
+              "of_prec_id": ""
+            },
+            {
+              "id": 198,
+              "county_id": 1,
+              "county_nam": "ALAMANCE",
+              "prec_id": "02",
+              "enr_desc": "COBLE",
+              "of_prec_id": ""
+            },
+            {
+              "id": 299,
+              "county_id": 1,
+              "county_nam": "ALAMANCE",
+              "prec_id": "035",
+              "enr_desc": "BOONE 5",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 23740
+        },
+        "ORANGE": {
+          "feature_count": 40,
+          "bbox": [
+            -79.26843399108934,
+            35.860775999911894,
+            -78.95059699070418,
+            36.24344499972318
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1532,
+              "county_id": 68,
+              "county_nam": "ORANGE",
+              "prec_id": "CA",
+              "enr_desc": "CARR",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1549,
+              "county_id": 68,
+              "county_nam": "ORANGE",
+              "prec_id": "CB1",
+              "enr_desc": "CARRBORO",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1592,
+              "county_id": 68,
+              "county_nam": "ORANGE",
+              "prec_id": "CF1",
+              "enr_desc": "CEDAR FALLS",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 16090
+        },
+        "PITT": {
+          "feature_count": 40,
+          "bbox": [
+            -77.70069199093781,
+            35.327394000273635,
+            -77.08464099106368,
+            35.833062000026246
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 161,
+              "county_id": 74,
+              "county_nam": "PITT",
+              "prec_id": "0101",
+              "enr_desc": "ARTHUR",
+              "of_prec_id": ""
+            },
+            {
+              "id": 229,
+              "county_id": 74,
+              "county_nam": "PITT",
+              "prec_id": "0200A",
+              "enr_desc": "AYDEN A",
+              "of_prec_id": ""
+            },
+            {
+              "id": 230,
+              "county_id": 74,
+              "county_nam": "PITT",
+              "prec_id": "0200B",
+              "enr_desc": "AYDEN B",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 24753
+        },
+        "CATAWBA": {
+          "feature_count": 40,
+          "bbox": [
+            -81.53540299102687,
+            35.547020000032326,
+            -80.92517999066938,
+            35.82895799974085
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 89,
+              "county_id": 18,
+              "county_nam": "CATAWBA",
+              "prec_id": "01",
+              "enr_desc": "BALLS CREEK",
+              "of_prec_id": ""
+            },
+            {
+              "id": 195,
+              "county_id": 18,
+              "county_nam": "CATAWBA",
+              "prec_id": "02",
+              "enr_desc": "BANOAK",
+              "of_prec_id": ""
+            },
+            {
+              "id": 262,
+              "county_id": 18,
+              "county_nam": "CATAWBA",
+              "prec_id": "03",
+              "enr_desc": "BLACKBURN",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 38558
+        },
+        "ONSLOW": {
+          "feature_count": 24,
+          "bbox": [
+            -77.68012699124208,
+            34.39970500004068,
+            -77.0960729915965,
+            34.98446000000472
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1485,
+              "county_id": 67,
+              "county_nam": "ONSLOW",
+              "prec_id": "BC21",
+              "enr_desc": "BEAR CREEK",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1514,
+              "county_id": 67,
+              "county_nam": "ONSLOW",
+              "prec_id": "BM08",
+              "enr_desc": "BRYNN MARR",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1621,
+              "county_id": 67,
+              "county_nam": "ONSLOW",
+              "prec_id": "CL10",
+              "enr_desc": "CATHERINE LAKE",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 18343
+        },
+        "RANDOLPH": {
+          "feature_count": 22,
+          "bbox": [
+            -80.06684199067605,
+            35.50566100040378,
+            -79.54172799087787,
+            35.92069299972634
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1446,
+              "county_id": 76,
+              "county_nam": "RANDOLPH",
+              "prec_id": "AE",
+              "enr_desc": "ASHEBORO EAST",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1453,
+              "county_id": 76,
+              "county_nam": "RANDOLPH",
+              "prec_id": "AN",
+              "enr_desc": "ASHEBORO NORTH",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1460,
+              "county_id": 76,
+              "county_nam": "RANDOLPH",
+              "prec_id": "AR",
+              "enr_desc": "ARCHDALE",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 8566
+        },
+        "ROWAN": {
+          "feature_count": 41,
+          "bbox": [
+            -80.77158199169146,
+            35.501960999728986,
+            -80.1828659912653,
+            35.86349999979724
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 97,
+              "county_id": 80,
+              "county_nam": "ROWAN",
+              "prec_id": "01",
+              "enr_desc": "BARNHARDT MILL",
+              "of_prec_id": ""
+            },
+            {
+              "id": 203,
+              "county_id": 80,
+              "county_nam": "ROWAN",
+              "prec_id": "02",
+              "enr_desc": "BLACKWELDER PARK",
+              "of_prec_id": ""
+            },
+            {
+              "id": 270,
+              "county_id": 80,
+              "county_nam": "ROWAN",
+              "prec_id": "03",
+              "enr_desc": "BOSTIAN CROSS ROAD",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 30032
+        },
+        "HENDERSON": {
+          "feature_count": 34,
+          "bbox": [
+            -82.74513899094796,
+            35.14418800027328,
+            -82.26115099078906,
+            35.500220000472574
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1459,
+              "county_id": 45,
+              "county_nam": "HENDERSON",
+              "prec_id": "AR",
+              "enr_desc": "ARMORY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1465,
+              "county_id": 45,
+              "county_nam": "HENDERSON",
+              "prec_id": "AT",
+              "enr_desc": "ATKINSON",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1481,
+              "county_id": 45,
+              "county_nam": "HENDERSON",
+              "prec_id": "BC",
+              "enr_desc": "BAT CAVE",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 27759
+        },
+        "HARNETT": {
+          "feature_count": 13,
+          "bbox": [
+            -79.22302099170447,
+            35.19201199967183,
+            -78.52985099160493,
+            35.58368199983634
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 2298,
+              "county_id": 43,
+              "county_nam": "HARNETT",
+              "prec_id": "PR01",
+              "enr_desc": "ANDERSON CREEK",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2310,
+              "county_id": 43,
+              "county_nam": "HARNETT",
+              "prec_id": "PR07",
+              "enr_desc": "BARBECUE",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2311,
+              "county_id": 43,
+              "county_nam": "HARNETT",
+              "prec_id": "PR08",
+              "enr_desc": "BLACK RIVER",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 9275
+        },
+        "MOORE": {
+          "feature_count": 26,
+          "bbox": [
+            -79.76795699112654,
+            35.043028000333756,
+            -79.09580799147994,
+            35.518001999711664
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1502,
+              "county_id": 63,
+              "county_nam": "MOORE",
+              "prec_id": "BEN",
+              "enr_desc": "BENSALEM",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1534,
+              "county_id": 63,
+              "county_nam": "MOORE",
+              "prec_id": "CAM",
+              "enr_desc": "CAMERON",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1537,
+              "county_id": 63,
+              "county_nam": "MOORE",
+              "prec_id": "CAR",
+              "enr_desc": "CARTHAGE",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 18497
+        },
+        "CRAVEN": {
+          "feature_count": 21,
+          "bbox": [
+            -77.47371699155677,
+            34.808917000191364,
+            -76.65257099172975,
+            35.418361999900576
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 194,
+              "county_id": 25,
+              "county_nam": "CRAVEN",
+              "prec_id": "02",
+              "enr_desc": "HAVELOCK",
+              "of_prec_id": ""
+            },
+            {
+              "id": 272,
+              "county_id": 25,
+              "county_nam": "CRAVEN",
+              "prec_id": "03",
+              "enr_desc": "TRENT WOODS",
+              "of_prec_id": ""
+            },
+            {
+              "id": 396,
+              "county_id": 25,
+              "county_nam": "CRAVEN",
+              "prec_id": "05",
+              "enr_desc": "RIVER BEND",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 24189
+        },
+        "LINCOLN": {
+          "feature_count": 23,
+          "bbox": [
+            -81.53759899160796,
+            35.40007799983662,
+            -80.93966699077899,
+            35.56813700001765
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1463,
+              "county_id": 55,
+              "county_nam": "LINCOLN",
+              "prec_id": "AS25",
+              "enr_desc": "ASBURY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1483,
+              "county_id": 55,
+              "county_nam": "LINCOLN",
+              "prec_id": "BC13",
+              "enr_desc": "BOGER CITY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1521,
+              "county_id": 55,
+              "county_nam": "LINCOLN",
+              "prec_id": "BS26",
+              "enr_desc": "BUFFALO SHOALS",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 19717
+        },
+        "WAYNE": {
+          "feature_count": 28,
+          "bbox": [
+            -78.30657999093587,
+            35.14631500008711,
+            -77.79985899167363,
+            35.59780600001605
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 88,
+              "county_id": 96,
+              "county_nam": "WAYNE",
+              "prec_id": "01",
+              "enr_desc": "01",
+              "of_prec_id": ""
+            },
+            {
+              "id": 204,
+              "county_id": 96,
+              "county_nam": "WAYNE",
+              "prec_id": "02",
+              "enr_desc": "02",
+              "of_prec_id": ""
+            },
+            {
+              "id": 264,
+              "county_id": 96,
+              "county_nam": "WAYNE",
+              "prec_id": "03",
+              "enr_desc": "03",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 24873
+        },
+        "NASH": {
+          "feature_count": 24,
+          "bbox": [
+            -78.25716399081652,
+            35.727754000363895,
+            -77.69795599103209,
+            36.20263299981614
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 2182,
+              "county_id": 64,
+              "county_nam": "NASH",
+              "prec_id": "P01A",
+              "enr_desc": "BAILEY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2185,
+              "county_id": 64,
+              "county_nam": "NASH",
+              "prec_id": "P02A",
+              "enr_desc": "MIDDLESEX",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2188,
+              "county_id": 64,
+              "county_nam": "NASH",
+              "prec_id": "P03A",
+              "enr_desc": "SAMARIA",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 34646
+        },
+        "CHATHAM": {
+          "feature_count": 18,
+          "bbox": [
+            -79.55580399086958,
+            35.5150390001826,
+            -78.90607099132465,
+            35.87680999986798
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 885,
+              "county_id": 19,
+              "county_nam": "CHATHAM",
+              "prec_id": "15",
+              "enr_desc": "BYNUM",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1082,
+              "county_id": 19,
+              "county_nam": "CHATHAM",
+              "prec_id": "21",
+              "enr_desc": "HADLEY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1195,
+              "county_id": 19,
+              "county_nam": "CHATHAM",
+              "prec_id": "3",
+              "enr_desc": "ALBRIGHT",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 28769
+        },
+        "CLEVELAND": {
+          "feature_count": 21,
+          "bbox": [
+            -81.76810199103828,
+            35.16346700047493,
+            -81.32172899178566,
+            35.58457600048951
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1505,
+              "county_id": 23,
+              "county_nam": "CLEVELAND",
+              "prec_id": "BETHWR",
+              "enr_desc": "BETHWR",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1518,
+              "county_id": 23,
+              "county_nam": "CLEVELAND",
+              "prec_id": "BR",
+              "enr_desc": "BROAD RIVER",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1539,
+              "county_id": 23,
+              "county_nam": "CLEVELAND",
+              "prec_id": "CASAR",
+              "enr_desc": "CASAR",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 12408
+        },
+        "ROCKINGHAM": {
+          "feature_count": 15,
+          "bbox": [
+            -80.03511899082645,
+            36.24146300024123,
+            -79.51363799086378,
+            36.542696000480845
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1667,
+              "county_id": 79,
+              "county_nam": "ROCKINGHAM",
+              "prec_id": "DR",
+              "enr_desc": "DRAPER",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1688,
+              "county_id": 79,
+              "county_nam": "ROCKINGHAM",
+              "prec_id": "EC",
+              "enr_desc": "EDEN CENTRAL",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1690,
+              "county_id": 79,
+              "county_nam": "ROCKINGHAM",
+              "prec_id": "ED-1",
+              "enr_desc": "EDEN-1",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 15976
+        },
+        "ROBESON": {
+          "feature_count": 39,
+          "bbox": [
+            -79.46150599120541,
+            34.29934199995195,
+            -78.80543099096033,
+            34.95271500015154
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 92,
+              "county_id": 78,
+              "county_nam": "ROBESON",
+              "prec_id": "01",
+              "enr_desc": "ALFORDSVILLE",
+              "of_prec_id": ""
+            },
+            {
+              "id": 208,
+              "county_id": 78,
+              "county_nam": "ROBESON",
+              "prec_id": "02",
+              "enr_desc": "BACK SWAMP",
+              "of_prec_id": ""
+            },
+            {
+              "id": 267,
+              "county_id": 78,
+              "county_nam": "ROBESON",
+              "prec_id": "03",
+              "enr_desc": "BRITTS",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 38246
+        },
+        "BURKE": {
+          "feature_count": 31,
+          "bbox": [
+            -81.98693899159551,
+            35.55818699977758,
+            -81.36379599105435,
+            35.999909000288206
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 9999,
+              "county_id": 12,
+              "county_nam": "BURKE",
+              "prec_id": "0001",
+              "enr_desc": "DREXEL 01",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2,
+              "county_id": 12,
+              "county_nam": "BURKE",
+              "prec_id": "0003",
+              "enr_desc": "DREXEL 03",
+              "of_prec_id": ""
+            },
+            {
+              "id": 9,
+              "county_id": 12,
+              "county_nam": "BURKE",
+              "prec_id": "0011",
+              "enr_desc": "ICARD 01",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 27387
+        },
+        "CARTERET": {
+          "feature_count": 26,
+          "bbox": [
+            -77.16776899133376,
+            34.531736000018384,
+            -76.0065569915957,
+            35.20145300023468
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1444,
+              "county_id": 16,
+              "county_nam": "CARTERET",
+              "prec_id": "ABCH",
+              "enr_desc": "ATLANTIC BEACH",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1464,
+              "county_id": 16,
+              "county_nam": "CARTERET",
+              "prec_id": "ASCI",
+              "enr_desc": "Atlantic/Sea Level/Cedar Island",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1487,
+              "county_id": 16,
+              "county_nam": "CARTERET",
+              "prec_id": "BCRK",
+              "enr_desc": "BROAD CREEK",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 16228
+        },
+        "CALDWELL": {
+          "feature_count": 15,
+          "bbox": [
+            -81.81051599079835,
+            35.757147000251386,
+            -81.32832399113215,
+            36.12261900022834
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 3054,
+              "county_id": 14,
+              "county_nam": "CALDWELL",
+              "prec_id": "1",
+              "enr_desc": "GAMEWELL",
+              "of_prec_id": ""
+            },
+            {
+              "id": 3048,
+              "county_id": 14,
+              "county_nam": "CALDWELL",
+              "prec_id": "10",
+              "enr_desc": "CAJAHS MOUNTAIN",
+              "of_prec_id": ""
+            },
+            {
+              "id": 3049,
+              "county_id": 14,
+              "county_nam": "CALDWELL",
+              "prec_id": "11",
+              "enr_desc": "SAWMILLS",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 16719
+        },
+        "FRANKLIN": {
+          "feature_count": 18,
+          "bbox": [
+            -78.54641399102609,
+            35.8181199999109,
+            -78.00655099105443,
+            36.26619099956541
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 95,
+              "county_id": 35,
+              "county_nam": "FRANKLIN",
+              "prec_id": "01",
+              "enr_desc": "LOUISBURG CITY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 209,
+              "county_id": 35,
+              "county_nam": "FRANKLIN",
+              "prec_id": "02",
+              "enr_desc": "WEST LOUISBURG COUNTRY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 275,
+              "county_id": 35,
+              "county_nam": "FRANKLIN",
+              "prec_id": "03",
+              "enr_desc": "WEST FRANKLINTON",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 9409
+        },
+        "WILSON": {
+          "feature_count": 24,
+          "bbox": [
+            -78.19211699103646,
+            35.58343600028771,
+            -77.6651309910595,
+            35.86720799959775
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 2356,
+              "county_id": 98,
+              "county_nam": "WILSON",
+              "prec_id": "PRBL",
+              "enr_desc": "BLACK CREEK",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2357,
+              "county_id": 98,
+              "county_nam": "WILSON",
+              "prec_id": "PRCR",
+              "enr_desc": "CROSSROADS",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2358,
+              "county_id": 98,
+              "county_nam": "WILSON",
+              "prec_id": "PRGA",
+              "enr_desc": "GARDNERS",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 9322
+        }
+      }
+    },
+    "2026-08-24": {
+      "archive": "raw/SBE_PRECINCTS_20260824.zip",
+      "archive_sha256": "71f2a6a4d6601b44a0d3cfd4228dd51b199cb8ccb233d6e585bb4701c50cbe2e",
+      "zip_members": {
+        "SBE_PRECINCTS_20260824.cpg": {
+          "bytes": 5,
+          "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+          "crc32": "0e813c50"
+        },
+        "SBE_PRECINCTS_20260824.dbf": {
+          "bytes": 1205165,
+          "sha256": "3ef4bf95b7489de3e2b760e8b76bcb09f5d0df4041cbda4b5cd10026314a5297",
+          "crc32": "9252e83f"
+        },
+        "SBE_PRECINCTS_20260824.prj": {
+          "bytes": 549,
+          "sha256": "80f40435dccbbe4ccbcb183cc27f328bd634ed724ca53249cb1c8879974a9918",
+          "crc32": "8f876cbb"
+        },
+        "SBE_PRECINCTS_20260824.qmd": {
+          "bytes": 3113,
+          "sha256": "8a8963d19de37f9cad072ea9f9d36688e73fbfccb1fd24516f7e98439accbb31",
+          "crc32": "862fa5c3"
+        },
+        "SBE_PRECINCTS_20260824.shp": {
+          "bytes": 31557444,
+          "sha256": "385ff8fe83d8e3297927dce41554b98a3fb2ea968149ef0c9133a82f1210027d",
+          "crc32": "4110a614"
+        },
+        "SBE_PRECINCTS_20260824.shx": {
+          "bytes": 21100,
+          "sha256": "08f5487ab41ee2b387c2f50ffa424a7a19e947eea9d14e9d9a3d798baac18aec",
+          "crc32": "fb751ab1"
+        }
+      },
+      "statewide_features": 2625,
+      "source_crs_wkt": "PROJCS[\"NAD_1983_StatePlane_North_Carolina_FIPS_3200_Feet\",GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic\"],PARAMETER[\"False_Easting\",2000000.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-79.0],PARAMETER[\"Standard_Parallel_1\",36.1666666666667],PARAMETER[\"Standard_Parallel_2\",34.3333333333333],PARAMETER[\"Latitude_Of_Origin\",33.75],UNIT[\"US survey foot\",0.304800609601219]]",
+      "source_crs": "EPSG:2264",
+      "geojson_crs": "OGC:CRS84 (WGS84 longitude, latitude)",
+      "source_fields": [
+        {
+          "name": "id",
+          "type": "N",
+          "width": 10,
+          "decimals": 0
+        },
+        {
+          "name": "county_id",
+          "type": "N",
+          "width": 10,
+          "decimals": 0
+        },
+        {
+          "name": "prec_id",
+          "type": "C",
+          "width": 100,
+          "decimals": 0
+        },
+        {
+          "name": "enr_desc",
+          "type": "C",
+          "width": 150,
+          "decimals": 0
+        },
+        {
+          "name": "county_nam",
+          "type": "C",
+          "width": 100,
+          "decimals": 0
+        },
+        {
+          "name": "Shape_Leng",
+          "type": "N",
+          "width": 19,
+          "decimals": 11
+        },
+        {
+          "name": "Shape_Area",
+          "type": "N",
+          "width": 19,
+          "decimals": 11
+        },
+        {
+          "name": "of_prec_id",
+          "type": "C",
+          "width": 50,
+          "decimals": 0
+        }
+      ],
+      "transform": {
+        "description": "Inverse of SPCS83 North Carolina zone (US survey foot) + NAD83 to WGS 84 (1) + axis order change (2D)",
+        "pipeline": "proj=pipeline step proj=unitconvert xy_in=us-ft xy_out=m step inv proj=lcc lat_0=33.75 lon_0=-79 lat_1=36.1666666666667 lat_2=34.3333333333333 x_0=609601.219202438 y_0=0 ellps=GRS80 step proj=unitconvert xy_in=rad xy_out=deg",
+        "accuracy_metres": 4.0,
+        "best_available": false,
+        "warnings": [
+          "Best transformation is not available due to missing Grid(short_name=us_noaa_nchpgn.tif, full_name=, package_name=, url=https://cdn.proj.org/us_noaa_nchpgn.tif, direct_download=True, open_license=True, available=False)"
+        ],
+        "unavailable_operations": [
+          "Inverse of SPCS83 North Carolina zone (US survey foot) + NAD83 to WGS 84 (55)",
+          "Inverse of SPCS83 North Carolina zone (US survey foot) + NAD83 to WGS 84 (56)",
+          "Inverse of SPCS83 North Carolina zone (US survey foot) + NAD83 to WGS 84 (37)",
+          "Inverse of SPCS83 North Carolina zone (US survey foot) + NAD83 to WGS 84 (17)",
+          "Inverse of SPCS83 North Carolina zone (US survey foot) + NAD83 to WGS 84 (40)",
+          "Inverse of SPCS83 North Carolina zone (US survey foot) + NAD83 to WGS 84 (22)"
+        ]
+      },
+      "counties": {
+        "WAKE": {
+          "feature_count": 216,
+          "bbox": [
+            -78.9950479913208,
+            35.51945800030572,
+            -78.25371099138387,
+            36.076442999977246
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 99,
+              "county_id": 92,
+              "county_nam": "WAKE",
+              "prec_id": "01-01",
+              "enr_desc": "01-01",
+              "of_prec_id": ""
+            },
+            {
+              "id": 101,
+              "county_id": 92,
+              "county_nam": "WAKE",
+              "prec_id": "01-02",
+              "enr_desc": "01-02",
+              "of_prec_id": ""
+            },
+            {
+              "id": 102,
+              "county_id": 92,
+              "county_nam": "WAKE",
+              "prec_id": "01-03",
+              "enr_desc": "01-03",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 106919
+        },
+        "MECKLENBURG": {
+          "feature_count": 195,
+          "bbox": [
+            -81.05820699153949,
+            35.001692000436584,
+            -80.55034899154798,
+            35.51478499984877
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 6,
+              "county_id": 60,
+              "county_nam": "MECKLENBURG",
+              "prec_id": "001",
+              "enr_desc": "001",
+              "of_prec_id": ""
+            },
+            {
+              "id": 26,
+              "county_id": 60,
+              "county_nam": "MECKLENBURG",
+              "prec_id": "002",
+              "enr_desc": "002",
+              "of_prec_id": ""
+            },
+            {
+              "id": 44,
+              "county_id": 60,
+              "county_nam": "MECKLENBURG",
+              "prec_id": "003",
+              "enr_desc": "003",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 67952
+        },
+        "GUILFORD": {
+          "feature_count": 165,
+          "bbox": [
+            -80.04686899116554,
+            35.89985099986212,
+            -79.53240999147594,
+            36.25718400009489
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1600,
+              "county_id": 41,
+              "county_nam": "GUILFORD",
+              "prec_id": "CG1",
+              "enr_desc": "CG1",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1601,
+              "county_id": 41,
+              "county_nam": "GUILFORD",
+              "prec_id": "CG2",
+              "enr_desc": "CG2",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1602,
+              "county_id": 41,
+              "county_nam": "GUILFORD",
+              "prec_id": "CG3A",
+              "enr_desc": "CG3A",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 46542
+        },
+        "FORSYTH": {
+          "feature_count": 108,
+          "bbox": [
+            -80.51668199123979,
+            35.97276199970947,
+            -80.03511899082645,
+            36.2615149998244
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 10000,
+              "county_id": 34,
+              "county_nam": "FORSYTH",
+              "prec_id": "012",
+              "enr_desc": "UNION CROSS ELEMENTARY SCHOOL",
+              "of_prec_id": ""
+            },
+            {
+              "id": 10001,
+              "county_id": 34,
+              "county_nam": "FORSYTH",
+              "prec_id": "013",
+              "enr_desc": "SEDGE GARDEN ELEMENTARY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 10002,
+              "county_id": 34,
+              "county_nam": "FORSYTH",
+              "prec_id": "014",
+              "enr_desc": "BEESONS CROSSROADS FIRE",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 31584
+        },
+        "DURHAM": {
+          "feature_count": 58,
+          "bbox": [
+            -79.01630499067694,
+            35.8632100000935,
+            -78.69931599106128,
+            36.239319999857365
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 82,
+              "county_id": 32,
+              "county_nam": "DURHAM",
+              "prec_id": "01",
+              "enr_desc": "BROGDEN MIDDLE SCHOOL",
+              "of_prec_id": ""
+            },
+            {
+              "id": 205,
+              "county_id": 32,
+              "county_nam": "DURHAM",
+              "prec_id": "02",
+              "enr_desc": "GEORGE WATTS ELEMENTARY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 274,
+              "county_id": 32,
+              "county_nam": "DURHAM",
+              "prec_id": "03",
+              "enr_desc": "E K POWE ELEMENTARY",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 20883
+        },
+        "BUNCOMBE": {
+          "feature_count": 80,
+          "bbox": [
+            -82.88810699101593,
+            35.416450000601074,
+            -82.16904899089364,
+            35.82411000060308
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 156,
+              "county_id": 11,
+              "county_nam": "BUNCOMBE",
+              "prec_id": "01.1",
+              "enr_desc": "STEPHENS LEE COMMUNITY CENTER",
+              "of_prec_id": ""
+            },
+            {
+              "id": 227,
+              "county_id": 11,
+              "county_nam": "BUNCOMBE",
+              "prec_id": "02.1",
+              "enr_desc": "MONTFORD COMMUNITY CENTER",
+              "of_prec_id": ""
+            },
+            {
+              "id": 280,
+              "county_id": 11,
+              "county_nam": "BUNCOMBE",
+              "prec_id": "03.1",
+              "enr_desc": "ST MARKS LUTHERAN CHURCH",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 61318
+        },
+        "CUMBERLAND": {
+          "feature_count": 77,
+          "bbox": [
+            -79.11292099145011,
+            34.834862000377825,
+            -78.49467799176152,
+            35.26691400029678
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1447,
+              "county_id": 26,
+              "county_nam": "CUMBERLAND",
+              "prec_id": "AH49",
+              "enr_desc": "ARRAN HILLS",
+              "of_prec_id": ""
+            },
+            {
+              "id": 3071,
+              "county_id": 26,
+              "county_nam": "CUMBERLAND",
+              "prec_id": "AL51-1",
+              "enr_desc": "ALDERMAN1",
+              "of_prec_id": ""
+            },
+            {
+              "id": 3072,
+              "county_id": 26,
+              "county_nam": "CUMBERLAND",
+              "prec_id": "AL51-2",
+              "enr_desc": "ALDERMAN2",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 36937
+        },
+        "UNION": {
+          "feature_count": 54,
+          "bbox": [
+            -80.84027799153917,
+            34.813906000419735,
+            -80.27682899107616,
+            35.20841200048002
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 3027,
+              "county_id": 90,
+              "county_nam": "UNION",
+              "prec_id": "0005",
+              "enr_desc": "005",
+              "of_prec_id": ""
+            },
+            {
+              "id": 7,
+              "county_id": 90,
+              "county_nam": "UNION",
+              "prec_id": "001",
+              "enr_desc": "BENTON HEIGHTS CHURCH OF GOD",
+              "of_prec_id": ""
+            },
+            {
+              "id": 3029,
+              "county_id": 90,
+              "county_nam": "UNION",
+              "prec_id": "0019",
+              "enr_desc": "019",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 37404
+        },
+        "NEW HANOVER": {
+          "feature_count": 41,
+          "bbox": [
+            -78.02992199095343,
+            33.786799999616996,
+            -77.67527599121239,
+            34.389358999888636
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1588,
+              "county_id": 65,
+              "county_nam": "NEW HANOVER",
+              "prec_id": "CF01",
+              "enr_desc": "CF01",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1589,
+              "county_id": 65,
+              "county_nam": "NEW HANOVER",
+              "prec_id": "CF02",
+              "enr_desc": "CF02",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1590,
+              "county_id": 65,
+              "county_nam": "NEW HANOVER",
+              "prec_id": "CF05",
+              "enr_desc": "CF05",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 15729
+        },
+        "JOHNSTON": {
+          "feature_count": 34,
+          "bbox": [
+            -78.70890199075369,
+            35.25466299955155,
+            -78.06478399167396,
+            35.8181199999109
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 2308,
+              "county_id": 51,
+              "county_nam": "JOHNSTON",
+              "prec_id": "PR04",
+              "enr_desc": "BENTONVILLE",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2309,
+              "county_id": 51,
+              "county_nam": "JOHNSTON",
+              "prec_id": "PR07",
+              "enr_desc": "NORTH BOON HILL",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2312,
+              "county_id": 51,
+              "county_nam": "JOHNSTON",
+              "prec_id": "PR08",
+              "enr_desc": "SOUTH BOON HILL",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 38529
+        },
+        "CABARRUS": {
+          "feature_count": 38,
+          "bbox": [
+            -80.78709099141356,
+            35.18499799994962,
+            -80.29542099119242,
+            35.506510000065404
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 100,
+              "county_id": 13,
+              "county_nam": "CABARRUS",
+              "prec_id": "01-02",
+              "enr_desc": "01-02",
+              "of_prec_id": ""
+            },
+            {
+              "id": 104,
+              "county_id": 13,
+              "county_nam": "CABARRUS",
+              "prec_id": "01-04",
+              "enr_desc": "01-04",
+              "of_prec_id": ""
+            },
+            {
+              "id": 108,
+              "county_id": 13,
+              "county_nam": "CABARRUS",
+              "prec_id": "01-07",
+              "enr_desc": "01-07",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 13092
+        },
+        "GASTON": {
+          "feature_count": 40,
+          "bbox": [
+            -81.45559999163478,
+            35.14841200058385,
+            -80.92299799093378,
+            35.41981100047628
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 3114,
+              "county_id": 36,
+              "county_nam": "GASTON",
+              "prec_id": "10A",
+              "enr_desc": "SOUTH CHERRYVILLE",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1255,
+              "county_id": 36,
+              "county_nam": "GASTON",
+              "prec_id": "11A",
+              "enr_desc": "NORTH CHERRYVILLE",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1237,
+              "county_id": 36,
+              "county_nam": "GASTON",
+              "prec_id": "12A",
+              "enr_desc": "LANDERS CHAPEL",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 21053
+        },
+        "IREDELL": {
+          "feature_count": 30,
+          "bbox": [
+            -81.1095069906841,
+            35.48847300007011,
+            -80.69319699065278,
+            36.0588099998011
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1478,
+              "county_id": 49,
+              "county_nam": "IREDELL",
+              "prec_id": "BA-1",
+              "enr_desc": "BARRINGER",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1489,
+              "county_id": 49,
+              "county_nam": "IREDELL",
+              "prec_id": "BE",
+              "enr_desc": "BETHANY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1559,
+              "county_id": 49,
+              "county_nam": "IREDELL",
+              "prec_id": "CC1",
+              "enr_desc": "CODDLE CREEK  1",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 13964
+        },
+        "BRUNSWICK": {
+          "feature_count": 27,
+          "bbox": [
+            -78.65088099175055,
+            33.75287799999573,
+            -77.89701099090615,
+            34.37181399964224
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1543,
+              "county_id": 10,
+              "county_nam": "BRUNSWICK",
+              "prec_id": "CB01",
+              "enr_desc": "SUPPLY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1544,
+              "county_id": 10,
+              "county_nam": "BRUNSWICK",
+              "prec_id": "CB02",
+              "enr_desc": "SHALLOTTE",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1545,
+              "county_id": 10,
+              "county_nam": "BRUNSWICK",
+              "prec_id": "CB03",
+              "enr_desc": "FRYING PAN",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 26806
+        },
+        "DAVIDSON": {
+          "feature_count": 43,
+          "bbox": [
+            -80.48758599130974,
+            35.50414100030971,
+            -80.04323799090182,
+            36.026810000316594
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 334,
+              "county_id": 29,
+              "county_nam": "DAVIDSON",
+              "prec_id": "04",
+              "enr_desc": "ARCADIA 04",
+              "of_prec_id": ""
+            },
+            {
+              "id": 434,
+              "county_id": 29,
+              "county_nam": "DAVIDSON",
+              "prec_id": "06",
+              "enr_desc": "BOONE 06",
+              "of_prec_id": ""
+            },
+            {
+              "id": 538,
+              "county_id": 29,
+              "county_nam": "DAVIDSON",
+              "prec_id": "08",
+              "enr_desc": "CENTRAL 08",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 35071
+        },
+        "ALAMANCE": {
+          "feature_count": 39,
+          "bbox": [
+            -79.54242799109755,
+            35.843302999849996,
+            -79.236597991467,
+            36.24967299961993
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 86,
+              "county_id": 1,
+              "county_nam": "ALAMANCE",
+              "prec_id": "01",
+              "enr_desc": "PATTERSON",
+              "of_prec_id": ""
+            },
+            {
+              "id": 198,
+              "county_id": 1,
+              "county_nam": "ALAMANCE",
+              "prec_id": "02",
+              "enr_desc": "COBLE",
+              "of_prec_id": ""
+            },
+            {
+              "id": 299,
+              "county_id": 1,
+              "county_nam": "ALAMANCE",
+              "prec_id": "035",
+              "enr_desc": "BOONE 5",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 23740
+        },
+        "ORANGE": {
+          "feature_count": 40,
+          "bbox": [
+            -79.26843399108934,
+            35.860775999911894,
+            -78.95059699070418,
+            36.243444999723174
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1532,
+              "county_id": 68,
+              "county_nam": "ORANGE",
+              "prec_id": "CA",
+              "enr_desc": "CARR",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1549,
+              "county_id": 68,
+              "county_nam": "ORANGE",
+              "prec_id": "CB1",
+              "enr_desc": "CARRBORO",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1592,
+              "county_id": 68,
+              "county_nam": "ORANGE",
+              "prec_id": "CF1",
+              "enr_desc": "CEDAR FALLS",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 16090
+        },
+        "PITT": {
+          "feature_count": 40,
+          "bbox": [
+            -77.70069199093781,
+            35.32739400027361,
+            -77.08464099106368,
+            35.833062000026246
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 161,
+              "county_id": 74,
+              "county_nam": "PITT",
+              "prec_id": "0101",
+              "enr_desc": "ARTHUR",
+              "of_prec_id": ""
+            },
+            {
+              "id": 229,
+              "county_id": 74,
+              "county_nam": "PITT",
+              "prec_id": "0200A",
+              "enr_desc": "AYDEN A",
+              "of_prec_id": ""
+            },
+            {
+              "id": 230,
+              "county_id": 74,
+              "county_nam": "PITT",
+              "prec_id": "0200B",
+              "enr_desc": "AYDEN B",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 24753
+        },
+        "CATAWBA": {
+          "feature_count": 40,
+          "bbox": [
+            -81.53540299102687,
+            35.547020000032326,
+            -80.92517999066938,
+            35.82895799974085
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 89,
+              "county_id": 18,
+              "county_nam": "CATAWBA",
+              "prec_id": "01",
+              "enr_desc": "BALLS CREEK",
+              "of_prec_id": ""
+            },
+            {
+              "id": 195,
+              "county_id": 18,
+              "county_nam": "CATAWBA",
+              "prec_id": "02",
+              "enr_desc": "BANOAK",
+              "of_prec_id": ""
+            },
+            {
+              "id": 262,
+              "county_id": 18,
+              "county_nam": "CATAWBA",
+              "prec_id": "03",
+              "enr_desc": "BLACKBURN",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 38558
+        },
+        "ONSLOW": {
+          "feature_count": 24,
+          "bbox": [
+            -77.68012699124208,
+            34.399705000040676,
+            -77.0960729915965,
+            34.9844600000047
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1485,
+              "county_id": 67,
+              "county_nam": "ONSLOW",
+              "prec_id": "BC21",
+              "enr_desc": "BEAR CREEK",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1514,
+              "county_id": 67,
+              "county_nam": "ONSLOW",
+              "prec_id": "BM08",
+              "enr_desc": "BRYNN MARR",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1621,
+              "county_id": 67,
+              "county_nam": "ONSLOW",
+              "prec_id": "CL10",
+              "enr_desc": "CATHERINE LAKE",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 18343
+        },
+        "RANDOLPH": {
+          "feature_count": 22,
+          "bbox": [
+            -80.06684199067605,
+            35.50566100040377,
+            -79.54172799087787,
+            35.920692999726334
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1446,
+              "county_id": 76,
+              "county_nam": "RANDOLPH",
+              "prec_id": "AE",
+              "enr_desc": "ASHEBORO EAST",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1453,
+              "county_id": 76,
+              "county_nam": "RANDOLPH",
+              "prec_id": "AN",
+              "enr_desc": "ASHEBORO NORTH",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1460,
+              "county_id": 76,
+              "county_nam": "RANDOLPH",
+              "prec_id": "AR",
+              "enr_desc": "ARCHDALE",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 8566
+        },
+        "ROWAN": {
+          "feature_count": 41,
+          "bbox": [
+            -80.77158199169146,
+            35.50196099972897,
+            -80.1828659912653,
+            35.86349999979724
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 97,
+              "county_id": 80,
+              "county_nam": "ROWAN",
+              "prec_id": "01",
+              "enr_desc": "BARNHARDT MILL",
+              "of_prec_id": ""
+            },
+            {
+              "id": 203,
+              "county_id": 80,
+              "county_nam": "ROWAN",
+              "prec_id": "02",
+              "enr_desc": "BLACKWELDER PARK",
+              "of_prec_id": ""
+            },
+            {
+              "id": 270,
+              "county_id": 80,
+              "county_nam": "ROWAN",
+              "prec_id": "03",
+              "enr_desc": "BOSTIAN CROSS ROAD",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 30032
+        },
+        "HENDERSON": {
+          "feature_count": 34,
+          "bbox": [
+            -82.74513899094796,
+            35.14418800027327,
+            -82.26115099078906,
+            35.500220000472574
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1459,
+              "county_id": 45,
+              "county_nam": "HENDERSON",
+              "prec_id": "AR",
+              "enr_desc": "ARMORY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1465,
+              "county_id": 45,
+              "county_nam": "HENDERSON",
+              "prec_id": "AT",
+              "enr_desc": "ATKINSON",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1481,
+              "county_id": 45,
+              "county_nam": "HENDERSON",
+              "prec_id": "BC",
+              "enr_desc": "BAT CAVE",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 27759
+        },
+        "HARNETT": {
+          "feature_count": 15,
+          "bbox": [
+            -79.22302284755312,
+            35.192011999664835,
+            -78.52985099160493,
+            35.58368199983635
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 2311,
+              "county_id": 43,
+              "county_nam": "HARNETT",
+              "prec_id": "PR08",
+              "enr_desc": "BLACK RIVER",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2328,
+              "county_id": 43,
+              "county_nam": "HARNETT",
+              "prec_id": "PR23",
+              "enr_desc": "BOONE TRAIL",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2332,
+              "county_id": 43,
+              "county_nam": "HARNETT",
+              "prec_id": "PR24",
+              "enr_desc": "COATS/GROVE",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 14893
+        },
+        "MOORE": {
+          "feature_count": 26,
+          "bbox": [
+            -79.76795699112654,
+            35.043028000333756,
+            -79.09580799147994,
+            35.518001999711664
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1502,
+              "county_id": 63,
+              "county_nam": "MOORE",
+              "prec_id": "BEN",
+              "enr_desc": "BENSALEM",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1534,
+              "county_id": 63,
+              "county_nam": "MOORE",
+              "prec_id": "CAM",
+              "enr_desc": "CAMERON",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1537,
+              "county_id": 63,
+              "county_nam": "MOORE",
+              "prec_id": "CAR",
+              "enr_desc": "CARTHAGE",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 18497
+        },
+        "CRAVEN": {
+          "feature_count": 21,
+          "bbox": [
+            -77.47371699155677,
+            34.80891700019139,
+            -76.65257099172975,
+            35.41836199990053
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 194,
+              "county_id": 25,
+              "county_nam": "CRAVEN",
+              "prec_id": "02",
+              "enr_desc": "HAVELOCK",
+              "of_prec_id": ""
+            },
+            {
+              "id": 272,
+              "county_id": 25,
+              "county_nam": "CRAVEN",
+              "prec_id": "03",
+              "enr_desc": "TRENT WOODS",
+              "of_prec_id": ""
+            },
+            {
+              "id": 396,
+              "county_id": 25,
+              "county_nam": "CRAVEN",
+              "prec_id": "05",
+              "enr_desc": "RIVER BEND",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 24189
+        },
+        "LINCOLN": {
+          "feature_count": 23,
+          "bbox": [
+            -81.53759899160796,
+            35.40007799983661,
+            -80.93966699077899,
+            35.56813700001765
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1463,
+              "county_id": 55,
+              "county_nam": "LINCOLN",
+              "prec_id": "AS25",
+              "enr_desc": "ASBURY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1483,
+              "county_id": 55,
+              "county_nam": "LINCOLN",
+              "prec_id": "BC13",
+              "enr_desc": "BOGER CITY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1521,
+              "county_id": 55,
+              "county_nam": "LINCOLN",
+              "prec_id": "BS26",
+              "enr_desc": "BUFFALO SHOALS",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 19717
+        },
+        "WAYNE": {
+          "feature_count": 28,
+          "bbox": [
+            -78.30657999093587,
+            35.14631500008711,
+            -77.79985899167363,
+            35.59780600001605
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 88,
+              "county_id": 96,
+              "county_nam": "WAYNE",
+              "prec_id": "01",
+              "enr_desc": "01",
+              "of_prec_id": ""
+            },
+            {
+              "id": 204,
+              "county_id": 96,
+              "county_nam": "WAYNE",
+              "prec_id": "02",
+              "enr_desc": "02",
+              "of_prec_id": ""
+            },
+            {
+              "id": 264,
+              "county_id": 96,
+              "county_nam": "WAYNE",
+              "prec_id": "03",
+              "enr_desc": "03",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 24873
+        },
+        "NASH": {
+          "feature_count": 24,
+          "bbox": [
+            -78.25716399081652,
+            35.727754000363895,
+            -77.69795599103209,
+            36.20263299981612
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 2182,
+              "county_id": 64,
+              "county_nam": "NASH",
+              "prec_id": "P01A",
+              "enr_desc": "BAILEY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2185,
+              "county_id": 64,
+              "county_nam": "NASH",
+              "prec_id": "P02A",
+              "enr_desc": "MIDDLESEX",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2188,
+              "county_id": 64,
+              "county_nam": "NASH",
+              "prec_id": "P03A",
+              "enr_desc": "SAMARIA",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 34646
+        },
+        "CHATHAM": {
+          "feature_count": 18,
+          "bbox": [
+            -79.55580399086958,
+            35.51503900018258,
+            -78.90607099132465,
+            35.87680999986797
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 885,
+              "county_id": 19,
+              "county_nam": "CHATHAM",
+              "prec_id": "15",
+              "enr_desc": "BYNUM",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1082,
+              "county_id": 19,
+              "county_nam": "CHATHAM",
+              "prec_id": "21",
+              "enr_desc": "HADLEY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1195,
+              "county_id": 19,
+              "county_nam": "CHATHAM",
+              "prec_id": "3",
+              "enr_desc": "ALBRIGHT",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 28993
+        },
+        "CLEVELAND": {
+          "feature_count": 21,
+          "bbox": [
+            -81.76810199103828,
+            35.16346700047493,
+            -81.32172899178566,
+            35.58457600048953
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1505,
+              "county_id": 23,
+              "county_nam": "CLEVELAND",
+              "prec_id": "BETHWR",
+              "enr_desc": "BETHWR",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1518,
+              "county_id": 23,
+              "county_nam": "CLEVELAND",
+              "prec_id": "BR",
+              "enr_desc": "BROAD RIVER",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1539,
+              "county_id": 23,
+              "county_nam": "CLEVELAND",
+              "prec_id": "CASAR",
+              "enr_desc": "CASAR",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 12408
+        },
+        "ROCKINGHAM": {
+          "feature_count": 14,
+          "bbox": [
+            -80.035119,
+            36.241463,
+            -79.513638,
+            36.54269600000001
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1667,
+              "county_id": 79,
+              "county_nam": "ROCKINGHAM",
+              "prec_id": "DR",
+              "enr_desc": "DRAPER",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1688,
+              "county_id": 79,
+              "county_nam": "ROCKINGHAM",
+              "prec_id": "EC",
+              "enr_desc": "EDEN CENTRAL",
+              "of_prec_id": ""
+            },
+            {
+              "id": 3101,
+              "county_id": 79,
+              "county_nam": "ROCKINGHAM",
+              "prec_id": "ED",
+              "enr_desc": "EDEN",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 14688
+        },
+        "ROBESON": {
+          "feature_count": 39,
+          "bbox": [
+            -79.46150599120541,
+            34.29934199995195,
+            -78.80543099096033,
+            34.95271500015154
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 92,
+              "county_id": 78,
+              "county_nam": "ROBESON",
+              "prec_id": "01",
+              "enr_desc": "ALFORDSVILLE",
+              "of_prec_id": ""
+            },
+            {
+              "id": 208,
+              "county_id": 78,
+              "county_nam": "ROBESON",
+              "prec_id": "02",
+              "enr_desc": "BACK SWAMP",
+              "of_prec_id": ""
+            },
+            {
+              "id": 267,
+              "county_id": 78,
+              "county_nam": "ROBESON",
+              "prec_id": "03",
+              "enr_desc": "BRITTS",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 38246
+        },
+        "BURKE": {
+          "feature_count": 31,
+          "bbox": [
+            -81.98693899159551,
+            35.55818699977758,
+            -81.36379599105435,
+            35.999909000288206
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 9999,
+              "county_id": 12,
+              "county_nam": "BURKE",
+              "prec_id": "0001",
+              "enr_desc": "DREXEL 01",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2,
+              "county_id": 12,
+              "county_nam": "BURKE",
+              "prec_id": "0003",
+              "enr_desc": "DREXEL 03",
+              "of_prec_id": ""
+            },
+            {
+              "id": 9,
+              "county_id": 12,
+              "county_nam": "BURKE",
+              "prec_id": "0011",
+              "enr_desc": "ICARD 01",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 27387
+        },
+        "CARTERET": {
+          "feature_count": 26,
+          "bbox": [
+            -77.16776899133376,
+            34.531736000018384,
+            -76.0065569915957,
+            35.20145300023468
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 1444,
+              "county_id": 16,
+              "county_nam": "CARTERET",
+              "prec_id": "ABCH",
+              "enr_desc": "ATLANTIC BEACH",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1464,
+              "county_id": 16,
+              "county_nam": "CARTERET",
+              "prec_id": "ASCI",
+              "enr_desc": "Atlantic/Sea Level/Cedar Island",
+              "of_prec_id": ""
+            },
+            {
+              "id": 1487,
+              "county_id": 16,
+              "county_nam": "CARTERET",
+              "prec_id": "BCRK",
+              "enr_desc": "BROAD CREEK",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 16228
+        },
+        "CALDWELL": {
+          "feature_count": 15,
+          "bbox": [
+            -81.81051599079835,
+            35.75714700025137,
+            -81.32832399113215,
+            36.12261900022834
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 3054,
+              "county_id": 14,
+              "county_nam": "CALDWELL",
+              "prec_id": "1",
+              "enr_desc": "GAMEWELL",
+              "of_prec_id": ""
+            },
+            {
+              "id": 3048,
+              "county_id": 14,
+              "county_nam": "CALDWELL",
+              "prec_id": "10",
+              "enr_desc": "CAJAHS MOUNTAIN",
+              "of_prec_id": ""
+            },
+            {
+              "id": 3049,
+              "county_id": 14,
+              "county_nam": "CALDWELL",
+              "prec_id": "11",
+              "enr_desc": "SAWMILLS",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 16719
+        },
+        "FRANKLIN": {
+          "feature_count": 18,
+          "bbox": [
+            -78.54641399102609,
+            35.8181199999109,
+            -78.00655099105443,
+            36.26619099956541
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 95,
+              "county_id": 35,
+              "county_nam": "FRANKLIN",
+              "prec_id": "01",
+              "enr_desc": "LOUISBURG CITY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 209,
+              "county_id": 35,
+              "county_nam": "FRANKLIN",
+              "prec_id": "02",
+              "enr_desc": "WEST LOUISBURG COUNTRY",
+              "of_prec_id": ""
+            },
+            {
+              "id": 275,
+              "county_id": 35,
+              "county_nam": "FRANKLIN",
+              "prec_id": "03",
+              "enr_desc": "WEST FRANKLINTON",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 9409
+        },
+        "WILSON": {
+          "feature_count": 24,
+          "bbox": [
+            -78.19211699103644,
+            35.58343600028771,
+            -77.6651309910595,
+            35.86720799959774
+          ],
+          "native_invalid": 0,
+          "geojson_invalid": 0,
+          "native_empty": 0,
+          "unique_nonempty_precinct_ids": true,
+          "source_ids_unique": true,
+          "source_id_examples": [
+            {
+              "id": 2356,
+              "county_id": 98,
+              "county_nam": "WILSON",
+              "prec_id": "PRBL",
+              "enr_desc": "BLACK CREEK",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2357,
+              "county_id": 98,
+              "county_nam": "WILSON",
+              "prec_id": "PRCR",
+              "enr_desc": "CROSSROADS",
+              "of_prec_id": ""
+            },
+            {
+              "id": 2358,
+              "county_id": 98,
+              "county_nam": "WILSON",
+              "prec_id": "PRGA",
+              "enr_desc": "GARDNERS",
+              "of_prec_id": ""
+            }
+          ],
+          "vertex_count": 9322
+        }
+      }
+    }
+  },
+  "onemap_pagination": {
+    "count": 2625,
+    "ids_count": 2625,
+    "page_counts": [
+      2000,
+      625
+    ],
+    "transfer_limit_flags": [
+      true,
+      false
+    ],
+    "unique_ids": 2625,
+    "all_ids_exactly_reconciled": true,
+    "current_archive_ids_only": [],
+    "service_ids_only": [],
+    "source_attribute_differences": [],
+    "source_blank_padding_differences": 2624,
+    "geometry_equivalence": "not tested; service native CRS 32119 differs from archive 2264"
+  }
+}

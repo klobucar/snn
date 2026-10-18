@@ -1,0 +1,113 @@
+{
+  "measurement_attribute_examples": {
+    "2024-07-23": {
+      "source_row": 1,
+      "properties": {
+        "id": 1,
+        "prec_id": "0003",
+        "enr_desc": "ALBEMARLE NUMBER 3",
+        "county_nam": "STANLY",
+        "of_prec_id": "",
+        "county_id": 84,
+        "Shape_Leng": 40731.3507786,
+        "Shape_Area": 43231281.4749
+      },
+      "native_geometry_area_square_us_survey_feet": 43231281.47489845,
+      "native_geometry_length_us_survey_feet": 40731.35077862534,
+      "source_area_divided_by_native_computed_area": 1.0000000000000357,
+      "source_length_divided_by_native_computed_length": 0.9999999999993778,
+      "interpretation": "Source attributes preserved; units not inferred from field names."
+    },
+    "2026-08-24": {
+      "source_row": 1,
+      "properties": {
+        "id": 10163,
+        "county_id": 54,
+        "prec_id": "PH",
+        "enr_desc": "PINK HILL",
+        "county_nam": "LENOIR",
+        "Shape_Leng": 43760.86230660137,
+        "Shape_Area": 94431434.80574758,
+        "of_prec_id": ""
+      },
+      "native_geometry_area_square_us_survey_feet": 1016199130.2059664,
+      "native_geometry_length_us_survey_feet": 143554.5573825489,
+      "source_area_divided_by_native_computed_area": 0.09292611260807508,
+      "source_length_divided_by_native_computed_length": 0.3048378477458294,
+      "interpretation": "Source attributes preserved; units not inferred from field names."
+    }
+  },
+  "county_alternatives": {
+    "wake": {
+      "features": 216,
+      "satellite_ids_found": [],
+      "max_last_edited_epoch_ms": 1753917482000
+    },
+    "union": [
+      {
+        "properties": {
+          "OBJECTID": 50,
+          "PREC_ID": "045",
+          "ENR_DESC": "NEW TOWN ELEMENTARY SCHOOL",
+          "COUNTY_NAM": "UNION",
+          "OF_PREC_ID": " ",
+          "COUNTY_ID": 90,
+          "name": "#45",
+          "Shape.STArea()": 12903686.83996754,
+          "Shape.STLength()": 19466.22966410594
+        },
+        "valid": true,
+        "validity_reason": "Valid Geometry"
+      },
+      {
+        "properties": {
+          "OBJECTID": 52,
+          "PREC_ID": "020B",
+          "ENR_DESC": "WAXHAW BIBLE CHURCH",
+          "COUNTY_NAM": "UNION",
+          "OF_PREC_ID": " ",
+          "COUNTY_ID": 90,
+          "name": "#20B",
+          "Shape.STArea()": 30701289.348220903,
+          "Shape.STLength()": 36184.25202831812
+        },
+        "valid": true,
+        "validity_reason": "Valid Geometry"
+      },
+      {
+        "properties": {
+          "OBJECTID": 54,
+          "PREC_ID": "044",
+          "ENR_DESC": "MILLBRIDGE CLUBHOUSE",
+          "COUNTY_NAM": "UNION",
+          "OF_PREC_ID": " ",
+          "COUNTY_ID": 90,
+          "name": "#44",
+          "Shape.STArea()": 5999758.028576655,
+          "Shape.STLength()": 11150.661110951933
+        },
+        "valid": true,
+        "validity_reason": "Valid Geometry"
+      }
+    ]
+  },
+  "runtime": {
+    "pyshp": "3.1.6",
+    "shapely": "2.2.0",
+    "geos": "3.14.1"
+  },
+  "manually_inspected_pdf_pages": [
+    {
+      "path": "raw/wake-2021-07-20-minutes.pdf",
+      "page": 1,
+      "sha256": "0f6fb6e58cce3808ac6f7459ee3fa95e1f97ad31d86531d477a8e52d9f210113",
+      "finding": "County minutes describe approval of satellite resolutions for 01-07A and 07-07A; historical evidence, not current election approval."
+    },
+    {
+      "path": "raw/henderson-2025-08-19-minutes.pdf",
+      "page": 9,
+      "sha256": "f69120207cafa4ef711a456e174ed2e1a156eefeb471623ea16ffd6160c5500d",
+      "finding": "Carolina Village described as satellite within Hendersonville 2; county chair signature dated 2025-08-19; state executive director approval line blank."
+    }
+  ]
+}

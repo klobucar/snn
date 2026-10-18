@@ -1,0 +1,73 @@
+{
+  "directory": {
+    "parent": "state-results",
+    "evidence": "footer County Boards of Elections Search anchor; embedded window.boeinfoCountyData supplies all 100 county IDs/websites"
+  },
+  "dashboard": {
+    "parent": "state-results",
+    "evidence": "Launch the Election Results Dashboard anchor"
+  },
+  "elections": {
+    "parent": "dashboard",
+    "evidence": "loadTextFile(fileElection, 'enr/elections.txt?v=' + timeDayHourMinute)"
+  },
+  "county/contest/results JSON": {
+    "parents": [
+      "dashboard",
+      "elections",
+      "directory"
+    ],
+    "evidence": "datapath = 'enr/' + getDateFolder(new Date(electiondt)) + '/data/'; county.txt; contest.txt; results_ + countyid + .txt",
+    "dates_actually_cataloged": [
+      "11/03/2026",
+      "11/05/2024",
+      "11/08/2022"
+    ],
+    "counties": "actual IDs 1\u2013100; 2024/2022 all 100 fetched; November priority 38 fetched"
+  },
+  "precinct JSON": {
+    "parent": "details-html",
+    "evidence": "filePrecinct URL datapath + 'precinct_' + countyid + '.txt?v=' + timeDayHourMinute",
+    "actual_samples": [
+      "20241105/precinct_92.txt",
+      "20261103/precinct_98.txt"
+    ]
+  },
+  "details-html": {
+    "parent": "dashboard",
+    "evidence": "contest_details.html + election_dt + county_id + contest_id=result.lid",
+    "actual_sample": "11/05/2024; cid 0; historical president lid 1393"
+  },
+  "downloads": {
+    "parent": "dashboard",
+    "evidence": "dashboard anchor href=downloads.html; its code adds ?election_dt= + electiondt"
+  },
+  "media-2026": {
+    "parents": [
+      "downloads",
+      "elections"
+    ],
+    "evidence": "Election Night Media Results and Precinct Election Results both construct http://dl.ncsbe.gov/ENRS/ + date_folder + /results_pct_ + date_digits + .zip",
+    "actual_redirect": "HTTP to HTTPS; final endpoint in media-2026.meta.json"
+  },
+  "outstanding-2026": {
+    "parents": [
+      "state-absentee",
+      "outstanding-summary"
+    ],
+    "evidence": "actual anchors to November outstanding aggregate ZIP; contents downloaded"
+  },
+  "absentee-counts-state/county": {
+    "parent": "state-absentee",
+    "evidence": "actual November count CSV anchors; statewide complete, county deliberately ranged after size cap"
+  },
+  "local-followups": {
+    "parents": [
+      "directory-counties.json",
+      "deep-fetch-plan.json",
+      "county-discovery.json",
+      "priority-notes.json"
+    ],
+    "evidence": "exact saved anchor/iframe extracts and documented web-rendered followups; HTTPS/current-domain alternatives explicitly distinguished from original directory requests"
+  }
+}

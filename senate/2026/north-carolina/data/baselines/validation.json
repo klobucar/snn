@@ -1,0 +1,29 @@
+{
+  "validated_at_utc": "2026-10-18T00:25:02.522077+00:00",
+  "passed": true,
+  "source_hashes_checked": 16,
+  "county_baseline_rows": 300,
+  "county_candidate_rows": 1685,
+  "primary_candidate_reconciliations": 19,
+  "candidate_voting_method_reconciliations": 76,
+  "cross_election_county_classes": {
+    "R_all_three": 76,
+    "mixed_winners": 3,
+    "D_all_three": 21
+  },
+  "supplemental_2014_candidate_reconciliations": 7,
+  "baseline_counties_per_election": 100,
+  "state_scenarios_checked": 42,
+  "county_target_rows_checked": 4200,
+  "max_target_net_error_votes": 2.546585164964199e-10,
+  "tolerance_votes": 1e-07,
+  "conditional_reconstruction_all_rows": true,
+  "turnout_county_summary_cells_exact": 800,
+  "turnout_candidate_total_method_cells_exact": 6500,
+  "turnout_same_primary_pdf_vintages": 4,
+  "boundary_and_invalid_input_checks": true,
+  "local_report_links_checked": 22,
+  "all_individual_files_below_40MB": true,
+  "known_raw_source_differences": "four 2024 county/candidate entries; authoritative certified baseline reconciles exactly",
+  "forecast_or_probability_implemented": false
+}

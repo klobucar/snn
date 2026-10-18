@@ -1,0 +1,59 @@
+{
+  "renderer": "pdftoppm version 26.04.0",
+  "previews": [
+    {
+      "input": "2024-certified-contest.pdf",
+      "input_sha256": "cf7e3340b83ab2c6c26709d26fb447b81a6f0d07fddc841d9c3187b5a00f9b0f",
+      "physical_pdf_page_one_based": 2,
+      "scale_to_pixels": 1500,
+      "output": "2024-certified-contest-preview.png",
+      "output_sha256": "48dc87fc35560d1c502f1c3cb3255a8ed4af6107b5ea4e7dac4bc453ef1c269e",
+      "transformation": "pdftoppm -f PAGE -singlefile -scale-to SCALE -png INPUT OUTPUT_PREFIX"
+    },
+    {
+      "input": "2022-certified-contest.pdf",
+      "input_sha256": "a5bc88cef041895943b6bd187a9d141517de07ac3827eaa7fd88b06b1f63006c",
+      "physical_pdf_page_one_based": 1,
+      "scale_to_pixels": 1500,
+      "output": "2022-certified-contest-preview.png",
+      "output_sha256": "3d6c073ce2c0add91f6c738bd9c16b97824f71a7193d5e086b15a830c71cd52a",
+      "transformation": "pdftoppm -f PAGE -singlefile -scale-to SCALE -png INPUT OUTPUT_PREFIX"
+    },
+    {
+      "input": "2020-certified-contest.pdf",
+      "input_sha256": "d5d1b87aef9b159bc098957350100197b13ee4578232e89fdfa7d6981d84798e",
+      "physical_pdf_page_one_based": 1,
+      "scale_to_pixels": 1500,
+      "output": "2020-certified-contest-preview.png",
+      "output_sha256": "1e693921192156f7a7502ba0ba1a14508fc84f0f6058a427a0b2fa7aac1f7160",
+      "transformation": "pdftoppm -f PAGE -singlefile -scale-to SCALE -png INPUT OUTPUT_PREFIX"
+    },
+    {
+      "input": "2024-certified-county.pdf",
+      "input_sha256": "395abc3d64d691683f297587952838055b021632cfd8c396de7e6dbe99f2ccc3",
+      "physical_pdf_page_one_based": 162,
+      "scale_to_pixels": 1600,
+      "output": "2024-mitchell-certified-preview.png",
+      "output_sha256": "cec67f0279ef947c284f047bb5810d682c9abea2c047bdef83bbb01ff24671f9",
+      "transformation": "pdftoppm -f PAGE -singlefile -scale-to SCALE -png INPUT OUTPUT_PREFIX"
+    },
+    {
+      "input": "2024-certified-county.pdf",
+      "input_sha256": "395abc3d64d691683f297587952838055b021632cfd8c396de7e6dbe99f2ccc3",
+      "physical_pdf_page_one_based": 211,
+      "scale_to_pixels": 1600,
+      "output": "2024-rowan-certified-preview.png",
+      "output_sha256": "42aac0e60ce8adbbc669048a520db36657f690acd975c1086e243037e7f48650",
+      "transformation": "pdftoppm -f PAGE -singlefile -scale-to SCALE -png INPUT OUTPUT_PREFIX"
+    },
+    {
+      "input": "house-2014-statistics.pdf",
+      "input_sha256": "5e4e2208ef8bb6f9e3ba6bb988801dd9a53dbd3cb29596331a78ff79dbed5f1b",
+      "physical_pdf_page_one_based": 38,
+      "scale_to_pixels": 1600,
+      "output": "2014-anchor-preview.png",
+      "output_sha256": "353b3b2ddc3c325c376cecb2ca9b1584a5a75e83d4372379a57afa181671feaa",
+      "transformation": "pdftoppm -f PAGE -singlefile -scale-to SCALE -png INPUT OUTPUT_PREFIX"
+    }
+  ]
+}

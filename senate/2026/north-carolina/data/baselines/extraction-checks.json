@@ -1,0 +1,56 @@
+{
+  "parser_version": "1",
+  "zip_files": [
+    {
+      "year": 2020,
+      "contest": "US SENATE",
+      "all_source_rows": 257721,
+      "selected_rows": 12260,
+      "contest_group_id": "1374",
+      "county_count": 100,
+      "duplicate_selected_rows": 0,
+      "method_total_errors": 0,
+      "negative_count_rows": 0
+    },
+    {
+      "year": 2022,
+      "contest": "US SENATE",
+      "all_source_rows": 171900,
+      "selected_rows": 16423,
+      "contest_group_id": "1378",
+      "county_count": 100,
+      "duplicate_selected_rows": 0,
+      "method_total_errors": 0,
+      "negative_count_rows": 0
+    },
+    {
+      "year": 2024,
+      "contest": "US PRESIDENT",
+      "all_source_rows": 233510,
+      "selected_rows": 23236,
+      "contest_group_id": "1393",
+      "county_count": 100,
+      "duplicate_selected_rows": 0,
+      "method_total_errors": 0,
+      "negative_count_rows": 0
+    },
+    {
+      "year": 2014,
+      "contest": "US SENATE",
+      "all_source_rows": 223976,
+      "selected_rows": 20509,
+      "contest_group_id": "1152",
+      "county_count": 100,
+      "duplicate_selected_rows": 0,
+      "method_total_errors": 0,
+      "negative_count_rows": 1
+    }
+  ],
+  "certified_baseline_rows": 300,
+  "certified_candidate_rows": 1685,
+  "state_candidate_reconciliations": 19,
+  "county_state_candidate_mismatches": 0,
+  "raw_zip_certified_different_candidate_county_rows": 4,
+  "geography": "100 Census county FIPS in each of three contests; exact name join; no precinct geography inferred",
+  "missing_zero_rule": "Certified PDFs omit some zero write-in entries. No synthetic candidate rows are added; zero is used only for raw-vs-certified comparison of identified candidates in complete county contest tables."
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "input": "raw/henderson-2025-08-19-minutes.pdf",
+    "input_sha256": "f69120207cafa4ef711a456e174ed2e1a156eefeb471623ea16ffd6160c5500d",
+    "output": "previews/henderson-satellite-resolution.png",
+    "output_sha256": "d1d68c58c1fc6d9dba627ab5e04f8c69ddb4d7dcb773dc749af309ae421a438e",
+    "command": [
+      "pdftoppm",
+      "-f",
+      "9",
+      "-l",
+      "9",
+      "-scale-to",
+      "1600",
+      "-singlefile",
+      "-png",
+      "/Users/tqbf/codebase/snn/senate/2026/north-carolina/maps/raw/henderson-2025-08-19-minutes.pdf",
+      "/Users/tqbf/codebase/snn/senate/2026/north-carolina/maps/previews/henderson-satellite-resolution"
+    ]
+  },
+  {
+    "input": "raw/wake-2021-07-20-minutes.pdf",
+    "input_sha256": "0f6fb6e58cce3808ac6f7459ee3fa95e1f97ad31d86531d477a8e52d9f210113",
+    "output": "previews/wake-satellite-minutes.png",
+    "output_sha256": "1b073375bb70a451987cc816f551585a814b1365fe7ca7c3d67592debc46c174",
+    "command": [
+      "pdftoppm",
+      "-f",
+      "1",
+      "-l",
+      "1",
+      "-scale-to",
+      "1500",
+      "-singlefile",
+      "-png",
+      "/Users/tqbf/codebase/snn/senate/2026/north-carolina/maps/raw/wake-2021-07-20-minutes.pdf",
+      "/Users/tqbf/codebase/snn/senate/2026/north-carolina/maps/previews/wake-satellite-minutes"
+    ]
+  },
+  {
+    "input": "2026-08-24/wake.svg",
+    "input_sha256": "bec648980068247b8ab6b2553659282e6ef6b57fe6dfd9ebad7a2b73dd86a0b2",
+    "output": "previews/wake-current.png",
+    "output_sha256": "566b879709854214dae248cd430855915ec82336e562f54c7ffe4b49814edb1b",
+    "command": [
+      "rsvg-convert",
+      "-w",
+      "1000",
+      "/Users/tqbf/codebase/snn/senate/2026/north-carolina/maps/2026-08-24/wake.svg",
+      "-o",
+      "/Users/tqbf/codebase/snn/senate/2026/north-carolina/maps/previews/wake-current.png"
+    ]
+  },
+  {
+    "input": "2024-07-23/union.svg",
+    "input_sha256": "11fae858391c849e9b8bb7235fd623d93c7d2c3132e4facecf0630f2ce3bebf4",
+    "output": "previews/union-historical.png",
+    "output_sha256": "48830795969efee15d3331263cc217ebcfb13710e8428b6adf45adf94f44fad5",
+    "command": [
+      "rsvg-convert",
+      "-w",
+      "1000",
+      "/Users/tqbf/codebase/snn/senate/2026/north-carolina/maps/2024-07-23/union.svg",
+      "-o",
+      "/Users/tqbf/codebase/snn/senate/2026/north-carolina/maps/previews/union-historical.png"
+    ]
+  },
+  {
+    "input": "raw/wake-2021-07-20-minutes.pdf",
+    "input_sha256": "0f6fb6e58cce3808ac6f7459ee3fa95e1f97ad31d86531d477a8e52d9f210113",
+    "output": "raw/wake-2021-07-20-minutes.txt",
+    "output_sha256": "77d09afd16f257bab47183dc279535dd14a45518882600d8ec825e7c003216cd",
+    "command": [
+      "pdftotext",
+      "-layout",
+      "/Users/tqbf/codebase/snn/senate/2026/north-carolina/maps/raw/wake-2021-07-20-minutes.pdf",
+      "/Users/tqbf/codebase/snn/senate/2026/north-carolina/maps/raw/wake-2021-07-20-minutes.txt"
+    ]
+  }
+]

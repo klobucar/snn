@@ -1,0 +1,16 @@
+[
+  {
+    "date_utc": "2026-10-18",
+    "url": "https://clerk.house.gov/member_info/electionInfo/2014/statistics2014.pdf",
+    "method": "Python urllib download",
+    "result": "HTTP 404",
+    "resolution": "Used observed House Clerk search/index link https://clerk.house.gov/member_info/electionInfo/2014/114-statistics.pdf; this download succeeded and is in manifest.json."
+  },
+  {
+    "date_utc": "2026-10-18",
+    "source": "NCSBE Election Results ZIP links",
+    "method": "web tool click",
+    "result": "Web text renderer cannot consume ZIP content types",
+    "resolution": "Original ZIP bytes downloaded successfully with Python urllib; not a source access failure."
+  }
+]

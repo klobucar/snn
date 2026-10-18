@@ -1,0 +1,3191 @@
+{
+ "extent": {
+  "ymin": 4138621.3056000024,
+  "xmin": -8999098.9419999998,
+  "ymax": 4192240.6331999972,
+  "xmax": -8936376.0686000008,
+  "spatialReference": {
+   "falseM": -100000,
+   "xyTolerance": 0.001,
+   "mUnits": 10000,
+   "zUnits": 10000,
+   "latestWkid": 3857,
+   "zTolerance": 0.001,
+   "wkid": 102100,
+   "xyUnits": 10000,
+   "mTolerance": 0.001,
+   "falseX": -20037700,
+   "falseY": -30241100,
+   "falseZ": -100000
+  }
+ },
+ "maxRecordCount": 2000,
+ "datesInUnknownTimezone": false,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "type": "Feature Layer",
+ "maxSelectionCount": 2000,
+ "subtypes": [],
+ "relationships": [],
+ "cimVersion": "3.7.0",
+ "isDataArchived": false,
+ "id": 210,
+ "archivingInfo": {
+  "startArchivingMoment": -1,
+  "supportsQueryWithHistoricMoment": false
+ },
+ "spatialReference": {
+  "falseM": -100000,
+  "xyTolerance": 0.001,
+  "mUnits": 10000,
+  "zUnits": 10000,
+  "latestWkid": 3857,
+  "zTolerance": 0.001,
+  "wkid": 102100,
+  "xyUnits": 10000,
+  "mTolerance": 0.001,
+  "falseX": -20037700,
+  "falseY": -30241100,
+  "falseZ": -100000
+ },
+ "subtypeFieldName": null,
+ "supportsStatistics": true,
+ "hasLastEditTime": false,
+ "standardMaxRecordCount": 4000,
+ "isDataVersioned": false,
+ "hasGeometryProperties": true,
+ "supportsAdvancedQueries": true,
+ "parentLayer": {
+  "name": "Political Jurisdictions",
+  "id": 208
+ },
+ "subLayers": [],
+ "currentVersion": 12.1,
+ "referenceScale": 0,
+ "canScaleSymbols": false,
+ "name": "Precinct Districts",
+ "displayField": "name",
+ "fields": [
+  {
+   "nullable": false,
+   "domain": null,
+   "name": "OBJECTID",
+   "alias": "OBJECTID",
+   "type": "esriFieldTypeOID"
+  },
+  {
+   "nullable": true,
+   "domain": null,
+   "name": "PREC_ID",
+   "length": 100,
+   "alias": "PREC_ID",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "nullable": true,
+   "domain": null,
+   "name": "ENR_DESC",
+   "length": 150,
+   "alias": "ENR_DESC",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "nullable": true,
+   "domain": null,
+   "name": "COUNTY_NAM",
+   "length": 100,
+   "alias": "COUNTY_NAM",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "nullable": true,
+   "domain": null,
+   "name": "OF_PREC_ID",
+   "length": 50,
+   "alias": "OF_PREC_ID",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "nullable": true,
+   "domain": null,
+   "name": "COUNTY_ID",
+   "alias": "COUNTY_ID",
+   "type": "esriFieldTypeInteger"
+  },
+  {
+   "nullable": true,
+   "domain": null,
+   "name": "name",
+   "length": 15,
+   "alias": "name",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "nullable": true,
+   "domain": null,
+   "name": "Shape",
+   "alias": "Shape",
+   "type": "esriFieldTypeGeometry"
+  },
+  {
+   "nullable": true,
+   "domain": null,
+   "name": "Shape.STArea()",
+   "alias": "Shape.STArea()",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "nullable": true,
+   "domain": null,
+   "name": "Shape.STLength()",
+   "alias": "Shape.STLength()",
+   "type": "esriFieldTypeDouble"
+  }
+ ],
+ "maxRecordCountFactor": 1,
+ "dateFieldsTimeReference": null,
+ "preferredTimeReference": null,
+ "useStandardizedQueries": true,
+ "sourceSpatialReference": {
+  "falseM": 0,
+  "xyTolerance": 0.001,
+  "mUnits": 1,
+  "zUnits": 1,
+  "latestWkid": 3857,
+  "zTolerance": 0.000020000000000000002,
+  "wkid": 102100,
+  "xyUnits": 10000,
+  "mTolerance": 0.001,
+  "falseX": -20037700,
+  "falseY": -30241100,
+  "falseZ": 0
+ },
+ "description": "",
+ "canModifyLayer": true,
+ "supportedSpatialRelationships": [
+  "esriSpatialRelIntersects",
+  "esriSpatialRelContains",
+  "esriSpatialRelCrosses",
+  "esriSpatialRelEnvelopeIntersects",
+  "esriSpatialRelIndexIntersects",
+  "esriSpatialRelOverlaps",
+  "esriSpatialRelTouches",
+  "esriSpatialRelWithin",
+  "esriSpatialRelRelation"
+ ],
+ "geometryProperties": {
+  "shapeAreaFieldName": "Shape.STArea()",
+  "shapeLengthFieldName": "Shape.STLength()",
+  "units": "esriMeters",
+  "mapUnits": {"uwkid": 9001}
+ },
+ "standardMaxRecordCountNoGeometry": 32000,
+ "indexes": [
+  {
+   "name": "R139_pk",
+   "isUnique": true,
+   "description": "",
+   "fields": "OBJECTID",
+   "isAscending": true
+  },
+  {
+   "name": "S128_idx",
+   "isUnique": true,
+   "description": "",
+   "fields": "Shape",
+   "isAscending": true
+  }
+ ],
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "supportsDatumTransformation": true,
+ "minScale": 0,
+ "supportsDynamicLegends": true,
+ "hasAttachments": false,
+ "advancedQueryCapabilities": {
+  "supportsSqlExpression": true,
+  "supportsQueryWithResultType": true,
+  "supportsQueryRelatedPagination": true,
+  "supportsSqlFormat": false,
+  "useStandardizedQueries": true,
+  "supportsResultPaginationToken": false,
+  "supportsQueryWithCacheHint": false,
+  "supportsQueryWithDatumTransformation": true,
+  "supportsCurrentUserQueries": true,
+  "supportsQueryWithLodSR": false,
+  "supportsPagination": true,
+  "supportsMaxRecordCountFactor": false,
+  "supportsStatistics": true,
+  "supportsTrueCurve": true,
+  "supportsOrderBy": true,
+  "supportsLod": false,
+  "supportsQueryWithDistance": true,
+  "supportsCountDistinct": true,
+  "supportsAdvancedQueryRelated": true,
+  "supportsReturningQueryExtent": true,
+  "supportsDistinct": true,
+  "supportsTimeRelation": true,
+  "supportsQueryAnalytic": true,
+  "supportsPercentileStatistics": true,
+  "supportsHavingClause": true
+ },
+ "subtypeField": null,
+ "serviceItemId": "bf6b45893d4343e5b0671f8efd216f29",
+ "supportsCoordinatesQuantization": true,
+ "capabilities": "Map,Query,Data",
+ "maxScale": 0,
+ "supportsExceedsLimitStatistics": true,
+ "defaultVisibility": false,
+ "advancedQueryAnalyticCapabilities": {
+  "supportsAsync": false,
+  "supportsLinearRegression": true,
+  "supportsPercentileAnalytic": true
+ },
+ "hasMetadata": true,
+ "tileMaxRecordCount": 4000,
+ "typeIdField": null,
+ "defaultSubtypeCode": null,
+ "supportedQueryFormats": "JSON, geoJSON, PBF",
+ "hasLabels": false,
+ "drawingInfo": {
+  "renderer": {
+   "uniqueValueGroups": [{
+    "heading": "",
+    "classes": [
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        194,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#1"]],
+      "description": "#1",
+      "label": "#1"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        250,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#10"]],
+      "description": "#10",
+      "label": "#10"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        251,
+        254,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#11"]],
+      "description": "#11",
+      "label": "#11"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        254,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#12"]],
+      "description": "#12",
+      "label": "#12"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        200,
+        194,
+        254,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#13"]],
+      "description": "#13",
+      "label": "#13"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        251,
+        254,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#14"]],
+      "description": "#14",
+      "label": "#14"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        254,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#15"]],
+      "description": "#15",
+      "label": "#15"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        200,
+        194,
+        254,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#16"]],
+      "description": "#16",
+      "label": "#16"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        194,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#17"]],
+      "description": "#17",
+      "label": "#17"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        255,
+        182,
+        150,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#17A"]],
+      "description": "#17A",
+      "label": "#17A"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        255,
+        251,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#17B"]],
+      "description": "#17B",
+      "label": "#17B"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        251,
+        254,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#18"]],
+      "description": "#18",
+      "label": "#18"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        200,
+        194,
+        254,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#19"]],
+      "description": "#19",
+      "label": "#19"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        194,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#2"]],
+      "description": "#2",
+      "label": "#2"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        251,
+        254,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#20"]],
+      "description": "#20",
+      "label": "#20"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        252,
+        255,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#20A"]],
+      "description": "#20A",
+      "label": "#20A"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        250,
+        194,
+        255,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#20B"]],
+      "description": "#20B",
+      "label": "#20B"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        232,
+        190,
+        255,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#20C"]],
+      "description": "#20C",
+      "label": "#20C"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        250,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#21"]],
+      "description": "#21",
+      "label": "#21"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        255,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#22"]],
+      "description": "#22",
+      "label": "#22"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        251,
+        254,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#23"]],
+      "description": "#23",
+      "label": "#23"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        254,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#24"]],
+      "description": "#24",
+      "label": "#24"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        181,
+        149,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#25"]],
+      "description": "#25",
+      "label": "#25"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        251,
+        254,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#26"]],
+      "description": "#26",
+      "label": "#26"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        254,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#27"]],
+      "description": "#27",
+      "label": "#27"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        250,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#28"]],
+      "description": "#28",
+      "label": "#28"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        204,
+        204,
+        204,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#28A"]],
+      "description": "#28A",
+      "label": "#28A"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        252,
+        182,
+        245,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#28B"]],
+      "description": "#28B",
+      "label": "#28B"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        250,
+        252,
+        179,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#28C"]],
+      "description": "#28C",
+      "label": "#28C"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        252,
+        212,
+        204,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#28D"]],
+      "description": "#28D",
+      "label": "#28D"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        181,
+        149,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#29"]],
+      "description": "#29",
+      "label": "#29"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        255,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#29A"]],
+      "description": "#29A",
+      "label": "#29A"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        255,
+        251,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#29B"]],
+      "description": "#29B",
+      "label": "#29B"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        250,
+        194,
+        255,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#29C"]],
+      "description": "#29C",
+      "label": "#29C"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        249,
+        194,
+        254,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#3"]],
+      "description": "#3",
+      "label": "#3"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        254,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#30"]],
+      "description": "#30",
+      "label": "#30"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        254,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#31"]],
+      "description": "#31",
+      "label": "#31"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        194,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#32"]],
+      "description": "#32",
+      "label": "#32"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        194,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#33"]],
+      "description": "#33",
+      "label": "#33"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        250,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#34"]],
+      "description": "#34",
+      "label": "#34"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        181,
+        149,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#35"]],
+      "description": "#35",
+      "label": "#35"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        249,
+        194,
+        254,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#36"]],
+      "description": "#36",
+      "label": "#36"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        250,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#37"]],
+      "description": "#37",
+      "label": "#37"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        255,
+        235,
+        190,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#37A"]],
+      "description": "#37A",
+      "label": "#37A"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        190,
+        232,
+        255,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#37B"]],
+      "description": "#37B",
+      "label": "#37B"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        194,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#38"]],
+      "description": "#38",
+      "label": "#38"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        250,
+        194,
+        255,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#38A"]],
+      "description": "#38A",
+      "label": "#38A"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        255,
+        182,
+        150,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#38B"]],
+      "description": "#38B",
+      "label": "#38B"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        250,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#39"]],
+      "description": "#39",
+      "label": "#39"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        254,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#4"]],
+      "description": "#4",
+      "label": "#4"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        200,
+        194,
+        254,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#40"]],
+      "description": "#40",
+      "label": "#40"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        181,
+        149,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#41"]],
+      "description": "#41",
+      "label": "#41"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        251,
+        254,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#42"]],
+      "description": "#42",
+      "label": "#42"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        181,
+        149,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#43"]],
+      "description": "#43",
+      "label": "#43"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        254,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#44"]],
+      "description": "#44",
+      "label": "#44"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        254,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#45"]],
+      "description": "#45",
+      "label": "#45"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        255,
+        211,
+        127,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#46"]],
+      "description": "#46",
+      "label": "#46"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        250,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#5"]],
+      "description": "#5",
+      "label": "#5"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        181,
+        149,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#6"]],
+      "description": "#6",
+      "label": "#6"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        181,
+        149,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#7"]],
+      "description": "#7",
+      "label": "#7"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        194,
+        251,
+        254,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#8"]],
+      "description": "#8",
+      "label": "#8"
+     },
+     {
+      "symbol": {
+       "outline": null,
+       "color": [
+        254,
+        250,
+        194,
+        255
+       ],
+       "style": "esriSFSSolid",
+       "type": "esriSFS"
+      },
+      "values": [["#9"]],
+      "description": "#9",
+      "label": "#9"
+     }
+    ]
+   }],
+   "field1": "name",
+   "authoringInfo": {"colorRamp": {
+    "colorRamps": [
+     {
+      "toColor": [
+       168,
+       147,
+       207,
+       255
+      ],
+      "fromColor": [
+       168,
+       147,
+       207,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       232,
+       201,
+       165,
+       255
+      ],
+      "fromColor": [
+       232,
+       201,
+       165,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       193,
+       212,
+       232,
+       255
+      ],
+      "fromColor": [
+       193,
+       212,
+       232,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       227,
+       166,
+       185,
+       255
+      ],
+      "fromColor": [
+       227,
+       166,
+       185,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       237,
+       178,
+       233,
+       255
+      ],
+      "fromColor": [
+       237,
+       178,
+       233,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       206,
+       190,
+       237,
+       255
+      ],
+      "fromColor": [
+       206,
+       190,
+       237,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       204,
+       171,
+       165,
+       255
+      ],
+      "fromColor": [
+       204,
+       171,
+       165,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       235,
+       197,
+       226,
+       255
+      ],
+      "fromColor": [
+       235,
+       197,
+       226,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       157,
+       171,
+       209,
+       255
+      ],
+      "fromColor": [
+       157,
+       171,
+       209,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       235,
+       208,
+       199,
+       255
+      ],
+      "fromColor": [
+       235,
+       208,
+       199,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       186,
+       173,
+       204,
+       255
+      ],
+      "fromColor": [
+       186,
+       173,
+       204,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       212,
+       163,
+       202,
+       255
+      ],
+      "fromColor": [
+       212,
+       163,
+       202,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       237,
+       184,
+       168,
+       255
+      ],
+      "fromColor": [
+       237,
+       184,
+       168,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       172,
+       175,
+       230,
+       255
+      ],
+      "fromColor": [
+       172,
+       175,
+       230,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       209,
+       156,
+       148,
+       255
+      ],
+      "fromColor": [
+       209,
+       156,
+       148,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       204,
+       173,
+       191,
+       255
+      ],
+      "fromColor": [
+       204,
+       173,
+       191,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       177,
+       194,
+       227,
+       255
+      ],
+      "fromColor": [
+       177,
+       194,
+       227,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       204,
+       174,
+       235,
+       255
+      ],
+      "fromColor": [
+       204,
+       174,
+       235,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       204,
+       182,
+       153,
+       255
+      ],
+      "fromColor": [
+       204,
+       182,
+       153,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       177,
+       163,
+       207,
+       255
+      ],
+      "fromColor": [
+       177,
+       163,
+       207,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       147,
+       149,
+       207,
+       255
+      ],
+      "fromColor": [
+       147,
+       149,
+       207,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       221,
+       168,
+       237,
+       255
+      ],
+      "fromColor": [
+       221,
+       168,
+       237,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       204,
+       145,
+       164,
+       255
+      ],
+      "fromColor": [
+       204,
+       145,
+       164,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       227,
+       193,
+       200,
+       255
+      ],
+      "fromColor": [
+       227,
+       193,
+       200,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       240,
+       189,
+       234,
+       255
+      ],
+      "fromColor": [
+       240,
+       189,
+       234,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       191,
+       157,
+       204,
+       255
+      ],
+      "fromColor": [
+       191,
+       157,
+       204,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       196,
+       150,
+       212,
+       255
+      ],
+      "fromColor": [
+       196,
+       150,
+       212,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       226,
+       199,
+       240,
+       255
+      ],
+      "fromColor": [
+       226,
+       199,
+       240,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       212,
+       178,
+       209,
+       255
+      ],
+      "fromColor": [
+       212,
+       178,
+       209,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       237,
+       185,
+       185,
+       255
+      ],
+      "fromColor": [
+       237,
+       185,
+       185,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       207,
+       167,
+       147,
+       255
+      ],
+      "fromColor": [
+       207,
+       167,
+       147,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       173,
+       187,
+       240,
+       255
+      ],
+      "fromColor": [
+       173,
+       187,
+       240,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       203,
+       195,
+       230,
+       255
+      ],
+      "fromColor": [
+       203,
+       195,
+       230,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       237,
+       215,
+       190,
+       255
+      ],
+      "fromColor": [
+       237,
+       215,
+       190,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       171,
+       184,
+       204,
+       255
+      ],
+      "fromColor": [
+       171,
+       184,
+       204,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       240,
+       173,
+       206,
+       255
+      ],
+      "fromColor": [
+       240,
+       173,
+       206,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       219,
+       190,
+       173,
+       255
+      ],
+      "fromColor": [
+       219,
+       190,
+       173,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       177,
+       167,
+       232,
+       255
+      ],
+      "fromColor": [
+       177,
+       167,
+       232,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       232,
+       183,
+       208,
+       255
+      ],
+      "fromColor": [
+       232,
+       183,
+       208,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       207,
+       147,
+       198,
+       255
+      ],
+      "fromColor": [
+       207,
+       147,
+       198,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       219,
+       156,
+       163,
+       255
+      ],
+      "fromColor": [
+       219,
+       156,
+       163,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       212,
+       180,
+       224,
+       255
+      ],
+      "fromColor": [
+       212,
+       180,
+       224,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       175,
+       174,
+       212,
+       255
+      ],
+      "fromColor": [
+       175,
+       174,
+       212,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       151,
+       178,
+       204,
+       255
+      ],
+      "fromColor": [
+       151,
+       178,
+       204,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       153,
+       159,
+       207,
+       255
+      ],
+      "fromColor": [
+       153,
+       159,
+       207,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       214,
+       169,
+       170,
+       255
+      ],
+      "fromColor": [
+       214,
+       169,
+       170,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       230,
+       184,
+       197,
+       255
+      ],
+      "fromColor": [
+       230,
+       184,
+       197,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       175,
+       207,
+       240,
+       255
+      ],
+      "fromColor": [
+       175,
+       207,
+       240,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       204,
+       157,
+       174,
+       255
+      ],
+      "fromColor": [
+       204,
+       157,
+       174,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       184,
+       150,
+       212,
+       255
+      ],
+      "fromColor": [
+       184,
+       150,
+       212,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       204,
+       157,
+       163,
+       255
+      ],
+      "fromColor": [
+       204,
+       157,
+       163,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       230,
+       187,
+       240,
+       255
+      ],
+      "fromColor": [
+       230,
+       187,
+       240,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       163,
+       189,
+       227,
+       255
+      ],
+      "fromColor": [
+       163,
+       189,
+       227,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       224,
+       159,
+       195,
+       255
+      ],
+      "fromColor": [
+       224,
+       159,
+       195,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       176,
+       197,
+       217,
+       255
+      ],
+      "fromColor": [
+       176,
+       197,
+       217,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       230,
+       191,
+       188,
+       255
+      ],
+      "fromColor": [
+       230,
+       191,
+       188,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       200,
+       171,
+       209,
+       255
+      ],
+      "fromColor": [
+       200,
+       171,
+       209,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       230,
+       176,
+       170,
+       255
+      ],
+      "fromColor": [
+       230,
+       176,
+       170,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       195,
+       205,
+       230,
+       255
+      ],
+      "fromColor": [
+       195,
+       205,
+       230,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       222,
+       158,
+       218,
+       255
+      ],
+      "fromColor": [
+       222,
+       158,
+       218,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       240,
+       173,
+       186,
+       255
+      ],
+      "fromColor": [
+       240,
+       173,
+       186,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     },
+     {
+      "toColor": [
+       210,
+       163,
+       217,
+       255
+      ],
+      "fromColor": [
+       210,
+       163,
+       217,
+       255
+      ],
+      "type": "algorithmic",
+      "algorithm": "esriCIELabAlgorithm"
+     }
+    ],
+    "type": "multipart"
+   }},
+   "uniqueValueInfos": [
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       194,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#1",
+     "value": "#1"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       250,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#10",
+     "value": "#10"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       251,
+       254,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#11",
+     "value": "#11"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       254,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#12",
+     "value": "#12"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       200,
+       194,
+       254,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#13",
+     "value": "#13"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       251,
+       254,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#14",
+     "value": "#14"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       254,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#15",
+     "value": "#15"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       200,
+       194,
+       254,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#16",
+     "value": "#16"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       194,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#17",
+     "value": "#17"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       255,
+       182,
+       150,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#17A",
+     "value": "#17A"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       255,
+       251,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#17B",
+     "value": "#17B"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       251,
+       254,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#18",
+     "value": "#18"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       200,
+       194,
+       254,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#19",
+     "value": "#19"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       194,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#2",
+     "value": "#2"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       251,
+       254,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#20",
+     "value": "#20"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       252,
+       255,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#20A",
+     "value": "#20A"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       250,
+       194,
+       255,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#20B",
+     "value": "#20B"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       232,
+       190,
+       255,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#20C",
+     "value": "#20C"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       250,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#21",
+     "value": "#21"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       255,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#22",
+     "value": "#22"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       251,
+       254,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#23",
+     "value": "#23"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       254,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#24",
+     "value": "#24"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       181,
+       149,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#25",
+     "value": "#25"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       251,
+       254,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#26",
+     "value": "#26"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       254,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#27",
+     "value": "#27"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       250,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#28",
+     "value": "#28"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       204,
+       204,
+       204,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#28A",
+     "value": "#28A"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       252,
+       182,
+       245,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#28B",
+     "value": "#28B"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       250,
+       252,
+       179,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#28C",
+     "value": "#28C"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       252,
+       212,
+       204,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#28D",
+     "value": "#28D"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       181,
+       149,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#29",
+     "value": "#29"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       255,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#29A",
+     "value": "#29A"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       255,
+       251,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#29B",
+     "value": "#29B"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       250,
+       194,
+       255,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#29C",
+     "value": "#29C"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       249,
+       194,
+       254,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#3",
+     "value": "#3"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       254,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#30",
+     "value": "#30"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       254,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#31",
+     "value": "#31"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       194,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#32",
+     "value": "#32"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       194,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#33",
+     "value": "#33"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       250,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#34",
+     "value": "#34"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       181,
+       149,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#35",
+     "value": "#35"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       249,
+       194,
+       254,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#36",
+     "value": "#36"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       250,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#37",
+     "value": "#37"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       255,
+       235,
+       190,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#37A",
+     "value": "#37A"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       190,
+       232,
+       255,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#37B",
+     "value": "#37B"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       194,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#38",
+     "value": "#38"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       250,
+       194,
+       255,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#38A",
+     "value": "#38A"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       255,
+       182,
+       150,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#38B",
+     "value": "#38B"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       250,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#39",
+     "value": "#39"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       254,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#4",
+     "value": "#4"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       200,
+       194,
+       254,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#40",
+     "value": "#40"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       181,
+       149,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#41",
+     "value": "#41"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       251,
+       254,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#42",
+     "value": "#42"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       181,
+       149,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#43",
+     "value": "#43"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       254,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#44",
+     "value": "#44"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       254,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#45",
+     "value": "#45"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       255,
+       211,
+       127,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#46",
+     "value": "#46"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       250,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#5",
+     "value": "#5"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       181,
+       149,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#6",
+     "value": "#6"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       181,
+       149,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#7",
+     "value": "#7"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       194,
+       251,
+       254,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#8",
+     "value": "#8"
+    },
+    {
+     "symbol": {
+      "outline": null,
+      "color": [
+       254,
+       250,
+       194,
+       255
+      ],
+      "style": "esriSFSSolid",
+      "type": "esriSFS"
+     },
+     "label": "#9",
+     "value": "#9"
+    }
+   ],
+   "type": "uniqueValue",
+   "fieldDelimiter": ","
+  },
+  "scaleSymbols": true,
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "geometryField": {
+  "name": "Shape",
+  "alias": "Shape",
+  "type": "esriFieldTypeGeometry"
+ },
+ "copyrightText": "",
+ "geometryType": "esriGeometryPolygon"
+}

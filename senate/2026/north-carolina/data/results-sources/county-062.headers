@@ -1,0 +1,53 @@
+HTTP/1.1 302 Found
+Date: Sun, 18 Oct 2026 00:26:00 GMT
+Content-Length: 0
+Connection: keep-alive
+location: https://www.montgomerycountync.com/departments/board-of-elections
+cache-control: no-cache
+cf-cache-status: DYNAMIC
+Server: cloudflare
+CF-RAY: a4c368b74ff9eaf3-ORD
+
+HTTP/2 301 
+date: Sun, 18 Oct 2026 00:26:00 GMT
+content-type: text/html; charset=UTF-8
+location: http://www.montgomerycountync.gov/departments/board-of-elections
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+vary: x-forwarded-proto
+age: 12376
+x-cache: HIT
+cf-cache-status: DYNAMIC
+server: cloudflare
+cf-ray: a4c368b87adfc474-ORD
+
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 18 Oct 2026 00:26:00 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Location: https://www.montgomerycountync.gov/departments/board-of-elections
+Speculation-Rules: "/cdn-cgi/speculation"
+Vary: accept-encoding
+Server: cloudflare
+CF-RAY: a4c368b9a9635c91-ORD
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+date: Sun, 18 Oct 2026 00:26:00 GMT
+content-type: text/html;charset=UTF-8
+cache-control: public, max-age=86400
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+speculation-rules: "/cdn-cgi/speculation"
+vary: Accept-Encoding, Accept-Encoding, x-forwarded-proto
+x-cache: HIT
+last-modified: Sun, 18 Oct 2026 00:26:00 GMT
+cf-cache-status: HIT
+content-encoding: gzip
+server: cloudflare
+cf-ray: a4c368ba1f3b341a-ORD
+alt-svc: h3=":443"; ma=86400
+

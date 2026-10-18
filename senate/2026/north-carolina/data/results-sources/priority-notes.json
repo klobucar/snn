@@ -1,0 +1,297 @@
+{
+  "Wake": {
+    "finding": "Landing \u2192 Past Election Results \u2192 downloaded 2024 and 2022 official summary PDFs; named candidates/methods and grouped write-ins checked. October 2026 early-vote PDF is turnout by site, not candidate returns. The October participation PDF table and large total card differ by one ballot; not used for candidate counts.",
+    "gap": "Summary registration and reporting-unit denominators differ from state dashboard; genuine November updates untested.",
+    "sources": [
+      "county-092-results-1",
+      "wake-2024-summary",
+      "wake-2022-summary",
+      "county-092-early"
+    ]
+  },
+  "Mecklenburg": {
+    "finding": "Landing \u2192 Election Data \u2192 NCSBE dashboard; no distinct candidate feed found in saved pages.",
+    "gap": "Local publication timing and any distinct feed unverified.",
+    "sources": [
+      "county-060-data"
+    ]
+  },
+  "Guilford": {
+    "finding": "Landing \u2192 Elections and Results \u2192 NCSBE March primary plus county report links. Downloaded PDF labeled 2024 official results by the county renders with header PCT SORT, run 2025-01-29; excluded from exact-count reconciliation.",
+    "gap": "Link label does not establish exact-count suitability; scanned PCT SORT PDF is excluded. November local publication and noise treatment unverified.",
+    "sources": [
+      "county-041-results",
+      "guilford-2024-official"
+    ]
+  },
+  "Forsyth": {
+    "finding": "Election Results \u2192 election schedule. November 2026 scrolling-results link is actually coming_soon.pdf, downloaded.",
+    "gap": "Placeholder is not results; independent local live feed unverified.",
+    "sources": [
+      "county-034-results-1",
+      "forsyth-coming-soon"
+    ]
+  },
+  "Durham": {
+    "finding": "Directory landing and current official-results page both returned 403. Official indexed page describes an iframe and separate precinct turnout reports.",
+    "gap": "Iframe destination and local data access unverified; indexed text is discovery only.",
+    "sources": [
+      "county-032-current"
+    ]
+  },
+  "Buncombe": {
+    "finding": "Raw landing/results 403; web-rendered official Voting & Results \u2192 Election Results links NCSBE March 2026 primary and 2024/2022 general archives. Page uses legacy Clarity wording although observed links go to NCSBE.",
+    "gap": "Raw county access and independent local data mechanism unverified.",
+    "sources": [
+      "county-011-voting-linked",
+      "county-011-results",
+      "web-priority-followup"
+    ]
+  },
+  "Cumberland": {
+    "finding": "Landing \u2192 Past Election Results \u2192 actual Airtable embed downloaded; county publication authority established, embedded app shell not parsed into candidate votes.",
+    "gap": "Airtable underlying records/archives/update timing unverified.",
+    "sources": [
+      "county-026-results-1",
+      "cumberland-airtable"
+    ]
+  },
+  "Union": {
+    "finding": "County homepage links NCSBE March 3, 2026 primary with native county ID 90.",
+    "gap": "Local current link is primary; November counts verified only as state zero setup.",
+    "sources": [
+      "county-090"
+    ]
+  },
+  "New Hanover": {
+    "finding": "Board landing and linked 2026 General Election page inspected; sample ballots and voting information, no distinct result feed found.",
+    "gap": "Local November results channel/archives not established from inspected pages.",
+    "sources": [
+      "county-065-general"
+    ]
+  },
+  "Johnston": {
+    "finding": "Directory HTTP failed; HTTPS BOE works \u2192 Archives and Data \u2192 Historical Election Results \u2192 downloaded state dashboard shells for 2024 and 2022. Current Election Results route redirects to BOE homepage.",
+    "gap": "Current local route is not a populated result page; independent live feed unverified.",
+    "sources": [
+      "county-051-https",
+      "county-051-archives",
+      "county-051-historical",
+      "county-051-current",
+      "johnston-2024",
+      "johnston-2022"
+    ]
+  },
+  "Cabarrus": {
+    "finding": "Directory HTTP and HTTPS return 403; web-rendered official Election Results page links NCSBE March primary plus 2024 and 2022 general.",
+    "gap": "Raw county access and November local election selection unverified.",
+    "sources": [
+      "county-013-https",
+      "county-013-results",
+      "web-priority-followup"
+    ]
+  },
+  "Gaston": {
+    "finding": "Landing \u2192 Election Results \u2192 dated NCSBE 2024 and 2022 general links plus other archives.",
+    "gap": "Independent local feed and November selection unverified.",
+    "sources": [
+      "county-036-results-1"
+    ]
+  },
+  "Iredell": {
+    "finding": "Homepage directly links November 3, 2026 NCSBE county ID 49; Election Data & Results archive links 2024/2022.",
+    "gap": "November destination is zero setup; no measured changes.",
+    "sources": [
+      "county-049",
+      "county-049-results-1"
+    ]
+  },
+  "Brunswick": {
+    "finding": "Landing Election Results link selects November 4, 2025 NCSBE municipal election, county ID 10.",
+    "gap": "County-linked election is historical municipal, not November 2026.",
+    "sources": [
+      "county-010"
+    ]
+  },
+  "Davidson": {
+    "finding": "Official BOE homepage results button selects March 3, 2026 NCSBE primary, county ID 29.",
+    "gap": "November local selection and distinct channel unverified.",
+    "sources": [
+      "county-029"
+    ]
+  },
+  "Alamance": {
+    "finding": "Directory election subdomain redirects to county BOE page; Election Results links NCSBE root.",
+    "gap": "Election selection is not pinned; no distinct local feed established.",
+    "sources": [
+      "county-001"
+    ]
+  },
+  "Orange": {
+    "finding": "Landing and Past Results inspected; state dashboard plus local early-voting totals for 2024/2022 and March 2026.",
+    "gap": "Early-vote totals are participation reports; do not ingest as candidate votes.",
+    "sources": [
+      "county-068-results-1"
+    ]
+  },
+  "Pitt": {
+    "finding": "Landing \u2192 Elected Officials & Results; NCSBE links include statewide 2024 Federal/State office views. Root dashboard also linked.",
+    "gap": "Some linked views are statewide, not Pitt-only; filter cid 74 explicitly.",
+    "sources": [
+      "county-074-results-1"
+    ]
+  },
+  "Catawba": {
+    "finding": "Directory HTTP 404; HTTPS elections page works \u2192 Election Results \u2192 downloaded local 2024/2022 contest PDFs and state dashboard.",
+    "gap": "Local PDFs omit some write-in categories; check full universe before replacing a county total.",
+    "sources": [
+      "county-018-https",
+      "county-018-results",
+      "catawba-2024-summary",
+      "catawba-2022-summary"
+    ]
+  },
+  "Onslow": {
+    "finding": "Raw directory and sitemap/results 403; web-rendered official sitemap \u2192 Past Election Results redirects to NCSBE dashboard root.",
+    "gap": "Raw local access unavailable; no separate vendor established.",
+    "sources": [
+      "county-067-sitemap",
+      "county-067-results"
+    ]
+  },
+  "Randolph": {
+    "finding": "Homepage selects March 2026 primary and 2024 general at NCSBE; Election Results archive links 2024/2022.",
+    "gap": "Primary current link is not November; board canvass notice is separate from completed status.",
+    "sources": [
+      "county-076-results-1"
+    ]
+  },
+  "Rowan": {
+    "finding": "Homepage explicitly links November 3, 2026 NCSBE county ID 80, with scrolling/non-scrolling variants; Past Election Results provides older archives.",
+    "gap": "November is zero setup; retain 2024 write-in reclassification discrepancy against certified source.",
+    "sources": [
+      "county-080",
+      "county-080-results-1"
+    ]
+  },
+  "Henderson": {
+    "finding": "Raw elections/maps/results routes return 520; web-rendered Maps & Data links Past Election Results, whose fetch failed.",
+    "gap": "Local archive/embedded destination unverified; state historical county records tested.",
+    "sources": [
+      "county-045-maps-data",
+      "county-045-results",
+      "web-followups-blocked"
+    ]
+  },
+  "Harnett": {
+    "finding": "Landing \u2192 beta Harnett County Election Results page inspected; numerous historic PDF links and state results/data link.",
+    "gap": "Legacy/beta navigation and current November result selection need manual verification.",
+    "sources": [
+      "county-043-results-1"
+    ]
+  },
+  "Moore": {
+    "finding": "Landing \u2192 Results archive with NCSBE dated election links and 2017-to-current tab.",
+    "gap": "November-specific local selection and any distinct data unverified.",
+    "sources": [
+      "county-063-results-1"
+    ]
+  },
+  "Craven": {
+    "finding": "Directory cravenvote.com returns 404 and HTTPS fails; current county-government BOE page explicitly directs past results to state website.",
+    "gap": "Retire broken shortcut in operation; no separate local feed established.",
+    "sources": [
+      "county-025-https",
+      "county-025-current"
+    ]
+  },
+  "Lincoln": {
+    "finding": "Landing \u2192 Election Results \u2192 NCSBE archives. A link labeled 2020 actually selects May 17, 2022; preserve destination/date mismatch.",
+    "gap": "Do not trust link label for election identity; November local selection unverified.",
+    "sources": [
+      "county-055-results-1"
+    ]
+  },
+  "Wayne": {
+    "finding": "Homepage links state dashboard and an actual November 13 county canvass notice PDF.",
+    "gap": "Notice link observed; PDF content not downloaded, so county-specific schedule not claimed from it.",
+    "sources": [
+      "county-096"
+    ]
+  },
+  "Nash": {
+    "finding": "Official BOE page links NCSBE root as Election Results.",
+    "gap": "No distinct local result feed or November election selection established.",
+    "sources": [
+      "county-064"
+    ]
+  },
+  "Chatham": {
+    "finding": "Raw BOE and results pages 403. Official search-index result describes certified results organized by year, including 2024 and 2022. Follow-up web open also 403.",
+    "gap": "Archive destinations/current bytes unverified; indexed text not candidate evidence.",
+    "sources": [
+      "county-019-results",
+      "web-priority-followup"
+    ]
+  },
+  "Cleveland": {
+    "finding": "Official BOE page links state dashboard root and a dated 2022 Senate-era county view.",
+    "gap": "2022 archive is historical; November local selection unverified.",
+    "sources": [
+      "county-023"
+    ]
+  },
+  "Rockingham": {
+    "finding": "Directory raw 403; current official BOE route web-rendered with November election notices and election-information navigation.",
+    "gap": "Exact local results destination/data and raw access unverified.",
+    "sources": [
+      "county-079-current",
+      "web-priority-followup"
+    ]
+  },
+  "Robeson": {
+    "finding": "Official BOE Wix page inspected: election notices, early-voting totals and board-meeting schedule; no candidate-results endpoint found in anchors.",
+    "gap": "Participation documents are not votes; dynamic local result channel unverified.",
+    "sources": [
+      "county-078"
+    ]
+  },
+  "Burke": {
+    "finding": "Current official BOE page inspected: election notices, voting information, state website link; no distinct results endpoint found.",
+    "gap": "Local November candidate publication unverified.",
+    "sources": [
+      "county-012"
+    ]
+  },
+  "Carteret": {
+    "finding": "Landing \u2192 Official Elections Results \u2192 NCSBE 2024 general and historical election links; absentee/provisional state page also linked.",
+    "gap": "November current selection and independent county feed unverified.",
+    "sources": [
+      "county-016-results"
+    ]
+  },
+  "Caldwell": {
+    "finding": "Official BOE page inspected; linked daily early-voting statistics and election calendar, no candidate-results endpoint found.",
+    "gap": "Early-vote statistics are not candidate results; local November candidate channel unverified.",
+    "sources": [
+      "county-014"
+    ]
+  },
+  "Franklin": {
+    "finding": "Directory raw 403; web-rendered current official BOE page available. No result feed established in inspected content.",
+    "gap": "Local November result destination and raw access unverified.",
+    "sources": [
+      "county-035",
+      "web-followups-blocked"
+    ]
+  },
+  "Wilson": {
+    "finding": "Raw landing/sitemap 403; official search index exposes March 2026 result link and Recent Election Results navigation. November state detailed sample has PRGA/PRWL-style IDs and Not Reported status.",
+    "gap": "Indexed county text does not establish outbound URL; raw local/current election selection unverified.",
+    "sources": [
+      "county-098",
+      "county-098-sitemap",
+      "precinct-2026-wilson"
+    ]
+  }
+}

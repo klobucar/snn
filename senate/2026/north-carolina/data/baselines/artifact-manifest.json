@@ -1,0 +1,381 @@
+{
+  "generated_at_utc": "2026-10-18T00:25:02.522077+00:00",
+  "parser_version": "1",
+  "python": "3.11.8",
+  "poppler": "pdftotext version 26.04.0",
+  "offline_rebuild": [
+    "build_baselines.py",
+    "calculate.py",
+    "reconcile_turnout.py",
+    "render_report.py",
+    "validate.py"
+  ],
+  "original_source_manifest": "manifest.json",
+  "files": [
+    {
+      "path": "county-partisanship.md",
+      "bytes": 34266,
+      "sha256": "634aa602a70e071108786faac4cb186d2f4b35e2a7d0ea13425216e0ec1b9763"
+    },
+    {
+      "path": "data/baselines/2014-anchor-preview.png",
+      "bytes": 264701,
+      "sha256": "353b3b2ddc3c325c376cecb2ca9b1584a5a75e83d4372379a57afa181671feaa"
+    },
+    {
+      "path": "data/baselines/2014-anchor-reconciliation.csv",
+      "bytes": 347,
+      "sha256": "309cdd6c3c1618280cfe887bece6476f5b3b7aa3b1364f36430ad3a2b345a55c"
+    },
+    {
+      "path": "data/baselines/2014-results.zip",
+      "bytes": 2274182,
+      "sha256": "82334f82a446c1f6a1ac96b8fab7176a2b52c0da12905373d8455e97f02c173e"
+    },
+    {
+      "path": "data/baselines/2014-results.zip.meta.json",
+      "bytes": 1535,
+      "sha256": "4437f18cd3003895ae21c3c7fa6b87d0e1bd40e0b06b62313218af2c9a3b7d53"
+    },
+    {
+      "path": "data/baselines/2014-senate-state-zip-extract.csv",
+      "bytes": 782,
+      "sha256": "2241850f4eeea13b6ef09c045568901e5fd5d9f84a851738617d8f6ebf3b6d85"
+    },
+    {
+      "path": "data/baselines/2020-certified-contest-preview.png",
+      "bytes": 310988,
+      "sha256": "1e693921192156f7a7502ba0ba1a14508fc84f0f6058a427a0b2fa7aac1f7160"
+    },
+    {
+      "path": "data/baselines/2020-certified-contest.pdf",
+      "bytes": 238735,
+      "sha256": "d5d1b87aef9b159bc098957350100197b13ee4578232e89fdfa7d6981d84798e"
+    },
+    {
+      "path": "data/baselines/2020-certified-contest.pdf.meta.json",
+      "bytes": 1718,
+      "sha256": "7e8f376f2908a19fe04f9f44d59d1f7a5798c24da33737365ac0fa82e11157a5"
+    },
+    {
+      "path": "data/baselines/2020-certified-contest.txt",
+      "bytes": 108069,
+      "sha256": "ec979682b24c3644ab353f1f01bc1d83ff972982df60a044b3dc99841cbcc8e1"
+    },
+    {
+      "path": "data/baselines/2020-certified-county.pdf",
+      "bytes": 2101526,
+      "sha256": "edfca9778d84b6efa6a46f4ced5b16206c9493defd9f80e60184493cfa109e80"
+    },
+    {
+      "path": "data/baselines/2020-certified-county.pdf.meta.json",
+      "bytes": 1717,
+      "sha256": "1f650060fed29861eb75c562bb95d94663faa591294fc653a75102cdba970502"
+    },
+    {
+      "path": "data/baselines/2020-certified-county.txt",
+      "bytes": 1099132,
+      "sha256": "c5bcd66bdf354450cda93d953b9a7ed40302565c94bc869a24dcaf857d176ee8"
+    },
+    {
+      "path": "data/baselines/2020-results.zip",
+      "bytes": 5392406,
+      "sha256": "b388536c61930d03ed3b0fb8d1dae39a65665969f90eeb6578512de0d96c47c0"
+    },
+    {
+      "path": "data/baselines/2020-results.zip.meta.json",
+      "bytes": 1628,
+      "sha256": "1cb51a90d259847d3e8a82ba264ad8cf6dcf1c8c3ed779584582ca57e573587f"
+    },
+    {
+      "path": "data/baselines/2022-certified-contest-preview.png",
+      "bytes": 299743,
+      "sha256": "3d6c073ce2c0add91f6c738bd9c16b97824f71a7193d5e086b15a830c71cd52a"
+    },
+    {
+      "path": "data/baselines/2022-certified-contest.pdf",
+      "bytes": 206780,
+      "sha256": "a5bc88cef041895943b6bd187a9d141517de07ac3827eaa7fd88b06b1f63006c"
+    },
+    {
+      "path": "data/baselines/2022-certified-contest.pdf.meta.json",
+      "bytes": 1603,
+      "sha256": "298f75f90501b15cab32859dc686bb9c983cfc5eb49bccd59812df153f282481"
+    },
+    {
+      "path": "data/baselines/2022-certified-contest.txt",
+      "bytes": 98742,
+      "sha256": "774791d7c47a34bf705bb75149c4e3c1a8587802c0a27891d0b3ca3f55525906"
+    },
+    {
+      "path": "data/baselines/2022-certified-county.pdf",
+      "bytes": 814185,
+      "sha256": "b2fdfea6cff81bb21152f087f457e6a2904ffe54011109a660c8629b20d5dcbe"
+    },
+    {
+      "path": "data/baselines/2022-certified-county.pdf.meta.json",
+      "bytes": 1600,
+      "sha256": "7ce64188afaf74acee18fe08e151524621753facab8a6cfcc5ffbdbf76e20cb9"
+    },
+    {
+      "path": "data/baselines/2022-certified-county.txt",
+      "bytes": 545905,
+      "sha256": "395fe1d03b6bfee405c1c2b0a5e2e9c63121f6745bbe0f98b0b6f93f2e8c08ed"
+    },
+    {
+      "path": "data/baselines/2022-results.zip",
+      "bytes": 2848921,
+      "sha256": "2024bf67243ef173f54e625c3bace4c8b6f80947fa7d67df26796c2c85d3e9f1"
+    },
+    {
+      "path": "data/baselines/2022-results.zip.meta.json",
+      "bytes": 1548,
+      "sha256": "393e08343c071ba516364036f2d04e93849ba171376f0a19f7f7914dd0a671a6"
+    },
+    {
+      "path": "data/baselines/2024-certified-contest-preview.png",
+      "bytes": 292676,
+      "sha256": "48dc87fc35560d1c502f1c3cb3255a8ed4af6107b5ea4e7dac4bc453ef1c269e"
+    },
+    {
+      "path": "data/baselines/2024-certified-contest.pdf",
+      "bytes": 204736,
+      "sha256": "cf7e3340b83ab2c6c26709d26fb447b81a6f0d07fddc841d9c3187b5a00f9b0f"
+    },
+    {
+      "path": "data/baselines/2024-certified-contest.pdf.meta.json",
+      "bytes": 1638,
+      "sha256": "7171452740b4aa9a8291d6b0b4df6ff4f4610d93d7fd3c91cd2601d717bbc96c"
+    },
+    {
+      "path": "data/baselines/2024-certified-contest.txt",
+      "bytes": 113461,
+      "sha256": "dd684364ac171ea455af03fb39ee67448aa3486ec79f0eb559222945cf75cbde"
+    },
+    {
+      "path": "data/baselines/2024-certified-county.pdf",
+      "bytes": 1655920,
+      "sha256": "395abc3d64d691683f297587952838055b021632cfd8c396de7e6dbe99f2ccc3"
+    },
+    {
+      "path": "data/baselines/2024-certified-county.pdf.meta.json",
+      "bytes": 1619,
+      "sha256": "3c73ba8206222c46e850d26d4d8e094772dad52669998426c4f02348402237cb"
+    },
+    {
+      "path": "data/baselines/2024-certified-county.txt",
+      "bytes": 1557054,
+      "sha256": "33611d78a929dd6eaa31a94d5026d04a98168efe78b1ec29cdacd192db85a8d2"
+    },
+    {
+      "path": "data/baselines/2024-mitchell-certified-preview.png",
+      "bytes": 256289,
+      "sha256": "cec67f0279ef947c284f047bb5810d682c9abea2c047bdef83bbb01ff24671f9"
+    },
+    {
+      "path": "data/baselines/2024-results.zip",
+      "bytes": 3741131,
+      "sha256": "2fab44e9b12e03c0d88ef832c2e6dc8c569e2b020d64df06a8b551b62bbdb426"
+    },
+    {
+      "path": "data/baselines/2024-results.zip.meta.json",
+      "bytes": 1648,
+      "sha256": "43883c1322dae2fbc67ad1d2b9a6412adffb507b38ac5d03099b7df80550b065"
+    },
+    {
+      "path": "data/baselines/2024-rowan-certified-preview.png",
+      "bytes": 275535,
+      "sha256": "42aac0e60ce8adbbc669048a520db36657f690acd975c1086e243037e7f48650"
+    },
+    {
+      "path": "data/baselines/access-notes.json",
+      "bytes": 683,
+      "sha256": "5ff2e69246a94de91e4441424ea324a40e2d989c590517e432c63adb5ee9e0e5"
+    },
+    {
+      "path": "data/baselines/build_baselines.py",
+      "bytes": 13418,
+      "sha256": "1d0c1f7ccfeb0a337dd3cae966810d4266f3357012349fdc77e50e4b39b52ea9"
+    },
+    {
+      "path": "data/baselines/calculate.py",
+      "bytes": 9297,
+      "sha256": "fdcbfc40b684a29134655ebe4760b463f1ee7c5a5a4ec9ce57cfb41a1a96dbac"
+    },
+    {
+      "path": "data/baselines/candidate-reconciliation.csv",
+      "bytes": 4193,
+      "sha256": "f0714b10cdbb19712abd43ebb70e1c3cdf21f671d57d2f6a83d439a41c86053f"
+    },
+    {
+      "path": "data/baselines/census-national-county2020.txt",
+      "bytes": 126639,
+      "sha256": "9f6e5f6eb6ac2f5e9a36d5fd01dec77991bddc75118f748a069441a4782970d6"
+    },
+    {
+      "path": "data/baselines/census-national-county2020.txt.meta.json",
+      "bytes": 2286,
+      "sha256": "0440a221c5e020fedabd57efdcb779f546e2288b7f4ad946d9480edf7e663312"
+    },
+    {
+      "path": "data/baselines/certified-state-candidates.csv",
+      "bytes": 1953,
+      "sha256": "c3ee623ba382a7b5ba8b71037d7270941d68762610b3edc50ae5182750131f25"
+    },
+    {
+      "path": "data/baselines/collect.py",
+      "bytes": 4281,
+      "sha256": "6cedd2eec00daddcd939207cb82de9843416893148d819bfc3a4c439dbd38cf2"
+    },
+    {
+      "path": "data/baselines/conditional-examples.json",
+      "bytes": 2835,
+      "sha256": "f621b6a9ff4ec4ba56369f8a4d792cec6f4628fcee2656338739ebcead5cb399"
+    },
+    {
+      "path": "data/baselines/county-candidates.csv",
+      "bytes": 553659,
+      "sha256": "4c46981d074ac116002699c73fcd9e0dcc4ee5991e3838725fac172d340cf9de"
+    },
+    {
+      "path": "data/baselines/county-reconciliation.csv",
+      "bytes": 10215,
+      "sha256": "a33f0ce011e4a069143e6258595a0ac41fbaaa6cfdafa81fc1c8ac4799af570d"
+    },
+    {
+      "path": "data/baselines/county-target-scenarios.csv",
+      "bytes": 1796333,
+      "sha256": "54679bf950f214d1c074255859b0e4315210d82ae513b33a31440add5a0703cf"
+    },
+    {
+      "path": "data/baselines/extraction-checks.json",
+      "bytes": 1746,
+      "sha256": "bce9511ec80224e5dd2fe18536bb242a915fc68731d3e529d6f364b9502f1d7e"
+    },
+    {
+      "path": "data/baselines/house-2014-statistics.pdf",
+      "bytes": 451931,
+      "sha256": "5e4e2208ef8bb6f9e3ba6bb988801dd9a53dbd3cb29596331a78ff79dbed5f1b"
+    },
+    {
+      "path": "data/baselines/house-2014-statistics.pdf.meta.json",
+      "bytes": 1263,
+      "sha256": "b6931c43cdfeab9b498b508e2e8a30bd4147b90a4dc1d549c2b7e7358c96b309"
+    },
+    {
+      "path": "data/baselines/house-2014-statistics.txt",
+      "bytes": 539670,
+      "sha256": "01289522749a326cd747d141987d209ef8b94770b9a09e99ffda87f1993286c9"
+    },
+    {
+      "path": "data/baselines/layout-results.txt",
+      "bytes": 6905,
+      "sha256": "e8ed6e13b8fd786d9149dcb8b98fc3fc24892f96e438890ad4929cc81ebcc547"
+    },
+    {
+      "path": "data/baselines/layout-results.txt.meta.json",
+      "bytes": 1625,
+      "sha256": "ae684d6ec2f9d50db3b0e665f3b1b6cef582552585d8452f032d453a87f27eb1"
+    },
+    {
+      "path": "data/baselines/manifest.json",
+      "bytes": 27749,
+      "sha256": "c9b95777999cdda5ebdb5e0d75991cd4da1644a20a6c0e1f88a6dc395cb80a97"
+    },
+    {
+      "path": "data/baselines/ncsbe-historical-index.html",
+      "bytes": 101279,
+      "sha256": "3db553eeaffadfce4251b923384ff9717ec0ed08fb5243071f731d65a0117eb5"
+    },
+    {
+      "path": "data/baselines/ncsbe-historical-index.html.meta.json",
+      "bytes": 2100,
+      "sha256": "a997a49dda7cb33fc8402e6b8692c5ba0d8cf248ea4709cf7b6c873ff946d965"
+    },
+    {
+      "path": "data/baselines/preview-provenance.json",
+      "bytes": 2815,
+      "sha256": "ee8c254f00f6f49b23f7e13e2b92af1d5119dc94fa8aa0601c0ba5ea5c97e810"
+    },
+    {
+      "path": "data/baselines/reconcile_turnout.py",
+      "bytes": 5811,
+      "sha256": "89da8201e2ad7e5bf7f79e4fd70e41e46d6c9b7edc93210b613538319ae7ffdc"
+    },
+    {
+      "path": "data/baselines/render_evidence.py",
+      "bytes": 1338,
+      "sha256": "674b9593f5a5161f1133935012eecaee2e2df2ffcaabf432aa633914501f9a06"
+    },
+    {
+      "path": "data/baselines/render_report.py",
+      "bytes": 25935,
+      "sha256": "6992cf94baa987fc413168e28acb984f7246a90a38c2febee01d739856304322"
+    },
+    {
+      "path": "data/baselines/scenario-checks.json",
+      "bytes": 358,
+      "sha256": "4b862a70c60395aab6cf6c1334f6a2fa52b2871e1c47d6ed64c623e1b8274705"
+    },
+    {
+      "path": "data/baselines/senate-class-II.html",
+      "bytes": 19562,
+      "sha256": "2cec4a3935927dc250c4b964746aceca026ee49adf0f5a78397861b5ce31667d"
+    },
+    {
+      "path": "data/baselines/senate-class-II.html.meta.json",
+      "bytes": 1038,
+      "sha256": "a1b10c49cd85cbd10463a7ca006b22b7b801dcb9f8820991675887b6c7e3fe13"
+    },
+    {
+      "path": "data/baselines/senate-class-III.html",
+      "bytes": 19547,
+      "sha256": "87e5f9b2ce77dd070661555a93a06e7ffa349dc426fc2f5029180b51e14afcb3"
+    },
+    {
+      "path": "data/baselines/senate-class-III.html.meta.json",
+      "bytes": 1041,
+      "sha256": "c7306f45118f636ac23e9874661ba643817389879298f1a6c38ad2dc9d09047f"
+    },
+    {
+      "path": "data/baselines/sensitivity-assumptions.csv",
+      "bytes": 407,
+      "sha256": "955ee002cc71db5c442dfb083b2c68d11641ad6d9c822f8307a42b4498f77635"
+    },
+    {
+      "path": "data/baselines/state-scenarios.csv",
+      "bytes": 11245,
+      "sha256": "808ce986dbb358a63c946193b09ab3390baab704468a6bf2fe7719cf79f84828"
+    },
+    {
+      "path": "data/baselines/turnout-reconciliation.csv",
+      "bytes": 16597,
+      "sha256": "04cab359c7bf28a9880bda82395871328e242c969e6888ea9bbb0d24c79e5652"
+    },
+    {
+      "path": "data/baselines/turnout-reconciliation.json",
+      "bytes": 4323,
+      "sha256": "da9fb3e524f52dc45348a3e921a3ccb2d01ac6126c472c89389b7426b918d0bb"
+    },
+    {
+      "path": "data/baselines/validate.py",
+      "bytes": 12259,
+      "sha256": "bd989d5841fe31acf704dcf40ade1534548e3f51560b334a97e8ddba76699d0a"
+    },
+    {
+      "path": "data/baselines/validation.json",
+      "bytes": 1109,
+      "sha256": "5c2d9835ffabe4ed2750923f7f8d65e5446c38c4e12a818f372d579330703850"
+    },
+    {
+      "path": "data/baselines/zip-certified-differences.csv",
+      "bytes": 348,
+      "sha256": "63d10c33f6871556f432a801d1998609804d187015cebfea2c6d20f5a5cd0ee7"
+    },
+    {
+      "path": "data/county-baselines.csv",
+      "bytes": 237815,
+      "sha256": "aa593d98a329eac3302e5159159f2060cba51fe279fd593b8adf911498aa5270"
+    }
+  ]
+}

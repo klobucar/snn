@@ -1,0 +1,181 @@
+{
+ "currentVersion": 10.91,
+ "cimVersion": "2.9.0",
+ "serviceDescription": "Voting Precincts:\nThe locations of voting precincts in North Carolina. These voting precincts are from the North Carolina State Board of Elections at https://www.ncsbe.gov. It depicts voting precincts for all 100 counties in NC.",
+ "hasVersionedData": false,
+ "hasArchivedData": false,
+ "hasBranchVersionedData": false,
+ "supportsDisconnectedEditing": false,
+ "supportsDatumTransformation": true,
+ "supportsReturnServiceEditsOption": true,
+ "returnServiceEditsHaveSR": true,
+ "supportsQueryDataElements": true,
+ "datesInUnknownTimezone": false,
+ "supportsRelationshipsResource": true,
+ "syncEnabled": false,
+ "supportedExportFormats": "sqlite,filegdb",
+ "extractChangesCapabilities": {
+  "supportsReturnIdsOnly": false,
+  "supportsReturnExtentOnly": false,
+  "supportsReturnAttachments": false,
+  "supportsLayerQueries": false,
+  "supportsGeometry": false,
+  "supportsFeatureReturn": false,
+  "supportsReturnHasGeometryUpdates": false
+ },
+ "supportedQueryFormats": "JSON",
+ "maxRecordCount": 2000,
+ "maxRecordCountFactor": 1,
+ "capabilities": "Query,Extract",
+ "description": "Voting Precincts: These voting precincts are from the North Carolina State Board of Elections at https://www.ncsbe.gov. It depicts voting precincts for all 100 counties in NC.",
+ "copyrightText": "NC Center for Geographic Information and Analysis (NCCGIA)",
+ "advancedEditingCapabilities": {
+  "supportsSplit": false,
+  "supportsReturnServiceEditsInSourceSR": true,
+  "supportsAsyncApplyEdits": true
+ },
+ "spatialReference": {
+  "wkid": 32119,
+  "latestWkid": 32119,
+  "xyTolerance": 0.0020480000019073488,
+  "zTolerance": 2,
+  "mTolerance": 2,
+  "falseX": -37137500,
+  "falseY": -28547400,
+  "xyUnits": 1.1930981790311031E8,
+  "falseZ": 0,
+  "zUnits": 1,
+  "falseM": -100000,
+  "mUnits": 10000
+ },
+ "initialExtent": {
+  "xmin": -455644.9889708996,
+  "ymin": -607851.8902891539,
+  "xmax": 1510060.13552253,
+  "ymax": 936926.9259003031,
+  "spatialReference": {
+   "wkid": 32119,
+   "latestWkid": 32119,
+   "xyTolerance": 0.0020480000019073488,
+   "zTolerance": 2,
+   "mTolerance": 2,
+   "falseX": -37137500,
+   "falseY": -28547400,
+   "xyUnits": 1.1930981790311031E8,
+   "falseZ": 0,
+   "zUnits": 1,
+   "falseM": -100000,
+   "mUnits": 10000
+  }
+ },
+ "fullExtent": {
+  "xmin": 124002.89912677265,
+  "ymin": 822.5376594103873,
+  "xmax": 935803.7995267721,
+  "ymax": 318097.3776594084,
+  "spatialReference": {
+   "wkid": 32119,
+   "latestWkid": 32119,
+   "xyTolerance": 0.0020480000019073488,
+   "zTolerance": 2,
+   "mTolerance": 2,
+   "falseX": -37137500,
+   "falseY": -28547400,
+   "xyUnits": 1.1930981790311031E8,
+   "falseZ": 0,
+   "zUnits": 1,
+   "falseM": -100000,
+   "mUnits": 10000
+  }
+ },
+ "allowGeometryUpdates": false,
+ "allowTrueCurvesUpdates": true,
+ "onlyAllowTrueCurveUpdatesByTrueCurveClients": true,
+ "supportsApplyEditsWithGlobalIds": false,
+ "supportsTrueCurve": true,
+ "units": "esriMeters",
+ "documentInfo": {
+  "Title": "NC1Map_Boundaries",
+  "Author": "",
+  "Comments": "Voting Precincts: These voting precincts are from the North Carolina State Board of Elections at https://www.ncsbe.gov. It depicts voting precincts for all 100 counties in NC.",
+  "Subject": "This map displays Voting Precincts.",
+  "Category": "",
+  "Keywords": "NC,North Carolina,Department of Information Technology,NCDIT,Center for Geographic Information and Analysis,CGIA,OneMap,NC OneMap,powell bill,municipal boundaries,county boundaries,townships,urban areas,boundaries"
+ },
+ "supportsQueryDomains": true,
+ "supportsQueryContingentValues": true,
+ "layers": [
+  {
+   "id": 0,
+   "name": "Voting Precincts",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon"
+  }
+ ],
+ "tables": [],
+ "relationships": [],
+ "enableZDefaults": false,
+ "allowUpdateWithoutMValues": false,
+ "supportsVCSProjection": true,
+ "datumTransformations": [
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": true,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  },
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": false,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  },
+  {
+   "geoTransforms": [
+    {
+     "wkid": 15931,
+     "latestWkid": 15931,
+     "transformForward": true,
+     "name": "NAD_1983_NSRS2007_To_WGS_1984_1"
+    },
+    {
+     "wkid": 108190,
+     "latestWkid": 108190,
+     "transformForward": true,
+     "name": "WGS_1984_(ITRF00)_To_NAD_1983"
+    }
+   ]
+  },
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108190,
+     "latestWkid": 108190,
+     "transformForward": false,
+     "name": "WGS_1984_(ITRF00)_To_NAD_1983"
+    },
+    {
+     "wkid": 15931,
+     "latestWkid": 15931,
+     "transformForward": false,
+     "name": "NAD_1983_NSRS2007_To_WGS_1984_1"
+    }
+   ]
+  }
+ ],
+ "referenceScale": 0,
+ "serviceItemId": "c27fef3332734c46827e3f07569997a8"
+}

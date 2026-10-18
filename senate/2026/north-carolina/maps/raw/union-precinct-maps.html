@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<script>(function () {
+
+  class AccessibilityMenu {
+
+    settings = {
+      fontSizeLimit: 30,
+    };
+
+    defaults = {
+      fontSize: [1.15, 1.35, 1.55, 1.7],
+      lineHeight: [1.25, 1.5, 1.75],
+      letterSpacing: [1.25, 1.75, 2.25],
+      fontFamily: ['serif', 'sans-serif'],
+    };
+
+    map = {
+      fontSize: 'font_size',
+      lineHeight: 'line_height',
+      letterSpacing: 'letter_spacing',
+      fontFamily: 'font_style',
+    };
+
+    constructor(element) {
+      this.wrapper = element;
+      this.buttons = {};
+      this.buttons.close = this.wrapper.querySelector('.js-accessibility-close');
+      this.buttons.open = document.querySelector('.js-accessibility-btn');
+      this.buttons.reset = this.wrapper.querySelector('.js-accessibility-reset');
+      this.container = this.wrapper.querySelector('.b-accessibility-menu');
+      this.init();
+    }
+
+    init = function () {
+      const self = this;
+      document.addEventListener('click', (e) => {
+        if (!e.target.closest('.js-accessibility-menu') && !e.target.closest('.js-accessibility-btn')) {
+          self.close();
+        }
+      });
+      self.buttons.open.addEventListener('click', self.open.bind(self));
+      self.buttons.close.addEventListener('click', self.close.bind(self));
+      self.buttons.reset.addEventListener('click', () => {
+        self.reset();
+      });
+      self.container.addEventListener('click', (e) => {
+        const target = e.target.closest('.b-accessibility-menu__item');
+        if (target) {
+          self.itemClick(target);
+          self.refresh();
+        }
+      });
+      if (localStorage.getItem('accessibility_menu')) {
+        self.refresh();
+      }
+    };
+    refresh = function () {
+      const self = this;
+      self.container.querySelectorAll('.b-accessibility-menu__item').forEach((element) => {
+        self.itemClick(element, false);
+      });
+      let storage = localStorage.getItem('accessibility_menu');
+      storage = JSON.parse(storage) ?? {};
+
+      let elements = document.querySelectorAll('body *');
+      elements.forEach((element) => {
+        let styles = getComputedStyle(element);
+        if (!element.prepare) {
+          element.prepare = {};
+        }
+        for (let type in self.defaults) {
+          if (styles[type] !== undefined) {
+            if (!element.initialStyles) {
+              element.initialStyles = {};
+            }
+            if (!element?.initialStyles[type]) {
+              let propertyValue = styles[type];
+              switch (type) {
+                case 'letterSpacing':
+                  if (propertyValue === 'normal') {
+                    propertyValue = 1;
+                  }
+                  element.initialStyles[type] = parseFloat(propertyValue);
+                  break;
+
+                default:
+                  element.initialStyles[type] = parseFloat(propertyValue);
+                  break;
+              }
+            }
+
+            let value = element.initialStyles[type];
+            let coef = self.defaults[type][storage[self.map[type]]];
+            if (coef === undefined) {
+              element.prepare[type] = '';
+            } else {
+              switch (type) {
+                case 'fontFamily':
+                  element.prepare[type] = coef;
+                  break;
+
+                case 'fontSize':
+                  let max = value > self.settings.fontSizeLimit ? value : self.settings.fontSizeLimit;
+                  element.prepare[type] = ((value * coef) > max ? max : value * coef) + 'px';
+                  break;
+
+                default:
+                  element.prepare[type] = (coef * value) + 'px';
+                  break;
+              }
+            }
+          }
+        }
+      });
+      document.body.classList.remove('images-grayscale');
+      document.body.classList.remove('images-none');
+      document.body.classList.remove('am-big-cursor');
+      self.removeReadingLine();
+      switch (storage['reading_line']) {
+        case 0:
+          self.initReadingLine();
+          break;
+      }
+      switch (storage['cursor']) {
+        case 0:
+          document.body.classList.add('am-big-cursor');
+          break;
+      }
+      switch (storage['images']) {
+        case 0:
+          document.body.classList.add('images-grayscale');
+          break;
+        case 1:
+          document.body.classList.add('images-none');
+          break;
+      }
+
+      delete document.body.dataset.am_theme;
+      if (storage?.contrast !== undefined) {
+        document.body.dataset.am_theme = 'theme_' + storage['contrast'];
+      }
+
+      elements.forEach((element) => {
+        if (element.prepare) {
+          if (element.closest('.js-accessibility-menu')) {
+            return;
+          }
+          for (let style in element.prepare) {
+            element.style[style] = element.prepare[style];
+          }
+        }
+      });
+    };
+
+    _getElementIndex = function (node) {
+      let index = 0;
+      while ((node = node.previousElementSibling)) {
+        index++;
+      }
+      return index;
+    };
+
+    getValue = function (item) {
+      const type = item.dataset.type;
+      let storage = localStorage.getItem('accessibility_menu');
+      storage = JSON.parse(storage) ?? {};
+      if (storage[type] !== undefined) {
+        return storage[type];
+      }
+      return undefined;
+    };
+    setValue = function (item, value) {
+      const type = item.dataset.type;
+      let storage = localStorage.getItem('accessibility_menu');
+      storage = JSON.parse(storage) ?? {};
+      storage[type] = value;
+      if (value === undefined) {
+        delete (storage[type]);
+      }
+      storage = JSON.stringify(storage);
+      if (storage === '{}') {
+        localStorage.removeItem('accessibility_menu');
+      } else {
+        localStorage.setItem('accessibility_menu', storage);
+      }
+
+    };
+    reset = function () {
+      const self = this;
+      localStorage.removeItem('accessibility_menu');
+      self.refresh();
+    };
+
+    itemClick = function (item, increase = true) {
+      const self = this;
+      let value = self.getValue(item);
+      if (increase) {
+        if (value !== undefined) {
+          value++;
+        } else {
+          value = 0;
+        }
+      }
+      let title = item.dataset?.title ?? '';
+      let setValue = undefined;
+      let links = item.querySelectorAll('.js-accessibility-link');
+      links.forEach((element) => {
+        element.classList.remove('is-active');
+        const index = self._getElementIndex(element);
+        if (index === value) {
+          title = element.dataset.title ?? title;
+          setValue = index;
+        }
+        if (index <= value) {
+          element.classList.add('is-active');
+        }
+      });
+      self.setValue(item, setValue);
+      item.querySelector('.b-accessibility-menu__title span').innerText = title;
+      if (setValue !== undefined) {
+        item.classList.add('is-active');
+      } else {
+        item.classList.remove('is-active');
+      }
+    };
+
+    open = function () {
+      const self = this;
+      if (!self.wrapper.classList.contains('is-open')) {
+        self.wrapper.classList.add('is-open');
+        setTimeout(() => {
+          self.container.classList.add('is-open');
+        }, 16);
+      }
+    };
+    close = function () {
+      const self = this;
+      if (self.wrapper.classList.contains('is-open')) {
+        self.container.classList.remove('is-open');
+        self.wrapper.classList.remove('is-open');
+      }
+    };
+
+    initReadingLine = function () {
+      if (!this.container.line) {
+        const line = document.createElement('div');
+        line.classList.add('am-reading-line');
+        line.classList.add('am-skip');
+        document.body.append(line);
+        this.container.line = line;
+        window.addEventListener('mousemove', this.moveMouse.bind(this));
+      }
+    };
+    removeReadingLine = function () {
+      if (this.container.line) {
+        window.removeEventListener('mousemove', this.moveMouse.bind(this));
+        this.container.line.remove();
+        this.container.line = null;
+      }
+    };
+    moveMouse = function (t) {
+      this.container.line && this.container.line.style && (this.container.line.style.top = t.y + 'px');
+    };
+  }
+
+  document.addEventListener('DOMContentLoaded', function (event) {
+    const menuContainer = document.querySelector('.js-accessibility-menu');
+    if (menuContainer) {
+      const menu = new AccessibilityMenu(menuContainer);
+      document.querySelector('.notyf')?.classList?.add('am-skip');
+    }
+  });
+
+})();
+</script>
+<noscript><style>form.antibot > * { display: none !important; } form.antibot noscript { display: block !important; }</style>
+</noscript><meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/default/files/favicon_0.png" type="image/png" />
+<link rel="alternate" hreflang="en" href="https://unioncountyncelections.gov/voting/precinct-maps" />
+<link rel="canonical" href="https://unioncountyncelections.gov/voting/precinct-maps" />
+<link rel="shortlink" href="https://unioncountyncelections.gov/node/916" />
+
+    <title>Precinct Maps | Union County Board of Elections</title>
+    <link rel="stylesheet" media="all" href="/modules/contrib/accessibility_menu/misc/accessibility_menu.css?tn0404" />
+<link rel="stylesheet" media="all" href="/modules/contrib/accessibility_menu/misc/accessibility_menu_mobile.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/misc/components/progress.module.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/misc/components/ajax-progress.module.css?tn0404" />
+<link rel="stylesheet" media="all" href="/core/modules/layout_discovery/layouts/onecol/onecol.css?tn0404" />
+<link rel="stylesheet" media="all" href="/themes/unionboe/css/w3-css/w3.css?tn0404" />
+<link rel="stylesheet" media="all" href="/themes/unionboe/css/custom/base.css?tn0404" />
+<link rel="stylesheet" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="/themes/unionboe/css/custom/w3-custom-classes.css?tn0404" />
+<link rel="stylesheet" media="all" href="/themes/unionboe/css/font/google-font.css?tn0404" />
+<link rel="stylesheet" media="all" href="/themes/unionboe/css/w3-css/w3css-color-libraries.css?tn0404" />
+<link rel="stylesheet" media="all" href="/themes/unionboe/css/custom/layout.css?tn0404" />
+<link rel="stylesheet" media="all" href="/themes/unionboe/css/custom/components.css?tn0404" />
+<link rel="stylesheet" media="all" href="/themes/unionboe/css/custom/theme.css?tn0404" />
+<link rel="stylesheet" media="all" href="/themes/unionboe/css/styles.css?tn0404" />
+<link rel="stylesheet" media="all" href="/themes/unionboe/css/directory.css?tn0404" />
+<link rel="stylesheet" media="all" href="/themes/unionboe/css/custom/responsive.css?tn0404" />
+
+    <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js" defer crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/releases/v5.13.1/js/v4-shims.js" defer crossorigin="anonymous"></script>
+
+  </head>
+  <body class="path-node-916 path-node page-node-type-page">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+      <!-- Start: Page Wrapper -->
+<div class="page-wrapper w3-col w3-clear w3-text-theme  ">
+  <!-- Start: First Header -->
+  <header id="header" class="w3-col w3-clear " role="banner" aria-label="Site header">
+    <div id="header-inner" class="w3-container header-inner w3-width-1280">
+                        
+<section id="block-ucelections-theme-branding" class="settings-tray-editable w3-block w3-block-wrapper block-system block-system-branding-block" data-drupal-settingstray="editable">
+  
+    
+        <a href="/" title="Home" rel="home" class="w3-left w3-padding-16 site-logo">
+      <img src="/sites/default/files/Medium-UCBOE_LOGO_HORZ.png" alt="Home" />
+    </a>
+  <div class="w3-left w3-margin-left site-name-slogan">
+    </div>
+</section>
+
+
+          </div>
+  </header>
+ <!-- End: Header -->
+  
+    <!-- Start: Main Navigation - Horizontal -->
+  
+  <div id="main-navigation-h" class="w3-col w3-clear main-navigation-wrapper " role="navigation" aria-label="Main Navigation" >
+     
+    
+    <div id="main-navigation-h" class="w3-row main-navigation-inner-h w3-bar w3-width-1280">
+         <nav role="navigation" aria-labelledby="block-ucelections-theme-main-menu-menu" id="block-ucelections-theme-main-menu" class="settings-tray-editable" data-drupal-settingstray="editable">
+            
+  <h2 class="visually-hidden" id="block-ucelections-theme-main-menu-menu">Main navigation</h2>
+  
+
+                          <ul  class="ul-parent ul-parent-main" role="menu">
+                               <li class="li-item li-item-main" role="none">
+        <a href="/" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+                  </li>
+                           <li class="li-item li-item-main" role="none">
+        <a href="/voting" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/462">Voting</a>
+                  </li>
+                           <li class="li-item li-item-main" role="none">
+        <a href="/registration" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/29">Registration</a>
+                  </li>
+                           <li class="li-item li-item-main" role="none">
+        <a href="/notices" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="notices">Notices</a>
+                  </li>
+                           <li class="li-item li-item-main" role="none">
+        <a href="/candidates" class="w3-button li-link li-link-main" role="menuitem" data-drupal-link-system-path="node/84">Candidates</a>
+                  </li>
+        </ul>
+  
+
+  </nav>
+
+   
+        
+    
+         
+    
+    
+            
+    </div>
+  </div> 
+  <!-- End: Main Navigation - Horizontal -->
+    
+  
+  
+        <!-- Start: Highlighted -->
+    <div id="highlighted" class="w3-col w3-clear w3-theme-l2 ">
+      <div id="highlighted-inner" class="w3-row highlighted-inner w3-width-1280">
+                <div data-drupal-messages-fallback class="hidden"></div>
+
+
+      </div>
+    </div>
+    <!-- End: Highlighted -->
+    
+    
+  
+  <!-- Start: Main -->
+  <div id="main-container" class="w3-col w3-clear w3-theme-l5 ">
+    <div id="main-container-inner" class="w3-container main-container-inner w3-width-1280">
+              <!-- Breadcrumb -->
+        <div class="w3-col ">
+              
+<section id="block-ucelections-theme-breadcrumbs-2" class="settings-tray-editable w3-block w3-block-wrapper block-system block-system-breadcrumb-block" data-drupal-settingstray="editable">
+  
+    
+        <nav class="w3-block w3-section breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ul class="w3-ul w3-small breadcrumb">
+          <li>
+                  <a href="/">Home</a>
+              </li>
+          <li>
+                  <a href="/voting">Voting</a>
+              </li>
+          <li>
+                  Precinct Maps
+              </li>
+        </ul>
+  </nav>
+
+  </section>
+
+
+        </div>
+        <!-- End: Breadcrumb -->
+            <!-- Start Main Container  -->
+      <div class="w3-col w3-clear w3-row-padding">
+                          <!-- Start: Main Content -->
+          <div class="w3-col main-box main-region w3css-content" role="main">
+            <div class="w3-card w3-round w3-mobile  w3-link-blue  w3-link-yellow-hover">
+                  
+<section id="block-ucelections-theme-page-title" class="w3-block w3-block-wrapper block-core block-page-title-block">
+  
+    
+      
+  <h1 class="w3-margin-left w3-padding-24 w3-xxlarge page-title">
+<span>Precinct Maps</span>
+</h1>
+
+
+  </section>
+
+<section id="block-ucelections-theme-content" class="w3-block w3-block-wrapper block-system block-system-main-block">
+  
+    
+      
+<article data-history-node-id="916" class="w3-row node node--type-page node--view-mode-full">
+
+  
+    
+
+
+  
+  <div class="w3-container node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<section class="w3-block w3-block-wrapper block-layout-builder block-field-blocknodepagebody">
+  
+    
+      
+            <div class="w3-section field field--name-body field--type-text-with-summary field--label-hidden w3-bar-item field__item"><h1 class="text-align-center">Union County Precinct Maps</h1>
+<table class="table maps">
+<thead>
+<tr>
+<th>
+<p class="text-align-center">Precinct</p>
+</th>
+<th class="precinct-maps">
+<p class="text-align-center">Precinct Map</p>
+</th>
+</tr>
+</thead>
+<tbody class="precinct-info">
+<tr>
+<td>001 Iglesia de Dios (Church of God)<br>1111 Conord Avenue<br>Monroe, NC 28110</td>
+<td><a href="https://unioncountyncelections.gov/sites/default/files/2024-08/1%20Iglesia%20De%20Dios%20%28Church%20of%20God%29.jpg"><img src="/sites/default/files/inline-images/1%20Iglesia%20De%20Dios%20%28Church%20of%20God%29_5.jpg" data-entity-uuid="50f54080-68e1-43a4-80d9-1aa95c43e62d" data-entity-type="file" alt="This map illustrates the boundaries of precinct 1." width="220" height="118" class="align-center" loading="lazy"></a></td>
+</tr>
+<tr>
+<td>002 J. Ray Shute Center<br>506 E. Green Street<br>Monroe, NC 28112</td>
+<td><img src="/sites/default/files/inline-images/2%20J.%20Ray%20Shute%20Center.jpg" data-entity-uuid="48b3c4fc-f7ce-4e5d-82b0-26a5d6239d98" data-entity-type="file" alt="This map illustrates the boundaries for precinct 2." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>003 St. Luke's Lutheran Church<br>909 Circle Drive<br>Monroe, NC 28112</td>
+<td><img src="/sites/default/files/inline-images/3%20St.%20Luke%27s%20Lutheran%20Church.jpg" data-entity-uuid="206d05c5-d5e2-475d-b8c4-4f464b35d727" data-entity-type="file" alt="This map illustrates the boundaries for precinct 3." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>004 &nbsp;Sutton Park Recreation Center<br>2303 Brooks Street<br>Monroe, NC 28110</td>
+<td><img src="/sites/default/files/inline-images/4%20Sutton%20Park%20Recreation%20Center.jpg" data-entity-uuid="4e30680c-1558-409e-919c-43e9b94dcecf" data-entity-type="file" alt="This map illustrates the boundaries for precinct 4." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>005 Monroe Fire Department, Station 4<br>3907 Old Charlotte Hwy.<br>Monroe, NC 28110</td>
+<td><img src="/sites/default/files/inline-images/5%20Monroe%20Fire%20Department%2C%20Station%204.jpg" data-entity-uuid="7a49ea00-4e91-4834-a672-55cbacbe2da2" data-entity-type="file" alt="This map illustrates the boundaries for precinct 5." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>006 Benton Heights Presbyterian Church<br>2701 Concord Hwy. (601)<br>Monroe, NC 28110</td>
+<td><img src="/sites/default/files/inline-images/6%20Benton%20Heights%20Presbyterian%20Church.jpg" data-entity-uuid="00fda435-6aa5-4547-835d-283e7b301416" data-entity-type="file" alt="This map illustrates the boundaries for precinct 6." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>007 &nbsp;Mt. Carmel Church<br>1712 Carmel Church Road<br>Monroe, NC 28112</td>
+<td><img src="/sites/default/files/inline-images/7%20Mt.%20Carmel%20Church.jpg" data-entity-uuid="92a331f9-6e4a-43c3-873e-f9f900a47445" data-entity-type="file" alt="This map illustrates the boundaries for precinct 7." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>008 &nbsp;Wingate Community Center<br>315 West Elm Street<br>Wingate, NC 28174</td>
+<td><img src="/sites/default/files/inline-images/8%20Wingate%20Community%20Center.jpg" data-entity-uuid="f949509f-c7cd-40e7-ba5f-22776f84dfb8" data-entity-type="file" alt="This map illustrates the boundaries for precinct 8." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>009 &nbsp;Edwards Memorial Library<br>414 Hasty Street<br>Marshville, NC 28103</td>
+<td><img src="/sites/default/files/inline-images/9%20Edwards%20Memorial%20Library.jpg" data-entity-uuid="7e44ab3d-5ae2-46fa-aa86-33d37f5cedab" data-entity-type="file" alt="This map illustrates the boundaries for precinct 9." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>010 &nbsp;The Old Armory<br>500 S. Johnson Street<br>Monroe, NC 28112</td>
+<td><img src="/sites/default/files/inline-images/10%20The%20Old%20Armory.jpg" data-entity-uuid="0162c0ba-265b-453d-8527-aac4a715a01f" data-entity-type="file" alt="This map illustrates the boundaries for precinct 10." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>011 &nbsp;Euto Baptist Church<br>6019 Hwy. 205<br>Marshville, NC 28103</td>
+<td><img src="/sites/default/files/inline-images/11%20Euto%20Baptist%20Church.jpg" data-entity-uuid="8dec7fe4-b207-4e84-9bd0-5f8a5250671a" data-entity-type="file" alt="This map illustrates the boundaries for precinct 11." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>012 Bethlehem Presbyterian Church<br>7608 Concord Hwy. (601)<br>Monroe, NC 28110</td>
+<td><img src="/sites/default/files/inline-images/12%20Bethlehem%20Presbyterian%20Church.jpg" data-entity-uuid="30029748-54a7-45f6-910c-e1884f878bfa" data-entity-type="file" alt="This map illustrates the boundaries for precinct 12." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>013 &nbsp;Unionville VFD<br>4919 Unionville Road<br>Monroe, NC 28110</td>
+<td><img src="/sites/default/files/inline-images/13%20Unionville%20VFD.jpg" data-entity-uuid="f3aa8f94-7946-4269-b57a-099cf14a5e01" data-entity-type="file" alt="This map illustrates the boundaries for precinct 13." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>014 Indian Trail Library<br>123 Unionville Indian Trail Road<br>Indian Trail, NC 28079</td>
+<td><img src="/sites/default/files/inline-images/14%20Indian%20Trail%20Library.jpg" data-entity-uuid="2f7c57af-72b6-4bb1-b4fa-b2be9a9b23cd" data-entity-type="file" alt="This map illustrates the boundaries for precinct 14." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>015 Stallings Government Center<br>321 Stallings Road<br>Matthews, NC 28104</td>
+<td><img src="/sites/default/files/inline-images/15%20Stallings%20United%20Methodist%20Church.jpg" data-entity-uuid="009ea722-c34e-4afe-8d4d-4892efe74fa0" data-entity-type="file" alt="This map illustrates the boundaries for precinct 15." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>016 Hemby Bridge Elementary School<br>6701 Indian Trail Fairview Road<br>Indian Trail, NC 28079</td>
+<td><img src="/sites/default/files/inline-images/16%20Hemby%20Bridge%20Elementary.jpg" data-entity-uuid="961e6569-e6d4-4187-b4d5-df5c7b49f399" data-entity-type="file" alt="This map illustrates the boundaries for precinct 16." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>017A Wesley Chapel Elementary School<br>110 South Potter Road<br>Monroe, NC 28110</td>
+<td><img src="/sites/default/files/inline-images/17A%20Wesley%20Chapel%20Elementary%20School.jpg" data-entity-uuid="f310fda8-56dd-4365-8111-17d7b5bdecb8" data-entity-type="file" alt="This map illustrates the boundaries for precinct 17A." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>017B Siler Presbyterian Church<br>6301 Weddington Monroe Road<br>Matthews, NC 28104</td>
+<td><img src="/sites/default/files/inline-images/17B%20Siler%20Presbyterian%20Church.jpg" data-entity-uuid="83e082da-cfea-4009-b1be-83ee380c37e5" data-entity-type="file" alt="This map illustrates the boundaries for precinct 17B." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>018 Wesley Chapel VFD - Weddington Station<br>5025 Hemby Road<br>Matthews, NC 28104</td>
+<td><img src="/sites/default/files/inline-images/18%20Wesley%20Chapel%20VFD%20-%20Weddington%20Station.jpg" data-entity-uuid="1d548891-d8a0-4779-9ce7-4af9cfc4f8ba" data-entity-type="file" alt="This map illustrates the boundaries for precinct 18." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>0019 Mineral Springs VFD<br>5804 Waxhaw Hwy.<br>Monroe, NC 28112</td>
+<td><img src="/sites/default/files/inline-images/19%20Mineral%20Springs%20VFD.jpg" data-entity-uuid="29418d41-2b4d-4c10-9795-67f74371624c" data-entity-type="file" alt="This map illustrates the boundaries for precinct 19." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>0020A Waxhaw VFD<br>3500 Waxhaw Parkway<br>Waxhaw, NC 28173</td>
+<td><img src="/sites/default/files/inline-images/20A%20Waxhaw%20VFD.jpg" data-entity-uuid="a4ed08a0-ba7f-45c2-9696-ebcc00a0fd83" data-entity-type="file" alt="This map illustrates the boundaries for precinct 20A." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>0020B Waxhaw Bible Church<br>6810 Pleasant Grove Road<br>Waxhaw, NC 28173</td>
+<td><img src="/sites/default/files/inline-images/20B%20Waxhaw%20Bible%20Church.jpg" data-entity-uuid="b8c6793d-caea-483b-ae27-0f25c2777c60" data-entity-type="file" alt="This map illustrates the boundaries for precinct 20B." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>021 Jackson VFD<br>8323 Lancaster Hwy.<br>Waxhaw, NC 28173</td>
+<td><img src="/sites/default/files/inline-images/21%20Jackson%20VFD.jpg" data-entity-uuid="e6b48c82-aedd-4b77-bae5-10d1239b005d" data-entity-type="file" alt="This map illustrates the boundaries for precinct 21." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>022 Hermon Baptist Church<br>9713 Lancaster Hwy.<br>Waxhaw, NC 28173</td>
+<td><img src="/sites/default/files/inline-images/22%20Hermon%20Baptist%20Church.jpg" data-entity-uuid="56892ba6-7b71-4786-b94f-c13b482e73ac" data-entity-type="file" alt="This map illustrates the boundaries for precinct 22." width="220" height="117" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>023 Griffith Road VFD<br>3310 Griffith Road<br>Monroe, NC 28112</td>
+<td><img src="/sites/default/files/inline-images/23%20Griffith%20Road%20VFD.jpg" data-entity-uuid="54dec01c-c178-4a33-b7b5-78dda4be5798" data-entity-type="file" alt="This map illustrates the boundaries for precinct 23." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>024 Prospect Elementary School<br>3005 Ruben Road<br>Monroe, NC 28112</td>
+<td><img src="/sites/default/files/inline-images/24%20Prospect%20Elementary%20School.jpg" data-entity-uuid="21175016-eeaa-46a5-8efb-3ccc42f35ccf" data-entity-type="file" alt="This map illustrates the boundaries for precinct 24." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>025 Rock Rest Elementary School<br>814 Old Pageland Monroe Road<br>Monroe, NC 28112</td>
+<td><img src="/sites/default/files/inline-images/25%20Rock%20Rest%20Elementary%20School.jpg" data-entity-uuid="93a7881f-63c9-43a1-a855-3e4fa6a80585" data-entity-type="file" alt="This map illustrates the boundaries for precinct 25." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>026 Union Baptist Church<br>4312 Old Pageland Monroe Road<br>Monroe, NC 28112</td>
+<td><img src="/sites/default/files/inline-images/26%20Union%20Baptist%20Church.jpg" data-entity-uuid="b3b18b7f-1be7-4972-afca-1b9fb2d13dcd" data-entity-type="file" alt="This map illustrates the boundaries for precinct 26." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>027 Allen's Crossroads VFD<br>5408 White Store Road<br>Wingate, NC 28174</td>
+<td><img src="/sites/default/files/inline-images/27%20Allens%20Crossroads%20VFD.jpg" data-entity-uuid="d34192de-1112-4db2-b98d-d8e645cd8fad" data-entity-type="file" alt="This map illustrates the boundaries for precinct 27." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>028A Sandy Ridge Elementary School<br>10101 Waxhaw Manor Drive<br>Waxhaw, NC 28173</td>
+<td><img src="/sites/default/files/inline-images/28A%20Sandy%20Ridge%20Elementary.jpg" data-entity-uuid="d020e57c-b510-492d-8b99-fa3cdf7664f0" data-entity-type="file" alt="This map illustrates the boundaries for precinct 28A." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>028B Marvin Elementary School<br>9700 Marvin School Road<br>Waxhaw, NC 28173</td>
+<td><img src="/sites/default/files/inline-images/28B%20Marvin%20Elementary%20School.jpg" data-entity-uuid="45b7b829-43d5-41db-8fad-21a59f2d16a6" data-entity-type="file" alt="This map illustrates the boundaries for precinct 28B." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>028C Marvin AME Zion Church<br>1525 Crane Road<br>Waxhaw, NC 28173</td>
+<td><img src="/sites/default/files/inline-images/28C%20Marvin%20AME%20Zion%20Church.jpg" data-entity-uuid="e4182454-1db3-4b0c-abd4-e9e40ce59ad7" data-entity-type="file" alt="This map illustrates the boundaries for precinct 28C." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>028D Kensington Elementary School<br>8701 Kensington Drive<br>Waxhaw, NC 28173</td>
+<td><img src="/sites/default/files/inline-images/28D%20Kensington%20Elementary.jpg" data-entity-uuid="cac1cbe0-7bd2-4e9a-8f26-cb29ce9bf41d" data-entity-type="file" alt="This map illustrates the boundaries for precinct 28D." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>029A Shiloh Valley Elementary School<br>5210 Rogers Road<br>Monroe, NC 28110</td>
+<td><img src="/sites/default/files/inline-images/29A%20Shiloh%20Elementary.jpg" data-entity-uuid="7f9c3d40-36b8-491b-b818-99c088504595" data-entity-type="file" alt="This map illustrates the boundaries for precinct 29A." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>029B Brandon Oaks Clubhouse<br>2333 Brandon Oaks Parkway<br>Indian Trail, NC 28079</td>
+<td><img src="/sites/default/files/inline-images/29B%20Brandon%20Oaks%20Clubhouse.jpg" data-entity-uuid="d943f8dc-ad90-4c48-a035-4678b31ad832" data-entity-type="file" alt="This map illustrates the boundaries for precinct 29B." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>029C Stallings VFD<br>4616 Old Monroe Road<br>Indian Trail, NC 28079</td>
+<td><img src="/sites/default/files/inline-images/29C%20Stallings%20VFD.jpg" data-entity-uuid="474f0b9c-5448-4eb7-bb54-91d0df0bd3e7" data-entity-type="file" alt="This map illustrates the boundaries for precinct 29C." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>0030 Cornerstone Community Church<br>2707 Secrest Shortcut Road<br>Monroe, NC 28110</td>
+<td><img src="/sites/default/files/inline-images/30%20Cornerstone%20Community%20Church.jpg" data-entity-uuid="8c43daa7-1043-497d-89b5-0255137ffe55" data-entity-type="file" alt="This map illustrates the boundaries for precinct 30." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>031 Grace Baptist Church<br>3411 Weddington Road<br>Monroe, NC 28110</td>
+<td><img src="/sites/default/files/inline-images/31%20Grace%20Baptist%20Church.jpg" data-entity-uuid="90326602-9b14-4226-b225-7cacdb11eea0" data-entity-type="file" alt="This map illustrates the boundaries for precinct 31." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>032 Fairview Elementary School<br>110 Clontz Road<br>Monroe, NC 28110</td>
+<td><img src="/sites/default/files/inline-images/32%20Fairview%20Elementary.jpg" data-entity-uuid="2b97cc74-ed61-48a9-bebf-31396d6c1ddd" data-entity-type="file" alt="This map illustrates the boundaries for precinct 32." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>033 Waxhaw Elementary School<br>1101 Old Providence Road<br>Waxhaw, NC 28173</td>
+<td><img src="/sites/default/files/inline-images/33%20Waxhaw%20Elementary.jpg" data-entity-uuid="d353bc3a-41b5-41d3-8c16-e38e0fc132a5" data-entity-type="file" alt="This map illustrates the boundaries for precinct 33." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>034 Midway Baptist Church<br>4615 Olive Branch Road<br>Wingate, NC 28174</td>
+<td><img src="/sites/default/files/inline-images/34%20Midway%20Baptist%20Church.jpg" data-entity-uuid="621efe29-7b30-4c8c-a010-b6cd2269cfa4" data-entity-type="file" alt="This map illustrates the boundaries for precinct 34." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>035 Rock Hill AME Zion Church<br>2723 West Lawyers Road<br>Indian Trail, NC 28079</td>
+<td><img src="/sites/default/files/inline-images/35%20Rock%20Hill%20AME%20Zion.jpg" data-entity-uuid="9c0016f1-08f6-4110-8f82-1f4d36341e57" data-entity-type="file" alt="This map illustrates the boundaries for precinct 35." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>036 Crossroads AME Zion Church<br>7110 Old Goldmine Road<br>Marshville, NC 28103</td>
+<td><img src="/sites/default/files/inline-images/36%20Crossroads%20AME%20Zion.jpg" data-entity-uuid="437cd666-9c12-4b95-a36e-17cab1ad1e31" data-entity-type="file" alt="This map illustrates the boundaries for precinct 36." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>037A Stallings Elementary School<br>3501 Stallings Road<br>Matthews, NC 28104</td>
+<td><img src="/sites/default/files/inline-images/37A%20Stallings%20Elementary.jpg" data-entity-uuid="3076401f-165c-4113-bbce-d5499e1ea35e" data-entity-type="file" alt="This map illustrates the boundaries for precinct 37A." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>037B The Divide Clubhouse<br>6803 Stevens Mill Road<br>Matthews, NC 28104</td>
+<td><img src="/sites/default/files/inline-images/37B%20The%20Divide%20Clubhouse.jpg" data-entity-uuid="d2c5349e-a158-4611-a48f-7cc5a91227f0" data-entity-type="file" alt="This map illustrates the boundaries for precinct 37B." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>038A Sardis Elementary School<br>4416 Sardis Church Road<br>Monroe, NC 28110</td>
+<td><img src="/sites/default/files/inline-images/38A%20Sardis%20Elementary.jpg" data-entity-uuid="ddbc3f69-8ee0-4c1d-b8e4-64e7e1ff663f" data-entity-type="file" alt="This map illustrates the boundaries for precinct 38A." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>038B Lake Park Community Center<br>3801 Lake Park Road<br>Indian Trail, NC 28079</td>
+<td><img src="/sites/default/files/inline-images/38B%20Lake%20Park%20Community%20Center.jpg" data-entity-uuid="3f5a803c-d139-4d19-bbc9-565586479814" data-entity-type="file" alt="This map illustrates the boundaries for precinct 38B." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>039 Porter Ridge Elementary School<br>2843 Ridge Road<br>Indian Trail, NC 28079</td>
+<td><img src="/sites/default/files/inline-images/39%20Porter%20Ridge%20Elementary.jpg" data-entity-uuid="18a0b07d-224c-4e43-a6c2-449527d60da6" data-entity-type="file" alt="This map illustrates the boundaries for precinct 39." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>040 Spirit of Joy Lutheran Church<br>8600 North Potter Road<br>Matthews, NC 28104</td>
+<td><img src="/sites/default/files/inline-images/40%20Spirit%20of%20Joy%20Lutheran.jpg" data-entity-uuid="64494940-c892-441e-b5b2-7ca3b6769af0" data-entity-type="file" alt="This map illustrates the boundaries for precinct 40." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>041 Weddington Elementary School<br>3927 Twelve Mile Creek Road<br>Matthews, NC 28104</td>
+<td><img src="/sites/default/files/inline-images/41%20Weddington%20Elementary.jpg" data-entity-uuid="bbd221ca-fb85-4ce6-ad47-842bd1cd7620" data-entity-type="file" alt="This map illustrates the boundaries for precinct 41." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>042 New Salem Baptist Church<br>2915 Goldmine Road<br>Monroe, NC 28110</td>
+<td><img src="/sites/default/files/inline-images/42%20New%20Salem%20Baptist%20Church.jpg" data-entity-uuid="cbe76c29-cc20-4623-97b8-c8049410c2fe" data-entity-type="file" alt="This map illustrates the boundaries for precinct 42." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>043 Winchester community center<br>1001 Winchester Avenue<br>Monroe, NC 28110</td>
+<td><img src="/sites/default/files/inline-images/43%20Winchester%20Community%20Center.jpg" data-entity-uuid="f6fb931b-4d2a-49b5-a25f-44ed4ea87489" data-entity-type="file" alt="This map illustrates the boundaries for precinct 43." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>0044 Millbridge Clubhouse<br>1401 MIllbridge Parkway<br>Waxhaw, NC 28173</td>
+<td><img src="/sites/default/files/inline-images/44%20MillBridge%20Clubhouse.jpg" data-entity-uuid="a9fa99cc-79d7-47d4-8bce-72cb04cb8cb2" data-entity-type="file" alt="This map illustrates the boundaries for precinct 44." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+<tr>
+<td>0045 New Town Elementary&nbsp;<br>1100 Waxhaw Indian Trail Road<br>Waxhaw, NC 28173</td>
+<td><img src="/sites/default/files/inline-images/45%20New%20Town%20Elementary.jpg" data-entity-uuid="81cc0945-d6e5-4707-b465-0e359a541774" data-entity-type="file" alt="This map illustrates the boundaries for precinct 45." width="220" height="118" class="align-center" loading="lazy"></td>
+</tr>
+</tbody>
+</table>
+</div>
+      
+  </section>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+
+  </section>
+
+
+            </div>
+          </div>
+          <!-- End: Main Content -->
+                      </div>
+      <!-- End: Main Container  -->
+    </div>
+  </div>
+  <!-- End: Main -->
+   
+      
+  
+    
+       <!-- start: Footer -->
+      <div id="footer-container" class="w3-col w3-clear w3-theme-d3 ">
+       <div id="footer-container-inner" class="w3-row-padding w3-padding-large footer-container-inner w3-width-1280">
+
+                  <!-- Start: Footer First  -->
+           <div class="w3-third footer-box footer-region first-footer">
+              <div class="w3-card w3-round w3-mobile w3-theme-l4 ">
+                    
+<section id="block-physicaladdressblock" class="settings-tray-editable w3-block w3-block-wrapper block-block-content block-block-content94f2c767-444c-4cc7-984a-831d70c7d362" data-drupal-settingstray="editable">
+  
+    
+      <div class="class_middlecard block-content block-content--type-basic block-content--view-mode-full ds-1col clearfix">
+
+  
+
+  
+            <div class="w3-section field field--name-body field--type-text-with-summary field--label-hidden w3-bar-item field__item"><h3 class="text-align-center">PHYSICAL ADDRESS</h3>
+<p class="text-align-center">Board of Elections<br>316-B East Windsor Street<br>Monroe, NC 28112</p>
+</div>
+      
+
+</div>
+
+
+  </section>
+
+
+              </div>
+           </div>
+          <!-- End: Footer First -->
+                          <!-- Start: Footer Second Region -->
+           <div class="w3-third footer-box footer-region second-footer">
+             <div class="w3-card w3-round w3-mobile w3-theme-l5 ">
+                    
+<section id="block-contactusblock" class="settings-tray-editable w3-block w3-block-wrapper block-block-content block-block-content9589fec1-9a68-4395-842d-7adfb6af2fe0" data-drupal-settingstray="editable">
+  
+    
+      <div class="class_middlecard block-content block-content--type-basic block-content--view-mode-full ds-1col clearfix">
+
+  
+
+  
+            <div class="w3-section field field--name-body field--type-text-with-summary field--label-hidden w3-bar-item field__item"><h3 class="text-align-center">CONTACT US</h3>
+<p class="text-align-center">&nbsp; 704-283-3809<br><span style="font-size:15px;"><a href="mailto:union.boe@unioncountync.gov">union.boe@unioncountync.gov</a>&nbsp;</span></p>
+</div>
+      
+
+</div>
+
+
+  </section>
+
+
+             </div>
+           </div>
+          <!-- End: Footer Second -->
+                          <!-- Start: Footer Third -->
+            <div class="w3-third footer-box footer-region third-footer">
+              <div class="w3-card w3-round w3-mobile w3-theme-l4 ">
+                    
+<section id="block-mailingaddress" class="settings-tray-editable w3-block w3-block-wrapper block-block-content block-block-content3c6d7ee0-d268-4892-bc13-5a1903d9b843" data-drupal-settingstray="editable">
+  
+    
+      <div class="class_middlecard block-content block-content--type-basic block-content--view-mode-full ds-1col clearfix">
+
+  
+
+  
+            <div class="w3-section field field--name-body field--type-text-with-summary field--label-hidden w3-bar-item field__item"><h3 class="text-align-center">MAILING ADDRESS</h3>
+<p class="text-align-center">Board of Elections<br>PO Box 1106<br>Monroe, NC 28111-1106</p>
+</div>
+      
+
+</div>
+
+
+  </section>
+
+
+              </div>
+            </div>
+          <!-- End: Footer Third -->
+               </div>
+     </div>
+    <!-- End: Footer -->
+        <!-- Start: Footer Menu -->
+    <div id="footer-menu" class="w3-col w3-clear w3-card w3-theme-d4 ">
+      <div id="footer-menu-inner" class="w3-row footer-menu-inner w3-width-1280">
+                  <!-- Start: Social Media -->
+          <div class="w3-center w3-container w3-mobile social-media">
+                          <a href="https://www.facebook.com/unioncountyncelections" title="Go to our Facebook page" class="w3-opacity w3-hover-opacity-off w3-hover-text-blue w3-show-inline-block w3-xxlarge w3-padding" target="_self"><i class="fa fa-facebook"></i></a>
+                                                                                      <a href="https://www.instagram.com/union.boe" title="Go to our Instagram account" class="w3-opacity w3-hover-opacity-off w3-hover-text-red w3-show-inline-block w3-xxlarge w3-padding" target="_blank"><i class="fa fa-instagram"></i></a>
+                                      <a href="https://www.youtube.com/@UCNCBOE/streams" title="Go to our YouTube channel" class="w3-opacity w3-hover-opacity-off w3-hover-text-red w3-show-inline-block w3-xxlarge w3-padding"><i class="fa fa-youtube"></i></a>
+                                              </div>
+          <!-- End: Social Media -->
+                <!-- Start: Bottom Menu -->
+              </div>
+    </div>
+    <!-- End: Footer Menu -->
+        <!-- Start: Copyright -->
+    <div id="copyright" class="w3-col w3-clear w3-theme-d5 ">
+      <div id="copyright-inner" class="w3-row copyright-inner w3-width-1280">
+                  <!-- Start: Copyright -->
+          <div class="w3-half w3-container w3-mobile">
+            <p class="w3-section w3-left-align w3-opacity w3-hover-opacity-off">Copyright 2020-2026 |  All Rights Reserved</p>
+          </div>
+          <!-- End: Copyright -->
+                      </div>
+    </div>
+    <!-- End: Copyright -->
+ </div>
+<!-- End: Page Wrapper -->
+
+  </div>
+
+    <div class="b-accessibility-menu__button js-accessibility-btn am-skip" id="b-accessibility-menu"></div>
+
+<div class="b-accessibility-menu__wrapper js-accessibility-menu am-skip">
+  <div class="b-accessibility-menu am-skip">
+    <div class="b-accessibility-menu__header am-skip">
+      <div class="b-accessibility-menu__title am-skip">Accessibility menu</div>
+      <div class="b-accessibility-menu__close js-accessibility-close am-skip"></div>
+    </div>
+    <div class="b-accessibility-menu__content am-skip">
+      <div class="b-accessibility-menu__items am-skip">
+                            <div class="b-accessibility-menu__item-wrapper am-skip">
+            <div class="b-accessibility-menu__item am-skip type-contrast" data-type="contrast" data-title="Contrast settings">
+              <div class="b-accessibility-menu__title am-skip"><span class="am-skip">Contrast settings</span></div>
+              <div class="b-accessibility-menu__links am-skip">
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="High contrast"></div>
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Inversion"></div>
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="White"></div>
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Comfort"></div>
+                              </div>
+            </div>
+          </div>
+                                      <div class="b-accessibility-menu__item-wrapper am-skip">
+            <div class="b-accessibility-menu__item am-skip type-font_size" data-type="font_size" data-title="Font size">
+              <div class="b-accessibility-menu__title am-skip"><span class="am-skip">Font size</span></div>
+              <div class="b-accessibility-menu__links am-skip">
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Font size"></div>
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Font size"></div>
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Font size"></div>
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Font size"></div>
+                              </div>
+            </div>
+          </div>
+                                      <div class="b-accessibility-menu__item-wrapper am-skip">
+            <div class="b-accessibility-menu__item am-skip type-letter_spacing" data-type="letter_spacing" data-title="Letter spacing">
+              <div class="b-accessibility-menu__title am-skip"><span class="am-skip">Letter spacing</span></div>
+              <div class="b-accessibility-menu__links am-skip">
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Increased interval"></div>
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Moderate interval"></div>
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Wide interval"></div>
+                              </div>
+            </div>
+          </div>
+                                      <div class="b-accessibility-menu__item-wrapper am-skip">
+            <div class="b-accessibility-menu__item am-skip type-line_height" data-type="line_height" data-title="Line height">
+              <div class="b-accessibility-menu__title am-skip"><span class="am-skip">Line height</span></div>
+              <div class="b-accessibility-menu__links am-skip">
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Line height (1.5x)"></div>
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Line height (1.75x)"></div>
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Line height (2x)"></div>
+                              </div>
+            </div>
+          </div>
+                                      <div class="b-accessibility-menu__item-wrapper am-skip">
+            <div class="b-accessibility-menu__item am-skip type-images" data-type="images" data-title="Images">
+              <div class="b-accessibility-menu__title am-skip"><span class="am-skip">Images</span></div>
+              <div class="b-accessibility-menu__links am-skip">
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Grayscale"></div>
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Disabled"></div>
+                              </div>
+            </div>
+          </div>
+                                      <div class="b-accessibility-menu__item-wrapper am-skip">
+            <div class="b-accessibility-menu__item am-skip type-font_style" data-type="font_style" data-title="Font">
+              <div class="b-accessibility-menu__title am-skip"><span class="am-skip">Font</span></div>
+              <div class="b-accessibility-menu__links am-skip">
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Serif"></div>
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Sans serif"></div>
+                              </div>
+            </div>
+          </div>
+                                      <div class="b-accessibility-menu__item-wrapper am-skip">
+            <div class="b-accessibility-menu__item am-skip type-cursor" data-type="cursor" data-title="Big cursor">
+              <div class="b-accessibility-menu__title am-skip"><span class="am-skip">Big cursor</span></div>
+              <div class="b-accessibility-menu__links am-skip">
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Big cursor"></div>
+                              </div>
+            </div>
+          </div>
+                                      <div class="b-accessibility-menu__item-wrapper am-skip">
+            <div class="b-accessibility-menu__item am-skip type-reading_line" data-type="reading_line" data-title="Reading line">
+              <div class="b-accessibility-menu__title am-skip"><span class="am-skip">Reading line</span></div>
+              <div class="b-accessibility-menu__links am-skip">
+                                  <div class="b-accessibility-menu__link js-accessibility-link am-skip" data-title="Reading line"></div>
+                              </div>
+            </div>
+          </div>
+                        </div>
+      <div class="b-accessibility-menu__reset js-accessibility-reset am-skip">Reset the settings</div>
+    </div>
+  </div>
+</div>
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/916","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJx9j0EOwyAMBD8E4ZAHReC6gGpwVZtE_L40qqoeUG6Wd7RjewAUySFT1r4VrM2BiLlzVX-gcEH3Ny-yx6tskZSLId-56XbLArzjqzuuCExGuigWF7ygaYCEoJmrbJpwVE1WgRgeVrQTyiT-yO3XPokbHOv4xUbi4MkCl-c4pOqs6scyR0J7Ng-5pwu2eIVkE-aYdIIdqx3UGxuuikc","theme":"ucelections_theme","theme_token":null},"ajaxTrustedUrl":[],"user":{"uid":0,"permissionsHash":"03c043877f91cc31d739e6cf8115df3540d5cd23976cbba33b5d21ae5c61b7db"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.6.18"></script>
+<script src="/core/misc/drupal.js?v=10.6.18"></script>
+<script src="/core/misc/drupal.init.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=6.3.0"></script>
+<script src="/core/misc/progress.js?v=10.6.18"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.3.0"></script>
+<script src="/core/misc/debounce.js?v=10.6.18"></script>
+<script src="/core/misc/announce.js?v=10.6.18"></script>
+<script src="/core/misc/message.js?v=10.6.18"></script>
+<script src="/core/misc/ajax.js?v=10.6.18"></script>
+<script src="/themes/unionboe/js/custom.js?tn0404"></script>
+<script src="/themes/unionboe/jr/menu.js?tn0404"></script>
+<script src="/themes/unionboe/js/jquery.matchHeight.js?v=10.6.18"></script>
+<script src="/themes/unionboe/js/enable.matchHeight.js?v=10.6.18" defer></script>
+
+
+  </body>
+</html>

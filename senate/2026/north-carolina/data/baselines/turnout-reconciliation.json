@@ -1,0 +1,121 @@
+{
+  "compared_at_utc": "2026-10-18T00:23:45.184138+00:00",
+  "passed": true,
+  "counties_per_shared_election": 100,
+  "shared_elections": [
+    "2024 US PRESIDENT",
+    "2022 US SENATE"
+  ],
+  "county_rows_compared": 200,
+  "county_d_r_other_total_cells_compared": 800,
+  "county_count_differences": 0,
+  "candidate_rows_compared": 1285,
+  "candidate_total_and_method_cells_compared": 6425,
+  "candidate_cell_differences": 0,
+  "state_candidate_rows_compared": 15,
+  "state_candidate_total_and_method_cells_compared": 75,
+  "candidate_pdf_page_differences": 0,
+  "same_primary_pdf_vintages": [
+    {
+      "partisanship_file": "2022-certified-county.pdf",
+      "turnout_file": "data/turnout/certified-2022-county.pdf",
+      "sha256": "b2fdfea6cff81bb21152f087f457e6a2904ffe54011109a660c8629b20d5dcbe",
+      "same_original_bytes": true,
+      "partisanship_retrieved_at_utc": "2026-10-18T00:16:00.807747+00:00",
+      "turnout_retrieved_at_utc": "2026-10-18T00:16:32.679898+00:00",
+      "url": "https://s3.amazonaws.com/dl.ncsbe.gov/State_Board_Meeting_Docs/2022-11-29/Canvass%20-%20Unofficial%20Abstracts/State_Composite_Abstract_Report-County.pdf"
+    },
+    {
+      "partisanship_file": "2022-certified-contest.pdf",
+      "turnout_file": "data/turnout/certified-2022-contest.pdf",
+      "sha256": "a5bc88cef041895943b6bd187a9d141517de07ac3827eaa7fd88b06b1f63006c",
+      "same_original_bytes": true,
+      "partisanship_retrieved_at_utc": "2026-10-18T00:16:00.734558+00:00",
+      "turnout_retrieved_at_utc": "2026-10-18T00:16:10.424867+00:00",
+      "url": "https://s3.amazonaws.com/dl.ncsbe.gov/State_Board_Meeting_Docs/2022-11-29/Canvass%20-%20Unofficial%20Abstracts/State_Composite_Abstract_Report-Contest.pdf"
+    },
+    {
+      "partisanship_file": "2024-certified-county.pdf",
+      "turnout_file": "data/turnout/certified-2024-county.pdf",
+      "sha256": "395abc3d64d691683f297587952838055b021632cfd8c396de7e6dbe99f2ccc3",
+      "same_original_bytes": true,
+      "partisanship_retrieved_at_utc": "2026-10-18T00:16:00.457703+00:00",
+      "turnout_retrieved_at_utc": "2026-10-18T00:16:32.371253+00:00",
+      "url": "https://s3.amazonaws.com/dl.ncsbe.gov/State_Board_Meeting_Docs/2024-11-26/Canvass/Authentication%20of%20Composite%20Abstract%20112624.pdf"
+    },
+    {
+      "partisanship_file": "2024-certified-contest.pdf",
+      "turnout_file": "data/turnout/certified-2024-contest.pdf",
+      "sha256": "cf7e3340b83ab2c6c26709d26fb447b81a6f0d07fddc841d9c3187b5a00f9b0f",
+      "same_original_bytes": true,
+      "partisanship_retrieved_at_utc": "2026-10-18T00:16:00.367219+00:00",
+      "turnout_retrieved_at_utc": "2026-10-18T00:15:54.679766+00:00",
+      "url": "https://s3.amazonaws.com/dl.ncsbe.gov/State_Board_Meeting_Docs/2024-11-26/Canvass/Certification%20of%20State%20Jurisdiction%20Contests%20112624.pdf"
+    }
+  ],
+  "statewide_2024_president_contest_votes": 5699145,
+  "statewide_2024_president_d": 2715378,
+  "statewide_2024_president_r": 2898424,
+  "statewide_2024_president_other": 85343,
+  "top80_county_count_2024": 38,
+  "top80_contest_votes_2024": 4576486,
+  "top80_share_pct_2024": 80.30127326116461,
+  "top80_county_fips": [
+    "37183",
+    "37119",
+    "37081",
+    "37067",
+    "37063",
+    "37021",
+    "37051",
+    "37179",
+    "37129",
+    "37101",
+    "37025",
+    "37071",
+    "37097",
+    "37019",
+    "37057",
+    "37001",
+    "37135",
+    "37147",
+    "37035",
+    "37133",
+    "37151",
+    "37159",
+    "37089",
+    "37085",
+    "37125",
+    "37049",
+    "37109",
+    "37191",
+    "37127",
+    "37037",
+    "37045",
+    "37157",
+    "37155",
+    "37023",
+    "37031",
+    "37027",
+    "37069",
+    "37195"
+  ],
+  "dependency_snapshots": [
+    {
+      "path": "data/county-turnout.csv",
+      "sha256": "692233a08848282887fbdf3917a7fccb65677e896c5b4acc31469fe8144c7158",
+      "bytes": 44147
+    },
+    {
+      "path": "data/turnout/certified-candidate-extract.csv",
+      "sha256": "457b56bef1936be2be8b4646642a286cd3f703a04d94d9dadd971a7dc939d2b2",
+      "bytes": 139082
+    },
+    {
+      "path": "data/turnout/input-manifest.json",
+      "sha256": "1006e84d814b08b6236f2e42dc37d6b643381f4c9f7de6606bab411d28220b9b",
+      "bytes": 21950
+    }
+  ],
+  "writes": "only data/baselines/turnout-reconciliation.csv and turnout-reconciliation.json; turnout files read only"
+}

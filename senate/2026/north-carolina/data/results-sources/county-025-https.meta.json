@@ -1,0 +1,19 @@
+{
+  "source_id": "county-025-https",
+  "url": "https://www.cravenvote.com/",
+  "final_url": "https://www.cravenvote.com/",
+  "retrieval_started_utc": "2026-10-18T00:26:45.011086+00:00",
+  "retrieved_utc": "2026-10-18T00:26:48.102259+00:00",
+  "http_status": 0,
+  "curl_exit": 35,
+  "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to www.cravenvote.com:443 \n",
+  "content_type": null,
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "saved_file": "absentee-counts-county.body.gz",
+  "headers_file": "county-025-https.headers",
+  "complete": false,
+  "storage": "curl --compressed response bytes; lossless gzip; hash is decompressed body",
+  "cap_bytes": 8388608,
+  "storage_note": "Identical decoded response body shared with another fetch; this fetch retains its own headers/time."
+}

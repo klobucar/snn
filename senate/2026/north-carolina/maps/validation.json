@@ -1,0 +1,44 @@
+{
+  "validated_utc": "2026-10-18T00:37:57.013766+00:00",
+  "passed": true,
+  "evidence_snapshots": 33,
+  "source_listing_not_truncated": true,
+  "zip_crc_and_member_hashes_verified": true,
+  "statewide_inventory_count": 100,
+  "priority_count": 38,
+  "county_geojsons": 76,
+  "county_svg_previews": 76,
+  "vertices_verified": 2139802,
+  "asset_hashes_verified": 152,
+  "all_service_object_ids_reconciled": true,
+  "county_alternative_pagination": {
+    "wake": {
+      "feature_count": 216,
+      "ids_reconciled": true
+    },
+    "union": {
+      "feature_count": 54,
+      "ids_reconciled": true
+    }
+  },
+  "result_units": {
+    "2024": {
+      "Y": 2658,
+      "N": 250
+    },
+    "2022": {
+      "Y": 2655,
+      "N": 322
+    }
+  },
+  "local_links_checked": 412,
+  "largest_file_bytes": 24357323,
+  "artifact_total_bytes": 154478575,
+  "artifact_count": 240,
+  "report_sha256": "bb269bc6ef787f576b4c3b91161e60c5d6935659522b9ecc5246a3b774f5c09e",
+  "limitations": [
+    "November 2026 approval unestablished",
+    "No election-unit crosswalk or vote allocation",
+    "Geometry defects preserved; independent county-gap review unavailable"
+  ]
+}
